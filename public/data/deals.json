@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T19:27Z",
- "count": 348,
+ "updated": "2026-10-24T19:33Z",
+ "count": 349,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -15,15 +15,46 @@
    "added": 0
   },
   "ja": {
-   "done": 60,
-   "via": "mymemory",
-   "keySet": true,
-   "model": "gemini-flash-latest",
-   "error": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,"
+   "gemini": 6,
+   "mymemory": 25,
+   "geminiToday": 1,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f5d617af4cbd",
+   "title": "Kobalt Knee Pads Just $9.98 Shipped at Lowe’s (Reg. $20)!",
+   "link": "https://hip2save.com/deals/kobalt-knee-pads/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T19:30Z",
+   "firstSeen": "2026-10-24T19:33Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/lowes-kobalt-knee-pads-set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 9.98,
+   "freebie": null,
+   "ja": "Kobaltニーパッドわずか$ 9.98 Lowe's （登録価格$ 20 ）で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Kobaltニーパッドわずか$ 9.98 Lowe's （登録価格$ 20 ）で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "99f096ad0c26",
    "title": "LEGO Marvel Spider-Man vs. Sandman Only $19.95 on Amazon",
@@ -3022,13 +3053,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "GrinchクリスマスベルベットジャンプスーツがWalmart.comで入手可能になりました（ホリデーパーティーにとても楽しい！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "GrinchクリスマスベルベットジャンプスーツがWalmart.comで入手可能になりました（ホリデーパーティーにとても楽しい！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "350d152f832a",
@@ -3051,13 +3084,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "仕上げジェットドライリンスエイドのみ$ 3 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "仕上げジェットドライリンスエイドのみ$ 3 Amazonで発送",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a3acc741f208",
@@ -3080,13 +3115,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Dr. Seuss Grinchスリッパサムズクラブでたったの$ 19.98",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Dr. Seuss Grinchスリッパサムズクラブでたったの$ 19.98",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "093cd4c32cd0",
@@ -3109,13 +3146,15 @@
    "pct": 56,
    "price": 5.68,
    "freebie": null,
+   "date": null,
+   "ja": "Ziploc 2ガロン食品保管バッグ12カウントわずか$ 5.68 Amazonで発送（登録番号$ 13 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Ziploc 2ガロン食品保管バッグ12カウントわずか$ 5.68 Amazonで発送（登録番号$ 13 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b116b075ab89",
@@ -3138,13 +3177,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "CRAFTSMAN折りたたみユーティリティナイフアマゾンでわずか$ 7.98 （完璧なストッキングスタッファー！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "CRAFTSMAN折りたたみユーティリティナイフアマゾンでわずか$ 7.98 （完璧なストッキングスタッファー！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d5f13e7f6b1b",
@@ -3167,13 +3208,15 @@
    "pct": 64,
    "price": 8.99,
    "freebie": null,
+   "date": null,
+   "ja": "Cozyレディースカーディガンアマゾンでたったの$ 8.99 （ 25 $ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Cozyレディースカーディガンアマゾンでたったの$ 8.99 （ 25 $ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7060de85059c",
@@ -3196,13 +3239,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Grocery Rainbow Sprinkles 94 ¢のみ発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Grocery Rainbow Sprinkles 94 ¢のみ発送",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7218631b8b37",
@@ -3227,13 +3272,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Q - Tips 750 -カウント3パックのみ$ 11 Amazonで発送（ウォルマートでは各$ 6 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Amazon",
-    "item": "",
+    "item": "Q - Tips 750 -カウント3パックのみ$ 11 Amazonで発送（ウォルマートでは各$ 6 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "756539da6e35",
@@ -3256,13 +3303,15 @@
    "pct": 25,
    "price": 48.75,
    "freebie": null,
+   "date": null,
+   "ja": "Revolution Beauty 24ピースメイクアップアドベントカレンダーのみ$ 48.75 Amazonで発送（登録価格$ 65 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Revolution Beauty 24ピースメイクアップアドベントカレンダーのみ$ 48.75 Amazonで発送（登録価格$ 65 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "af00da3b1c70",
@@ -3285,13 +3334,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Gatoradeローワーシュガー12パックわずか$ 4.52 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Gatoradeローワーシュガー12パックわずか$ 4.52 Amazonで発送",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e8d8fed6a016",
@@ -3314,13 +3365,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "まだ手に入れることができる昨日の5つの最も売れているAmazonのお得な情報",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "まだ手に入れることができる昨日の5つの最も売れているAmazonのお得な情報",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f2508418b90e",
@@ -3343,13 +3396,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comでわずか$ 9.96のディズニーVHSボックス枕カバー（ディズニーファンへの素晴らしいギフト！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comでわずか$ 9.96のディズニーVHSボックス枕カバー（ディズニーファンへの素晴らしいギフト！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0d23a40499ad",
@@ -3404,13 +3459,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "今日購入した10個のランダムなAmazonアイテム！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "今日購入した10個のランダムなAmazonアイテム！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fc963e38fb74",
@@ -3433,13 +3490,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "わずか$ 8.49でウイルスワイヤレスジェリーブラをお試しください（読者はそれらを十分に得ることができません！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "わずか$ 8.49でウイルスワイヤレスジェリーブラをお試しください（読者はそれらを十分に得ることができません！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b6ccd99d8f65",
@@ -3462,13 +3521,15 @@
    "pct": 40,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "KFCで5ピース入札コンボが40%オフ（さらに多くのセールがやってくる！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "KFC",
-    "item": "",
+    "item": "KFCで5ピース入札コンボが40%オフ（さらに多くのセールがやってくる！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2830c60823d7",
@@ -3491,13 +3552,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "CVSスニークピーク：無料よりも優れた学位、50 ¢のコルゲート歯磨き粉など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSスニークピーク：無料よりも優れた学位、50 ¢のコルゲート歯磨き粉など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ad5abae33e32",
@@ -3520,13 +3583,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでわずか$ 10.49のミートレストバッグ（ホリデーシーズンの食事を暖かく保ちましょう！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでわずか$ 10.49のミートレストバッグ（ホリデーシーズンの食事を暖かく保ちましょう！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "43f9bf0c62a4",
@@ -3582,13 +3647,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "ロウズ・クリスマス・オーナメント＆スノードーム・リワードメンバーのための早期店内アクセス",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "ロウズ・クリスマス・オーナメント＆スノードーム・リワードメンバーのための早期店内アクセス",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "0ef8c88717bd",
@@ -3645,13 +3712,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Snowflake 18 - in -1マルチツール2パックわずか$ 5.57 Amazon （実用的なストッキングスタッファー）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Snowflake 18 - in -1マルチツール2パックわずか$ 5.57 Amazon （実用的なストッキングスタッファー）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e66dc6013496",
@@ -3674,13 +3743,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "CVSウィークリー広告プレビュー（ 10/25/26 - 10/31/26 ） |お気に入りを丸で囲みました！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSウィークリー広告プレビュー（ 10/25/26 - 10/31/26 ） |お気に入りを丸で囲みました！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7f4e9d549677",
@@ -3703,13 +3774,15 @@
    "pct": 61,
    "price": 39.0,
    "freebie": null,
+   "date": null,
+   "ja": "レッグマッサージャーのみ$ 39 Amazonで発送（登録価格$ 100 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レッグマッサージャーのみ$ 39 Amazonで発送（登録価格$ 100 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c10fbc58e213",
@@ -3732,13 +3805,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "コストコブラックフライデーのお得な情報が発表|ホリデーセールは10月30日から開始",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Costco",
-    "item": "",
+    "item": "コストコブラックフライデーのお得な情報が発表|ホリデーセールは10月30日から開始",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d69b37d92b3e",
@@ -3761,13 +3836,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "充電式ブックライトのみ$ 5.99アマゾン（素晴らしいストッキングスタッファー！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "充電式ブックライトのみ$ 5.99アマゾン（素晴らしいストッキングスタッファー！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "29bab0781aac",
@@ -3790,13 +3867,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "LesserEvilポップコーン24パックのみ$ 8.38 （バッグあたり35 ¢ ！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "LesserEvilポップコーン24パックのみ$ 8.38 （バッグあたり35 ¢ ！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "60dbd18a6c5f",
