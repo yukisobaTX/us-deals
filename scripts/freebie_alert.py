@@ -48,7 +48,7 @@ def main():
     soon = [x for x in store if x["freebie"]["when"] == today]
     head = "🎁 無料情報" + (" ⏰今日" if soon else "")
     title = f"{head}:" + "・".join([f"店頭{len(store)}"] * bool(store) + [f"クーポン{len(coupon)}"] * bool(coupon)) \
-        + " / " + new[0]["title"][:50]
+        + " / " + (new[0].get("ja") or new[0]["title"])[:40]
     lines = [f"{MENTION} 無料でもらえる新着です。", ""]
     if store:
         lines += ["## 🏬 店頭でもらえる", *[fmt_item(x, today) for x in store], ""]
