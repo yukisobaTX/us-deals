@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T18:47Z",
- "count": 346,
+ "updated": "2026-10-24T19:06Z",
+ "count": 348,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -15,14 +15,75 @@
    "added": 0
   },
   "ja": {
-   "done": 40,
+   "done": 30,
    "via": "gemini",
    "keySet": true,
-   "model": "gemini-3.8-flash"
+   "model": "gemini-flash-latest",
+   "error": "The read operation timed out"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "99f096ad0c26",
+   "title": "LEGO Marvel Spider-Man vs. Sandman Only $19.95 on Amazon",
+   "link": "https://hip2save.com/deals/lego-marvel/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T19:00Z",
+   "firstSeen": "2026-10-24T19:06Z",
+   "expires": null,
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "レゴ マーベルセットが$19.95",
+    "when": "",
+    "cond": ""
+   },
+   "ja": "レゴ マーベルセットが$19.95",
+   "jaVia": "gemini"
+  },
+  {
+   "id": "6dffa5cf3363",
+   "title": "Flashlight Gloves Only $5.99 on Amazon (Reg. $17) | Practical Gift Idea!",
+   "link": "https://hip2save.com/deals/flashlight-gloves/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T18:50Z",
+   "firstSeen": "2026-10-24T19:06Z",
+   "expires": null,
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": 5.99,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "ライト付き手袋が$5.99",
+    "when": "",
+    "cond": ""
+   },
+   "ja": "ライト付き手袋が$5.99",
+   "jaVia": "gemini"
+  },
   {
    "id": "2eb576101456",
    "title": "Nintendo Switch & Switch 2 Games from $24.88 on Amazon (Reg. Up to $60!)",
@@ -404,13 +465,13 @@
    "pct": 59,
    "price": 9.0,
    "freebie": null,
-   "ja": "キッズSTEMビルディングキットAmazonで$ 9のみ（登録価格$ 22 ）",
-   "jaVia": "mymemory",
+   "ja": "子供用STEM工作キットが$9",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "キッズSTEMビルディングキットAmazonで$ 9のみ（登録価格$ 22 ）",
+    "item": "子供用STEM工作キットが$9",
     "when": "",
-    "cond": "子ども向け"
+    "cond": ""
    }
   },
   {
@@ -434,11 +495,11 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "不気味な私のテキサスハウストピアリーで大幅な価格下落！",
-   "jaVia": "mymemory",
+   "ja": "ハロウィントピアリー各種値下げ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Walmart",
-    "item": "不気味な私のテキサスハウストピアリーで大幅な価格下落！",
+    "store": "My Texas House",
+    "item": "ハロウィントピアリー各種値下げ",
     "when": "",
     "cond": ""
    }
@@ -464,13 +525,13 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "Benadrylかゆみ緩和スティックわずか$ 1.42 Amazonで発送",
-   "jaVia": "mymemory",
+   "ja": "かゆみ止めスティックが$1.42",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "Benadrylかゆみ緩和スティックわずか$ 1.42 Amazonで発送",
+    "item": "かゆみ止めスティックが$1.42",
     "when": "",
-    "cond": ""
+    "cond": "送料無料"
    }
   },
   {
@@ -494,11 +555,11 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "ウォルマートの人気のガラスシッパーカップにはクリスマスのデザインがあります！",
-   "jaVia": "mymemory",
+   "ja": "クリスマス柄グラスシッパーカップ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "ウォルマートの人気のガラスシッパーカップにはクリスマスのデザインがあります！",
+    "item": "クリスマス柄グラスシッパーカップ",
     "when": "",
     "cond": ""
    }
@@ -524,13 +585,13 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "このキッズクラフトカートはすべてを整理整頓します+ SamsClub.comではわずか$ 36.98です！",
-   "jaVia": "mymemory",
+   "ja": "子供用クラフトカートが$36.98",
+   "jaVia": "gemini",
    "sum": {
     "store": "Sam's Club",
-    "item": "このキッズクラフトカートはすべてを整理整頓します+ SamsClub.comではわずか$ 36.98です！",
+    "item": "子供用クラフトカートが$36.98",
     "when": "",
-    "cond": "子ども向け"
+    "cond": "オンライン"
    }
   },
   {
@@ -554,13 +615,13 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "フリルチップス40パックのみ$ 9.58 Amazonで発送（バッグあたりわずか24 ¢ ！ ）",
-   "jaVia": "mymemory",
+   "ja": "ラッフルズ40袋が$9.58",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "フリルチップス40パックのみ$ 9.58 Amazonで発送（バッグあたりわずか24 ¢ ！ ）",
+    "item": "ラッフルズ40袋が$9.58",
     "when": "",
-    "cond": ""
+    "cond": "送料無料"
    }
   },
   {
@@ -584,13 +645,13 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "Walmart.comで在庫あり＆ $ 5未満のゼリーキューブ（ NeeDohのようなルックス＆フィール！ ）",
-   "jaVia": "mymemory",
+   "ja": "ジェリーキューブが$5未満",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "Walmart.comで在庫あり＆ $ 5未満のゼリーキューブ（ NeeDohのようなルックス＆フィール！ ）",
+    "item": "ジェリーキューブが$5未満",
     "when": "",
-    "cond": ""
+    "cond": "オンライン"
    }
   },
   {
@@ -614,13 +675,13 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "Walmart.comで$ 5.97からの新しいホリデースローブランケット",
-   "jaVia": "mymemory",
+   "ja": "ホリデーブランケットが$5.97〜",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "Walmart.comで$ 5.97からの新しいホリデースローブランケット",
+    "item": "ホリデーブランケットが$5.97〜",
     "when": "",
-    "cond": ""
+    "cond": "オンライン"
    }
   },
   {
@@ -646,13 +707,13 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "365 by Whole Foods Marketベーキングソーダ78 ¢のみAmazonで発送",
-   "jaVia": "mymemory",
+   "ja": "365 重曹が78¢",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Whole Foods・Amazon",
-    "item": "365 by Whole Foods Marketベーキングソーダ78 ¢のみAmazonで発送",
+    "store": "Amazon",
+    "item": "365 重曹が78¢",
     "when": "",
-    "cond": ""
+    "cond": "送料無料"
    }
   },
   {
@@ -676,11 +737,11 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "レディースフリース裏地付きタイツわずか$ 4.99 Amazon |秋冬ワードローブの定番",
-   "jaVia": "mymemory",
+   "ja": "女性用裏起毛タイツが$4.99",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "レディースフリース裏地付きタイツわずか$ 4.99 Amazon |秋冬ワードローブの定番",
+    "item": "女性用裏起毛タイツが$4.99",
     "when": "",
     "cond": ""
    }
@@ -706,13 +767,13 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "アマゾンでわずか58 ¢で出荷されるアップルバレルペイント–クラフトプロジェクトのためのたくさんの色",
-   "jaVia": "mymemory",
+   "ja": "アクリル絵の具が58¢",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "アマゾンでわずか58 ¢で出荷されるアップルバレルペイント–クラフトプロジェクトのためのたくさんの色",
+    "item": "アクリル絵の具が58¢",
     "when": "",
-    "cond": ""
+    "cond": "送料無料"
    }
   },
   {
@@ -736,11 +797,11 @@
    "pct": 50,
    "price": 24.98,
    "freebie": null,
-   "ja": "Lowe's Posable Skeletonsが50%オフ| 5フィートのスケルトンわずか$ 24.98 （登録価格$ 50 ）",
-   "jaVia": "mymemory",
+   "ja": "可動式ガイコツが半額の$24.98",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "Lowe's Posable Skeletonsが50%オフ| 5フィートのスケルトンわずか$ 24.98 （登録価格$ 50 ）",
+    "item": "可動式ガイコツが半額の$24.98",
     "when": "",
     "cond": ""
    }
@@ -1068,10 +1129,12 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "プロテイン粉末2lbが$25.59",
     "when": "",
-    "cond": ""
-   }
+    "cond": "送料無料"
+   },
+   "ja": "プロテイン粉末2lbが$25.59",
+   "jaVia": "gemini"
   },
   {
    "id": "b92d76abc62e",
@@ -1096,10 +1159,12 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "スクイーズ玩具が$5.99から",
     "when": "",
     "cond": ""
-   }
+   },
+   "ja": "スクイーズ玩具が$5.99から",
+   "jaVia": "gemini"
   },
   {
    "id": "4b1d469bbb17",
@@ -1124,10 +1189,12 @@
    "freebie": null,
    "sum": {
     "store": "CVS",
-    "item": "",
-    "when": "",
-    "cond": ""
-   }
+    "item": "コスメ各種が$2.49から",
+    "when": "〜10/24",
+    "cond": "クーポン併用"
+   },
+   "ja": "コスメ各種が$2.49から",
+   "jaVia": "gemini"
   },
   {
    "id": "ec952302950e",
@@ -1152,10 +1219,12 @@
    "freebie": null,
    "sum": {
     "store": "Kroger",
-    "item": "",
+    "item": "バンズ各種が88¢",
     "when": "",
     "cond": ""
-   }
+   },
+   "ja": "バンズ各種が88¢",
+   "jaVia": "gemini"
   },
   {
    "id": "1ba2740a197a",
@@ -1213,10 +1282,12 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ポケモンカードBOXが$59.99",
     "when": "",
-    "cond": ""
-   }
+    "cond": "送料無料"
+   },
+   "ja": "ポケモンカードBOXが$59.99",
+   "jaVia": "gemini"
   },
   {
    "id": "8f0d6f9ab7e3",
@@ -1241,10 +1312,12 @@
    "freebie": null,
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "おばけグラスが$5.74など",
     "when": "",
     "cond": ""
-   }
+   },
+   "ja": "おばけグラスが$5.74など",
+   "jaVia": "gemini"
   },
   {
    "id": "3b2e11e8f2c0",
@@ -1269,10 +1342,12 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "食料品各種が$5未満",
     "when": "",
     "cond": ""
-   }
+   },
+   "ja": "食料品各種が$5未満",
+   "jaVia": "gemini"
   },
   {
    "id": "4d5f66f8fc1e",
@@ -1363,10 +1438,12 @@
    "freebie": null,
    "sum": {
     "store": "Walgreens",
-    "item": "",
-    "when": "",
-    "cond": ""
-   }
+    "item": "ミニ写真プリント2組無料",
+    "when": "〜10/24",
+    "cond": "店舗受取"
+   },
+   "ja": "ミニ写真プリント2組無料",
+   "jaVia": "gemini"
   },
   {
    "id": "e8b3bb06a5ac",
@@ -1391,10 +1468,12 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "光るおばけ置物が$14.99",
     "when": "",
     "cond": ""
-   }
+   },
+   "ja": "光るおばけ置物が$14.99",
+   "jaVia": "gemini"
   },
   {
    "id": "a81af70c50f6",
@@ -1420,11 +1499,13 @@
    "price": null,
    "freebie": null,
    "sum": {
-    "store": "Kohl's・Amazon",
-    "item": "",
+    "store": "Amazon",
+    "item": "スクイーズ10個組が$23",
     "when": "",
     "cond": ""
-   }
+   },
+   "ja": "スクイーズ10個組が$23",
+   "jaVia": "gemini"
   },
   {
    "id": "dc9d8a06b2b1",
