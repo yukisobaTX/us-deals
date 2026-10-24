@@ -1,0 +1,168 @@
+{
+ "models": [
+  "gemini-2.5-flash",
+  "gemini-2.5-pro",
+  "gemini-2.5-flash-preview-tts",
+  "gemini-2.5-pro-preview-tts",
+  "gemma-4-26b-a4b-it",
+  "gemma-4-31b-it",
+  "gemini-flash-latest",
+  "gemini-flash-lite-latest",
+  "gemini-pro-latest",
+  "gemini-2.5-flash-lite",
+  "gemini-2.5-flash-image",
+  "gemini-3-flash-preview",
+  "gemini-3.1-pro-preview",
+  "gemini-3.1-pro-preview-customtools",
+  "gemini-3.1-flash-lite-preview",
+  "gemini-3.1-flash-lite",
+  "gemini-3-pro-image-preview",
+  "gemini-3-pro-image",
+  "nano-banana-pro-preview",
+  "gemini-3.1-flash-image-preview",
+  "gemini-3.1-flash-image",
+  "gemini-3.1-flash-lite-image",
+  "gemini-nano-banana-2.1",
+  "gemini-3.5-flash",
+  "gemini-3.5-flash-lite",
+  "gemini-omni-flash-preview",
+  "gemini-omni-1.1-flash",
+  "gemini-3.5-transcribe",
+  "gemini-3.6-flash",
+  "gemini-3.7-flash",
+  "gemini-3.8-flash",
+  "gemini-4-argon",
+  "lyria-3-clip-preview",
+  "lyria-3-pro-preview",
+  "lyria-3.5",
+  "gemini-3.1-flash-tts-preview",
+  "gemini-3.8-flash-tts",
+  "gemini-3.8-flash-lite-tts",
+  "gemini-robotics-er-2-preview",
+  "gemini-2.5-computer-use-preview-10-2025",
+  "antigravity-preview-05-2026",
+  "antigravity-preview-09-2026",
+  "antigravity-preview-latest",
+  "deep-research-max-preview-04-2026",
+  "deep-research-preview-04-2026",
+  "deep-research-pro-preview-12-2025"
+ ],
+ "tests": [
+  {
+   "model": "gemini-2.5-flash",
+   "config": {},
+   "error": "HTTP Error 404: Not Found {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs",
+   "sec": 0.2
+  },
+  {
+   "model": "gemini-2.5-flash",
+   "config": {
+    "thinkingConfig": {
+     "thinkingBudget": 0
+    }
+   },
+   "error": "HTTP Error 404: Not Found {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs",
+   "sec": 0.2
+  },
+  {
+   "model": "gemini-2.5-flash",
+   "config": {
+    "thinkingConfig": {
+     "thinkingLevel": "minimal"
+    }
+   },
+   "error": "HTTP Error 404: Not Found {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs",
+   "sec": 0.2
+  },
+  {
+   "model": "gemini-2.5-flash-preview-tts",
+   "config": {},
+   "error": "HTTP Error 400: Bad Request {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The requested combination of response modalities (TEXT) is not supported by the model. models/gemini-2.5-flash-preview-tts accepts the following combination of response modalities:\\n* AUDIO\\n\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n",
+   "sec": 0.3
+  },
+  {
+   "model": "gemini-2.5-flash-preview-tts",
+   "config": {
+    "thinkingConfig": {
+     "thinkingBudget": 0
+    }
+   },
+   "error": "HTTP Error 400: Bad Request {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Thinking is not enabled for models/gemini-2.5-flash-preview-tts\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n",
+   "sec": 0.2
+  },
+  {
+   "model": "gemini-2.5-flash-preview-tts",
+   "config": {
+    "thinkingConfig": {
+     "thinkingLevel": "minimal"
+    }
+   },
+   "error": "HTTP Error 400: Bad Request {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Thinking is not enabled for models/gemini-2.5-flash-preview-tts\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n",
+   "sec": 0.2
+  },
+  {
+   "model": "gemini-flash-latest",
+   "config": {},
+   "text": "12月12日、ペトコでサンタとのペット写真撮影が無料！",
+   "sec": 11.3
+  },
+  {
+   "model": "gemini-flash-lite-latest",
+   "config": {},
+   "text": "Here is a 10-word Japanese translation:\n\n**12月12日ペトコでサンタと無料ペット写真撮影会**\n*(Jūgatsu jūni-nichi Petoko de",
+   "sec": 6.4
+  },
+  {
+   "model": "gemini-2.5-flash-lite",
+   "config": {},
+   "error": "HTTP Error 404: Not Found {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemin",
+   "sec": 0.1
+  },
+  {
+   "model": "gemini-2.5-flash-lite",
+   "config": {
+    "thinkingConfig": {
+     "thinkingBudget": 0
+    }
+   },
+   "error": "HTTP Error 404: Not Found {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemin",
+   "sec": 0.2
+  },
+  {
+   "model": "gemini-2.5-flash-lite",
+   "config": {
+    "thinkingConfig": {
+     "thinkingLevel": "minimal"
+    }
+   },
+   "error": "HTTP Error 404: Not Found {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemin",
+   "sec": 0.1
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "config": {},
+   "error": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+   "sec": 0.1
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "config": {
+    "thinkingConfig": {
+     "thinkingBudget": 0
+    }
+   },
+   "error": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+   "sec": 0.1
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "config": {
+    "thinkingConfig": {
+     "thinkingLevel": "minimal"
+    }
+   },
+   "error": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+   "sec": 0.1
+  }
+ ]
+}
