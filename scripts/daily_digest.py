@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """毎朝のまとめを GitHub Issue で送る(冒頭の @ で通知メールが届く)。
 
-- 対象:前回のまとめ以降に見つかった記事(firstSeen)。
-- 「注目」(無料・70%以上)を先に、カテゴリごとに並べる。
+- 対象:無料でもらえるもの。新着は毎時の即時通知(freebie_alert.py)で送るので、
+  朝は「今日・明日の店頭配布」のリマインドと、即時通知されていない新着だけ。
 - 前のまとめ Issue は閉じる(受信箱に溜めない)。
 - 夏時間・冬時間の両方に対応するため、cron は2つ(12:41・13:41 UTC)で起動し、
   米国中部時間で 7 時台のときだけ送る(--force で時刻を無視)。
@@ -103,7 +103,9 @@ def main():
         print("skip: 今日は送信済み")
         return
     data = json.loads(DEALS.read_text())
-    since = state.get("lastSent") or (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1)).isoformat(timespec="minutes").replace("+00:00", "Z")
+    alert = ROOT / "public" / "data" / "alert-state.json"
+    alerted = json.loads(alert.read_text()).get("lastAlert", "") if alert.exists() else ""
+    since = max(state.get("lastSent") or "", alerted) or (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1)).isoformat(timespec="minutes").replace("+00:00", "Z")
     title, body, n = build(data["items"], since, os.environ.get("SITE_URL", ""))
     if data.get("errors"):
         body += "\n\n⚠️ 取得できなかった情報源: " + " / ".join(data["errors"])

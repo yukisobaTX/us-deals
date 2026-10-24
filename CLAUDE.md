@@ -5,8 +5,8 @@
 ## 仕組み(すべて GitHub Actions・AI なし)
 | ワークフロー | 時刻 | 役割 |
 |---|---|---|
-| Collect deals(scripts/fetch_deals.py) | 3時間ごと(:17 UTC) | RSS を取得・分類し public/data/deals.json を更新 |
-| Morning digest(scripts/daily_digest.py) | 毎朝 7:41 CT(夏冬とも) | **無料でもらえるものだけ**を Issue(ラベル deals-digest、@yukisobaTX)で通知。店頭配布(日付順・今日/明日の分は再掲)と無料クーポン。該当なしの日は送らない。前の Issue は閉じる |
+| Collect deals(scripts/fetch_deals.py → freebie_alert.py) | 毎時 :17 | RSS を取得・分類し public/data/deals.json を更新。無料でもらえる新着があれば即 Issue(ラベル freebie-alert、@yukisobaTX)で通知 |
+| Morning digest(scripts/daily_digest.py) | 毎朝 7:41 CT(夏冬とも) | 即時通知済みの新着は除き、今日・明日の店頭配布のリマインド。**無料でもらえるものだけ**を Issue(ラベル deals-digest、@yukisobaTX)で通知。店頭配布(日付順・今日/明日の分は再掲)と無料クーポン。該当なしの日は送らない。前の Issue は閉じる |
 - 公開:Cloudflare Workers(静的アセット、public/)。main への push で自動反映。noindex・robots.txt で検索に出さない。
 
 ## 情報源のルール
