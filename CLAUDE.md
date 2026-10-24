@@ -15,7 +15,7 @@
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
 - 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
-- 取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+- 情報源:Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Houston on the Cheap(地域イベント、サイトのみ・通知なし)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
 
 ## 変えるとき
 - 店を足す:config/stores.json に追記 → `python3 tests/test_classify.py` で failures: 0。

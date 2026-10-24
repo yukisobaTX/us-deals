@@ -55,6 +55,8 @@ FREEBIES = [
     ("FREE Great Clips Haircuts for Veterans & Active Service Members on November 11th", None, None),
     ("Subway BOGO FREE Footlongs Coming October 27th", None, None),
     ("NEW Walmart Promo Codes: $10 Off + Free Express Delivery", None, None),
+    ("Best Halloween Restaurant Deals & Freebies", "coupon", None),
+    ("Veterans Day 2026 Offers: FREE Meals, Haircuts & More", None, None),
 ]
 bad = 0
 for title, kind, when in FREEBIES:

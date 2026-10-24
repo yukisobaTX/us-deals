@@ -244,9 +244,16 @@ def event_date(title, posted):
         return None
 
 
+ROUNDUP_RE = re.compile(r"\bfreebies\b", re.I)   # 「Restaurant Deals & Freebies」などのまとめ記事
+
+
 def freebie_info(title, posted):
     """無料でもらえるものなら {"kind": "store"|"coupon", "when": 日付} を返す。"""
-    if not GIFT_FREE_RE.search(title) or NOT_GIFT_RE.search(title) or ENDED_RE.search(title):
+    if NOT_GIFT_RE.search(title) or ENDED_RE.search(title):
+        return None
+    if not GIFT_FREE_RE.search(title):
+        if ROUNDUP_RE.search(title):
+            return {"kind": "coupon", "when": event_date(title, posted), "roundup": True}
         return None
     kind = "store" if STORE_RE.search(title) else "coupon"
     return {"kind": kind, "when": event_date(title, posted)}
@@ -340,6 +347,8 @@ def main():
                 "firstSeen": now.isoformat(timespec="minutes").replace("+00:00", "Z"),
                 "expires": guess_expiry(title, posted),
                 "thumb": it.get("thumb"),
+                **({"noAlert": True} if f.get("alert") is False else {}),
+                **({"region": f["region"]} if f.get("region") else {}),
                 "hot": ("free" in c["types"]) or (c["pct"] or 0) >= 70,
                 **c,
             }

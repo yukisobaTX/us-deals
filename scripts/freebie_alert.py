@@ -36,10 +36,10 @@ def main():
         print("初回:基準点だけ記録(通知しない)")
         return
     today = dt.datetime.now(CT).date().isoformat()
-    new = [x for x in data["items"] if x.get("freebie") and x["firstSeen"] > state["lastAlert"]
+    new = [x for x in data["items"] if x.get("freebie") and not x.get("noAlert") and x["firstSeen"] > state["lastAlert"]
            and (x["freebie"]["when"] or "9999") >= today]
     # 大型セール(ブラックフライデー・プライムデー等)の日程発表・開始・チラシ公開
-    events = by_date([x for x in data["items"] if x.get("eventNews") and not x.get("freebie")
+    events = by_date([x for x in data["items"] if x.get("eventNews") and not x.get("freebie") and not x.get("noAlert")
                       and x["firstSeen"] > state.get("lastEvent", "2000")])[:8]
     if not new and not events:
         print("無料の新着なし")
