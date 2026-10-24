@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T22:10Z",
+ "updated": "2026-10-24T22:19Z",
  "count": 359,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -15,9 +15,9 @@
    "added": 0
   },
   "ja": {
-   "gemini": 8,
-   "mymemory": 25,
-   "geminiToday": 5,
+   "gemini": 7,
+   "mymemory": 22,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
@@ -7112,11 +7112,11 @@
    "date": null,
    "event": "black-friday",
    "eventNews": true,
-   "ja": "サムズクラブブラックフライデー広告プレビューがリリースされました（おもちゃ、エレクトロニクスなどのホットセール！ ）",
-   "jaVia": "mymemory",
+   "ja": "おもちゃや家電など",
+   "jaVia": "gemini",
    "sum": {
     "store": "Sam's Club",
-    "item": "サムズクラブブラックフライデー広告プレビューがリリースされました（おもちゃ、エレクトロニクスなどのホットセール！ ）",
+    "item": "おもちゃや家電など",
     "when": "",
     "cond": ""
    }
@@ -7406,15 +7406,17 @@
    "pct": 61,
    "price": 98.0,
    "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "木製ブランコセット$ 98からWalmart.comで発送（登録価格$ 250 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "木製ブランコセット$ 98からWalmart.comで発送（登録価格$ 250 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "575de9835972",
@@ -7437,15 +7439,17 @@
    "pct": 50,
    "price": 19.99,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "電動塗料スプレーヤーわずか$ 19.99 Amazonで発送（登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "電動塗料スプレーヤーわずか$ 19.99 Amazonで発送（登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "047cc876d53f",
@@ -7466,15 +7470,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "",
-    "item": "",
-    "when": "",
-    "cond": "アプリ"
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "無料のUpsideアプリで、ガソリン、食料品、外食を$ 10でゲット！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "無料のUpsideアプリで、ガソリン、食料品、外食を$ 10でゲット！",
+    "when": "",
+    "cond": "アプリ"
+   }
   },
   {
    "id": "3aa9b5b4ad45",
@@ -7497,15 +7503,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "Lysolランドリーサニタイザーわずか$ 8.43 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Lysolランドリーサニタイザーわずか$ 8.43 Amazonで発送",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "87dd219f1ba5",
@@ -7528,15 +7536,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Sam's Club",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "サムズクラブのハロウィーンの装飾–新しい価格がわずか$ 5.91から下がります",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "サムズクラブのハロウィーンの装飾–新しい価格がわずか$ 5.91から下がります",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "bb6eb80d7706",
@@ -7559,15 +7569,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "アヒルブランドのダクトテープのみ$ 3.50アマゾン（通常$ 6 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アヒルブランドのダクトテープのみ$ 3.50アマゾン（通常$ 6 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e4dafd6efa82",
@@ -7591,15 +7603,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Walmart・Sam's Club",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "うわー！ Sam's Club Plusには、無料のウォルマートとメンバーシップが含まれています（返金が必要かどうかを確認してください！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Sam's Club",
+    "item": "うわー！ Sam's Club Plusには、無料のウォルマートとメンバーシップが含まれています（返金が必要かどうかを確認してください！ ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e21b1059f5a1",
@@ -7622,15 +7636,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "Prego Pasta Sauceファミリーサイズの瓶のみ$ 3 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Prego Pasta Sauceファミリーサイズの瓶のみ$ 3 Amazonで発送",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8f2a6668e750",
@@ -7653,15 +7669,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Kroger",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "Kroger/Harris Teeter ：サードパーティギフトカードの燃料ポイント4倍（ 10/21 ～ 11/3 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kroger",
+    "item": "Kroger/Harris Teeter ：サードパーティギフトカードの燃料ポイント4倍（ 10/21 ～ 11/3 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "399798c8b550",
@@ -7684,15 +7702,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Lowe's",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "待ってください… Lowe'sがあなたの家にやってきて、年間$ 100未満でこれらの雑用をしますか？",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "待ってください… Lowe'sがあなたの家にやってきて、年間$ 100未満でこれらの雑用をしますか？",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d3bcbd0bd8a9",
@@ -7715,15 +7735,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "ツリーハットフォールシュガースクラブのみ$ 4.99 （通常$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ツリーハットフォールシュガースクラブのみ$ 4.99 （通常$ 10 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "75a01b61a0b6",
@@ -7746,15 +7768,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "Amazonでわずか$ 7.99のワイヤレスラベルメーカー（史上最低価格！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでわずか$ 7.99のワイヤレスラベルメーカー（史上最低価格！ ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f8857ef865e8",
@@ -7777,15 +7801,17 @@
    "pct": 70,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "最後のチャンス！ソーコニー、アディダス、ブルックスシューズが最大70%オフ+無料プライム配送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "最後のチャンス！ソーコニー、アディダス、ブルックスシューズが最大70%オフ+無料プライム配送！",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "94f06423fae0",
@@ -7808,15 +7834,17 @@
    "pct": 60,
    "price": 7.99,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "レディースストライプトップスAmazonでわずか$ 7.99 （登録価格$ 20 ）|たくさんの色！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディースストライプトップスAmazonでわずか$ 7.99 （登録価格$ 20 ）|たくさんの色！",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "55b9049bae79",
@@ -7839,15 +7867,17 @@
    "pct": 50,
    "price": 3.99,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "Dove Holiday Treatsボディウォッシュわずか$ 3.99 Amazonで発送（登録価格$ 8 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Dove Holiday Treatsボディウォッシュわずか$ 3.99 Amazonで発送（登録価格$ 8 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "dee7e87d690f",
@@ -7870,15 +7900,17 @@
    "pct": 44,
    "price": 9.0,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "Sour Jacksサワーグミウェッジバラエティパック75個-わずか$ 9 Amazonで発送（登録価格$ 16 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Sour Jacksサワーグミウェッジバラエティパック75個-わずか$ 9 Amazonで発送（登録価格$ 16 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "648b45e66a1e",
@@ -7901,15 +7933,17 @@
    "pct": 52,
    "price": 10.65,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "フィッシングルアーアドベントカレンダーAmazonでたったの$ 10.65 （登録価格$ 22 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "フィッシングルアーアドベントカレンダーAmazonでたったの$ 10.65 （登録価格$ 22 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c8c35ef0ef79",
@@ -7932,15 +7966,17 @@
    "pct": 69,
    "price": 2.83,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "デジタル温度計Amazonでわずか$ 2.83 （登録番号： $ 9 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "デジタル温度計Amazonでわずか$ 2.83 （登録番号： $ 9 ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "25c933825f8f",
@@ -7998,15 +8034,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "ウォルマートでのDreft Laundry Stain Removerまたは食器用石鹸無料（フェッチリワード後）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートでのDreft Laundry Stain Removerまたは食器用石鹸無料（フェッチリワード後）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "079ad0088f1b",
@@ -8029,15 +8067,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "GO ！わずか55 ¢で出荷されたAmazon Spicesでパントリーにスパイスを添えましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "GO ！わずか55 ¢で出荷されたAmazon Spicesでパントリーにスパイスを添えましょう！",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e318e01c7474",
@@ -8060,15 +8100,17 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Kohl's",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "Kohl'sで10 $から世界最小のおもちゃ（完璧なストッキングスタッファー！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohl'sで10 $から世界最小のおもちゃ（完璧なストッキングスタッファー！ ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "347026f5b38a",
@@ -8091,15 +8133,17 @@
    "pct": 55,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "ja": "Amazonで最大55 ％オフのレゴ（クラシッククリエイティブフードフレンドセットは$ 6 ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonで最大55 ％オフのレゴ（クラシッククリエイティブフードフレンドセットは$ 6 ！ ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0e70dbdddc17",
