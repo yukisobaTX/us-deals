@@ -4,6 +4,7 @@
 (() => {
   const CATS = [
     { id: 'free', label: '🎁 無料でもらえる' },
+    { id: 'event', label: '🛍 大型セール' },
     { id: 'all', label: 'すべて' },
     { id: 'grocery', label: 'スーパー' },
     { id: 'home', label: '雑貨・ホームセンター' },
@@ -16,6 +17,10 @@
     { id: 'gc', label: 'ギフトカード' }, { id: 'p50', label: '50%以上' }, { id: 'today', label: '期限が近い' }
   ];
   const DAY = 86400000;
+  const EVLAB = { 'black-friday': 'ブラックフライデー', 'cyber-monday': 'サイバーマンデー', 'prime-day': 'プライムデー',
+    'amazon-spring': 'Amazon 春セール', 'target-circle': 'Target Circle Week', 'walmart-event': 'Walmart セール',
+    'holiday-sale': '祝日セール', 'tax-free': '免税週末' };
+  let calendar = [];
   const state = { cat: 'free', types: new Set(), store: '', sort: 'date', q: '' };
   let items = [];
   let links = { groups: [] };
@@ -35,7 +40,8 @@
 
   function match(x) {
     if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
-    if (!['all', 'free'].includes(state.cat) && !x.cats.includes(state.cat)) return false;
+    if (state.cat === 'event' && !x.event) return false;
+    if (!['all', 'free', 'event'].includes(state.cat) && !x.cats.includes(state.cat)) return false;
     for (const t of state.types) {
       if (t === 'p50' && !((x.pct || 0) >= 50)) return false;
       if (t === 'today' && !(x.expires && daysLeft(x.expires) <= 2)) return false;
@@ -76,6 +82,7 @@
   function card(x) {
     const sub = el('div', { className: 'sub' });
     if (Date.now() - Date.parse(x.firstSeen) < DAY) sub.append(el('span', { className: 'new', textContent: 'NEW' }));
+    if (x.event) sub.append(el('span', { className: 'tag ev', textContent: '🛍 ' + (EVLAB[x.event] || '大型セール') }));
     if (x.freebie) {
       const w = x.freebie.when ? (daysLeft(x.freebie.when) === 0 ? '今日' : md(x.freebie.when)) : '';
       sub.append(el('span', { className: 'tag free', textContent: (x.freebie.kind === 'store' ? '🏬 店頭' : '🎟 クーポン') + (w ? ' ' + w : '') }));
@@ -112,7 +119,7 @@
   function renderTabs() {
     const tabs = $('tabs');
     tabs.replaceChildren(...CATS.map((c) => {
-      const n = c.id === 'all' ? items.length : c.id === 'free' ? items.filter((x) => x.freebie).length
+      const n = c.id === 'all' ? items.length : c.id === 'free' ? items.filter((x) => x.freebie).length : c.id === 'event' ? items.filter((x) => x.event).length
         : items.filter((x) => x.cats.includes(c.id)).length;
       if (c.id === 'other' && !n) return null;
       const b = el('button', { type: 'button' }, [c.label, el('span', { className: 'n', textContent: n })]);
@@ -132,7 +139,7 @@
   }
 
   function renderStores() {
-    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : x.cats.includes(state.cat)));
+    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : x.cats.includes(state.cat)));
     const cnt = new Map();
     for (const x of pool) for (const s of x.stores) cnt.set(s, (cnt.get(s) || 0) + 1);
     const sel = $('store');
@@ -142,7 +149,7 @@
   }
 
   function renderLinks() {
-    const groups = links.groups.filter((g) => ['all', 'free'].includes(state.cat) || g.cat === state.cat);
+    const groups = links.groups.filter((g) => ['all', 'free', 'event'].includes(state.cat) || g.cat === state.cat);
     const label = Object.fromEntries(CATS.map((c) => [c.id, c.label]));
     $('linkbody').replaceChildren(...groups.flatMap((g) => [
       el('h3', { textContent: label[g.cat] || g.cat }),
@@ -150,7 +157,23 @@
     ]));
   }
 
+  function renderCalendar() {
+    const box = document.getElementById('cal');
+    if (state.cat !== 'event' || !calendar.length) { box.hidden = true; return; }
+    box.hidden = false;
+    const upcoming = calendar.filter((e) => !e.date || daysLeft(e.date) >= 0);
+    box.replaceChildren(el('h2', { textContent: '大型セールの予定' }), el('ul', {}, upcoming.map((e) => {
+      const left = e.date ? daysLeft(e.date) : null;
+      const head = e.date ? `${md(e.date)}(${left === 0 ? '今日' : 'あと' + left + '日'})` : '例年';
+      const li = el('li', {}, [el('b', { textContent: head + ' ' }), el('span', { textContent: e.name }),
+        el('div', { className: 'note', textContent: e.note || '' })]);
+      if (e.url && /^https:\/\//.test(e.url)) li.append(el('a', { href: e.url, target: '_blank', rel: 'noopener noreferrer', textContent: '公式' }));
+      return li;
+    })));
+  }
+
   function render() {
+    renderCalendar();
     renderTabs(); renderTypes(); renderStores(); renderLinks();
     const list = sorted(items.filter(match));
     $('count').textContent = `${list.length} 件`;
@@ -164,8 +187,9 @@
     const v = '?v=' + Date.now();
     const [d, l] = await Promise.all([
       fetch('data/deals.json' + v).then((r) => r.json()),
-      fetch('data/links.json' + v).then((r) => r.json()).catch(() => ({ groups: [] }))
-    ]);
+      fetch('data/links.json' + v).then((r) => r.json()).catch(() => ({ groups: [] })),
+      fetch('data/events.json' + v).then((r) => r.json()).catch(() => ({ events: [] }))
+    ]).then((r) => { calendar = (r[2].events || []); return r; });
     items = d.items || [];
     links = l;
     const up = new Date(Date.parse(d.updated)).toLocaleString('ja-JP', { timeZone: 'America/Chicago', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });

@@ -123,7 +123,22 @@ def build_matchers(stores_cfg):
         for s in cat["stores"]:
             stores.append((cat["id"], s["name"], kw_regex(s["keywords"])))
     types = [(t["id"], kw_regex(t["keywords"])) for t in stores_cfg["types"] if t["id"] != "free"]
+    EVENTS[:] = [(e["id"], kw_regex(e["keywords"])) for e in stores_cfg.get("events", [])]
     return stores, types
+
+
+EVENTS = []
+# 大型セールの「日程発表・開始・チラシ公開」記事(即時通知の対象)
+EVENT_NEWS_RE = re.compile(
+    r"announc|dates?\b|starts?|kicks? off|is (?:now )?live|now live|early access|ad scan|ad leak|leaked|"
+    r"\bad\b.*(?:released|is here|out)|preview|sneak peek|begins?|coming|countdown|when is", re.I)
+
+
+def event_of(title):
+    for eid, rx in EVENTS:
+        if rx.search(title):
+            return eid
+    return None
 
 
 FREE_RE = re.compile(r"(?<![A-Za-z])FREE(?![A-Za-z])(?!\s+(shipping|same[- ]day|pickup|delivery|returns?|trial|w/|with\b|people\b))", re.I)
@@ -174,13 +189,15 @@ def classify(title, cats, stores, types, skip_regions):
         hit_stores.remove("レストラン全般")
     if ENDED_RE.search(title):
         return None
-    if not hit_stores and "free" not in tset:
-        return None   # 対象の店でも無料でもないものは載せない
+    ev = event_of(title)
+    if not hit_stores and "free" not in tset and not ev:
+        return None   # 対象の店でも無料でも大型セールでもないものは載せない
     if not hit_cats:
         hit_cats = ["other"]
     if not tset:
         tset.append("sale")
-    return {"stores": hit_stores, "cats": hit_cats, "types": tset, "pct": pct, "price": price}
+    return {"stores": hit_stores, "cats": hit_cats, "types": tset, "pct": pct, "price": price,
+            "event": ev, "eventNews": bool(ev and EVENT_NEWS_RE.search(title))}
 
 
 # ---------------- 無料でもらえるもの(ギフト・店頭配布) ----------------
@@ -329,8 +346,10 @@ def main():
             added += 1
         stats[f["id"]] = {"read": len(raw_items), "added": added}
 
-    # 無料判定は毎回すべての記事にかけ直す(ルール変更を過去分にも反映)
+    # 無料判定・大型セール判定は毎回すべての記事にかけ直す(ルール変更を過去分にも反映)
     for x in by_id.values():
+        x["event"] = event_of(x["title"])
+        x["eventNews"] = bool(x["event"] and EVENT_NEWS_RE.search(x["title"]))
         x["freebie"] = freebie_info(x["title"], parse_date_iso(x["posted"]))
         if x["freebie"] and x["freebie"]["when"] and not x.get("expires") and x["freebie"]["kind"] == "store":
             x["expires"] = x["freebie"]["when"]
@@ -348,7 +367,7 @@ def main():
         if usage.get("date") != today:
             usage = {"date": today, "count": 0}
         rows = lambda xs: [(x["id"], parse_date_iso(x["posted"]).astimezone(CT).strftime("%Y-%m-%d"), x["title"]) for x in xs]
-        free_todo = [x for x in by_id.values() if x.get("freebie") and x.get("jaVia") != "gemini"]
+        free_todo = [x for x in by_id.values() if (x.get("freebie") or x.get("eventNews")) and x.get("jaVia") != "gemini"]
         free_todo.sort(key=lambda x: x["posted"], reverse=True)
         done = {}
         if gem and free_todo and usage["count"] < 15:

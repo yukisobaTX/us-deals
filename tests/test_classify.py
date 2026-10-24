@@ -30,6 +30,10 @@ CASES = [
     ("Lowe's 50% Off Mums", [], lambda r: r["stores"] == ["Lowe's"] and r["pct"] == 50),
     ("Up to 75% Off Free People + Free Shipping", [], lambda r: r is None),
     ("Urban Air FREE Pass Offer Has Ended", [], lambda r: r is None),
+    ("Black Friday 2026 Ad Scan Is Here!", [], lambda r: r["event"] == "black-friday" and r["eventNews"]),
+    ("Amazon Prime Day 2027 Dates Announced", [], lambda r: r["event"] == "prime-day" and r["eventNews"]),
+    ("Best Early Black Friday TV Deals", [], lambda r: r["event"] == "black-friday" and not r["eventNews"]),
+    ("Texas Tax-Free Weekend Starts Friday", [], lambda r: r["event"] == "tax-free" and r["eventNews"]),
     ("Weee! $20 Off First Order", [], lambda r: r["stores"] == ["Weee!"]),
 ]
 

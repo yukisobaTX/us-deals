@@ -1,0 +1,44 @@
+{
+  "_note": "大型セールのカレンダー(手で編集)。日付が決まっているものは date、例年の目安は note。記事は自動で「🛍 大型セール」タブに集まる。",
+  "events": [
+    {
+      "date": "2026-11-26",
+      "name": "Thanksgiving",
+      "note": "前後から各店のブラックフライデーが本格化"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "ブラックフライデー",
+      "note": "Target・Walmart・Costco・Best Buy など。多くは11月上旬から先行セール"
+    },
+    {
+      "date": "2026-11-28",
+      "name": "Small Business Saturday",
+      "note": "地元の個人店のセール"
+    },
+    {
+      "date": "2026-11-30",
+      "name": "サイバーマンデー",
+      "note": "ネット通販中心(Amazon など)"
+    },
+    {
+      "date": "2026-12-26",
+      "name": "After Christmas Sale",
+      "note": "クリスマス用品が大幅値下げ"
+    },
+    {
+      "date": "2027-08-06",
+      "name": "テキサス免税週末(8/6〜8/8)",
+      "note": "$100未満の衣類・靴・学用品・リュックが免税",
+      "url": "https://comptroller.texas.gov/taxes/publications/98-490/"
+    },
+    {
+      "name": "Amazon プライムデー",
+      "note": "例年7月と10月(10月は Prime Big Deal Days)。日程が発表されたら通知"
+    },
+    {
+      "name": "テキサス免税週末",
+      "note": "ほかに例年 4月(防災用品)・5月末のメモリアルデー週末(省エネ家電・節水用品)"
+    }
+  ]
+}

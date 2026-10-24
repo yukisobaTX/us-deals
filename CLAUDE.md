@@ -23,6 +23,7 @@
 - 「注目」= 無料、または 70%以上の値引き。
 - 「無料でもらえる」(freebie)= fetch_deals.py の freebie_info()。送料無料・BOGO・キャッシュバック後無料・懸賞・お試し・退役軍人向けなどは除外。店頭(イベント・日時・数量限定)とクーポンに分け、日付を見出しから読む。毎回すべての記事にかけ直す。画面の初期タブ。
 - 日本語化:無料情報は Gemini(gemini-flash-latest、無料枠は1日20回 → 1実行1回・1日15回まで、public/data/gemini-usage.json で数える)で4項目要約。セール記事と Gemini 不可時は MyMemory(1回25件まで)。
+- 大型セール:config/stores.json の events(ブラックフライデー・プライムデー・免税週末など)。日程発表・開始・チラシ公開の記事(EVENT_NEWS_RE)は即時通知(最大8件、状態は alert-state.json の lastEvent)、ほかはサイトの「🛍 大型セール」タブと朝のまとめ(セールごと最大5件)。予定は public/data/events.json(手で編集)。
 - 並び順の既定は「日付順」(items[].date = 配布日 → 要約の日時 → 期限、日付なしは後ろ)。通知メールも1本のリストで日付順(🏬店頭・🎟クーポン)。
 - 画面の JS は public/js/app.js。外部の見出しは textContent で入れる(innerHTML は使わない)。
 - 試験:`python3 scripts/fetch_deals.py --from-dir tests/fixtures --out /tmp/x.json`(ネット不要)、`python3 scripts/daily_digest.py --force --dry-run`。

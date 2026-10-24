@@ -38,19 +38,29 @@ def main():
     today = dt.datetime.now(CT).date().isoformat()
     new = [x for x in data["items"] if x.get("freebie") and x["firstSeen"] > state["lastAlert"]
            and (x["freebie"]["when"] or "9999") >= today]
-    if not new:
+    # 大型セール(ブラックフライデー・プライムデー等)の日程発表・開始・チラシ公開
+    events = by_date([x for x in data["items"] if x.get("eventNews") and not x.get("freebie")
+                      and x["firstSeen"] > state.get("lastEvent", "2000")])[:8]
+    if not new and not events:
         print("無料の新着なし")
-        STATE.write_text(json.dumps({**state, "lastAlert": data["updated"]}, indent=1) + "\n")
+        STATE.write_text(json.dumps({**state, "lastAlert": data["updated"], "lastEvent": data["updated"]}, indent=1) + "\n")
         return
     new = by_date(new)
     store = [x for x in new if x["freebie"]["kind"] == "store"]
     coupon = [x for x in new if x["freebie"]["kind"] == "coupon"]
     soon = [x for x in store if x["freebie"]["when"] == today]
-    head = "🎁 無料情報" + (" ⏰今日" if soon else "")
-    title = f"{head}:" + "・".join([f"店頭{len(store)}"] * bool(store) + [f"クーポン{len(coupon)}"] * bool(coupon)) \
-        + " / " + (new[0].get("ja") or new[0]["title"])[:40]
-    lines = [f"{MENTION} 無料でもらえる新着です(日付順、🏬店頭・🎟クーポン)。", "",
-             *[fmt_item(x, today) for x in new], ""]
+    parts = []
+    if events:
+        parts.append(f"🛍 大型セール{len(events)}")
+    if new:
+        parts.append("🎁 無料" + "・".join([f"店頭{len(store)}"] * bool(store) + [f"クーポン{len(coupon)}"] * bool(coupon)))
+    first = (events or new)[0]
+    title = ("⏰今日 " if soon else "") + " / ".join(parts) + " / " + (first.get("ja") or first["title"])[:40]
+    lines = [f"{MENTION} 新着のお知らせです。", ""]
+    if events:
+        lines += ["## 🛍 大型セール(日程発表・開始など)", *[fmt_item(x, today) for x in events], ""]
+    if new:
+        lines += ["## 🎁 無料でもらえる(日付順、🏬店頭・🎟クーポン)", *[fmt_item(x, today) for x in new], ""]
     site = os.environ.get("SITE_URL", "")
     if site:
         lines += [f"一覧: {site}", ""]
@@ -66,8 +76,9 @@ def main():
         pass
     # 前の Issue は閉じない(閉じると「Closed as completed」の通知メールが別に届くため)
     created = api("POST", "/issues", {"title": title, "body": body, "labels": [LABEL]})
-    print(f"Issue #{created['number']} を作成({len(new)} 件)")
-    STATE.write_text(json.dumps({"lastAlert": data["updated"], "lastIssue": created["number"]}, indent=1) + "\n")
+    print(f"Issue #{created['number']} を作成(無料 {len(new)} 件・大型セール {len(events)} 件)")
+    STATE.write_text(json.dumps({"lastAlert": data["updated"], "lastEvent": data["updated"],
+                                 "lastIssue": created["number"]}, indent=1) + "\n")
 
 
 if __name__ == "__main__":

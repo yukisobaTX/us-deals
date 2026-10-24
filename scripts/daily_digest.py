@@ -68,7 +68,8 @@ def by_date(xs):
 def fmt_item(x, today):
     store, item, when, cond = sum_parts(x, today)
     when = f"**{when}**" if when.startswith("今日") else when
-    icon = "🏬" if (x.get("freebie") or {}).get("kind") == "store" else "🎟"
+    kind = (x.get("freebie") or {}).get("kind")
+    icon = "🏬" if kind == "store" else "🎟" if kind else "🛍"
     return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}<br><sub>{x['title']}</sub>"
 
 
@@ -88,10 +89,20 @@ def build(items, since, site):
               and (x["freebie"]["when"] or "9999") >= t_iso]
     coupon.sort(key=lambda x: x["freebie"]["when"] or "9999")
     allx = by_date(store + coupon)
-    n = len(allx)
+    # 大型セール:前回のまとめ以降の記事を、セールごとに新しい順で最大5件
+    ev_labels = {e["id"]: e["label"] for e in json.loads(STORES.read_text()).get("events", [])}
+    ev_lines = []
+    for eid, lab in ev_labels.items():
+        g = sorted([x for x in items if x.get("event") == eid and x["firstSeen"] > since and not x.get("freebie")],
+                   key=lambda x: x["posted"], reverse=True)
+        if g:
+            ev_lines += [f"**{lab}**({len(g)}件)", *[fmt_item(x, t_iso) for x in g[:5]], ""]
+    n = len(allx) + len(ev_lines)
     title = f"無料でもらえる {today.month}/{today.day}:店頭{len(store)}・クーポン{len(coupon)}"
     lines = [f"{MENTION} おはようございます。無料でもらえるもの(日付順、🏬店頭・🎟クーポン)です。", ""]
     lines += [fmt_item(x, t_iso) for x in allx] + [""]
+    if ev_lines:
+        lines += ["## 🛍 大型セール", *ev_lines]
     if site:
         lines += [f"セール情報も含めた一覧: {site}", ""]
     lines += ["---", "見出しとリンクは各ブログの RSS から自動で集めています。店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]

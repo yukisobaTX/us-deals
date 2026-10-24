@@ -1,81 +1,546 @@
 {
   "_note": "カテゴリと店。keywords は見出しと RSS のカテゴリに対して大文字小文字を区別せず単語単位で照合する。店を足すときはここに追記するだけ。",
   "categories": [
-    { "id": "grocery", "label": "スーパー", "stores": [
-      { "name": "H-E-B", "keywords": ["H-E-B", "HEB", "H‑E‑B", "Central Market", "Joe V's"] },
-      { "name": "Walmart", "keywords": ["Walmart", "Walmart+"] },
-      { "name": "Costco", "keywords": ["Costco"] },
-      { "name": "Sam's Club", "keywords": ["Sam's Club", "Sams Club"] },
-      { "name": "Kroger", "keywords": ["Kroger"] },
-      { "name": "Aldi", "keywords": ["Aldi"] },
-      { "name": "Whole Foods", "keywords": ["Whole Foods"] },
-      { "name": "Trader Joe's", "keywords": ["Trader Joe's", "Trader Joes"] }
-    ]},
-    { "id": "home", "label": "雑貨・ホームセンター", "stores": [
-      { "name": "Target", "keywords": ["Target", "Target Circle"] },
-      { "name": "Home Depot", "keywords": ["Home Depot"] },
-      { "name": "Lowe's", "keywords": ["Lowe's", "Lowes"] },
-      { "name": "Kohl's", "keywords": ["Kohl's", "Kohls"] },
-      { "name": "CVS", "keywords": ["CVS"] },
-      { "name": "Walgreens", "keywords": ["Walgreens"] },
-      { "name": "Dollar Tree", "keywords": ["Dollar Tree"] },
-      { "name": "Dollar General", "keywords": ["Dollar General"] },
-      { "name": "Michaels", "keywords": ["Michaels"] },
-      { "name": "Hobby Lobby", "keywords": ["Hobby Lobby"] },
-      { "name": "IKEA", "keywords": ["IKEA"] },
-      { "name": "Academy", "keywords": ["Academy Sports"] },
-      { "name": "Best Buy", "keywords": ["Best Buy"] },
-      { "name": "Ulta", "keywords": ["Ulta"] }
-    ]},
-    { "id": "food", "label": "レストラン・カフェ", "stores": [
-      { "name": "Starbucks", "keywords": ["Starbucks"] },
-      { "name": "Dutch Bros", "keywords": ["Dutch Bros"] },
-      { "name": "Dunkin'", "keywords": ["Dunkin", "Dunkin'"] },
-      { "name": "Krispy Kreme", "keywords": ["Krispy Kreme"] },
-      { "name": "Shipley", "keywords": ["Shipley"] },
-      { "name": "McDonald's", "keywords": ["McDonald's", "McDonalds"] },
-      { "name": "Chick-fil-A", "keywords": ["Chick-fil-A", "Chick-Fil-A"] },
-      { "name": "Whataburger", "keywords": ["Whataburger"] },
-      { "name": "Raising Cane's", "keywords": ["Raising Cane's", "Raising Canes"] },
-      { "name": "Buc-ee's", "keywords": ["Buc-ee's", "Bucees"] },
-      { "name": "Taco Bell", "keywords": ["Taco Bell"] },
-      { "name": "Chipotle", "keywords": ["Chipotle"] },
-      { "name": "Panera", "keywords": ["Panera"] },
-      { "name": "Wendy's", "keywords": ["Wendy's", "Wendys"] },
-      { "name": "Burger King", "keywords": ["Burger King"] },
-      { "name": "Sonic", "keywords": ["Sonic Drive-In", "Sonic"] },
-      { "name": "Jack in the Box", "keywords": ["Jack in the Box"] },
-      { "name": "Popeyes", "keywords": ["Popeyes"] },
-      { "name": "Panda Express", "keywords": ["Panda Express"] },
-      { "name": "Subway", "keywords": ["Subway"] },
-      { "name": "Domino's", "keywords": ["Domino's", "Dominos"] },
-      { "name": "Pizza Hut", "keywords": ["Pizza Hut"] },
-      { "name": "Papa John's", "keywords": ["Papa John's", "Papa Johns"] },
-      { "name": "Dairy Queen", "keywords": ["Dairy Queen"] },
-      { "name": "Texas Roadhouse", "keywords": ["Texas Roadhouse"] },
-      { "name": "Olive Garden", "keywords": ["Olive Garden"] },
-      { "name": "Chili's", "keywords": ["Chili's", "Chilis"] },
-      { "name": "IHOP", "keywords": ["IHOP"] },
-      { "name": "Denny's", "keywords": ["Denny's"] },
-      { "name": "Applebee's", "keywords": ["Applebee's"] },
-      { "name": "レストラン全般", "keywords": ["Restaurant Deals", "restaurant", "Birthday Freebies"] }
-    ]},
-    { "id": "online", "label": "ネット通販", "stores": [
-      { "name": "Amazon", "keywords": ["Amazon", "Prime"] },
-      { "name": "Weee!", "keywords": ["Weee", "Weee!"] },
-      { "name": "eBay", "keywords": ["eBay"] },
-      { "name": "Instacart", "keywords": ["Instacart"] },
-      { "name": "Uber Eats", "keywords": ["Uber Eats", "UberEats"] },
-      { "name": "DoorDash", "keywords": ["DoorDash"] },
-      { "name": "Temu", "keywords": ["Temu"] }
-    ]}
+    {
+      "id": "grocery",
+      "label": "スーパー",
+      "stores": [
+        {
+          "name": "H-E-B",
+          "keywords": [
+            "H-E-B",
+            "HEB",
+            "H‑E‑B",
+            "Central Market",
+            "Joe V's"
+          ]
+        },
+        {
+          "name": "Walmart",
+          "keywords": [
+            "Walmart",
+            "Walmart+"
+          ]
+        },
+        {
+          "name": "Costco",
+          "keywords": [
+            "Costco"
+          ]
+        },
+        {
+          "name": "Sam's Club",
+          "keywords": [
+            "Sam's Club",
+            "Sams Club"
+          ]
+        },
+        {
+          "name": "Kroger",
+          "keywords": [
+            "Kroger"
+          ]
+        },
+        {
+          "name": "Aldi",
+          "keywords": [
+            "Aldi"
+          ]
+        },
+        {
+          "name": "Whole Foods",
+          "keywords": [
+            "Whole Foods"
+          ]
+        },
+        {
+          "name": "Trader Joe's",
+          "keywords": [
+            "Trader Joe's",
+            "Trader Joes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "label": "雑貨・ホームセンター",
+      "stores": [
+        {
+          "name": "Target",
+          "keywords": [
+            "Target",
+            "Target Circle"
+          ]
+        },
+        {
+          "name": "Home Depot",
+          "keywords": [
+            "Home Depot"
+          ]
+        },
+        {
+          "name": "Lowe's",
+          "keywords": [
+            "Lowe's",
+            "Lowes"
+          ]
+        },
+        {
+          "name": "Kohl's",
+          "keywords": [
+            "Kohl's",
+            "Kohls"
+          ]
+        },
+        {
+          "name": "CVS",
+          "keywords": [
+            "CVS"
+          ]
+        },
+        {
+          "name": "Walgreens",
+          "keywords": [
+            "Walgreens"
+          ]
+        },
+        {
+          "name": "Dollar Tree",
+          "keywords": [
+            "Dollar Tree"
+          ]
+        },
+        {
+          "name": "Dollar General",
+          "keywords": [
+            "Dollar General"
+          ]
+        },
+        {
+          "name": "Michaels",
+          "keywords": [
+            "Michaels"
+          ]
+        },
+        {
+          "name": "Hobby Lobby",
+          "keywords": [
+            "Hobby Lobby"
+          ]
+        },
+        {
+          "name": "IKEA",
+          "keywords": [
+            "IKEA"
+          ]
+        },
+        {
+          "name": "Academy",
+          "keywords": [
+            "Academy Sports"
+          ]
+        },
+        {
+          "name": "Best Buy",
+          "keywords": [
+            "Best Buy"
+          ]
+        },
+        {
+          "name": "Ulta",
+          "keywords": [
+            "Ulta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "レストラン・カフェ",
+      "stores": [
+        {
+          "name": "Starbucks",
+          "keywords": [
+            "Starbucks"
+          ]
+        },
+        {
+          "name": "Dutch Bros",
+          "keywords": [
+            "Dutch Bros"
+          ]
+        },
+        {
+          "name": "Dunkin'",
+          "keywords": [
+            "Dunkin",
+            "Dunkin'"
+          ]
+        },
+        {
+          "name": "Krispy Kreme",
+          "keywords": [
+            "Krispy Kreme"
+          ]
+        },
+        {
+          "name": "Shipley",
+          "keywords": [
+            "Shipley"
+          ]
+        },
+        {
+          "name": "McDonald's",
+          "keywords": [
+            "McDonald's",
+            "McDonalds"
+          ]
+        },
+        {
+          "name": "Chick-fil-A",
+          "keywords": [
+            "Chick-fil-A",
+            "Chick-Fil-A"
+          ]
+        },
+        {
+          "name": "Whataburger",
+          "keywords": [
+            "Whataburger"
+          ]
+        },
+        {
+          "name": "Raising Cane's",
+          "keywords": [
+            "Raising Cane's",
+            "Raising Canes"
+          ]
+        },
+        {
+          "name": "Buc-ee's",
+          "keywords": [
+            "Buc-ee's",
+            "Bucees"
+          ]
+        },
+        {
+          "name": "Taco Bell",
+          "keywords": [
+            "Taco Bell"
+          ]
+        },
+        {
+          "name": "Chipotle",
+          "keywords": [
+            "Chipotle"
+          ]
+        },
+        {
+          "name": "Panera",
+          "keywords": [
+            "Panera"
+          ]
+        },
+        {
+          "name": "Wendy's",
+          "keywords": [
+            "Wendy's",
+            "Wendys"
+          ]
+        },
+        {
+          "name": "Burger King",
+          "keywords": [
+            "Burger King"
+          ]
+        },
+        {
+          "name": "Sonic",
+          "keywords": [
+            "Sonic Drive-In",
+            "Sonic"
+          ]
+        },
+        {
+          "name": "Jack in the Box",
+          "keywords": [
+            "Jack in the Box"
+          ]
+        },
+        {
+          "name": "Popeyes",
+          "keywords": [
+            "Popeyes"
+          ]
+        },
+        {
+          "name": "Panda Express",
+          "keywords": [
+            "Panda Express"
+          ]
+        },
+        {
+          "name": "Subway",
+          "keywords": [
+            "Subway"
+          ]
+        },
+        {
+          "name": "Domino's",
+          "keywords": [
+            "Domino's",
+            "Dominos"
+          ]
+        },
+        {
+          "name": "Pizza Hut",
+          "keywords": [
+            "Pizza Hut"
+          ]
+        },
+        {
+          "name": "Papa John's",
+          "keywords": [
+            "Papa John's",
+            "Papa Johns"
+          ]
+        },
+        {
+          "name": "Dairy Queen",
+          "keywords": [
+            "Dairy Queen"
+          ]
+        },
+        {
+          "name": "Texas Roadhouse",
+          "keywords": [
+            "Texas Roadhouse"
+          ]
+        },
+        {
+          "name": "Olive Garden",
+          "keywords": [
+            "Olive Garden"
+          ]
+        },
+        {
+          "name": "Chili's",
+          "keywords": [
+            "Chili's",
+            "Chilis"
+          ]
+        },
+        {
+          "name": "IHOP",
+          "keywords": [
+            "IHOP"
+          ]
+        },
+        {
+          "name": "Denny's",
+          "keywords": [
+            "Denny's"
+          ]
+        },
+        {
+          "name": "Applebee's",
+          "keywords": [
+            "Applebee's"
+          ]
+        },
+        {
+          "name": "レストラン全般",
+          "keywords": [
+            "Restaurant Deals",
+            "restaurant",
+            "Birthday Freebies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "label": "ネット通販",
+      "stores": [
+        {
+          "name": "Amazon",
+          "keywords": [
+            "Amazon",
+            "Prime"
+          ]
+        },
+        {
+          "name": "Weee!",
+          "keywords": [
+            "Weee",
+            "Weee!"
+          ]
+        },
+        {
+          "name": "eBay",
+          "keywords": [
+            "eBay"
+          ]
+        },
+        {
+          "name": "Instacart",
+          "keywords": [
+            "Instacart"
+          ]
+        },
+        {
+          "name": "Uber Eats",
+          "keywords": [
+            "Uber Eats",
+            "UberEats"
+          ]
+        },
+        {
+          "name": "DoorDash",
+          "keywords": [
+            "DoorDash"
+          ]
+        },
+        {
+          "name": "Temu",
+          "keywords": [
+            "Temu"
+          ]
+        }
+      ]
+    }
   ],
   "types": [
-    { "id": "free", "label": "無料", "keywords": ["FREE", "Freebie", "Freebies", "Legit Freebies & Samples", "free sample"] },
-    { "id": "bogo", "label": "BOGO", "keywords": ["BOGO", "Buy One Get One", "Buy 1 Get 1", "B1G1"] },
-    { "id": "coupon", "label": "クーポン", "keywords": ["coupon", "promo code", "code", "digital coupon"] },
-    { "id": "gc", "label": "ギフトカード", "keywords": ["gift card", "giftcard", "GC"] }
+    {
+      "id": "free",
+      "label": "無料",
+      "keywords": [
+        "FREE",
+        "Freebie",
+        "Freebies",
+        "Legit Freebies & Samples",
+        "free sample"
+      ]
+    },
+    {
+      "id": "bogo",
+      "label": "BOGO",
+      "keywords": [
+        "BOGO",
+        "Buy One Get One",
+        "Buy 1 Get 1",
+        "B1G1"
+      ]
+    },
+    {
+      "id": "coupon",
+      "label": "クーポン",
+      "keywords": [
+        "coupon",
+        "promo code",
+        "code",
+        "digital coupon"
+      ]
+    },
+    {
+      "id": "gc",
+      "label": "ギフトカード",
+      "keywords": [
+        "gift card",
+        "giftcard",
+        "GC"
+      ]
+    }
   ],
-  "skipRegionsNotIn": ["TX", "Texas", "Nationwide", "YMMV"],
-  "_skip": "Doctor of Credit の [MA, NH] のような地域限定は、上のどれかを含まなければ除外する"
+  "skipRegionsNotIn": [
+    "TX",
+    "Texas",
+    "Nationwide",
+    "YMMV"
+  ],
+  "_skip": "Doctor of Credit の [MA, NH] のような地域限定は、上のどれかを含まなければ除外する",
+  "events": [
+    {
+      "id": "black-friday",
+      "label": "ブラックフライデー",
+      "keywords": [
+        "Black Friday",
+        "BFCM",
+        "Black Friday Ad",
+        "Black Friday Deals"
+      ]
+    },
+    {
+      "id": "cyber-monday",
+      "label": "サイバーマンデー",
+      "keywords": [
+        "Cyber Monday",
+        "Cyber Week"
+      ]
+    },
+    {
+      "id": "prime-day",
+      "label": "Amazon プライムデー",
+      "keywords": [
+        "Prime Day",
+        "Prime Big Deal Days",
+        "Big Deal Days",
+        "Prime Early Access"
+      ]
+    },
+    {
+      "id": "amazon-spring",
+      "label": "Amazon 春の大型セール",
+      "keywords": [
+        "Big Spring Sale"
+      ]
+    },
+    {
+      "id": "target-circle",
+      "label": "Target Circle Week",
+      "keywords": [
+        "Target Circle Week",
+        "Circle Week",
+        "Target Holiday Deals"
+      ]
+    },
+    {
+      "id": "walmart-event",
+      "label": "Walmart 大型セール",
+      "keywords": [
+        "Walmart Deals Event",
+        "Walmart Deals Week",
+        "Walmart+ Week",
+        "Walmart Black Friday"
+      ]
+    },
+    {
+      "id": "holiday-sale",
+      "label": "祝日セール",
+      "keywords": [
+        "Labor Day Sale",
+        "Labor Day Sales",
+        "Memorial Day Sale",
+        "Memorial Day Sales",
+        "4th of July Sale",
+        "Fourth of July Sale",
+        "Presidents Day Sale",
+        "Presidents' Day Sale",
+        "After Christmas Sale",
+        "Boxing Day"
+      ]
+    },
+    {
+      "id": "tax-free",
+      "label": "テキサス免税週末",
+      "keywords": [
+        "Tax-Free Weekend",
+        "Tax Free Weekend",
+        "Sales Tax Holiday",
+        "Tax-Free Holiday"
+      ]
+    }
+  ],
+  "_events": "大型セール。見出しにキーワードがあれば items[].event に入る。日程発表・開始の記事(EVENT_NEWS_RE)は即時通知、ほかはサイトと朝のまとめ。"
 }
