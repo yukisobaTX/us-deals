@@ -1,0 +1,62 @@
+:root {
+  --bg: #f6f3ee; --surface: #fffdf9; --line: #e4ddd2; --text: #24211d; --muted: #6b645a;
+  --accent: #b5521b; --accent-weak: #f6e3d6; --hot: #c0392b; --ok: #2e7d4f; --chip: #eee8de;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171513; --surface: #211e1b; --line: #36312b; --text: #ede7de; --muted: #a59d92;
+    --accent: #f0915a; --accent-weak: #3a2a20; --hot: #ff7b6b; --ok: #6fcf97; --chip: #2c2824;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #171513; --surface: #211e1b; --line: #36312b; --text: #ede7de; --muted: #a59d92;
+  --accent: #f0915a; --accent-weak: #3a2a20; --hot: #ff7b6b; --ok: #6fcf97; --chip: #2c2824;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.6 system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif; }
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+.top { border-bottom: 1px solid var(--line); background: var(--surface); }
+.top h1 { margin: 0; padding-top: 18px; font-size: 22px; letter-spacing: .02em; }
+.top h1::before { content: "●"; color: var(--accent); margin-right: 8px; font-size: 14px; vertical-align: 3px; }
+.meta { margin: 2px 0 14px; color: var(--muted); font-size: 13px; }
+
+.tabs { display: flex; gap: 6px; overflow-x: auto; padding: 14px 0 8px; scrollbar-width: none; }
+.tabs button { flex: none; border: 1px solid var(--line); background: var(--surface); color: var(--text);
+  padding: 7px 14px; border-radius: 999px; font: inherit; font-size: 14px; cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tabs .n { opacity: .7; margin-left: 4px; font-size: 12px; }
+
+.controls { display: grid; gap: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips button { border: 0; background: var(--chip); color: var(--text); padding: 5px 11px;
+  border-radius: 6px; font: inherit; font-size: 13px; cursor: pointer; }
+.chips button[aria-pressed="true"] { background: var(--accent-weak); color: var(--accent); font-weight: 600; outline: 1px solid var(--accent); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+.row select, .row input { font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+.row input { flex: 1; min-width: 140px; }
+
+.count { color: var(--muted); font-size: 13px; margin: 14px 0 6px; }
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 11px 14px; }
+.card.hot { border-left: 4px solid var(--hot); }
+.card a { color: var(--text); text-decoration: none; font-weight: 600; }
+.card a:hover { color: var(--accent); text-decoration: underline; }
+.card .sub { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin-top: 5px; font-size: 12.5px; color: var(--muted); }
+.store { font-weight: 700; color: var(--text); }
+.tag { padding: 1px 7px; border-radius: 4px; background: var(--chip); color: var(--text); font-size: 12px; }
+.tag.free { background: var(--hot); color: #fff; }
+.tag.pct { background: var(--accent-weak); color: var(--accent); font-weight: 700; }
+.tag.exp { background: transparent; outline: 1px solid var(--line); }
+.tag.exp.soon { outline-color: var(--hot); color: var(--hot); font-weight: 600; }
+.new { color: var(--ok); font-weight: 700; }
+.empty { color: var(--muted); padding: 24px 0; text-align: center; }
+
+.links { margin: 26px 0 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; }
+.links summary { cursor: pointer; font-weight: 700; }
+.links h3 { font-size: 13px; color: var(--muted); margin: 12px 0 4px; }
+.links ul { margin: 0; padding-left: 18px; }
+.links a { color: var(--accent); }
+.foot { color: var(--muted); font-size: 12px; padding-bottom: 32px; }
+@media (max-width: 480px) { body { font-size: 14px; } .row select { flex: 1; } }

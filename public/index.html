@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>お得ノート</title>
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>お得ノート</h1>
+    <p class="meta" id="meta">読み込み中…</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="tabs" id="tabs" aria-label="カテゴリ"></nav>
+
+  <section class="controls">
+    <div class="chips" id="types" aria-label="種類"></div>
+    <div class="row">
+      <select id="store" aria-label="店"><option value="">すべての店</option></select>
+      <select id="sort" aria-label="並び順">
+        <option value="new">新しい順</option>
+        <option value="pct">割引率の高い順</option>
+        <option value="exp">期限の近い順</option>
+      </select>
+      <input id="q" type="search" placeholder="キーワード" aria-label="キーワード">
+    </div>
+  </section>
+
+  <p class="count" id="count"></p>
+  <ul class="list" id="list"></ul>
+
+  <details class="links" id="links" open>
+    <summary>公式のチラシ・クーポン</summary>
+    <div id="linkbody"></div>
+  </details>
+</main>
+
+<footer class="wrap foot">
+  見出しとリンクは各ブログの RSS から自動で集めています(Hip2Save、Doctor of Credit)。条件は必ずリンク先・お店の公式で確認してください。
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>

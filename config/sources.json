@@ -1,0 +1,10 @@
+{
+  "_note": "RSS の取得先。robots.txt で禁止されていないものだけを使う。本文は保存しない(見出しとリンクのみ)。",
+  "feeds": [
+    { "id": "h2s", "name": "Hip2Save", "url": "https://hip2save.com/feed/", "pages": 4 },
+    { "id": "h2s-free", "name": "Hip2Save(無料)", "url": "https://hip2save.com/category/freebies/feed/", "pages": 1 },
+    { "id": "h2s-rest", "name": "Hip2Save(レストラン)", "url": "https://hip2save.com/category/deals/restaurant-deals/feed/", "pages": 1 },
+    { "id": "doc", "name": "Doctor of Credit", "url": "https://www.doctorofcredit.com/feed/", "pages": 2,
+      "excludeCategories": ["Bank Accounts", "Credit Cards", "Brokerage", "Business Bank Accounts", "Credit Unions"] }
+  ]
+}

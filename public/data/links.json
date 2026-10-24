@@ -1,0 +1,27 @@
+{
+  "_note": "RSS で拾えない公式のチラシ・クーポン・アプリ特典のリンク集。手で編集する。",
+  "groups": [
+    { "cat": "grocery", "links": [
+      { "name": "H-E-B 週替わりチラシ", "url": "https://www.heb.com/weekly-ad" },
+      { "name": "H-E-B デジタルクーポン", "url": "https://www.heb.com/digital-coupon/coupon-selection/all-coupons" },
+      { "name": "Walmart Deals", "url": "https://www.walmart.com/shop/deals" },
+      { "name": "Costco 今月のクーポン", "url": "https://www.costco.com/online-offers.html" }
+    ]},
+    { "cat": "home", "links": [
+      { "name": "Target 週替わりチラシ", "url": "https://www.target.com/weekly-ad" },
+      { "name": "Target Circle", "url": "https://www.target.com/circle" },
+      { "name": "Home Depot Savings Center", "url": "https://www.homedepot.com/c/Savings_Center" },
+      { "name": "Lowe's", "url": "https://www.lowes.com/" }
+    ]},
+    { "cat": "food", "links": [
+      { "name": "McDonald's Deals(アプリ)", "url": "https://www.mcdonalds.com/us/en-us/deals.html" },
+      { "name": "Starbucks Rewards", "url": "https://www.starbucks.com/rewards" },
+      { "name": "Chick-fil-A One", "url": "https://www.chick-fil-a.com/one" },
+      { "name": "Whataburger", "url": "https://whataburger.com/" }
+    ]},
+    { "cat": "online", "links": [
+      { "name": "Amazon Today's Deals", "url": "https://www.amazon.com/deals" },
+      { "name": "Weee!", "url": "https://www.sayweee.com/" }
+    ]}
+  ]
+}
