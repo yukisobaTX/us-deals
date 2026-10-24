@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T22:42Z",
- "count": 359,
+ "updated": "2026-10-24T22:48Z",
+ "count": 444,
  "stats": {
   "h2s": {
    "read": 100,
@@ -14,15 +14,100 @@
    "read": 15,
    "added": 0
   },
+  "ffp": {
+   "read": 10,
+   "added": 8
+  },
+  "msm": {
+   "read": 75,
+   "added": 46
+  },
+  "tfg": {
+   "read": 40,
+   "added": 28
+  },
+  "hotc": {
+   "read": 20,
+   "added": 3
+  },
   "ja": {
-   "gemini": 6,
-   "mymemory": 0,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest"
+   "gemini": 0,
+   "mymemory": 25,
+   "geminiToday": 9,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0d560b8cf7c6",
+   "title": "Oversized Chaise Lounge Chair Only $227 at Walmart (Reg. $399)!",
+   "link": "https://thefreebieguy.com/oversized-chaise-lounge-chair/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T22:45Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/walmart-oversized-chaise-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 227.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "オーバーサイズの長椅子ラウンジチェアウォルマートでは227 $のみ（登録価格399 $ ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "オーバーサイズの長椅子ラウンジチェアウォルマートでは227 $のみ（登録価格399 $ ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ed578cc653f9",
+   "title": "Hoover Spotless Portable Carpet & Upholstery Spot Cleaner Machine Only $69 on Amazon (Reg $100)",
+   "link": "https://thefreebieguy.com/hoover-spot-cleaner-machine/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T22:32Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Hoover-Spotless-Mini-Cleaner-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 31,
+   "price": 69.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Hooverシミのないポータブルカーペット＆布張りスポットクリーナーマシンAmazonで$ 69のみ（登録価格$ 100 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Hooverシミのないポータブルカーペット＆布張りスポットクリーナーマシンAmazonで$ 69のみ（登録価格$ 100 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "5ea6f92517aa",
    "title": "Grab Your Family Christmas Pajamas from $9.98 at Sam’s Club (Including Pets!)",
@@ -52,6 +137,40 @@
    "sum": {
     "store": "Sam's Club",
     "item": "サムズクラブで$ 9.98から家族のクリスマスパジャマを手に入れよう（ペットを含む！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d0c6f4883dfe",
+   "title": "Galanz 4.6. Cu ft Two Door Mini Refrigerator with Freezer Only $168 at Walmart (Reg. $270)",
+   "link": "https://thefreebieguy.com/galanz-4-6-cu-ft-two-door-mini-refrigerator-with-freezer-deal-at-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T22:08Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/02/Galanz-Mini-Fridge-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 38,
+   "price": 168.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Galanz 4.6.立方フィート2ドアミニ冷蔵庫、冷凍庫付きウォルマートでたったの$ 168 （登録価格$ 270 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Galanz 4.6.立方フィート2ドアミニ冷蔵庫、冷凍庫付きウォルマートでたったの$ 168 （登録価格$ 270 ）",
     "when": "",
     "cond": ""
    },
@@ -126,6 +245,74 @@
    "eventNews": false
   },
   {
+   "id": "c2c1a5b672ab",
+   "title": "Space Heater w/ Safety Just $17.xx on Amazon (Reg $40)",
+   "link": "https://thefreebieguy.com/kopbeau-space-heater/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T21:28Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/KopBeau-Space-Heater-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 57,
+   "price": 17.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スペースヒーター（安全機能付き） Amazonでわずか$ 17.xx （登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "スペースヒーター（安全機能付き） Amazonでわずか$ 17.xx （登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "667f9cbe4fa7",
+   "title": "Dewalt 20V Max Cordless Combo Kit Just $129 on Amazon (Reg $239)",
+   "link": "https://thefreebieguy.com/dewalt-cordless-drill-combo-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T21:25Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/dewalt-combo-tool-set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 46,
+   "price": 129.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Dewalt 20 V MaxコードレスコンボキットAmazonでわずか$ 129 （登録価格$ 239 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Dewalt 20 V MaxコードレスコンボキットAmazonでわずか$ 129 （登録価格$ 239 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "a4daabafc846",
    "title": "Cottonelle Toilet Paper Mega Rolls 32-Count Just $22.61 Shipped on Amazon",
    "link": "https://hip2save.com/deals/cottonelle-toilet-paper/",
@@ -160,6 +347,143 @@
    "eventNews": false
   },
   {
+   "id": "f9814759b0ab",
+   "title": "Walmart Fall Beauty Boxes Are In Stock For Only $8.98 Shipped!",
+   "link": "https://thefreebieguy.com/walmart-beauty-boxes/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T21:16Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/walmart-fall-beauty-box-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートの秋のビューティーボックスは、わずか$ 8.98で発送されます！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートの秋のビューティーボックスは、わずか$ 8.98で発送されます！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "01d223838720",
+   "title": "Maxwell House Breakfast Blend 11oz Just $2.xx on Amazon",
+   "link": "https://thefreebieguy.com/maxwell-house-breakfast-blend/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T21:10Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Maxwell-House-Breakfast-Blend-11oz--840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "マックスウェルハウスブレックファーストブレンド11オンスAmazonでたったの$ 2.xx",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "マックスウェルハウスブレックファーストブレンド11オンスAmazonでたったの$ 2.xx",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5c8eefa57692",
+   "title": "10 Ways to Listen to the Emma M. Lion Audiobooks for Free (or Almost Free!)",
+   "link": "https://moneysavingmom.com/listen-to-the-emma-m-lion-audiobooks-for-free-or-almost-free/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T21:05Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/10-Ways-to-Listen-to-the-Emma-M.-Lion-Audiobooks-for-Free-or-Almost-Free.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "Emma M. Lionのオーディオブックを無料（またはほぼ無料！ ）で聴く10の方法",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Emma M. Lionのオーディオブックを無料（またはほぼ無料！ ）で聴く10の方法",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3f1569628f1e",
+   "title": "Craftsman 16-Gallon 6 HP Corded Wet Shop Vacuum Only $59.98 on Lowe’s (Reg $119)",
+   "link": "https://thefreebieguy.com/craftsman-hp-corded-wet-shop-vacuum/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T21:01Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/CRAFTSMAN-16-Gallon-6-HP-Corded-Wet-Shop-Vacuum-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 59.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Craftsman 16 - Gallon 6 HPコード付きウェットショップ掃除機Lowe'sのみ$ 59.98 （登録価格$ 119 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Craftsman 16 - Gallon 6 HPコード付きウェットショップ掃除機Lowe'sのみ$ 59.98 （登録価格$ 119 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "66a706e93a73",
    "title": "Miss Vickie’s Kettle Chips 28-Count Just $11.88 Shipped on Amazon (Reg. $24)",
    "link": "https://hip2save.com/deals/miss-vickies-potato-chips/",
@@ -192,6 +516,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "cecdf289a46c",
+   "title": "4-Pack Garanimals Baby & Toddler Shorts Just $4.xx at Walmart (Reg $15)!",
+   "link": "https://thefreebieguy.com/garanimals-kids/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T20:57Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Garanimals-Baby-Toddler-Boy-Shorts-840x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 73,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "fb9b907b0332",
@@ -262,6 +618,70 @@
    "eventNews": false
   },
   {
+   "id": "802b36dde49f",
+   "title": "PRICE DROP! Carote 5-Quart Cast Iron Dutch Oven Set Only $32.98 at Walmart (Reg. $70)",
+   "link": "https://thefreebieguy.com/carote-cast-iron-dutch-oven-pot/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T20:16Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Carote-Dutch-Oven-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 32.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "338e7aa46ba8",
+   "title": "Character Pajama 2-Piece Sets Just $5 at Walmart (Reg $14)",
+   "link": "https://thefreebieguy.com/character-pajama-2-piece-sets-deal-at-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T20:06Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Character-Pajama-Sets-walmart-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 64,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "5752b38f6f75",
    "title": "2026 Funko Pop! Advent Calendars Are Here | Count Down with Your Favorite Characters!",
    "link": "https://hip2save.com/deals/funko-pop-advent-calendars/",
@@ -294,6 +714,102 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "3061511df706",
+   "title": "105FT 300LED Color Changing Christmas Lights Just $14.xx on Amazon (Reg $27)",
+   "link": "https://thefreebieguy.com/mzd8391-christmas-lights/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T19:56Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/mzd8391-christmas-lights-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 48,
+   "price": 14.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b7307f8d99c0",
+   "title": "Restocked! Beautiful 2-Pack 2qt Slow Cooker Just $25 at Walmart",
+   "link": "https://thefreebieguy.com/beautiful-slow-cooker/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T19:55Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/beautiful-slow-cooker-2-pack-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c51970592c02",
+   "title": "Amazon Is Hiring 300,000+ Workers for the Holidays!",
+   "link": "https://thefreebieguy.com/amazon-hiring/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T19:49Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Amazon-Warehouse-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "059c30065587",
@@ -329,6 +845,38 @@
    "date": "2026-10-27",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "a7104165436e",
+   "title": "Popular Nintendo Switch Games Sale on Amazon!",
+   "link": "https://thefreebieguy.com/nintendo-switch-game-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T19:35Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Nintendo-Switch-Games-on-shelf-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "f5d617af4cbd",
@@ -399,6 +947,70 @@
    "eventNews": false
   },
   {
+   "id": "ff87d4559116",
+   "title": "TODAY ONLY! BOGO 50% Off Favorite Day Halloween Snacks at Target!",
+   "link": "https://thefreebieguy.com/halloween-snacks-at-target/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T18:53Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": "2026-10-24",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/favorite-day-halloween-snacks-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "bogo"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "10/24(土)まで",
+    "cond": ""
+   },
+   "date": "2026-10-24"
+  },
+  {
+   "id": "6b633406589f",
+   "title": "Up to 80% Off David’s Bridal Dresses | Prices From $9.xx",
+   "link": "https://thefreebieguy.com/davids-bridal-dresses-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T18:51Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Davids-Bridal-Dresses-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 80,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "6dffa5cf3363",
    "title": "Flashlight Gloves Only $5.99 on Amazon (Reg. $17) | Practical Gift Idea!",
    "link": "https://hip2save.com/deals/flashlight-gloves/",
@@ -467,6 +1079,38 @@
    "eventNews": false
   },
   {
+   "id": "3d4305358eaf",
+   "title": "Disney Junior Minnie Mouse Marvelous Market Only $57.xx on Amazon (Reg $100)",
+   "link": "https://thefreebieguy.com/minnie-mouse-marvelous-market/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T18:16Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Disney-Junior-Minnie-Mouse-Marvelous-Market-3-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 57.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "a2dfb4dd47e0",
    "title": "Dot’s Pretzels 18-Count Variety Pack Only $7.47 Shipped on Amazon",
    "link": "https://hip2save.com/deals/dots-pretzels/",
@@ -533,6 +1177,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "4e54e772e671",
+   "title": "NCAA Hoodies From $11.xx at Walmart (Reg. $35)",
+   "link": "https://thefreebieguy.com/ncaa-hoodie-and-sweatshirts/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T17:45Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/NCAA-Hoodies-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 69,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "6d6106be6ef3",
@@ -773,6 +1449,38 @@
    "eventNews": false
   },
   {
+   "id": "1ec9a7a320a9",
+   "title": "24 Charmin Ultra Strong Family Mega XL Rolls Only $26.xx on Amazon (Reg $54)!",
+   "link": "https://thefreebieguy.com/charmin-family-mega-roll-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T16:37Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/03/CHARMIN-TOILET-PAPER-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": 26.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "556180d1e92c",
    "title": "GO! NCAA Men’s Hoodies from $11 on Walmart.com (Reg. $35)",
    "link": "https://hip2save.com/deals/ncaa-hoodies/",
@@ -839,6 +1547,70 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "21a652f4fe85",
+   "title": "Last Chance! 30% Off Halloween Costumes & Accessories at Target | Kids Costumes from $10!",
+   "link": "https://thefreebieguy.com/target-halloween-costumes-accessories/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T16:17Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/TARGET-HALLOWEEN-COSTUMES-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 30,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "c54e4f339d2b",
+   "title": "Kobalt 18-Piece Magnetic Screwdriver Set Only $19.xx at Lowe’s (Reg $33)",
+   "link": "https://thefreebieguy.com/kobalt-magnetic-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T16:11Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Kobalt-18-Piece-Assorted-Magnetic-Set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 42,
+   "price": 19.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "d0445bdc4c4e",
@@ -943,6 +1715,38 @@
    "eventNews": false
   },
   {
+   "id": "482eb945c032",
+   "title": "Buffalo Games Puzzle Tin Only $3.99 at Target – Great Stocking Stuffers!",
+   "link": "https://thefreebieguy.com/buffalo-games-puzzles/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T15:54Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/target-puzzles-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "87c2b111a2bc",
    "title": "Walmart’s Popular Glass Sipper Cups Have Christmas Designs!",
    "link": "https://hip2save.com/deals/glass-can-sippers/",
@@ -975,6 +1779,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "831c4f8fcec1",
+   "title": "12 Fruit Gushers Boxes for $11.xx at Walmart",
+   "link": "https://thefreebieguy.com/fruit-gushers-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T15:51Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Fruit-Gushers-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "0374aba62ca7",
@@ -1389,6 +2225,70 @@
    "eventNews": false
   },
   {
+   "id": "d08309081ec3",
+   "title": "Frito-Lays & Ruffles 40-Count Variety Packs from $11.xx on Amazon",
+   "link": "https://thefreebieguy.com/frito-variety-packs-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T15:07Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Lays-Kettle-Ruffles-40-Count-Pack-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3cc2823b089e",
+   "title": "PurComfy Baby Essentials Kit with Diapers & Wipes Only  $35.xx on Amazon (Reg. $100)",
+   "link": "https://thefreebieguy.com/purcomfy-baby-essentials-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T15:05Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/PurComfy-Baby-Essentials-Kit-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": 35.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "42ef24d952bb",
    "title": "HUGE Walmart Halloween Decor Price Drops | Giant Skeleton Just $59 Shipped",
    "link": "https://hip2save.com/deals/walmart-halloween-decorations/",
@@ -1421,6 +2321,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "7d88769f650d",
+   "title": "U by Kotex Click Compact Tampons 8Pk (128 Total) Only $17.xx on Amazon (Reg $42)!",
+   "link": "https://thefreebieguy.com/u-by-kotex-click-compact-tampons-8pk/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T14:58Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Kotex-Click-Tampons-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 17.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "cca83bea3063",
@@ -1593,6 +2525,38 @@
    "eventNews": false
   },
   {
+   "id": "5ad1b5790e50",
+   "title": "Goody SlideProof Bobby Pins 60-Count Only $1.xx Shipped on Amazon",
+   "link": "https://thefreebieguy.com/goody-slideproof-bobby-pins-60-count-deal-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T14:06Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/goody-bobby-pins-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "77aa71090cb8",
    "title": "Walmart Has Poncho-Style Halloween Costumes from $7.88",
    "link": "https://hip2save.com/deals/walmart-halloween-costumes/",
@@ -1625,6 +2589,105 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "ebcf47eea297",
+   "title": "Free National Park Day | October 27",
+   "link": "https://moneysavingmom.com/free-national-park-day/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T14:00Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/08/Bryce-Canyon-630x473.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-27"
+   },
+   "ja": "無料国立公園の日| 10月27日",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "無料国立公園の日| 10月27日",
+    "when": "10/27(火)",
+    "cond": ""
+   },
+   "date": "2026-10-27"
+  },
+  {
+   "id": "2996550afe7a",
+   "title": "Ruffles Original Potato Chips (Pack of 40) only $9.58 shipped!",
+   "link": "https://moneysavingmom.com/ruffles-original-potato-chips-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:53Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/10/Screen-Shot-2021-10-27-at-1.33.16-PM.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4f47ef257ef1",
+   "title": "Sam’s Club Plus Members Now Get A FREE Walmart+ Membership {Link Your Accounts for a REFUND!}",
+   "link": "https://moneysavingmom.com/sams-club-plus-members-now-get-a-free-walmart-membership-link-your-accounts-for-a-refund/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:50Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Sams-club-630x337.jpg",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
   },
   {
    "id": "8ef67d7f9e8e",
@@ -1661,6 +2724,173 @@
    "eventNews": false
   },
   {
+   "id": "a38a46546985",
+   "title": "Lindt Lindor Assorted Chocolate Truffles, 15.2 oz. Bag only $9.56 shipped!",
+   "link": "https://moneysavingmom.com/lindt-lindor-milk-chocolate-truffles-deal-2/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:42Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/04/Lindt-LINDOR-Assorted-Chocolate-Candy-Truffles-15.2-oz.-Bag.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3c19fab330bb",
+   "title": "Dot’s Homestyle Pretzels Variety Pack 18-Count for $7.47 shipped!",
+   "link": "https://moneysavingmom.com/dots-pretzels-original-seasoned-pretzel-twists-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:32Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/02/Dots-Homestyle-Pretzels-Variety-Pack.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1ed610b2a41e",
+   "title": "Women’s Eyelet Hoodie as low as $8.51 at Walmart, plus more!",
+   "link": "https://moneysavingmom.com/fall-clothing-for-women-at-walmart/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:27Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Scenario-Womens-and-Womens-Plus-Eyelet-Hoodie-.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c390cdee5ca4",
+   "title": "Old Navy: Kid’s Wow Jeans just $8, Adult Wow Jeans just $16!",
+   "link": "https://moneysavingmom.com/old-navy-jeans-daily-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:24Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/09/Old-Navy-Womens-Wow-Jeans.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "246a6f84c72c",
+   "title": "Get a FREE Monster Taco & Small Drink at Jack in the Box Today!",
+   "link": "https://moneysavingmom.com/get-a-free-monster-taco-small-drink-at-jack-in-the-box-on-october-24th/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:22Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": "2026-10-24",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-at-10.07.38-AM.png",
+   "hot": true,
+   "stores": [
+    "Jack in the Box"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-10-24"
+   },
+   "ja": "今すぐJack in the Boxでモンスタータコス＆スモールドリンクを無料で手に入れましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Jack in the Box",
+    "item": "今すぐJack in the Boxでモンスタータコス＆スモールドリンクを無料で手に入れましょう！",
+    "when": "10/24(土)",
+    "cond": ""
+   },
+   "date": "2026-10-24"
+  },
+  {
    "id": "b92d76abc62e",
    "title": "Amazon Haul Squishy Must-Haves from $5.99",
    "link": "https://hip2save.com/deals/amazon-haul-app/",
@@ -1693,6 +2923,73 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "e4a2cf1dda38",
+   "title": "Tiff’s Treats: FREE Ice Cream Sandwiches for Young Athletes on October 24th & October 25th!",
+   "link": "https://moneysavingmom.com/tiffs-treats-free-ice-cream-sandwiches-for-young-athletes-on-october-24th-october-25th/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:10Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": "2026-10-24",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-23-at-1.59.31-PM.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-10-24"
+   },
+   "ja": "ティフのおやつ： 10月24日と25日に若いアスリートのための無料アイスクリームサンドイッチ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ティフのおやつ： 10月24日と25日に若いアスリートのための無料アイスクリームサンドイッチ！",
+    "when": "10/24(土)",
+    "cond": ""
+   },
+   "date": "2026-10-24"
+  },
+  {
+   "id": "799842002339",
+   "title": "Dove Sensitive Skin Beauty Bars 8-Pack only $7.87 shipped (Reg. $13)!",
+   "link": "https://moneysavingmom.com/dove-beauty-bars-pack-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T13:02Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/11/Dove-Sensitive-Beauty-Bar-Soap-1.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 39,
+   "price": 7.87,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "4b1d469bbb17",
@@ -1763,6 +3060,38 @@
    "eventNews": false
   },
   {
+   "id": "635aa2d02a79",
+   "title": "*HOT* Craftsman Versastack 242-Piece Mechanic Tool Set with Hard Case only $99 shipped (Reg. $219!)",
+   "link": "https://moneysavingmom.com/craftsman-tool-deals-at-lowes/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T12:30Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/VERSASTACK-242-Piece-Standard-SAE-and-Metric-Mechanics-Tool-Set-with-Hard-Case.jpg",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 99.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "1ba2740a197a",
    "title": "FREE Tiff’s Treats Ice Cream Sandwiches for Young Athletes This Weekend",
    "link": "https://hip2save.com/deals/tiffs-treats-coupon/",
@@ -1800,6 +3129,38 @@
    "eventNews": false
   },
   {
+   "id": "8a8c0a139024",
+   "title": "Joyspun Women’s Dreamy Soft Pajama Set just $8.90, plus more!",
+   "link": "https://moneysavingmom.com/womens-joyspun-at-walmart-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T12:24Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Joyspun-Womens-Dreamy-Soft-Collection-Short-Sleeve-Sleep-Top-and-Open-Leg-Pants-Pajama-Set.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "0649e75d73bf",
    "title": "How to Score a Pokémon Elite Trainer Box for Just $59.99 Shipped on Amazon (Reg. $90)",
    "link": "https://hip2save.com/deals/pokemon-elite-trainer-box/",
@@ -1834,6 +3195,36 @@
    "eventNews": false
   },
   {
+   "id": "e2f5408693f6",
+   "title": "Coupons for Great Clips: FREE Haircuts for Veterans & Active Duty on November 11th!",
+   "link": "https://moneysavingmom.com/great-clips-5-off-any-haircut-coupon/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T12:00Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2014/10/Salon_Inside_2.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "8f0d6f9ab7e3",
    "title": "Walmart’s Halloween Kitchen Finds Are SO Cute & On Sale (Ghost Glasses ONLY $5.74)",
    "link": "https://hip2save.com/deals/halloween-kitchenware/",
@@ -1866,6 +3257,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "aac314a6dfbc",
+   "title": "Kroger’s 13 Scary Days of Deals Are Here = $0.88 Buns Today!",
+   "link": "https://moneysavingmom.com/krogers-12-merry-days-of-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-24T11:39Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/12/Screenshot-2026-10-22-at-11.01.24-AM.png",
+   "hot": false,
+   "stores": [
+    "Kroger"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kroger",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "3b2e11e8f2c0",
@@ -2008,6 +3431,43 @@
    "date": "2026-10-24",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "8bc419cf6e6c",
+   "title": "Guide to the 2026 Texas City Music Festival | Free Live Music & Local Fun",
+   "link": "https://www.houstononthecheap.com/texas-city-music-festival-2026/",
+   "source": "Houston on the Cheap",
+   "posted": "2026-10-24T08:00Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Texas-City-Music-Festival.jpg",
+   "noAlert": true,
+   "region": "Houston",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "2026年テキサスシティミュージックフェスティバルのガイド|無料のライブミュージック＆地元の楽しみ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "2026年テキサスシティミュージックフェスティバルのガイド|無料のライブミュージック＆地元の楽しみ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "e8b3bb06a5ac",
@@ -2794,6 +4254,41 @@
    "eventNews": false
   },
   {
+   "id": "b605ed55eb5f",
+   "title": "My new book + $75 in FREE bonuses 🎉",
+   "link": "https://moneysavingmom.com/my-new-book-75-in-free-bonuses-%f0%9f%8e%89/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T21:06Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-23-at-4.03.29-PM-630x599.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "私の新しい本+ $ 75の無料ボーナス 🎉",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "私の新しい本+ $ 75の無料ボーナス 🎉",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "86fec4f904be",
    "title": "Bluetooth Projector Just $29.99 Shipped on Amazon (Reg. $110)",
    "link": "https://hip2save.com/deals/amazon-bluetooth-projector/",
@@ -2964,6 +4459,70 @@
    "eventNews": false
   },
   {
+   "id": "71cbbea38bbf",
+   "title": "Top 20+ Grocery and Household Deals You All Loved This Week: Soda, Tissues, Beauty Bars, plus more!",
+   "link": "https://moneysavingmom.com/hot-deals-on-snacks-and-grocery-items/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T20:08Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Grocery-Deals-11-1.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "950c39b81c3e",
+   "title": "*HOT* LEGO Disney Moana 2 Heihei Set only $23.99 (Reg. $40), plus more!",
+   "link": "https://moneysavingmom.com/kohls-lego-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T20:02Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/LEGO-Disney-Moana--630x611.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 23.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "eda6d6cb804f",
    "title": "Dreaming of a Pastel Christmas? Target’s New Simply Shabby Chic Collection is SO Good!",
    "link": "https://hip2save.com/deals/target-simply-shabby-chic/",
@@ -2996,6 +4555,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "051d0faed83d",
+   "title": "King Comforter Set with Pillowcases only $19.71 (Reg. $50)!",
+   "link": "https://moneysavingmom.com/bedsure-comforter-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T20:00Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/07/Bedsure-King-Comforter-Set.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 61,
+   "price": 19.71,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "6ceb480646a4",
@@ -3064,6 +4655,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "10a7b02b4d53",
+   "title": "*HOT* FREE BYOMA Products at Target after Cash Back!",
+   "link": "https://moneysavingmom.com/hot-free-byoma-products-at-target-after-cash-back/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T19:29Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.21.26-PM-630x765.jpg",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "e3d34dedbbb2",
@@ -3197,6 +4820,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "dcfbf9cdd7c9",
+   "title": "Beautiful by Drew Barrymore Acrylic Pitcher for only $3.93, plus more!",
+   "link": "https://moneysavingmom.com/beautiful-by-drew-barrymore-drinkware-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T18:30Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Beautiful-by-Drew-Barrymore-2.3-Gal-Acrylic-Colorblock-Pitcher-.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "b354e3968a34",
@@ -3364,6 +5019,38 @@
    "eventNews": false
   },
   {
+   "id": "a66e7fb8c801",
+   "title": "Wow! Five Grocery Essentials Deals Under $2 shipped!",
+   "link": "https://moneysavingmom.com/amazon-grocery-deals-under-one-shipped/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T17:49Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/06/Jet-Puffed-Mini-Marshmallows.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "f65e3810cfdb",
    "title": "Cast Iron Dutch Oven Only $28 Shipped for Amazon Prime Members",
    "link": "https://hip2save.com/deals/cast-iron-dutch-oven/",
@@ -3395,6 +5082,40 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "70b948fe359d",
+   "title": "*HOT* Up to 30% off Costumes & Accessories at Target! {Today Only!}",
+   "link": "https://moneysavingmom.com/costumes-accessories-at-target/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T17:36Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": "2026-10-23",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Screenshot-2025-10-07-at-2.13.35 PM-630x848.jpg",
+   "hot": false,
+   "stores": [
+    "Target",
+    "Amazon"
+   ],
+   "cats": [
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 30,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target・Amazon",
+    "item": "",
+    "when": "10/23(金)まで",
+    "cond": ""
+   },
+   "date": "2026-10-23"
   },
   {
    "id": "f56f5cba23be",
@@ -3562,6 +5283,38 @@
    "eventNews": false
   },
   {
+   "id": "0984acc09d8d",
+   "title": "Pioneer 32″ Class LED HD Smart Roku TV only $69.99 shipped, plus more!",
+   "link": "https://moneysavingmom.com/pioneer-class-led-4k-uhd-smart-roku-tv-deal-2/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T16:37Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Roku-tv-630x433.jpg",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Best Buy",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "dc410ae93ab7",
    "title": "Grinch Christmas Velvet Jumpsuit Now Available on Walmart.com (So Fun for Holiday Parties!)",
    "link": "https://hip2save.com/deals/walmart-christmas-jumpers/",
@@ -3628,6 +5381,70 @@
    "eventNews": false
   },
   {
+   "id": "7c1c6a6f07c0",
+   "title": "Better Homes & Gardens 8-Piece Glass Drinkware Set only $5.54!",
+   "link": "https://moneysavingmom.com/drinkware-set-deals-at-walmart/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T16:05Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/05/Better-Homes-Gardens-Reeve-Glass-Beverage-Drinkware-17-oz-8-Count.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f2b52c7a040f",
+   "title": "Powdered, Light & Dark Brown Sugar 2lb Bags only $1.76 each, shipped, plus more!",
+   "link": "https://moneysavingmom.com/amazon-grocery-powdered-sugar-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T15:59Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/08/Amazon-Grocery-Powdered-Sugar-2lb.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "a3acc741f208",
    "title": "Dr. Seuss Grinch Slippers Just $19.98 at Sam’s Club",
    "link": "https://hip2save.com/deals/dr-seuss-grinch-slippers/",
@@ -3659,6 +5476,70 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "251cd15572b1",
+   "title": "Lysol Disinfectant Wipes Stock Up Deal: FOUR 80-Count Canisters only $8.75 shipped! {Better than Prime Day}",
+   "link": "https://moneysavingmom.com/lysol-disinfectant-wipes-stock-up-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T15:45Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Screenshot-2025-10-08-at-8.39.38 AM-630x350.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "prime-day",
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "89272b4061b1",
+   "title": "Kohl’s Clearance Sale: Up to 85% off = Prices from $1.77!",
+   "link": "https://moneysavingmom.com/kohls-clearance-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T15:33Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/01/Kohls-Store-Front.png",
+   "hot": true,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 85,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "093cd4c32cd0",
@@ -3760,6 +5641,38 @@
    "eventNews": false
   },
   {
+   "id": "1dcc28de0512",
+   "title": "Soft Blanket Scarf only $5.99 shipped (Reg. $14!)",
+   "link": "https://moneysavingmom.com/soft-blanket-scarf-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T14:29Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-23-at-9.23.40-AM-630x647.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 57,
+   "price": 5.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "7060de85059c",
    "title": "Amazon Grocery Rainbow Sprinkles Only 94¢ Shipped",
    "link": "https://hip2save.com/deals/amazon-grocery-sprinkles/",
@@ -3791,6 +5704,70 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "6b5273d06464",
+   "title": "No Boundaries Women’s Cotton Twill Barn Jacket as low as $8.66!",
+   "link": "https://moneysavingmom.com/no-boundaries-womens-jacket-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T14:09Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/No-Boundaries-Cotton-Twill-Barn-Jacket.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cf6600674e5d",
+   "title": "Women’s Pajama Sets (Pack of 2) only $18.99 shipped (Reg. $30!) plus more!",
+   "link": "https://moneysavingmom.com/pack-of-two-pajama-sets-so-cute/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T14:01Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-12.18.27-PM-630x632.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 37,
+   "price": 18.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "7218631b8b37",
@@ -3859,6 +5836,44 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T13:36Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
   },
   {
    "id": "af00da3b1c70",
@@ -3994,6 +6009,38 @@
    "eventNews": false
   },
   {
+   "id": "9a5c3e486446",
+   "title": "*HOT* Amazon Grocery Chicken Broth, 32 oz, only $0.95 shipped!",
+   "link": "https://moneysavingmom.com/hot-amazon-grocery-chicken-broth-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T13:17Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Screenshot-2025-11-05-at-7.23.43 AM-630x876.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "3651a8980319",
    "title": "10 Random Amazon Things We Bought Today!",
    "link": "https://hip2save.com/product-reviews/best-things-to-buy-on-amazon/",
@@ -4027,6 +6074,38 @@
    "eventNews": false
   },
   {
+   "id": "f95ed3f55635",
+   "title": "*HOT* Orgain Organic Protein Powder (1 lb) only $13.98 shipped!",
+   "link": "https://moneysavingmom.com/hot-orgain-organic-protein-powder-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T12:59Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/06/Protein-Powder-630x601.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "fc963e38fb74",
    "title": "Try the Viral Wireless Jelly Bras for Just $8.49 (Readers Can’t Get Enough of Them!)",
    "link": "https://hip2save.com/deals/letsjoli-wireless-jelly-bras/",
@@ -4058,6 +6137,70 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "b6037b186464",
+   "title": "Women’s Warm Wool Blend Socks (5 pack) only $4.99!",
+   "link": "https://moneysavingmom.com/womens-warm-wool-blend-socks-so-cute/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T12:52Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Socks-1-630x778.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "976199dd40d5",
+   "title": "Purex Laundry Detergent only $1.79 at Walgreens!",
+   "link": "https://moneysavingmom.com/purex-laundry-detergent-deal-at-walgreens/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T12:46Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Screenshot-2025-10-24-at-7.22.54 AM-630x842.jpg",
+   "hot": false,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "b6ccd99d8f65",
@@ -4227,6 +6370,70 @@
    "eventNews": false
   },
   {
+   "id": "6fed9667fe53",
+   "title": "Neutrogena Makeup Remover Wipes Twin Pack only $6.98 shipped!",
+   "link": "https://moneysavingmom.com/neutrogena-fragrance-free-makeup-remover-wipes-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T12:01Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/07/Neutrogena-Makeup-Remover-Wipes-Twin-Pack.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d88328295968",
+   "title": "Mrs. Meyer’s Clean Day Liquid Hand Soap (3 pack) only $9.28 shipped!",
+   "link": "https://moneysavingmom.com/mrs-meyers-clean-day-liquid-hand-soap-3-pack-only-9-shipped-plus-more/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T11:48Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/08/Hand-Soap-1-630x492.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "0ef8c88717bd",
    "title": "Possible FREE Denny’s Triple Play Meal (Register Before 11/1!)",
    "link": "https://hip2save.com/deals/dennys-coupon/",
@@ -4327,6 +6534,41 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "b0c4839c97aa",
+   "title": "Sirius XM Deal: 3 FREE Months of XM Radio {Car + App OR App Only!}",
+   "link": "https://moneysavingmom.com/hot-siriusxm-deal-free-in-car-satellite-radio-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-23T11:10Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/11/InCar-dash-finger-1929x1080-1-630x354.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "Sirius XMセール： XMラジオ3か月無料{車+アプリまたはアプリのみ！}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Sirius XMセール： XMラジオ3か月無料{車+アプリまたはアプリのみ！}",
+    "when": "",
+    "cond": "アプリ"
+   },
+   "date": null
   },
   {
    "id": "7f4e9d549677",
@@ -5391,6 +7633,43 @@
    "eventNews": false
   },
   {
+   "id": "c0a19dd45651",
+   "title": "7 Easy Ways to Earn Free Amazon Gift Cards",
+   "link": "https://moneysavingmom.com/how-to-earn-amazon-gift-cards/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-22T21:02Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2019/07/1-700x1050.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "無料のAmazonギフトカードを獲得する7つの簡単な方法",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "無料のAmazonギフトカードを獲得する7つの簡単な方法",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "92119d03d2dc",
    "title": "Baby Snowsuits Just $9.98 on Amazon (Reg. $36)",
    "link": "https://hip2save.com/deals/amazon-baby-snowsuit/",
@@ -5523,6 +7802,102 @@
    "eventNews": false
   },
   {
+   "id": "fc84d6467380",
+   "title": "Laura Geller Full Face Palettes (Set of 4) only $23.48 shipped ($156 value)! {Frugal Gift Idea}",
+   "link": "https://moneysavingmom.com/laura-geller-makeup-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-22T20:18Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/06/Laura-Geller-Party-in-a-Palette-Set-of-4-Full-Face-Palettes.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "db2eb1afb01a",
+   "title": "Cross Initial Necklace only $4.19!",
+   "link": "https://moneysavingmom.com/cross-initial-necklace-cute/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-22T20:17Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Cross-Initial-Necklace-630x659.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "560ccd6f95a4",
+   "title": "Jet-Puffed Mini Marshmallows, 10 oz Bag only $0.85 shipped!",
+   "link": "https://moneysavingmom.com/jet-puffed-marshmallow-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-22T20:16Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/06/Jet-Puffed-Mini-Marshmallows.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "2df2eb7f190a",
    "title": "How Is This Still in Stock?! onn Smart TV Just $68 Shipped at Walmart",
    "link": "https://hip2save.com/deals/onn-tv/",
@@ -5620,6 +7995,38 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "4cadf5e0ef78",
+   "title": "LEGO Star Wars Boy’s Graphic Tees only $3.14!",
+   "link": "https://moneysavingmom.com/lego-star-wars-boys-graphic-tees-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-22T19:38Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/LEGO-Star-Wars-Graphic-Tees.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "c3deceb32d59",
@@ -5754,6 +8161,38 @@
    "eventNews": false
   },
   {
+   "id": "10037d6d53d3",
+   "title": "Amazon Grocery Original Pancake Syrup (Pack of 3) only $3.60 shipped!",
+   "link": "https://moneysavingmom.com/amazon-grocery-original-pancake-syrup-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-22T18:40Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Amazon-Grocery-Original-Pancake-Syrup12-Fl-Oz-Pack-of-3-1.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "16ac871dbb0c",
    "title": "We Spotted This Fun Grinch Jewelry Advent Calendar on Walmart.com",
    "link": "https://hip2save.com/deals/grinch-jewelry-advent-calendar/",
@@ -5851,6 +8290,38 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "45df83f8fb71",
+   "title": "Dove Holiday Treats Body Wash just $2.96 (Reg. $8), plus more!",
+   "link": "https://moneysavingmom.com/dove-holiday-treats-body-wash-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-22T18:14Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Dove-Limited-Edition-Holiday-Treats-Body-Wash-Cinnamon-Pumpkin-Pie-20-oz.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 63,
+   "price": 2.96,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "dd5d4d6d6e74",
@@ -6376,7 +8847,11 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Halloween.jpg?resize=306,182",
    "date": null,
    "ja": "最高のハロウィンレストランセール＆景品",
@@ -6491,6 +8966,38 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "8e34b992a9ef",
+   "title": "Pizza Hut Brings Back Cheesy Bites Stuffed Crust Pizza",
+   "link": "https://www.fastfoodpost.com/pizza-hut-brings-back-cheesy-bites-stuffed-crust-pizza/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-22T15:15Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Pizza Hut"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Pizza Hut",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "5ceab356467c",
@@ -6956,6 +9463,43 @@
     "when": "",
     "cond": ""
    }
+  },
+  {
+   "id": "1e0e8181e455",
+   "title": "Fun, Free & Cheap Events | October 23 – October 25",
+   "link": "https://www.houstononthecheap.com/top-events-in-houston-october-23-october-25-2026/",
+   "source": "Houston on the Cheap",
+   "posted": "2026-10-22T08:00Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Things-to-do-in-Houston-this-Weekend-–-October-23-25.jpg",
+   "noAlert": true,
+   "region": "Houston",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-23"
+   },
+   "ja": "楽しくて無料でお得なイベント| 10月23日～ 10月25日",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "楽しくて無料でお得なイベント| 10月23日～ 10月25日",
+    "when": "10/23(金)",
+    "cond": ""
+   },
+   "date": "2026-10-23"
   },
   {
    "id": "16bf789f80d9",
@@ -8966,6 +11510,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "0827bd5f723f",
+   "title": "Subway Welcomes Back the Fritos Chicken Enchilada Sub",
+   "link": "https://www.fastfoodpost.com/subway-welcomes-back-the-fritos-chicken-enchilada-sub/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-21T13:21Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Subway"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Subway",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "dce3b2002e7e",
@@ -11021,6 +13597,38 @@
    "eventNews": false
   },
   {
+   "id": "5e24a54754d6",
+   "title": "McDonald’s Announces $8 Quarter Pounder with Cheese Meal Deal",
+   "link": "https://www.fastfoodpost.com/mcdonalds-announces-8-quarter-pounder-with-cheese-meal-deal/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-20T16:05Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "McDonald's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "McDonald's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "3377a255f081",
    "title": "TWO Porch Goose Outfits Just $7.99 Shipped for Amazon Prime Members",
    "link": "https://hip2save.com/deals/amazon-porch-goose-outfits/",
@@ -11083,6 +13691,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "b13326f8ffc1",
+   "title": "Whataburger Adds New Bacon Blaze Chicken Sandwich and Sleigh Berry Whatafresher",
+   "link": "https://www.fastfoodpost.com/whataburger-adds-new-bacon-blaze-chicken-sandwich-and-sleigh-berry-whatafresher/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-20T15:31Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Whataburger"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Whataburger",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "6d54c0195551",
@@ -11338,6 +13978,134 @@
    "eventNews": false
   },
   {
+   "id": "59cc04672555",
+   "title": "Taco Bell Debuts New Creamy Sriracha Chicken Nacho Fries",
+   "link": "https://www.fastfoodpost.com/taco-bell-debuts-new-creamy-sriracha-chicken-nacho-fries/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-19T20:43Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Taco Bell",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4bae02bf3506",
+   "title": "Popeyes is Welcoming Back Cajun-Style Turkey for Thanksgiving 2026",
+   "link": "https://www.fastfoodpost.com/popeyes-is-welcoming-back-cajun-style-turkey/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-19T20:31Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Popeyes"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Popeyes",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8d7f375ab68c",
+   "title": "KFC Offers 13 Days of Scary Good Deals This Halloween Season",
+   "link": "https://www.fastfoodpost.com/kfc-offers-13-days-of-scary-good-deals-this-halloween-season/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-19T16:53Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "KFC"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "KFC",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "64d1c2bd54d4",
+   "title": "Wendy’s Launches $7.99 Dave’s Single Combo Meal",
+   "link": "https://www.fastfoodpost.com/wendys-launches-7-99-daves-single-combo-meal/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-19T14:12Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Wendy's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Wendy's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "a113fb059b50",
    "title": "Try Out 3 Months of SiriusXM for FREE (Up to $78 Value)",
    "link": "https://hip2save.com/deals/sirius-xm-free/",
@@ -11396,6 +14164,43 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "e088e680b7df",
+   "title": "Fun, Free & Cheap Events | October 16 – October 18",
+   "link": "https://www.houstononthecheap.com/top-events-in-houston-october-16-october-18-2026/",
+   "source": "Houston on the Cheap",
+   "posted": "2026-10-16T06:00Z",
+   "firstSeen": "2026-10-24T22:48Z",
+   "expires": null,
+   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Things-to-do-in-Houston-this-Weekend-–-October-16-18.jpg",
+   "noAlert": true,
+   "region": "Houston",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-16"
+   },
+   "ja": "楽しくて無料でお得なイベント| 10月16日～ 10月18日",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "楽しくて無料でお得なイベント| 10月16日～ 10月18日",
+    "when": "10/16(金)",
+    "cond": ""
+   },
+   "date": "2026-10-16"
   },
   {
    "id": "c0feef908921",
