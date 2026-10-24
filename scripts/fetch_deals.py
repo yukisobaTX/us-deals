@@ -314,7 +314,9 @@ def main():
     # 日本語の要約:無料でもらえるものを優先。Gemini があればほかの記事も(新しい順)
     if not (a.no_translate or a.from_dir):
         from translate_ja import translate
-        todo = [x for x in by_id.values() if not x.get("ja")]
+        gem = bool(os.environ.get("GEMINI_API_KEY"))
+        # Gemini があれば、機械翻訳(MyMemory)だったものも要約し直す
+        todo = [x for x in by_id.values() if not x.get("ja") or (gem and x.get("jaVia") != "gemini")]
         todo.sort(key=lambda x: (not x.get("freebie"), x["posted"]), reverse=False)
         todo = [x for x in todo if x.get("freebie")] + sorted(
             [x for x in todo if not x.get("freebie")], key=lambda x: x["posted"], reverse=True)
@@ -324,6 +326,7 @@ def main():
         for x in todo:
             if x["id"] in ja:
                 x["ja"] = ja[x["id"]]
+                x["jaVia"] = how
         stats["ja"] = {"done": len(ja), "via": how}
 
     # 古いもの・期限切れを削除
