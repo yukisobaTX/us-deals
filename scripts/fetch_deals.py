@@ -334,7 +334,8 @@ def main():
                     x["ja"] = v
                     x.pop("sum", None)
                 x["jaVia"] = how
-        stats["ja"] = {"done": len(ja), "via": how}
+        import translate_ja
+        stats["ja"] = {"done": len(ja), "via": how, "keySet": gem, **({"error": translate_ja.LAST_ERROR["gemini"]} if translate_ja.LAST_ERROR.get("gemini") else {})}
 
     # 「店舗名:もらえるもの:日時:条件」の形に(Gemini 以外は分かる範囲で組み立てる)
     for x in by_id.values():

@@ -13,6 +13,7 @@ import urllib.parse
 import urllib.request
 
 UA = "us-deals-personal/1.0"
+LAST_ERROR = {}
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 PROMPT = (
     "以下は米国のお得情報ブログの記事見出しです(各行:id、掲載日、見出し)。"
@@ -79,7 +80,14 @@ def translate(items, limit=40):
             if out:
                 return out, "gemini"
         except Exception as e:  # noqa: BLE001
-            print(f"gemini 失敗 → MyMemory に切り替え: {e}")
+            body = ""
+            if hasattr(e, "read"):
+                try:
+                    body = e.read().decode("utf-8", "replace")[:400]
+                except Exception:  # noqa: BLE001
+                    pass
+            LAST_ERROR["gemini"] = f"{e} {body}".strip()
+            print(f"gemini 失敗 → MyMemory に切り替え: {LAST_ERROR['gemini']}")
     out = {}
     for i, _, t in items:
         try:
