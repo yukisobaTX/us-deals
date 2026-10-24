@@ -129,3 +129,34 @@ def translate(items, limit=40):
             out[i] = ja
         time.sleep(1)
     return out, "mymemory"
+
+
+def mymemory_many(items, limit=20):
+    """items: [(id, 掲載日, title)] → {id: 訳}。上限に当たったら止める。"""
+    out = {}
+    for i, _, t in items[:limit]:
+        try:
+            ja = mymemory(t)
+        except Exception as e:  # noqa: BLE001
+            LAST_ERROR["mymemory"] = str(e)
+            break
+        if not ja:
+            break   # 1日の上限超過などは英語のエラー文が返る → 今回はここまで
+        out[i] = ja
+        time.sleep(1)
+    return out
+
+
+def gemini_once(items):
+    """Gemini に1回だけ依頼(無料枠は1日の回数が少ないので、まとめて1回)。失敗は例外にせず {}。"""
+    try:
+        return gemini(items)
+    except Exception as e:  # noqa: BLE001
+        body = ""
+        if hasattr(e, "read"):
+            try:
+                body = e.read().decode("utf-8", "replace")[:300]
+            except Exception:  # noqa: BLE001
+                pass
+        LAST_ERROR["gemini"] = f"{e} {body}".strip()
+        return {}

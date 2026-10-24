@@ -335,31 +335,45 @@ def main():
         if x["freebie"] and x["freebie"]["when"] and not x.get("expires") and x["freebie"]["kind"] == "store":
             x["expires"] = x["freebie"]["when"]
 
-    # 日本語の要約:無料でもらえるものを優先。Gemini があればほかの記事も(新しい順)
+    # 日本語化:
+    # - 無料でもらえるもの → Gemini で4項目に要約(無料枠は1日20回なので、1回の実行で最大1回・1日15回まで)
+    #   Gemini が使えないときは MyMemory の機械翻訳(次の回にまた Gemini を試す)
+    # - セール記事 → MyMemory の機械翻訳(1回20件まで、新しい順)
     if not (a.no_translate or a.from_dir):
-        from translate_ja import translate
+        import translate_ja as tj
         gem = bool(os.environ.get("GEMINI_API_KEY"))
-        # Gemini があれば、機械翻訳(MyMemory)だったものも要約し直す
-        todo = [x for x in by_id.values() if not x.get("ja") or (gem and x.get("jaVia") != "gemini")]
-        todo.sort(key=lambda x: (not x.get("freebie"), x["posted"]), reverse=False)
-        todo = [x for x in todo if x.get("freebie")] + sorted(
-            [x for x in todo if not x.get("freebie")], key=lambda x: x["posted"], reverse=True)
-        if not os.environ.get("GEMINI_API_KEY"):
-            todo = [x for x in todo if x.get("freebie")]   # 無料の翻訳は字数制限があるので無料情報だけ
-        ja, how = translate([(x["id"], parse_date_iso(x["posted"]).astimezone(CT).strftime("%Y-%m-%d"), x["title"])
-                             for x in todo], limit=60)
-        for x in todo:
-            if x["id"] in ja:
-                v = ja[x["id"]]
+        usage_p = OUT.parent / "gemini-usage.json"
+        today = now.astimezone(CT).date().isoformat()
+        usage = json.loads(usage_p.read_text()) if usage_p.exists() else {}
+        if usage.get("date") != today:
+            usage = {"date": today, "count": 0}
+        rows = lambda xs: [(x["id"], parse_date_iso(x["posted"]).astimezone(CT).strftime("%Y-%m-%d"), x["title"]) for x in xs]
+        free_todo = [x for x in by_id.values() if x.get("freebie") and x.get("jaVia") != "gemini"]
+        free_todo.sort(key=lambda x: x["posted"], reverse=True)
+        done = {}
+        if gem and free_todo and usage["count"] < 15:
+            usage["count"] += 1
+            for k, v in tj.gemini_once(rows(free_todo[:25])).items():
+                done[k] = (v, "gemini")
+            usage_p.write_text(json.dumps(usage) + "\n")
+        need_mt = [x for x in free_todo if x["id"] not in done and not x.get("ja")]
+        need_mt += sorted([x for x in by_id.values() if not x.get("freebie") and not x.get("ja")],
+                          key=lambda x: x["posted"], reverse=True)
+        for k, v in tj.mymemory_many(rows(need_mt), limit=25).items():
+            done[k] = (v, "mymemory")
+        for x in by_id.values():
+            if x["id"] in done:
+                v, how = done[x["id"]]
                 if isinstance(v, dict):
-                    x["sum"] = v
-                    x["ja"] = v["item"]
+                    x["sum"], x["ja"] = v, v["item"]
                 else:
                     x["ja"] = v
                     x.pop("sum", None)
                 x["jaVia"] = how
-        import translate_ja
-        stats["ja"] = {"done": len(ja), "via": how, "keySet": gem, "model": translate_ja._MODEL.get("m") or translate_ja.GEMINI_MODEL, **({"error": translate_ja.LAST_ERROR["gemini"]} if translate_ja.LAST_ERROR.get("gemini") else {})}
+        stats["ja"] = {"gemini": sum(1 for v in done.values() if v[1] == "gemini"),
+                       "mymemory": sum(1 for v in done.values() if v[1] == "mymemory"),
+                       "geminiToday": usage["count"], "model": tj.GEMINI_MODEL,
+                       **{f"{k}Error": v[:300] for k, v in tj.LAST_ERROR.items()}}
 
     # 「店舗名:もらえるもの:日時:条件」の形に(Gemini 以外は分かる範囲で組み立てる)
     for x in by_id.values():
