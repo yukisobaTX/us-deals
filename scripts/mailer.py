@@ -80,7 +80,9 @@ def send_mail(subject: str, body_md: str) -> bool:
         print("メール:GMAIL_APP_PASSWORD / GMAIL_USER がないので送らない(GitHub の通知に切り替え)")
         return False
     user = os.environ["GMAIL_USER"].strip()
-    to = (os.environ.get("MAIL_TO") or user).strip()
+    # 宛先:自分+ MAIL_TO(カンマ区切りで複数可)。重複は除く
+    to_list = [user] + [a.strip() for a in os.environ.get("MAIL_TO", "").split(",") if a.strip()]
+    to = ", ".join(dict.fromkeys(a.lower() for a in to_list))
     pw = os.environ["GMAIL_APP_PASSWORD"].replace(" ", "").strip()
     msg = EmailMessage()
     msg["Subject"] = subject

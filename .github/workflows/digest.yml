@@ -1,11 +1,11 @@
 name: Morning digest
-# 毎朝 7 時台(CT)に新着のまとめを Issue で送る。@ で GitHub の通知メールが届く。
-# 夏時間(12:41 UTC = 7:41 CDT)と冬時間(13:41 UTC = 7:41 CST)の2つで起動し、
+# 毎朝 7:15 ごろ(CT)に新着のまとめを Issue で送る。@ で GitHub の通知メールが届く。
+# 夏時間(12:08 UTC = 7:08 CDT)と冬時間(13:08 UTC = 7:08 CST)。GitHub の起動待ちを見込んで 7:08 に起動し、7:15 前後に届くの2つで起動し、
 # スクリプトが CT の 7 時台のときだけ送る。
 on:
   schedule:
-    - cron: "41 12 * * *"
-    - cron: "41 13 * * *"
+    - cron: "8 12 * * *"
+    - cron: "8 13 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -30,6 +30,7 @@ jobs:
       SITE_URL: ${{ vars.SITE_URL || 'https://us-deals.10baki-c03.workers.dev' }}
       GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       GMAIL_USER: 10baki.c03@gmail.com
+      MAIL_TO: ${{ secrets.MAIL_TO }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
