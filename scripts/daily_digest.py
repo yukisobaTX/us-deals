@@ -70,7 +70,7 @@ def fmt_item(x, today):
     when = f"**{when}**" if when.startswith("今日") else when
     kind = (x.get("freebie") or {}).get("kind")
     icon = "🏬" if kind == "store" else "🎟" if kind else "🛍"
-    return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}<br><sub>{x['title']}</sub>"
+    return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}"
 
 
 def build(items, since, site):
