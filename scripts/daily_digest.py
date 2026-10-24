@@ -49,15 +49,22 @@ def md(iso):
     return f"{d.month}/{d.day}({WD[d.weekday()]})"
 
 
+def sum_parts(x, today):
+    """店舗名・もらえるもの・日時・条件(空は —)。"""
+    sm = x.get("sum") or {}
+    store = sm.get("store") or "・".join(n for n in x["stores"][:2] if n != "レストラン全般") or "—"
+    item = sm.get("item") or x.get("ja") or x["title"]
+    when = sm.get("when") or ""
+    fb = x.get("freebie") or {}
+    if fb.get("when") == today:
+        when = "今日 " + when.split(" ", 1)[1] if " " in when else "今日"
+    return store, item, when or "—", sm.get("cond") or "—"
+
+
 def fmt_item(x, today):
-    fb = x["freebie"]
-    names = [n for n in x["stores"][:2] if n != "レストラン全般"]
-    store = f"**{'・'.join(names)}** " if names else ""
-    when = ""
-    if fb.get("when"):
-        when = "**今日**" if fb["when"] == today else md(fb["when"])
-        when = f"{when} "
-    return f"- {when}{store}[{x.get('ja') or x['title']}]({x['link']})"
+    store, item, when, cond = sum_parts(x, today)
+    when = f"**{when}**" if when.startswith("今日") else when
+    return f"- **{store}**:[{item}]({x['link']}):{when}:{cond}<br><sub>{x['title']}</sub>"
 
 
 def build(items, since, site):

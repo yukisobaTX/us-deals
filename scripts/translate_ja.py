@@ -15,10 +15,14 @@ import urllib.request
 UA = "us-deals-personal/1.0"
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 PROMPT = (
-    "以下は米国のお得情報ブログの記事見出しです。それぞれを日本語で簡潔に要約してください。\n"
-    "- 40字程度まで。何がもらえる/安くなるか・どこで・いつ・条件(会員限定・購入条件・先着など)を優先\n"
-    "- 店名・ブランド名は英語のまま。金額は $ のまま。誇張表現(Hurry!, WOW! など)は省く\n"
-    "- 出力は JSON オブジェクトのみ: {\"id\": \"要約\", ...}\n\n"
+    "以下は米国のお得情報ブログの記事見出しです(各行:id、掲載日、見出し)。"
+    "それぞれを4項目に分けて、日本語で端的に書いてください。\n"
+    "- store:店舗・ブランド名(英語のまま。不明なら \"\")\n"
+    "- item:もらえるもの/安くなるもの(日本語、20字以内。金額は $ のまま)\n"
+    "- when:日時(例「10/25(日)」「10/24 12〜16時」「〜10/31」「毎日正午ET」。掲載日を基準に Today 等を日付にする。不明なら \"\")\n"
+    "- cond:条件(例「会員限定」「$10以上購入」「先着1万名」「要予約」「アプリ」。なければ \"\")\n"
+    "- 誇張表現(Hurry!, WOW! など)は省く\n"
+    "- 出力は JSON オブジェクトのみ: {\"id\": {\"store\":..., \"item\":..., \"when\":..., \"cond\":...}, ...}\n\n"
 )
 
 
@@ -30,11 +34,11 @@ def _post_json(url, body, headers=None):
 
 
 def gemini(items):
-    """items: [(id, title)] → {id: ja}"""
+    """items: [(id, 掲載日, title)] → {id: {store, item, when, cond}}"""
     key = os.environ.get("GEMINI_API_KEY")
     if not key or not items:
         return {}
-    lines = "\n".join(f"{i}\t{t}" for i, t in items)
+    lines = "\n".join(f"{i}\t{d}\t{t}" for i, d, t in items)
     res = _post_json(
         f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
         {"contents": [{"parts": [{"text": PROMPT + lines}]}],
@@ -42,8 +46,12 @@ def gemini(items):
         {"x-goog-api-key": key})
     text = res["candidates"][0]["content"]["parts"][0]["text"]
     out = json.loads(re.sub(r"^```(?:json)?|```$", "", text.strip()))
-    ids = {i for i, _ in items}
-    return {k: str(v).strip() for k, v in out.items() if k in ids and str(v).strip()}
+    ids = {i for i, _, _ in items}
+    res = {}
+    for k, v in out.items():
+        if k in ids and isinstance(v, dict) and str(v.get("item", "")).strip():
+            res[k] = {f: str(v.get(f, "") or "").strip() for f in ("store", "item", "when", "cond")}
+    return res
 
 
 def mymemory(title):
@@ -59,7 +67,7 @@ def mymemory(title):
 
 
 def translate(items, limit=40):
-    """items: [(id, title)] → ({id: ja}, 使った方法)。limit 件まで。"""
+    """items: [(id, 掲載日, title)] → ({id: dict(Gemini) または str(MyMemory)}, 使った方法)。"""
     items = items[:limit]
     if not items:
         return {}, None
@@ -73,7 +81,7 @@ def translate(items, limit=40):
         except Exception as e:  # noqa: BLE001
             print(f"gemini 失敗 → MyMemory に切り替え: {e}")
     out = {}
-    for i, t in items:
+    for i, _, t in items:
         try:
             ja = mymemory(t)
         except Exception as e:  # noqa: BLE001

@@ -1,22 +1,18 @@
 {
- "updated": "2026-10-24T18:04Z",
+ "updated": "2026-10-24T18:11Z",
  "count": 344,
  "stats": {
   "h2s": {
-   "read": 100,
+   "read": 0,
    "added": 0
   },
   "h2s-free": {
-   "read": 100,
-   "added": 6
-  },
-  "doc": {
-   "read": 15,
+   "read": 0,
    "added": 0
   },
-  "ja": {
-   "done": 27,
-   "via": "mymemory"
+  "doc": {
+   "read": 0,
+   "added": 0
   }
  },
  "errors": [],
@@ -41,7 +37,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "6d6106be6ef3",
@@ -63,7 +65,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "aa903a9bd3a7",
@@ -85,7 +93,13 @@
    ],
    "pct": 39,
    "price": 13.49,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "093a3b3542be",
@@ -107,7 +121,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "9f8fce24699e",
@@ -129,7 +149,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d7f74398c85f",
@@ -151,7 +177,13 @@
    ],
    "pct": 75,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   }
   },
   {
    "id": "0b546dbc7cb8",
@@ -173,7 +205,13 @@
    ],
    "pct": 66,
    "price": 7.59,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8f655aad0a78",
@@ -195,7 +233,13 @@
    ],
    "pct": 55,
    "price": 44.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "556180d1e92c",
@@ -217,7 +261,13 @@
    ],
    "pct": 69,
    "price": 11.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "27c4882b1c32",
@@ -239,7 +289,13 @@
    ],
    "pct": 47,
    "price": 9.59,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d0445bdc4c4e",
@@ -261,7 +317,13 @@
    ],
    "pct": 59,
    "price": 9.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   }
   },
   {
    "id": "5e5599f9c636",
@@ -283,7 +345,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e6f400b19ea8",
@@ -305,7 +373,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "87c2b111a2bc",
@@ -327,7 +401,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0374aba62ca7",
@@ -349,7 +429,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   }
   },
   {
    "id": "b9e102772f7b",
@@ -371,7 +457,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ff51b4d4a17e",
@@ -393,7 +485,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "839fc61a9760",
@@ -415,7 +513,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "28254e8e93bd",
@@ -439,7 +543,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Whole Foods・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b93e46976eaf",
@@ -461,7 +571,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8538c0567362",
@@ -483,7 +599,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "6bb27d000237",
@@ -505,7 +627,13 @@
    ],
    "pct": 50,
    "price": 24.98,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "36c708c3e666",
@@ -527,7 +655,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4432ab3c8da9",
@@ -549,7 +683,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "472ea8f55bdb",
@@ -573,7 +713,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Starbucks・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "42ef24d952bb",
@@ -595,7 +741,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "cca83bea3063",
@@ -617,7 +769,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "157810ef3789",
@@ -639,7 +797,13 @@
    ],
    "pct": 65,
    "price": 6.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4c0288cdc269",
@@ -661,7 +825,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "1f0f637b8b45",
@@ -683,7 +853,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "3502d9314e7b",
@@ -705,7 +881,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "77aa71090cb8",
@@ -727,7 +909,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8ef67d7f9e8e",
@@ -749,7 +937,13 @@
    ],
    "pct": 60,
    "price": 25.59,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b92d76abc62e",
@@ -771,7 +965,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4b1d469bbb17",
@@ -793,7 +993,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "CVS",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ec952302950e",
@@ -815,7 +1021,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kroger",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "1ba2740a197a",
@@ -841,7 +1053,13 @@
     "kind": "store",
     "when": "2026-10-24"
    },
-   "ja": "今週末の若いアスリートのための無料Tiff'sトリートアイスクリームサンドイッチ"
+   "ja": "今週末の若いアスリートのための無料Tiff'sトリートアイスクリームサンドイッチ",
+   "sum": {
+    "store": "",
+    "item": "今週末の若いアスリートのための無料Tiff'sトリートアイスクリームサンドイッチ",
+    "when": "10/24(土)",
+    "cond": ""
+   }
   },
   {
    "id": "0649e75d73bf",
@@ -863,7 +1081,13 @@
    ],
    "pct": 33,
    "price": 59.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8f0d6f9ab7e3",
@@ -885,7 +1109,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "3b2e11e8f2c0",
@@ -907,7 +1137,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4d5f66f8fc1e",
@@ -932,6 +1168,12 @@
    "freebie": {
     "kind": "store",
     "when": "2026-10-24"
+   },
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "10/24(土) 12-4PM",
+    "cond": ""
    }
   },
   {
@@ -958,7 +1200,13 @@
     "kind": "store",
     "when": null
    },
-   "ja": "ロウズでMrBeastデー–報酬メンバーのための無料スワーム（お早めに！ ）"
+   "ja": "ロウズでMrBeastデー–報酬メンバーのための無料スワーム（お早めに！ ）",
+   "sum": {
+    "store": "Lowe's",
+    "item": "ロウズでMrBeastデー–報酬メンバーのための無料スワーム（お早めに！ ）",
+    "when": "",
+    "cond": "会員限定・なくなり次第終了"
+   }
   },
   {
    "id": "3b3eac3c055e",
@@ -980,7 +1228,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e8b3bb06a5ac",
@@ -1002,7 +1256,13 @@
    ],
    "pct": 57,
    "price": 14.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "a81af70c50f6",
@@ -1026,7 +1286,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "dc9d8a06b2b1",
@@ -1048,7 +1314,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e57662a97b11",
@@ -1070,7 +1342,13 @@
    ],
    "pct": 70,
    "price": 14.91,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "a6f7da44c4b8",
@@ -1092,7 +1370,13 @@
    ],
    "pct": 55,
    "price": 11.69,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "bd460777f9b8",
@@ -1114,7 +1398,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0ec96857f1d1",
@@ -1136,7 +1426,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b08ba7224332",
@@ -1158,7 +1454,13 @@
    ],
    "pct": 55,
    "price": 9.98,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f78cb8db435a",
@@ -1180,7 +1482,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7b2467a354a9",
@@ -1202,7 +1510,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "799f891519ad",
@@ -1224,7 +1538,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "89fb1db19538",
@@ -1246,7 +1566,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "18261661aaeb",
@@ -1268,7 +1594,13 @@
    ],
    "pct": 42,
    "price": 13.98,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "944e5891023c",
@@ -1290,7 +1622,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "9ad507941d9b",
@@ -1312,7 +1650,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ffff634fb24a",
@@ -1334,7 +1678,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b62ed337b169",
@@ -1356,7 +1706,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c6ec27b08afd",
@@ -1378,7 +1734,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   }
   },
   {
    "id": "7d10686329a0",
@@ -1400,7 +1762,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e020a6d5eade",
@@ -1422,7 +1790,13 @@
    ],
    "pct": 44,
    "price": 15.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0d9e7450b3e6",
@@ -1444,7 +1818,13 @@
    ],
    "pct": 75,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d7d5b83b402f",
@@ -1466,7 +1846,13 @@
    ],
    "pct": 55,
    "price": 8.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ade59d742b82",
@@ -1488,7 +1874,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "86fec4f904be",
@@ -1510,7 +1902,13 @@
    ],
    "pct": 73,
    "price": 29.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "1932f2f14e35",
@@ -1532,7 +1930,13 @@
    ],
    "pct": 50,
    "price": 99.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Best Buy",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e1cb50e65709",
@@ -1554,7 +1958,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ab71eed82e3e",
@@ -1576,7 +1986,13 @@
    ],
    "pct": 47,
    "price": 162.59,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "2bf6261d861f",
@@ -1598,7 +2014,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "eda6d6cb804f",
@@ -1620,7 +2042,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "6ceb480646a4",
@@ -1642,7 +2070,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f06deff5d17b",
@@ -1664,7 +2098,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e3d34dedbbb2",
@@ -1686,7 +2126,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d1fea4602af7",
@@ -1708,7 +2154,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "eac41bfda806",
@@ -1730,7 +2182,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "cc167ca93ab3",
@@ -1752,7 +2210,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b354e3968a34",
@@ -1774,7 +2238,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f59303e227b1",
@@ -1796,7 +2266,13 @@
    ],
    "pct": 55,
    "price": 4.49,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "fd49744240c9",
@@ -1818,7 +2294,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e5dfdec42fe1",
@@ -1840,7 +2322,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "dd0173294b2e",
@@ -1862,7 +2350,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f65e3810cfdb",
@@ -1884,7 +2378,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "f56f5cba23be",
@@ -1906,7 +2406,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "9ea86e9bc2e9",
@@ -1928,7 +2434,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "320471dd1d35",
@@ -1950,7 +2462,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "CVS",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "60a123a8b77b",
@@ -1972,7 +2490,13 @@
    ],
    "pct": 50,
    "price": 12.97,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "87dc9f428586",
@@ -1994,7 +2518,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Wendy’s",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "dc410ae93ab7",
@@ -2016,7 +2546,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "350d152f832a",
@@ -2038,7 +2574,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "a3acc741f208",
@@ -2060,7 +2602,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "093cd4c32cd0",
@@ -2082,7 +2630,13 @@
    ],
    "pct": 56,
    "price": 5.68,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b116b075ab89",
@@ -2104,7 +2658,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d5f13e7f6b1b",
@@ -2126,7 +2686,13 @@
    ],
    "pct": 64,
    "price": 8.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7060de85059c",
@@ -2148,7 +2714,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7218631b8b37",
@@ -2172,7 +2744,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "756539da6e35",
@@ -2194,7 +2772,13 @@
    ],
    "pct": 25,
    "price": 48.75,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "af00da3b1c70",
@@ -2216,7 +2800,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e8d8fed6a016",
@@ -2238,7 +2828,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f2508418b90e",
@@ -2260,7 +2856,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0d23a40499ad",
@@ -2284,7 +2886,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Bowlero、AMF、Lucky Strikeでの無料ボウリング+ $ 10アーケードカード"
+   "ja": "Bowlero、AMF、Lucky Strikeでの無料ボウリング+ $ 10アーケードカード",
+   "sum": {
+    "store": "Bowlero",
+    "item": "Bowlero、AMF、Lucky Strikeでの無料ボウリング+ $ 10アーケードカード",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "3651a8980319",
@@ -2306,7 +2914,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "fc963e38fb74",
@@ -2328,7 +2942,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b6ccd99d8f65",
@@ -2350,7 +2970,13 @@
    ],
    "pct": 40,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "KFC",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "2830c60823d7",
@@ -2372,7 +2998,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "CVS",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ad5abae33e32",
@@ -2394,7 +3026,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "43f9bf0c62a4",
@@ -2418,7 +3056,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "20オンスのスプライトボトルを無料で獲得（ 115,000本入手可能！ ）"
+   "ja": "20オンスのスプライトボトルを無料で獲得（ 115,000本入手可能！ ）",
+   "sum": {
+    "store": "",
+    "item": "20オンスのスプライトボトルを無料で獲得（ 115,000本入手可能！ ）",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d9b2164e621e",
@@ -2440,7 +3084,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "0ef8c88717bd",
@@ -2466,7 +3116,13 @@
     "kind": "coupon",
     "when": "2026-11-01"
    },
-   "ja": "無料のDenny's Triple Play Mealの可能性（ 11月1日までに登録！ ）"
+   "ja": "無料のDenny's Triple Play Mealの可能性（ 11月1日までに登録！ ）",
+   "sum": {
+    "store": "",
+    "item": "無料のDenny's Triple Play Mealの可能性（ 11月1日までに登録！ ）",
+    "when": "11/1(日)",
+    "cond": "要登録"
+   }
   },
   {
    "id": "eecaea4f3343",
@@ -2488,7 +3144,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e66dc6013496",
@@ -2510,7 +3172,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "CVS",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7f4e9d549677",
@@ -2532,7 +3200,13 @@
    ],
    "pct": 61,
    "price": 39.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c10fbc58e213",
@@ -2554,7 +3228,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Costco",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d69b37d92b3e",
@@ -2576,7 +3256,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "29bab0781aac",
@@ -2598,7 +3284,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "60dbd18a6c5f",
@@ -2620,7 +3312,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "70bc3103ec1f",
@@ -2642,7 +3340,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5581d08184ae",
@@ -2664,7 +3368,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7f96dd4aad5c",
@@ -2686,7 +3396,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "1ec49cb4aeae",
@@ -2708,7 +3424,13 @@
    ],
    "pct": 75,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7c2bdd281a91",
@@ -2730,7 +3452,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "95c0409dcd4c",
@@ -2752,7 +3480,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "25028e662487",
@@ -2774,7 +3508,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8984dad7d3a2",
@@ -2796,7 +3536,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c71ea418d612",
@@ -2818,7 +3564,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d5f33e7946d7",
@@ -2840,7 +3592,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "faf4e0431e1c",
@@ -2862,7 +3620,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8af63fe63055",
@@ -2884,7 +3648,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b0edd5d7e9d4",
@@ -2906,7 +3676,13 @@
    ],
    "pct": 50,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "1f3bd7e1deb6",
@@ -2928,7 +3704,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0a0db07ca969",
@@ -2950,7 +3732,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "a7caaf101eda",
@@ -2972,7 +3760,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "10/22(木)まで",
+    "cond": ""
+   }
   },
   {
    "id": "093018f44d0b",
@@ -2994,7 +3788,13 @@
    ],
    "pct": 40,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "eBay",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4bbb651c2616",
@@ -3016,7 +3816,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "09ce7f863aad",
@@ -3038,7 +3844,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7988d51c71df",
@@ -3064,7 +3876,13 @@
     "kind": "store",
     "when": "2026-10-22"
    },
-   "ja": "同日ピックアップ付きウォルグリーンフォトカードを6枚無料で手に入れよう–本日限定！"
+   "ja": "同日ピックアップ付きウォルグリーンフォトカードを6枚無料で手に入れよう–本日限定！",
+   "sum": {
+    "store": "Walgreens",
+    "item": "同日ピックアップ付きウォルグリーンフォトカードを6枚無料で手に入れよう–本日限定！",
+    "when": "10/22(木)",
+    "cond": ""
+   }
   },
   {
    "id": "475911ebc72d",
@@ -3086,7 +3904,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "2edfb72b49dc",
@@ -3108,7 +3932,13 @@
    ],
    "pct": 15,
    "price": 16.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7fcb0a2b929c",
@@ -3130,7 +3960,13 @@
    ],
    "pct": 80,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "816e0682b12f",
@@ -3152,7 +3988,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "bedfd347ab48",
@@ -3174,7 +4016,13 @@
    ],
    "pct": 55,
    "price": 5.91,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d44376144027",
@@ -3196,7 +4044,13 @@
    ],
    "pct": 50,
    "price": 13.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c93d5a61f412",
@@ -3218,7 +4072,13 @@
    ],
    "pct": 57,
    "price": 5.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "92119d03d2dc",
@@ -3240,7 +4100,13 @@
    ],
    "pct": 72,
    "price": 9.98,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "bfc21fce63a5",
@@ -3262,7 +4128,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "bd8ed17f87d6",
@@ -3284,7 +4156,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "891d8852cc64",
@@ -3306,7 +4184,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "2df2eb7f190a",
@@ -3328,7 +4212,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f7144496b620",
@@ -3350,7 +4240,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b434499f7c37",
@@ -3372,7 +4268,13 @@
    ],
    "pct": 50,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Home Depot",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c3deceb32d59",
@@ -3394,7 +4296,13 @@
    ],
    "pct": 37,
    "price": 169.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5862b87260da",
@@ -3416,7 +4324,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "cfc06a9d6968",
@@ -3438,7 +4352,13 @@
    ],
    "pct": 69,
    "price": 4.95,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "10/22(木)まで",
+    "cond": ""
+   }
   },
   {
    "id": "edf78790c20c",
@@ -3460,7 +4380,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "16ac871dbb0c",
@@ -3482,7 +4408,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "3f01f516753b",
@@ -3504,7 +4436,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Costco",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ac23f577c7a2",
@@ -3526,7 +4464,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "dd5d4d6d6e74",
@@ -3548,7 +4492,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b4c6e5152bbe",
@@ -3570,7 +4520,13 @@
    ],
    "pct": 45,
    "price": 14.8,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "81c607648950",
@@ -3592,7 +4548,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c1b3dee0c3ee",
@@ -3614,7 +4576,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "85877b4c1e29",
@@ -3636,7 +4604,13 @@
    ],
    "pct": 50,
    "price": 9.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8d85cfabcb9c",
@@ -3660,7 +4634,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5017110118d8",
@@ -3682,7 +4662,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d77bad896e59",
@@ -3704,7 +4690,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d65c6c0d2ec0",
@@ -3726,7 +4718,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c96d7ae7f0c8",
@@ -3748,7 +4746,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c4abf95692a4",
@@ -3770,7 +4774,13 @@
    ],
    "pct": 50,
    "price": 9.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c2b072e92082",
@@ -3792,7 +4802,13 @@
    ],
    "pct": 46,
    "price": 17.96,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b929261cf658",
@@ -3818,7 +4834,13 @@
     "kind": "store",
     "when": null
    },
-   "ja": "Krogerの無料プライベートセレクションアイスクリームパイント+最低39 ¢のBreyers 48 oz ！"
+   "ja": "Krogerの無料プライベートセレクションアイスクリームパイント+最低39 ¢のBreyers 48 oz ！",
+   "sum": {
+    "store": "Kroger",
+    "item": "Krogerの無料プライベートセレクションアイスクリームパイント+最低39 ¢のBreyers 48 oz ！",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "6fd057006371",
@@ -3842,7 +4864,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target・Starbucks",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5ea5431597c1",
@@ -3864,7 +4892,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Aldi",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e9d554ffcf8b",
@@ -3886,7 +4920,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c7515e4a5b3b",
@@ -3912,7 +4952,13 @@
     "kind": "store",
     "when": "2026-10-27"
    },
-   "ja": "ジミー・ジョンのトリプルピクルミールのミステリーピクルスぬいぐるみが無料（ 10月27日から）"
+   "ja": "ジミー・ジョンのトリプルピクルミールのミステリーピクルスぬいぐるみが無料（ 10月27日から）",
+   "sum": {
+    "store": "Jimmy John’s",
+    "item": "ジミー・ジョンのトリプルピクルミールのミステリーピクルスぬいぐるみが無料（ 10月27日から）",
+    "when": "10/27(火)",
+    "cond": ""
+   }
   },
   {
    "id": "6a4602794f13",
@@ -3934,7 +4980,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "9bc69774ce03",
@@ -3956,7 +5008,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5ceab356467c",
@@ -3978,7 +5036,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b4cdda57d504",
@@ -4000,7 +5064,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "04ef2f11f7ae",
@@ -4022,7 +5092,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8facf537685d",
@@ -4044,7 +5120,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4ea5ac94ecb7",
@@ -4066,7 +5148,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b464f0b89a2a",
@@ -4088,7 +5176,13 @@
    ],
    "pct": 45,
    "price": 33.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "58ddc5baf6af",
@@ -4110,7 +5204,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "001df2f71111",
@@ -4132,7 +5232,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Starbucks",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "fea76c7bff6f",
@@ -4154,7 +5260,13 @@
    ],
    "pct": 40,
    "price": 5.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5461e338b4fd",
@@ -4180,7 +5292,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ハローキティファン？ハンバーガーキングのキッズミールと一緒に無料のミステリーおもちゃを手に入れましょう！"
+   "ja": "ハローキティファン？ハンバーガーキングのキッズミールと一緒に無料のミステリーおもちゃを手に入れましょう！",
+   "sum": {
+    "store": "Burger King",
+    "item": "ハローキティファン？ハンバーガーキングのキッズミールと一緒に無料のミステリーおもちゃを手に入れましょう！",
+    "when": "",
+    "cond": "購入時・子ども向け"
+   }
   },
   {
    "id": "d6da06419a82",
@@ -4202,7 +5320,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "78a1cc20632d",
@@ -4224,7 +5348,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5cad8f8d62ab",
@@ -4246,7 +5376,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "89ffca7214d4",
@@ -4268,7 +5404,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "16bf789f80d9",
@@ -4290,7 +5432,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "1331643bb52e",
@@ -4312,7 +5460,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f9b20945a23d",
@@ -4334,7 +5488,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "14b0b9bc2e77",
@@ -4356,7 +5516,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "58b587caf619",
@@ -4378,7 +5544,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5a93a9a1d7b0",
@@ -4400,7 +5572,13 @@
    ],
    "pct": 66,
    "price": 9.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "bd45ef6fd31c",
@@ -4422,7 +5600,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "116298bf73d5",
@@ -4444,7 +5628,13 @@
    ],
    "pct": 50,
    "price": 4.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ce9eae42a24c",
@@ -4466,7 +5656,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f2574d03b499",
@@ -4488,7 +5684,13 @@
    ],
    "pct": 29,
    "price": 8.46,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "2eb6909cd56b",
@@ -4510,7 +5712,13 @@
    ],
    "pct": 50,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b406734ead27",
@@ -4532,7 +5740,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "144cdcb2b869",
@@ -4554,7 +5768,13 @@
    ],
    "pct": 67,
    "price": 8.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "6ae9c45726d3",
@@ -4576,7 +5796,13 @@
    ],
    "pct": 61,
    "price": 98.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "575de9835972",
@@ -4598,7 +5824,13 @@
    ],
    "pct": 50,
    "price": 19.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "047cc876d53f",
@@ -4618,7 +5850,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": "アプリ"
+   }
   },
   {
    "id": "3aa9b5b4ad45",
@@ -4640,7 +5878,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "87dd219f1ba5",
@@ -4662,7 +5906,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "bb6eb80d7706",
@@ -4684,7 +5934,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e4dafd6efa82",
@@ -4707,7 +5963,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart・Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e21b1059f5a1",
@@ -4729,7 +5991,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8f2a6668e750",
@@ -4751,7 +6019,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kroger",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "399798c8b550",
@@ -4773,7 +6047,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d3bcbd0bd8a9",
@@ -4795,7 +6075,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "75a01b61a0b6",
@@ -4817,7 +6103,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f8857ef865e8",
@@ -4839,7 +6131,13 @@
    ],
    "pct": 70,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "94f06423fae0",
@@ -4861,7 +6159,13 @@
    ],
    "pct": 60,
    "price": 7.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "55b9049bae79",
@@ -4883,7 +6187,13 @@
    ],
    "pct": 50,
    "price": 3.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "dee7e87d690f",
@@ -4905,7 +6215,13 @@
    ],
    "pct": 44,
    "price": 9.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "648b45e66a1e",
@@ -4927,7 +6243,13 @@
    ],
    "pct": 52,
    "price": 10.65,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c8c35ef0ef79",
@@ -4949,7 +6271,13 @@
    ],
    "pct": 69,
    "price": 2.83,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "25c933825f8f",
@@ -4973,7 +6301,13 @@
     "kind": "store",
     "when": "2026-11-13"
    },
-   "ja": "バーンズ＆ノーブルでの無料レゴホリデー・ビルドイベント（ 11月13日～ 15日）"
+   "ja": "バーンズ＆ノーブルでの無料レゴホリデー・ビルドイベント（ 11月13日～ 15日）",
+   "sum": {
+    "store": "Barnes & Noble",
+    "item": "バーンズ＆ノーブルでの無料レゴホリデー・ビルドイベント（ 11月13日～ 15日）",
+    "when": "11/13(金)",
+    "cond": ""
+   }
   },
   {
    "id": "c106cd5ddbb8",
@@ -4995,7 +6329,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "079ad0088f1b",
@@ -5017,7 +6357,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e318e01c7474",
@@ -5039,7 +6385,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "347026f5b38a",
@@ -5061,7 +6413,13 @@
    ],
    "pct": 55,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0e70dbdddc17",
@@ -5083,7 +6441,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4011c528498a",
@@ -5105,7 +6469,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kroger",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "999a2e276b65",
@@ -5127,7 +6497,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8dfc17d74411",
@@ -5149,7 +6525,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b42c1e46b6dd",
@@ -5171,7 +6553,13 @@
    ],
    "pct": 40,
    "price": 138.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b15c61148bc6",
@@ -5193,7 +6581,13 @@
    ],
    "pct": 34,
    "price": 98.74,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "93e4b98685d2",
@@ -5215,7 +6609,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4ecfc6d2e840",
@@ -5237,7 +6637,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8de932449769",
@@ -5259,7 +6665,13 @@
    ],
    "pct": 72,
    "price": 11.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "2254fb7df3a1",
@@ -5281,7 +6693,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   }
   },
   {
    "id": "0c500ef0f065",
@@ -5303,7 +6721,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f661b11371c7",
@@ -5325,7 +6749,13 @@
    ],
    "pct": 50,
    "price": 7.49,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "51b74fca6f8d",
@@ -5347,7 +6777,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7006a2a6ed6b",
@@ -5369,7 +6805,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "cbbf4978a679",
@@ -5393,7 +6835,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "25082076172b",
@@ -5415,7 +6863,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4397fa96b9eb",
@@ -5437,7 +6891,13 @@
    ],
    "pct": 50,
    "price": 15.98,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "a7bbda804156",
@@ -5463,7 +6923,13 @@
     "kind": "coupon",
     "when": "2026-10-31"
    },
-   "ja": "QDOBA 10/31と11/1で購入して、無料のエントリーをゲットしよう"
+   "ja": "QDOBA 10/31と11/1で購入して、無料のエントリーをゲットしよう",
+   "sum": {
+    "store": "QDOBA",
+    "item": "QDOBA 10/31と11/1で購入して、無料のエントリーをゲットしよう",
+    "when": "10/31(土)",
+    "cond": "購入時"
+   }
   },
   {
    "id": "254da37a2b7c",
@@ -5485,7 +6951,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "cf430334260f",
@@ -5507,7 +6979,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "55a622633d25",
@@ -5529,7 +7007,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "cf5735eb4f03",
@@ -5551,7 +7035,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "fb21616d4d35",
@@ -5573,7 +7063,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4355bfd36c7c",
@@ -5595,7 +7091,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "74de8b4d9c50",
@@ -5618,7 +7120,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Subway",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ddf37018964f",
@@ -5645,7 +7153,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "RUN! FREE Dunkin 'Coffeeプロモーションコードが削除されました"
+   "ja": "RUN! FREE Dunkin 'Coffeeプロモーションコードが削除されました",
+   "sum": {
+    "store": "Dunkin'",
+    "item": "RUN! FREE Dunkin 'Coffeeプロモーションコードが削除されました",
+    "when": "",
+    "cond": "コード入力"
+   }
   },
   {
    "id": "dce3b2002e7e",
@@ -5667,7 +7181,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Aldi",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "fd6ffdd2b567",
@@ -5689,7 +7209,13 @@
    ],
    "pct": 35,
    "price": 12.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b88473bb10be",
@@ -5711,7 +7237,13 @@
    ],
    "pct": 50,
    "price": 11.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "52aa2d3c0c5e",
@@ -5733,7 +7265,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0cc6649e98fc",
@@ -5755,7 +7293,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "6789ee0f38ec",
@@ -5777,7 +7321,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "66a04d900268",
@@ -5799,7 +7349,13 @@
    ],
    "pct": 30,
    "price": 18.89,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d0fb43d7e289",
@@ -5821,7 +7377,13 @@
    ],
    "pct": 62,
    "price": 15.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "769845e182f3",
@@ -5843,7 +7405,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "82979b92df29",
@@ -5865,7 +7433,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b88773325ef9",
@@ -5887,7 +7461,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Home Depot",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "605dfa39698c",
@@ -5909,7 +7489,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "9108ebab410c",
@@ -5931,7 +7517,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "3f0bd94f9cac",
@@ -5953,7 +7545,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "40d0c9c4dbe3",
@@ -5975,7 +7573,13 @@
    ],
    "pct": 50,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "9dd3e24ad4e1",
@@ -5997,7 +7601,13 @@
    ],
    "pct": 60,
    "price": 47.97,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "3ca991c87012",
@@ -6019,7 +7629,13 @@
    ],
    "pct": 54,
    "price": 16.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5f9652aca614",
@@ -6041,7 +7657,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e51572a7d459",
@@ -6063,7 +7685,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ca68f4c9c085",
@@ -6085,7 +7713,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d6e64bebd907",
@@ -6107,7 +7741,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0e81eb589db6",
@@ -6129,7 +7769,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "fbe539b4c23c",
@@ -6151,7 +7797,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "eef64c440f9a",
@@ -6173,7 +7825,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "a5862ce4eb67",
@@ -6195,7 +7853,13 @@
    ],
    "pct": 30,
    "price": 31.49,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "74bdf0489fd6",
@@ -6217,7 +7881,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ea376614f4e6",
@@ -6239,7 +7909,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "55e48584ccc7",
@@ -6261,7 +7937,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c83129d6e944",
@@ -6283,7 +7965,13 @@
    ],
    "pct": 67,
    "price": 98.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "233926c50f36",
@@ -6305,7 +7993,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "f0f7bc807e3a",
@@ -6327,7 +8021,13 @@
    ],
    "pct": 60,
    "price": 19.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   }
   },
   {
    "id": "2d8ae34ceec3",
@@ -6349,7 +8049,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "12c422f838df",
@@ -6371,7 +8077,13 @@
    ],
    "pct": 75,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "2e8ff1a51a3e",
@@ -6393,7 +8105,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ab1e835dedb3",
@@ -6415,7 +8133,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Chipotle",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "05f5597edf12",
@@ -6437,7 +8161,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c219dc472f1b",
@@ -6464,7 +8194,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料"
+   "ja": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料",
+   "sum": {
+    "store": "Walgreens",
+    "item": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料",
+    "when": "",
+    "cond": "コード入力"
+   }
   },
   {
    "id": "1cd82dbc6b05",
@@ -6486,7 +8222,13 @@
    ],
    "pct": 59,
    "price": 14.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "343beee07e16",
@@ -6508,7 +8250,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   }
   },
   {
    "id": "7a8f99559bf7",
@@ -6530,7 +8278,13 @@
    ],
    "pct": 56,
    "price": 22.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5a1e860d8486",
@@ -6552,7 +8306,13 @@
    ],
    "pct": 53,
    "price": 9.49,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "33dcb689d09e",
@@ -6574,7 +8334,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "cce2121a1234",
@@ -6596,7 +8362,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b70184920120",
@@ -6618,7 +8390,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "77e38659acbf",
@@ -6640,7 +8418,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e7d1c6289004",
@@ -6662,7 +8446,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "a60684ef2bd3",
@@ -6684,7 +8474,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "dabd07d7066a",
@@ -6706,7 +8502,13 @@
    ],
    "pct": 85,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e1e79958ba4b",
@@ -6728,7 +8530,13 @@
    ],
    "pct": 53,
    "price": 13.99,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b702bfabfd8a",
@@ -6748,7 +8556,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "26e9cfb5a9da",
@@ -6770,7 +8584,13 @@
    ],
    "pct": 47,
    "price": 8.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8b94d1cae113",
@@ -6792,7 +8612,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d6506a841ba2",
@@ -6814,7 +8640,13 @@
    ],
    "pct": 33,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Kroger",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "9a0871f014a6",
@@ -6836,7 +8668,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "8229274ae140",
@@ -6858,7 +8696,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Chipotle",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e9e49d56b41c",
@@ -6880,7 +8724,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "7d25ae0c1918",
@@ -6902,7 +8752,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e3be4ecd4c47",
@@ -6924,7 +8780,13 @@
    ],
    "pct": 50,
    "price": 22.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b4bb2df03530",
@@ -6946,7 +8808,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "ce2f4e3d5b60",
@@ -6968,7 +8836,13 @@
    ],
    "pct": 48,
    "price": 10.44,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "825092b4aeb6",
@@ -6990,7 +8864,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "4f01fcd0e7c9",
@@ -7012,7 +8892,13 @@
    ],
    "pct": 33,
    "price": 6.7,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "089c296ffaa6",
@@ -7034,7 +8920,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "75460aad2828",
@@ -7056,7 +8948,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Michaels",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d7343750736e",
@@ -7078,7 +8976,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "ffbac75b4c5b",
@@ -7100,7 +9004,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": "コード入力"
+   }
   },
   {
    "id": "3377a255f081",
@@ -7122,7 +9032,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "21b783a200da",
@@ -7146,7 +9062,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "6d54c0195551",
@@ -7168,7 +9090,13 @@
    ],
    "pct": 71,
    "price": 12.0,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "28b048d9a3cf",
@@ -7192,7 +9120,13 @@
     "kind": "store",
     "when": "2026-10-25"
    },
-   "ja": "10月25日の無料キッズレゴワークショップ–ゴーストストリートモデルを作ろう！"
+   "ja": "10月25日の無料キッズレゴワークショップ–ゴーストストリートモデルを作ろう！",
+   "sum": {
+    "store": "",
+    "item": "10月25日の無料キッズレゴワークショップ–ゴーストストリートモデルを作ろう！",
+    "when": "10/25(日)",
+    "cond": "子ども向け"
+   }
   },
   {
    "id": "e2f6b2025529",
@@ -7214,7 +9148,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "b4fff10bd0b7",
@@ -7236,7 +9176,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d68c622dae9b",
@@ -7258,7 +9204,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Taco Bell",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e2bcfd8c8b47",
@@ -7280,7 +9232,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "0d6f682b68d8",
@@ -7302,7 +9260,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "de1744269bb3",
@@ -7324,7 +9288,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "a113fb059b50",
@@ -7344,7 +9314,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "25e0489d978a",
@@ -7364,7 +9340,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Ibotta",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "c0feef908921",
@@ -7388,7 +9370,13 @@
     "kind": "store",
     "when": "2026-12-12"
    },
-   "ja": "12月12日、Petcoでサンタさんと一緒に無料のペット写真撮影"
+   "ja": "12月12日、Petcoでサンタさんと一緒に無料のペット写真撮影",
+   "sum": {
+    "store": "Petco",
+    "item": "12月12日、Petcoでサンタさんと一緒に無料のペット写真撮影",
+    "when": "12/12(土)",
+    "cond": ""
+   }
   },
   {
    "id": "75335f8a9ac9",
@@ -7408,7 +9396,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "2524557e0d2d",
@@ -7434,7 +9428,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Walmart +メンバーは毎月25枚の無料4 x 6フォトプリントを獲得します。その方法をご紹介します！"
+   "ja": "Walmart +メンバーは毎月25枚の無料4 x 6フォトプリントを獲得します。その方法をご紹介します！",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart +メンバーは毎月25枚の無料4 x 6フォトプリントを獲得します。その方法をご紹介します！",
+    "when": "",
+    "cond": "会員限定"
+   }
   },
   {
    "id": "0dca98073336",
@@ -7460,7 +9460,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "$ 10の無料MyLowe's Money （アプリをダウンロードするだけ！ ）"
+   "ja": "$ 10の無料MyLowe's Money （アプリをダウンロードするだけ！ ）",
+   "sum": {
+    "store": "Lowe's",
+    "item": "$ 10の無料MyLowe's Money （アプリをダウンロードするだけ！ ）",
+    "when": "",
+    "cond": "アプリ"
+   }
   },
   {
    "id": "b78cb878056a",
@@ -7480,7 +9486,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "2b7c86f28695",
@@ -7500,7 +9512,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "5c588c50f374",
@@ -7523,7 +9541,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Starbucks",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "e1a93906d1c4",
@@ -7549,7 +9573,13 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "11月7日の無料ホームデポキッズワークショップ|今すぐ登録してダンプトラックを作ろう"
+   "ja": "11月7日の無料ホームデポキッズワークショップ|今すぐ登録してダンプトラックを作ろう",
+   "sum": {
+    "store": "Home Depot",
+    "item": "11月7日の無料ホームデポキッズワークショップ|今すぐ登録してダンプトラックを作ろう",
+    "when": "11/7(土)",
+    "cond": "要登録・子ども向け"
+   }
   },
   {
    "id": "316c6ef44127",
@@ -7573,7 +9603,13 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "11月7日にBass Pro ＆ Cabela'sで無料のトナカイのぬいぐるみ（ 11月8日にサンタと一緒に無料の写真を撮ろう！ ）"
+   "ja": "11月7日にBass Pro ＆ Cabela'sで無料のトナカイのぬいぐるみ（ 11月8日にサンタと一緒に無料の写真を撮ろう！ ）",
+   "sum": {
+    "store": "Bass Pro & Cabela’s",
+    "item": "11月7日にBass Pro ＆ Cabela'sで無料のトナカイのぬいぐるみ（ 11月8日にサンタと一緒に無料の写真を撮ろう！ ）",
+    "when": "11/7(土)",
+    "cond": ""
+   }
   },
   {
    "id": "d8f248e105dc",
@@ -7597,7 +9633,13 @@
     "kind": "coupon",
     "when": "2026-10-31"
    },
-   "ja": "10月31日まで、毎日正午（東部標準時）に無料のキーブラークッキーが届きます！"
+   "ja": "10月31日まで、毎日正午（東部標準時）に無料のキーブラークッキーが届きます！",
+   "sum": {
+    "store": "",
+    "item": "10月31日まで、毎日正午（東部標準時）に無料のキーブラークッキーが届きます！",
+    "when": "10/31(土)",
+    "cond": ""
+   }
   },
   {
    "id": "82cd01781345",
@@ -7619,7 +9661,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d8190950dcb9",
@@ -7643,7 +9691,13 @@
     "kind": "store",
     "when": null
    },
-   "ja": "急いで！最初の10,000人分のレッドバロンクランチタイムピザが無料！"
+   "ja": "急いで！最初の10,000人分のレッドバロンクランチタイムピザが無料！",
+   "sum": {
+    "store": "",
+    "item": "急いで！最初の10,000人分のレッドバロンクランチタイムピザが無料！",
+    "when": "",
+    "cond": "先着10,000名"
+   }
   },
   {
    "id": "a5b9b073663e",
@@ -7665,7 +9719,13 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   }
   }
  ]
 }

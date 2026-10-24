@@ -322,12 +322,24 @@ def main():
             [x for x in todo if not x.get("freebie")], key=lambda x: x["posted"], reverse=True)
         if not os.environ.get("GEMINI_API_KEY"):
             todo = [x for x in todo if x.get("freebie")]   # 無料の翻訳は字数制限があるので無料情報だけ
-        ja, how = translate([(x["id"], x["title"]) for x in todo], limit=60)
+        ja, how = translate([(x["id"], parse_date_iso(x["posted"]).astimezone(CT).strftime("%Y-%m-%d"), x["title"])
+                             for x in todo], limit=60)
         for x in todo:
             if x["id"] in ja:
-                x["ja"] = ja[x["id"]]
+                v = ja[x["id"]]
+                if isinstance(v, dict):
+                    x["sum"] = v
+                    x["ja"] = v["item"]
+                else:
+                    x["ja"] = v
+                    x.pop("sum", None)
                 x["jaVia"] = how
         stats["ja"] = {"done": len(ja), "via": how}
+
+    # 「店舗名:もらえるもの:日時:条件」の形に(Gemini 以外は分かる範囲で組み立てる)
+    for x in by_id.values():
+        if x.get("jaVia") != "gemini":
+            x["sum"] = fallback_sum(x)
 
     # 古いもの・期限切れを削除
     keep = []
@@ -350,6 +362,46 @@ def main():
     # すべての取得先が失敗したときだけ異常終了(1つの失敗では止めない)
     if errors and len(errors) == len(sources["feeds"]):
         sys.exit(1)
+
+
+WD = "月火水木金土日"
+COND_RULES = [
+    (r"rewards? members?|members? only|\bmembers\b", "会員限定"), (r"w/ (?:any )?purchase|with (?:any )?purchase|\bw/ .*meal|with any .*meal", "購入時"),
+    (r"first ([\d,]+)", "先着{0}名"), (r"register|rsvp|sign up", "要登録"), (r"promo code|code\b", "コード入力"),
+    (r"\bapp\b", "アプリ"), (r"while supplies last|get there early", "なくなり次第終了"), (r"kids?\b", "子ども向け"),
+]
+
+
+def fallback_sum(x):
+    """Gemini がないとき:店・日時・条件は見出しから機械的に、もらえるものは翻訳文。"""
+    store = "・".join(n for n in x.get("stores", [])[:2] if n != "レストラン全般")
+    if not store:   # 「at Petco」「with Jimmy John’s ...」の大文字の語を店名とみなす(at を優先)
+        for kw in ("at", "with"):
+            m = re.search(rf"\b{kw}\s+((?:[A-Z][\w'’&.-]*(?:\s+(?:&|and)\s+|\s+)?){{1,4}})", x["title"])
+            if not m:
+                continue
+            cand = re.sub(r"\s+(?:Triple|Kids|Holiday|Any|Today|On|January|February|March|April|May|June|July|"
+                          r"August|September|October|November|December)\b.*$", "", m.group(1)).strip(" &")
+            if cand and cand.split()[0] not in ("Santa", "Noon", "Purchase", "Any", "Free", "FREE"):
+                store = cand
+                break
+    when = ""
+    fb = x.get("freebie") or {}
+    d = fb.get("when") or x.get("expires")
+    if d:
+        dd = dt.date.fromisoformat(d)
+        when = f"{dd.month}/{dd.day}({WD[dd.weekday()]})" + ("" if fb.get("when") else "まで")
+        m = re.search(r"(\d{1,2})(?::(\d\d))?\s*-\s*(\d{1,2})(?::\d\d)?\s*(am|pm)|@ ?(\d{1,2})(?::(\d\d))? ?(am|pm)|(\d{1,2})(?::(\d\d))? ?(am|pm)", x["title"], re.I)
+        if m:
+            when += " " + m.group(0).replace(" ", "").replace("@", "")
+    conds = []
+    for rx, lab in COND_RULES:
+        m = re.search(rx, x["title"], re.I)
+        if m:
+            lab = lab.format(*m.groups()) if m.groups() else lab
+            if lab not in conds:
+                conds.append(lab)
+    return {"store": store, "item": x.get("ja") or "", "when": when, "cond": "・".join(conds[:3])}
 
 
 def parse_date_iso(s):

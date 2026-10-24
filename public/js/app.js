@@ -42,7 +42,7 @@
       if (!['p50', 'today'].includes(t) && !x.types.includes(t)) return false;
     }
     if (state.store && !x.stores.includes(state.store)) return false;
-    if (state.q && !(x.title + ' ' + (x.ja || '') + ' ' + x.stores.join(' ')).toLowerCase().includes(state.q)) return false;
+    if (state.q && !(x.title + ' ' + (x.ja || '') + ' ' + Object.values(x.sum || {}).join(' ') + ' ' + x.stores.join(' ')).toLowerCase().includes(state.q)) return false;
     return true;
   }
 
@@ -57,6 +57,21 @@
     else if (state.sort === 'exp') s.sort((a, b) => expOf(a).localeCompare(expOf(b)));
     else s.sort((a, b) => b.posted.localeCompare(a.posted));
     return s;
+  }
+
+  // 「店舗名:もらえるもの:日時:条件」(要約がなければ英語の見出し)
+  function sumLine(x, href) {
+    const a = (t) => el('a', { href, target: '_blank', rel: 'noopener noreferrer', textContent: t });
+    const sm = x.sum;
+    if (!sm || !sm.item) return el('div', { className: 'sumline' }, a(x.ja || x.title));
+    let when = sm.when || '—';
+    if (x.freebie && x.freebie.when && daysLeft(x.freebie.when) === 0) when = '今日' + (when.includes(' ') ? ' ' + when.split(' ').slice(1).join(' ') : '');
+    const store = sm.store || x.stores.filter((n) => n !== 'レストラン全般').slice(0, 2).join('・') || '—';
+    return el('div', { className: 'sumline' }, [
+      el('b', { textContent: store }), '：', a(sm.item), '：',
+      el('span', { className: when.startsWith('今日') ? 'today' : '', textContent: when }), '：',
+      el('span', { textContent: sm.cond || '—' })
+    ]);
   }
 
   function card(x) {
@@ -82,8 +97,8 @@
     sub.append(el('span', { textContent: `${md(new Date(Date.parse(x.posted)).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }))} 掲載・${x.source}` }));
     const href = /^https:\/\//.test(x.link) ? x.link : '#';
     return el('li', { className: 'card' + (x.freebie ? ' hot' : '') }, [
-      el('a', { href, target: '_blank', rel: 'noopener noreferrer', textContent: x.ja || x.title }),
-      x.ja ? el('div', { className: 'orig', textContent: x.title }) : null, sub
+      sumLine(x, href),
+      (x.sum || x.ja) ? el('div', { className: 'orig', textContent: x.title }) : null, sub
     ]);
   }
 

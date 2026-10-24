@@ -61,3 +61,7 @@ body { margin: 0; background: var(--bg); color: var(--text);
 .foot { color: var(--muted); font-size: 12px; padding-bottom: 32px; }
 @media (max-width: 480px) { body { font-size: 14px; } .row select { flex: 1; } }
 .card .orig { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.sumline { font-size: 15px; line-height: 1.55; }
+.sumline b { font-weight: 700; }
+.sumline a { font-weight: 600; }
+.sumline .today { color: var(--hot); font-weight: 700; }
