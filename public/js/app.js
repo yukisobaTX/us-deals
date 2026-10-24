@@ -16,7 +16,7 @@
     { id: 'gc', label: 'ギフトカード' }, { id: 'p50', label: '50%以上' }, { id: 'today', label: '期限が近い' }
   ];
   const DAY = 86400000;
-  const state = { cat: 'free', types: new Set(), store: '', sort: 'new', q: '' };
+  const state = { cat: 'free', types: new Set(), store: '', sort: 'date', q: '' };
   let items = [];
   let links = { groups: [] };
 
@@ -48,10 +48,9 @@
 
   function sorted(list) {
     const s = list.slice();
-    if (state.cat === 'free' && state.sort === 'new') {
-      // 無料タブは「店頭 → クーポン」、それぞれ日付の近い順
-      const k = (x) => (x.freebie.kind === 'store' ? '0' : '1') + (x.freebie.when || '9999');
-      return s.sort((a, b) => k(a).localeCompare(k(b)));
+    if (state.sort === 'date') {
+      // 日付順:配布日・期限の近い順(日付が読めないものは後ろに、新しい掲載順)
+      return s.sort((a, b) => (a.date || '9999').localeCompare(b.date || '9999') || b.posted.localeCompare(a.posted));
     }
     if (state.sort === 'pct') s.sort((a, b) => (b.pct || 0) - (a.pct || 0) || b.posted.localeCompare(a.posted));
     else if (state.sort === 'exp') s.sort((a, b) => expOf(a).localeCompare(expOf(b)));
@@ -65,7 +64,7 @@
     const sm = x.sum;
     if (!sm || !sm.item) return el('div', { className: 'sumline' }, a(x.ja || x.title));
     let when = sm.when || '—';
-    if (x.freebie && x.freebie.when && daysLeft(x.freebie.when) === 0) when = '今日' + (when.includes(' ') ? ' ' + when.split(' ').slice(1).join(' ') : '');
+    if (x.date && daysLeft(x.date) === 0 && !when.startsWith('〜')) when = '今日' + (when.includes(' ') ? ' ' + when.split(' ').slice(1).join(' ') : '');
     const store = sm.store || x.stores.filter((n) => n !== 'レストラン全般').slice(0, 2).join('・') || '—';
     return el('div', { className: 'sumline' }, [
       el('b', { textContent: store }), '：', a(sm.item), '：',
@@ -87,7 +86,7 @@
       if (lab) sub.append(el('span', { className: 'tag', textContent: lab }));
     }
     if (x.pct) sub.append(el('span', { className: 'tag pct', textContent: `${x.pct}%OFF` }));
-    if (x.expires && !(x.freebie && x.freebie.kind === 'store')) {
+    if (x.expires && !(x.freebie && x.freebie.kind === 'store') && !(x.sum && x.sum.when)) {
       const left = daysLeft(x.expires);
       sub.append(el('span', {
         className: 'tag exp' + (left <= 2 ? ' soon' : ''),
@@ -96,10 +95,18 @@
     }
     sub.append(el('span', { textContent: `${md(new Date(Date.parse(x.posted)).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }))} 掲載・${x.source}` }));
     const href = /^https:\/\//.test(x.link) ? x.link : '#';
-    return el('li', { className: 'card' + (x.freebie ? ' hot' : '') }, [
+    const body = el('div', { className: 'body' }, [
       sumLine(x, href),
       (x.sum || x.ja) ? el('div', { className: 'orig', textContent: x.title }) : null, sub
     ]);
+    // サムネ:配信元の画像を直接表示(保存はしない)。読めなければ枠ごと消す
+    let thumb = null;
+    if (x.thumb && /^https:\/\//.test(x.thumb)) {
+      const img = el('img', { src: x.thumb, alt: '', loading: 'lazy', decoding: 'async', referrerPolicy: 'no-referrer' });
+      img.onerror = () => { if (thumb.parentNode) thumb.parentNode.classList.remove('has-thumb'); thumb.remove(); };
+      thumb = el('a', { className: 'thumb', href, target: '_blank', rel: 'noopener noreferrer', tabIndex: -1 }, img);
+    }
+    return el('li', { className: 'card' + (x.freebie ? ' hot' : '') + (thumb ? ' has-thumb' : '') }, [thumb, body]);
   }
 
   function renderTabs() {

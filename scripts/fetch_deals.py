@@ -56,18 +56,37 @@ def page_url(url, n):
     return url + ("&" if "?" in url else "?") + f"paged={n}"
 
 
+IMG_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
+
+
+def find_thumb(it_xml_get):
+    """サムネイル画像の URL(画像そのものは保存しない)。"""
+    for t in it_xml_get:
+        if t and t.startswith("https://"):
+            return t.strip()
+    return None
+
+
 def parse_rss(text):
     """RSS 2.0 を読む。壊れた XML でも <item> 単位で拾えるだけ拾う。"""
     items = []
     try:
         root = ET.fromstring(text)
         nodes = root.iter("item")
+        ns_media = "{http://search.yahoo.com/mrss/}"
+        ns_content = "{http://purl.org/rss/1.0/modules/content/}encoded"
         for it in nodes:
+            html_parts = (it.findtext(ns_content) or "") + (it.findtext("description") or "")
+            m = IMG_RE.search(html_parts)
+            mt = it.find(ns_media + "thumbnail") if it.find(ns_media + "thumbnail") is not None else it.find(ns_media + "content")
             items.append({
                 "title": (it.findtext("title") or "").strip(),
                 "link": (it.findtext("link") or "").strip(),
                 "date": (it.findtext("pubDate") or "").strip(),
                 "cats": [(c.text or "").strip() for c in it.findall("category") if c.text],
+                "thumb": find_thumb([(it.findtext("thumbnail-image") or "").strip(),
+                                     mt.get("url") if mt is not None else None,
+                                     m.group(1) if m else None]),
             })
         return items
     except ET.ParseError:
@@ -83,6 +102,8 @@ def parse_rss(text):
             "link": unc(tag("link")),
             "date": unc(tag("pubDate")),
             "cats": [unc(c) for c in re.findall(r"<category[^>]*>(.*?)</category>", block, flags=re.S)],
+            "thumb": find_thumb([unc(tag("thumbnail-image")),
+                                 (IMG_RE.search(html.unescape(block)) or [None, None])[1]]),
         })
     return items
 
@@ -287,6 +308,8 @@ def main():
                 continue
             iid = hashlib.sha1(link.split("?")[0].rstrip("/").encode()).hexdigest()[:12]
             if iid in by_id:
+                if it.get("thumb") and not by_id[iid].get("thumb"):
+                    by_id[iid]["thumb"] = it["thumb"]   # 既存の記事にもサムネを補う
                 continue
             posted = parse_date(it["date"]) or now
             if (now - posted).days > KEEP_DAYS:
@@ -299,6 +322,7 @@ def main():
                 "posted": posted.isoformat(timespec="minutes").replace("+00:00", "Z"),
                 "firstSeen": now.isoformat(timespec="minutes").replace("+00:00", "Z"),
                 "expires": guess_expiry(title, posted),
+                "thumb": it.get("thumb"),
                 "hot": ("free" in c["types"]) or (c["pct"] or 0) >= 70,
                 **c,
             }
@@ -341,6 +365,10 @@ def main():
     for x in by_id.values():
         if x.get("jaVia") != "gemini":
             x["sum"] = fallback_sum(x)
+
+    # 並べ替え用の日付:無料の配布日 → 要約の日時(M/D) → 期限
+    for x in by_id.values():
+        x["date"] = sort_date(x)
 
     # 古いもの・期限切れを削除
     keep = []
@@ -403,6 +431,23 @@ def fallback_sum(x):
             if lab not in conds:
                 conds.append(lab)
     return {"store": store, "item": x.get("ja") or "", "when": when, "cond": "・".join(conds[:3])}
+
+
+def sort_date(x):
+    fb = x.get("freebie") or {}
+    if fb.get("when"):
+        return fb["when"]
+    w = (x.get("sum") or {}).get("when") or ""
+    m = re.search(r"(\d{1,2})/(\d{1,2})", w)
+    if m:
+        posted = parse_date_iso(x["posted"]).astimezone(CT).date()
+        mo, d = int(m.group(1)), int(m.group(2))
+        y = posted.year + (1 if mo < posted.month - 6 else 0)
+        try:
+            return dt.date(y, mo, d).isoformat()
+        except ValueError:
+            pass
+    return x.get("expires")
 
 
 def parse_date_iso(s):

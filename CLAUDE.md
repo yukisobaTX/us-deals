@@ -13,7 +13,7 @@
 
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
-- 保存するのは見出し・リンク・掲載日・分類だけ。本文・画像は保存も表示もしない。
+- 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
 - 取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
 
 ## 変えるとき
@@ -22,5 +22,6 @@
 - 期限は見出しの「Today Only」「through 10/31」などから推定。読めないものは画面で「掲載日 + 7日」を目安にする。21日より古い記事は自動で消える。
 - 「注目」= 無料、または 70%以上の値引き。
 - 「無料でもらえる」(freebie)= fetch_deals.py の freebie_info()。送料無料・BOGO・キャッシュバック後無料・懸賞・お試し・退役軍人向けなどは除外。店頭(イベント・日時・数量限定)とクーポンに分け、日付を見出しから読む。毎回すべての記事にかけ直す。画面の初期タブ。
+- 並び順の既定は「日付順」(items[].date = 配布日 → 要約の日時 → 期限、日付なしは後ろ)。通知メールも1本のリストで日付順(🏬店頭・🎟クーポン)。
 - 画面の JS は public/js/app.js。外部の見出しは textContent で入れる(innerHTML は使わない)。
 - 試験:`python3 scripts/fetch_deals.py --from-dir tests/fixtures --out /tmp/x.json`(ネット不要)、`python3 scripts/daily_digest.py --force --dry-run`。

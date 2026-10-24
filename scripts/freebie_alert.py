@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from daily_digest import CT, DEALS, MENTION, api, fmt_item  # noqa: E402
+from daily_digest import CT, DEALS, MENTION, api, by_date, fmt_item  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "public" / "data" / "alert-state.json"
@@ -42,18 +42,15 @@ def main():
         print("無料の新着なし")
         STATE.write_text(json.dumps({**state, "lastAlert": data["updated"]}, indent=1) + "\n")
         return
-    new.sort(key=lambda x: (x["freebie"]["kind"] != "store", x["freebie"]["when"] or "9999"))
+    new = by_date(new)
     store = [x for x in new if x["freebie"]["kind"] == "store"]
     coupon = [x for x in new if x["freebie"]["kind"] == "coupon"]
     soon = [x for x in store if x["freebie"]["when"] == today]
     head = "🎁 無料情報" + (" ⏰今日" if soon else "")
     title = f"{head}:" + "・".join([f"店頭{len(store)}"] * bool(store) + [f"クーポン{len(coupon)}"] * bool(coupon)) \
         + " / " + (new[0].get("ja") or new[0]["title"])[:40]
-    lines = [f"{MENTION} 無料でもらえる新着です。", ""]
-    if store:
-        lines += ["## 🏬 店頭でもらえる", *[fmt_item(x, today) for x in store], ""]
-    if coupon:
-        lines += ["## 🎟 無料クーポン・アプリ", *[fmt_item(x, today) for x in coupon], ""]
+    lines = [f"{MENTION} 無料でもらえる新着です(日付順、🏬店頭・🎟クーポン)。", "",
+             *[fmt_item(x, today) for x in new], ""]
     site = os.environ.get("SITE_URL", "")
     if site:
         lines += [f"一覧: {site}", ""]

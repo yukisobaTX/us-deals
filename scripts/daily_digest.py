@@ -55,16 +55,21 @@ def sum_parts(x, today):
     store = sm.get("store") or "・".join(n for n in x["stores"][:2] if n != "レストラン全般") or "—"
     item = sm.get("item") or x.get("ja") or x["title"]
     when = sm.get("when") or ""
-    fb = x.get("freebie") or {}
-    if fb.get("when") == today:
+    if x.get("date") == today and not when.startswith("〜"):
         when = "今日 " + when.split(" ", 1)[1] if " " in when else "今日"
     return store, item, when or "—", sm.get("cond") or "—"
+
+
+def by_date(xs):
+    """日付順(配布日・期限が近い順、日付なしは後ろ)。"""
+    return sorted(xs, key=lambda x: (x.get("date") or "9999", x["posted"]))
 
 
 def fmt_item(x, today):
     store, item, when, cond = sum_parts(x, today)
     when = f"**{when}**" if when.startswith("今日") else when
-    return f"- **{store}**:[{item}]({x['link']}):{when}:{cond}<br><sub>{x['title']}</sub>"
+    icon = "🏬" if (x.get("freebie") or {}).get("kind") == "store" else "🎟"
+    return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}<br><sub>{x['title']}</sub>"
 
 
 def build(items, since, site):
@@ -82,13 +87,11 @@ def build(items, since, site):
     coupon = [x for x in fbs if x["freebie"]["kind"] == "coupon" and x["firstSeen"] > since
               and (x["freebie"]["when"] or "9999") >= t_iso]
     coupon.sort(key=lambda x: x["freebie"]["when"] or "9999")
-    n = len(store) + len(coupon)
+    allx = by_date(store + coupon)
+    n = len(allx)
     title = f"無料でもらえる {today.month}/{today.day}:店頭{len(store)}・クーポン{len(coupon)}"
-    lines = [f"{MENTION} おはようございます。無料でもらえるものだけをまとめました。", ""]
-    if store:
-        lines += ["## 🏬 店頭でもらえる(日付順)", *[fmt_item(x, t_iso) for x in store], ""]
-    if coupon:
-        lines += ["## 🎟 無料クーポン・アプリ", *[fmt_item(x, t_iso) for x in coupon], ""]
+    lines = [f"{MENTION} おはようございます。無料でもらえるもの(日付順、🏬店頭・🎟クーポン)です。", ""]
+    lines += [fmt_item(x, t_iso) for x in allx] + [""]
     if site:
         lines += [f"セール情報も含めた一覧: {site}", ""]
     lines += ["---", "見出しとリンクは各ブログの RSS から自動で集めています。店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]
