@@ -159,6 +159,58 @@ def classify(title, cats, stores, types, skip_regions):
     return {"stores": hit_stores, "cats": hit_cats, "types": tset, "pct": pct, "price": price}
 
 
+# ---------------- 無料でもらえるもの(ギフト・店頭配布) ----------------
+GIFT_FREE_RE = re.compile(r"(?<![A-Za-z-])FREE(?![A-Za-z-])", re.I)
+# 「無料」でも、もらえる物ではないもの(送料・受け取り・アプリ・〜フリー製品 など)
+NOT_GIFT_RE = re.compile(
+    r"free\s+(?:[\w'’-]+\s+){0,2}(?:shipping|delivery|pickup|returns?)\b"
+    r"|free\s+\w+\s+app\b|better than free|free or cheap|print this free"
+    r"|buy\s*(?:1|one),?\s*get\s*(?:1|one)\s*free|bogo|b1g1"
+    r"|\bwin\b|enter now|sweepstakes|giveaway entry|instant win"
+    r"|try (?:out )?.*for free|free trial|membership"
+    r"|after (?:cash ?back|fetch|ibotta|rebate|walmart cash|.*rebate)|ibotta|fetch rewards|rebate"
+    r"|for (?:veterans|military|active service|teachers|nurses|healthcare|first responders)"
+    r"|veterans day", re.I)
+STORE_RE = re.compile(
+    r"\bevent\b|workshop|in[- ]store|today\b|this weekend|tonight|get there early|first [\d,]+"
+    r"|@ ?\d|\b\d{1,2}(?::\d\d)? ?(?:am|pm)\b|\bon \d{1,2}/\d{1,2}|\bon (?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]* \d"
+    r"|photos? with santa|haircut|while supplies last|plushie|\bat (?:target|lowe'?s|home depot|walmart|macy'?s|petco|petsmart|tractor supply|bass pro|barnes|kroger|h-e-b|heb)\b",
+    re.I)
+MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def event_date(title, posted):
+    """見出しから「いつもらえるか」を読む(開始日)。読めなければ None。"""
+    ct = posted.astimezone(CT).date()
+    if re.search(r"\btoday\b|tonight|today only", title, re.I):
+        return ct.isoformat()
+    if re.search(r"this weekend", title, re.I):
+        return (ct + dt.timedelta(days=max(0, 5 - ct.weekday()))).isoformat()
+    m = re.search(r"(\d{1,2})/(\d{1,2})", title)
+    mo = d = None
+    if m:
+        mo, d = int(m.group(1)), int(m.group(2))
+    else:
+        m = re.search(r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.? (\d{1,2})(?:st|nd|rd|th)?\b", title, re.I)
+        if m:
+            mo, d = MONTHS[m.group(1).lower()], int(m.group(2))
+    if not mo:
+        return None
+    y = ct.year + (1 if mo < ct.month - 6 else 0)
+    try:
+        return dt.date(y, mo, d).isoformat()
+    except ValueError:
+        return None
+
+
+def freebie_info(title, posted):
+    """無料でもらえるものなら {"kind": "store"|"coupon", "when": 日付} を返す。"""
+    if not GIFT_FREE_RE.search(title) or NOT_GIFT_RE.search(title) or ENDED_RE.search(title):
+        return None
+    kind = "store" if STORE_RE.search(title) else "coupon"
+    return {"kind": kind, "when": event_date(title, posted)}
+
+
 def parse_date(s):
     try:
         d = email.utils.parsedate_to_datetime(s)
@@ -248,6 +300,12 @@ def main():
             }
             added += 1
         stats[f["id"]] = {"read": len(raw_items), "added": added}
+
+    # 無料判定は毎回すべての記事にかけ直す(ルール変更を過去分にも反映)
+    for x in by_id.values():
+        x["freebie"] = freebie_info(x["title"], parse_date_iso(x["posted"]))
+        if x["freebie"] and x["freebie"]["when"] and not x.get("expires") and x["freebie"]["kind"] == "store":
+            x["expires"] = x["freebie"]["when"]
 
     # 古いもの・期限切れを削除
     keep = []

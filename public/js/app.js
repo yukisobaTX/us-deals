@@ -3,8 +3,8 @@
 // 見出しは外部の RSS 由来なので、innerHTML は使わず textContent で入れる。
 (() => {
   const CATS = [
+    { id: 'free', label: '🎁 無料でもらえる' },
     { id: 'all', label: 'すべて' },
-    { id: 'hot', label: '🔥 注目' },
     { id: 'grocery', label: 'スーパー' },
     { id: 'home', label: '雑貨・ホームセンター' },
     { id: 'food', label: 'レストラン・カフェ' },
@@ -16,7 +16,7 @@
     { id: 'gc', label: 'ギフトカード' }, { id: 'p50', label: '50%以上' }, { id: 'today', label: '期限が近い' }
   ];
   const DAY = 86400000;
-  const state = { cat: 'all', types: new Set(), store: '', sort: 'new', q: '' };
+  const state = { cat: 'free', types: new Set(), store: '', sort: 'new', q: '' };
   let items = [];
   let links = { groups: [] };
 
@@ -34,8 +34,8 @@
   const md = (d) => `${+d.slice(5, 7)}/${+d.slice(8, 10)}`;
 
   function match(x) {
-    if (state.cat === 'hot' && !x.hot) return false;
-    if (!['all', 'hot'].includes(state.cat) && !x.cats.includes(state.cat)) return false;
+    if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
+    if (!['all', 'free'].includes(state.cat) && !x.cats.includes(state.cat)) return false;
     for (const t of state.types) {
       if (t === 'p50' && !((x.pct || 0) >= 50)) return false;
       if (t === 'today' && !(x.expires && daysLeft(x.expires) <= 2)) return false;
@@ -48,6 +48,11 @@
 
   function sorted(list) {
     const s = list.slice();
+    if (state.cat === 'free' && state.sort === 'new') {
+      // 無料タブは「店頭 → クーポン」、それぞれ日付の近い順
+      const k = (x) => (x.freebie.kind === 'store' ? '0' : '1') + (x.freebie.when || '9999');
+      return s.sort((a, b) => k(a).localeCompare(k(b)));
+    }
     if (state.sort === 'pct') s.sort((a, b) => (b.pct || 0) - (a.pct || 0) || b.posted.localeCompare(a.posted));
     else if (state.sort === 'exp') s.sort((a, b) => expOf(a).localeCompare(expOf(b)));
     else s.sort((a, b) => b.posted.localeCompare(a.posted));
@@ -57,14 +62,17 @@
   function card(x) {
     const sub = el('div', { className: 'sub' });
     if (Date.now() - Date.parse(x.firstSeen) < DAY) sub.append(el('span', { className: 'new', textContent: 'NEW' }));
+    if (x.freebie) {
+      const w = x.freebie.when ? (daysLeft(x.freebie.when) === 0 ? '今日' : md(x.freebie.when)) : '';
+      sub.append(el('span', { className: 'tag free', textContent: (x.freebie.kind === 'store' ? '🏬 店頭' : '🎟 クーポン') + (w ? ' ' + w : '') }));
+    }
     sub.append(el('span', { className: 'store', textContent: x.stores.join('・') || '—' }));
-    if (x.types.includes('free')) sub.append(el('span', { className: 'tag free', textContent: '無料' }));
     for (const t of x.types) {
       const lab = { bogo: 'BOGO', coupon: 'クーポン', gc: 'ギフトカード' }[t];
       if (lab) sub.append(el('span', { className: 'tag', textContent: lab }));
     }
     if (x.pct) sub.append(el('span', { className: 'tag pct', textContent: `${x.pct}%OFF` }));
-    if (x.expires) {
+    if (x.expires && !(x.freebie && x.freebie.kind === 'store')) {
       const left = daysLeft(x.expires);
       sub.append(el('span', {
         className: 'tag exp' + (left <= 2 ? ' soon' : ''),
@@ -73,7 +81,7 @@
     }
     sub.append(el('span', { textContent: `${md(new Date(Date.parse(x.posted)).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }))} 掲載・${x.source}` }));
     const href = /^https:\/\//.test(x.link) ? x.link : '#';
-    return el('li', { className: 'card' + (x.hot ? ' hot' : '') }, [
+    return el('li', { className: 'card' + (x.freebie ? ' hot' : '') }, [
       el('a', { href, target: '_blank', rel: 'noopener noreferrer', textContent: x.title }), sub
     ]);
   }
@@ -81,7 +89,7 @@
   function renderTabs() {
     const tabs = $('tabs');
     tabs.replaceChildren(...CATS.map((c) => {
-      const n = c.id === 'all' ? items.length : c.id === 'hot' ? items.filter((x) => x.hot).length
+      const n = c.id === 'all' ? items.length : c.id === 'free' ? items.filter((x) => x.freebie).length
         : items.filter((x) => x.cats.includes(c.id)).length;
       if (c.id === 'other' && !n) return null;
       const b = el('button', { type: 'button' }, [c.label, el('span', { className: 'n', textContent: n })]);
@@ -101,7 +109,7 @@
   }
 
   function renderStores() {
-    const pool = items.filter((x) => ['all', 'hot'].includes(state.cat) || x.cats.includes(state.cat));
+    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : x.cats.includes(state.cat)));
     const cnt = new Map();
     for (const x of pool) for (const s of x.stores) cnt.set(s, (cnt.get(s) || 0) + 1);
     const sel = $('store');
@@ -111,7 +119,7 @@
   }
 
   function renderLinks() {
-    const groups = links.groups.filter((g) => ['all', 'hot'].includes(state.cat) || g.cat === state.cat);
+    const groups = links.groups.filter((g) => ['all', 'free'].includes(state.cat) || g.cat === state.cat);
     const label = Object.fromEntries(CATS.map((c) => [c.id, c.label]));
     $('linkbody').replaceChildren(...groups.flatMap((g) => [
       el('h3', { textContent: label[g.cat] || g.cat }),
@@ -129,7 +137,7 @@
   function save() { try { localStorage.setItem('deals.cat', state.cat); } catch (e) { /* 保存できなくても動く */ } }
 
   async function load() {
-    try { state.cat = localStorage.getItem('deals.cat') || 'all'; } catch (e) { /* noop */ }
+    try { state.cat = localStorage.getItem('deals.cat') || 'free'; if (!CATS.some((c) => c.id === state.cat)) state.cat = 'free'; } catch (e) { /* noop */ }
     const v = '?v=' + Date.now();
     const [d, l] = await Promise.all([
       fetch('data/deals.json' + v).then((r) => r.json()),

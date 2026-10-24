@@ -41,43 +41,51 @@ def api(method, path, body=None):
         return json.loads(t) if t else None
 
 
-def fmt_item(x):
-    tags = [TYPE_JA[t] for t in x["types"] if t in TYPE_JA and t != "sale"]
-    if x.get("pct"):
-        tags.append(f"{x['pct']}%OFF")
-    if x.get("expires"):
-        d = dt.date.fromisoformat(x["expires"])
-        tags.append(f"〜{d.month}/{d.day}")
-    store = "・".join(x["stores"][:2]) or "—"
-    return f"- {'🔥 ' if x.get('hot') else ''}**{store}** [{x['title']}]({x['link']})" + (f" `{' '.join(tags)}`" if tags else "")
+WD = "月火水木金土日"
+
+
+def md(iso):
+    d = dt.date.fromisoformat(iso)
+    return f"{d.month}/{d.day}({WD[d.weekday()]})"
+
+
+def fmt_item(x, today):
+    fb = x["freebie"]
+    names = [n for n in x["stores"][:2] if n != "レストラン全般"]
+    store = f"**{'・'.join(names)}** " if names else ""
+    when = ""
+    if fb.get("when"):
+        when = "**今日**" if fb["when"] == today else md(fb["when"])
+        when = f"{when} "
+    return f"- {when}{store}[{x['title']}]({x['link']})"
 
 
 def build(items, since, site):
-    cats = json.loads(STORES.read_text())["categories"]
-    labels = {c["id"]: c["label"] for c in cats}
-    labels["other"] = "その他(無料)"
-    new = [x for x in items if x["firstSeen"] > since]
-    hot = [x for x in new if x.get("hot")]
-    now = dt.datetime.now(CT)
-    title = f"お得情報 {now.month}/{now.day} 新着{len(new)}件(注目{len(hot)})"
-    lines = [f"{MENTION} おはようございます。前回のまとめ以降の新着です。", ""]
+    """無料でもらえるもの(店頭配布・無料クーポン)だけを送る。"""
+    today = dt.datetime.now(CT).date()
+    t_iso = today.isoformat()
+    tomorrow = (today + dt.timedelta(days=1)).isoformat()
+    fbs = [x for x in items if x.get("freebie")]
+    # 店頭:新着、または今日・明日のもの(前に知らせたものも当日にもう一度)
+    store = [x for x in fbs if x["freebie"]["kind"] == "store"
+             and (x["freebie"]["when"] or "9999") >= t_iso
+             and (x["firstSeen"] > since or x["freebie"]["when"] in (t_iso, tomorrow))]
+    store += [x for x in fbs if x["freebie"]["kind"] == "store" and not x["freebie"]["when"] and x["firstSeen"] > since and x not in store]
+    store.sort(key=lambda x: x["freebie"]["when"] or "9999")
+    coupon = [x for x in fbs if x["freebie"]["kind"] == "coupon" and x["firstSeen"] > since
+              and (x["freebie"]["when"] or "9999") >= t_iso]
+    coupon.sort(key=lambda x: x["freebie"]["when"] or "9999")
+    n = len(store) + len(coupon)
+    title = f"無料でもらえる {today.month}/{today.day}:店頭{len(store)}・クーポン{len(coupon)}"
+    lines = [f"{MENTION} おはようございます。無料でもらえるものだけをまとめました。", ""]
+    if store:
+        lines += ["## 🏬 店頭でもらえる(日付順)", *[fmt_item(x, t_iso) for x in store], ""]
+    if coupon:
+        lines += ["## 🎟 無料クーポン・アプリ", *[fmt_item(x, t_iso) for x in coupon], ""]
     if site:
-        lines += [f"一覧(絞り込み・期限順): {site}", ""]
-    if not new:
-        lines.append("新着はありませんでした。")
-    if hot:
-        lines += ["## 🔥 注目(無料・70%以上)", *[fmt_item(x) for x in hot[:15]], ""]
-    for cid in [c["id"] for c in cats] + ["other"]:
-        g = [x for x in new if cid in x["cats"] and not x.get("hot")]
-        if not g:
-            continue
-        lines.append(f"## {labels[cid]}({len(g)})")
-        lines += [fmt_item(x) for x in g[:MAX_PER_CAT]]
-        if len(g) > MAX_PER_CAT:
-            lines.append(f"- ほか {len(g) - MAX_PER_CAT} 件はサイトで")
-        lines.append("")
-    lines += ["---", "見出しとリンクは各ブログの RSS から自動で集めています。条件は必ずリンク先・お店の公式で確認してください。"]
-    return title, "\n".join(lines), len(new)
+        lines += [f"セール情報も含めた一覧: {site}", ""]
+    lines += ["---", "見出しとリンクは各ブログの RSS から自動で集めています。店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]
+    return title, "\n".join(lines), n
 
 
 def main():
@@ -99,6 +107,10 @@ def main():
     title, body, n = build(data["items"], since, os.environ.get("SITE_URL", ""))
     if data.get("errors"):
         body += "\n\n⚠️ 取得できなかった情報源: " + " / ".join(data["errors"])
+    if n == 0 and not a.force:
+        print("skip: 無料の新着なし(メールは送らない)")
+        STATE.write_text(json.dumps({**state, "lastSent": data["updated"], "lastDate": now_ct.date().isoformat()}, ensure_ascii=False, indent=1) + "\n")
+        return
     if a.dry_run:
         print(title)
         print(body)
@@ -111,7 +123,7 @@ def main():
     for old in api("GET", f"/issues?labels={LABEL}&state=open&per_page=50") or []:
         api("PATCH", f"/issues/{old['number']}", {"state": "closed", "state_reason": "completed"})
     created = api("POST", "/issues", {"title": title, "body": body, "labels": [LABEL]})
-    print(f"Issue #{created['number']} を作成(新着 {n} 件)")
+    print(f"Issue #{created['number']} を作成({n} 件)")
     STATE.write_text(json.dumps({"lastSent": data["updated"], "lastDate": now_ct.date().isoformat(),
                                  "lastIssue": created["number"]}, ensure_ascii=False, indent=1) + "\n")
 
