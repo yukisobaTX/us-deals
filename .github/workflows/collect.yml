@@ -40,5 +40,5 @@ jobs:
           git add public/data/
           git diff --cached --quiet && exit 0
           git commit -m "Deals $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push
