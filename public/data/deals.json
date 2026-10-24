@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T18:28Z",
+ "updated": "2026-10-24T18:31Z",
  "count": 345,
  "stats": {
   "h2s": {
@@ -18,7 +18,8 @@
    "done": 59,
    "via": "mymemory",
    "keySet": true,
-   "error": "HTTP Error 404: Not Found {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}"
+   "model": "gemini-3.8-flash",
+   "error": "The read operation timed out"
   }
  },
  "errors": [],
