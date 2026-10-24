@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T18:34Z",
- "count": 345,
+ "updated": "2026-10-24T18:47Z",
+ "count": 346,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -15,15 +15,44 @@
    "added": 0
   },
   "ja": {
-   "done": 59,
-   "via": "mymemory",
+   "done": 40,
+   "via": "gemini",
    "keySet": true,
-   "model": "gemini-3.8-flash",
-   "error": "The read operation timed out"
+   "model": "gemini-3.8-flash"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "2eb576101456",
+   "title": "Nintendo Switch & Switch 2 Games from $24.88 on Amazon (Reg. Up to $60!)",
+   "link": "https://hip2save.com/deals/nintendo-switch-games/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T18:40Z",
+   "firstSeen": "2026-10-24T18:47Z",
+   "expires": null,
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "Switchソフト各種が$24.88〜",
+    "when": "",
+    "cond": ""
+   },
+   "ja": "Switchソフト各種が$24.88〜",
+   "jaVia": "gemini"
+  },
   {
    "id": "a2dfb4dd47e0",
    "title": "Dot’s Pretzels 18-Count Variety Pack Only $7.47 Shipped on Amazon",
@@ -45,13 +74,13 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "Dot's Pretzels 18カウントバラエティパック$ 7.47のみAmazonで発送",
-   "jaVia": "mymemory",
+   "ja": "プレッツェル18袋が$7.47",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "Dot's Pretzels 18カウントバラエティパック$ 7.47のみAmazonで発送",
+    "item": "プレッツェル18袋が$7.47",
     "when": "",
-    "cond": ""
+    "cond": "送料無料"
    }
   },
   {
@@ -75,11 +104,11 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "ウォルマートがついにAnthro - Looking Heated Blanketsを再入荷しました！",
-   "jaVia": "mymemory",
+   "ja": "電気毛布が再入荷",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "ウォルマートがついにAnthro - Looking Heated Blanketsを再入荷しました！",
+    "item": "電気毛布が再入荷",
     "when": "",
     "cond": ""
    }
@@ -105,11 +134,11 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "ターゲットのバイラルクリスマスワンドが照明を魔法のように制御し、セール中です（また売り切れます！ ）",
-   "jaVia": "mymemory",
+   "ja": "クリスマスライト操作ワンドがセール",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "ターゲットのバイラルクリスマスワンドが照明を魔法のように制御し、セール中です（また売り切れます！ ）",
+    "item": "クリスマスライト操作ワンドがセール",
     "when": "",
     "cond": ""
    }
@@ -135,11 +164,11 @@
    "pct": 39,
    "price": 13.49,
    "freebie": null,
-   "ja": "ラッピングペーパー収納オーガナイザーAmazonでわずか$ 13.49 （登録番号$ 22 ） – 24ロールを収納！",
-   "jaVia": "mymemory",
+   "ja": "包装紙収納ケースが$13.49",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "ラッピングペーパー収納オーガナイザーAmazonでわずか$ 13.49 （登録番号$ 22 ） – 24ロールを収納！",
+    "item": "包装紙収納ケースが$13.49",
     "when": "",
     "cond": ""
    }
@@ -165,11 +194,11 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "アマゾンの$ 29未満のウイルスのような外見のワイドレッグパンツは、「Vuori Who ？」と言っています。",
-   "jaVia": "mymemory",
+   "ja": "ワイドレッグパンツが$29未満",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "アマゾンの$ 29未満のウイルスのような外見のワイドレッグパンツは、「Vuori Who ？」と言っています。",
+    "item": "ワイドレッグパンツが$29未満",
     "when": "",
     "cond": ""
    }
@@ -195,11 +224,11 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "ja": "Walmart.comの新しいクリスマスリースは$ 24.97から！",
-   "jaVia": "mymemory",
+   "ja": "新作クリスマスリースが$24.97〜",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "Walmart.comの新しいクリスマスリースは$ 24.97から！",
+    "item": "新作クリスマスリースが$24.97〜",
     "when": "",
     "cond": ""
    }
@@ -225,13 +254,13 @@
    "pct": 75,
    "price": null,
    "freebie": null,
-   "ja": "Walmart.comでキッズキャラクターの服が最大75%オフ| Tシャツ$ 2、ファッション$ 3など",
-   "jaVia": "mymemory",
+   "ja": "キッズキャラ服が最大75%オフ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "Walmart.comでキッズキャラクターの服が最大75%オフ| Tシャツ$ 2、ファッション$ 3など",
+    "item": "キッズキャラ服が最大75%オフ",
     "when": "",
-    "cond": "子ども向け"
+    "cond": ""
    }
   },
   {
@@ -255,11 +284,11 @@
    "pct": 66,
    "price": 7.59,
    "freebie": null,
-   "ja": "2つのLEDバブルナイトライトはAmazonでわずか$ 7.59 （登録価格$ 22 ）",
-   "jaVia": "mymemory",
+   "ja": "LEDバブル常夜灯2個が$7.59",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "2つのLEDバブルナイトライトはAmazonでわずか$ 7.59 （登録価格$ 22 ）",
+    "item": "LEDバブル常夜灯2個が$7.59",
     "when": "",
     "cond": ""
    }
@@ -285,11 +314,11 @@
    "pct": 55,
    "price": 44.99,
    "freebie": null,
-   "ja": "コードレス掃除機のみ$ 44.99アマゾンで出荷（登録番号： $ 100 ）|自立＆高さ調節可能",
-   "jaVia": "mymemory",
+   "ja": "コードレス掃除機が送料込$44.99",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "コードレス掃除機のみ$ 44.99アマゾンで出荷（登録番号： $ 100 ）|自立＆高さ調節可能",
+    "item": "コードレス掃除機が送料込$44.99",
     "when": "",
     "cond": ""
    }
@@ -315,11 +344,11 @@
    "pct": 69,
    "price": 11.0,
    "freebie": null,
-   "ja": "Walmart.comで$ 11からのGO! NCAAメンズパーカー（登録番号： $ 35 ）",
-   "jaVia": "mymemory",
+   "ja": "NCAAメンズパーカーが$11〜",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "Walmart.comで$ 11からのGO! NCAAメンズパーカー（登録番号： $ 35 ）",
+    "item": "NCAAメンズパーカーが$11〜",
     "when": "",
     "cond": ""
    }
@@ -345,11 +374,11 @@
    "pct": 47,
    "price": 9.59,
    "freebie": null,
-   "ja": "Puffs Plusローションティッシュ8パックのみ$ 9.59 Amazonで発送（登録価格$ 18 ）",
-   "jaVia": "mymemory",
+   "ja": "Puffs保湿ティッシュ8個が$9.59",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "Puffs Plusローションティッシュ8パックのみ$ 9.59 Amazonで発送（登録価格$ 18 ）",
+    "item": "Puffs保湿ティッシュ8個が$9.59",
     "when": "",
     "cond": ""
    }
@@ -1152,13 +1181,13 @@
     "kind": "store",
     "when": "2026-10-24"
    },
-   "ja": "今週末の若いアスリートのための無料Tiff'sトリートアイスクリームサンドイッチ",
-   "jaVia": "mymemory",
+   "ja": "アイスサンド無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "今週末の若いアスリートのための無料Tiff'sトリートアイスクリームサンドイッチ",
-    "when": "10/24(土)",
-    "cond": ""
+    "store": "Tiff’s Treats",
+    "item": "アイスサンド無料",
+    "when": "10/24〜10/25",
+    "cond": "若年アスリート限定"
    }
   },
   {
@@ -1271,10 +1300,12 @@
    },
    "sum": {
     "store": "Target",
-    "item": "",
-    "when": "10/24(土) 12-4PM",
+    "item": "コスメイベント・シール無料",
+    "when": "10/24 12〜16時",
     "cond": ""
-   }
+   },
+   "ja": "コスメイベント・シール無料",
+   "jaVia": "gemini"
   },
   {
    "id": "fb82147d284e",
@@ -1300,13 +1331,13 @@
     "kind": "store",
     "when": null
    },
-   "ja": "ロウズでMrBeastデー–報酬メンバーのための無料スワーム（お早めに！ ）",
-   "jaVia": "mymemory",
+   "ja": "MrBeast Swarms無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Lowe's",
-    "item": "ロウズでMrBeastデー–報酬メンバーのための無料スワーム（お早めに！ ）",
-    "when": "",
-    "cond": "会員限定・なくなり次第終了"
+    "store": "Lowe’s",
+    "item": "MrBeast Swarms無料",
+    "when": "10/24(土)",
+    "cond": "会員限定・先着"
    }
   },
   {
@@ -2987,11 +3018,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Bowlero、AMF、Lucky Strikeでの無料ボウリング+ $ 10アーケードカード",
-   "jaVia": "mymemory",
+   "ja": "ボウリング無料＋$10カード",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Bowlero",
-    "item": "Bowlero、AMF、Lucky Strikeでの無料ボウリング+ $ 10アーケードカード",
+    "store": "Bowlero, AMF & Lucky Strike",
+    "item": "ボウリング無料＋$10カード",
     "when": "",
     "cond": ""
    }
@@ -3158,13 +3189,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "20オンスのスプライトボトルを無料で獲得（ 115,000本入手可能！ ）",
-   "jaVia": "mymemory",
+   "ja": "スプライト20oz無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "20オンスのスプライトボトルを無料で獲得（ 115,000本入手可能！ ）",
+    "store": "Sprite",
+    "item": "スプライト20oz無料",
     "when": "",
-    "cond": ""
+    "cond": "先着11.5万名"
    }
   },
   {
@@ -3219,13 +3250,13 @@
     "kind": "coupon",
     "when": "2026-11-01"
    },
-   "ja": "無料のDenny's Triple Play Mealの可能性（ 11月1日までに登録！ ）",
-   "jaVia": "mymemory",
+   "ja": "トリプルプレイ無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "無料のDenny's Triple Play Mealの可能性（ 11月1日までに登録！ ）",
-    "when": "11/1(日)",
-    "cond": "要登録"
+    "store": "Denny’s",
+    "item": "トリプルプレイ無料",
+    "when": "〜10/31",
+    "cond": "要事前登録"
    }
   },
   {
@@ -3980,13 +4011,13 @@
     "kind": "store",
     "when": "2026-10-22"
    },
-   "ja": "同日ピックアップ付きウォルグリーンフォトカードを6枚無料で手に入れよう–本日限定！",
-   "jaVia": "mymemory",
+   "ja": "フォトカード6枚無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walgreens",
-    "item": "同日ピックアップ付きウォルグリーンフォトカードを6枚無料で手に入れよう–本日限定！",
+    "item": "フォトカード6枚無料",
     "when": "10/22(木)",
-    "cond": ""
+    "cond": "当日受取"
    }
   },
   {
@@ -4939,11 +4970,11 @@
     "kind": "store",
     "when": null
    },
-   "ja": "Krogerの無料プライベートセレクションアイスクリームパイント+最低39 ¢のBreyers 48 oz ！",
-   "jaVia": "mymemory",
+   "ja": "アイス無料、Breyersが39¢〜",
+   "jaVia": "gemini",
    "sum": {
     "store": "Kroger",
-    "item": "Krogerの無料プライベートセレクションアイスクリームパイント+最低39 ¢のBreyers 48 oz ！",
+    "item": "アイス無料、Breyersが39¢〜",
     "when": "",
     "cond": ""
    }
@@ -5058,13 +5089,13 @@
     "kind": "store",
     "when": "2026-10-27"
    },
-   "ja": "ジミー・ジョンのトリプルピクルミールのミステリーピクルスぬいぐるみが無料（ 10月27日から）",
-   "jaVia": "mymemory",
+   "ja": "ピクルスぬいぐるみ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Jimmy John’s",
-    "item": "ジミー・ジョンのトリプルピクルミールのミステリーピクルスぬいぐるみが無料（ 10月27日から）",
-    "when": "10/27(火)",
-    "cond": ""
+    "item": "ピクルスぬいぐるみ",
+    "when": "10/27〜",
+    "cond": "対象セット購入"
    }
   },
   {
@@ -5399,13 +5430,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ハローキティファン？ハンバーガーキングのキッズミールと一緒に無料のミステリーおもちゃを手に入れましょう！",
-   "jaVia": "mymemory",
+   "ja": "おもちゃ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Burger King",
-    "item": "ハローキティファン？ハンバーガーキングのキッズミールと一緒に無料のミステリーおもちゃを手に入れましょう！",
+    "item": "おもちゃ",
     "when": "",
-    "cond": "購入時・子ども向け"
+    "cond": "キッズミール購入"
    }
   },
   {
@@ -6409,12 +6440,12 @@
     "kind": "store",
     "when": "2026-11-13"
    },
-   "ja": "バーンズ＆ノーブルでの無料レゴホリデー・ビルドイベント（ 11月13日～ 15日）",
-   "jaVia": "mymemory",
+   "ja": "レゴ組み立てイベント",
+   "jaVia": "gemini",
    "sum": {
     "store": "Barnes & Noble",
-    "item": "バーンズ＆ノーブルでの無料レゴホリデー・ビルドイベント（ 11月13日～ 15日）",
-    "when": "11/13(金)",
+    "item": "レゴ組み立てイベント",
+    "when": "11/13〜11/15",
     "cond": ""
    }
   },
@@ -7032,13 +7063,13 @@
     "kind": "coupon",
     "when": "2026-10-31"
    },
-   "ja": "QDOBA 10/31と11/1で購入して、無料のエントリーをゲットしよう",
-   "jaVia": "mymemory",
+   "ja": "アントレ",
+   "jaVia": "gemini",
    "sum": {
     "store": "QDOBA",
-    "item": "QDOBA 10/31と11/1で購入して、無料のエントリーをゲットしよう",
-    "when": "10/31(土)",
-    "cond": "購入時"
+    "item": "アントレ",
+    "when": "10/31〜11/1",
+    "cond": "商品購入"
    }
   },
   {
@@ -7263,13 +7294,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "RUN! FREE Dunkin 'Coffeeプロモーションコードが削除されました",
-   "jaVia": "mymemory",
+   "ja": "コーヒー",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Dunkin'",
-    "item": "RUN! FREE Dunkin 'Coffeeプロモーションコードが削除されました",
+    "store": "Dunkin’",
+    "item": "コーヒー",
     "when": "",
-    "cond": "コード入力"
+    "cond": "プロモコード入力"
    }
   },
   {
@@ -8305,13 +8336,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料",
-   "jaVia": "mymemory",
+   "ja": "フォトカード6枚セット",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walgreens",
-    "item": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料",
+    "item": "フォトカード6枚セット",
     "when": "",
-    "cond": "コード入力"
+    "cond": "プロモコード入力"
    }
   },
   {
@@ -9232,13 +9263,13 @@
     "kind": "store",
     "when": "2026-10-25"
    },
-   "ja": "10月25日の無料キッズレゴワークショップ–ゴーストストリートモデルを作ろう！",
-   "jaVia": "mymemory",
+   "ja": "子供向けレゴ体験",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "10月25日の無料キッズレゴワークショップ–ゴーストストリートモデルを作ろう！",
-    "when": "10/25(日)",
-    "cond": "子ども向け"
+    "store": "LEGO",
+    "item": "子供向けレゴ体験",
+    "when": "10/25",
+    "cond": "子供限定"
    }
   },
   {
@@ -9483,12 +9514,12 @@
     "kind": "store",
     "when": "2026-12-12"
    },
-   "ja": "12月12日、Petcoでサンタさんと一緒に無料のペット写真撮影",
-   "jaVia": "mymemory",
+   "ja": "サンタとペットの写真撮影",
+   "jaVia": "gemini",
    "sum": {
     "store": "Petco",
-    "item": "12月12日、Petcoでサンタさんと一緒に無料のペット写真撮影",
-    "when": "12/12(土)",
+    "item": "サンタとペットの写真撮影",
+    "when": "12/12",
     "cond": ""
    }
   },
@@ -9542,13 +9573,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Walmart +メンバーは毎月25枚の無料4 x 6フォトプリントを獲得します。その方法をご紹介します！",
-   "jaVia": "mymemory",
+   "ja": "4×6写真プリント25枚",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "Walmart +メンバーは毎月25枚の無料4 x 6フォトプリントを獲得します。その方法をご紹介します！",
-    "when": "",
-    "cond": "会員限定"
+    "item": "4×6写真プリント25枚",
+    "when": "毎月",
+    "cond": "Walmart+会員限定"
    }
   },
   {
@@ -9575,13 +9606,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "$ 10の無料MyLowe's Money （アプリをダウンロードするだけ！ ）",
-   "jaVia": "mymemory",
+   "ja": "MyLowe's $10分特典",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "$ 10の無料MyLowe's Money （アプリをダウンロードするだけ！ ）",
+    "item": "MyLowe's $10分特典",
     "when": "",
-    "cond": "アプリ"
+    "cond": "アプリダウンロード"
    }
   },
   {
@@ -9689,13 +9720,13 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "11月7日の無料ホームデポキッズワークショップ|今すぐ登録してダンプトラックを作ろう",
-   "jaVia": "mymemory",
+   "ja": "子供向け木工ワークショップ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Home Depot",
-    "item": "11月7日の無料ホームデポキッズワークショップ|今すぐ登録してダンプトラックを作ろう",
-    "when": "11/7(土)",
-    "cond": "要登録・子ども向け"
+    "item": "子供向け木工ワークショップ",
+    "when": "11/7",
+    "cond": "要予約"
    }
   },
   {
@@ -9720,12 +9751,12 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "11月7日にBass Pro ＆ Cabela'sで無料のトナカイのぬいぐるみ（ 11月8日にサンタと一緒に無料の写真を撮ろう！ ）",
-   "jaVia": "mymemory",
+   "ja": "トナカイぬいぐるみ、写真撮影",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Bass Pro & Cabela’s",
-    "item": "11月7日にBass Pro ＆ Cabela'sで無料のトナカイのぬいぐるみ（ 11月8日にサンタと一緒に無料の写真を撮ろう！ ）",
-    "when": "11/7(土)",
+    "store": "Bass Pro Shops & Cabela's",
+    "item": "トナカイぬいぐるみ、写真撮影",
+    "when": "11/7、11/8",
     "cond": ""
    }
   },
@@ -9751,12 +9782,12 @@
     "kind": "coupon",
     "when": "2026-10-31"
    },
-   "ja": "10月31日まで、毎日正午（東部標準時）に無料のキーブラークッキーが届きます！",
-   "jaVia": "mymemory",
+   "ja": "クッキー配達",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "10月31日まで、毎日正午（東部標準時）に無料のキーブラークッキーが届きます！",
-    "when": "10/31(土)",
+    "store": "Keebler",
+    "item": "クッキー配達",
+    "when": "毎日正午ET（〜10/31）",
     "cond": ""
    }
   },
@@ -9810,13 +9841,13 @@
     "kind": "store",
     "when": null
    },
-   "ja": "急いで！最初の10,000人分のレッドバロンクランチタイムピザが無料！",
-   "jaVia": "mymemory",
+   "ja": "Crunchtimeピザ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "急いで！最初の10,000人分のレッドバロンクランチタイムピザが無料！",
+    "store": "Red Baron",
+    "item": "Crunchtimeピザ",
     "when": "",
-    "cond": "先着10,000名"
+    "cond": "先着1万名"
    }
   },
   {
