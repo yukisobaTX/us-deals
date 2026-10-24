@@ -31,7 +31,7 @@ PROMPT = (
 def _post_json(url, body, headers=None):
     req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST",
                                  headers={"Content-Type": "application/json", "User-Agent": UA, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=60) as r:
+    with urllib.request.urlopen(req, timeout=180) as r:
         return json.loads(r.read())
 
 
@@ -99,21 +99,25 @@ def translate(items, limit=40):
     if not items:
         return {}, None
     if os.environ.get("GEMINI_API_KEY"):
-        try:
-            out = {}
-            for k in range(0, len(items), 20):
-                out.update(gemini(items[k:k + 20]))
-            if out:
-                return out, "gemini"
-        except Exception as e:  # noqa: BLE001
-            body = ""
-            if hasattr(e, "read"):
-                try:
-                    body = e.read().decode("utf-8", "replace")[:400]
-                except Exception:  # noqa: BLE001
-                    pass
-            LAST_ERROR["gemini"] = f"{e} {body}".strip()
-            print(f"gemini 失敗 → MyMemory に切り替え: {LAST_ERROR['gemini']}")
+        # 10件ずつ依頼。失敗した組はとばし、成功した分は使う(残りは次の回に)
+        out = {}
+        for k in range(0, min(len(items), 40), 10):
+            try:
+                out.update(gemini(items[k:k + 10]))
+            except Exception as e:  # noqa: BLE001
+                body = ""
+                if hasattr(e, "read"):
+                    try:
+                        body = e.read().decode("utf-8", "replace")[:400]
+                    except Exception:  # noqa: BLE001
+                        pass
+                LAST_ERROR["gemini"] = f"{e} {body}".strip()
+                print(f"gemini 失敗: {LAST_ERROR['gemini']}")
+                if "429" in str(e) or "40" in str(e)[:15]:
+                    break
+        if out:
+            return out, "gemini"
+        print("gemini で1件も要約できず → MyMemory に切り替え")
     out = {}
     for i, _, t in items:
         try:
