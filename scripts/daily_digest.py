@@ -78,7 +78,7 @@ def build(items, since, site):
     today = dt.datetime.now(CT).date()
     t_iso = today.isoformat()
     tomorrow = (today + dt.timedelta(days=1)).isoformat()
-    fbs = [x for x in items if x.get("freebie")]
+    fbs = [x for x in items if x.get("freebie") and not x.get("dup") and not x.get("noAlert")]
     # 店頭:新着、または今日・明日のもの(前に知らせたものも当日にもう一度)
     store = [x for x in fbs if x["freebie"]["kind"] == "store"
              and (x["freebie"]["when"] or "9999") >= t_iso

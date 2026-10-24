@@ -56,9 +56,20 @@ FREEBIES = [
     ("Subway BOGO FREE Footlongs Coming October 27th", None, None),
     ("NEW Walmart Promo Codes: $10 Off + Free Express Delivery", None, None),
     ("Best Halloween Restaurant Deals & Freebies", "coupon", None),
+    ("Sirius XM Deal: 3 FREE Months of XM Radio", None, None),
+    ("10 Ways to Listen to the Audiobooks for Free (or Almost Free!)", None, None),
+    ("My new book + $75 in FREE bonuses", None, None),
+    ("Get a FREE Monster Taco & Small Drink at Jack in the Box Today!", "store", "2026-10-24"),
     ("Veterans Day 2026 Offers: FREE Meals, Haircuts & More", None, None),
 ]
 bad = 0
+a = {"id": "a", "title": "FREE Tiff’s Treats Ice Cream Sandwiches for Young Athletes This Weekend", "source": "Hip2Save", "firstSeen": "1"}
+b = {"id": "b", "title": "Tiff’s Treats: FREE Ice Cream Sandwiches for Young Athletes on October 24th", "source": "Money Saving Mom", "firstSeen": "2"}
+c2 = {"id": "c", "title": "FREE Pet Photos with Santa at Petco", "source": "Money Saving Mom", "firstSeen": "3"}
+f.mark_duplicates([a, b, c2])
+if b.get("dup") != "a" or a.get("dup") or c2.get("dup"):
+    bad += 1
+    print("NG dup", a, b, c2)
 for title, kind, when in FREEBIES:
     r = f.freebie_info(title, P)
     got = (r["kind"], r["when"]) if r else (None, None)

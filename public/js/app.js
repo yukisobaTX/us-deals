@@ -39,6 +39,7 @@
   const md = (d) => `${+d.slice(5, 7)}/${+d.slice(8, 10)}`;
 
   function match(x) {
+    if (x.dup) return false;   // 別の情報源の同じ話題は1件にまとめる
     if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
     if (state.cat === 'event' && !x.event) return false;
     if (!['all', 'free', 'event'].includes(state.cat) && !x.cats.includes(state.cat)) return false;

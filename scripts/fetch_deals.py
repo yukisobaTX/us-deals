@@ -211,7 +211,9 @@ NOT_GIFT_RE = re.compile(
     r"|try (?:out )?.*for free|free trial|membership"
     r"|after (?:cash ?back|fetch|ibotta|rebate|walmart cash|.*rebate)|ibotta|fetch rewards|rebate"
     r"|for (?:veterans|military|active service|teachers|nurses|healthcare|first responders)"
-    r"|veterans day", re.I)
+    r"|veterans day"
+    r"|\d+\s+free\s+months?|free\s+months?|audiobooks?|e-?books?|kindle|my new book|bonuses|earn free|ways to (?:earn|get)"
+    r"|free printables?|free (?:download|webinar|course|class online)", re.I)
 STORE_RE = re.compile(
     r"\bevent\b|workshop|in[- ]store|today\b|this weekend|tonight|get there early|first [\d,]+"
     r"|@ ?\d|\b\d{1,2}(?::\d\d)? ?(?:am|pm)\b|\bon \d{1,2}/\d{1,2}|\bon (?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]* \d"
@@ -408,6 +410,9 @@ def main():
         if x.get("jaVia") != "gemini":
             x["sum"] = fallback_sum(x)
 
+    # 別の情報源の同じ話題(例:Tiff's Treats の無料アイス)を重複として印を付ける(先に見つけた方を残す)
+    mark_duplicates(by_id.values())
+
     # 並べ替え用の日付:無料の配布日 → 要約の日時(M/D) → 期限
     for x in by_id.values():
         x["date"] = sort_date(x)
@@ -473,6 +478,34 @@ def fallback_sum(x):
             if lab not in conds:
                 conds.append(lab)
     return {"store": store, "item": x.get("ja") or "", "when": when, "cond": "・".join(conds[:3])}
+
+
+STOP = {"free", "the", "a", "an", "and", "or", "for", "at", "on", "with", "of", "to", "in", "get", "score",
+        "your", "this", "today", "only", "just", "new", "&", "+", "-", "|", "–"}
+
+
+def _tokens(t):
+    return {w for w in re.findall(r"[a-z0-9’']+", t.lower()) if w not in STOP and len(w) > 2}
+
+
+def mark_duplicates(items):
+    items = sorted(items, key=lambda x: x["firstSeen"])
+    kept = []
+    for x in items:
+        x.pop("dup", None)
+        tx = _tokens(x["title"])
+        for y in kept:
+            if y["source"].split("(")[0] == x["source"].split("(")[0]:
+                continue
+            ty = y["_t"]
+            if tx and ty and len(tx & ty) / len(tx | ty) >= 0.45:
+                x["dup"] = y["id"]
+                break
+        if "dup" not in x:
+            x["_t"] = tx
+            kept.append(x)
+    for x in items:
+        x.pop("_t", None)
 
 
 def sort_date(x):
