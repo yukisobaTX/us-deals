@@ -14,7 +14,7 @@ import urllib.request
 
 UA = "us-deals-personal/1.0"
 LAST_ERROR = {}
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "")   # 空なら使えるモデルから自動で選ぶ
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")   # Google が常に最新の flash を指す別名。空なら一覧から自動で選ぶ
 _MODEL = {}
 PROMPT = (
     "以下は米国のお得情報ブログの記事見出しです(各行:id、掲載日、見出し)。"
