@@ -14,7 +14,8 @@ import urllib.request
 
 UA = "us-deals-personal/1.0"
 LAST_ERROR = {}
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "")   # 空なら使えるモデルから自動で選ぶ
+_MODEL = {}
 PROMPT = (
     "以下は米国のお得情報ブログの記事見出しです(各行:id、掲載日、見出し)。"
     "それぞれを4項目に分けて、日本語で端的に書いてください。\n"
@@ -34,6 +35,31 @@ def _post_json(url, body, headers=None):
         return json.loads(r.read())
 
 
+def pick_model(key):
+    """使える flash 系の最新モデルを選ぶ(モデルの廃止に自動で追従する)。"""
+    if GEMINI_MODEL:
+        return GEMINI_MODEL
+    if "m" in _MODEL:
+        return _MODEL["m"]
+    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+                                 headers={"x-goog-api-key": key, "User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        models = json.loads(r.read()).get("models", [])
+    cands = []
+    for m in models:
+        name = m.get("name", "").split("/")[-1]
+        if "generateContent" not in m.get("supportedGenerationMethods", []):
+            continue
+        if not re.fullmatch(r"gemini-(\d+(?:\.\d+)?)-flash", name):   # lite・preview・日付付きは除く
+            continue
+        cands.append((float(re.search(r"\d+(?:\.\d+)?", name).group()), name))
+    if not cands:
+        raise RuntimeError("使える Gemini flash モデルが見つかりません")
+    _MODEL["m"] = max(cands)[1]
+    print(f"Gemini モデル: {_MODEL['m']}")
+    return _MODEL["m"]
+
+
 def gemini(items):
     """items: [(id, 掲載日, title)] → {id: {store, item, when, cond}}"""
     key = os.environ.get("GEMINI_API_KEY")
@@ -41,7 +67,7 @@ def gemini(items):
         return {}
     lines = "\n".join(f"{i}\t{d}\t{t}" for i, d, t in items)
     res = _post_json(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+        f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(key)}:generateContent",
         {"contents": [{"parts": [{"text": PROMPT + lines}]}],
          "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}},
         {"x-goog-api-key": key})
