@@ -3,16 +3,20 @@
  "count": 344,
  "stats": {
   "h2s": {
-   "read": 0,
+   "read": 100,
    "added": 0
   },
   "h2s-free": {
-   "read": 0,
-   "added": 0
+   "read": 100,
+   "added": 6
   },
   "doc": {
-   "read": 0,
+   "read": 15,
    "added": 0
+  },
+  "ja": {
+   "done": 6,
+   "via": "mymemory"
   }
  },
  "errors": [],
