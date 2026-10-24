@@ -28,6 +28,8 @@ CASES = [
     ("[MA, NH] Some Bank $750 Bonus", [], lambda r: r is None),
     ("Random Gadget 30% Off", ["Deals"], lambda r: r is None),
     ("Lowe's 50% Off Mums", [], lambda r: r["stores"] == ["Lowe's"] and r["pct"] == 50),
+    ("Up to 75% Off Free People + Free Shipping", [], lambda r: r is None),
+    ("Urban Air FREE Pass Offer Has Ended", [], lambda r: r is None),
     ("Weee! $20 Off First Order", [], lambda r: r["stores"] == ["Weee!"]),
 ]
 

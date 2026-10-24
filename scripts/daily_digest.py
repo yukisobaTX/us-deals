@@ -2,7 +2,7 @@
 """毎朝のまとめを GitHub Issue で送る(冒頭の @ で通知メールが届く)。
 
 - 対象:前回のまとめ以降に見つかった記事(firstSeen)。
-- 「注目」(無料・50%以上)を先に、カテゴリごとに並べる。
+- 「注目」(無料・70%以上)を先に、カテゴリごとに並べる。
 - 前のまとめ Issue は閉じる(受信箱に溜めない)。
 - 夏時間・冬時間の両方に対応するため、cron は2つ(12:41・13:41 UTC)で起動し、
   米国中部時間で 7 時台のときだけ送る(--force で時刻を無視)。
@@ -66,7 +66,7 @@ def build(items, since, site):
     if not new:
         lines.append("新着はありませんでした。")
     if hot:
-        lines += ["## 🔥 注目(無料・50%以上)", *[fmt_item(x) for x in hot[:15]], ""]
+        lines += ["## 🔥 注目(無料・70%以上)", *[fmt_item(x) for x in hot[:15]], ""]
     for cid in [c["id"] for c in cats] + ["other"]:
         g = [x for x in new if cid in x["cats"] and not x.get("hot")]
         if not g:

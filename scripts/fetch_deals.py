@@ -102,7 +102,8 @@ def build_matchers(stores_cfg):
     return stores, types
 
 
-FREE_RE = re.compile(r"(?<![A-Za-z])FREE(?![A-Za-z])(?!\s+(shipping|same[- ]day|pickup|delivery|returns?|trial|w/|with\b))", re.I)
+FREE_RE = re.compile(r"(?<![A-Za-z])FREE(?![A-Za-z])(?!\s+(shipping|same[- ]day|pickup|delivery|returns?|trial|w/|with\b|people\b))", re.I)
+ENDED_RE = re.compile(r"has ended|offer ended|expired", re.I)
 FREE_CAT_RE = re.compile(r"freebie", re.I)
 PCT_RE = re.compile(r"(\d{2})\s*%\s*off", re.I)
 PRICE_RE = re.compile(r"\$(\d+(?:\.\d{1,2})?)")
@@ -147,6 +148,8 @@ def classify(title, cats, stores, types, skip_regions):
             pct = max(pct or 0, calc)
     if len(hit_stores) > 1 and "レストラン全般" in hit_stores:
         hit_stores.remove("レストラン全般")
+    if ENDED_RE.search(title):
+        return None
     if not hit_stores and "free" not in tset:
         return None   # 対象の店でも無料でもないものは載せない
     if not hit_cats:
@@ -240,7 +243,7 @@ def main():
                 "posted": posted.isoformat(timespec="minutes").replace("+00:00", "Z"),
                 "firstSeen": now.isoformat(timespec="minutes").replace("+00:00", "Z"),
                 "expires": guess_expiry(title, posted),
-                "hot": ("free" in c["types"]) or (c["pct"] or 0) >= 50,
+                "hot": ("free" in c["types"]) or (c["pct"] or 0) >= 70,
                 **c,
             }
             added += 1

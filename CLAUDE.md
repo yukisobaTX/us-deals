@@ -18,6 +18,6 @@
 - 店を足す:config/stores.json に追記 → `python3 tests/test_classify.py` で failures: 0。
 - 分類を変えたら tests/test_classify.py に1件足す。
 - 期限は見出しの「Today Only」「through 10/31」などから推定。読めないものは画面で「掲載日 + 7日」を目安にする。21日より古い記事は自動で消える。
-- 「注目」= 無料、または 50%以上の値引き。
+- 「注目」= 無料、または 70%以上の値引き。
 - 画面の JS は public/js/app.js。外部の見出しは textContent で入れる(innerHTML は使わない)。
 - 試験:`python3 scripts/fetch_deals.py --from-dir tests/fixtures --out /tmp/x.json`(ネット不要)、`python3 scripts/daily_digest.py --force --dry-run`。
