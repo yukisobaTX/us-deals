@@ -1,0 +1,22 @@
+name: Gemini debug
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 scripts/gemini_debug.py
+      - name: Commit
+        run: |
+          git config user.name "deals-bot"
+          git config user.email "deals-bot@users.noreply.github.com"
+          git add public/data/gemini-debug.json
+          git commit -m "gemini debug" || exit 0
+          git pull --rebase origin main
+          git push
