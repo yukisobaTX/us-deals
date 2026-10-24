@@ -32,6 +32,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SITE_URL: ${{ vars.SITE_URL || 'https://us-deals.10baki-c03.workers.dev' }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_USER: 10baki.c03@gmail.com
         run: python3 scripts/freebie_alert.py
       - name: Commit
         run: |

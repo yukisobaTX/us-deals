@@ -143,8 +143,13 @@ def main():
         api("POST", "/labels", {"name": LABEL, "color": "f9a825", "description": "毎朝のお得情報まとめ"})
     except Exception:  # noqa: BLE001  既にある
         pass
-    # 前の Issue は閉じない(閉じると「Closed as completed」の通知メールが別に届くため)
-    created = api("POST", "/issues", {"title": title, "body": body, "labels": [LABEL]})
+    # Gmail から直接送る(件名に [リポジトリ名]・(Issue #番号) が付かない)。送れないときだけ GitHub の Issue 通知
+    import mailer
+    if mailer.send_mail(title, body.replace(MENTION + " ", "")):
+        created = {"number": None}
+    else:
+        # 前の Issue は閉じない(閉じると「Closed as completed」の通知メールが別に届くため)
+        created = api("POST", "/issues", {"title": title, "body": body, "labels": [LABEL]})
     print(f"Issue #{created['number']} を作成({n} 件)")
     STATE.write_text(json.dumps({"lastSent": data["updated"], "lastDate": now_ct.date().isoformat(),
                                  "lastIssue": created["number"]}, ensure_ascii=False, indent=1) + "\n")

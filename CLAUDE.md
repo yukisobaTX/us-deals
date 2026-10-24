@@ -9,6 +9,7 @@
 | Morning digest(scripts/daily_digest.py) | 毎朝 7:41 CT(夏冬とも) | 即時通知済みの新着は除き、今日・明日の店頭配布のリマインド。**無料でもらえるものだけ**を Issue(ラベル deals-digest、@yukisobaTX)で通知。店頭配布(日付順・今日/明日の分は再掲)と無料クーポン。該当なしの日は送らない |
 - 公開:Cloudflare Workers(静的アセット、public/)。main への push で自動反映。noindex・robots.txt で検索に出さない。
 
+- 通知は Gmail から直接送る(scripts/mailer.py、us-market-note から流用。送信元名「お得ノート」、secret GMAIL_APP_PASSWORD・env GMAIL_USER)。件名に [リポジトリ名]・(Issue #番号) が付かない。送れないときだけ @メンション付き Issue に切り替わる。
 - 通知の Issue は閉じない(閉じると「Closed as completed」のメールが別に届くため)。
 
 ## 情報源のルール
