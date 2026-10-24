@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T19:06Z",
+ "updated": "2026-10-24T19:27Z",
  "count": 348,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -15,11 +15,11 @@
    "added": 0
   },
   "ja": {
-   "done": 30,
-   "via": "gemini",
+   "done": 60,
+   "via": "mymemory",
    "keySet": true,
    "model": "gemini-flash-latest",
-   "error": "The read operation timed out"
+   "error": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,"
   }
  },
  "errors": [],
@@ -52,7 +52,9 @@
     "cond": ""
    },
    "ja": "レゴ マーベルセットが$19.95",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/06/LEGO-marvel-spider-man-sandman-set.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "6dffa5cf3363",
@@ -82,7 +84,9 @@
     "cond": ""
    },
    "ja": "ライト付き手袋が$5.99",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/flashlight-gloves.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "2eb576101456",
@@ -112,7 +116,9 @@
     "cond": ""
    },
    "ja": "Switchソフト各種が$24.88〜",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/Assassins-Creed-Shadows-Game-Case.png?resize=306,182",
+   "date": null
   },
   {
    "id": "a2dfb4dd47e0",
@@ -142,7 +148,9 @@
     "item": "プレッツェル18袋が$7.47",
     "when": "",
     "cond": "送料無料"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Dots-Pretzels-1.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "c8c847fc5433",
@@ -172,7 +180,9 @@
     "item": "電気毛布が再入荷",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/sunbeam-heated-plush-bubble-blanket-e1792861780788.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "6d6106be6ef3",
@@ -202,7 +212,9 @@
     "item": "クリスマスライト操作ワンドがセール",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/Wondershop-Christmas-Light-Controller.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "aa903a9bd3a7",
@@ -232,7 +244,9 @@
     "item": "包装紙収納ケースが$13.49",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/Wrapping-Paper-Storage-Organizer.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "093a3b3542be",
@@ -262,7 +276,9 @@
     "item": "ワイドレッグパンツが$29未満",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/woman-wearing-high-rise-pants.png?resize=306,182",
+   "date": null
   },
   {
    "id": "9f8fce24699e",
@@ -292,7 +308,9 @@
     "item": "新作クリスマスリースが$24.97〜",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/my-texas-house-norfolk-wreath.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "d7f74398c85f",
@@ -322,7 +340,9 @@
     "item": "キッズキャラ服が最大75%オフ",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/wlamrt-kids-character-clothing.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "0b546dbc7cb8",
@@ -352,7 +372,9 @@
     "item": "LEDバブル常夜灯2個が$7.59",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/L-Lohas-Bubble-LED-Nightlight.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "8f655aad0a78",
@@ -382,7 +404,9 @@
     "item": "コードレス掃除機が送料込$44.99",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Tipdiy-Cordless-Vacuum.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "556180d1e92c",
@@ -412,7 +436,9 @@
     "item": "NCAAメンズパーカーが$11〜",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/aggies-hoodie-walmart.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "27c4882b1c32",
@@ -442,7 +468,9 @@
     "item": "Puffs保湿ティッシュ8個が$9.59",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/06/Puffs-Plus-Lotion-Tissues-2.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "d0445bdc4c4e",
@@ -472,7 +500,9 @@
     "item": "子供用STEM工作キットが$9",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/stem-kit-amazon-3.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "5e5599f9c636",
@@ -502,7 +532,9 @@
     "item": "ハロウィントピアリー各種値下げ",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/my-texas-house-halloweentopiaries.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "e6f400b19ea8",
@@ -532,7 +564,9 @@
     "item": "かゆみ止めスティックが$1.42",
     "when": "",
     "cond": "送料無料"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Benadryl-Itch-Relief-Stick.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "87c2b111a2bc",
@@ -562,7 +596,9 @@
     "item": "クリスマス柄グラスシッパーカップ",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/holiday-time-gingerbread-man-cup-walmart.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "0374aba62ca7",
@@ -592,7 +628,9 @@
     "item": "子供用クラフトカートが$36.98",
     "when": "",
     "cond": "オンライン"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Members-Mark-Kids-Craft-Cart-e1790968214561.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "b9e102772f7b",
@@ -622,7 +660,9 @@
     "item": "ラッフルズ40袋が$9.58",
     "when": "",
     "cond": "送料無料"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2021/05/Ruffles-Chips.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "ff51b4d4a17e",
@@ -652,7 +692,9 @@
     "item": "ジェリーキューブが$5未満",
     "when": "",
     "cond": "オンライン"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/just-toys-squishy-cube.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "839fc61a9760",
@@ -682,7 +724,9 @@
     "item": "ホリデーブランケットが$5.97〜",
     "when": "",
     "cond": "オンライン"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/Holiday-Time-Gingerbread-Christmas-Throw-Blanket.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "28254e8e93bd",
@@ -714,7 +758,9 @@
     "item": "365 重曹が78¢",
     "when": "",
     "cond": "送料無料"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/whole-foods-baking-soda-amazon.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "b93e46976eaf",
@@ -744,7 +790,9 @@
     "item": "女性用裏起毛タイツが$4.99",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Fleece-lined-tights.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "8538c0567362",
@@ -774,7 +822,9 @@
     "item": "アクリル絵の具が58¢",
     "when": "",
     "cond": "送料無料"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2021/06/Apple-Barrel-Paints-1-e1623011839852.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "6bb27d000237",
@@ -804,7 +854,9 @@
     "item": "可動式ガイコツが半額の$24.98",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/lowes-posable-skeletons.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "36c708c3e666",
@@ -829,12 +881,14 @@
    "freebie": null,
    "ja": "My Life As Harry Potter 18インチ人形$ 39.94ウォルマート発送",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/my-life-as-harry-potter-griffindor-doll-2.jpg?resize=306,182",
    "sum": {
     "store": "Walmart",
     "item": "My Life As Harry Potter 18インチ人形$ 39.94ウォルマート発送",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4432ab3c8da9",
@@ -859,12 +913,14 @@
    "freebie": null,
    "ja": "リースのハロウィンパンプキンボウルが再入荷＆セール中！",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/reeses-pumpkin-bowl-and-candy-2.jpg?resize=306,182",
    "sum": {
     "store": "Amazon",
     "item": "リースのハロウィンパンプキンボウルが再入荷＆セール中！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "472ea8f55bdb",
@@ -891,12 +947,14 @@
    "freebie": null,
    "ja": "スターバックスリフレッシャーストロベリーアサイ濃縮物$ 6.99のみAmazonで",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/Starbucks-Refreshers-Concentrate.jpg?resize=306,182",
    "sum": {
     "store": "Starbucks・Amazon",
     "item": "スターバックスリフレッシャーストロベリーアサイ濃縮物$ 6.99のみAmazonで",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "42ef24d952bb",
@@ -921,12 +979,14 @@
    "freebie": null,
    "ja": "大幅なウォルマートハロウィンデコレーション価格下落|ジャイアントスケルトンわずか$ 59発送",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/08/Way-To-Celebrate-Animated-Skeleton-Cat.jpg?resize=306,182",
    "sum": {
     "store": "Walmart",
     "item": "大幅なウォルマートハロウィンデコレーション価格下落|ジャイアントスケルトンわずか$ 59発送",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "cca83bea3063",
@@ -951,12 +1011,14 @@
    "freebie": null,
    "ja": "* HOT *リベート後のCharminトイレットペーパーのAmazonストックアップディール",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Charmin-Ultra-Strong-Toilet-Paper.jpg?resize=306,182",
    "sum": {
     "store": "Amazon",
     "item": "* HOT *リベート後のCharminトイレットペーパーのAmazonストックアップディール",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "157810ef3789",
@@ -981,12 +1043,14 @@
    "freebie": null,
    "ja": "Amazonレディーストップはわずか$ 6.99から（登録価格$ 20 ）",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/amazon-wiholl-tee.jpg?resize=306,182",
    "sum": {
     "store": "Amazon",
     "item": "Amazonレディーストップはわずか$ 6.99から（登録価格$ 20 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4c0288cdc269",
@@ -1011,12 +1075,14 @@
    "freebie": null,
    "ja": "ウォルマートハロウィンマグ2パックわずか$ 3.74 ＆スタッキング4パックわずか$ 6.48 ！",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Way-to-Celebrate-Halloween-Ghost-Dog-Ceramic-Mug-2-Pack.jpg?resize=306,182",
    "sum": {
     "store": "Walmart",
     "item": "ウォルマートハロウィンマグ2パックわずか$ 3.74 ＆スタッキング4パックわずか$ 6.48 ！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "1f0f637b8b45",
@@ -1041,12 +1107,14 @@
    "freebie": null,
    "ja": "Lysolトイレクリーナージェル2パックわずか$ 3 Amazonで発送",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/01/Lysol-Toilet-Bowl-Cleaner-24oz.jpg?resize=306,182",
    "sum": {
     "store": "Amazon",
     "item": "Lysolトイレクリーナージェル2パックわずか$ 3 Amazonで発送",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "3502d9314e7b",
@@ -1071,12 +1139,14 @@
    "freebie": null,
    "ja": "アマゾン缶詰スープわずか59 ¢発送（いくつかのフレーバー！ ）",
    "jaVia": "mymemory",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/amazon-saver-soup.jpg?resize=306,182",
    "sum": {
     "store": "Amazon",
     "item": "アマゾン缶詰スープわずか59 ¢発送（いくつかのフレーバー！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "77aa71090cb8",
@@ -1099,12 +1169,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/walmart-poncho-halloween-costume.jpg?resize=306,182",
+   "ja": "ウォルマートのポンチョスタイルのハロウィーンコスチュームは$ 7.88から",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートのポンチョスタイルのハロウィーンコスチュームは$ 7.88から",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8ef67d7f9e8e",
@@ -1134,7 +1208,9 @@
     "cond": "送料無料"
    },
    "ja": "プロテイン粉末2lbが$25.59",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/seeq-lemonade-protein-powder.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "b92d76abc62e",
@@ -1164,7 +1240,9 @@
     "cond": ""
    },
    "ja": "スクイーズ玩具が$5.99から",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/amazon-haul-squishy.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "4b1d469bbb17",
@@ -1194,7 +1272,9 @@
     "cond": "クーポン併用"
    },
    "ja": "コスメ各種が$2.49から",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Neutrogena-Makeup.jpg?resize=306,182",
+   "date": "2026-10-24"
   },
   {
    "id": "ec952302950e",
@@ -1224,7 +1304,9 @@
     "cond": ""
    },
    "ja": "バンズ各種が88¢",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Kroger-Hot-Dog-and-Hamburger-Buns.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "1ba2740a197a",
@@ -1257,7 +1339,9 @@
     "item": "アイスサンド無料",
     "when": "10/24〜10/25",
     "cond": "若年アスリート限定"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Tiffs-Treats-Ice-Cream-Sandwiches.jpg?resize=306,182",
+   "date": "2026-10-24"
   },
   {
    "id": "0649e75d73bf",
@@ -1287,7 +1371,9 @@
     "cond": "送料無料"
    },
    "ja": "ポケモンカードBOXが$59.99",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Pokemon-TCG-30th-Celebration-Elite-Trainer-Box.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "8f0d6f9ab7e3",
@@ -1317,7 +1403,9 @@
     "cond": ""
    },
    "ja": "おばけグラスが$5.74など",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/walmart-halloween-ghost-glass.png?resize=306,182",
+   "date": null
   },
   {
    "id": "3b2e11e8f2c0",
@@ -1347,7 +1435,9 @@
     "cond": ""
    },
    "ja": "食料品各種が$5未満",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Amazon-grocery-Items.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "4d5f66f8fc1e",
@@ -1380,7 +1470,9 @@
     "cond": ""
    },
    "ja": "コスメイベント・シール無料",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/target-beauty-event-halloween.jpg?resize=306,182",
+   "date": "2026-10-24"
   },
   {
    "id": "fb82147d284e",
@@ -1413,7 +1505,9 @@
     "item": "MrBeast Swarms無料",
     "when": "10/24(土)",
     "cond": "会員限定・先着"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mr-beast-at-lowes.jpg?resize=306,182",
+   "date": "2026-10-24"
   },
   {
    "id": "3b3eac3c055e",
@@ -1443,7 +1537,9 @@
     "cond": "店舗受取"
    },
    "ja": "ミニ写真プリント2組無料",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Walgreens-Retro-Mini-Print-Sets.jpg?resize=306,182",
+   "date": "2026-10-24"
   },
   {
    "id": "e8b3bb06a5ac",
@@ -1473,7 +1569,9 @@
     "cond": ""
    },
    "ja": "光るおばけ置物が$14.99",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/sherpa-ghost-.png?resize=306,182",
+   "date": null
   },
   {
    "id": "a81af70c50f6",
@@ -1505,7 +1603,9 @@
     "cond": ""
    },
    "ja": "スクイーズ10個組が$23",
-   "jaVia": "gemini"
+   "jaVia": "gemini",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/schylling-needoh-teenie.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "dc9d8a06b2b1",
@@ -1528,12 +1628,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Wool-Socks.jpg?resize=306,182",
+   "ja": "レディースウールブレンドソックス5パックのみ$ 4.99 Amazon",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースウールブレンドソックス5パックのみ$ 4.99 Amazon",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e57662a97b11",
@@ -1556,12 +1660,16 @@
    "pct": 70,
    "price": 14.91,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Large-fall-wreath-with-cinnamon-sticks.jpg?resize=306,182",
+   "ja": "うわー！サムズクラブで$ 14.91からの大きな秋のリース（登録価格$ 50 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "うわー！サムズクラブで$ 14.91からの大きな秋のリース（登録価格$ 50 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "a6f7da44c4b8",
@@ -1584,12 +1692,16 @@
    "pct": 55,
    "price": 11.69,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/book-lamp-3.png?resize=306,182",
+   "ja": "Amazonでわずか$ 11.69でこのユニークなランプを気に入るでしょう（登録価格$ 26 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでわずか$ 11.69でこのユニークなランプを気に入るでしょう（登録価格$ 26 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "bd460777f9b8",
@@ -1612,12 +1724,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/bluvol-hair-dryer-amazon.jpg?resize=306,182",
+   "ja": "高速イオンヘアドライヤーとディフューザーアタッチメントわずか$ 49.99 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "高速イオンヘアドライヤーとディフューザーアタッチメントわずか$ 49.99 Amazonで発送",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "0ec96857f1d1",
@@ -1640,12 +1756,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Glad-Disposable-Plastic-Forks.jpg?resize=306,182",
+   "ja": "Glad使い捨てプラスチックフォーク24パックわずか$ 1.51 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Glad使い捨てプラスチックフォーク24パックわずか$ 1.51 Amazonで発送",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b08ba7224332",
@@ -1668,12 +1788,16 @@
    "pct": 55,
    "price": 9.98,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/05/active-mold-stain-remover-gel-.jpg?resize=306,182",
+   "ja": "アクティブモールドステインリムーバーのみ$ 9.98 Amazonで発送（登録番号$ 22 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アクティブモールドステインリムーバーのみ$ 9.98 Amazonで発送（登録番号$ 22 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f78cb8db435a",
@@ -1696,12 +1820,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/sams-club-weekend-doorbusters.jpg?resize=306,182",
+   "ja": "サムズクラブ・ウィークエンド・ドアバスターセールが11月6日に開始|ギフトカード、おもちゃ、衣類などが大幅にお得に！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "サムズクラブ・ウィークエンド・ドアバスターセールが11月6日に開始|ギフトカード、おもちゃ、衣類などが大幅にお得に！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7b2467a354a9",
@@ -1724,12 +1852,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Owala-FreeSip-Water-Bottle.jpg?resize=306,182",
+   "ja": "Amazonで$ 19.97からのOwalaウォーターボトル（簡単なギフトのアイデア！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで$ 19.97からのOwalaウォーターボトル（簡単なギフトのアイデア！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "799f891519ad",
@@ -1752,12 +1884,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/amazon-smart-bird-feeder-wansview.jpg?resize=306,182",
+   "ja": "スマートバードフィーダーのみ$ 29.99がAmazonで出荷されます（アラートを携帯電話に直接送信します！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "スマートバードフィーダーのみ$ 29.99がAmazonで出荷されます（アラートを携帯電話に直接送信します！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "89fb1db19538",
@@ -1780,12 +1916,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/lemonheads.png?resize=306,182",
+   "ja": "レモンヘッドキャンディ24パックのみ$ 5.40 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レモンヘッドキャンディ24パックのみ$ 5.40 Amazonで発送",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "18261661aaeb",
@@ -1808,12 +1948,16 @@
    "pct": 42,
    "price": 13.98,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/orgain-protein-powder.jpg?resize=306,182",
+   "ja": "Orgainプロテインパウダー1.02 LB浴槽のみ$ 13.98 Amazonで発送（登録番号$ 24 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Orgainプロテインパウダー1.02 LB浴槽のみ$ 13.98 Amazonで発送（登録番号$ 24 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "944e5891023c",
@@ -1836,12 +1980,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/11/jet-puffed-marshmallows.jpg?resize=306,182",
+   "ja": "ジェットパフミニマシュマロ85 ¢のみAmazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ジェットパフミニマシュマロ85 ¢のみAmazonで発送",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "9ad507941d9b",
@@ -1864,12 +2012,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/honeycomb-paper-trees.jpg?resize=306,182",
+   "ja": "おしゃれなハニカムクリスマスツリー6パックわずか$ 16 （ Amazon ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "おしゃれなハニカムクリスマスツリー6パックわずか$ 16 （ Amazon ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ffff634fb24a",
@@ -1892,12 +2044,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Mighty-Fine-Womens-Icon-Sweater.jpg?resize=306,182",
+   "ja": "サムズクラブで新しいクリスマスウェアを手に入れよう（本当にかわいいスタイル！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "サムズクラブで新しいクリスマスウェアを手に入れよう（本当にかわいいスタイル！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b62ed337b169",
@@ -1920,12 +2076,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/lego-creator-typewriter.jpg?resize=306,182",
+   "ja": "LEGO Creator 3 - in -1セットはAmazonで$ 7から",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "LEGO Creator 3 - in -1セットはAmazonで$ 7から",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c6ec27b08afd",
@@ -1948,12 +2108,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/funboy-target-candy-cane-air-mattress-bed.jpg?resize=306,182",
+   "ja": "キャンディケインキッズエアーマットレスでお泊りをもっと楽しく",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "キャンディケインキッズエアーマットレスでお泊りをもっと楽しく",
     "when": "",
     "cond": "子ども向け"
-   }
+   },
+   "date": null
   },
   {
    "id": "7d10686329a0",
@@ -1976,12 +2140,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/chapstick-cosy-comfort-set.jpg?resize=306,182",
+   "ja": "これらの楽しいAmazon検索は$ 10未満です！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "これらの楽しいAmazon検索は$ 10未満です！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e020a6d5eade",
@@ -2004,12 +2172,16 @@
    "pct": 44,
    "price": 15.0,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/03/lego-champions-racer-formula-1.jpg?resize=306,182",
+   "ja": "レゴスピードチャンピオンズマクラーレンF 1チームレースカーのみ$ 15 （ Amazon ） （登録価格$ 27 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レゴスピードチャンピオンズマクラーレンF 1チームレースカーのみ$ 15 （ Amazon ） （登録価格$ 27 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "0d9e7450b3e6",
@@ -2032,12 +2204,16 @@
    "pct": 75,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Walmart-Mens-Clearance-1-2.jpg?resize=306,182",
+   "ja": "ウォルマートのメンズウェアが最大75%オフ= $ 2からのスタイル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートのメンズウェアが最大75%オフ= $ 2からのスタイル！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d7d5b83b402f",
@@ -2060,12 +2236,16 @@
    "pct": 55,
    "price": 8.99,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/sharpie-school-supplies-amazon.jpg?resize=306,182",
+   "ja": "学校用品31ピースキットのみ$ 8.99 Amazonで発送（登録価格$ 20 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "学校用品31ピースキットのみ$ 8.99 Amazonで発送（登録価格$ 20 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ade59d742b82",
@@ -2088,12 +2268,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Sorry-Blanket.jpg?resize=306,182",
+   "ja": "Sam's Clubのボードゲームブランケットはたったの$ 19.98 （コレクターズボックスに梱包されています！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "Sam's Clubのボードゲームブランケットはたったの$ 19.98 （コレクターズボックスに梱包されています！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "86fec4f904be",
@@ -2116,12 +2300,16 @@
    "pct": 73,
    "price": 29.99,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/bluetooth-projector.png?resize=306,182",
+   "ja": "Bluetoothプロジェクターたったの$ 29.99 Amazonで出荷（登録価格$ 110 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Bluetoothプロジェクターたったの$ 29.99 Amazonで出荷（登録価格$ 110 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "1932f2f14e35",
@@ -2144,12 +2332,16 @@
    "pct": 50,
    "price": 99.99,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/greenworks-pressure-washer.jpg?resize=306,182",
+   "ja": "Greenworks電動高圧洗浄機のみ$ 99.99 BestBuy.comで発送（登録価格$ 200 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Greenworks電動高圧洗浄機のみ$ 99.99 BestBuy.comで発送（登録価格$ 200 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e1cb50e65709",
@@ -2172,12 +2364,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Disney-Mickey-LED-Lights.jpg?resize=306,182",
+   "ja": "新しいサムズクラブのクリスマスデコレーションが登場！早速登場！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "新しいサムズクラブのクリスマスデコレーションが登場！早速登場！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ab71eed82e3e",
@@ -2200,12 +2396,16 @@
    "pct": 47,
    "price": 162.59,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/sennhauser-wireless-headphones.jpg?resize=306,182",
+   "ja": "Sennheiserワイヤレスヘッドフォンのみ$ 162.59 Amazonで出荷（登録番号$ 308 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Sennheiserワイヤレスヘッドフォンのみ$ 162.59 Amazonで出荷（登録番号$ 308 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "2bf6261d861f",
@@ -2228,12 +2428,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/kobalt-utility-knife.jpg?resize=306,182",
+   "ja": "Lowes.comで$ 9.98のみのKobalt折りたたみユーティリティナイフ2本（簡単なギフトのアイデア！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Lowes.comで$ 9.98のみのKobalt折りたたみユーティリティナイフ2本（簡単なギフトのアイデア！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "eda6d6cb804f",
@@ -2256,12 +2460,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/simply-shabby-chic-candy-cane-bedding.jpg?resize=306,182",
+   "ja": "パステルクリスマスを夢見ていますか？ターゲットの新しいシンプルでみすぼらしいシックなコレクションはとても良いです！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "パステルクリスマスを夢見ていますか？ターゲットの新しいシンプルでみすぼらしいシックなコレクションはとても良いです！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "6ceb480646a4",
@@ -2284,12 +2492,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/09/bread-flour.jpg?resize=306,182",
+   "ja": "Amazon食料品パン粉5ポンドバッグのみ$ 2発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon食料品パン粉5ポンドバッグのみ$ 2発送",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f06deff5d17b",
@@ -2312,12 +2524,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/08/kids-magnetic-drawing-board.jpg?resize=306,182",
+   "ja": "Amazonでわずか$ 10.61のマグネットドローイングボード（簡単にテーブルに変換できます！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでわずか$ 10.61のマグネットドローイングボード（簡単にテーブルに変換できます！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e3d34dedbbb2",
@@ -2340,12 +2556,16 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/crumbl-dirty-soda-cookie-combo.jpg?resize=306,182",
+   "ja": "Crumbl Dirty SodaとThin Cookieを$ 1.69でゲット！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "Crumbl Dirty SodaとThin Cookieを$ 1.69でゲット！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d1fea4602af7",
@@ -2368,12 +2588,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "クリスマスキッチンを$ 25で変身？ ！ Amazonでこれらのかわいいノブカバーを手に入れましょう",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "クリスマスキッチンを$ 25で変身？ ！ Amazonでこれらのかわいいノブカバーを手に入れましょう",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "eac41bfda806",
@@ -2396,12 +2619,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "ローの赤いミニバケツがまもなく登場（ホリデーシーズンに間に合います！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "ローの赤いミニバケツがまもなく登場（ホリデーシーズンに間に合います！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "cc167ca93ab3",
@@ -2424,12 +2650,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "レディースプラットフォームミニブーツ$ 29.99からAmazonで発送（ UGG Look for WAY Less ！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースプラットフォームミニブーツ$ 29.99からAmazonで発送（ UGG Look for WAY Less ！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b354e3968a34",
@@ -2452,12 +2681,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "サムズクラブホリデースローブランケット$ 10.88から–新しいクリスマスデザインが含まれています",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "サムズクラブホリデースローブランケット$ 10.88から–新しいクリスマスデザインが含まれています",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f59303e227b1",
@@ -2480,12 +2712,15 @@
    "pct": 55,
    "price": 4.49,
    "freebie": null,
+   "ja": "ハロウィンミニバブルワンド30本パックのみ$ 4.49 Amazon （登録価格$ 10 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハロウィンミニバブルワンド30本パックのみ$ 4.49 Amazon （登録価格$ 10 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "fd49744240c9",
@@ -2508,12 +2743,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "Pfaltzgraff Autumn Harvestサービングディッシュ$ 8.99からAmazonで",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Pfaltzgraff Autumn Harvestサービングディッシュ$ 8.99からAmazonで",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e5dfdec42fe1",
@@ -2536,12 +2774,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "コードレスウォーターフロッサー$ 9.99のみAmazonで発送| 1回の充電で最大30日間！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "コードレスウォーターフロッサー$ 9.99のみAmazonで発送| 1回の充電で最大30日間！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "dd0173294b2e",
@@ -2564,12 +2805,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "ターゲットウィークリーアドプレビュー（ 10/25/26 – 10/31/26 ）|お気に入りを丸で囲みました！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットウィークリーアドプレビュー（ 10/25/26 – 10/31/26 ）|お気に入りを丸で囲みました！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f65e3810cfdb",
@@ -2592,12 +2836,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "キャストアイアンオランダ製オーブン$ 28のみAmazonプライム会員様向け発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "キャストアイアンオランダ製オーブン$ 28のみAmazonプライム会員様向け発送",
     "when": "",
     "cond": "会員限定"
-   }
+   },
+   "date": null
   },
   {
    "id": "f56f5cba23be",
@@ -2620,12 +2867,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "新しいサムズクラブのインスタント割引セールが10月28日に開始|秋の食料品、マッチングファミリーパジャマなどがお得に！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "新しいサムズクラブのインスタント割引セールが10月28日に開始|秋の食料品、マッチングファミリーパジャマなどがお得に！",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "9ea86e9bc2e9",
@@ -2648,12 +2898,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "Target.comで見つけた新しいメンズブーツ＆クルーソックスギフトセット（マグカップ＆ビーニーも含まれています！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Target.comで見つけた新しいメンズブーツ＆クルーソックスギフトセット（マグカップ＆ビーニーも含まれています！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "320471dd1d35",
@@ -2676,12 +2929,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "Joyward Halloween Squishy Toys Only $ 2.99 +無料CVSピックアップ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "Joyward Halloween Squishy Toys Only $ 2.99 +無料CVSピックアップ",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "60a123a8b77b",
@@ -2704,12 +2960,15 @@
    "pct": 50,
    "price": 12.97,
    "freebie": null,
+   "ja": "Gorilla Grip Extra Thick Kneeling Pad Amazonでわずか$ 12.97 （登録価格$ 26 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Gorilla Grip Extra Thick Kneeling Pad Amazonでわずか$ 12.97 （登録価格$ 26 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "87dc9f428586",
@@ -2732,12 +2991,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "ja": "Wendy's、Red Robin、KFCなどの今週のお得な料理",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Wendy’s",
-    "item": "",
+    "item": "Wendy's、Red Robin、KFCなどの今週のお得な料理",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "dc410ae93ab7",
@@ -2765,7 +3027,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "350d152f832a",
@@ -2793,7 +3056,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "a3acc741f208",
@@ -2821,7 +3085,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "093cd4c32cd0",
@@ -2849,7 +3114,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b116b075ab89",
@@ -2877,7 +3143,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d5f13e7f6b1b",
@@ -2905,7 +3172,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7060de85059c",
@@ -2933,7 +3201,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7218631b8b37",
@@ -2963,7 +3232,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "756539da6e35",
@@ -2991,7 +3261,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "af00da3b1c70",
@@ -3019,7 +3290,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e8d8fed6a016",
@@ -3047,7 +3319,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f2508418b90e",
@@ -3075,7 +3348,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "0d23a40499ad",
@@ -3106,7 +3380,8 @@
     "item": "ボウリング無料＋$10カード",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "3651a8980319",
@@ -3134,7 +3409,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "fc963e38fb74",
@@ -3162,7 +3438,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b6ccd99d8f65",
@@ -3190,7 +3467,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "2830c60823d7",
@@ -3218,7 +3496,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ad5abae33e32",
@@ -3246,7 +3525,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "43f9bf0c62a4",
@@ -3277,7 +3557,9 @@
     "item": "スプライト20oz無料",
     "when": "",
     "cond": "先着11.5万名"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/sprite-bottle.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "d9b2164e621e",
@@ -3305,7 +3587,8 @@
     "item": "",
     "when": "",
     "cond": "会員限定"
-   }
+   },
+   "date": null
   },
   {
    "id": "0ef8c88717bd",
@@ -3338,7 +3621,8 @@
     "item": "トリプルプレイ無料",
     "when": "〜10/31",
     "cond": "要事前登録"
-   }
+   },
+   "date": "2026-11-01"
   },
   {
    "id": "eecaea4f3343",
@@ -3366,7 +3650,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e66dc6013496",
@@ -3394,7 +3679,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7f4e9d549677",
@@ -3422,7 +3708,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c10fbc58e213",
@@ -3450,7 +3737,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d69b37d92b3e",
@@ -3478,7 +3766,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "29bab0781aac",
@@ -3506,7 +3795,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "60dbd18a6c5f",
@@ -3534,7 +3824,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "70bc3103ec1f",
@@ -3562,7 +3853,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5581d08184ae",
@@ -3590,7 +3882,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7f96dd4aad5c",
@@ -3618,7 +3911,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "1ec49cb4aeae",
@@ -3646,7 +3940,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7c2bdd281a91",
@@ -3674,7 +3969,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "95c0409dcd4c",
@@ -3702,7 +3998,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "25028e662487",
@@ -3730,7 +4027,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8984dad7d3a2",
@@ -3758,7 +4056,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c71ea418d612",
@@ -3786,7 +4085,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d5f33e7946d7",
@@ -3814,7 +4114,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "faf4e0431e1c",
@@ -3842,7 +4143,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8af63fe63055",
@@ -3870,7 +4172,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b0edd5d7e9d4",
@@ -3898,7 +4201,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Good-Gather-Halloween-Snacks.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "1f3bd7e1deb6",
@@ -3926,7 +4231,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "0a0db07ca969",
@@ -3954,7 +4260,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "a7caaf101eda",
@@ -3982,7 +4289,8 @@
     "item": "",
     "when": "10/22(木)まで",
     "cond": ""
-   }
+   },
+   "date": "2026-10-22"
   },
   {
    "id": "093018f44d0b",
@@ -4010,7 +4318,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4bbb651c2616",
@@ -4038,7 +4347,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "09ce7f863aad",
@@ -4066,7 +4376,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7988d51c71df",
@@ -4099,7 +4410,9 @@
     "item": "フォトカード6枚無料",
     "when": "10/22(木)",
     "cond": "当日受取"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/04/thank-you-cards.jpg?resize=306,182",
+   "date": "2026-10-22"
   },
   {
    "id": "475911ebc72d",
@@ -4127,7 +4440,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "2edfb72b49dc",
@@ -4155,7 +4469,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7fcb0a2b929c",
@@ -4183,7 +4498,8 @@
     "item": "",
     "when": "",
     "cond": "会員限定"
-   }
+   },
+   "date": null
   },
   {
    "id": "816e0682b12f",
@@ -4211,7 +4527,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "bedfd347ab48",
@@ -4239,7 +4556,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d44376144027",
@@ -4267,7 +4585,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c93d5a61f412",
@@ -4295,7 +4614,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "92119d03d2dc",
@@ -4323,7 +4643,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "bfc21fce63a5",
@@ -4351,7 +4672,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "bd8ed17f87d6",
@@ -4379,7 +4701,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "891d8852cc64",
@@ -4407,7 +4730,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "2df2eb7f190a",
@@ -4435,7 +4759,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f7144496b620",
@@ -4463,7 +4788,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b434499f7c37",
@@ -4491,7 +4817,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c3deceb32d59",
@@ -4519,7 +4846,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5862b87260da",
@@ -4547,7 +4875,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "cfc06a9d6968",
@@ -4575,7 +4904,8 @@
     "item": "",
     "when": "10/22(木)まで",
     "cond": ""
-   }
+   },
+   "date": "2026-10-22"
   },
   {
    "id": "edf78790c20c",
@@ -4603,7 +4933,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "16ac871dbb0c",
@@ -4631,7 +4962,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "3f01f516753b",
@@ -4659,7 +4991,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ac23f577c7a2",
@@ -4687,7 +5020,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "dd5d4d6d6e74",
@@ -4715,7 +5049,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2019/10/applebees-veterans-day-free-meal-1.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "b4c6e5152bbe",
@@ -4743,7 +5079,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "81c607648950",
@@ -4771,7 +5108,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c1b3dee0c3ee",
@@ -4799,7 +5137,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "85877b4c1e29",
@@ -4827,7 +5166,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8d85cfabcb9c",
@@ -4857,7 +5197,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5017110118d8",
@@ -4885,7 +5226,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d77bad896e59",
@@ -4913,7 +5255,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d65c6c0d2ec0",
@@ -4941,7 +5284,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c96d7ae7f0c8",
@@ -4969,7 +5313,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c4abf95692a4",
@@ -4997,7 +5342,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c2b072e92082",
@@ -5025,7 +5371,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b929261cf658",
@@ -5058,7 +5405,9 @@
     "item": "アイス無料、Breyersが39¢〜",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/kroger-private-selections-ice-cream-pint.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "6fd057006371",
@@ -5088,7 +5437,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5ea5431597c1",
@@ -5116,7 +5466,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e9d554ffcf8b",
@@ -5144,7 +5495,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Halloween.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "c7515e4a5b3b",
@@ -5177,7 +5530,8 @@
     "item": "ピクルスぬいぐるみ",
     "when": "10/27〜",
     "cond": "対象セット購入"
-   }
+   },
+   "date": "2026-10-27"
   },
   {
    "id": "6a4602794f13",
@@ -5205,7 +5559,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "9bc69774ce03",
@@ -5233,7 +5588,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5ceab356467c",
@@ -5261,7 +5617,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b4cdda57d504",
@@ -5289,7 +5646,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "04ef2f11f7ae",
@@ -5317,7 +5675,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8facf537685d",
@@ -5345,7 +5704,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4ea5ac94ecb7",
@@ -5373,7 +5733,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b464f0b89a2a",
@@ -5401,7 +5762,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "58ddc5baf6af",
@@ -5429,7 +5791,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "001df2f71111",
@@ -5457,7 +5820,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "fea76c7bff6f",
@@ -5485,7 +5849,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5461e338b4fd",
@@ -5518,7 +5883,8 @@
     "item": "おもちゃ",
     "when": "",
     "cond": "キッズミール購入"
-   }
+   },
+   "date": null
   },
   {
    "id": "d6da06419a82",
@@ -5546,7 +5912,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "78a1cc20632d",
@@ -5574,7 +5941,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5cad8f8d62ab",
@@ -5602,7 +5970,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "89ffca7214d4",
@@ -5630,7 +5999,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "16bf789f80d9",
@@ -5658,7 +6028,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "1331643bb52e",
@@ -5686,7 +6057,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f9b20945a23d",
@@ -5714,7 +6086,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "14b0b9bc2e77",
@@ -5742,7 +6115,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "58b587caf619",
@@ -5770,7 +6144,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5a93a9a1d7b0",
@@ -5798,7 +6173,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "bd45ef6fd31c",
@@ -5826,7 +6202,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "116298bf73d5",
@@ -5854,7 +6231,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ce9eae42a24c",
@@ -5882,7 +6260,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f2574d03b499",
@@ -5910,7 +6289,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "2eb6909cd56b",
@@ -5938,7 +6318,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b406734ead27",
@@ -5966,7 +6347,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "144cdcb2b869",
@@ -5994,7 +6376,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "6ae9c45726d3",
@@ -6022,7 +6405,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "575de9835972",
@@ -6050,7 +6434,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "047cc876d53f",
@@ -6076,7 +6461,8 @@
     "item": "",
     "when": "",
     "cond": "アプリ"
-   }
+   },
+   "date": null
   },
   {
    "id": "3aa9b5b4ad45",
@@ -6104,7 +6490,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "87dd219f1ba5",
@@ -6132,7 +6519,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "bb6eb80d7706",
@@ -6160,7 +6548,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e4dafd6efa82",
@@ -6189,7 +6578,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e21b1059f5a1",
@@ -6217,7 +6607,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8f2a6668e750",
@@ -6245,7 +6636,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "399798c8b550",
@@ -6273,7 +6665,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d3bcbd0bd8a9",
@@ -6301,7 +6694,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "75a01b61a0b6",
@@ -6329,7 +6723,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f8857ef865e8",
@@ -6357,7 +6752,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "94f06423fae0",
@@ -6385,7 +6781,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "55b9049bae79",
@@ -6413,7 +6810,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "dee7e87d690f",
@@ -6441,7 +6839,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "648b45e66a1e",
@@ -6469,7 +6868,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c8c35ef0ef79",
@@ -6497,7 +6897,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "25c933825f8f",
@@ -6528,7 +6929,9 @@
     "item": "レゴ組み立てイベント",
     "when": "11/13〜11/15",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Barnes-and-noble-Christmas.jpg?resize=306,182",
+   "date": "2026-11-13"
   },
   {
    "id": "c106cd5ddbb8",
@@ -6556,7 +6959,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "079ad0088f1b",
@@ -6584,7 +6988,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e318e01c7474",
@@ -6612,7 +7017,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "347026f5b38a",
@@ -6640,7 +7046,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "0e70dbdddc17",
@@ -6668,7 +7075,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4011c528498a",
@@ -6696,7 +7104,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "999a2e276b65",
@@ -6724,7 +7133,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8dfc17d74411",
@@ -6752,7 +7162,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b42c1e46b6dd",
@@ -6780,7 +7191,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b15c61148bc6",
@@ -6808,7 +7220,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "93e4b98685d2",
@@ -6836,7 +7249,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4ecfc6d2e840",
@@ -6864,7 +7278,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8de932449769",
@@ -6892,7 +7307,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "2254fb7df3a1",
@@ -6920,7 +7336,8 @@
     "item": "",
     "when": "",
     "cond": "子ども向け"
-   }
+   },
+   "date": null
   },
   {
    "id": "0c500ef0f065",
@@ -6948,7 +7365,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f661b11371c7",
@@ -6976,7 +7394,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "51b74fca6f8d",
@@ -7004,7 +7423,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7006a2a6ed6b",
@@ -7032,7 +7452,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "cbbf4978a679",
@@ -7062,7 +7483,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "25082076172b",
@@ -7090,7 +7512,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4397fa96b9eb",
@@ -7118,7 +7541,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "a7bbda804156",
@@ -7151,7 +7575,8 @@
     "item": "アントレ",
     "when": "10/31〜11/1",
     "cond": "商品購入"
-   }
+   },
+   "date": "2026-10-31"
   },
   {
    "id": "254da37a2b7c",
@@ -7179,7 +7604,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "cf430334260f",
@@ -7207,7 +7633,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "55a622633d25",
@@ -7235,7 +7662,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "cf5735eb4f03",
@@ -7263,7 +7691,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "fb21616d4d35",
@@ -7291,7 +7720,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4355bfd36c7c",
@@ -7319,7 +7749,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "74de8b4d9c50",
@@ -7348,7 +7779,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ddf37018964f",
@@ -7382,7 +7814,9 @@
     "item": "コーヒー",
     "when": "",
     "cond": "プロモコード入力"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/05/man-holding-ice-coffee-from-dunkin.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "dce3b2002e7e",
@@ -7410,7 +7844,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "fd6ffdd2b567",
@@ -7438,7 +7873,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b88473bb10be",
@@ -7466,7 +7902,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "52aa2d3c0c5e",
@@ -7494,7 +7931,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "0cc6649e98fc",
@@ -7522,7 +7960,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "6789ee0f38ec",
@@ -7550,7 +7989,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "66a04d900268",
@@ -7578,7 +8018,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d0fb43d7e289",
@@ -7606,7 +8047,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "769845e182f3",
@@ -7634,7 +8076,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "82979b92df29",
@@ -7662,7 +8105,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b88773325ef9",
@@ -7690,7 +8134,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "605dfa39698c",
@@ -7718,7 +8163,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "9108ebab410c",
@@ -7746,7 +8192,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "3f0bd94f9cac",
@@ -7774,7 +8221,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "40d0c9c4dbe3",
@@ -7802,7 +8250,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "9dd3e24ad4e1",
@@ -7830,7 +8279,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "3ca991c87012",
@@ -7858,7 +8308,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5f9652aca614",
@@ -7886,7 +8337,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e51572a7d459",
@@ -7914,7 +8366,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ca68f4c9c085",
@@ -7942,7 +8395,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d6e64bebd907",
@@ -7970,7 +8424,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "0e81eb589db6",
@@ -7998,7 +8453,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "fbe539b4c23c",
@@ -8026,7 +8482,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "eef64c440f9a",
@@ -8054,7 +8511,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "a5862ce4eb67",
@@ -8082,7 +8540,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "74bdf0489fd6",
@@ -8110,7 +8569,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ea376614f4e6",
@@ -8138,7 +8598,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "55e48584ccc7",
@@ -8166,7 +8627,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c83129d6e944",
@@ -8194,7 +8656,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "233926c50f36",
@@ -8222,7 +8685,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "f0f7bc807e3a",
@@ -8250,7 +8714,8 @@
     "item": "",
     "when": "",
     "cond": "子ども向け"
-   }
+   },
+   "date": null
   },
   {
    "id": "2d8ae34ceec3",
@@ -8278,7 +8743,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "12c422f838df",
@@ -8306,7 +8772,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "2e8ff1a51a3e",
@@ -8334,7 +8801,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ab1e835dedb3",
@@ -8362,7 +8830,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "05f5597edf12",
@@ -8390,7 +8859,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "c219dc472f1b",
@@ -8424,7 +8894,8 @@
     "item": "フォトカード6枚セット",
     "when": "",
     "cond": "プロモコード入力"
-   }
+   },
+   "date": null
   },
   {
    "id": "1cd82dbc6b05",
@@ -8452,7 +8923,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "343beee07e16",
@@ -8480,7 +8952,8 @@
     "item": "",
     "when": "",
     "cond": "子ども向け"
-   }
+   },
+   "date": null
   },
   {
    "id": "7a8f99559bf7",
@@ -8508,7 +8981,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "5a1e860d8486",
@@ -8536,7 +9010,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "33dcb689d09e",
@@ -8564,7 +9039,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "cce2121a1234",
@@ -8592,7 +9068,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b70184920120",
@@ -8620,7 +9097,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "77e38659acbf",
@@ -8648,7 +9126,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e7d1c6289004",
@@ -8676,7 +9155,8 @@
     "item": "",
     "when": "",
     "cond": "会員限定"
-   }
+   },
+   "date": null
   },
   {
    "id": "a60684ef2bd3",
@@ -8704,7 +9184,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "dabd07d7066a",
@@ -8732,7 +9213,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e1e79958ba4b",
@@ -8760,7 +9242,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b702bfabfd8a",
@@ -8786,7 +9269,9 @@
     "item": "",
     "when": "",
     "cond": "会員限定"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Great-Clips.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "26e9cfb5a9da",
@@ -8814,7 +9299,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8b94d1cae113",
@@ -8842,7 +9328,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d6506a841ba2",
@@ -8870,7 +9357,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "9a0871f014a6",
@@ -8898,7 +9386,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "8229274ae140",
@@ -8926,7 +9415,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e9e49d56b41c",
@@ -8954,7 +9444,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "7d25ae0c1918",
@@ -8982,7 +9473,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "e3be4ecd4c47",
@@ -9010,7 +9502,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b4bb2df03530",
@@ -9038,7 +9531,8 @@
     "item": "",
     "when": "",
     "cond": "会員限定"
-   }
+   },
+   "date": null
   },
   {
    "id": "ce2f4e3d5b60",
@@ -9066,7 +9560,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "825092b4aeb6",
@@ -9094,7 +9589,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "4f01fcd0e7c9",
@@ -9122,7 +9618,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "089c296ffaa6",
@@ -9150,7 +9647,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "75460aad2828",
@@ -9178,7 +9676,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d7343750736e",
@@ -9206,7 +9705,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "ffbac75b4c5b",
@@ -9234,7 +9734,8 @@
     "item": "",
     "when": "",
     "cond": "コード入力"
-   }
+   },
+   "date": null
   },
   {
    "id": "3377a255f081",
@@ -9262,7 +9763,8 @@
     "item": "",
     "when": "",
     "cond": "会員限定"
-   }
+   },
+   "date": null
   },
   {
    "id": "21b783a200da",
@@ -9292,7 +9794,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "6d54c0195551",
@@ -9320,7 +9823,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "28b048d9a3cf",
@@ -9351,7 +9855,9 @@
     "item": "子供向けレゴ体験",
     "when": "10/25",
     "cond": "子供限定"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/LEGO-Ghost-Street.jpg?resize=306,182",
+   "date": "2026-10-25"
   },
   {
    "id": "e2f6b2025529",
@@ -9379,7 +9885,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "b4fff10bd0b7",
@@ -9407,7 +9914,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "d68c622dae9b",
@@ -9435,7 +9943,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Taco-Bell-Paris-Hiltons-Usual-Promo.png?resize=306,182",
+   "date": null
   },
   {
    "id": "e2bcfd8c8b47",
@@ -9463,7 +9973,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "0d6f682b68d8",
@@ -9491,7 +10002,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "de1744269bb3",
@@ -9519,7 +10031,8 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "date": null
   },
   {
    "id": "a113fb059b50",
@@ -9545,7 +10058,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/01/SiriusXM2.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "25e0489d978a",
@@ -9571,7 +10086,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/11/Ibotta-Walmart-Thanksgiving-Freebies.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "c0feef908921",
@@ -9602,7 +10119,9 @@
     "item": "サンタとペットの写真撮影",
     "when": "12/12",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/12/petco-pics-with-santa.jpg?resize=306,182",
+   "date": "2026-12-12"
   },
   {
    "id": "75335f8a9ac9",
@@ -9628,7 +10147,9 @@
     "item": "",
     "when": "",
     "cond": "会員限定"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/sports-clips.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "2524557e0d2d",
@@ -9661,7 +10182,9 @@
     "item": "4×6写真プリント25枚",
     "when": "毎月",
     "cond": "Walmart+会員限定"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/walmart-photo.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "0dca98073336",
@@ -9694,7 +10217,9 @@
     "item": "MyLowe's $10分特典",
     "when": "",
     "cond": "アプリダウンロード"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mylowes-money.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "b78cb878056a",
@@ -9720,7 +10245,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/krusteaz-pancakes.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "2b7c86f28695",
@@ -9746,7 +10273,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/12/H2S-1200x630-9.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "5c588c50f374",
@@ -9775,7 +10304,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Starbucks-Gift-Card.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "e1a93906d1c4",
@@ -9808,7 +10339,9 @@
     "item": "子供向け木工ワークショップ",
     "when": "11/7",
     "cond": "要予約"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/home-depot-kids-workshops-1.jpg?resize=306,182",
+   "date": "2026-11-07"
   },
   {
    "id": "316c6ef44127",
@@ -9839,7 +10372,9 @@
     "item": "トナカイぬいぐるみ、写真撮影",
     "when": "11/7、11/8",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/bass-pro-shop-reindeer.jpg?resize=306,182",
+   "date": "2026-11-07"
   },
   {
    "id": "d8f248e105dc",
@@ -9870,7 +10405,9 @@
     "item": "クッキー配達",
     "when": "毎日正午ET（〜10/31）",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Keebler-Cookie-BAg-on-Table.png?resize=306,182",
+   "date": "2026-10-31"
   },
   {
    "id": "82cd01781345",
@@ -9898,7 +10435,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/thank-a-delivery-driver-snack-basket-.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "d8190950dcb9",
@@ -9929,7 +10468,9 @@
     "item": "Crunchtimeピザ",
     "when": "",
     "cond": "先着1万名"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/red-baron-crunchtime-pizza-1.jpg?resize=306,182",
+   "date": null
   },
   {
    "id": "a5b9b073663e",
@@ -9957,7 +10498,9 @@
     "item": "",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2019/01/Doritos-Locos-Tacos.jpg?resize=306,182",
+   "date": null
   }
  ]
 }
