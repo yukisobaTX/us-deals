@@ -56,14 +56,12 @@ def main():
         parts.append("🎁 無料" + "・".join([f"店頭{len(store)}"] * bool(store) + [f"クーポン{len(coupon)}"] * bool(coupon)))
     first = (events or new)[0]
     title = ("⏰今日 " if soon else "") + " / ".join(parts) + " / " + (first.get("ja") or first["title"])[:40]
-    lines = [f"{MENTION} 新着のお知らせです。", ""]
+    site = os.environ.get("SITE_URL", "")
+    lines = [f"{MENTION} 新着のお知らせです。", *([f"一覧: {site}"] if site else []), ""]
     if events:
         lines += ["## 🛍 大型セール(日程発表・開始など)", *[fmt_item(x, today) for x in events], ""]
     if new:
         lines += ["## 🎁 無料でもらえる(日付順、🏬店頭・🎟クーポン)", *[fmt_item(x, today) for x in new], ""]
-    site = os.environ.get("SITE_URL", "")
-    if site:
-        lines += [f"一覧: {site}", ""]
     lines += ["---", "店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]
     body = "\n".join(lines)
     if a.dry_run:

@@ -99,12 +99,11 @@ def build(items, since, site):
             ev_lines += [f"**{lab}**({len(g)}件)", *[fmt_item(x, t_iso) for x in g[:5]], ""]
     n = len(allx) + len(ev_lines)
     title = f"無料でもらえる {today.month}/{today.day}:店頭{len(store)}・クーポン{len(coupon)}"
-    lines = [f"{MENTION} おはようございます。無料でもらえるもの(日付順、🏬店頭・🎟クーポン)です。", ""]
+    lines = [f"{MENTION} おはようございます。無料でもらえるもの(日付順、🏬店頭・🎟クーポン)です。",
+             *([f"一覧: {site}"] if site else []), ""]
     lines += [fmt_item(x, t_iso) for x in allx] + [""]
     if ev_lines:
         lines += ["## 🛍 大型セール", *ev_lines]
-    if site:
-        lines += [f"セール情報も含めた一覧: {site}", ""]
     lines += ["---", "見出しとリンクは各ブログの RSS から自動で集めています。店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]
     return title, "\n".join(lines), n
 
