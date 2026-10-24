@@ -60,3 +60,4 @@ body { margin: 0; background: var(--bg); color: var(--text);
 .links a { color: var(--accent); }
 .foot { color: var(--muted); font-size: 12px; padding-bottom: 32px; }
 @media (max-width: 480px) { body { font-size: 14px; } .row select { flex: 1; } }
+.card .orig { font-size: 12px; color: var(--muted); margin-top: 2px; }

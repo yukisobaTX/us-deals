@@ -15,12 +15,15 @@ import email.utils
 import hashlib
 import html
 import json
+import os
 import re
 import sys
 import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from zoneinfo import ZoneInfo
 
 CT = ZoneInfo("America/Chicago")
@@ -243,6 +246,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--from-dir", help="feed id ごとの XML(<id>.xml)を読む。試験用")
     ap.add_argument("--out", default=str(OUT))
+    ap.add_argument("--no-translate", action="store_true", help="日本語化しない(試験用)")
     a = ap.parse_args()
 
     sources = json.loads((CONFIG / "sources.json").read_text())
@@ -306,6 +310,21 @@ def main():
         x["freebie"] = freebie_info(x["title"], parse_date_iso(x["posted"]))
         if x["freebie"] and x["freebie"]["when"] and not x.get("expires") and x["freebie"]["kind"] == "store":
             x["expires"] = x["freebie"]["when"]
+
+    # 日本語の要約:無料でもらえるものを優先。Gemini があればほかの記事も(新しい順)
+    if not (a.no_translate or a.from_dir):
+        from translate_ja import translate
+        todo = [x for x in by_id.values() if not x.get("ja")]
+        todo.sort(key=lambda x: (not x.get("freebie"), x["posted"]), reverse=False)
+        todo = [x for x in todo if x.get("freebie")] + sorted(
+            [x for x in todo if not x.get("freebie")], key=lambda x: x["posted"], reverse=True)
+        if not os.environ.get("GEMINI_API_KEY"):
+            todo = [x for x in todo if x.get("freebie")]   # 無料の翻訳は字数制限があるので無料情報だけ
+        ja, how = translate([(x["id"], x["title"]) for x in todo], limit=60)
+        for x in todo:
+            if x["id"] in ja:
+                x["ja"] = ja[x["id"]]
+        stats["ja"] = {"done": len(ja), "via": how}
 
     # 古いもの・期限切れを削除
     keep = []

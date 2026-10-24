@@ -27,13 +27,15 @@ jobs:
     timeout-minutes: 15
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SITE_URL: ${{ vars.SITE_URL }}
+      SITE_URL: ${{ vars.SITE_URL || 'https://us-deals.10baki-c03.workers.dev' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Fetch RSS (latest before digest)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python3 scripts/fetch_deals.py || true
       - name: Send digest
         run: python3 scripts/daily_digest.py ${{ inputs.force && '--force' || '' }}

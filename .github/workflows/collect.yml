@@ -25,11 +25,13 @@ jobs:
       - name: Test classifier
         run: python3 tests/test_classify.py
       - name: Fetch RSS
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python3 scripts/fetch_deals.py
       - name: Freebie alert
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://us-deals.10baki-c03.workers.dev' }}
         run: python3 scripts/freebie_alert.py
       - name: Commit
         run: |

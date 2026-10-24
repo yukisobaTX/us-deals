@@ -42,7 +42,7 @@
       if (!['p50', 'today'].includes(t) && !x.types.includes(t)) return false;
     }
     if (state.store && !x.stores.includes(state.store)) return false;
-    if (state.q && !(x.title + ' ' + x.stores.join(' ')).toLowerCase().includes(state.q)) return false;
+    if (state.q && !(x.title + ' ' + (x.ja || '') + ' ' + x.stores.join(' ')).toLowerCase().includes(state.q)) return false;
     return true;
   }
 
@@ -82,7 +82,8 @@
     sub.append(el('span', { textContent: `${md(new Date(Date.parse(x.posted)).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }))} 掲載・${x.source}` }));
     const href = /^https:\/\//.test(x.link) ? x.link : '#';
     return el('li', { className: 'card' + (x.freebie ? ' hot' : '') }, [
-      el('a', { href, target: '_blank', rel: 'noopener noreferrer', textContent: x.title }), sub
+      el('a', { href, target: '_blank', rel: 'noopener noreferrer', textContent: x.ja || x.title }),
+      x.ja ? el('div', { className: 'orig', textContent: x.title }) : null, sub
     ]);
   }
 

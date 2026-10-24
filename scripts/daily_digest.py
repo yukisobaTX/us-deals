@@ -57,7 +57,7 @@ def fmt_item(x, today):
     if fb.get("when"):
         when = "**今日**" if fb["when"] == today else md(fb["when"])
         when = f"{when} "
-    return f"- {when}{store}[{x['title']}]({x['link']})"
+    return f"- {when}{store}[{x.get('ja') or x['title']}]({x['link']})"
 
 
 def build(items, since, site):
