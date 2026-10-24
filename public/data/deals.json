@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T22:48Z",
- "count": 444,
+ "updated": "2026-10-24T23:38Z",
+ "count": 448,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -16,30 +16,166 @@
   },
   "ffp": {
    "read": 10,
-   "added": 8
+   "added": 0
   },
   "msm": {
    "read": 75,
-   "added": 46
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 28
+   "added": 3
   },
   "hotc": {
    "read": 20,
-   "added": 3
+   "added": 0
   },
   "ja": {
-   "gemini": 0,
-   "mymemory": 25,
-   "geminiToday": 9,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "gemini": 15,
+   "mymemory": 14,
+   "geminiToday": 10,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "755e6edbed52",
+   "title": "Everyone Will Talk About This $25 Target Thanksgiving Sweatshirt",
+   "link": "https://hip2save.com/deals/target-womens-thanksgiving-sweatshirt/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T23:30Z",
+   "firstSeen": "2026-10-24T23:38Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Target-Turkey-Wine.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "誰もがこの$ 25ターゲットサンクスギビングスウェットシャツについて話すでしょう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "誰もがこの$ 25ターゲットサンクスギビングスウェットシャツについて話すでしょう",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5acfe9708ba4",
+   "title": "Buy One Get TWO FREE Pillows & Sheets at JCPenney + 10% Off",
+   "link": "https://thefreebieguy.com/buy-one-get-two-free-pillows-at-jcpenney/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T23:28Z",
+   "firstSeen": "2026-10-24T23:38Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/jcpenney-store-front-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 10,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "JCPenney",
+    "item": "枕・シーツが1個購入で2個無料+10%引",
+    "when": "",
+    "cond": "1個購入"
+   },
+   "ja": "枕・シーツが1個購入で2個無料+10%引",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "81b189d8cd80",
+   "title": "My Texas House Area Rugs As Low As $19.xx at Walmart!",
+   "link": "https://thefreebieguy.com/my-texas-house-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T23:25Z",
+   "firstSeen": "2026-10-24T23:38Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/rug-sale-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "私のテキサスハウスエリアラグは、ウォルマートで$ 19.xx ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "私のテキサスハウスエリアラグは、ウォルマートで$ 19.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f69e35f678ab",
+   "title": "Girls Button Front Top and Pants Pajama Sets as Low as $7 (Reg $17)",
+   "link": "https://thefreebieguy.com/girls-button-down-pajama-sets/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-24T22:57Z",
+   "firstSeen": "2026-10-24T23:38Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Girls-Pajama-Closet-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 59,
+   "price": 7.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ガールズボタンフロントトップとパンツパジャマは$ 7 （登録番号$ 17 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ガールズボタンフロントトップとパンツパジャマは$ 7 （登録番号$ 17 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "0d560b8cf7c6",
    "title": "Oversized Chaise Lounge Chair Only $227 at Walmart (Reg. $399)!",
@@ -435,10 +571,7 @@
    "price": null,
    "event": null,
    "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
+   "freebie": null,
    "ja": "Emma M. Lionのオーディオブックを無料（またはほぼ無料！ ）で聴く10の方法",
    "jaVia": "mymemory",
    "sum": {
@@ -541,13 +674,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "4パックGaranimalsベビー＆幼児ショーツウォルマートでわずか$ 4.xx （登録価格$ 15 ） ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "4パックGaranimalsベビー＆幼児ショーツウォルマートでわずか$ 4.xx （登録価格$ 15 ） ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fb9b907b0332",
@@ -641,13 +776,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "値下げ！カローテ5クォート鋳鉄オランダ製オーブンセットウォルマートでわずか$ 32.98 （登録価格$ 70 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "値下げ！カローテ5クォート鋳鉄オランダ製オーブンセットウォルマートでわずか$ 32.98 （登録価格$ 70 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "338e7aa46ba8",
@@ -673,13 +810,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キャラクターパジャマ2点セットウォルマートでわずか$ 5 （登録価格$ 14 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "キャラクターパジャマ2点セットウォルマートでわずか$ 5 （登録価格$ 14 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5752b38f6f75",
@@ -739,13 +878,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "105 FT 300 LEDカラーチェンジクリスマスライトアマゾンでわずか$ 14.xx （登録価格$ 27 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "105 FT 300 LEDカラーチェンジクリスマスライトアマゾンでわずか$ 14.xx （登録価格$ 27 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b7307f8d99c0",
@@ -771,13 +912,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "再入荷！ウォルマートでわずか$ 25の美しい2パック2 qtスロークッカー",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "再入荷！ウォルマートでわずか$ 25の美しい2パック2 qtスロークッカー",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c51970592c02",
@@ -803,13 +946,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonはホリデーシーズンに30万人以上の労働者を雇用しています！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonはホリデーシーズンに30万人以上の労働者を雇用しています！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "059c30065587",
@@ -870,13 +1015,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで人気のNintendo Switchゲームセール！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで人気のNintendo Switchゲームセール！",
     "when": "",
     "cond": ""
    },
-   "date": null
+   "dup": "2eb576101456"
   },
   {
    "id": "f5d617af4cbd",
@@ -970,13 +1118,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-10-24",
+   "ja": "本日限り！ターゲットでお気に入りの日のハロウィンスナックを50%オフでゲット！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "本日限り！ターゲットでお気に入りの日のハロウィンスナックを50%オフでゲット！",
     "when": "10/24(土)まで",
     "cond": ""
-   },
-   "date": "2026-10-24"
+   }
   },
   {
    "id": "6b633406589f",
@@ -1002,13 +1152,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "デビッドのブライダルドレスが最大80%オフ|価格は$ 9.xxから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "デビッドのブライダルドレスが最大80%オフ|価格は$ 9.xxから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6dffa5cf3363",
@@ -1102,13 +1254,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Disney Junior Minnie Mouse Marvelous Market Amazonで$ 57.xxのみ（登録価格$ 100 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Disney Junior Minnie Mouse Marvelous Market Amazonで$ 57.xxのみ（登録価格$ 100 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a2dfb4dd47e0",
@@ -1202,13 +1356,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "NCAAパーカーウォルマートで$ 11.xxから（登録番号： $ 35 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "NCAAパーカーウォルマートで$ 11.xxから（登録番号： $ 35 ）",
     "when": "",
     "cond": ""
    },
-   "date": null
+   "dup": "556180d1e92c"
   },
   {
    "id": "6d6106be6ef3",
@@ -2615,15 +2772,16 @@
     "kind": "coupon",
     "when": "2026-10-27"
    },
-   "ja": "無料国立公園の日| 10月27日",
-   "jaVia": "mymemory",
+   "ja": "国立公園の入場無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "無料国立公園の日| 10月27日",
-    "when": "10/27(火)",
+    "store": "National Park",
+    "item": "国立公園の入場無料",
+    "when": "10/27",
     "cond": ""
    },
-   "date": "2026-10-27"
+   "date": "2026-10-27",
+   "dup": "059c30065587"
   },
   {
    "id": "2996550afe7a",
@@ -2785,7 +2943,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "a2dfb4dd47e0"
   },
   {
    "id": "1ed610b2a41e",
@@ -2880,12 +3039,12 @@
     "kind": "store",
     "when": "2026-10-24"
    },
-   "ja": "今すぐJack in the Boxでモンスタータコス＆スモールドリンクを無料で手に入れましょう！",
-   "jaVia": "mymemory",
+   "ja": "無料モンスタータコ＆ドリンクS",
+   "jaVia": "gemini",
    "sum": {
     "store": "Jack in the Box",
-    "item": "今すぐJack in the Boxでモンスタータコス＆スモールドリンクを無料で手に入れましょう！",
-    "when": "10/24(土)",
+    "item": "無料モンスタータコ＆ドリンクS",
+    "when": "10/24",
     "cond": ""
    },
    "date": "2026-10-24"
@@ -2949,15 +3108,16 @@
     "kind": "store",
     "when": "2026-10-24"
    },
-   "ja": "ティフのおやつ： 10月24日と25日に若いアスリートのための無料アイスクリームサンドイッチ！",
-   "jaVia": "mymemory",
+   "ja": "無料アイスサンドイッチ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ティフのおやつ： 10月24日と25日に若いアスリートのための無料アイスクリームサンドイッチ！",
-    "when": "10/24(土)",
-    "cond": ""
+    "store": "Tiff's Treats",
+    "item": "無料アイスサンドイッチ",
+    "when": "10/24〜10/25",
+    "cond": "若年アスリート限定"
    },
-   "date": "2026-10-24"
+   "date": "2026-10-24",
+   "dup": "1ba2740a197a"
   },
   {
    "id": "799842002339",
@@ -3222,7 +3382,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "b702bfabfd8a"
   },
   {
    "id": "8f0d6f9ab7e3",
@@ -3459,11 +3620,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "2026年テキサスシティミュージックフェスティバルのガイド|無料のライブミュージック＆地元の楽しみ",
-   "jaVia": "mymemory",
+   "ja": "無料ライブ音楽イベント",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "2026年テキサスシティミュージックフェスティバルのガイド|無料のライブミュージック＆地元の楽しみ",
+    "store": "Texas City Music Festival",
+    "item": "無料ライブ音楽イベント",
     "when": "",
     "cond": ""
    },
@@ -4274,10 +4435,7 @@
    "price": null,
    "event": null,
    "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
+   "freebie": null,
    "ja": "私の新しい本+ $ 75の無料ボーナス 🎉",
    "jaVia": "mymemory",
    "sum": {
@@ -5865,12 +6023,12 @@
     "when": "2026-10-31",
     "roundup": true
    },
-   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
-   "jaVia": "mymemory",
+   "ja": "無料特典・割引セール",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
-    "when": "10/31(土)",
+    "item": "無料特典・割引セール",
+    "when": "10/31",
     "cond": ""
    },
    "date": "2026-10-31"
@@ -6038,7 +6196,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "5f9652aca614"
   },
   {
    "id": "3651a8980319",
@@ -6168,7 +6327,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "dc9d8a06b2b1"
   },
   {
    "id": "976199dd40d5",
@@ -6431,7 +6591,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "c1b3dee0c3ee"
   },
   {
    "id": "0ef8c88717bd",
@@ -6556,10 +6717,7 @@
    "price": null,
    "event": null,
    "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
+   "freebie": null,
    "ja": "Sirius XMセール： XMラジオ3か月無料{車+アプリまたはアプリのみ！}",
    "jaVia": "mymemory",
    "sum": {
@@ -6965,7 +7123,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lays-Kettle-Chips.jpg?resize=306,182"
   },
   {
    "id": "8984dad7d3a2",
@@ -7655,10 +7814,7 @@
    "price": null,
    "event": null,
    "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
+   "freebie": null,
    "ja": "無料のAmazonギフトカードを獲得する7つの簡単な方法",
    "jaVia": "mymemory",
    "sum": {
@@ -7895,7 +8051,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "944e5891023c"
   },
   {
    "id": "2df2eb7f190a",
@@ -8190,7 +8347,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "f7144496b620"
   },
   {
    "id": "16ac871dbb0c",
@@ -8321,7 +8479,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "55b9049bae79"
   },
   {
    "id": "dd5d4d6d6e74",
@@ -8854,11 +9013,11 @@
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Halloween.jpg?resize=306,182",
    "date": null,
-   "ja": "最高のハロウィンレストランセール＆景品",
-   "jaVia": "mymemory",
+   "ja": "飲食店ハロウィン無料特典・割引",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "最高のハロウィンレストランセール＆景品",
+    "item": "飲食店ハロウィン無料特典・割引",
     "when": "",
     "cond": ""
    },
@@ -9491,12 +9650,12 @@
     "kind": "coupon",
     "when": "2026-10-23"
    },
-   "ja": "楽しくて無料でお得なイベント| 10月23日～ 10月25日",
-   "jaVia": "mymemory",
+   "ja": "無料・格安イベント",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "楽しくて無料でお得なイベント| 10月23日～ 10月25日",
-    "when": "10/23(金)",
+    "item": "無料・格安イベント",
+    "when": "10/23〜10/25",
     "cond": ""
    },
    "date": "2026-10-23"
@@ -14192,12 +14351,12 @@
     "kind": "coupon",
     "when": "2026-10-16"
    },
-   "ja": "楽しくて無料でお得なイベント| 10月16日～ 10月18日",
-   "jaVia": "mymemory",
+   "ja": "無料・格安イベント",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "楽しくて無料でお得なイベント| 10月16日～ 10月18日",
-    "when": "10/16(金)",
+    "item": "無料・格安イベント",
+    "when": "10/16〜10/18",
     "cond": ""
    },
    "date": "2026-10-16"
