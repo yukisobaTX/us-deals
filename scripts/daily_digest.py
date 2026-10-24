@@ -3,7 +3,7 @@
 
 - 対象:無料でもらえるもの。新着は毎時の即時通知(freebie_alert.py)で送るので、
   朝は「今日・明日の店頭配布」のリマインドと、即時通知されていない新着だけ。
-- 前のまとめ Issue は閉じる(受信箱に溜めない)。
+- 前の Issue は閉じない(閉じると完了通知メールが別に届くため)。
 - 夏時間・冬時間の両方に対応するため、cron は2つ(12:41・13:41 UTC)で起動し、
   米国中部時間で 7 時台のときだけ送る(--force で時刻を無視)。
 
@@ -129,8 +129,7 @@ def main():
         api("POST", "/labels", {"name": LABEL, "color": "f9a825", "description": "毎朝のお得情報まとめ"})
     except Exception:  # noqa: BLE001  既にある
         pass
-    for old in api("GET", f"/issues?labels={LABEL}&state=open&per_page=50") or []:
-        api("PATCH", f"/issues/{old['number']}", {"state": "closed", "state_reason": "completed"})
+    # 前の Issue は閉じない(閉じると「Closed as completed」の通知メールが別に届くため)
     created = api("POST", "/issues", {"title": title, "body": body, "labels": [LABEL]})
     print(f"Issue #{created['number']} を作成({n} 件)")
     STATE.write_text(json.dumps({"lastSent": data["updated"], "lastDate": now_ct.date().isoformat(),

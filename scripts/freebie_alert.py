@@ -4,7 +4,7 @@
 収集(Collect deals、毎時)の直後に実行する。
 - 対象:前回の通知以降に見つかった freebie(firstSeen > lastAlert)。日付が過ぎたものは除く。
 - 新着がなければ何もしない。
-- 前の通知 Issue は閉じる(メールは届いているので受信箱に溜めない)。
+- 前の Issue は閉じない(閉じると完了通知メールが別に届くため)。
 - 状態は public/data/alert-state.json。初回(状態なし)は通知せず基準点だけ記録する。
 
 環境変数:GITHUB_TOKEN、GITHUB_REPOSITORY、SITE_URL(任意)
@@ -67,8 +67,7 @@ def main():
         api("POST", "/labels", {"name": LABEL, "color": "d73a4a", "description": "無料でもらえるものの即時通知"})
     except Exception:  # noqa: BLE001  既にある
         pass
-    for old in api("GET", f"/issues?labels={LABEL}&state=open&per_page=50") or []:
-        api("PATCH", f"/issues/{old['number']}", {"state": "closed", "state_reason": "completed"})
+    # 前の Issue は閉じない(閉じると「Closed as completed」の通知メールが別に届くため)
     created = api("POST", "/issues", {"title": title, "body": body, "labels": [LABEL]})
     print(f"Issue #{created['number']} を作成({len(new)} 件)")
     STATE.write_text(json.dumps({"lastAlert": data["updated"], "lastIssue": created["number"]}, indent=1) + "\n")
