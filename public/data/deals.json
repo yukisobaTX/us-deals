@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T19:39Z",
- "count": 349,
+ "updated": "2026-10-24T20:41Z",
+ "count": 353,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -15,14 +15,112 @@
    "added": 0
   },
   "ja": {
-   "gemini": 6,
+   "gemini": 0,
    "mymemory": 25,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest"
+   "geminiToday": 3,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d9e8d10aa9a2",
+   "title": "Puffer Makeup Bag 3-Piece Sets from $7 Shipped for Amazon Prime Members!",
+   "link": "https://hip2save.com/deals/amazon-puffer-makeup-bag/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T20:30Z",
+   "firstSeen": "2026-10-24T20:41Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Taupe-Quilted-Vanity-Essentials.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "freebie": null,
+   "ja": "Pufferメイクアップバッグ3個セット$ 7からAmazonプライム会員様向けに発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Pufferメイクアップバッグ3個セット$ 7からAmazonプライム会員様向けに発送！",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "5752b38f6f75",
+   "title": "2026 Funko Pop! Advent Calendars Are Here | Count Down with Your Favorite Characters!",
+   "link": "https://hip2save.com/deals/funko-pop-advent-calendars/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T20:00Z",
+   "firstSeen": "2026-10-24T20:41Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/funko-bitty-bop-disney-princess-advent.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "freebie": null,
+   "ja": "2026年ファンコポップ！アドベントカレンダー登場|お気に入りのキャラクターでカウントダウン！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "2026年ファンコポップ！アドベントカレンダー登場|お気に入りのキャラクターでカウントダウン！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "059c30065587",
+   "title": "FREE National Park Admission on October 27th!",
+   "link": "https://hip2save.com/deals/free-national-park-day/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T19:45Z",
+   "firstSeen": "2026-10-24T20:41Z",
+   "expires": "2026-10-27",
+   "thumb": "https://hip2save.com/wp-content/uploads/2021/06/family-in-zion-national-park--e1699313079923.jpeg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-10-27"
+   },
+   "ja": "10月27日、国立公園への無料入場！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月27日、国立公園への無料入場！",
+    "when": "10/27(火)",
+    "cond": ""
+   },
+   "date": "2026-10-27"
+  },
   {
    "id": "f5d617af4cbd",
    "title": "Kobalt Knee Pads Just $9.98 Shipped at Lowe’s (Reg. $20)!",
@@ -913,6 +1011,38 @@
    "ja": "My Life As Harry Potter 18インチ人形$ 39.94ウォルマート発送",
    "jaVia": "mymemory",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/my-life-as-harry-potter-griffindor-doll-2.jpg?resize=306,182",
+   "sum": {
+    "store": "Walmart",
+    "item": "My Life As Harry Potter 18インチ人形$ 39.94ウォルマート発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "35ef1548ac01",
+   "title": "My Life As Harry Potter 18″ Dolls $39.94 Shipped at Walmart",
+   "link": "https://hip2save.com/deals/my-life-as-harry-potter-dolls/",
+   "source": "Hip2Save",
+   "posted": "2026-10-24T15:23Z",
+   "firstSeen": "2026-10-24T20:41Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/my-life-as-harry-potter-griffindor-doll-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "freebie": null,
+   "ja": "My Life As Harry Potter 18インチ人形$ 39.94ウォルマート発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
     "item": "My Life As Harry Potter 18インチ人形$ 39.94ウォルマート発送",
@@ -4709,13 +4839,15 @@
    "pct": 50,
    "price": 13.0,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで最初に吊るされたトイレタリーバッグセットはわずか$ 13 （登録番号： $ 26 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで最初に吊るされたトイレタリーバッグセットはわずか$ 13 （登録番号： $ 26 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c93d5a61f412",
@@ -4738,13 +4870,15 @@
    "pct": 57,
    "price": 5.99,
    "freebie": null,
+   "date": null,
+   "ja": "アマゾンのチェック柄ブランケットスカーフはたったの$ 5.99 （登録価格$ 14 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アマゾンのチェック柄ブランケットスカーフはたったの$ 5.99 （登録価格$ 14 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "92119d03d2dc",
@@ -4767,13 +4901,15 @@
    "pct": 72,
    "price": 9.98,
    "freebie": null,
+   "date": null,
+   "ja": "ベビースノースーツAmazonでたったの$ 9.98 （登録価格$ 36 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ベビースノースーツAmazonでたったの$ 9.98 （登録価格$ 36 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bfc21fce63a5",
@@ -4796,13 +4932,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Holly Collectible Dollの新作DollyがWalmart.comで入手可能",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Holly Collectible Dollの新作DollyがWalmart.comで入手可能",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bd8ed17f87d6",
@@ -4825,13 +4963,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットが新登場のクリスマスアイテムを手に入れたばかりのBulleyeのプレイグラウンド",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットが新登場のクリスマスアイテムを手に入れたばかりのBulleyeのプレイグラウンド",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "891d8852cc64",
@@ -4854,13 +4994,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "大人用ノーショーソックス6パックのみ$ 9.49 （ペアあたりわずか$ 1.58 ！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "大人用ノーショーソックス6パックのみ$ 9.49 （ペアあたりわずか$ 1.58 ！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2df2eb7f190a",
@@ -4883,13 +5025,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "これはまだ在庫がありますか？ ！ウォルマートで出荷されたスマートテレビはわずか$ 68です",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "これはまだ在庫がありますか？ ！ウォルマートで出荷されたスマートテレビはわずか$ 68です",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f7144496b620",
@@ -4912,13 +5056,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Groceryパンケーキシロップ3パックのみ$ 3.60発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Groceryパンケーキシロップ3パックのみ$ 3.60発送",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b434499f7c37",
@@ -4941,13 +5087,15 @@
    "pct": 50,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "ホームデポハロウィンデコレーションが最大50%オフ+送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Home Depot",
-    "item": "",
+    "item": "ホームデポハロウィンデコレーションが最大50%オフ+送料無料",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c3deceb32d59",
@@ -4970,13 +5118,15 @@
    "pct": 37,
    "price": 169.0,
    "freebie": null,
+   "date": null,
+   "ja": "Ninja Slushi SamsClub.comでたったの$ 169 （登録番号： $ 269 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "Ninja Slushi SamsClub.comでたったの$ 169 （登録番号： $ 269 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5862b87260da",
@@ -4999,13 +5149,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートキッチンクリアランス| Better Homes, & Gardens Dip Bowl 2 -わずか$ 1.64 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートキッチンクリアランス| Better Homes, & Gardens Dip Bowl 2 -わずか$ 1.64 ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "cfc06a9d6968",
@@ -5028,13 +5180,15 @@
    "pct": 69,
    "price": 4.95,
    "freebie": null,
+   "date": "2026-10-22",
+   "ja": "断熱ランチバッグAmazonでたったの$ 4.95 （登録番号： $ 16 ） –本日限定",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "断熱ランチバッグAmazonでたったの$ 4.95 （登録番号： $ 16 ） –本日限定",
     "when": "10/22(木)まで",
     "cond": ""
-   },
-   "date": "2026-10-22"
+   }
   },
   {
    "id": "edf78790c20c",
@@ -5057,13 +5211,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "ダイエットコークカフェインフリー12パックわずか$ 4.45 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ダイエットコークカフェインフリー12パックわずか$ 4.45 Amazonで発送",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "16ac871dbb0c",
@@ -5086,13 +5242,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comでこの楽しいグリンチジュエリーアドベントカレンダーを見つけました",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comでこの楽しいグリンチジュエリーアドベントカレンダーを見つけました",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3f01f516753b",
@@ -5115,13 +5273,15 @@
    "pct": null,
    "price": null,
    "freebie": null,
+   "date": null,
+   "ja": "コストコに参加して、$ 40のデジタルコストコショップカードを手に入れましょう（+最大$ 60のキャッシュバック！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Costco",
-    "item": "",
+    "item": "コストコに参加して、$ 40のデジタルコストコショップカードを手に入れましょう（+最大$ 60のキャッシュバック！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ac23f577c7a2",
