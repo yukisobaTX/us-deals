@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-25T13:33Z",
- "count": 481,
+ "updated": "2026-10-25T13:43Z",
+ "count": 483,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -35,14 +35,83 @@
    "added": 0
   },
   "ja": {
-   "gemini": 7,
-   "mymemory": 4,
-   "geminiToday": 10,
-   "model": "gemini-flash-latest"
+   "gemini": 0,
+   "mymemory": 9,
+   "geminiToday": 11,
+   "model": "gemini-flash-latest",
+   "geminiError": "The read operation timed out"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "7e36a7483e5e",
+   "title": "Dove Limited Edition Cinnamon Pumpkin Pie Body Wash Only $4.xx on Amazon (Reg $9)",
+   "link": "https://thefreebieguy.com/dove-limited-edition-holiday-treats-body-wash/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T13:36Z",
+   "firstSeen": "2026-10-25T13:43Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/dove-cinnamon-pumpkin-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 56,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Dove限定版シナモンパンプキンパイボディウォッシュAmazonで$ 4.xxのみ（定額$ 9 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Dove限定版シナモンパンプキンパイボディウォッシュAmazonで$ 4.xxのみ（定額$ 9 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7426bfd701a2",
+   "title": "DEWALT XTREME 12V Cordless Impact Driver Just $79 at Lowe’s (Reg $129)",
+   "link": "https://thefreebieguy.com/dewalt-impact/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T13:33Z",
+   "firstSeen": "2026-10-25T13:43Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/DEWALT-XTREME-12-volt-max-Brushless-Cordless-Impact-Driver-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 39,
+   "price": 79.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "DEWALT XTREME 12 VコードレスインパクトドライバLowe'sでわずか$ 79 （登録価格$ 129 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "DEWALT XTREME 12 VコードレスインパクトドライバLowe'sでわずか$ 79 （登録価格$ 129 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "b0017756de4b",
    "title": "Pioneer 70″ 4K Roku Smart TV Only $294.xx at Best Buy (Reg. $510)",
@@ -109,8 +178,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "303f53bc00bc",
-   "date": null
+   "date": null,
+   "dup": "303f53bc00bc"
   },
   {
    "id": "1118da938978",
