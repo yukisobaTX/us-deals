@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T05:44Z",
+ "updated": "2026-10-25T06:57Z",
  "count": 468,
  "stats": {
   "h2s": {
@@ -8,7 +8,7 @@
   },
   "h2s-free": {
    "read": 100,
-   "added": 6
+   "added": 7
   },
   "doc": {
    "read": 15,
@@ -35,10 +35,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 6,
+   "gemini": 7,
    "mymemory": 0,
-   "geminiToday": 1,
-   "model": "gemini-flash-latest"
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
  "errors": [],
