@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T07:47Z",
- "count": 468,
+ "updated": "2026-10-25T08:46Z",
+ "count": 469,
  "stats": {
   "h2s": {
    "read": 100,
@@ -32,18 +32,52 @@
   },
   "hotc": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 7,
-   "geminiToday": 3,
+   "mymemory": 8,
+   "geminiToday": 4,
    "model": "gemini-flash-latest",
-   "geminiError": "The read operation timed out"
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f177620387b2",
+   "title": "Veterans Day Houston 2026: Parades, Free Meals & Ceremony Guide",
+   "link": "https://www.houstononthecheap.com/veterans-day-parades-ceremonies-houston/",
+   "source": "Houston on the Cheap",
+   "posted": "2026-10-25T08:00Z",
+   "firstSeen": "2026-10-25T08:46Z",
+   "expires": null,
+   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Veterans-Day-Houston-2026.jpg",
+   "noAlert": true,
+   "region": "Houston",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "2026年ヒューストン退役軍人デー：パレード、無料食事＆セレモニーガイド",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "2026年ヒューストン退役軍人デー：パレード、無料食事＆セレモニーガイド",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "2850fbebbd8f",
    "title": "Disney Movie Throw Blanket w/ VHS Gift Box Just $19.98 on SamsClub.com (May Sell Out)",
