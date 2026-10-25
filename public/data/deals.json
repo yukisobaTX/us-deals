@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-25T11:43Z",
- "count": 473,
+ "updated": "2026-10-25T12:32Z",
+ "count": 475,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -36,14 +36,82 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 11,
-   "geminiToday": 7,
+   "mymemory": 9,
+   "geminiToday": 8,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "e9f1f2b72949",
+   "title": "Snag This Viral Goose Christmas Candle for Just $8.86 on Walmart.com",
+   "link": "https://hip2save.com/deals/walmart-mainstays-goose-candle/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T12:22Z",
+   "firstSeen": "2026-10-25T12:32Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Mainstays-Holiday-Goose-Candle.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comでわずか$ 8.86でこのウイルスグースクリスマスキャンドルを手に入れよう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comでわずか$ 8.86でこのウイルスグースクリスマスキャンドルを手に入れよう",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1956c4c121e5",
+   "title": "40% Off Target Soda 12-Packs Sale! | Coke, Pepsi & More",
+   "link": "https://thefreebieguy.com/target-soda-12-packs-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T12:10Z",
+   "firstSeen": "2026-10-25T12:32Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Soda-12-packs-stacked-Dr.-Pepper-Sprite-coca-Cola-Zero-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットソーダ12パックが40%オフ！ |コカコーラ、ペプシなど",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットソーダ12パックが40%オフ！ |コカコーラ、ペプシなど",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "1c8c434fec3c",
    "title": "GO! Lysol Power Toilet Bowl Cleaner Gel 2-Pack Only $4.xx on Amazon",
@@ -76,8 +144,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "1f0f637b8b45",
-   "date": null
+   "date": null,
+   "dup": "1f0f637b8b45"
   },
   {
    "id": "a745907e99c8",
