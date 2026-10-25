@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-25T01:43Z",
- "count": 470,
+ "updated": "2026-10-25T02:46Z",
+ "count": 471,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -16,7 +16,7 @@
   },
   "ffp": {
    "read": 20,
-   "added": 10
+   "added": 0
   },
   "msm": {
    "read": 75,
@@ -28,7 +28,7 @@
   },
   "mws": {
    "read": 20,
-   "added": 3
+   "added": 0
   },
   "hotc": {
    "read": 20,
@@ -36,14 +36,48 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 9,
-   "geminiToday": 12,
+   "mymemory": 7,
+   "geminiToday": 13,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "2850fbebbd8f",
+   "title": "Disney Movie Throw Blanket w/ VHS Gift Box Just $19.98 on SamsClub.com (May Sell Out)",
+   "link": "https://hip2save.com/deals/disney-throw-blanket/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T02:10Z",
+   "firstSeen": "2026-10-25T02:46Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Toy-Story-VHS-Blanket.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "SamsClub.comでわずか$ 19.98のVHSギフトボックス付きディズニー映画スローブランケット（売り切れの可能性あり）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "SamsClub.comでわずか$ 19.98のVHSギフトボックス付きディズニー映画スローブランケット（売り切れの可能性あり）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "89b08e7b7f4d",
    "title": "Kobalt Stubby 50 -Piece Tool Sets Only $24.98 at Lowe’s (Reg. $35)",
