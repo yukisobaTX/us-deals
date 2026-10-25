@@ -53,7 +53,15 @@ FREEBIES = [
     ("Win a $100 Starbucks Gift Card - Enter Now", None, None),
     ("Try Out 3 Months of SiriusXM for FREE", None, None),
     ("FREE Great Clips Haircuts for Veterans & Active Service Members on November 11th", None, None),
-    ("Subway BOGO FREE Footlongs Coming October 27th", None, None),
+    ("Subway BOGO FREE Footlongs Coming October 27th", "coupon", "2026-10-27"),
+    ("Buy One, Get One FREE Starbucks Drinks Today Only", "store", "2026-10-24"),
+    ("Dutch Bros BOGO Drinks on 10/30 for Rewards Members", "store", "2026-10-30"),
+    ("Krispy Kreme: Buy a Dozen, Get a Second Dozen FREE", "coupon", None),
+    ("BOGO 50% Off Favorite Day Halloween Snacks at Target", None, None),
+    ("This Week's Kroger BOGO Deals = Savings on Halloween Candy", None, None),
+    ("Buy 1 Get 1 FREE Tide Pods at CVS", None, None),
+    ("Buy 1 Get 1 FREE Gatorade Drinks at Walmart", None, None),
+    ("Complimentary Coffee at Shipley Donuts This Weekend", "store", "2026-10-24"),
     ("NEW Walmart Promo Codes: $10 Off + Free Express Delivery", None, None),
     ("Best Halloween Restaurant Deals & Freebies", "coupon", None),
     ("Sirius XM Deal: 3 FREE Months of XM Radio", None, None),
@@ -72,6 +80,9 @@ if b.get("dup") != "a" or a.get("dup") or c2.get("dup"):
     print("NG dup", a, b, c2)
 for title, kind, when in FREEBIES:
     r = f.freebie_info(title, P)
+    if r and "BOGO" in title.upper() and not r.get("bogo") and "50%" not in title:
+        bad += 1
+        print("NG bogo flag", title, r)
     got = (r["kind"], r["when"]) if r else (None, None)
     if got[0] != kind or (kind and got[1] != when):
         bad += 1

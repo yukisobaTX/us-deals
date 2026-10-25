@@ -15,16 +15,20 @@
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
 - 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
-- 情報源:Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Houston on the Cheap(地域イベント、サイトのみ・通知なし)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+- 情報源:Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(地域イベント、サイトのみ・通知なし)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
 
 ## 変えるとき
 - 店を足す:config/stores.json に追記 → `python3 tests/test_classify.py` で failures: 0。
 - 分類を変えたら tests/test_classify.py に1件足す。
 - 期限は見出しの「Today Only」「through 10/31」などから推定。読めないものは画面で「掲載日 + 7日」を目安にする。21日より古い記事は自動で消える。
 - 「注目」= 無料、または 70%以上の値引き。
-- 「無料でもらえる」(freebie)= fetch_deals.py の freebie_info()。送料無料・BOGO・キャッシュバック後無料・懸賞・お試し・退役軍人向け・電子書籍・「〜で稼ぐ」などは除外。「Freebies」まとめ記事はクーポン扱い。別の情報源の同じ話題は mark_duplicates() で dup を付け、通知・画面から外す。店頭(イベント・日時・数量限定)とクーポンに分け、日付を見出しから読む。毎回すべての記事にかけ直す。画面の初期タブ。
+- 「無料でもらえる」(freebie)= fetch_deals.py の freebie_info()。送料無料・キャッシュバック後無料・懸賞・お試し・退役軍人向け・電子書籍・「〜で稼ぐ」などは除外。「Freebies」まとめ記事はクーポン扱い。別の情報源の同じ話題は mark_duplicates() で dup を付け、通知・画面から外す。店頭(イベント・日時・数量限定)とクーポンに分け、日付を見出しから読む。毎回すべての記事にかけ直す。画面の初期タブ(「無料・BOGO」)。
+- BOGO(1つ買うと1つ無料、2-for-1)は**レストラン・カフェの飲食物だけ**「もらえる」扱い(freebie.bogo=true、通知あり・🥤BOGO 表示)。判定は is_food():stores.json の food の店名があれば対象、スーパー・雑貨の店名だけなら対象外、店名なしは飲み物・食べ物の語で判定。「BOGO 50% Off」は無料ではないので対象外。「on the house / complimentary」も飲食なら無料扱い。
 - 日本語化:無料情報は Gemini(gemini-flash-latest、無料枠は1日20回 → 1実行1回・1日15回まで、public/data/gemini-usage.json で数える)で4項目要約。セール記事と Gemini 不可時は MyMemory(1回25件まで)。
 - 大型セール:config/stores.json の events(ブラックフライデー・プライムデー・免税週末など)。日程発表・開始・チラシ公開の記事(EVENT_NEWS_RE)は即時通知(最大8件、状態は alert-state.json の lastEvent)、ほかはサイトの「🛍 大型セール」タブと朝のまとめ(セールごと最大5件)。予定は public/data/events.json(手で編集)。
 - 並び順の既定は「日付順」(items[].date = 配布日 → 要約の日時 → 期限、日付なしは後ろ)。通知メールも1本のリストで日付順(🏬店頭・🎟クーポン)。
 - 画面の JS は public/js/app.js。外部の見出しは textContent で入れる(innerHTML は使わない)。
 - 試験:`python3 scripts/fetch_deals.py --from-dir tests/fixtures --out /tmp/x.json`(ネット不要)、`python3 scripts/daily_digest.py --force --dry-run`。
+
+## 使えない情報源(調査済み 10/24)
+- Instagram:API なし・規約で自動収集不可。Google News RSS・Chew Boom(2024年に終了)・Krazy Coupon Lady(RSS なし)も不可。Brand Eating は新メニュー中心で価値が低い。

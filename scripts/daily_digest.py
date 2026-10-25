@@ -70,6 +70,8 @@ def fmt_item(x, today):
     when = f"**{when}**" if when.startswith("今日") else when
     kind = (x.get("freebie") or {}).get("kind")
     icon = "🏬" if kind == "store" else "🎟" if kind else "🛍"
+    if (x.get("freebie") or {}).get("bogo"):
+        icon += "🥤BOGO"
     return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}"
 
 

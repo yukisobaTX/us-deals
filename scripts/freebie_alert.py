@@ -61,7 +61,7 @@ def main():
     if events:
         lines += ["## 🛍 大型セール(日程発表・開始など)", *[fmt_item(x, today) for x in events], ""]
     if new:
-        lines += ["## 🎁 無料でもらえる(日付順、🏬店頭・🎟クーポン)", *[fmt_item(x, today) for x in new], ""]
+        lines += ["## 🎁 無料でもらえる(日付順、🏬店頭・🎟クーポン・🥤BOGO=1つ買うと1つ無料)", *[fmt_item(x, today) for x in new], ""]
     lines += ["---", "店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]
     body = "\n".join(lines)
     if a.dry_run:

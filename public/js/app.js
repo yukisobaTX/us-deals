@@ -13,7 +13,7 @@
     { id: 'other', label: 'その他' }
   ];
   const TYPES = [
-    { id: 'free', label: '無料' }, { id: 'bogo', label: 'BOGO' }, { id: 'coupon', label: 'クーポン' },
+    { id: 'free', label: '無料・BOGO' }, { id: 'bogo', label: 'BOGO' }, { id: 'coupon', label: 'クーポン' },
     { id: 'gc', label: 'ギフトカード' }, { id: 'p50', label: '50%以上' }, { id: 'today', label: '期限が近い' }
   ];
   const DAY = 86400000;
@@ -87,10 +87,12 @@
     if (x.freebie) {
       const w = x.freebie.when ? (daysLeft(x.freebie.when) === 0 ? '今日' : md(x.freebie.when)) : '';
       sub.append(el('span', { className: 'tag free', textContent: (x.freebie.kind === 'store' ? '🏬 店頭' : '🎟 クーポン') + (w ? ' ' + w : '') }));
+      if (x.freebie.bogo) sub.append(el('span', { className: 'tag free', textContent: '1つ買うと1つ無料' }));
     }
     sub.append(el('span', { className: 'store', textContent: x.stores.join('・') || '—' }));
     for (const t of x.types) {
       const lab = { bogo: 'BOGO', coupon: 'クーポン', gc: 'ギフトカード' }[t];
+      if (t === 'bogo' && x.freebie && x.freebie.bogo) continue;
       if (lab) sub.append(el('span', { className: 'tag', textContent: lab }));
     }
     if (x.pct) sub.append(el('span', { className: 'tag pct', textContent: `${x.pct}%OFF` }));

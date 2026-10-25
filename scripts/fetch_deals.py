@@ -123,11 +123,17 @@ def build_matchers(stores_cfg):
         for s in cat["stores"]:
             stores.append((cat["id"], s["name"], kw_regex(s["keywords"])))
     types = [(t["id"], kw_regex(t["keywords"])) for t in stores_cfg["types"] if t["id"] != "free"]
+    food = [w for cat in stores_cfg["categories"] if cat["id"] == "food" for s in cat["stores"] for w in s["keywords"]]
+    FOOD_STORE[:] = [kw_regex(food)] if food else []
+    other = [w for cat in stores_cfg["categories"] if cat["id"] != "food" for s in cat["stores"] for w in s["keywords"]]
+    SHOP_STORE[:] = [kw_regex(other)] if other else []
     EVENTS[:] = [(e["id"], kw_regex(e["keywords"])) for e in stores_cfg.get("events", [])]
     return stores, types
 
 
 EVENTS = []
+FOOD_STORE = []   # レストラン・カフェの店名(BOGO を「もらえる」扱いにするかの判定)
+SHOP_STORE = []   # スーパー・雑貨・通販の店名(ここでの BOGO は通常のセール扱い)
 # 大型セールの「日程発表・開始・チラシ公開」記事(即時通知の対象)
 EVENT_NEWS_RE = re.compile(
     r"announc|dates?\b|starts?|kicks? off|is (?:now )?live|now live|early access|ad scan|ad leak|leaked|"
@@ -206,7 +212,7 @@ GIFT_FREE_RE = re.compile(r"(?<![A-Za-z-])FREE(?![A-Za-z-])", re.I)
 NOT_GIFT_RE = re.compile(
     r"free\s+(?:[\w'’-]+\s+){0,2}(?:shipping|delivery|pickup|returns?)\b"
     r"|free\s+\w+\s+app\b|better than free|free or cheap|print this free"
-    r"|buy\s*(?:1|one),?\s*get\s*(?:1|one)\s*free|bogo|b1g1"
+    r"|bogo\s+\d+\s*%|buy\s*(?:1|one),?\s*get\s*(?:1|one)\s*\d+\s*%"   # BOGO 50% Off は無料ではない
     r"|\bwin\b|enter now|sweepstakes|giveaway entry|instant win"
     r"|try (?:out )?.*for free|free trial|membership"
     r"|after (?:cash ?back|fetch|ibotta|rebate|walmart cash|.*rebate)|ibotta|fetch rewards|rebate"
@@ -247,12 +253,40 @@ def event_date(title, posted):
 
 
 ROUNDUP_RE = re.compile(r"\bfreebies\b", re.I)   # 「Restaurant Deals & Freebies」などのまとめ記事
+# 1つ買うと1つ無料(BOGO)。レストラン・カフェの飲食物だけを「もらえる」扱いにする(スーパーの BOGO は対象外)
+BOGO_RE = re.compile(
+    r"\bbogo\b|\bb1g1\b|buy\s*(?:1|one|a|any)\b.{0,40}?\bget\s*(?:1|one|a|another|second|2nd)\b.{0,30}?\bfree\b"
+    r"|\b2[- ]for[- ]1\b|\btwo[- ]for[- ]one\b|free\s+(?:second|2nd)\b", re.I)
+FOOD_WORD_RE = re.compile(
+    r"coffee|latte|espresso|frappuccino|refresher|cold brew|\bdrinks?\b|\btea\b|boba|smoothie|lemonade|shake"
+    r"|donuts?|doughnuts?|kolaches?|cookies?|cupcakes?|bagels?|pastr(?:y|ies)|croissants?|cinnamon rolls?|pretzels?"
+    r"|burgers?|pizzas?|tacos?|burritos?|sandwich(?:es)?|subs?\b|footlongs?|wings|nuggets|fries|entr[eé]es?|meals?|bowls?"
+    r"|ice cream|frosty|blizzard|custard|sundae", re.I)
+# 「無料」の言い換え
+FREE_ALT_RE = re.compile(r"on the house|complimentary|\bon us\b", re.I)
+
+
+def is_food(title):
+    """レストラン・カフェの飲食物か。スーパー・雑貨の店名だけがある見出しは除く。"""
+    if any(rx.search(title) for rx in FOOD_STORE):
+        return True
+    if any(rx.search(title) for rx in SHOP_STORE):
+        return False
+    return bool(FOOD_WORD_RE.search(title))
 
 
 def freebie_info(title, posted):
     """無料でもらえるものなら {"kind": "store"|"coupon", "when": 日付} を返す。"""
     if NOT_GIFT_RE.search(title) or ENDED_RE.search(title):
         return None
+    if BOGO_RE.search(title):
+        if not is_food(title):
+            return None   # 飲食以外の BOGO(スーパー・雑貨)は通常のセール扱い
+        kind = "store" if STORE_RE.search(title) else "coupon"
+        return {"kind": kind, "when": event_date(title, posted), "bogo": True}
+    if FREE_ALT_RE.search(title) and is_food(title):
+        kind = "store" if STORE_RE.search(title) else "coupon"
+        return {"kind": kind, "when": event_date(title, posted)}
     if not GIFT_FREE_RE.search(title):
         if ROUNDUP_RE.search(title):
             return {"kind": "coupon", "when": event_date(title, posted), "roundup": True}
