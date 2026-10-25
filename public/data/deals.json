@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-25T02:46Z",
+ "updated": "2026-10-25T03:47Z",
  "count": 471,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -35,11 +35,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
-   "mymemory": 7,
-   "geminiToday": 13,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "gemini": 9,
+   "mymemory": 0,
+   "geminiToday": 14,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -7732,12 +7731,12 @@
     "when": null,
     "roundup": true
    },
-   "ja": "ハロウィンレストランセール2026 ：景品、ジャック・オー・ランタン・ピザ、不気味なおやつ",
-   "jaVia": "mymemory",
+   "ja": "ハロウィン料理や無料特典",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "ハロウィンレストランセール2026 ：景品、ジャック・オー・ランタン・ピザ、不気味なおやつ",
-    "when": "",
+    "item": "ハロウィン料理や無料特典",
+    "when": "ハロウィン",
     "cond": ""
    },
    "date": null
@@ -10735,7 +10734,8 @@
     "item": "うわー！ Sam's Club Plusには、無料のウォルマートとメンバーシップが含まれています（返金が必要かどうかを確認してください！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Sams-Club-Plus-Walmart-Delivery.jpg?resize=306,182"
   },
   {
    "id": "e21b1059f5a1",
@@ -12080,13 +12080,13 @@
    "date": "2026-10-27",
    "event": null,
    "eventNews": false,
-   "ja": "SUBWAY BOGO FREE FOOTLONGS 10月27日発売",
-   "jaVia": "mymemory",
+   "ja": "フットロングサンド1個無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Subway",
-    "item": "SUBWAY BOGO FREE FOOTLONGS 10月27日発売",
-    "when": "10/27(火)",
-    "cond": ""
+    "item": "フットロングサンド1個無料",
+    "when": "10/27〜",
+    "cond": "1個購入"
    }
   },
   {
@@ -12655,7 +12655,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/The-Pioneer-Woman-20-Piece-Bake-Set.jpg?resize=306,182"
   },
   {
    "id": "3ca991c87012",
@@ -15340,13 +15341,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "無料のペットスマート・ハロウィンイベント2026 ：トリック・オア・トリート、無料トートバッグ、不気味なペット",
-   "jaVia": "mymemory",
+   "ja": "トートバッグ無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "無料のペットスマート・ハロウィンイベント2026 ：トリック・オア・トリート、無料トートバッグ、不気味なペット",
+    "store": "PetSmart",
+    "item": "トートバッグ無料",
     "when": "",
-    "cond": ""
+    "cond": "イベント参加"
    },
    "date": null
   },
