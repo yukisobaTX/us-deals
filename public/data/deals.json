@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-25T00:54Z",
- "count": 457,
+ "updated": "2026-10-25T01:43Z",
+ "count": 470,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -15,8 +15,8 @@
    "added": 0
   },
   "ffp": {
-   "read": 10,
-   "added": 0
+   "read": 20,
+   "added": 10
   },
   "msm": {
    "read": 75,
@@ -24,17 +24,22 @@
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 0
+  },
+  "mws": {
+   "read": 20,
+   "added": 3
   },
   "hotc": {
    "read": 20,
    "added": 0
   },
   "ja": {
-   "gemini": 6,
+   "gemini": 0,
    "mymemory": 9,
-   "geminiToday": 11,
-   "model": "gemini-flash-latest"
+   "geminiToday": 12,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -241,8 +246,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "55b9049bae79",
-   "date": null
+   "date": null,
+   "dup": "55b9049bae79"
   },
   {
    "id": "72f8a904695b",
@@ -5254,6 +5259,38 @@
    "eventNews": false
   },
   {
+   "id": "a49cb64595a4",
+   "title": "Photo Freebie, 99¢ Photo Magnets + 50% Off Everything at Walgreens Photo (Ends 10/24)",
+   "link": "https://momswhosave.com/walgreens-photo-deals/",
+   "source": "Moms Who Save",
+   "posted": "2026-10-23T18:52Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": "2026-10-24",
+   "thumb": "https://momswhosave.com/wp-content/uploads/2026/10/walgreens-Pinterest-1000×1500@1x.png",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "10/24(土)まで",
+    "cond": ""
+   },
+   "date": "2026-10-24"
+  },
+  {
    "id": "cc167ca93ab3",
    "title": "Women’s Platform Mini Boots from $29.99 Shipped on Amazon (UGG Look for WAY Less!)",
    "link": "https://hip2save.com/deals/dream-pairs-boots/",
@@ -7632,6 +7669,44 @@
    },
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "6485203b7153",
+   "title": "Halloween Restaurant Deals 2026: Freebies, Jack-O-Lantern Pizzas & Spooky Treats",
+   "link": "https://momswhosave.com/halloween-restaurant-deals-freebies/",
+   "source": "Moms Who Save",
+   "posted": "2026-10-22T23:45Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": "https://momswhosave.com/wp-content/uploads/2026/10/Halloween-Restaurant-Deals-–-1000×1500@2x-scaled.png",
+   "hot": false,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "ja": "ハロウィンレストランセール2026 ：景品、ジャック・オー・ランタン・ピザ、不気味なおやつ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ハロウィンレストランセール2026 ：景品、ジャック・オー・ランタン・ピザ、不気味なおやつ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "1f3bd7e1deb6",
@@ -11818,6 +11893,38 @@
    "eventNews": false
   },
   {
+   "id": "88e3655d675d",
+   "title": "The Picklewich and Pickle Chips Return to Jimmy John’s Alongside a New Triple Pickle Meal and Pickle Pals Collectibles",
+   "link": "https://www.fastfoodpost.com/the-picklewich-and-pickle-chips-return-to-jimmy-johns/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-21T15:51Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Jimmy John's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Jimmy John's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "cf5735eb4f03",
    "title": "Shower Steamers 8-Pack Only $2.99 Shipped on Amazon",
    "link": "https://hip2save.com/deals/shower-steamers/",
@@ -11931,16 +12038,22 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-27",
+    "bogo": true
+   },
+   "date": "2026-10-27",
+   "event": null,
+   "eventNews": false,
+   "ja": "SUBWAY BOGO FREE FOOTLONGS 10月27日発売",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Subway",
-    "item": "",
-    "when": "",
+    "item": "SUBWAY BOGO FREE FOOTLONGS 10月27日発売",
+    "when": "10/27(火)",
     "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
+   }
   },
   {
    "id": "ddf37018964f",
@@ -14636,6 +14749,70 @@
    "eventNews": false
   },
   {
+   "id": "7a0e2d2cade2",
+   "title": "Taco Bell Debuts New Dream Refresca Drinks",
+   "link": "https://www.fastfoodpost.com/taco-bell-debuts-new-dream-refresca-drinks/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-16T20:06Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Taco Bell",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cc556c9c0d2f",
+   "title": "Taco Bell Introduces New Doritos Locos Taco Party Packs",
+   "link": "https://www.fastfoodpost.com/taco-bell-introduces-new-doritos-locos-taco-party-packs/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-16T14:35Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Taco Bell",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "e088e680b7df",
    "title": "Fun, Free & Cheap Events | October 16 – October 18",
    "link": "https://www.houstononthecheap.com/top-events-in-houston-october-16-october-18-2026/",
@@ -14775,6 +14952,38 @@
    "eventNews": false
   },
   {
+   "id": "16784a6dc96c",
+   "title": "McDonald’s Unveils New Disney Villains Boo Buckets",
+   "link": "https://www.fastfoodpost.com/mcdonalds-unveils-new-disney-villains-boo-buckets/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-15T16:40Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "McDonald's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "McDonald's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "0dca98073336",
    "title": "$10 in FREE MyLowe’s Money (Just Download the App!)",
    "link": "https://hip2save.com/deals/lowes-money/",
@@ -14810,6 +15019,38 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "37eef08c785b",
+   "title": "Taco Bell Launches New Double Dipping Burritos and Chicken Crunchadillas Nationwide",
+   "link": "https://www.fastfoodpost.com/taco-bell-launches-new-double-dipping-burritos-and-chicken-crunchadillas-nationwide/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-15T13:24Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Taco Bell",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "b78cb878056a",
@@ -14905,6 +15146,38 @@
    "eventNews": false
   },
   {
+   "id": "06775e8c2dfb",
+   "title": "Wingstop Debuts New Sour Patch Kids Wicked Punch Glazed Wings",
+   "link": "https://www.fastfoodpost.com/wingstop-debuts-new-sour-patch-kids-wicked-punch-glazed-wings/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-14T14:38Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Wingstop"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Wingstop",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
    "id": "e1a93906d1c4",
    "title": "FREE Home Depot Kids Workshop on 11/7 | Register Now to Make a Dump Truck",
    "link": "https://hip2save.com/deals/home-depot-kids-workshop/",
@@ -14975,6 +15248,169 @@
    "date": "2026-11-07",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "738933aba03e",
+   "title": "Arby’s Debuts New Chicken Cheesesteak Lineup",
+   "link": "https://www.fastfoodpost.com/arbys-debuts-new-chicken-cheesesteak-lineup/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-13T14:23Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Arby's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Arby's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "33a1ccf3fb81",
+   "title": "Free PetSmart Halloween Events 2026: Trick-or-Treating, Free Tote Bag & Spooky Pets",
+   "link": "https://momswhosave.com/free-petsmart-halloween-events/",
+   "source": "Moms Who Save",
+   "posted": "2026-10-10T19:20Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": "https://momswhosave.com/wp-content/uploads/2026/10/dog-halloween-costume-unsplash.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "無料のペットスマート・ハロウィンイベント2026 ：トリック・オア・トリート、無料トートバッグ、不気味なペット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "無料のペットスマート・ハロウィンイベント2026 ：トリック・オア・トリート、無料トートバッグ、不気味なペット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1233bab5e559",
+   "title": "Shake Shack Welcomes Back the Big Shack",
+   "link": "https://www.fastfoodpost.com/shake-shack-welcomes-back-the-big-shack/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-09T19:27Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Shake Shack"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Shake Shack",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d2f3b4dbe73d",
+   "title": "Taco Bell and Milk Bar Unveil New Birthday Cake Empanada",
+   "link": "https://www.fastfoodpost.com/taco-bell-and-milk-bar-unveil-new-birthday-cake-empanada/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-09T14:51Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Taco Bell",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f60079bc8344",
+   "title": "Burger King Unleashes New Vampire’s Bite Strawberry & Sprite Drink for Halloween",
+   "link": "https://www.fastfoodpost.com/burger-king-unleashes-new-vampires-bite-strawberry-sprite-drink-for-halloween/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-08T20:06Z",
+   "firstSeen": "2026-10-25T01:43Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Burger King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Burger King",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "d8f248e105dc",
