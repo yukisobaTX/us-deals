@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T12:32Z",
- "count": 475,
+ "updated": "2026-10-25T12:53Z",
+ "count": 477,
  "stats": {
   "h2s": {
    "read": 100,
@@ -35,15 +35,84 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
-   "mymemory": 9,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
+   "gemini": 7,
+   "mymemory": 2,
+   "geminiToday": 9,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d14fa4a8add2",
+   "title": "Minnie Mouse Market Playset Only $57.58 Shipped on Amazon (Reg. $100)",
+   "link": "https://hip2save.com/deals/disney-minnie-mouse-market/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T12:38Z",
+   "firstSeen": "2026-10-25T12:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/02/Disney-Junior-Minnie-Mouse-Marvelous-Market.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 42,
+   "price": 57.58,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ミニーマウスマーケットプレイセットのみ$ 57.58 Amazonで出荷（登録価格$ 100 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ミニーマウスマーケットプレイセットのみ$ 57.58 Amazonで出荷（登録価格$ 100 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "3d4305358eaf",
+   "date": null
+  },
+  {
+   "id": "eaa0ec7c5685",
+   "title": "Lysol Toilet Bowl Cleaner Gel 2-Pack Only $3.xx on Amazon (Reg. $6)",
+   "link": "https://thefreebieguy.com/lysol-toilet-bowl-cleaner-gel-2pk/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T12:32Z",
+   "firstSeen": "2026-10-25T12:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/09/Lysol-Toilet-Bowl-Cleaner-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 50,
+   "price": 3.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Lysolトイレボウルクリーナージェル2パックのみ$ 3.xx Amazon （登録価格$ 6 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Lysolトイレボウルクリーナージェル2パックのみ$ 3.xx Amazon （登録価格$ 6 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "1f0f637b8b45",
+   "date": null
+  },
   {
    "id": "e9f1f2b72949",
    "title": "Snag This Viral Goose Christmas Candle for Just $8.86 on Walmart.com",
