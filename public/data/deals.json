@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-25T17:42Z",
- "count": 527,
+ "updated": "2026-10-25T18:48Z",
+ "count": 547,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 10
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 10
   },
   "mws": {
    "read": 20,
@@ -36,14 +36,691 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 19,
+   "mymemory": 25,
    "geminiToday": 15,
-   "model": "gemini-flash-latest",
-   "geminiError": "The read operation timed out"
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "c4213b81da08",
+   "title": "Miss Vickie’s Kettle Cooked Jalapeno Potato Chips 28-Count Only $11.xx on Amazon (Reg $25)",
+   "link": "https://thefreebieguy.com/miss-vickies-kettle-cooked-potato-chips-pack-of-28-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T18:48Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Miss-Vickies-Jalapeno-Chip-Kitchen-Display-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 56,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Miss Vickie's Kettle Cooked Jalapenoポテトチップス28枚- Amazonでわずか$ 11.xx （登録価格$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Miss Vickie's Kettle Cooked Jalapenoポテトチップス28枚- Amazonでわずか$ 11.xx （登録価格$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "66a706e93a73",
+   "date": null
+  },
+  {
+   "id": "6a525a9b6aa3",
+   "title": "McCormick Finishing Sugars Just $2.99 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/mccormick-finishing-sugars/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:45Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/mccormick-chocolate-hazelnut-sugar.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "McCormick Finishing Sugarsわずか$ 2.99 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "McCormick Finishing Sugarsわずか$ 2.99 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b649530e9d80",
+   "title": "Score $76 Worth of Products for Only $2.45 After Cash Back at Walgreens",
+   "link": "https://hip2save.com/deals/best-walgreens-digital-coupons/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:40Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2019/11/Gillette-Skinguard-Razor.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルグリーンズでのキャッシュバック後、わずか2.45ドルで76ドル相当の製品を獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walgreens",
+    "item": "ウォルグリーンズでのキャッシュバック後、わずか2.45ドルで76ドル相当の製品を獲得",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7ac5fa038e7d",
+   "title": "Hoover PowerScrub Deluxe Carpet Cleaner Only $139.xx on Amazon (Reg. $240)",
+   "link": "https://thefreebieguy.com/hoover-powerscrub-deluxe-carpet-cleaner/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T18:36Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Hoover-PowerScrub-Deluxe-Carpet-Cleaner-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 42,
+   "price": 139.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Hoover PowerScrubデラックスカーペットクリーナーAmazonで$ 139.xxのみ（登録価格$ 240 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Hoover PowerScrubデラックスカーペットクリーナーAmazonで$ 139.xxのみ（登録価格$ 240 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f71e1af014d3",
+   "title": "Squishmallows Scented Slime Jars from $5.59 on Amazon",
+   "link": "https://hip2save.com/deals/squishmallows-slime/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:35Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/squishmallows-slime-maya-chocolate-ice-cream.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonで$ 5.59からのスクイッシュマロの香りのスライムジャー",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonで$ 5.59からのスクイッシュマロの香りのスライムジャー",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4743cd5c054d",
+   "title": "Jumbo Butter Stick Squishy Fidget Toy Only $5.xx on Amazon (Reg $10)",
+   "link": "https://thefreebieguy.com/butter-stick-squishy-fidget-toy/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T18:29Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/jumbo-butter-squishy-toy-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ジャンボバタースティックスクイッシーフィジェットおもちゃのみ$ 5.xxアマゾン（登録$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ジャンボバタースティックスクイッシーフィジェットおもちゃのみ$ 5.xxアマゾン（登録$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a3b046311cb5",
+   "title": "Jet-Puffed Marshmallow Bits Shaker Only $1.70 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/jet-puffed-marshmallow-bits/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:25Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/Jet-Puffed-Bits-by-box.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ジェットパフマシュマロビットシェーカーのみ$ 1.70 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ジェットパフマシュマロビットシェーカーのみ$ 1.70 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1936eeaa5858",
+   "title": "Walmart’s New Scenario Line is SO Cute & It’s on Sale!",
+   "link": "https://hip2save.com/deals/walmart-scenario-clothing/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:20Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/scenario-waffle-knit-.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートの新しいシナリオラインはとてもかわいく、セール中です！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートの新しいシナリオラインはとてもかわいく、セール中です！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "aa057c14747e",
+   "title": "Red Light Therapy Mask Just $29.99 Shipped on Amazon (Reg. $99)",
+   "link": "https://hip2save.com/deals/red-light-therapy-mask/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:15Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/chvaj-red-light-therapy-mask.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 29.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レッドライトセラピーマスク$ 29.99のみAmazonで発送（登録価格$ 99 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レッドライトセラピーマスク$ 29.99のみAmazonで発送（登録価格$ 99 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3b8830c38fa0",
+   "title": "Armor All Ultra Shine Car Wash & Car Wax 3 Pack Only $14.xx on Amazon (Reg. $33)",
+   "link": "https://thefreebieguy.com/armor-all-ultra-shine-car-wash-and-car-wax/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T18:13Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Armor-All-Ultra-Shine-Car-Wash-Car-Wax-3-Pack-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 58,
+   "price": 14.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Armor All Ultra Shineカーウォッシュ＆カーワックス3パックAmazonで$ 14.xxのみ（登録価格$ 33 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Armor All Ultra Shineカーウォッシュ＆カーワックス3パックAmazonで$ 14.xxのみ（登録価格$ 33 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0ebc8c4ace8c",
+   "title": "Best Walgreens Weekly Ad Deals | 50¢ Colgate Toothpaste, $2 Arm & Hammer + More!",
+   "link": "https://hip2save.com/deals/walgreens-weekly-ad/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:10Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/08/Arm-Hammer-Laundry-Products-in-a-Walgreens-cart.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walgreensウィークリー広告のお買い得情報| 50 ¢コルゲートの歯磨き粉、$ 2アーム＆ハンマーなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walgreens",
+    "item": "Walgreensウィークリー広告のお買い得情報| 50 ¢コルゲートの歯磨き粉、$ 2アーム＆ハンマーなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1a8a06e575e3",
+   "title": "Greenworks 24V 13″ Brushless Cordless Lawn Mower w/ Battery Only $149.xx (Reg. $260)",
+   "link": "https://thefreebieguy.com/greenworks-brushless-lawn-mower/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T18:09Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Greenworks-24V-13%E2%80%B3-Brushless-Cordless-Lawn-Mower-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 149.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Greenworks 24 V 13インチブラシレスコードレス芝刈り機バッテリーのみ$ 149.xx （登録価格$ 260 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Greenworks 24 V 13インチブラシレスコードレス芝刈り機バッテリーのみ$ 149.xx （登録価格$ 260 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b64a5f5b3fb3",
+   "title": "Giant Tic Tac Box w/ 60 Mini Boxes Only $19.90 Shipped on Amazon (Just 33¢ Per Pack!)",
+   "link": "https://hip2save.com/deals/giant-tic-tac-box/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:05Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/10/giant-tic-tac-box-with-minis-630-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "60ミニボックス付きジャイアントティックタックボックスのみ$ 19.90 Amazonで発送（パックあたりわずか33 ¢ ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "60ミニボックス付きジャイアントティックタックボックスのみ$ 19.90 Amazonで発送（パックあたりわずか33 ¢ ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2ddcb5e62985",
+   "title": "Travel Blanket, Neck Pillow, & Eye Mask Set Just $9.49 Shipped for Prime Members (Reg. $24)",
+   "link": "https://hip2save.com/deals/travel-blanket/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T18:00Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Bedsure-Travel-Blanket-Set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 9.49,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "トラベルブランケット、ネックピロー、アイマスクセット$ 9.49でプライムメンバーに発送（ 24 $ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "トラベルブランケット、ネックピロー、アイマスクセット$ 9.49でプライムメンバーに発送（ 24 $ ）",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "c65e105bf2fa",
+   "title": "Walifrey Leggings with Pockets Only $3.xx on Amazon (Reg. $8)",
+   "link": "https://thefreebieguy.com/walifrey-leggings-with-pockets/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T17:59Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Walifrey-Leggings-with-Pockets-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 3.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walifreyポケット付きレギンスAmazonで$ 3.xxのみ（登録価格$ 8 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Walifreyポケット付きレギンスAmazonで$ 3.xxのみ（登録価格$ 8 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5588ef040756",
+   "title": "Makeup Sponge Set 5-Pack Only $2.xx on Amazon (Reg. $13) | Over 100K Rave Reviews!",
+   "link": "https://thefreebieguy.com/makeup-sponge-set-5-pack-beakey/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T17:51Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Makeup-Sponge-Set-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 85,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonのメイクアップスポンジセット5パックのみ$ 2.xx （登録価格$ 13 ）| 10万以上のRaveレビュー！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonのメイクアップスポンジセット5パックのみ$ 2.xx （登録価格$ 13 ）| 10万以上のRaveレビュー！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e6d715748bb3",
+   "title": "COCOMARTS Wireless Jelly Bras Only $9.xx on Amazon (Reg. $25)",
+   "link": "https://thefreebieguy.com/cocomarts-wireless-jelly-bras/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T17:50Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/COCOMARTS-Jelly-Bras-for-Women-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 64,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "COCOMARTSワイヤレスジェリーブラAmazonで$ 9.xxのみ（登録価格$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "COCOMARTSワイヤレスジェリーブラAmazonで$ 9.xxのみ（登録価格$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "30c1db334e75",
+   "title": "Up to 50% Off Play-Doh on Amazon | Fun Playsets from $5.69",
+   "link": "https://hip2save.com/deals/play-doh-sets/",
+   "source": "Hip2Save",
+   "posted": "2026-10-25T17:45Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/play-doh-blender-set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでプレイ・ドーが最大50%オフ| $ 5.69からの楽しいプレイセット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでプレイ・ドーが最大50%オフ| $ 5.69からの楽しいプレイセット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3710513249e2",
+   "title": "Frigidaire 7.5 Cu. ft. Top Freezer Refrigerator w/ Beverage Dispenser Only $248 at Walmart (Reg. $570)",
+   "link": "https://thefreebieguy.com/frigidaire-7-5-cu-ft-refrigerator/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T17:43Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Frigidaire-7.5-Cu-Ft-Top-Freezer-Refrigerator-with-Beverage-Dispenser-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 56,
+   "price": 248.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "67d506724110",
+   "title": "Walgreens Acrylic Photo Blocks Only $1.99 (Reg $10)!",
+   "link": "https://thefreebieguy.com/walgreens-acrylic-photo-blocks/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T17:43Z",
+   "firstSeen": "2026-10-25T18:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/walgreens-photo-blocks-840x630.png",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 80,
+   "price": 1.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "68a1b8e18af3",
+   "date": null
+  },
   {
    "id": "7530fd17d3cb",
    "title": "Kids Video Walkie Talkies Set Only $11.99 on Amazon (Fun Gift Idea!)",
@@ -212,7 +889,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "acfafbf068a8",
    "date": null
   },
   {
@@ -349,8 +1025,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "25082076172b",
-   "date": null
+   "date": null,
+   "dup": "25082076172b"
   },
   {
    "id": "acfafbf068a8",
@@ -384,7 +1060,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "174005cfdf31"
   },
   {
    "id": "9fc0c64e28b2",
@@ -7539,7 +8216,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/coslus-water-pik.jpg?resize=306,182"
   },
   {
    "id": "dd0173294b2e",
