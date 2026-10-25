@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T06:57Z",
+ "updated": "2026-10-25T07:47Z",
  "count": 468,
  "stats": {
   "h2s": {
@@ -35,11 +35,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 7,
-   "mymemory": 0,
-   "geminiToday": 2,
+   "gemini": 0,
+   "mymemory": 7,
+   "geminiToday": 3,
    "model": "gemini-flash-latest",
-   "mymemoryError": "HTTP Error 429: Too Many Requests"
+   "geminiError": "The read operation timed out"
   }
  },
  "errors": [],
