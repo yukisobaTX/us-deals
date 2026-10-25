@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T22:41Z",
- "count": 585,
+ "updated": "2026-10-25T23:39Z",
+ "count": 588,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -36,13 +36,111 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 9,
+   "mymemory": 0,
    "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "model": "gemini-flash-latest",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "530a9b1fa6a6",
+   "title": "Scott ComfortPlus Toilet Paper 12 Triple Rolls Just $4.xx at Amazon",
+   "link": "https://thefreebieguy.com/scott-comfortplus-toilet-paper-12-double-rolls/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T23:30Z",
+   "firstSeen": "2026-10-25T23:39Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Scott-ComfortPlus-Toilet-Paper-12-Triple-Rolls-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a8bafea0f3e5",
+   "title": "Kool-Aid Ghoul-Aid 10-Pack Just $2.xx on Amazon",
+   "link": "https://thefreebieguy.com/kool-aid-ghoul-aid/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T23:04Z",
+   "firstSeen": "2026-10-25T23:39Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Kool-Aid-Ghoul-Aid-10-Pack--840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "8af63fe63055",
+   "date": null
+  },
+  {
+   "id": "978e86e9b7f1",
+   "title": "NEW Holiday Throw Blankets at Target Just $10 | Lots of Designs!",
+   "link": "https://thefreebieguy.com/target-throw-blanket/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T22:49Z",
+   "firstSeen": "2026-10-25T23:39Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Wondershop-Holiday-Throw-Blanket-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "a5bd4ad69bc5",
    "title": "Sterilite 18 Gal Large Plastic Storage Bin with Snap-On Lid 8ct Only $37 at Walmart!",
@@ -9254,7 +9352,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Knobez-Peppermint-Knobs.jpg?resize=306,182"
   },
   {
    "id": "eac41bfda806",
