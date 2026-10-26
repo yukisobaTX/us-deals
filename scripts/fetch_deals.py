@@ -189,7 +189,7 @@ LOCAL_NG_RE = re.compile(
     r"arrest|indict|charged|shoot|stabb|murder|kill|dead|death|dies|crash|police|sheriff|jail|theft|robbery|"
     r"assault|lawsuit|court|election|vote|voting|candidate|council|commission|\bbond\b|tax rate|"
     r"football|basketball|baseball|softball|volleyball|soccer|golf|equestrian|swim|track|tennis|\bSEC\b|"
-    r"what we.re reading|writing contest|podcast|ribbon cutting|card sign-up", re.I)
+    r"what we.re reading|writing contest|podcast|ribbon cutting|card sign-up|stream(?:ing)?\b|channel", re.I)
 
 
 # 家族・子供向け(家族のお出かけ案)。地域の印がある記事だけに付ける

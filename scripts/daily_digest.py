@@ -88,11 +88,14 @@ def fmt_local(x, today):
     """地元・家族の催し:日時:[何のイベントか](リンク)(場所・費用)。要約がなければ日本語の見出し。"""
     sm = x.get("sum") or {}
     d = x.get("date")
-    when = sm.get("when") or (md(d) if d else "日付は記事で")
+    when = sm.get("when") or (md(d) if d else "日程は記事で")
     if d == today:
         when = "**今日** " + (when.split(" ", 1)[1] if " " in when else "")
     text = (sm.get("item") or x.get("ja") or x["title"]).strip()
-    extra = "・".join(v for v in (sm.get("store"), sm.get("cond")) if v)
+    place = sm.get("store") or ""
+    if place in ("ヒューストン", "ヒューストン広域", "カレッジステーション", "Houston", "College Station"):
+        place = ""   # 見出し(カレッジステーション周辺/ヒューストン)と同じなら省く
+    extra = "・".join(v for v in (place, sm.get("cond")) if v)
     return f"- {when.strip()}:[{text}]({x['link']})" + (f"({extra})" if extra else "")
 
 
