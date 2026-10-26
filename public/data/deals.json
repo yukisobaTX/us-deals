@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T05:49Z",
+ "updated": "2026-10-26T07:04Z",
  "count": 592,
  "stats": {
   "h2s": {
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -35,10 +35,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 8,
-   "mymemory": 0,
-   "geminiToday": 1,
-   "model": "gemini-flash-latest"
+   "gemini": 0,
+   "mymemory": 7,
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
