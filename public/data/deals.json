@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T08:58Z",
- "count": 599,
+ "updated": "2026-10-26T09:58Z",
+ "count": 603,
  "stats": {
   "h2s": {
    "read": 100,
@@ -32,18 +32,154 @@
   },
   "hotc": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 0,
-   "geminiToday": 4,
+   "mymemory": 16,
+   "geminiToday": 5,
    "model": "gemini-flash-latest",
-   "geminiError": "The read operation timed out"
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "41adc4661fcb",
+   "title": "Dearfoams Men’s Notch Clog Slippers Just $8 at Walmart!",
+   "link": "https://thefreebieguy.com/dearfoams-mens-slippers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T09:34Z",
+   "firstSeen": "2026-10-26T09:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Dearfoams-Notch-Clog-Slippers-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートでわずか$ 8のDearfoamsメンズノッチクロッグスリッパ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートでわずか$ 8のDearfoamsメンズノッチクロッグスリッパ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5ed78a79635e",
+   "title": "70.9” Tall Kitchen Pantry Cabinet w/Charge Station & Led Light Only $169.xx on Walmart (Reg $260)",
+   "link": "https://thefreebieguy.com/homfa-tall-kitchen-pantry-cabinet/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T09:27Z",
+   "firstSeen": "2026-10-26T09:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Homfa-Tall-Kitchen-Pantry-Cabinet-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 35,
+   "price": 169.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "70.9インチの高さのキッチンパントリーキャビネット充電ステーション付き＆ウォルマートのLEDライトのみ$ 169.xx （登録$ 260 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "70.9インチの高さのキッチンパントリーキャビネット充電ステーション付き＆ウォルマートのLEDライトのみ$ 169.xx （登録$ 260 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a3d56292d004",
+   "title": "7x16ft Halloween 2-Car Garage Door Cover Only $8.xx on Amazon (Reg $30)",
+   "link": "https://thefreebieguy.com/brightown-halloween-2-car-garage-door-cover/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T09:12Z",
+   "firstSeen": "2026-10-26T09:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Brightown-Halloween-2-Car-Garage-Door-Cover-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 73,
+   "price": 8.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "7 x 16フィートハロウィン2台車ガレージドアカバーAmazonで$ 8.xxのみ（登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "7 x 16フィートハロウィン2台車ガレージドアカバーAmazonで$ 8.xxのみ（登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "738b3e53fcdb",
+   "title": "Handheld Vacuum Sealer w/30 Reusable Bags & Detachable Water Tank Only $19.xx on Amazon (Reg $55)",
+   "link": "https://thefreebieguy.com/bonsenkitchen-handheld-vacuum-sealer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T09:02Z",
+   "firstSeen": "2026-10-26T09:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Bonsenkitchen-Handheld-Vacuum-Sealer-for-Travel-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": 19.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "30個の再利用可能なバッグと取り外し可能な水タンク付きハンドヘルド掃除機アマゾンで$ 19.xxのみ（登録$ 55 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "30個の再利用可能なバッグと取り外し可能な水タンク付きハンドヘルド掃除機アマゾンで$ 19.xxのみ（登録$ 55 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "103949707e54",
    "title": "39.5″ x 16″ TPE Non-Slip Bathtub Mat Only $7.xx on Amazon (Reg $18)",
@@ -68,13 +204,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "39.5インチx 16インチTPE滑り止めバスタブマットのみ$ 7.xx Amazon （登録価格$ 18 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "39.5インチx 16インチTPE滑り止めバスタブマットのみ$ 7.xx Amazon （登録価格$ 18 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "34751abb76c6",
@@ -100,13 +238,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "WORKPROミニプライヤー3ピースセットAmazonで$ 9.xxのみ（登録価格$ 16 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "WORKPROミニプライヤー3ピースセットAmazonで$ 9.xxのみ（登録価格$ 16 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "579e948f572a",
@@ -132,13 +272,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アーム＆ハンマープラスオキシクリーン5 - in -1洗濯洗剤パワーパック42 -カウントのみ$ 5.xx （ Amazon ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アーム＆ハンマープラスオキシクリーン5 - in -1洗濯洗剤パワーパック42 -カウントのみ$ 5.xx （ Amazon ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "824ea613d50a",
@@ -164,13 +306,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Ktaxon 5層ワイヤー棚ラックウォルマートで$ 26.xxのみ（登録価格$ 45 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Ktaxon 5層ワイヤー棚ラックウォルマートで$ 26.xxのみ（登録価格$ 45 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9d71465a6a31",
@@ -199,13 +343,15 @@
     "kind": "coupon",
     "when": "2026-10-30"
    },
+   "date": "2026-10-30",
+   "ja": "楽しくて無料でお得なイベント| 10月30日～ 11月1日",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "楽しくて無料でお得なイベント| 10月30日～ 11月1日",
     "when": "10/30(金)",
     "cond": ""
-   },
-   "date": "2026-10-30"
+   }
   },
   {
    "id": "f6c64d6a9c64",
