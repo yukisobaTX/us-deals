@@ -176,7 +176,16 @@ LOCAL_EVENT_RE = re.compile(
 LOCAL_NG_RE = re.compile(
     r"arrest|indict|charged|shoot|stabb|murder|kill|dead|death|dies|crash|police|sheriff|jail|theft|robbery|"
     r"assault|lawsuit|court|election|vote|voting|candidate|council|commission|\bbond\b|tax rate|"
-    r"football|basketball|baseball|softball|volleyball|soccer|golf|equestrian|swim|track|tennis|\bSEC\b", re.I)
+    r"football|basketball|baseball|softball|volleyball|soccer|golf|equestrian|swim|track|tennis|\bSEC\b|"
+    r"what we.re reading|writing contest|podcast|ribbon cutting|card sign-up", re.I)
+
+
+# 家族・子供向け(家族のお出かけ案)。地域の印がある記事だけに付ける
+FAMILY_RE = re.compile(
+    r"\bkids?\b|kid-friendly|children|child\b|famil(?:y|ies)|toddler|\bteens?\b|youth|story ?time|"
+    r"trunk[- ]or[- ]tre|trick[- ]or[- ]treat|pumpkin|petting|\bzoo\b|aquarium|museum|santa|playground|splash pad|"
+    r"\bcamps?\b|puppet|crafts?\b|lego|science|\bSTEM\b|book sale|hometown heroes|big rigs|touch[- ]a[- ]truck|"
+    r"holiday lights|light show|parade|festival|\bfair\b|carnival|hayride|corn maze|farm", re.I)
 
 
 def region_of(title):
@@ -278,6 +287,22 @@ def event_date(title, posted):
         return dt.date(y, mo, d).isoformat()
     except ValueError:
         return None
+
+
+WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+
+def local_date(title, posted):
+    """地元の催しの日付:見出しの日付(10/30・Nov. 6)→ 曜日(Friday's など、掲載日以降の最初のその曜日)。"""
+    d = event_date(title, posted)
+    if d:
+        return d
+    m = re.search(r"\b(" + "|".join(WEEKDAYS) + r")(?:'s|’s)?\b", title, re.I)
+    if m:
+        ct = posted.astimezone(CT).date()
+        wd = WEEKDAYS.index(m.group(1).lower())
+        return (ct + dt.timedelta(days=(wd - ct.weekday()) % 7)).isoformat()
+    return None
 
 
 ROUNDUP_RE = re.compile(r"\bfreebies\b", re.I)   # 「Restaurant Deals & Freebies」などのまとめ記事
@@ -431,6 +456,13 @@ def main():
             or region_of(x["title"])
         if not x["region"]:
             x.pop("region")
+        x["family"] = bool(x.get("region") and FAMILY_RE.search(x["title"]))
+        if not x["family"]:
+            x.pop("family")
+        if x.get("region"):
+            ld = local_date(x["title"], parse_date_iso(x["posted"]))
+            if ld:
+                x["localDate"] = ld
         x["event"] = event_of(x["title"])
         x["eventNews"] = bool(x["event"] and EVENT_NEWS_RE.search(x["title"]))
         x["freebie"] = freebie_info(x["title"], parse_date_iso(x["posted"]))
@@ -459,8 +491,10 @@ def main():
                 done[k] = (v, "gemini")
             usage_p.write_text(json.dumps(usage) + "\n")
         need_mt = [x for x in free_todo if x["id"] not in done and not x.get("ja")]
-        need_mt += sorted([x for x in by_id.values() if not x.get("freebie") and not x.get("ja")],
-                          key=lambda x: x["posted"], reverse=True)
+        # 地元・家族の催しを先に訳す(朝のメールに載るため)。あとは新しい順
+        rest = sorted([x for x in by_id.values() if not x.get("freebie") and not x.get("ja")],
+                      key=lambda x: x["posted"], reverse=True)
+        need_mt += [x for x in rest if x.get("region")] + [x for x in rest if not x.get("region")]
         for k, v in tj.mymemory_many(rows(need_mt), limit=25).items():
             done[k] = (v, "mymemory")
         for x in by_id.values():
@@ -594,7 +628,7 @@ def sort_date(x):
             return dt.date(y, mo, d).isoformat()
         except ValueError:
             pass
-    return x.get("expires")
+    return x.get("localDate") or x.get("expires")
 
 
 def parse_date_iso(s):

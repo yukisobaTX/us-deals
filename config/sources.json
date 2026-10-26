@@ -67,6 +67,24 @@
       "region": "College Station",
       "localOnly": true,
       "_robots": "Crawl-delay 600 → 毎時1回なので可"
+    },
+    {
+      "id": "cstx",
+      "name": "カレッジステーション市",
+      "url": "https://blog.cstx.gov/feed/",
+      "pages": 1,
+      "alert": false,
+      "region": "College Station",
+      "localOnly": true
+    },
+    {
+      "id": "bcslib",
+      "name": "Bryan+College Station 図書館",
+      "url": "https://www.bcslibrary.org/feed/",
+      "pages": 1,
+      "alert": false,
+      "region": "College Station",
+      "localOnly": true
     }
   ]
 }

@@ -4,6 +4,7 @@
 (() => {
   const CATS = [
     { id: 'free', label: '🎁 無料でもらえる' },
+    { id: 'family', label: '👨‍👩‍👧 家族のお出かけ' },
     { id: 'local', label: '📍 地元' },
     { id: 'event', label: '🛍 大型セール' },
     { id: 'all', label: 'すべて' },
@@ -44,7 +45,8 @@
     if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
     if (state.cat === 'event' && !x.event) return false;
     if (state.cat === 'local' && !x.region) return false;
-    if (!['all', 'free', 'event', 'local'].includes(state.cat) && !x.cats.includes(state.cat)) return false;
+    if (state.cat === 'family' && (!x.family || (x.date && daysLeft(x.date) < 0))) return false;
+    if (!['all', 'free', 'event', 'local', 'family'].includes(state.cat) && !x.cats.includes(state.cat)) return false;
     for (const t of state.types) {
       if (t === 'p50' && !((x.pct || 0) >= 50)) return false;
       if (t === 'today' && !(x.expires && daysLeft(x.expires) <= 2)) return false;
@@ -85,6 +87,7 @@
   function card(x) {
     const sub = el('div', { className: 'sub' });
     if (Date.now() - Date.parse(x.firstSeen) < DAY) sub.append(el('span', { className: 'new', textContent: 'NEW' }));
+    if (x.family) sub.append(el('span', { className: 'tag free', textContent: '👨‍👩‍👧 家族向け' + (x.localDate ? ' ' + md(x.localDate) : '') }));
     if (x.region) sub.append(el('span', { className: 'tag', textContent: '📍 ' + ({ 'College Station': 'カレッジステーション', Houston: 'ヒューストン' }[x.region] || x.region) }));
     if (x.event) sub.append(el('span', { className: 'tag ev', textContent: '🛍 ' + (EVLAB[x.event] || '大型セール') }));
     if (x.freebie) {
@@ -127,6 +130,7 @@
     tabs.replaceChildren(...CATS.map((c) => {
       const n = c.id === 'all' ? items.length : c.id === 'free' ? items.filter((x) => x.freebie).length : c.id === 'event' ? items.filter((x) => x.event).length
         : c.id === 'local' ? items.filter((x) => x.region && !x.dup).length
+        : c.id === 'family' ? items.filter((x) => x.family && !x.dup && !(x.date && daysLeft(x.date) < 0)).length
         : items.filter((x) => x.cats.includes(c.id)).length;
       if (c.id === 'other' && !n) return null;
       const b = el('button', { type: 'button' }, [c.label, el('span', { className: 'n', textContent: n })]);
@@ -146,7 +150,7 @@
   }
 
   function renderStores() {
-    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : state.cat === 'local' ? x.region : x.cats.includes(state.cat)));
+    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : state.cat === 'local' ? x.region : state.cat === 'family' ? x.family : x.cats.includes(state.cat)));
     const cnt = new Map();
     for (const x of pool) for (const s of x.stores) cnt.set(s, (cnt.get(s) || 0) + 1);
     const sel = $('store');
@@ -156,7 +160,7 @@
   }
 
   function renderLinks() {
-    const groups = links.groups.filter((g) => ['all', 'free', 'event', 'local'].includes(state.cat) || g.cat === state.cat);
+    const groups = links.groups.filter((g) => ['all', 'free', 'event', 'local', 'family'].includes(state.cat) || g.cat === state.cat);
     const label = Object.fromEntries(CATS.map((c) => [c.id, c.label]));
     $('linkbody').replaceChildren(...groups.flatMap((g) => [
       el('h3', { textContent: label[g.cat] || g.cat }),

@@ -15,14 +15,18 @@
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
 - 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
-- 情報源:Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+- 情報源:Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
 
 ## 地域(2026-10-26 追加)
 - 本人はカレッジステーション在住。地元の情報を日々使えるように、items[].region に "College Station" / "Houston" を付ける。
 - 付け方:region 付きの情報源(WTAW=College Station、Houston on the Cheap=Houston)はその地域。ほかの情報源も見出しの地名(fetch_deals.py の REGION_KW)で付ける。
 - 朝のメール:「📍 地元(今日・明日と新着)」の欄。カレッジステーション周辺(最大10件)を先、ヒューストン(最大5件)を後。購入条件は問わない(催しも載せる)。この欄に入れたものは「今日・明日」から外す。
 - サイト:「📍 地元」タブと、カードの 📍 地域ラベル。
-- 調査済みで使わないもの:KBTX(AI 系ボットを robots.txt で拒否、全国ニュースが多い)、ABC13(AI 系ボット拒否)、Community Impact(RSS なし・/article/ 禁止)、Macaroni KID(RSS なし)、Texas A&M のカレンダー(学内向けが大半で1000件と多い)。
+- 👨‍👩‍👧 家族のお出かけ(2026-10-26 追加):地域の印がある記事のうち、家族・子供向けの語(FAMILY_RE:kids・family・story time・trunk or treat・pumpkin・zoo・museum・santa・parade・festival・book sale など)があれば items[].family=true。催しの日付 items[].localDate は local_date()(見出しの日付 → 曜日)。
+  - 朝のメール:「👨‍👩‍👧 家族のお出かけ案(今日から1週間)」の欄。今日〜7日先(日付なしは新着だけ)、カレッジステーション(最大6件)→ヒューストン(最大4件)。この欄に入れたものは地元・今日明日の欄から外す。地元・家族の欄は「日付:見出し(日本語)」とリンクだけ(fmt_local)。
+  - サイト:「👨‍👩‍👧 家族のお出かけ」タブ(過去の日付は出さない)と、カードの「家族向け M/D」ラベル。
+  - 地元の記事は機械翻訳(MyMemory)を優先して訳す。
+- 調査済みで使わないもの:KBTX(AI 系ボットを robots.txt で拒否、全国ニュースが多い)、ABC13(AI 系ボット拒否)、Community Impact(RSS なし・/article/ 禁止)、Macaroni KID(RSS なし)、Texas A&M のカレンダー(学内向けが大半で1000件と多い)、Houston Moms(ドメイン売却済み)、Collaborative for Children(RSS が2023年で止まっている)。
 
 ## 変えるとき
 - 店を足す:config/stores.json に追記 → `python3 tests/test_classify.py` で failures: 0。

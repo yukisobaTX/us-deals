@@ -32,6 +32,9 @@ HORIZON_DAYS = 14   # この先の予定に載せる範囲
 MAX_LATER = 15
 MAX_LOCAL_CS = 10
 MAX_LOCAL_HOU = 5
+FAMILY_DAYS = 7
+MAX_FAMILY_CS = 6
+MAX_FAMILY_HOU = 4
 TYPE_JA = {"free": "無料", "bogo": "BOGO", "coupon": "クーポン", "gc": "ギフトカード", "sale": "セール"}
 
 
@@ -81,6 +84,15 @@ def fmt_item(x, today):
     return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}"
 
 
+def fmt_local(x, today):
+    """地元・家族の催し:日付と見出し(日本語があれば日本語)とリンクだけ。店名や条件は付けない。"""
+    d = x.get("date")
+    when = ("**今日**" if d == today else md(d)) if d else "日付は記事で"
+    text = (x.get("ja") or x["title"]).strip()
+    free = "🆓" if x.get("freebie") or "free" in x.get("types", []) else ""
+    return f"- {when}:{free}[{text}]({x['link']})"
+
+
 def short_line(x, label=""):
     """この先の分:日付と内容だけの短い1行(詳細はサイトで見る)。label ありは大型セールの記事(日付は付けない)。"""
     store, item, _, _ = sum_parts(x, "")
@@ -117,13 +129,20 @@ def build(items, since, site):
     fbs = [x for x in items if x.get("freebie") and not x.get("dup") and not x.get("noAlert")]
     # 今日・明日:日付が今日・明日のもの(前に載せたものも毎回)+日付なしの新着(今すぐ使える)
     # 📍地元(カレッジステーション優先・ヒューストン):今日・明日の分と、新着の今後の分(購入条件は問わない)
-    loc = [x for x in items if x.get("region") and not x.get("dup")
+    # 👨‍👩‍👧 家族のお出かけ案:地元の家族・子供向けの催しで、今日から7日以内(日付なしは新着だけ)
+    week = (today + dt.timedelta(days=FAMILY_DAYS)).isoformat()
+    fam = [x for x in items if x.get("family") and not x.get("dup")
+           and ((x.get("date") and t_iso <= x["date"] <= week) or (not x.get("date") and x["firstSeen"] > since))]
+    fam_cs = by_date([x for x in fam if x["region"] == "College Station"])[:MAX_FAMILY_CS]
+    fam_hou = by_date([x for x in fam if x["region"] == "Houston"])[:MAX_FAMILY_HOU]
+    fam_ids = {x["id"] for x in fam_cs + fam_hou}
+    loc = [x for x in items if x.get("region") and not x.get("dup") and x["id"] not in fam_ids
            and (x.get("date") in (t_iso, tomorrow)
                 or (x["firstSeen"] > since and (x.get("date") or "9999") >= t_iso))]
     loc_cs = by_date([x for x in loc if x["region"] == "College Station"])[:MAX_LOCAL_CS]
     loc_hou = by_date([x for x in loc if x["region"] == "Houston"])[:MAX_LOCAL_HOU]
     local_ids = {x["id"] for x in loc_cs + loc_hou}
-    fbs = [x for x in fbs if x["id"] not in local_ids]
+    fbs = [x for x in fbs if x["id"] not in local_ids | fam_ids]
     near = [x for x in fbs if x.get("date") in (t_iso, tomorrow)
             or (not x.get("date") and x["firstSeen"] > since)]
     near = by_date([x for x in near if is_pure_free(x)])
@@ -137,17 +156,23 @@ def build(items, since, site):
                     and not x.get("freebie") and not x.get("dup")],
                    key=lambda x: x["posted"], reverse=True)
         ev_lines += [short_line(x, f"【{lab}】") for x in g[:3]]
-    n = len(near) + len(later) + len(ev_lines) + len(local_ids)
-    title = f"お得ノート {today.month}/{today.day}:" + (f"地元 {len(local_ids)}件 / " if local_ids else "") + f"今日・明日 {len(near)}件" + (f" / この先 {len(later)}件" if later else "")
+    n = len(near) + len(later) + len(ev_lines) + len(local_ids) + len(fam_ids)
+    title = f"お得ノート {today.month}/{today.day}:" + (f"家族 {len(fam_ids)}件 / " if fam_ids else "") + (f"地元 {len(local_ids)}件 / " if local_ids else "") + f"今日・明日 {len(near)}件" + (f" / この先 {len(later)}件" if later else "")
     lines = [f"{MENTION} おはようございます。今日・明日の無料情報です(購入不要の無料と🥤BOGO=1つ買うと1つ無料だけ。🏬店頭・🎟クーポン)。",
              *([f"一覧: {site}"] if site else []), "", f"## 🎁 今日・明日({md(t_iso)}・{md(tomorrow)})"]
     lines += [fmt_item(x, t_iso) for x in near] or ["- 該当なし"]
+    if fam_ids:
+        lines += ["", "## 👨‍👩‍👧 家族のお出かけ案(今日から1週間)"]
+        if fam_cs:
+            lines += ["**カレッジステーション周辺**", *[fmt_local(x, t_iso) for x in fam_cs]]
+        if fam_hou:
+            lines += ["**ヒューストン**", *[fmt_local(x, t_iso) for x in fam_hou]]
     if local_ids:
         lines += ["", "## 📍 地元(今日・明日と新着)"]
         if loc_cs:
-            lines += ["**カレッジステーション周辺**", *[fmt_item(x, t_iso) for x in loc_cs]]
+            lines += ["**カレッジステーション周辺**", *[fmt_local(x, t_iso) for x in loc_cs]]
         if loc_hou:
-            lines += ["**ヒューストン**", *[fmt_item(x, t_iso) for x in loc_hou]]
+            lines += ["**ヒューストン**", *[fmt_local(x, t_iso) for x in loc_hou]]
     if later or ev_lines:
         lines += ["", "## 📅 この先の予定(詳細はサイトで)", *[short_line(x) for x in later]]
         if ev_lines:

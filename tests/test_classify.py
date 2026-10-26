@@ -112,5 +112,19 @@ for title, want in LOCAL:
     if got != want:
         bad += 1
         print("NG local", title, got)
+# 家族のお出かけ(2026-10-26):家族・子供向けの判定と、催しの日付(曜日・月名)
+import datetime as _dt
+FAM = [("Trunk or Tree-t at Wolf Pen Creek", True), ("Friends of the Library Fall Book Sale", True),
+       ("Kids Events in Houston in December", True), ("Best Delis, Po' Boys, and Sandwiches in Houston", False)]
+for title, want in FAM:
+    if bool(f.FAMILY_RE.search(title)) != want:
+        bad += 1
+        print("NG family", title)
+_P = _dt.datetime(2026, 10, 21, 15, tzinfo=_dt.timezone.utc)   # 水曜
+for title, want in [("Fun at Friday’s Trunk or Tree-t", "2026-10-23"), ("Book Sale is Nov. 6-8", "2026-11-06"),
+                    ("Kids Events in Houston in December", None)]:
+    if f.local_date(title, _P) != want:
+        bad += 1
+        print("NG local_date", title, f.local_date(title, _P))
 print(f"failures: {bad}")
 sys.exit(1 if bad else 0)
