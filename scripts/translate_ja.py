@@ -25,7 +25,7 @@ PROMPT = (
     "- cond:条件(例「会員限定」「$10以上購入」「先着1万名」「要予約」「アプリ」。なければ \"\")\n"
     "- what:何が(メール用の一言。10文字以内。例「無料ドーナツ」「BOGOサンド」「国立公園無料」「無料サンプル」)\n"
     "- where:どこで(店名・場所を短く。15文字以内。例「Krispy Kreme」「全米の国立公園」「オンライン」)\n"
-    "- 誇張表現(Hurry!, WOW! など)は省く\n"
+    "- 誇張表現(Hurry!, WOW! など)は省く。必ず全行を出力する\n"
     "- 出力は JSON オブジェクトのみ: {\"id\": {\"store\":..., \"item\":..., \"when\":..., \"cond\":..., \"what\":..., \"where\":...}, ...}\n\n"
 )
 
@@ -42,7 +42,7 @@ EV_PROMPT = (
     "- cond:費用・対象(例「無料・家族向け」「入場$5」「要予約」「子供向け」。不明なら \"\")\n"
     "- what:何が(メール用の一言。10文字以内。例「ハロウィン祭」「古本セール」「無料イベント集」「有害ごみ回収」)\n"
     "- where:どこで(会場・公園・施設名を短く。15文字以内。例「Wolf Pen Creek」「Bryan図書館」「ヒューストン各地」)\n"
-    "- 誇張表現は省き、見出しの直訳はしない\n"
+    "- 誇張表現は省き、見出しの直訳はしない。本文の冒頭が空の行も見出しから推定して、必ず全行を出力する\n"
     "- 出力は JSON オブジェクトのみ: {\"id\": {\"store\":..., \"item\":..., \"when\":..., \"cond\":..., \"what\":..., \"where\":...}, ...}\n\n"
 )
 
@@ -95,7 +95,7 @@ def gemini(items, prompt=None):
     ids = {row[0] for row in items}
     res = {}
     for k, v in out.items():
-        if k in ids and isinstance(v, dict) and str(v.get("item", "")).strip():
+        if k in ids and isinstance(v, dict) and (str(v.get("item", "")).strip() or str(v.get("what", "")).strip()):
             res[k] = {f: str(v.get(f, "") or "").strip() for f in ("store", "item", "when", "cond", "what", "where")}
     return res
 

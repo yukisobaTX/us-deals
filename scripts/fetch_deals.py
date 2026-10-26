@@ -531,7 +531,9 @@ def main():
             if x["id"] in done:
                 v, how = done[x["id"]]
                 if isinstance(v, dict):
-                    x["sum"], x["ja"] = v, v["item"]
+                    # 空の項目は前の要約を残す(what・where だけ返ってきた場合など)
+                    v = {**(x.get("sum") or {}), **{k2: v2 for k2, v2 in v.items() if v2}}
+                    x["sum"], x["ja"] = v, v.get("item") or x.get("ja") or x["title"]
                 else:
                     x["ja"] = v
                     x.pop("sum", None)
