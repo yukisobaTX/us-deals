@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T18:16Z",
- "count": 744,
+ "updated": "2026-10-26T18:22Z",
+ "count": 745,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -48,14 +48,48 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 0,
+   "geminiEvent": 4,
    "mymemory": 8,
-   "geminiToday": 17,
+   "geminiToday": 18,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "4e5865c93bb1",
+   "title": "DEWALT XTREME 12V Cordless Impact Wrench Only $99 at Lowe’s (Reg. $169)",
+   "link": "https://thefreebieguy.com/dewalt-xtreme-12v-cordless-impact-wrench/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:21Z",
+   "firstSeen": "2026-10-26T18:22Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/DEWALT-XTREME-12V-Cordless-Impact-Wrench-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 99.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "DEWALT XTREME 12 VコードレスインパクトレンチLowe'sで$ 99のみ（登録価格$ 169 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "DEWALT XTREME 12 VコードレスインパクトレンチLowe'sで$ 99のみ（登録価格$ 169 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "7d9927963eb6",
    "title": "Boy’s Cross Necklaces only $3.99!",
@@ -12977,13 +13011,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "「Texas City Music Festival」まとめ",
+   "ja": "音楽フェス「Texas City Music Festival」",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "Nessler Park (テキサスシティ)",
-    "item": "「Texas City Music Festival」まとめ",
+    "store": "Nessler Park",
+    "item": "音楽フェス「Texas City Music Festival」",
     "when": "",
-    "cond": "無料"
+    "cond": "無料・家族向け",
+    "what": "音楽フェス",
+    "where": "Nessler公園"
    },
    "date": null,
    "family": true
@@ -15248,14 +15284,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "date": null,
-   "ja": "家庭の有害ごみ回収日",
+   "date": "2026-10-24",
+   "ja": "家庭の有害ごみ回収日(Hazardous Household Waste)",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "カレッジステーション",
-    "item": "家庭の有害ごみ回収日",
-    "when": "土曜日",
-    "cond": "住民向け"
+    "store": "College Station",
+    "item": "家庭の有害ごみ回収日(Hazardous Household Waste)",
+    "when": "10/24(土)",
+    "cond": "住民向け",
+    "what": "有害ごみ回収",
+    "where": "College Station"
    }
   },
   {
@@ -18993,7 +19031,8 @@
     "item": "Amazonでわずか$ 14.99の2つのライトアップゴースト（ $ 99の陶器納屋バージョンのようです！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Glowing-Witch-Hat-Ghosts-on-the-Porch.png?amp;resize=912%2C478&resize=306,182#038;strip=all"
   },
   {
    "id": "5cad8f8d62ab",
@@ -21046,13 +21085,15 @@
    "family": true,
    "localDate": "2026-10-23",
    "freebie": null,
-   "ja": "ハロウィン×植樹の家族イベント「Trunk or Tree-t」",
+   "ja": "ハロウィン×植樹イベント「Trunk or Tree-t」",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "Wolf Pen Creek Festival Site (カレッジステーション)",
-    "item": "ハロウィン×植樹の家族イベント「Trunk or Tree-t」",
+    "store": "Wolf Pen Creek Festival Site",
+    "item": "ハロウィン×植樹イベント「Trunk or Tree-t」",
     "when": "10/23(金) 17〜20時",
-    "cond": "無料・家族向け"
+    "cond": "無料・家族向け",
+    "what": "ハロウィン祭",
+    "where": "Wolf Pen Creek"
    },
    "date": "2026-10-23"
   },
@@ -24835,13 +24876,15 @@
    "family": true,
    "localDate": "2026-11-06",
    "freebie": null,
-   "ja": "図書館の秋の古本セール",
+   "ja": "図書館の古本セール(Friends of the Library)",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "Bryan + College Station Public Library System",
-    "item": "図書館の秋の古本セール",
+    "store": "Bryan + College Station Public Library",
+    "item": "図書館の古本セール(Friends of the Library)",
     "when": "11/6〜11/8",
-    "cond": "家族向け"
+    "cond": "家族向け",
+    "what": "古本セール",
+    "where": "Bryan図書館"
    },
    "date": "2026-11-06"
   },
