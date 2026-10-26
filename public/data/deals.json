@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T01:09Z",
- "count": 591,
+ "updated": "2026-10-26T01:56Z",
+ "count": 592,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -36,13 +36,47 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 13,
+   "mymemory": 8,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "b96f9b97a539",
+   "title": "Cat Scratcher Bed Just $17.59 on Amazon (Reg. $32)",
+   "link": "https://hip2save.com/deals/cat-scratcher-bed/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T01:30Z",
+   "firstSeen": "2026-10-26T01:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/Borozo-Cat-Scratcher-Bed.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 17.59,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キャットスクラッチャーベッドAmazonでわずか$ 17.59 （登録価格$ 32 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "キャットスクラッチャーベッドAmazonでわずか$ 17.59 （登録価格$ 32 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "0a34823b9b40",
    "title": "Giant Coloring Posters Only $4.99 on Amazon (Thanksgiving & Christmas Designs)",
@@ -143,8 +177,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "10b7d11723e1",
-   "date": null
+   "date": null,
+   "dup": "10b7d11723e1"
   },
   {
    "id": "530a9b1fa6a6",
