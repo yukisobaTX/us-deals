@@ -134,6 +134,26 @@ NEEDS_PURCHASE_RE = re.compile(
     r"\bunlock\b", re.I)
 
 
+# 体験・入場系の「無料」(公園・博物館の入場、教室、読み聞かせ、イベント参加など)。
+# メールの無料欄は「食べ物・もらえる物」だけにする(本人指定 10/26)。サイトには残る。
+EXPERIENCE_RE = re.compile(
+    r"admission|entrance|entry\b|national parks?|\bparks?\b|museum|\bzoo\b|aquarium|"
+    r"class(?:es)?\b|workshop|story ?time|lesson|tour\b|bowling|skating|concert|movie|"
+    r"\bevents?\b|festival|webinar|seminar|"
+    r"入場|入園|国立公園|公園|博物館|美術館|動物園|水族館|教室|クラス|ワークショップ|読み聞かせ|"
+    r"ストーリータイム|体験|イベント|催し|ツアー|ボウリング|コンサート|映画", re.I)
+
+
+DISCOUNT_RE = re.compile(r"\d+\s*%\s*off|\d+\s*%\s*オフ|割引", re.I)   # 割引は無料ではない
+
+
+def is_goods(x):
+    """食べ物・もらえる物か(体験・入場系でない)。"""
+    sm = x.get("sum") or {}
+    text = " ".join([x["title"], sm.get("item", ""), sm.get("what", "")])
+    return not EXPERIENCE_RE.search(text) and not DISCOUNT_RE.search(text)
+
+
 def is_pure_free(x):
     """メールの「今日・明日」に載せるのは、完全無料(購入不要)と飲食の BOGO だけ。"""
     fb = x.get("freebie") or {}
@@ -170,9 +190,9 @@ def build(items, since, site):
     fbs = [x for x in fbs if x["id"] not in local_ids | fam_ids]
     near = [x for x in fbs if x.get("date") in (t_iso, tomorrow)
             or (not x.get("date") and x["firstSeen"] > since)]
-    near = by_date([x for x in near if is_pure_free(x)])
+    near = by_date([x for x in near if is_pure_free(x) and is_goods(x)])
     # この先:明後日〜2週間先の無料情報(短文のみ。毎朝の予定表として繰り返し載せる)
-    later = by_date([x for x in fbs if x.get("date") and tomorrow < x["date"] <= horizon])[:MAX_LATER]
+    later = by_date([x for x in fbs if x.get("date") and tomorrow < x["date"] <= horizon and is_goods(x)])[:MAX_LATER]
     # 大型セール:前回のまとめ以降の記事を、セールごとに最大3件(短文のみ)
     ev_labels = {e["id"]: e["label"] for e in json.loads(STORES.read_text()).get("events", [])}
     ev_lines = []
@@ -187,7 +207,7 @@ def build(items, since, site):
              *([f"地元{len(local_ids)}"] if local_ids else []), *([f"今後{len(later)}"] if later else [])]
     title = f"お得ノート {today.month}/{today.day}:" + "/".join(parts)
     lines = [f"{MENTION} おはようございます。「日付：何が；どこで」で並べています(何がをタップで記事)。",
-             *([f"一覧: {site}"] if site else []), "", "## 🎁 今日・明日(購入不要の無料・BOGO)"]
+             *([f"一覧: {site}"] if site else []), "", "## 🎁 今日・明日(無料の食べ物・もらえる物、BOGO)"]
     lines += [ln(x) for x in near] or ["- 該当なし"]
     if fam_ids:
         lines += ["", "## 👨‍👩‍👧 家族のお出かけ(1週間)"]

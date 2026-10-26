@@ -28,6 +28,7 @@
   - 地元・家族の記事は Gemini で「何のイベントか(item)・場所(store)・日時(when)・費用/対象(cond)」に要約(translate_ja.EV_PROMPT、jaVia="gemini-ev")。見出しの直訳はしない。まとめ記事は「〜まとめ」と書く。材料は見出し+RSS の description 冒頭400字(DESC、この実行の間だけ。deals.json には保存しない)。1実行1回・1日5回まで(無料枠の合計は19回まで)。家族向け・日付の近いものから。Gemini が使えないときは機械翻訳の見出し+localDate。
   - メールの行はすべて「日付：何が(10文字以内)；どこで」(daily_digest.line、本人指定 10/26)。何が=sum.what、どこで=sum.where(Gemini の2項目。なければ item・store を切り詰め)。日付は 今日/明日/M/D(曜)/随時。何がにリンク。
   - 件名は「お得ノート M/D:今日・明日N/家族N/地元N/今後N」の順(本人指定)。
+  - メールの無料欄(今日・明日・今後)は**食べ物・もらえる物だけ**(本人指定 10/26)。公園・博物館の入場無料、教室・ワークショップ・読み聞かせ・イベント参加などの体験系(EXPERIENCE_RE)と、割引(DISCOUNT_RE:「50% off」など)は is_goods() で外す。サイトには残る。家族・地元の欄は対象外(催しを載せる欄なので)。
 - 調査済みで使わないもの:KBTX(AI 系ボットを robots.txt で拒否、全国ニュースが多い)、ABC13(AI 系ボット拒否)、Community Impact(RSS なし・/article/ 禁止)、Macaroni KID(RSS なし)、Texas A&M のカレンダー(学内向けが大半で1000件と多い)、Houston Moms(ドメイン売却済み)、Collaborative for Children(RSS が2023年で止まっている)。
 
 ## Claude による要約(2026-10-26 追加・本人選択)
