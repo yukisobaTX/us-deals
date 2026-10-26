@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T17:53Z",
- "count": 733,
+ "updated": "2026-10-26T18:00Z",
+ "count": 739,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -32,22 +32,98 @@
   },
   "hotc": {
    "read": 20,
-   "added": 15
+   "added": 0
   },
   "wtaw": {
    "read": 20,
+   "added": 0
+  },
+  "cstx": {
+   "read": 5,
    "added": 2
+  },
+  "bcslib": {
+   "read": 10,
+   "added": 1
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 13,
-   "geminiToday": 13,
+   "mymemory": 25,
+   "geminiToday": 14,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0bf5e9aea416",
+   "title": "Sam’s Club’s 3D Holiday Village Advent Calendar Includes 2lbs of Sweet Treats!",
+   "link": "https://hip2save.com/deals/sams-clubs-holiday-village-advent-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T17:55Z",
+   "firstSeen": "2026-10-26T18:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/sams-club-holiday-town-calendar.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブの3 Dホリデービレッジアドベントカレンダーには、2ポンドの甘いおやつが含まれています！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "サムズクラブの3 Dホリデービレッジアドベントカレンダーには、2ポンドの甘いおやつが含まれています！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "bf6846a424ab",
+   "title": "Faux Fur-Lined Ankle Boots for Toddlers Only $19.xx (Reg. $40)",
+   "link": "https://thefreebieguy.com/the-childrens-place-faux-fur-lined-toddler-ankle-boots/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T17:53Z",
+   "firstSeen": "2026-10-26T18:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/The-Childrens-Place-Faux-Fur-Lined-Ankle-Boots-for-Toddler-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": 19.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "フェイクファーライニングアンクルブーツ幼児用のみ$ 19.xx （登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "フェイクファーライニングアンクルブーツ幼児用のみ$ 19.xx （登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "c5cf1c991ad7",
    "title": "Hip to the Viral Goose Trend? You Need This New Walmart Christmas Mug!",
@@ -111,6 +187,38 @@
    "sum": {
     "store": "Walmart",
     "item": "Lodge 5.5クォート鋳鉄オランダ製オーブンウォルマートで$ 39.94のみ（登録価格$ 80 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "feb538fe860b",
+   "title": "GO! Downy Booster Beads 4-Piece Gift Set Just $15.97 at Walmart!",
+   "link": "https://thefreebieguy.com/downy-unstoppables-scent-booster/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T17:51Z",
+   "firstSeen": "2026-10-26T18:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Booster-Beads-4-Piece-Gift-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
     "when": "",
     "cond": ""
    },
@@ -4256,7 +4364,8 @@
     "item": "楽しくて無料でお得なイベント| 10月30日～ 11月1日",
     "when": "10/30(金)",
     "cond": ""
-   }
+   },
+   "localDate": "2026-10-30"
   },
   {
    "id": "f6c64d6a9c64",
@@ -8562,7 +8671,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": "2026-10-26",
+   "localDate": "2026-10-26"
   },
   {
    "id": "36cee78a17ca",
@@ -8596,7 +8706,8 @@
     "when": "",
     "cond": "子ども向け"
    },
-   "date": null
+   "date": null,
+   "family": true
   },
   {
    "id": "f177620387b2",
@@ -8630,7 +8741,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "family": true
   },
   {
    "id": "dfa30d09ad47",
@@ -8698,7 +8810,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "family": true
   },
   {
    "id": "2850fbebbd8f",
@@ -12619,13 +12732,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヒューストンのホリデーバケットリスト： 2026年12月のヒューストンでの大人向けイベント",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストンのホリデーバケットリスト： 2026年12月のヒューストンでの大人向けイベント",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "315dfc3ad223",
@@ -12651,13 +12766,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "family": true,
+   "ja": "ディア・デ・ロス・ムエルトス・ヒューストン2026 ：最高のフェスティバル＆パレード",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ディア・デ・ロス・ムエルトス・ヒューストン2026 ：最高のフェスティバル＆パレード",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8bc419cf6e6c",
@@ -12694,7 +12812,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "family": true
   },
   {
    "id": "b9efcaf4397a",
@@ -12720,13 +12839,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヒューストンで最高のデリス、ポー・ボーイズ、サンドイッチ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストンで最高のデリス、ポー・ボーイズ、サンドイッチ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e8b3bb06a5ac",
@@ -14952,13 +15073,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "危険な家庭廃棄物の週末です！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "危険な家庭廃棄物の週末です！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7060de85059c",
@@ -15885,13 +16008,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヒューストン感謝祭ウィークでおすすめのアクティビティ15選（ 2026年）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストン感謝祭ウィークでおすすめのアクティビティ15選（ 2026年）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7f4e9d549677",
@@ -18484,13 +18609,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "完璧な天気は、公園を訪れる時間を意味します",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "完璧な天気は、公園を訪れる時間を意味します",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "58ddc5baf6af",
@@ -18783,13 +18910,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "family": true,
+   "ja": "ヒューストンで最高の感謝祭ブレイクキャンプ（ 2026年）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストンで最高の感謝祭ブレイクキャンプ（ 2026年）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1e0e8181e455",
@@ -18826,7 +18956,8 @@
     "when": "10/23〜10/25",
     "cond": ""
    },
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "localDate": "2026-10-23"
   },
   {
    "id": "16bf789f80d9",
@@ -20713,6 +20844,42 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "8143652ad2d7",
+   "title": "Halloween fun meets Texas Arbor Day at Friday’s “Trunk or Tree-t” at Wolf Pen Creek",
+   "link": "https://blog.cstx.gov/2026/10/21/halloween-fun-meets-texas-arbor-day-at-fridays-trunk-or-tree-t-at-wolf-pen-creek/",
+   "source": "カレッジステーション市",
+   "posted": "2026-10-21T15:17Z",
+   "firstSeen": "2026-10-26T18:00Z",
+   "expires": null,
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "family": true,
+   "localDate": "2026-10-23",
+   "freebie": null,
+   "ja": "ウルフ・ペン・クリークの金曜日の「トランク・オア・ツリー・ツリー」で、ハロウィンの楽しみがテキサス・アーバー・デーと出会う",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Friday’s",
+    "item": "ウルフ・ペン・クリークの金曜日の「トランク・オア・ツリー・ツリー」で、ハロウィンの楽しみがテキサス・アーバー・デーと出会う",
+    "when": "",
+    "cond": ""
+   },
+   "date": "2026-10-23"
   },
   {
    "id": "cf5735eb4f03",
@@ -23011,6 +23178,45 @@
    "date": null
   },
   {
+   "id": "8ad8d67e1818",
+   "title": "Stream College Station's local government channel for free on all your favorite devices",
+   "link": "https://blog.cstx.gov/2026/10/20/stream-college-stations-local-government-channel-for-free-on-all-your-favorite-devices/",
+   "source": "カレッジステーション市",
+   "posted": "2026-10-20T16:03Z",
+   "firstSeen": "2026-10-26T18:00Z",
+   "expires": null,
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "カレッジステーションの地方自治体チャンネルをお気に入りのすべてのデバイスで無料でストリーミング",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "カレッジステーションの地方自治体チャンネルをお気に入りのすべてのデバイスで無料でストリーミング",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "3377a255f081",
    "title": "TWO Porch Goose Outfits Just $7.99 Shipped for Amazon Prime Members",
    "link": "https://hip2save.com/deals/amazon-porch-goose-outfits/",
@@ -23511,13 +23717,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-10-19",
+   "localDate": "2026-10-19",
+   "ja": "ヒューストンの見どころ： 10月19日～ 22日：フード、音楽、アートなど",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストンの見どころ： 10月19日～ 22日：フード、音楽、アートなど",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2c460bdcc917",
@@ -23543,13 +23752,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-10-18",
+   "localDate": "2026-10-18",
+   "ja": "ヒューストンで人気の日曜日のロースト＆南のコンフォートフードスポット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストンで人気の日曜日のロースト＆南のコンフォートフードスポット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2f89e0e8394b",
@@ -23575,13 +23787,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヒューストンでディワリを祝うお祝いの方法（ 2026年）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストンでディワリを祝うお祝いの方法（ 2026年）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a113fb059b50",
@@ -23637,13 +23851,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-10-17",
+   "localDate": "2026-10-17",
+   "ja": "ヒューストンで開催される上位5つのイベント– 2026年10月17日（土）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストンで開催される上位5つのイベント– 2026年10月17日（土）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e32608716303",
@@ -23669,13 +23886,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "family": true,
+   "ja": "ヒューストン周辺の最高のトリック・オア・トリート地区",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストン周辺の最高のトリック・オア・トリート地区",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e7db87630b5e",
@@ -23701,13 +23921,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヒューストンで新鮮なパン・デ・ムエルトに最適なパナデリア",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ヒューストンで新鮮なパン・デ・ムエルトに最適なパナデリア",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "25e0489d978a",
@@ -23876,7 +24098,8 @@
     "when": "10/16〜10/18",
     "cond": ""
    },
-   "date": "2026-10-16"
+   "date": "2026-10-16",
+   "localDate": "2026-10-16"
   },
   {
    "id": "c0feef908921",
@@ -24408,6 +24631,42 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "e22d0dc04461",
+   "title": "Friends of the Library Fall 2026 Book Sale is Nov. 6-8",
+   "link": "https://www.bcslibrary.org/friends-of-the-library-fall-2026-book-sale-is-nov-6-8/",
+   "source": "Bryan+College Station 図書館",
+   "posted": "2026-10-08T22:05Z",
+   "firstSeen": "2026-10-26T18:00Z",
+   "expires": null,
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "family": true,
+   "localDate": "2026-11-06",
+   "freebie": null,
+   "ja": "フレンズ・オブ・ザ・ライブラリー2026年秋の本のセールは11月6日～ 8日です",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "フレンズ・オブ・ザ・ライブラリー2026年秋の本のセールは11月6日～ 8日です",
+    "when": "",
+    "cond": ""
+   },
+   "date": "2026-11-06"
   },
   {
    "id": "f60079bc8344",
