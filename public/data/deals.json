@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T18:25Z",
- "count": 746,
+ "updated": "2026-10-26T18:38Z",
+ "count": 748,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -48,14 +48,120 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 21,
-   "mymemory": 8,
+   "geminiEvent": 0,
+   "mymemory": 10,
    "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "bb12f5f70f79",
+   "title": "Hand Soaps only $0.39 each at CVS!",
+   "link": "https://moneysavingmom.com/hand-soaps-only-0-39-each-at-cvs/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-26T18:33Z",
+   "firstSeen": "2026-10-26T18:38Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Hand-Soap-630x742.jpg",
+   "hot": false,
+   "stores": [
+    "CVS"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CVSのハンドソープはそれぞれ$ 0.39のみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "CVS",
+    "item": "CVSのハンドソープはそれぞれ$ 0.39のみ！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "08c8fa6df7aa",
+   "date": null
+  },
+  {
+   "id": "209b3be0cc58",
+   "title": "DEWALT Cordless 5-3/8-in Circular Saw Just $99 at Lowe’s (Reg. $169)",
+   "link": "https://thefreebieguy.com/dewalt-circular-saw/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:28Z",
+   "firstSeen": "2026-10-26T18:38Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/06/DEWALT-XTREME-12-volt-Max-5-38-in-Brushless-Cordless-Circular-saw-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 99.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "DEWALTコードレス5 -3/8インチ丸ノコLowe'sでたったの$ 99 （登録価格$ 169 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "DEWALTコードレス5 -3/8インチ丸ノコLowe'sでたったの$ 99 （登録価格$ 169 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7d20fc1bc4a5",
+   "title": "Free Starbucks Red Cup w/ Handcrafted Holiday Beverage Purchase (November 17th Only)",
+   "link": "https://thefreebieguy.com/starbucks-red-cup-day/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:25Z",
+   "firstSeen": "2026-10-26T18:38Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Starbucks-Red-Cup-Day-1-840x630.png",
+   "hot": true,
+   "stores": [
+    "Starbucks"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-17"
+   },
+   "ja": "手作りのホリデードリンクの購入でスターバックスのレッドカップが無料（ 11月17日のみ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Starbucks",
+    "item": "手作りのホリデードリンクの購入でスターバックスのレッドカップが無料（ 11月17日のみ）",
+    "when": "11/17(火)",
+    "cond": ""
+   },
+   "date": "2026-11-17"
+  },
   {
    "id": "0333d526fff3",
    "title": "O-Cedar H2prO Flat Mop System Only $34.xx with Walmart Cash (Reg $50)!",
@@ -21285,7 +21391,8 @@
     "item": "フットロングサンド1個無料",
     "when": "10/27〜",
     "cond": "1個購入"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Subway-622-Sub.jpg?resize=306,182"
   },
   {
    "id": "ddf37018964f",
@@ -23450,47 +23557,6 @@
     "item": "",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8ad8d67e1818",
-   "title": "Stream College Station's local government channel for free on all your favorite devices",
-   "link": "https://blog.cstx.gov/2026/10/20/stream-college-stations-local-government-channel-for-free-on-all-your-favorite-devices/",
-   "source": "カレッジステーション市",
-   "posted": "2026-10-20T16:03Z",
-   "firstSeen": "2026-10-26T18:00Z",
-   "expires": null,
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "カレッジステーション市議会チャンネルの無料配信",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "College Station",
-    "item": "カレッジステーション市議会チャンネルの無料配信",
-    "when": "",
-    "cond": "無料",
-    "what": "市議会配信",
-    "where": "College Station"
    },
    "date": null
   },
