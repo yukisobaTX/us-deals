@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-25T23:39Z",
- "count": 588,
+ "updated": "2026-10-26T01:09Z",
+ "count": 591,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -36,14 +36,116 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 0,
+   "mymemory": 13,
    "geminiToday": 15,
-   "model": "gemini-flash-latest",
-   "mymemoryError": "HTTP Error 429: Too Many Requests"
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0a34823b9b40",
+   "title": "Giant Coloring Posters Only $4.99 on Amazon (Thanksgiving & Christmas Designs)",
+   "link": "https://hip2save.com/deals/amazon-giant-coloring-poster/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T01:00Z",
+   "firstSeen": "2026-10-26T01:09Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/OHOME-Giant-Coloring-Poster.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonのジャイアントカラーリングポスターは$ 4.99のみ（感謝祭＆クリスマスデザイン）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonのジャイアントカラーリングポスターは$ 4.99のみ（感謝祭＆クリスマスデザイン）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b2a371220c7c",
+   "title": "[YMMV] UberEats: 100% Off Catering Orders, Up To $300",
+   "link": "https://www.doctorofcredit.com/ymmv-ubereats-100-off-catering-orders-up-to-300/",
+   "source": "Doctor of Credit",
+   "posted": "2026-10-26T00:37Z",
+   "firstSeen": "2026-10-26T01:09Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/ubereats-catering.png",
+   "hot": false,
+   "stores": [
+    "Uber Eats"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 0,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "[YMMV] Uber Eats:ケータリング注文が100%オフ(最大$ 300)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Uber Eats",
+    "item": "[YMMV] Uber Eats:ケータリング注文が100%オフ(最大$ 300)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c445bbf243f9",
+   "title": "La Moderna Pasta From 54¢ on Amazon",
+   "link": "https://thefreebieguy.com/la-moderna-noodles/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-25T23:39Z",
+   "firstSeen": "2026-10-26T01:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/la-moderna-pasta-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "La Moderna Pasta （ Amazonで54 ¢から）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "La Moderna Pasta （ Amazonで54 ¢から）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "10b7d11723e1",
+   "date": null
+  },
   {
    "id": "530a9b1fa6a6",
    "title": "Scott ComfortPlus Toilet Paper 12 Triple Rolls Just $4.xx at Amazon",
@@ -68,13 +170,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Scott ComfortPlusトイレットペーパー12トリプルロールわずか$ 4.xxアマゾン",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Scott ComfortPlusトイレットペーパー12トリプルロールわずか$ 4.xxアマゾン",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a8bafea0f3e5",
@@ -100,14 +204,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kool - Aid Ghoul - Aid 10パックAmazonでたったの$ 2.xx",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Kool - Aid Ghoul - Aid 10パックAmazonでたったの$ 2.xx",
     "when": "",
     "cond": ""
    },
-   "dup": "8af63fe63055",
-   "date": null
+   "dup": "8af63fe63055"
   },
   {
    "id": "978e86e9b7f1",
@@ -133,13 +239,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットの新しいホリデースローブランケットはたったの$ 10 |たくさんのデザイン！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットの新しいホリデースローブランケットはたったの$ 10 |たくさんのデザイン！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a5bd4ad69bc5",
