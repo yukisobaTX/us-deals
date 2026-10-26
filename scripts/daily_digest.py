@@ -15,6 +15,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import re
 import sys
 import urllib.request
 from pathlib import Path
@@ -87,6 +88,24 @@ def short_line(x, label=""):
     return f"- {head} {who}{icon}{item[:40]}"
 
 
+# 購入が条件の「無料」(〜ドル以上の購入で無料、2つ買うと2つ無料、購入特典など)。飲食の BOGO は別扱いで残す
+NEEDS_PURCHASE_RE = re.compile(
+    r"w(?:ith)?/?\s*(?:any\s+|a\s+|\$[\d.]+\+?\s+)?(?:purchase|order)|purchase of|\$[\d.]+\+?\s+purchase|"
+    r"\bspend\s+\$|\bbuy\s+(?:one|two|three|\d+)\b.*\bget\b|\bB\dG\d\b|gift with purchase|when you (?:buy|spend)|"
+    r"\bunlock\b", re.I)
+
+
+def is_pure_free(x):
+    """メールの「今日・明日」に載せるのは、完全無料(購入不要)と飲食の BOGO だけ。"""
+    fb = x.get("freebie") or {}
+    if fb.get("bogo"):
+        return True
+    cond = (x.get("sum") or {}).get("cond") or ""
+    if re.search(r"no purchase (?:necessary|required)", x["title"], re.I) or re.search(r"購入(?:は)?(?:不要|必要(?:ありません|なし))", (x.get("ja") or "") + cond):
+        return True
+    return not NEEDS_PURCHASE_RE.search(x["title"]) and "購入" not in cond and "購入" not in (x.get("ja") or "")
+
+
 def build(items, since, site):
     """朝の1通。今日・明日の無料情報は詳しく、それ以降は日付と内容の短文だけ(詳細はサイト)。"""
     today = dt.datetime.now(CT).date()
@@ -97,7 +116,7 @@ def build(items, since, site):
     # 今日・明日:日付が今日・明日のもの(前に載せたものも毎回)+日付なしの新着(今すぐ使える)
     near = [x for x in fbs if x.get("date") in (t_iso, tomorrow)
             or (not x.get("date") and x["firstSeen"] > since)]
-    near = by_date(near)
+    near = by_date([x for x in near if is_pure_free(x)])
     # この先:明後日〜2週間先の無料情報(短文のみ。毎朝の予定表として繰り返し載せる)
     later = by_date([x for x in fbs if x.get("date") and tomorrow < x["date"] <= horizon])[:MAX_LATER]
     # 大型セール:前回のまとめ以降の記事を、セールごとに最大3件(短文のみ)
@@ -110,7 +129,7 @@ def build(items, since, site):
         ev_lines += [short_line(x, f"【{lab}】") for x in g[:3]]
     n = len(near) + len(later) + len(ev_lines)
     title = f"お得ノート {today.month}/{today.day}:今日・明日 {len(near)}件" + (f" / この先 {len(later)}件" if later else "")
-    lines = [f"{MENTION} おはようございます。今日・明日の無料情報です(🏬店頭・🎟クーポン・🥤BOGO=1つ買うと1つ無料)。",
+    lines = [f"{MENTION} おはようございます。今日・明日の無料情報です(購入不要の無料と🥤BOGO=1つ買うと1つ無料だけ。🏬店頭・🎟クーポン)。",
              *([f"一覧: {site}"] if site else []), "", f"## 🎁 今日・明日({md(t_iso)}・{md(tomorrow)})"]
     lines += [fmt_item(x, t_iso) for x in near] or ["- 該当なし"]
     if later or ev_lines:

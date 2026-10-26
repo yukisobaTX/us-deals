@@ -6,7 +6,7 @@
 | ワークフロー | 時刻 | 役割 |
 |---|---|---|
 | Collect deals(scripts/fetch_deals.py) | 毎時 :17 | RSS を取得・分類し public/data/deals.json を更新。**通知はしない**(即時通知は 2026-10-26 に廃止) |
-| Morning digest(scripts/daily_digest.py) | 毎朝 7:15 ごろ CT(夏冬とも) | **メールはこの1通だけ**。①今日・明日の無料情報(店頭・クーポン・飲食 BOGO。日付が今日・明日のもの+日付なしの新着)を「店舗名:もらえるもの:日時:条件」+リンクで詳しく ②明後日〜14日先の無料情報と大型セールの新着は「日付 店舗:内容」の短文だけ(詳細はサイト)。載せるものがない日は送らない |
+| Morning digest(scripts/daily_digest.py) | 毎朝 7:15 ごろ CT(夏冬とも) | **メールはこの1通だけ**。①今日・明日の無料情報(日付が今日・明日のもの+日付なしの新着。**完全無料=購入不要と飲食 BOGO だけ**、「$10以上購入で無料」「2つ買うと2つ無料」などは is_pure_free() で外す)を「店舗名:もらえるもの:日時:条件」+リンクで詳しく ②明後日〜14日先の無料情報と大型セールの新着は「日付 店舗:内容」の短文だけ(詳細はサイト)。載せるものがない日は送らない |
 - 公開:Cloudflare Workers(静的アセット、public/)。main への push で自動反映。noindex・robots.txt で検索に出さない。
 
 - 通知は Gmail から直接送る(scripts/mailer.py、us-market-note から流用。送信元名「お得ノート」、secret GMAIL_APP_PASSWORD・env GMAIL_USER。追加の宛先は workflow の env MAIL_TO にカンマ区切り。今は pinkpokepoke@gmail.com)。件名に [リポジトリ名]・(Issue #番号) が付かない。送れないときだけ @メンション付き Issue に切り替わる。
