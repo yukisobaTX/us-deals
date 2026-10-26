@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T07:04Z",
- "count": 592,
+ "updated": "2026-10-26T08:02Z",
+ "count": 594,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -36,14 +36,82 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 7,
-   "geminiToday": 2,
+   "mymemory": 9,
+   "geminiToday": 3,
    "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
+   "geminiError": "The read operation timed out"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f6c64d6a9c64",
+   "title": "Apple 2026 Mac Mini Desktop Computer M6 chip Only $779 on Amazon (Reg $899)",
+   "link": "https://thefreebieguy.com/apple-mac-mini-desktop-computer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T07:34Z",
+   "firstSeen": "2026-10-26T08:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Apple-Mac-mini-Desktop-Computer-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 13,
+   "price": 779.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Apple 2026 MacミニデスクトップコンピュータM 6チップAmazonで$ 779のみ（登録価格$ 899 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Apple 2026 MacミニデスクトップコンピュータM 6チップAmazonで$ 779のみ（登録価格$ 899 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "be331077897a",
+   "title": "Apple Magic Keyboard Folio for iPad Only $150 on Amazon (Reg. $249)",
+   "link": "https://thefreebieguy.com/apple-magic-keyboard-folio/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T07:22Z",
+   "firstSeen": "2026-10-26T08:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Apple-Magic-Keyboard-Folio-for-iPad-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 150.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Apple Magic Keyboard Folio iPad版Amazonで$ 150のみ（登録価格$ 249 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Apple Magic Keyboard Folio iPad版Amazonで$ 150のみ（登録価格$ 249 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "b96f9b97a539",
    "title": "Cat Scratcher Bed Just $17.59 on Amazon (Reg. $32)",
