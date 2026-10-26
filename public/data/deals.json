@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-26T15:11Z",
- "count": 676,
+ "updated": "2026-10-26T15:43Z",
+ "count": 682,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 3
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -37,13 +37,217 @@
   "ja": {
    "gemini": 0,
    "mymemory": 25,
-   "geminiToday": 9,
+   "geminiToday": 10,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "c4a51c3502e6",
+   "title": "Stock Up! Amazon Grocery Canned Beans Just 67¢ Shipped",
+   "link": "https://hip2save.com/deals/amazon-beans/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T15:40Z",
+   "firstSeen": "2026-10-26T15:43Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Amazon-Grocery-Canned-Garbanzo-Beans.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "買いだめ！アマゾンの食料品豆の缶詰はたったの67 ¢で発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "買いだめ！アマゾンの食料品豆の缶詰はたったの67 ¢で発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7f073e1a4125",
+   "title": "Up To 44% Off LEGO Botanical Sets – LOWEST Prices Ever!",
+   "link": "https://thefreebieguy.com/lego-botanicals-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T15:30Z",
+   "firstSeen": "2026-10-26T15:43Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/LEGO-Flower-Bouquets-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 44,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レゴボタニカルセットが最大44%オフ–史上最低価格！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レゴボタニカルセットが最大44%オフ–史上最低価格！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "43d4afcf4d56",
+   "title": "Soda 12-Pack Stock-up Prices on Coke, Diet Coke, Dr. Pepper Zero, plus more!",
+   "link": "https://moneysavingmom.com/amazon-soda-stock-up-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-26T15:29Z",
+   "firstSeen": "2026-10-26T15:43Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Diet-Coke-Caffeine-Free-Soda-Soft-Drink-Fridge-Pack-Cans-12-fl-oz-12-Pack-1.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コーラ、ダイエットコーク、ドクターペッパーゼロなどのソーダ12パックストックアップ価格！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "コーラ、ダイエットコーク、ドクターペッパーゼロなどのソーダ12パックストックアップ価格！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "84ea5c4248ca",
+   "title": "NEW My Life As Grinch Dolls Spotted on Walmart.com (These Always Sell Out!)",
+   "link": "https://hip2save.com/deals/my-life-as-a-grinch-dolls/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T15:25Z",
+   "firstSeen": "2026-10-26T15:43Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/12/my-life-as-the-grinch-dolls-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comで発見されたグリンチドールとしての新しい私の人生（これらは常に売り切れています！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comで発見されたグリンチドールとしての新しい私の人生（これらは常に売り切れています！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7f53b55c50d3",
+   "title": "*HOT* Dove Exfoliating Body Scrub as low as $4.72 shipped (Reg. $9)!",
+   "link": "https://moneysavingmom.com/dove-body-scrub-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-26T15:18Z",
+   "firstSeen": "2026-10-26T15:43Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/06/Dove-Body-Scrub-for-Exfoliated-Hydrated-Skin-Palo-Santo-Sage-Oil.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 48,
+   "price": 4.72,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT *ダブエクスフォリエイティングボディスクラブは$ 4.72の低価格で発送されました（登録価格$ 9 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "* HOT *ダブエクスフォリエイティングボディスクラブは$ 4.72の低価格で発送されました（登録価格$ 9 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "486ec81e473a",
+   "title": "Keurig K-Duo Hot & Iced Coffee Maker Only $129.xx on Amazon (Reg. $220)",
+   "link": "https://thefreebieguy.com/keurig-k-duo-hot-iced-coffee-maker/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T15:17Z",
+   "firstSeen": "2026-10-26T15:43Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Keurig-K-Duo-Hot-Iced-Coffee-Maker-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 129.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Keurig K - Duoホット＆アイスコーヒーメーカーAmazonで$ 129.xxのみ（登録価格$ 220 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Keurig K - Duoホット＆アイスコーヒーメーカーAmazonで$ 129.xxのみ（登録価格$ 220 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "92640587885f",
    "title": "Score Domino’s x Minecraft Dungeons Exclusives",
@@ -1800,13 +2004,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ドミノのお買い得情報|マインクラフト・ダンジョン2などのデジタルコピーを勝ち取ろう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ドミノのお買い得情報|マインクラフト・ダンジョン2などのデジタルコピーを勝ち取ろう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3a805084b2a7",
@@ -1832,13 +2038,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "EkouaerファミリークリスマスパジャママッチングセットAmazonで$ 11.xxのみ（登録価格$ 30 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "EkouaerファミリークリスマスパジャママッチングセットAmazonで$ 11.xxのみ（登録価格$ 30 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "98b63fd28255",
@@ -1864,13 +2072,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クロックポットクラシック4クォートスロークッカーウォルマートで$ 19.98のみ（登録価格$ 35 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "クロックポットクラシック4クォートスロークッカーウォルマートで$ 19.98のみ（登録価格$ 35 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "895d51c368f3",
@@ -1896,13 +2106,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "* HOT *量子食器洗い機ポッドを仕上げ、70個のみ$ 11.69で発送！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "* HOT *量子食器洗い機ポッドを仕上げ、70個のみ$ 11.69で発送！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ac65942e9eb7",
@@ -1928,13 +2140,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "* HOT *メイクアップブレンダー5ピーススポンジセットたった$ 2.09発送{75 K以上の5つ星レビュー！}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "* HOT *メイクアップブレンダー5ピーススポンジセットたった$ 2.09発送{75 K以上の5つ星レビュー！}",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0b7e9ef73f69",
@@ -1960,13 +2174,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Ninja 10 - Qtデュアルゾーンスマート6 - in -1エアフライヤーWalmartで$ 149.xxのみ（登録価格$ 270 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Ninja 10 - Qtデュアルゾーンスマート6 - in -1エアフライヤーWalmartで$ 149.xxのみ（登録価格$ 270 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "403e8ca79eb7",
@@ -1992,13 +2208,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アクリルフォトブロックはわずか$ 1.99 + Walgreensでの無料店内ピックアップ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "アクリルフォトブロックはわずか$ 1.99 + Walgreensでの無料店内ピックアップ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d7bdfa2b8b93",
@@ -2059,13 +2277,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*ホット* 2 - in -1トラベルスチーマーとアイロンのみ$ 16.99 （登録価格$ 45 ！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*ホット* 2 - in -1トラベルスチーマーとアイロンのみ$ 16.99 （登録価格$ 45 ！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a3977bcabbc2",
@@ -2089,13 +2309,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "今週はベライゾン報酬でラジオシティ・ロケット体験を勝ち取ろう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Verizon Rewards This Week",
-    "item": "",
+    "item": "今週はベライゾン報酬でラジオシティ・ロケット体験を勝ち取ろう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6c5c274155a6",
@@ -2121,13 +2343,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウィルスホームデポハロウィンバケットはわずか$ 1.88です！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Home Depot",
-    "item": "",
+    "item": "ウィルスホームデポハロウィンバケットはわずか$ 1.88です！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4893fc5e730b",
@@ -2153,13 +2377,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "今週のWalgreensのお得な情報は$ 2未満",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "今週のWalgreensのお得な情報は$ 2未満",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0fbf7b4ca67a",
@@ -2185,13 +2411,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Grocery Stuffing Mix 73 ¢のみ発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Grocery Stuffing Mix 73 ¢のみ発送",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "4373355d7b6c"
   },
   {
