@@ -28,6 +28,21 @@ PROMPT = (
 )
 
 
+EV_PROMPT = (
+    "以下は米国テキサス(カレッジステーション/ヒューストン)の地域の記事です(各行:id、掲載日、見出し、本文の冒頭)。"
+    "家族で出かける人が一目で分かるように、日本語で4項目に要約してください。\n"
+    "- item:何のイベント・記事か(25字以内。会場やイベントの固有名は英語のまま「」で残してよい。"
+    "例「ハロウィン×植樹の家族イベント「Trunk or Tree-t」」「図書館の古本セール(Friends of the Library)」。"
+    "複数の催しを紹介するまとめ記事は「今週末(10/30〜11/1)のヒューストン無料・格安イベントまとめ」のように『まとめ』と書く。"
+    "イベントでない記事は内容が分かるように(例「ヒューストンのおすすめデリ・サンドイッチ店」「家庭の有害ごみ回収日」))\n"
+    "- store:場所(会場名・公園名・都市名。不明なら \"\")\n"
+    "- when:日時(例「10/23(金) 17〜20時」「11/6〜11/8」「12月中」。掲載日を基準に曜日・Today を日付にする。不明なら \"\")\n"
+    "- cond:費用・対象(例「無料・家族向け」「入場$5」「要予約」「子供向け」。不明なら \"\")\n"
+    "- 誇張表現は省き、見出しの直訳はしない\n"
+    "- 出力は JSON オブジェクトのみ: {\"id\": {\"store\":..., \"item\":..., \"when\":..., \"cond\":...}, ...}\n\n"
+)
+
+
 def _post_json(url, body, headers=None):
     req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST",
                                  headers={"Content-Type": "application/json", "User-Agent": UA, **(headers or {})})
@@ -60,20 +75,20 @@ def pick_model(key):
     return _MODEL["m"]
 
 
-def gemini(items):
-    """items: [(id, 掲載日, title)] → {id: {store, item, when, cond}}"""
+def gemini(items, prompt=None):
+    """items: [(id, 掲載日, title)] または [(id, 掲載日, title, 本文冒頭)] → {id: {store, item, when, cond}}"""
     key = os.environ.get("GEMINI_API_KEY")
     if not key or not items:
         return {}
-    lines = "\n".join(f"{i}\t{d}\t{t}" for i, d, t in items)
+    lines = "\n".join("\t".join(str(v).replace("\t", " ").replace("\n", " ") for v in row) for row in items)
     res = _post_json(
         f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(key)}:generateContent",
-        {"contents": [{"parts": [{"text": PROMPT + lines}]}],
+        {"contents": [{"parts": [{"text": (prompt or PROMPT) + lines}]}],
          "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}},
         {"x-goog-api-key": key})
     text = res["candidates"][0]["content"]["parts"][0]["text"]
     out = json.loads(re.sub(r"^```(?:json)?|```$", "", text.strip()))
-    ids = {i for i, _, _ in items}
+    ids = {row[0] for row in items}
     res = {}
     for k, v in out.items():
         if k in ids and isinstance(v, dict) and str(v.get("item", "")).strip():
@@ -147,10 +162,10 @@ def mymemory_many(items, limit=20):
     return out
 
 
-def gemini_once(items):
+def gemini_once(items, prompt=None):
     """Gemini に1回だけ依頼(無料枠は1日の回数が少ないので、まとめて1回)。失敗は例外にせず {}。"""
     try:
-        return gemini(items)
+        return gemini(items, prompt)
     except Exception as e:  # noqa: BLE001
         body = ""
         if hasattr(e, "read"):

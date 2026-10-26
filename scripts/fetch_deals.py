@@ -67,6 +67,16 @@ def find_thumb(it_xml_get):
     return None
 
 
+DESC = {}   # id → 本文冒頭(この実行の間だけ。deals.json には書かない)
+
+
+def desc_text(h):
+    """RSS の description の冒頭(地元記事の要約にだけ使う。保存はしない)。"""
+    t = re.sub(r"<[^>]+>", " ", html.unescape(h or ""))
+    t = re.sub(r"\[Read More[^\]]*\]|The post .* appeared first on .*", "", t)
+    return re.sub(r"\s+", " ", t).strip()[:400]
+
+
 def parse_rss(text):
     """RSS 2.0 を読む。壊れた XML でも <item> 単位で拾えるだけ拾う。"""
     items = []
@@ -84,6 +94,7 @@ def parse_rss(text):
                 "link": (it.findtext("link") or "").strip(),
                 "date": (it.findtext("pubDate") or "").strip(),
                 "cats": [(c.text or "").strip() for c in it.findall("category") if c.text],
+                "desc": desc_text(it.findtext("description") or ""),
                 "thumb": find_thumb([(it.findtext("thumbnail-image") or "").strip(),
                                      mt.get("url") if mt is not None else None,
                                      m.group(1) if m else None]),
@@ -102,6 +113,7 @@ def parse_rss(text):
             "link": unc(tag("link")),
             "date": unc(tag("pubDate")),
             "cats": [unc(c) for c in re.findall(r"<category[^>]*>(.*?)</category>", block, flags=re.S)],
+            "desc": desc_text(unc(tag("description"))),
             "thumb": find_thumb([unc(tag("thumbnail-image")),
                                  (IMG_RE.search(html.unescape(block)) or [None, None])[1]]),
         })
@@ -420,6 +432,8 @@ def main():
             if excl and any(c.lower() in excl for c in it["cats"]):
                 continue
             iid = hashlib.sha1(link.split("?")[0].rstrip("/").encode()).hexdigest()[:12]
+            if it.get("desc"):
+                DESC[iid] = it["desc"]   # 既にある記事も、配信に残っている間は要約の材料にする
             if iid in by_id:
                 if it.get("thumb") and not by_id[iid].get("thumb"):
                     by_id[iid]["thumb"] = it["thumb"]   # 既存の記事にもサムネを補う
@@ -482,13 +496,28 @@ def main():
         if usage.get("date") != today:
             usage = {"date": today, "count": 0}
         rows = lambda xs: [(x["id"], parse_date_iso(x["posted"]).astimezone(CT).strftime("%Y-%m-%d"), x["title"]) for x in xs]
-        free_todo = [x for x in by_id.values() if (x.get("freebie") or x.get("eventNews")) and x.get("jaVia") != "gemini"]
+        free_todo = [x for x in by_id.values() if (x.get("freebie") or x.get("event")) and not x.get("region")
+                     and x.get("jaVia") != "gemini"]
+        # 朝のメールの「今日・明日」に載るもの(配布日が今日・明日)を先に、あとは新しい順
+        _t = now.astimezone(CT).date()
+        _soon = {_t.isoformat(), (_t + dt.timedelta(days=1)).isoformat()}
         free_todo.sort(key=lambda x: x["posted"], reverse=True)
+        free_todo.sort(key=lambda x: ((x.get("freebie") or {}).get("when") or x.get("expires")) not in _soon)
         done = {}
         if gem and free_todo and usage["count"] < 15:
             usage["count"] += 1
             for k, v in tj.gemini_once(rows(free_todo[:25])).items():
                 done[k] = (v, "gemini")
+            usage_p.write_text(json.dumps(usage) + "\n")
+        # 地元・家族の記事 → 「何のイベントか・場所・日時・費用」に要約(家族向け・日付の近いものから)
+        ev_todo = [x for x in by_id.values() if x.get("region") and x.get("jaVia") != "gemini-ev"]
+        ev_todo.sort(key=lambda x: (not x.get("family"), x.get("localDate") or "9999", x["posted"]))
+        if gem and ev_todo and usage.get("ev", 0) < 5 and usage["count"] < 19:
+            usage["count"] += 1
+            usage["ev"] = usage.get("ev", 0) + 1
+            ev_rows = [(i, d, t, DESC.get(i, "")) for i, d, t in rows(ev_todo[:25])]
+            for k, v in tj.gemini_once(ev_rows, tj.EV_PROMPT).items():
+                done[k] = (v, "gemini-ev")
             usage_p.write_text(json.dumps(usage) + "\n")
         need_mt = [x for x in free_todo if x["id"] not in done and not x.get("ja")]
         # 地元・家族の催しを先に訳す(朝のメールに載るため)。あとは新しい順
@@ -507,13 +536,21 @@ def main():
                     x.pop("sum", None)
                 x["jaVia"] = how
         stats["ja"] = {"gemini": sum(1 for v in done.values() if v[1] == "gemini"),
+                       "geminiEvent": sum(1 for v in done.values() if v[1] == "gemini-ev"),
                        "mymemory": sum(1 for v in done.values() if v[1] == "mymemory"),
                        "geminiToday": usage["count"], "model": tj.GEMINI_MODEL,
                        **{f"{k}Error": v[:300] for k, v in tj.LAST_ERROR.items()}}
 
     # 「店舗名:もらえるもの:日時:条件」の形に(Gemini 以外は分かる範囲で組み立てる)
     for x in by_id.values():
-        if x.get("jaVia") != "gemini":
+        if x.get("jaVia") in ("gemini", "gemini-ev"):
+            continue
+        if x.get("region"):
+            ld = x.get("localDate")
+            x["sum"] = {"store": "", "item": x.get("ja") or x["title"],
+                        "when": f"{int(ld[5:7])}/{int(ld[8:10])}({WD[dt.date.fromisoformat(ld).weekday()]})" if ld else "",
+                        "cond": ""}
+        else:
             x["sum"] = fallback_sum(x)
 
     # 別の情報源の同じ話題(例:Tiff's Treats の無料アイス)を重複として印を付ける(先に見つけた方を残す)

@@ -85,12 +85,15 @@ def fmt_item(x, today):
 
 
 def fmt_local(x, today):
-    """地元・家族の催し:日付と見出し(日本語があれば日本語)とリンクだけ。店名や条件は付けない。"""
+    """地元・家族の催し:日時:[何のイベントか](リンク)(場所・費用)。要約がなければ日本語の見出し。"""
+    sm = x.get("sum") or {}
     d = x.get("date")
-    when = ("**今日**" if d == today else md(d)) if d else "日付は記事で"
-    text = (x.get("ja") or x["title"]).strip()
-    free = "🆓" if x.get("freebie") or "free" in x.get("types", []) else ""
-    return f"- {when}:{free}[{text}]({x['link']})"
+    when = sm.get("when") or (md(d) if d else "日付は記事で")
+    if d == today:
+        when = "**今日** " + (when.split(" ", 1)[1] if " " in when else "")
+    text = (sm.get("item") or x.get("ja") or x["title"]).strip()
+    extra = "・".join(v for v in (sm.get("store"), sm.get("cond")) if v)
+    return f"- {when.strip()}:[{text}]({x['link']})" + (f"({extra})" if extra else "")
 
 
 def short_line(x, label=""):
