@@ -497,7 +497,7 @@ def main():
             usage = {"date": today, "count": 0}
         rows = lambda xs: [(x["id"], parse_date_iso(x["posted"]).astimezone(CT).strftime("%Y-%m-%d"), x["title"]) for x in xs]
         free_todo = [x for x in by_id.values() if (x.get("freebie") or x.get("event")) and not x.get("region")
-                     and x.get("jaVia") != "gemini"]
+                     and (x.get("jaVia") != "gemini" or not (x.get("sum") or {}).get("what"))]
         # 朝のメールの「今日・明日」に載るもの(配布日が今日・明日)を先に、あとは新しい順
         _t = now.astimezone(CT).date()
         _soon = {_t.isoformat(), (_t + dt.timedelta(days=1)).isoformat()}
@@ -510,7 +510,8 @@ def main():
                 done[k] = (v, "gemini")
             usage_p.write_text(json.dumps(usage) + "\n")
         # 地元・家族の記事 → 「何のイベントか・場所・日時・費用」に要約(家族向け・日付の近いものから)
-        ev_todo = [x for x in by_id.values() if x.get("region") and x.get("jaVia") != "gemini-ev"]
+        ev_todo = [x for x in by_id.values() if x.get("region")
+                   and (x.get("jaVia") != "gemini-ev" or not (x.get("sum") or {}).get("what"))]
         ev_todo.sort(key=lambda x: (not x.get("family"), x.get("localDate") or "9999", x["posted"]))
         if gem and ev_todo and usage.get("ev", 0) < 5 and usage["count"] < 19:
             usage["count"] += 1

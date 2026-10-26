@@ -84,6 +84,25 @@ def fmt_item(x, today):
     return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}"
 
 
+REGION_WORDS = ("ヒューストン", "ヒューストン広域", "ヒューストン各地", "カレッジステーション", "Houston", "College Station")
+
+
+def clip(t, n):
+    t = (t or "").strip()
+    return t if len(t) <= n else t[:n - 1] + "…"
+
+
+def line(x, today, tomorrow, head=None):
+    """メールの1行:「日付：何が(10文字以内)；どこで」。何がにリンク。"""
+    sm = x.get("sum") or {}
+    d = x.get("date")
+    when = head or ("今日" if d == today else "明日" if d == tomorrow else md(d) if d else "随時")
+    what = clip(sm.get("what") or sm.get("item") or x.get("ja") or x["title"], 10)
+    where = sm.get("where") or sm.get("store") or "・".join(n for n in x.get("stores", [])[:1] if n != "レストラン全般")
+    where = "" if where in REGION_WORDS else clip(where, 15)
+    return f"- {when}：[{what}]({x['link']})" + (f"；{where}" if where else "")
+
+
 def fmt_local(x, today):
     """地元・家族の催し:日時:[何のイベントか](リンク)(場所・費用)。要約がなければ日本語の見出し。"""
     sm = x.get("sum") or {}
@@ -161,31 +180,32 @@ def build(items, since, site):
         g = sorted([x for x in items if x.get("event") == eid and x["firstSeen"] > since
                     and not x.get("freebie") and not x.get("dup")],
                    key=lambda x: x["posted"], reverse=True)
-        ev_lines += [short_line(x, f"【{lab}】") for x in g[:3]]
+        ev_lines += [line(x, t_iso, tomorrow, head=f"【{lab}】") for x in g[:3]]
     n = len(near) + len(later) + len(ev_lines) + len(local_ids) + len(fam_ids)
-    title = f"お得ノート {today.month}/{today.day}:" + (f"家族 {len(fam_ids)}件 / " if fam_ids else "") + (f"地元 {len(local_ids)}件 / " if local_ids else "") + f"今日・明日 {len(near)}件" + (f" / この先 {len(later)}件" if later else "")
-    lines = [f"{MENTION} おはようございます。今日・明日の無料情報です(購入不要の無料と🥤BOGO=1つ買うと1つ無料だけ。🏬店頭・🎟クーポン)。",
-             *([f"一覧: {site}"] if site else []), "", f"## 🎁 今日・明日({md(t_iso)}・{md(tomorrow)})"]
-    lines += [fmt_item(x, t_iso) for x in near] or ["- 該当なし"]
+    ln = lambda x: line(x, t_iso, tomorrow)
+    parts = [f"今日・明日{len(near)}", *([f"家族{len(fam_ids)}"] if fam_ids else []),
+             *([f"地元{len(local_ids)}"] if local_ids else []), *([f"今後{len(later)}"] if later else [])]
+    title = f"お得ノート {today.month}/{today.day}:" + "/".join(parts)
+    lines = [f"{MENTION} おはようございます。「日付：何が；どこで」で並べています(何がをタップで記事)。",
+             *([f"一覧: {site}"] if site else []), "", "## 🎁 今日・明日(購入不要の無料・BOGO)"]
+    lines += [ln(x) for x in near] or ["- 該当なし"]
     if fam_ids:
-        lines += ["", "## 👨‍👩‍👧 家族のお出かけ案(今日から1週間)"]
+        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(1週間)"]
         if fam_cs:
-            lines += ["**カレッジステーション周辺**", *[fmt_local(x, t_iso) for x in fam_cs]]
+            lines += ["**カレッジステーション**", *[ln(x) for x in fam_cs]]
         if fam_hou:
-            lines += ["**ヒューストン**", *[fmt_local(x, t_iso) for x in fam_hou]]
+            lines += ["**ヒューストン**", *[ln(x) for x in fam_hou]]
     if local_ids:
-        lines += ["", "## 📍 地元(今日・明日と新着)"]
+        lines += ["", "## 📍 地元"]
         if loc_cs:
-            lines += ["**カレッジステーション周辺**", *[fmt_local(x, t_iso) for x in loc_cs]]
+            lines += ["**カレッジステーション**", *[ln(x) for x in loc_cs]]
         if loc_hou:
-            lines += ["**ヒューストン**", *[fmt_local(x, t_iso) for x in loc_hou]]
+            lines += ["**ヒューストン**", *[ln(x) for x in loc_hou]]
     if later or ev_lines:
-        lines += ["", "## 📅 この先の予定(詳細はサイトで)", *[short_line(x) for x in later]]
+        lines += ["", "## 📅 今後(詳細はサイト)", *[ln(x) for x in later]]
         if ev_lines:
-            lines += ["", "🛍 大型セール", *ev_lines]
-        if site:
-            lines += [f"詳細: {site}"]
-    lines += ["", "---", "店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]
+            lines += ["", "**🛍 大型セール**", *ev_lines]
+    lines += ["", "---", "実施は店舗ごとに違うことがあります。リンク先・公式で確認してください。"]
     return title, "\n".join(lines), n
 
 
