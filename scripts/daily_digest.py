@@ -193,7 +193,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true", help="時刻の判定をしない")
     ap.add_argument("--dry-run", action="store_true", help="Issue を作らず本文を表示")
+    ap.add_argument("--test", action="store_true",
+                    help="テスト送信:時刻を無視して GMAIL_USER だけに送る。件名に[テスト]、送信済みの記録は更新しない")
     a = ap.parse_args()
+    if a.test:
+        a.force = True
+        os.environ["MAIL_TO"] = ""   # 追加の宛先には送らない
 
     now_ct = dt.datetime.now(CT)
     if not a.force and now_ct.hour != 7:
@@ -223,6 +228,10 @@ def main():
         pass
     # Gmail から直接送る(件名に [リポジトリ名]・(Issue #番号) が付かない)。送れないときだけ GitHub の Issue 通知
     import mailer
+    if a.test:
+        ok = mailer.send_mail("[テスト] " + title, body.replace(MENTION + " ", ""))
+        print("テスト送信:" + ("送信しました(GMAIL_USER のみ)" if ok else "失敗"))
+        return 0 if ok else 1
     if mailer.send_mail(title, body.replace(MENTION + " ", "")):
         created = {"number": None}
     else:

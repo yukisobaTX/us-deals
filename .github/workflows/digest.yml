@@ -12,6 +12,10 @@ on:
         description: "時刻を無視して今すぐ送る"
         type: boolean
         default: false
+      test:
+        description: "テスト送信(自分のアドレスだけ・記録は更新しない)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,7 +45,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python3 scripts/fetch_deals.py || true
       - name: Send digest
-        run: python3 scripts/daily_digest.py ${{ inputs.force && '--force' || '' }}
+        run: python3 scripts/daily_digest.py ${{ inputs.test && '--test' || (inputs.force && '--force' || '') }}
       - name: Commit
         run: |
           git config user.name "deals-bot"
