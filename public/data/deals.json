@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T09:58Z",
- "count": 603,
+ "updated": "2026-10-26T10:53Z",
+ "count": 610,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -36,14 +36,267 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 16,
-   "geminiToday": 5,
+   "mymemory": 14,
+   "geminiToday": 6,
    "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
+   "geminiError": "The read operation timed out"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "00bf1b579154",
+   "title": "KFC Deals | Score a Free Pot Pie w/ $10 Purchase",
+   "link": "https://thefreebieguy.com/kfc-coupons-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T10:51Z",
+   "firstSeen": "2026-10-26T10:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/KFC-Scary-Good-Deals-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "KFC"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "KFCのお買い得情報| $ 10の購入で無料のポットパイを獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "KFC",
+    "item": "KFCのお買い得情報| $ 10の購入で無料のポットパイを獲得",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "31e0a272a193",
+   "title": "Pizza Hut Deals | Order a $10.99 Large, Unlock a Free BOGO Medium & More!",
+   "link": "https://thefreebieguy.com/pizza-hut-deals-specials-coupon-codes/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T10:49Z",
+   "firstSeen": "2026-10-26T10:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Pizza-Hut-Delicious-Looking-Pizzas-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Pizza Hut"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "bogo": true
+   },
+   "ja": "ピザハットのお買い得情報| $ 10.99ラージを注文して、無料のBOGOミディアムなどをアンロックしましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Pizza Hut",
+    "item": "ピザハットのお買い得情報| $ 10.99ラージを注文して、無料のBOGOミディアムなどをアンロックしましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "416ffa643455",
+   "title": "Scooter’s Coffee Deals | Free Stickers on Mondays w/ Drink Purchase!",
+   "link": "https://thefreebieguy.com/scooters-coffee-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T10:46Z",
+   "firstSeen": "2026-10-26T10:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Scooters-Coffee-Nightmare-Shake-and-Green-Ghoul-Red-Bull-Infusion-Awaken-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "スクーターのコーヒーセール|月曜日の無料ステッカーとドリンクの購入！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "スクーターのコーヒーセール|月曜日の無料ステッカーとドリンクの購入！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4b6177b4666a",
+   "title": "QDOBA Deals | Free Chips & Queso Today (W/ Purchase of Entree)",
+   "link": "https://thefreebieguy.com/qdoba-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T10:44Z",
+   "firstSeen": "2026-10-26T10:53Z",
+   "expires": "2026-10-26",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/QDOBA-Free-Entree-with-purchase-of-Entree-and-Drink-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Qdoba"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-10-26"
+   },
+   "ja": "QDOBAセール|今日の無料チップ＆チーズ（アントレの購入）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Qdoba",
+    "item": "QDOBAセール|今日の無料チップ＆チーズ（アントレの購入）",
+    "when": "10/26(月)",
+    "cond": "購入時"
+   },
+   "dup": "a7bbda804156",
+   "date": "2026-10-26"
+  },
+  {
+   "id": "d2df97a4cd6d",
+   "title": "Arby’s Specials & Coupons | Free Sandwich with $10 Purchase Through November 1",
+   "link": "https://thefreebieguy.com/arbys-specials-coupons/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T10:43Z",
+   "firstSeen": "2026-10-26T10:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/kendall-arbys-store-and-bag-img-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-01"
+   },
+   "ja": "アービーのスペシャル＆クーポン| 11月1日まで$ 10で購入するとサンドイッチが無料",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "アービーのスペシャル＆クーポン| 11月1日まで$ 10で購入するとサンドイッチが無料",
+    "when": "11/1(日)",
+    "cond": ""
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "id": "f75910f08837",
+   "title": "Love’s Rewards Deals | Free Love’s Danish + More!",
+   "link": "https://thefreebieguy.com/free-products-at-loves/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T10:42Z",
+   "firstSeen": "2026-10-26T10:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Loves-Truck-Stop-Rewards-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "愛の報酬セール|無料の愛のデンマーク語とその他色々！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "愛の報酬セール|無料の愛のデンマーク語とその他色々！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f35f2d45e2a7",
+   "title": "Finish Ultimate Quantum Dishwasher Pods 70Ct Just $10.xx on Amazon (Reg $23)",
+   "link": "https://thefreebieguy.com/finish-dishwasher-pods-70ct/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T10:39Z",
+   "firstSeen": "2026-10-26T10:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Finish-Quantum-Infinity-Shine-Dishwasher-Pods-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 57,
+   "price": 10.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Ultimate Quantumディッシュウォッシャーポッド70カラットわずか$ 10.xxをAmazonで仕上げる（登録価格$ 23 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Ultimate Quantumディッシュウォッシャーポッド70カラットわずか$ 10.xxをAmazonで仕上げる（登録価格$ 23 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "41adc4661fcb",
    "title": "Dearfoams Men’s Notch Clog Slippers Just $8 at Walmart!",
