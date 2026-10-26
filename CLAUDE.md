@@ -15,7 +15,14 @@
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
 - 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
-- 情報源:Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(地域イベント、サイトのみ・通知なし)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+- 情報源:Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+
+## 地域(2026-10-26 追加)
+- 本人はカレッジステーション在住。地元の情報を日々使えるように、items[].region に "College Station" / "Houston" を付ける。
+- 付け方:region 付きの情報源(WTAW=College Station、Houston on the Cheap=Houston)はその地域。ほかの情報源も見出しの地名(fetch_deals.py の REGION_KW)で付ける。
+- 朝のメール:「📍 地元(今日・明日と新着)」の欄。カレッジステーション周辺(最大10件)を先、ヒューストン(最大5件)を後。購入条件は問わない(催しも載せる)。この欄に入れたものは「今日・明日」から外す。
+- サイト:「📍 地元」タブと、カードの 📍 地域ラベル。
+- 調査済みで使わないもの:KBTX(AI 系ボットを robots.txt で拒否、全国ニュースが多い)、ABC13(AI 系ボット拒否)、Community Impact(RSS なし・/article/ 禁止)、Macaroni KID(RSS なし)、Texas A&M のカレンダー(学内向けが大半で1000件と多い)。
 
 ## 変えるとき
 - 店を足す:config/stores.json に追記 → `python3 tests/test_classify.py` で failures: 0。

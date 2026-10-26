@@ -1,5 +1,5 @@
 {
-  "_note": "RSS の取得先。robots.txt で禁止されていないものだけを使う。本文は保存しない(見出しとリンクのみ)。 alert:false の情報源はサイトに載せるだけで即時通知しない(地域イベントなど)。",
+  "_note": "RSS の取得先。robots.txt で禁止されていないものだけを使う。本文は保存しない(見出しとリンクのみ)。alert:false の情報源は「今日・明日」の欄には入れない(地域の欄だけ)。region を付けた情報源は地元の欄(📍)に入る。localOnly は催し・無料・お得の見出しだけ拾う(事件・スポーツを除く)。",
   "feeds": [
     {
       "id": "h2s",
@@ -57,6 +57,16 @@
       "pages": 1,
       "alert": false,
       "region": "Houston"
+    },
+    {
+      "id": "wtaw",
+      "name": "WTAW(カレッジステーション)",
+      "url": "https://wtaw.com/feed/",
+      "pages": 1,
+      "alert": false,
+      "region": "College Station",
+      "localOnly": true,
+      "_robots": "Crawl-delay 600 → 毎時1回なので可"
     }
   ]
 }

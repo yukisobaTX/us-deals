@@ -97,5 +97,20 @@ for title, cats, ok in CASES:
     if not good:
         bad += 1
         print("NG", title, r)
+# 地域(2026-10-26):地名で印を付ける/地元ニュース局は催し・無料だけ
+REGIONS = [("FREE Kolache Day in College Station", "College Station"), ("Houston Zoo Free Day", "Houston"),
+           ("Bryan-College Station Holiday Lights", "College Station"), ("Bryan Cranston new movie", None),
+           ("Free Pancakes at IHOP", None)]
+for title, want in REGIONS:
+    if f.region_of(title) != want:
+        bad += 1
+        print("NG region", title, f.region_of(title))
+LOCAL = [("It's Hazardous Household Waste Weekend!", True), ("Two Arrested For Shoplifting at Walmart", False),
+         ("Aggie Football Drops 31-20 Battle to Alabama", False), ("Downtown Bryan Holiday Parade returns", True)]
+for title, want in LOCAL:
+    got = bool(f.LOCAL_EVENT_RE.search(title)) and not f.LOCAL_NG_RE.search(title)
+    if got != want:
+        bad += 1
+        print("NG local", title, got)
 print(f"failures: {bad}")
 sys.exit(1 if bad else 0)

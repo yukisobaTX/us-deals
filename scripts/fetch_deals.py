@@ -158,6 +158,34 @@ TODAY_RE = re.compile(r"today only|1[- ]day only|ends tonight|today \(\d", re.I)
 UNTIL_RE = re.compile(r"(?:thru|through|until|ends?|by|valid (?:thru|through)?)\s+(\d{1,2})/(\d{1,2})", re.I)
 
 
+# ---------------- 地域(カレッジステーション・ヒューストン) ----------------
+# 見出しに地名があれば地域の印を付ける(どの情報源でも)。地元の情報源(region 付き)はその地域。
+REGION_KW = [
+    ("College Station", re.compile(r"College Station|Bryan[- /]College Station|\bBCS\b|Brazos (?:Valley|County)|Aggieland|"
+                                   r"Downtown Bryan|City of Bryan|Bryan,? (?:TX|Texas)|Navasota", re.I)),
+    ("Houston", re.compile(r"Houston|\bKaty\b|Sugar Land|The Woodlands|Pearland|Galveston|Kemah|Cypress,? TX|"
+                           r"\bConroe\b|Clear Lake|Baytown|League City|Friendswood|Tomball", re.I)),
+]
+# 地元ニュース局(WTAW など)は事件・スポーツが多いので、催し・無料・お得の見出しだけ拾う
+LOCAL_EVENT_RE = re.compile(
+    r"\bfree\b|festival|\bfair\b|parade|farmers'? market|market days|trunk[- ]or[- ]treat|halloween|"
+    r"christmas|holiday|lights|tree lighting|fireworks|celebrat|giveaway|give away|giving away|grand opening|"
+    r"open house|family|kids?\b|children|story ?time|library|concert|movie night|movies? in the park|"
+    r"things to do|this weekend|events?\b|food drive|food truck|shred|recycl|hazardous|clean ?up|"
+    r"museum|zoo|\bparks?\b|discount|deal", re.I)
+LOCAL_NG_RE = re.compile(
+    r"arrest|indict|charged|shoot|stabb|murder|kill|dead|death|dies|crash|police|sheriff|jail|theft|robbery|"
+    r"assault|lawsuit|court|election|vote|voting|candidate|council|commission|\bbond\b|tax rate|"
+    r"football|basketball|baseball|softball|volleyball|soccer|golf|equestrian|swim|track|tennis|\bSEC\b", re.I)
+
+
+def region_of(title):
+    for name, rx in REGION_KW:
+        if rx.search(title):
+            return name
+    return None
+
+
 def classify(title, cats, stores, types, skip_regions):
     text = title + " | " + " | ".join(cats)
     # 地域限定(Doctor of Credit の [MA, NH] など)で、テキサス・全国でないものは除外
@@ -374,7 +402,13 @@ def main():
             posted = parse_date(it["date"]) or now
             if (now - posted).days > KEEP_DAYS:
                 continue
+            if f.get("localOnly") and (not LOCAL_EVENT_RE.search(title) or LOCAL_NG_RE.search(title)):
+                continue   # 地元ニュース局は催し・無料・お得の見出しだけ
             c = classify(title, it["cats"], stores, types, stores_cfg.get("skipRegionsNotIn", []))
+            if not c and f.get("region"):
+                # 地元の情報源は、店名・無料の語がなくても催しとして載せる
+                c = {"stores": [], "cats": ["other"], "types": ["sale"], "pct": None, "price": None,
+                     "event": None, "eventNews": False}
             if not c:
                 continue
             by_id[iid] = {
@@ -393,6 +427,10 @@ def main():
 
     # 無料判定・大型セール判定は毎回すべての記事にかけ直す(ルール変更を過去分にも反映)
     for x in by_id.values():
+        x["region"] = next((f["region"] for f in sources["feeds"] if f["name"] == x["source"] and f.get("region")), None) \
+            or region_of(x["title"])
+        if not x["region"]:
+            x.pop("region")
         x["event"] = event_of(x["title"])
         x["eventNews"] = bool(x["event"] and EVENT_NEWS_RE.search(x["title"]))
         x["freebie"] = freebie_info(x["title"], parse_date_iso(x["posted"]))
