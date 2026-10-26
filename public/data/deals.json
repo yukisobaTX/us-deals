@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T18:10Z",
- "count": 743,
+ "updated": "2026-10-26T18:16Z",
+ "count": 744,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 2
   },
   "tfg": {
    "read": 40,
@@ -48,14 +48,48 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 25,
-   "mymemory": 7,
+   "geminiEvent": 0,
+   "mymemory": 8,
    "geminiToday": 17,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "7d9927963eb6",
+   "title": "Boy’s Cross Necklaces only $3.99!",
+   "link": "https://moneysavingmom.com/black-amp-silver-cross-necklace-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-26T18:12Z",
+   "firstSeen": "2026-10-26T18:16Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/04/Cross-Necklace-630x830.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ボーイズクロスネックレスはたったの$ 3.99 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ボーイズクロスネックレスはたったの$ 3.99 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "e16e5edcb194",
    "title": "JCPenney Black Friday Early Access Sale | Up to 85% Off Furniture & Jewelry",
@@ -21788,7 +21822,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Amazon-Grocery-Chicken-Broth-Display.jpg?resize=306,182"
   },
   {
    "id": "e51572a7d459",
