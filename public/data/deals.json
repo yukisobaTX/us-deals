@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-26T18:38Z",
- "count": 748,
+ "updated": "2026-10-26T18:49Z",
+ "count": 751,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -57,6 +57,106 @@
  "errors": [],
  "items": [
   {
+   "id": "07be667eb3bf",
+   "title": "Diet Coke Fans! Grab This NEW Lip Smacker Set for Just $9.99 on Target.com",
+   "link": "https://hip2save.com/deals/lip-smacker-coke/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T18:45Z",
+   "firstSeen": "2026-10-26T18:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lip-Smacker-Diet-Coke-Lip-Trio.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ダイエットコークファン！ Target.comでこの新しいリップスマッカーセットを$ 9.99で手に入れましょう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ダイエットコークファン！ Target.comでこの新しいリップスマッカーセットを$ 9.99で手に入れましょう",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a90ec312371b",
+   "title": "Score a FREEBIE From Black and Mild!",
+   "link": "https://thefreebieguy.com/score-a-freebie-from-black-and-mild/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:45Z",
+   "firstSeen": "2026-10-26T18:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Artisan-Playing-Cards-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ブラックとマイルドから無料の賞品を獲得しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ブラックとマイルドから無料の賞品を獲得しましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d2a2c9e2fc86",
+   "title": "Amazon Brand Happy Belly Chopped Walnuts Only $2.xx on Amazon (Reg. $6)",
+   "link": "https://thefreebieguy.com/amazon-brand-chopped-walnuts/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:41Z",
+   "firstSeen": "2026-10-26T18:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Amazon-Grocery-Chopped-Walnuts-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 67,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonブランドのハッピーベリーチョップドウォールナッツのみ$ 2.xx Amazon （登録価格$ 6 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonブランドのハッピーベリーチョップドウォールナッツのみ$ 2.xx Amazon （登録価格$ 6 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "bb12f5f70f79",
    "title": "Hand Soaps only $0.39 each at CVS!",
    "link": "https://moneysavingmom.com/hand-soaps-only-0-39-each-at-cvs/",
@@ -88,8 +188,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "08c8fa6df7aa",
-   "date": null
+   "date": null,
+   "dup": "08c8fa6df7aa"
   },
   {
    "id": "209b3be0cc58",
@@ -2828,7 +2928,7 @@
     "what": "BF開始日発表",
     "where": "Walmart"
    },
-   "date": null
+   "date": "2026-11-12"
   },
   {
    "id": "31775ccaa9ee",
@@ -9138,7 +9238,7 @@
     "what": "退役軍人の日",
     "where": "ヒューストン各地"
    },
-   "date": null,
+   "date": "2026-11-11",
    "family": true
   },
   {
@@ -13169,7 +13269,7 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "date": null,
+   "date": "2026-11-02",
    "family": true,
    "ja": "死者の日(Día de los Muertos)の祭り・パレードまとめ",
    "jaVia": "claude-ev",
