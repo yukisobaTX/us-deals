@@ -67,6 +67,8 @@ def find_thumb(it_xml_get):
     return None
 
 
+# 要約済みの印(Gemini は毎時の収集、Claude は朝の定期実行 scripts/apply_summaries.py)
+SUMMARIZED = ("gemini", "gemini-ev", "claude", "claude-ev")
 DESC = {}   # id → 本文冒頭(この実行の間だけ。deals.json には書かない)
 
 
@@ -497,7 +499,7 @@ def main():
             usage = {"date": today, "count": 0}
         rows = lambda xs: [(x["id"], parse_date_iso(x["posted"]).astimezone(CT).strftime("%Y-%m-%d"), x["title"]) for x in xs]
         free_todo = [x for x in by_id.values() if (x.get("freebie") or x.get("event")) and not x.get("region")
-                     and (x.get("jaVia") != "gemini" or not (x.get("sum") or {}).get("what"))]
+                     and (x.get("jaVia") not in SUMMARIZED or not (x.get("sum") or {}).get("what"))]
         # 朝のメールの「今日・明日」に載るもの(配布日が今日・明日)を先に、あとは新しい順
         _t = now.astimezone(CT).date()
         _soon = {_t.isoformat(), (_t + dt.timedelta(days=1)).isoformat()}
@@ -511,7 +513,7 @@ def main():
             usage_p.write_text(json.dumps(usage) + "\n")
         # 地元・家族の記事 → 「何のイベントか・場所・日時・費用」に要約(家族向け・日付の近いものから)
         ev_todo = [x for x in by_id.values() if x.get("region")
-                   and (x.get("jaVia") != "gemini-ev" or not (x.get("sum") or {}).get("what"))]
+                   and (x.get("jaVia") not in ("gemini-ev", "claude-ev") or not (x.get("sum") or {}).get("what"))]
         ev_todo.sort(key=lambda x: (not x.get("family"), x.get("localDate") or "9999", x["posted"]))
         if gem and ev_todo and usage.get("ev", 0) < 5 and usage["count"] < 19:
             usage["count"] += 1
@@ -546,7 +548,7 @@ def main():
 
     # 「店舗名:もらえるもの:日時:条件」の形に(Gemini 以外は分かる範囲で組み立てる)
     for x in by_id.values():
-        if x.get("jaVia") in ("gemini", "gemini-ev"):
+        if x.get("jaVia") in SUMMARIZED:
             continue
         if x.get("region"):
             ld = x.get("localDate")

@@ -30,6 +30,11 @@
   - 件名は「お得ノート M/D:今日・明日N/家族N/地元N/今後N」の順(本人指定)。
 - 調査済みで使わないもの:KBTX(AI 系ボットを robots.txt で拒否、全国ニュースが多い)、ABC13(AI 系ボット拒否)、Community Impact(RSS なし・/article/ 禁止)、Macaroni KID(RSS なし)、Texas A&M のカレンダー(学内向けが大半で1000件と多い)、Houston Moms(ドメイン売却済み)、Collaborative for Children(RSS が2023年で止まっている)。
 
+## Claude による要約(2026-10-26 追加・本人選択)
+- Gemini の無料枠(1日20回)が足りないため、毎朝 6:41 CT に Claude の定期実行(scheduled task「お得ノート 朝の要約」)が、朝のメールに載る記事と地元・家族の記事の要約(what・where など)を作る。
+- 手順:`python3 scripts/claude_pending.py > /tmp/pending.json`(要約が必要な記事を書き出す。daily_digest.build() で選ばれる記事+日付が過ぎていない地元記事のうち、jaVia が claude/claude-ev でないか what がないもの)→ Claude が要約 JSON を作る → `python3 scripts/apply_summaries.py <json>`(what 10字・where 15字に切り詰め、空の項目は前の要約を残す、jaVia="claude"/"claude-ev")→ commit・push。
+- fetch_deals.py は jaVia が SUMMARIZED(gemini・gemini-ev・claude・claude-ev)の要約を上書きしない。Gemini は毎時の収集で補助として残す。
+
 ## 変えるとき
 - 店を足す:config/stores.json に追記 → `python3 tests/test_classify.py` で failures: 0。
 - 分類を変えたら tests/test_classify.py に1件足す。

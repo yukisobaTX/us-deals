@@ -357,13 +357,15 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "10月31日まで、レイクショアストアの子供向けの無料店内トリックオアトリート+工芸品！",
-   "jaVia": "mymemory",
+   "ja": "子供向け店内トリック・オア・トリートと工作",
+   "jaVia": "claude",
    "sum": {
-    "store": "Lakeshore Stores Through",
-    "item": "10月31日まで、レイクショアストアの子供向けの無料店内トリックオアトリート+工芸品！",
-    "when": "10/31(土)",
-    "cond": "子ども向け"
+    "store": "Lakeshore",
+    "item": "子供向け店内トリック・オア・トリートと工作",
+    "when": "〜10/31",
+    "cond": "子供向け",
+    "what": "店内お菓子配り",
+    "where": "Lakeshore"
    },
    "date": "2026-10-31"
   },
@@ -698,13 +700,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "* HOT *ファクターミール割引：最初の箱が50 ％オフ+無料グリーン！",
-   "jaVia": "mymemory",
+   "ja": "宅配食 初回50%オフ+野菜無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "* HOT *ファクターミール割引：最初の箱が50 ％オフ+無料グリーン！",
+    "store": "Factor",
+    "item": "宅配食 初回50%オフ+野菜無料",
     "when": "",
-    "cond": ""
+    "cond": "初回",
+    "what": "初回50%オフ",
+    "where": "Factor"
    },
    "date": null
   },
@@ -905,13 +909,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Injinji Wear Test Programに応募してください！あなたは無料の靴下を獲得するかもしれません！",
-   "jaVia": "mymemory",
+   "ja": "モニター応募で靴下が無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "Injinji Wear Test Programに応募してください！あなたは無料の靴下を獲得するかもしれません！",
+    "store": "Injinji",
+    "item": "モニター応募で靴下が無料",
     "when": "",
-    "cond": ""
+    "cond": "応募・抽選",
+    "what": "無料靴下(試用)",
+    "where": "Injinji"
    },
    "date": null
   },
@@ -1385,13 +1391,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "PhotoJoyで無料のハガキを送ろう！",
-   "jaVia": "mymemory",
+   "ja": "写真はがきを無料で送れる",
+   "jaVia": "claude",
    "sum": {
     "store": "PhotoJoy",
-    "item": "PhotoJoyで無料のハガキを送ろう！",
+    "item": "写真はがきを無料で送れる",
     "when": "",
-    "cond": ""
+    "cond": "アプリ",
+    "what": "無料はがき",
+    "where": "PhotoJoy"
    },
    "date": null
   },
@@ -1422,13 +1430,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Domino's Giving Away 20,000無料Minecraftゲーム（ 30 $相当！ ）-購入は必要ありません！",
-   "jaVia": "mymemory",
+   "ja": "Minecraft 2万本を無料配布(購入不要)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "Domino's Giving Away 20,000無料Minecraftゲーム（ 30 $相当！ ）-購入は必要ありません！",
+    "store": "Domino's",
+    "item": "Minecraft 2万本を無料配布(購入不要)",
     "when": "",
-    "cond": ""
+    "cond": "購入不要",
+    "what": "マイクラ無料",
+    "where": "Domino's"
    },
    "date": null
   },
@@ -1522,13 +1532,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "JCPenneyアーリーブラックフライデーセール–家具、マットレス、ウィンドウブラインド、シェードが最大65%オフ",
-   "jaVia": "mymemory",
+   "ja": "早期ブラックフライデー(家具・マットレス等 最大65%オフ)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "JCPenneyアーリーブラックフライデーセール–家具、マットレス、ウィンドウブラインド、シェードが最大65%オフ",
+    "store": "JCPenney",
+    "item": "早期ブラックフライデー(家具・マットレス等 最大65%オフ)",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "家具最大65%オフ",
+    "where": "JCPenney"
    },
    "date": null
   },
@@ -1930,13 +1942,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Best Buy ：無料のゲーマープロフィールを作成して$ 5の証明書を入手",
-   "jaVia": "mymemory",
+   "ja": "ゲーマー登録で$5券",
+   "jaVia": "claude",
    "sum": {
     "store": "Best Buy",
-    "item": "Best Buy ：無料のゲーマープロフィールを作成して$ 5の証明書を入手",
+    "item": "ゲーマー登録で$5券",
     "when": "",
-    "cond": ""
+    "cond": "無料登録",
+    "what": "$5券",
+    "where": "Best Buy"
    },
    "date": null
   },
@@ -2521,13 +2535,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "走れ！無料のKiehl's 1 cc * CollaShot Plumping Serumサンプル！",
-   "jaVia": "mymemory",
+   "ja": "美容液サンプル無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "走れ！無料のKiehl's 1 cc * CollaShot Plumping Serumサンプル！",
+    "store": "Kiehl's",
+    "item": "美容液サンプル無料",
     "when": "",
-    "cond": ""
+    "cond": "申込",
+    "what": "美容液サンプル",
+    "where": "Kiehl's"
    },
    "date": null
   },
@@ -2661,13 +2677,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "20 ozスプライトクーポン無料",
-   "jaVia": "mymemory",
+   "ja": "20ozスプライト無料クーポン",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "20 ozスプライトクーポン無料",
+    "store": "Sprite",
+    "item": "20ozスプライト無料クーポン",
     "when": "",
-    "cond": ""
+    "cond": "クーポン",
+    "what": "無料スプライト",
+    "where": "コンビニ等"
    },
    "date": null
   },
@@ -2730,13 +2748,15 @@
     "kind": "store",
     "when": "2026-10-27"
    },
-   "ja": "10月27日、アメリカの国立公園を無料で探索しよう！",
-   "jaVia": "mymemory",
+   "ja": "国立公園の入場無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "10月27日、アメリカの国立公園を無料で探索しよう！",
+    "store": "National Park Service",
+    "item": "国立公園の入場無料",
     "when": "10/27(火)",
-    "cond": ""
+    "cond": "",
+    "what": "国立公園無料",
+    "where": "全米の国立公園"
    },
    "date": "2026-10-27"
   },
@@ -2798,13 +2818,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "ウォルマートのブラックフライデーセールが11月12日に開始",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセールは11/12開始",
+   "jaVia": "claude",
    "sum": {
     "store": "Walmart",
-    "item": "ウォルマートのブラックフライデーセールが11月12日に開始",
-    "when": "",
-    "cond": ""
+    "item": "ブラックフライデーセールは11/12開始",
+    "when": "11/12〜",
+    "cond": "",
+    "what": "BF開始日発表",
+    "where": "Walmart"
    },
    "date": null
   },
@@ -2972,13 +2994,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "猫や犬のための無料コングのおもちゃ！",
-   "jaVia": "mymemory",
+   "ja": "犬・猫用KONGおもちゃ無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "猫や犬のための無料コングのおもちゃ！",
+    "store": "KONG",
+    "item": "犬・猫用KONGおもちゃ無料",
     "when": "",
-    "cond": ""
+    "cond": "申込",
+    "what": "無料ペット玩具",
+    "where": "KONG"
    },
    "date": null
   },
@@ -3142,13 +3166,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "ウォルマートが2026年ブラックフライデーの日付を削除しました（今すぐトップおもちゃを購入！ ）",
-   "jaVia": "mymemory",
+   "ja": "2026年ブラックフライデーの日程を発表",
+   "jaVia": "claude",
    "sum": {
     "store": "Walmart",
-    "item": "ウォルマートが2026年ブラックフライデーの日付を削除しました（今すぐトップおもちゃを購入！ ）",
+    "item": "2026年ブラックフライデーの日程を発表",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BF日程発表",
+    "where": "Walmart"
    },
    "date": null
   },
@@ -3247,13 +3273,15 @@
     "kind": "store",
     "when": "2026-11-01"
    },
-   "ja": "マイケルズには無料のクラフトクラスがある！ 2026年11月1日に手縫いカードを作ろう！",
-   "jaVia": "mymemory",
+   "ja": "手縫いカードを作る無料クラス",
+   "jaVia": "claude",
    "sum": {
     "store": "Michaels",
-    "item": "マイケルズには無料のクラフトクラスがある！ 2026年11月1日に手縫いカードを作ろう！",
+    "item": "手縫いカードを作る無料クラス",
     "when": "11/1(日)",
-    "cond": ""
+    "cond": "要予約",
+    "what": "無料工作教室",
+    "where": "Michaels"
    },
    "date": "2026-11-01"
   },
@@ -3286,13 +3314,15 @@
     "when": null,
     "bogo": true
    },
-   "ja": "地下鉄クーポンコード： 1つ購入して、1つ無料のフットロングサブをゲット！",
-   "jaVia": "mymemory",
+   "ja": "クーポンコードでフットロング1つ無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Subway",
-    "item": "地下鉄クーポンコード： 1つ購入して、1つ無料のフットロングサブをゲット！",
+    "item": "クーポンコードでフットロング1つ無料",
     "when": "",
-    "cond": "コード入力"
+    "cond": "コード入力",
+    "what": "BOGOサンド",
+    "where": "Subway"
    },
    "date": null
   },
@@ -3866,13 +3896,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "毎週金曜日の無料陶小屋キッズウィークリーストーリータイム！さらなるイベントがまもなく登場！",
-   "jaVia": "mymemory",
+   "ja": "毎週金曜の無料ストーリータイム",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "毎週金曜日の無料陶小屋キッズウィークリーストーリータイム！さらなるイベントがまもなく登場！",
-    "when": "",
-    "cond": "子ども向け"
+    "store": "Pottery Barn Kids",
+    "item": "毎週金曜の無料ストーリータイム",
+    "when": "毎週金曜",
+    "cond": "子供向け",
+    "what": "絵本読み聞かせ",
+    "where": "Pottery Barn K…"
    },
    "date": null
   },
@@ -4070,13 +4102,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ウィリアムズ・ソノマでは、11月に無料のクッキングクラスが開催されます！今すぐ登録しましょう！",
-   "jaVia": "mymemory",
+   "ja": "11月の無料料理教室(要予約)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "ウィリアムズ・ソノマでは、11月に無料のクッキングクラスが開催されます！今すぐ登録しましょう！",
-    "when": "",
-    "cond": "要登録"
+    "store": "Williams Sonoma",
+    "item": "11月の無料料理教室(要予約)",
+    "when": "11月",
+    "cond": "要予約",
+    "what": "無料料理教室",
+    "where": "Williams Sonoma"
    },
    "date": null
   },
@@ -4107,13 +4141,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "月曜日のお得なフードセール–ハンバーガーキングの無料メニューアイテム、ハビットバーガーの無料食事など！",
-   "jaVia": "mymemory",
+   "ja": "月曜の無料メニュー(Burger King・Habit Burger)",
+   "jaVia": "claude",
    "sum": {
     "store": "Burger King",
-    "item": "月曜日のお得なフードセール–ハンバーガーキングの無料メニューアイテム、ハビットバーガーの無料食事など！",
-    "when": "",
-    "cond": ""
+    "item": "月曜の無料メニュー(Burger King・Habit Burger)",
+    "when": "月曜",
+    "cond": "",
+    "what": "月曜の無料飯",
+    "where": "Burger King他"
    },
    "date": null
   },
@@ -4217,13 +4253,15 @@
     "when": null,
     "bogo": true
    },
-   "ja": "ピザハットのお買い得情報| $ 10.99ラージを注文して、無料のBOGOミディアムなどをアンロックしましょう！",
-   "jaVia": "mymemory",
+   "ja": "Lサイズ注文でMサイズが無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Pizza Hut",
-    "item": "ピザハットのお買い得情報| $ 10.99ラージを注文して、無料のBOGOミディアムなどをアンロックしましょう！",
+    "item": "Lサイズ注文でMサイズが無料",
     "when": "",
-    "cond": ""
+    "cond": "$10.99のL注文",
+    "what": "BOGOピザ",
+    "where": "Pizza Hut"
    },
    "date": null
   },
@@ -4325,13 +4363,15 @@
     "kind": "coupon",
     "when": "2026-11-01"
    },
-   "ja": "アービーのスペシャル＆クーポン| 11月1日まで$ 10で購入するとサンドイッチが無料",
-   "jaVia": "mymemory",
+   "ja": "$10以上購入でサンドイッチ無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "アービーのスペシャル＆クーポン| 11月1日まで$ 10で購入するとサンドイッチが無料",
-    "when": "11/1(日)",
-    "cond": ""
+    "store": "Arby's",
+    "item": "$10以上購入でサンドイッチ無料",
+    "when": "〜11/1",
+    "cond": "$10以上購入",
+    "what": "無料サンド",
+    "where": "Arby's"
    },
    "date": "2026-11-01"
   },
@@ -4360,13 +4400,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "愛の報酬セール|無料の愛のデンマーク語とその他色々！",
-   "jaVia": "mymemory",
+   "ja": "アプリ会員に無料デニッシュほか",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "愛の報酬セール|無料の愛のデンマーク語とその他色々！",
+    "store": "Love's",
+    "item": "アプリ会員に無料デニッシュほか",
     "when": "",
-    "cond": ""
+    "cond": "アプリ会員",
+    "what": "無料デニッシュ",
+    "where": "Love's"
    },
    "date": null
   },
@@ -4705,14 +4747,14 @@
    },
    "date": "2026-10-30",
    "ja": "今週末(10/30〜11/1)の無料・格安イベントまとめ",
-   "jaVia": "gemini-ev",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
     "item": "今週末(10/30〜11/1)の無料・格安イベントまとめ",
     "when": "10/30〜11/1",
-    "cond": "無料・家族向け",
-    "what": "週末イベント",
-    "where": "ヒューストン"
+    "cond": "無料・格安",
+    "what": "週末無料催し",
+    "where": "ヒューストン各地"
    },
    "localDate": "2026-10-30"
   },
@@ -9012,15 +9054,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "今週(10/26〜10/29)のイベント・グルメまとめ",
-   "jaVia": "gemini-ev",
+   "ja": "今週(10/26〜29)の食・音楽・アートの催しまとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "今週(10/26〜10/29)のイベント・グルメまとめ",
+    "item": "今週(10/26〜29)の食・音楽・アートの催しまとめ",
     "when": "10/26〜10/29",
     "cond": "無料・家族向け",
-    "what": "今週のイベント",
-    "where": "ヒューストン"
+    "what": "今週の催し",
+    "where": "ヒューストン各地"
    },
    "date": "2026-10-26",
    "localDate": "2026-10-26"
@@ -9050,14 +9092,14 @@
    "eventNews": false,
    "freebie": null,
    "ja": "12月の子供向けホリデーイベントまとめ",
-   "jaVia": "gemini-ev",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
     "item": "12月の子供向けホリデーイベントまとめ",
-    "when": "2026年12月",
-    "cond": "家族向け",
-    "what": "冬の子供向け",
-    "where": "ヒューストン"
+    "when": "12月",
+    "cond": "子供向け",
+    "what": "12月子供催し",
+    "where": "ヒューストン各地"
    },
    "date": null,
    "family": true
@@ -9086,15 +9128,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "「Veterans Day」退役軍人節のパレードと無料食事",
-   "jaVia": "gemini-ev",
+   "ja": "退役軍人の日のパレード・無料食事まとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "「Veterans Day」退役軍人節のパレードと無料食事",
-    "when": "2026年11月",
+    "item": "退役軍人の日のパレード・無料食事まとめ",
+    "when": "11/11(水)",
     "cond": "無料・家族向け",
-    "what": "軍人節記念",
-    "where": "ヒューストン"
+    "what": "退役軍人の日",
+    "where": "ヒューストン各地"
    },
    "date": null,
    "family": true
@@ -9157,15 +9199,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "持ち帰りパック付きおすすめピクニック公園まとめ",
-   "jaVia": "gemini-ev",
+   "ja": "家族向けピクニック公園と格安テイクアウトまとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "持ち帰りパック付きおすすめピクニック公園まとめ",
+    "item": "家族向けピクニック公園と格安テイクアウトまとめ",
     "when": "",
     "cond": "家族向け",
-    "what": "ピクニック",
-    "where": "ヒューストン"
+    "what": "ピクニック場所",
+    "where": "ヒューストン各地"
    },
    "date": null,
    "family": true
@@ -10451,13 +10493,15 @@
     "kind": "store",
     "when": "2026-10-27"
    },
-   "ja": "国立公園入場",
-   "jaVia": "gemini",
+   "ja": "国立公園の入場無料",
+   "jaVia": "claude",
    "sum": {
     "store": "National Park Service",
-    "item": "国立公園入場",
+    "item": "国立公園の入場無料",
     "when": "10/27(火)",
-    "cond": ""
+    "cond": "",
+    "what": "国立公園無料",
+    "where": "全米の国立公園"
    },
    "date": "2026-10-27",
    "event": null,
@@ -13090,15 +13134,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "12月に開催される大人向けホリデーイベント一覧",
-   "jaVia": "gemini-ev",
+   "ja": "12月の大人向けホリデーイベントまとめ",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "ヒューストン / ガルベストン",
-    "item": "12月に開催される大人向けホリデーイベント一覧",
-    "when": "2026年12月",
+    "store": "ヒューストン各地",
+    "item": "12月の大人向けホリデーイベントまとめ",
+    "when": "12月",
     "cond": "大人向け",
-    "what": "冬のイベント",
-    "where": "ヒューストン等"
+    "what": "12月大人催し",
+    "where": "ヒューストン各地"
    }
   },
   {
@@ -13127,15 +13171,15 @@
    "freebie": null,
    "date": null,
    "family": true,
-   "ja": "「Día de los Muertos」死者の日の祭り・パレード",
-   "jaVia": "gemini-ev",
+   "ja": "死者の日(Día de los Muertos)の祭り・パレードまとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "「Día de los Muertos」死者の日の祭り・パレード",
-    "when": "2026年10月下旬",
+    "item": "死者の日(Día de los Muertos)の祭り・パレードまとめ",
+    "when": "10月末〜11/2",
     "cond": "家族向け",
-    "what": "死者の日祭",
-    "where": "ヒューストン"
+    "what": "死者の日祭り",
+    "where": "ヒューストン各地"
    }
   },
   {
@@ -13165,15 +13209,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "音楽フェス「Texas City Music Festival」",
-   "jaVia": "gemini-ev",
+   "ja": "Texas City Music Festival(無料ライブ)",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "Nessler Park",
-    "item": "音楽フェス「Texas City Music Festival」",
+    "item": "Texas City Music Festival(無料ライブ)",
     "when": "",
-    "cond": "無料・家族向け",
-    "what": "音楽フェス",
-    "where": "Nessler公園"
+    "cond": "無料",
+    "what": "無料音楽フェス",
+    "where": "Texas City"
    },
    "date": null,
    "family": true
@@ -13203,15 +13247,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "ヒューストンのおすすめデリ・サンドイッチ店",
-   "jaVia": "gemini-ev",
+   "ja": "デリ・ポーボーイのおすすめ店まとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "ヒューストンのおすすめデリ・サンドイッチ店",
+    "item": "デリ・ポーボーイのおすすめ店まとめ",
     "when": "",
     "cond": "グルメ",
-    "what": "サンドイッチ",
-    "where": "ヒューストン"
+    "what": "サンドイッチ店",
+    "where": "ヒューストン各地"
    }
   },
   {
@@ -15646,13 +15690,15 @@
     "when": "2026-10-31",
     "roundup": true
    },
-   "ja": "無料特典・割引セール",
-   "jaVia": "gemini",
+   "ja": "10/31の無料特典・割引まとめ",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "無料特典・割引セール",
-    "when": "10/31",
-    "cond": ""
+    "store": "各チェーン店",
+    "item": "10/31の無料特典・割引まとめ",
+    "when": "10/31(土)",
+    "cond": "",
+    "what": "10/31無料特典",
+    "where": "各チェーン店"
    },
    "date": "2026-10-31"
   },
@@ -16243,13 +16289,15 @@
     "kind": "coupon",
     "when": "2026-11-01"
    },
-   "ja": "トリプルプレイ無料",
-   "jaVia": "gemini",
+   "ja": "条件達成でTriple Play朝食が無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "Denny’s",
-    "item": "トリプルプレイ無料",
-    "when": "〜10/31",
-    "cond": "要事前登録"
+    "store": "Denny's",
+    "item": "条件達成でTriple Play朝食が無料",
+    "when": "〜11/1登録",
+    "cond": "要登録",
+    "what": "無料朝食(登録)",
+    "where": "Denny's"
    },
    "date": "2026-11-01",
    "event": null,
@@ -16378,15 +16426,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "サンクスギビング週のイベント・パレードまとめ",
-   "jaVia": "gemini-ev",
+   "ja": "感謝祭週間のおすすめイベントまとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "サンクスギビング週のイベント・パレードまとめ",
-    "when": "2026年11月下旬",
+    "item": "感謝祭週間のおすすめイベントまとめ",
+    "when": "11月下旬",
     "cond": "家族向け",
-    "what": "感謝祭イベント",
-    "where": "ヒューストン"
+    "what": "感謝祭の催し",
+    "where": "ヒューストン各地"
    }
   },
   {
@@ -19286,15 +19334,15 @@
    "freebie": null,
    "date": null,
    "family": true,
-   "ja": "サンクスギビング休暇の子供向けキャンプ情報",
-   "jaVia": "gemini-ev",
+   "ja": "感謝祭休みの子供向けキャンプまとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "サンクスギビング休暇の子供向けキャンプ情報",
-    "when": "2026年秋",
-    "cond": "要予約・子供向け",
-    "what": "休暇キャンプ",
-    "where": "ヒューストン"
+    "item": "感謝祭休みの子供向けキャンプまとめ",
+    "when": "11月下旬",
+    "cond": "子供向け・有料",
+    "what": "感謝祭キャンプ",
+    "where": "ヒューストン各地"
    }
   },
   {
@@ -21085,13 +21133,15 @@
     "kind": "coupon",
     "when": "2026-10-31"
    },
-   "ja": "アントレ",
-   "jaVia": "gemini",
+   "ja": "購入でアントレ1品無料",
+   "jaVia": "claude",
    "sum": {
     "store": "QDOBA",
-    "item": "アントレ",
+    "item": "購入でアントレ1品無料",
     "when": "10/31〜11/1",
-    "cond": "商品購入"
+    "cond": "購入が条件",
+    "what": "無料アントレ",
+    "where": "QDOBA"
    },
    "date": "2026-10-31",
    "event": null,
@@ -21384,13 +21434,15 @@
    "date": "2026-10-27",
    "event": null,
    "eventNews": false,
-   "ja": "フットロングサンド1個無料",
-   "jaVia": "gemini",
+   "ja": "フットロング1つ買うと1つ無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Subway",
-    "item": "フットロングサンド1個無料",
+    "item": "フットロング1つ買うと1つ無料",
     "when": "10/27〜",
-    "cond": "1個購入"
+    "cond": "1個購入",
+    "what": "BOGOサンド",
+    "where": "Subway"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Subway-622-Sub.jpg?resize=306,182"
   },
@@ -24136,15 +24188,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "「Diwali」ヒューストンのディーワリ祭りと特別メニュー",
-   "jaVia": "gemini-ev",
+   "ja": "ディワリ(インドの光の祭り)の催しまとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "「Diwali」ヒューストンのディーワリ祭りと特別メニュー",
+    "item": "ディワリ(インドの光の祭り)の催しまとめ",
     "when": "2026年秋",
     "cond": "家族向け",
-    "what": "ディーワリ祭",
-    "where": "ヒューストン"
+    "what": "ディワリ祭",
+    "where": "ヒューストン各地"
    }
   },
   {
@@ -24240,15 +24292,15 @@
    "freebie": null,
    "date": "2026-10-31",
    "family": true,
-   "ja": "ヒューストンのおすすめハロウィン仮装・お菓子スポット",
-   "jaVia": "gemini-ev",
+   "ja": "トリック・オア・トリートのおすすめ地区まとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "ヒューストンのおすすめハロウィン仮装・お菓子スポット",
-    "when": "10/31",
-    "cond": "無料・家族向け",
-    "what": "ハロウィン",
-    "where": "ヒューストン"
+    "item": "トリック・オア・トリートのおすすめ地区まとめ",
+    "when": "10/31(土)",
+    "cond": "家族向け",
+    "what": "お菓子もらい",
+    "where": "ヒューストン各地"
    }
   },
   {
@@ -24276,15 +24328,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "伝統菓子「Pan de Muerto」が買えるおすすめ店",
-   "jaVia": "gemini-ev",
+   "ja": "Pan de Muertoが買えるパン屋まとめ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "伝統菓子「Pan de Muerto」が買えるおすすめ店",
+    "item": "Pan de Muertoが買えるパン屋まとめ",
     "when": "",
     "cond": "グルメ",
-    "what": "伝統菓子",
-    "where": "ヒューストン"
+    "what": "死者の日パン",
+    "where": "ヒューストンのパン屋"
    }
   },
   {
@@ -24409,15 +24461,15 @@
     "when": null,
     "roundup": true
    },
-   "ja": "ハロウィン当日の営業情報・お菓子マップまとめ",
-   "jaVia": "gemini-ev",
+   "ja": "ハロウィン当日の営業・無料特典・お菓子マップ",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "ヒューストン各地",
-    "item": "ハロウィン当日の営業情報・お菓子マップまとめ",
-    "when": "10/31",
-    "cond": "無料・家族向け",
+    "item": "ハロウィン当日の営業・無料特典・お菓子マップ",
+    "when": "10/31(土)",
+    "cond": "家族向け",
     "what": "ハロウィン情報",
-    "where": "ヒューストン"
+    "where": "ヒューストン各地"
    },
    "date": "2026-10-31"
   },
@@ -24813,13 +24865,15 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "子供向け木工ワークショップ",
-   "jaVia": "gemini",
+   "ja": "子供向け無料ワークショップ(ダンプカー作り)",
+   "jaVia": "claude",
    "sum": {
     "store": "Home Depot",
-    "item": "子供向け木工ワークショップ",
-    "when": "11/7",
-    "cond": "要予約"
+    "item": "子供向け無料ワークショップ(ダンプカー作り)",
+    "when": "11/7(土)",
+    "cond": "要登録",
+    "what": "子供工作教室",
+    "where": "Home Depot"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/08/home-depot-kids-workshops-1.jpg?resize=306,182",
    "date": "2026-11-07",
@@ -24848,13 +24902,15 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "トナカイぬいぐるみ、写真撮影",
-   "jaVia": "gemini",
+   "ja": "トナカイのぬいぐるみ無料(11/8はサンタ写真無料)",
+   "jaVia": "claude",
    "sum": {
-    "store": "Bass Pro Shops & Cabela's",
-    "item": "トナカイぬいぐるみ、写真撮影",
-    "when": "11/7、11/8",
-    "cond": ""
+    "store": "Bass Pro Shops",
+    "item": "トナカイのぬいぐるみ無料(11/8はサンタ写真無料)",
+    "when": "11/7(土)",
+    "cond": "先着",
+    "what": "無料ぬいぐるみ",
+    "where": "Bass Pro/Cabel…"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2025/10/bass-pro-shop-reindeer.jpg?resize=306,182",
    "date": "2026-11-07",
@@ -25018,11 +25074,11 @@
    "family": true,
    "localDate": "2026-11-06",
    "freebie": null,
-   "ja": "図書館の古本セール(Friends of the Library)",
-   "jaVia": "gemini-ev",
+   "ja": "図書館友の会の秋の古本セール",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "Bryan + College Station Public Library",
-    "item": "図書館の古本セール(Friends of the Library)",
+    "store": "Clara B. Mounce Library",
+    "item": "図書館友の会の秋の古本セール",
     "when": "11/6〜11/8",
     "cond": "家族向け",
     "what": "古本セール",
@@ -25084,13 +25140,15 @@
     "kind": "coupon",
     "when": "2026-10-31"
    },
-   "ja": "クッキー配達",
-   "jaVia": "gemini",
+   "ja": "毎日正午ETに無料クッキー配布",
+   "jaVia": "claude",
    "sum": {
     "store": "Keebler",
-    "item": "クッキー配達",
-    "when": "毎日正午ET（〜10/31）",
-    "cond": ""
+    "item": "毎日正午ETに無料クッキー配布",
+    "when": "〜10/31",
+    "cond": "毎日正午ET・先着",
+    "what": "無料クッキー",
+    "where": "Keebler(オンライン)"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Keebler-Cookie-BAg-on-Table.png?resize=306,182",
    "date": "2026-10-31",
