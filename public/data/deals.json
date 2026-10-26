@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-26T22:48Z",
- "count": 797,
+ "updated": "2026-10-26T23:44Z",
+ "count": 801,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 8
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -49,13 +49,151 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 15,
+   "mymemory": 11,
    "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "90a86c74e79b",
+   "title": "Pre-Order The Legend of Zelda: Ocarina of Time Just $59.xx (Reg $70)",
+   "link": "https://thefreebieguy.com/the-legend-of-zelda-ocarina-of-time/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T23:14Z",
+   "firstSeen": "2026-10-26T23:44Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Zelda-Ocarina-of-Time-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 16,
+   "price": 59.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ゼルダの伝説：時のオカリナを$ 59.xx （登録価格$ 70 ）で予約",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "ゼルダの伝説：時のオカリナを$ 59.xx （登録価格$ 70 ）で予約",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7a508f96c085",
+   "title": "Huffy Minnie Mouse Battery-Powered Ride-On Car Now $98 at Walmart (Reg. $174)",
+   "link": "https://thefreebieguy.com/huffy-disney-minnie-mouse-battery-powered-ride-on-car/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T23:06Z",
+   "firstSeen": "2026-10-26T23:44Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/Huffy-Disney-Minnie-Mouse-Battery-Powered-Ride-On-Car-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 44,
+   "price": 98.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Huffy Minnie Mouseバッテリー駆動のライドオンカーがウォルマートで$ 98になりました（登録番号： $ 174 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Huffy Minnie Mouseバッテリー駆動のライドオンカーがウォルマートで$ 98になりました（登録番号： $ 174 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2330bf0c5c05",
+   "title": "Ninja Foodi PossibleCooker Just $109.xx on Amazon (Reg. $170)",
+   "link": "https://thefreebieguy.com/the-ninja-foodi-multi-cooker/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T22:59Z",
+   "firstSeen": "2026-10-26T23:44Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Ninja-Foodi-PossibleCooker-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 36,
+   "price": 109.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Ninja Foodi PossibleCooker Amazonでたったの$ 109.xx （登録価格$ 170 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Ninja Foodi PossibleCooker Amazonでたったの$ 109.xx （登録価格$ 170 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ac4dfcb3f9bd",
+   "title": "Hyde & EEK Halloween Mugs as Low as $2.50 at Target",
+   "link": "https://thefreebieguy.com/target-hyde-eek-halloween-mugs/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T22:52Z",
+   "firstSeen": "2026-10-26T23:44Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/target-hyde-eek-halloween-mugs-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットでハイド＆ EEKハロウィンマグカップが$ 2.50",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットでハイド＆ EEKハロウィンマグカップが$ 2.50",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "d8eb1200a98b",
    "title": "Krispy Kreme Deals | $13 All Jacked Up Dozen through Oct. 29th & More!",
