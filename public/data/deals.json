@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T04:49Z",
- "count": 593,
+ "updated": "2026-10-26T05:49Z",
+ "count": 592,
  "stats": {
   "h2s": {
    "read": 100,
@@ -35,9 +35,9 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
-   "mymemory": 7,
-   "geminiToday": 15,
+   "gemini": 8,
+   "mymemory": 0,
+   "geminiToday": 1,
    "model": "gemini-flash-latest"
   }
  },
@@ -3448,13 +3448,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Walgreensで食料貯蔵バッグを1個購入すると2個無料！",
-   "jaVia": "mymemory",
+   "ja": "食品保存用バッグ2個",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walgreens",
-    "item": "Walgreensで食料貯蔵バッグを1個購入すると2個無料！",
+    "item": "食品保存用バッグ2個",
     "when": "",
-    "cond": ""
+    "cond": "1個購入で2個無料"
    },
    "date": null
   },
@@ -9891,40 +9891,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "70b948fe359d",
-   "title": "*HOT* Up to 30% off Costumes & Accessories at Target! {Today Only!}",
-   "link": "https://moneysavingmom.com/costumes-accessories-at-target/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-23T17:36Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": "2026-10-23",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Screenshot-2025-10-07-at-2.13.35 PM-630x848.jpg",
-   "hot": false,
-   "stores": [
-    "Target",
-    "Amazon"
-   ],
-   "cats": [
-    "home",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 30,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Target・Amazon",
-    "item": "",
-    "when": "10/23(金)まで",
-    "cond": ""
-   },
-   "date": "2026-10-23"
   },
   {
    "id": "f56f5cba23be",
