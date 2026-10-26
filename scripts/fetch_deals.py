@@ -566,10 +566,13 @@ def main():
     # 古いもの・期限切れを削除
     keep = []
     today_ct = now.astimezone(CT).date().isoformat()
+    local_only = {f["name"] for f in sources["feeds"] if f.get("localOnly")}
     for x in by_id.values():
         posted = parse_date_iso(x["posted"])
         if (now - posted).days > KEEP_DAYS:
             continue
+        if x["source"] in local_only and LOCAL_NG_RE.search(x["title"]):
+            continue   # 除外の語を後から足したときも、既にある記事から外す
         if x.get("expires") and x["expires"] < (dt.date.fromisoformat(today_ct) - dt.timedelta(days=2)).isoformat():
             continue
         keep.append(x)
