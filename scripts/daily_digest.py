@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""毎朝のまとめを GitHub Issue で送る(冒頭の @ で通知メールが届く)。
+"""毎朝のまとめを Gmail で1通だけ送る(送れないときだけ GitHub Issue)。
 
-- 対象:無料でもらえるもの。新着は毎時の即時通知(freebie_alert.py)で送るので、
-  朝は「今日・明日の店頭配布」のリマインドと、即時通知されていない新着だけ。
+- 2026-10-26 から通知は朝の1通だけ(即時通知 freebie_alert.py は廃止)。
+- 今日・明日の無料情報(店頭・クーポン・飲食 BOGO)は「店舗名:もらえるもの:日時:条件」とリンクで詳しく。
+  日付なしの新着も「今すぐ使える」としてここに入れる。
+- 明後日〜2週間先の無料情報と大型セールの新着は、日付と内容の短文だけ。詳細はサイトで見る。
 - 前の Issue は閉じない(閉じると完了通知メールが別に届くため)。
 - 夏時間・冬時間の両方に対応するため、cron は2つ(12:08・13:08 UTC)で起動し、
   米国中部時間で 7 時台のときだけ送る(--force で時刻を無視)。
@@ -25,7 +27,8 @@ STORES = ROOT / "config" / "stores.json"
 CT = ZoneInfo("America/Chicago")
 LABEL = "deals-digest"
 MENTION = "@yukisobaTX"
-MAX_PER_CAT = 12
+HORIZON_DAYS = 14   # この先の予定に載せる範囲
+MAX_LATER = 15
 TYPE_JA = {"free": "無料", "bogo": "BOGO", "coupon": "クーポン", "gc": "ギフトカード", "sale": "セール"}
 
 
@@ -75,38 +78,48 @@ def fmt_item(x, today):
     return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}"
 
 
+def short_line(x, label=""):
+    """この先の分:日付と内容だけの短い1行(詳細はサイトで見る)。label ありは大型セールの記事(日付は付けない)。"""
+    store, item, _, _ = sum_parts(x, "")
+    icon = "🥤" if (x.get("freebie") or {}).get("bogo") else ""
+    head = label or (md(x["date"]) if x.get("date") else "日付未定")
+    who = f"{store}:" if store != "—" else ""
+    return f"- {head} {who}{icon}{item[:40]}"
+
+
 def build(items, since, site):
-    """無料でもらえるもの(店頭配布・無料クーポン)だけを送る。"""
+    """朝の1通。今日・明日の無料情報は詳しく、それ以降は日付と内容の短文だけ(詳細はサイト)。"""
     today = dt.datetime.now(CT).date()
     t_iso = today.isoformat()
     tomorrow = (today + dt.timedelta(days=1)).isoformat()
+    horizon = (today + dt.timedelta(days=HORIZON_DAYS)).isoformat()
     fbs = [x for x in items if x.get("freebie") and not x.get("dup") and not x.get("noAlert")]
-    # 店頭:新着、または今日・明日のもの(前に知らせたものも当日にもう一度)
-    store = [x for x in fbs if x["freebie"]["kind"] == "store"
-             and (x["freebie"]["when"] or "9999") >= t_iso
-             and (x["firstSeen"] > since or x["freebie"]["when"] in (t_iso, tomorrow))]
-    store += [x for x in fbs if x["freebie"]["kind"] == "store" and not x["freebie"]["when"] and x["firstSeen"] > since and x not in store]
-    store.sort(key=lambda x: x["freebie"]["when"] or "9999")
-    coupon = [x for x in fbs if x["freebie"]["kind"] == "coupon" and x["firstSeen"] > since
-              and (x["freebie"]["when"] or "9999") >= t_iso]
-    coupon.sort(key=lambda x: x["freebie"]["when"] or "9999")
-    allx = by_date(store + coupon)
-    # 大型セール:前回のまとめ以降の記事を、セールごとに新しい順で最大5件
+    # 今日・明日:日付が今日・明日のもの(前に載せたものも毎回)+日付なしの新着(今すぐ使える)
+    near = [x for x in fbs if x.get("date") in (t_iso, tomorrow)
+            or (not x.get("date") and x["firstSeen"] > since)]
+    near = by_date(near)
+    # この先:明後日〜2週間先の無料情報(短文のみ。毎朝の予定表として繰り返し載せる)
+    later = by_date([x for x in fbs if x.get("date") and tomorrow < x["date"] <= horizon])[:MAX_LATER]
+    # 大型セール:前回のまとめ以降の記事を、セールごとに最大3件(短文のみ)
     ev_labels = {e["id"]: e["label"] for e in json.loads(STORES.read_text()).get("events", [])}
     ev_lines = []
     for eid, lab in ev_labels.items():
-        g = sorted([x for x in items if x.get("event") == eid and x["firstSeen"] > since and not x.get("freebie")],
+        g = sorted([x for x in items if x.get("event") == eid and x["firstSeen"] > since
+                    and not x.get("freebie") and not x.get("dup")],
                    key=lambda x: x["posted"], reverse=True)
-        if g:
-            ev_lines += [f"**{lab}**({len(g)}件)", *[fmt_item(x, t_iso) for x in g[:5]], ""]
-    n = len(allx) + len(ev_lines)
-    title = f"無料でもらえる {today.month}/{today.day}:店頭{len(store)}・クーポン{len(coupon)}"
-    lines = [f"{MENTION} おはようございます。無料でもらえるもの(日付順、🏬店頭・🎟クーポン)です。",
-             *([f"一覧: {site}"] if site else []), ""]
-    lines += [fmt_item(x, t_iso) for x in allx] + [""]
-    if ev_lines:
-        lines += ["## 🛍 大型セール", *ev_lines]
-    lines += ["---", "見出しとリンクは各ブログの RSS から自動で集めています。店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]
+        ev_lines += [short_line(x, f"【{lab}】") for x in g[:3]]
+    n = len(near) + len(later) + len(ev_lines)
+    title = f"お得ノート {today.month}/{today.day}:今日・明日 {len(near)}件" + (f" / この先 {len(later)}件" if later else "")
+    lines = [f"{MENTION} おはようございます。今日・明日の無料情報です(🏬店頭・🎟クーポン・🥤BOGO=1つ買うと1つ無料)。",
+             *([f"一覧: {site}"] if site else []), "", f"## 🎁 今日・明日({md(t_iso)}・{md(tomorrow)})"]
+    lines += [fmt_item(x, t_iso) for x in near] or ["- 該当なし"]
+    if later or ev_lines:
+        lines += ["", "## 📅 この先の予定(詳細はサイトで)", *[short_line(x) for x in later]]
+        if ev_lines:
+            lines += ["", "🛍 大型セール", *ev_lines]
+        if site:
+            lines += [f"詳細: {site}"]
+    lines += ["", "---", "店舗ごとに実施が違うことがあるので、リンク先・お店の公式で確認してください。"]
     return title, "\n".join(lines), n
 
 
@@ -125,14 +138,12 @@ def main():
         print("skip: 今日は送信済み")
         return
     data = json.loads(DEALS.read_text())
-    alert = ROOT / "public" / "data" / "alert-state.json"
-    alerted = json.loads(alert.read_text()).get("lastAlert", "") if alert.exists() else ""
-    since = max(state.get("lastSent") or "", alerted) or (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1)).isoformat(timespec="minutes").replace("+00:00", "Z")
+    since = state.get("lastSent") or (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1)).isoformat(timespec="minutes").replace("+00:00", "Z")
     title, body, n = build(data["items"], since, os.environ.get("SITE_URL", ""))
     if data.get("errors"):
         body += "\n\n⚠️ 取得できなかった情報源: " + " / ".join(data["errors"])
     if n == 0 and not a.force:
-        print("skip: 無料の新着なし(メールは送らない)")
+        print("skip: 載せる情報なし(メールは送らない)")
         STATE.write_text(json.dumps({**state, "lastSent": data["updated"], "lastDate": now_ct.date().isoformat()}, ensure_ascii=False, indent=1) + "\n")
         return
     if a.dry_run:

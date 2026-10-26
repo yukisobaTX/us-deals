@@ -5,8 +5,8 @@
 ## 仕組み(すべて GitHub Actions・AI なし)
 | ワークフロー | 時刻 | 役割 |
 |---|---|---|
-| Collect deals(scripts/fetch_deals.py → freebie_alert.py) | 毎時 :17 | RSS を取得・分類し public/data/deals.json を更新。無料でもらえる新着があれば即 Issue(ラベル freebie-alert、@yukisobaTX)で通知 |
-| Morning digest(scripts/daily_digest.py) | 毎朝 7:15 ごろ CT(夏冬とも) | 即時通知済みの新着は除き、今日・明日の店頭配布のリマインド。**無料でもらえるものだけ**を Issue(ラベル deals-digest、@yukisobaTX)で通知。店頭配布(日付順・今日/明日の分は再掲)と無料クーポン。該当なしの日は送らない |
+| Collect deals(scripts/fetch_deals.py) | 毎時 :17 | RSS を取得・分類し public/data/deals.json を更新。**通知はしない**(即時通知は 2026-10-26 に廃止) |
+| Morning digest(scripts/daily_digest.py) | 毎朝 7:15 ごろ CT(夏冬とも) | **メールはこの1通だけ**。①今日・明日の無料情報(店頭・クーポン・飲食 BOGO。日付が今日・明日のもの+日付なしの新着)を「店舗名:もらえるもの:日時:条件」+リンクで詳しく ②明後日〜14日先の無料情報と大型セールの新着は「日付 店舗:内容」の短文だけ(詳細はサイト)。載せるものがない日は送らない |
 - 公開:Cloudflare Workers(静的アセット、public/)。main への push で自動反映。noindex・robots.txt で検索に出さない。
 
 - 通知は Gmail から直接送る(scripts/mailer.py、us-market-note から流用。送信元名「お得ノート」、secret GMAIL_APP_PASSWORD・env GMAIL_USER。追加の宛先は workflow の env MAIL_TO にカンマ区切り。今は pinkpokepoke@gmail.com)。件名に [リポジトリ名]・(Issue #番号) が付かない。送れないときだけ @メンション付き Issue に切り替わる。
@@ -25,7 +25,7 @@
 - 「無料でもらえる」(freebie)= fetch_deals.py の freebie_info()。送料無料・キャッシュバック後無料・懸賞・お試し・退役軍人向け・電子書籍・「〜で稼ぐ」などは除外。「Freebies」まとめ記事はクーポン扱い。別の情報源の同じ話題は mark_duplicates() で dup を付け、通知・画面から外す。店頭(イベント・日時・数量限定)とクーポンに分け、日付を見出しから読む。毎回すべての記事にかけ直す。画面の初期タブ(「無料・BOGO」)。
 - BOGO(1つ買うと1つ無料、2-for-1)は**レストラン・カフェの飲食物だけ**「もらえる」扱い(freebie.bogo=true、通知あり・🥤BOGO 表示)。判定は is_food():stores.json の food の店名があれば対象、スーパー・雑貨の店名だけなら対象外、店名なしは飲み物・食べ物の語で判定。「BOGO 50% Off」は無料ではないので対象外。「on the house / complimentary」も飲食なら無料扱い。
 - 日本語化:無料情報は Gemini(gemini-flash-latest、無料枠は1日20回 → 1実行1回・1日15回まで、public/data/gemini-usage.json で数える)で4項目要約。セール記事と Gemini 不可時は MyMemory(1回25件まで)。
-- 大型セール:config/stores.json の events(ブラックフライデー・プライムデー・免税週末など)。日程発表・開始・チラシ公開の記事(EVENT_NEWS_RE)は即時通知(最大8件、状態は alert-state.json の lastEvent)、ほかはサイトの「🛍 大型セール」タブと朝のまとめ(セールごと最大5件)。予定は public/data/events.json(手で編集)。
+- 大型セール:config/stores.json の events(ブラックフライデー・プライムデー・免税週末など)。サイトの「🛍 大型セール」タブと、朝のメールの短文(前回以降の新着、セールごと最大3件)。即時通知はしない。予定は public/data/events.json(手で編集)。
 - 並び順の既定は「日付順」(items[].date = 配布日 → 要約の日時 → 期限、日付なしは後ろ)。通知メールも1本のリストで日付順(🏬店頭・🎟クーポン)。
 - 画面の JS は public/js/app.js。外部の見出しは textContent で入れる(innerHTML は使わない)。
 - 試験:`python3 scripts/fetch_deals.py --from-dir tests/fixtures --out /tmp/x.json`(ネット不要)、`python3 scripts/daily_digest.py --force --dry-run`。

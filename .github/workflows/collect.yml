@@ -1,5 +1,5 @@
 name: Collect deals
-# 毎時 RSS を取得して public/data/deals.json を更新し、無料でもらえる新着があれば即通知(AI なし)
+# 毎時 RSS を取得して public/data/deals.json を更新する(通知はしない。メールは朝の1通だけ=digest.yml)
 on:
   schedule:
     - cron: "17 * * * *"
@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 concurrency:
   group: data-write
@@ -28,14 +27,6 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python3 scripts/fetch_deals.py
-      - name: Freebie alert
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SITE_URL: ${{ vars.SITE_URL || 'https://us-deals.10baki-c03.workers.dev' }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          GMAIL_USER: 10baki.c03@gmail.com
-          MAIL_TO: pinkpokepoke@gmail.com
-        run: python3 scripts/freebie_alert.py
       - name: Commit
         run: |
           git config user.name "deals-bot"
