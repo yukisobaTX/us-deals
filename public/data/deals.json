@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-26T16:57Z",
- "count": 704,
+ "updated": "2026-10-26T17:50Z",
+ "count": 714,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -16,15 +16,15 @@
   },
   "ffp": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 4
   },
   "tfg": {
    "read": 40,
-   "added": 13
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -36,14 +36,358 @@
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 25,
-   "geminiToday": 11,
+   "mymemory": 22,
+   "geminiToday": 12,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "ef4b3f1af832",
+   "title": "Kindle Unlimited is Now Kindle+ & You Can Score 3 Months for Just 99¢",
+   "link": "https://hip2save.com/deals/kindle-unlimited-free/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T17:45Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/08/amazon-kindle.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kindle UnlimitedがKindle +になり、わずか99 ¢で3か月間のスコアを獲得できます",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Kindle UnlimitedがKindle +になり、わずか99 ¢で3か月間のスコアを獲得できます",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6e761131d497",
+   "title": "*HOT* Farberware Cookstart 15-Piece DiamondMax Nonstick Cookware Set only $51.99 shipped + $10 Kohl’s Cash!",
+   "link": "https://moneysavingmom.com/farberware-cookstart-cookware-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-26T17:44Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/11/Screenshot-2023-11-24-at-12.07.26-PM-630x593.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "*ホット*ファーバーウェアクックスタート15ピースダイヤモンドマックス焦げ付き防止調理器具セットのみ$ 51.99発送+ $ 10コールズキャッシュ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "*ホット*ファーバーウェアクックスタート15ピースダイヤモンドマックス焦げ付き防止調理器具セットのみ$ 51.99発送+ $ 10コールズキャッシュ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "765e58afa6e2",
+   "title": "Walmart Patio Furniture Sale | Sets Starting UNDER $50!",
+   "link": "https://thefreebieguy.com/walmart-patio-furniture-clearance/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T17:42Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Walmart-Patio-Furniture-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートパティオ家具セール| 50 $未満のセット！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートパティオ家具セール| 50 $未満のセット！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f33622589fbd",
+   "title": "*HOT* Factor Meal Discount: 50% off Your First Box + Free Greens!",
+   "link": "https://moneysavingmom.com/hot-factor-meal-discount-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-26T17:41Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/08/2.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "* HOT *ファクターミール割引：最初の箱が50 ％オフ+無料グリーン！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "* HOT *ファクターミール割引：最初の箱が50 ％オフ+無料グリーン！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "aeda40f4aac0",
+   "title": "Grinch Advent Calendar Just $24.98 at Sam’s Club (Filled w/ Over 2 Pounds of Treats!)",
+   "link": "https://hip2save.com/deals/grinch-advent-calendar-sams-club/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T17:30Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Grinch-Advent-Calendar-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブでのグリンチ・アドベントカレンダーたったの$ 24.98 （ 2ポンド以上のおやつでいっぱい！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "サムズクラブでのグリンチ・アドベントカレンダーたったの$ 24.98 （ 2ポンド以上のおやつでいっぱい！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "c28934b7bfa6",
+   "date": null
+  },
+  {
+   "id": "2de388201b7c",
+   "title": "Amazon Fire HD 8 Kids Pro Tablet Only $74.xx on Amazon (Reg. $150) – Case Included!",
+   "link": "https://thefreebieguy.com/amazon-fire-hd-8-kids-pro-tablet/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T17:21Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Amazon-Fire-HD-8-Kids-Pro-Tablet-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 51,
+   "price": 74.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Fire HD 8キッズプロタブレットのみ$ 74.xx Amazon （登録価格$ 150 ） –ケース付き！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Fire HD 8キッズプロタブレットのみ$ 74.xx Amazon （登録価格$ 150 ） –ケース付き！",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "d8ff1e519750",
+   "title": "Command X-Large Hanging Strips 8-Pack Only $5.xx On Amazon (Reg. $12)",
+   "link": "https://thefreebieguy.com/command-20-lb-x-large-picture-hanging-strips/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T17:19Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Command-X-Large-Hanging-Strips-8-Pack-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 58,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Command X - Largeハンギングストリップ8パックのみ$ 5.xx Amazon （登録価格$ 12 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Command X - Largeハンギングストリップ8パックのみ$ 5.xx Amazon （登録価格$ 12 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1bac74e04a7d",
+   "title": "Squirrel Brand Sweet Brown Butter Cashews, 3.5 Ounces Resealable Bag only $2.49 shipped!",
+   "link": "https://moneysavingmom.com/squirrel-brand-sweet-brown-butter-cashews-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-26T17:02Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/01/Squirrel-Brand-Sweet-Brown-Butter-Cashews-3.5-Ounces-Resealable-Bag.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スクイレルブランドスイートブラウンバターカシューン、3.5オンス再封可能バッグ$ 2.49のみ発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "スクイレルブランドスイートブラウンバターカシューン、3.5オンス再封可能バッグ$ 2.49のみ発送！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "5e713247814a",
+   "date": null
+  },
+  {
+   "id": "120a717056f6",
+   "title": "Scott ComfortPlus Toilet Paper 48-Count Only $15.xx on Amazon (Reg. $22)",
+   "link": "https://thefreebieguy.com/scott-comfortplus-toilet-paper/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T17:01Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/01/1-65-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 32,
+   "price": 15.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Scott ComfortPlusトイレットペーパー48枚- Amazonで$ 15.xxのみ（登録価格$ 22 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Scott ComfortPlusトイレットペーパー48枚- Amazonで$ 15.xxのみ（登録価格$ 22 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7d0eb39c925c",
+   "title": "Apply for The Injinji Wear Test Program! You Might Score FREE Socks!",
+   "link": "https://thefreebieguy.com/apply-for-the-injinji-wear-test-program-you-might-score-free-socks/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T16:57Z",
+   "firstSeen": "2026-10-26T17:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/injini-socks-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "Injinji Wear Test Programに応募してください！あなたは無料の靴下を獲得するかもしれません！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Injinji Wear Test Programに応募してください！あなたは無料の靴下を獲得するかもしれません！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "610bd089a496",
    "title": "Icon Glasses from $3.99 at Target | Trendy Anthro Vibes for WAY Less",
@@ -144,7 +488,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "c34b1ac1856f",
    "date": null
   },
   {
@@ -179,7 +522,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "5e713247814a"
   },
   {
    "id": "d231a2ad1753",
@@ -349,8 +693,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "f65e3810cfdb",
-   "date": null
+   "date": null,
+   "dup": "f65e3810cfdb"
   },
   {
    "id": "f8bbe62636a5",
@@ -685,13 +1029,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "** HOT *スタック可能な3つのコールのプロモーションコード+コールのキャッシュを獲得！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "** HOT *スタック可能な3つのコールのプロモーションコード+コールのキャッシュを獲得！",
     "when": "",
     "cond": "コード入力"
-   },
-   "date": null
+   }
   },
   {
    "id": "f68d9902784c",
@@ -715,13 +1061,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ペットスマートイベント： 11月バースデーバッシュがやってくるぞ！その他もろもろ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ペットスマートイベント： 11月バースデーバッシュがやってくるぞ！その他もろもろ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "637ace54535f",
@@ -747,13 +1095,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートで熱いアップルセール！| $ 23 AirTags、$ 119 AirPods 4など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートで熱いアップルセール！| $ 23 AirTags、$ 119 AirPods 4など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8e3cc42d5922",
@@ -779,14 +1129,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "フェルトクリスマスツリーオーナメント付きアマゾンで$ 8.xxのみ（登録価格$ 18 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "フェルトクリスマスツリーオーナメント付きアマゾンで$ 8.xxのみ（登録価格$ 18 ）",
     "when": "",
     "cond": ""
    },
-   "dup": "5d5488a37f9e",
-   "date": null
+   "dup": "5d5488a37f9e"
   },
   {
    "id": "c4a51c3502e6",
@@ -3262,13 +3614,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Bella 7クォートプログラマブルスロークッカー焼き機能付きわずか$ 34.99 （登録価格$ 70 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Bella 7クォートプログラマブルスロークッカー焼き機能付きわずか$ 34.99 （登録価格$ 70 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "00bf1b579154",
@@ -14771,7 +15125,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Jelly-Bras-2.jpg?resize=306,182"
   },
   {
    "id": "b6037b186464",
