@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T18:22Z",
- "count": 745,
+ "updated": "2026-10-26T18:25Z",
+ "count": 746,
  "stats": {
   "h2s": {
    "read": 100,
@@ -48,14 +48,48 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 4,
+   "geminiEvent": 21,
    "mymemory": 8,
-   "geminiToday": 18,
+   "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0333d526fff3",
+   "title": "O-Cedar H2prO Flat Mop System Only $34.xx with Walmart Cash (Reg $50)!",
+   "link": "https://thefreebieguy.com/o-cedar-h2pro-flat-mop-system/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:23Z",
+   "firstSeen": "2026-10-26T18:25Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/ocedarmop-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 32,
+   "price": 34.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "O - Cedar H 2 prOフラットモップシステムのみ$ 34.xxウォルマートキャッシュ付き（登録価格$ 50 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "O - Cedar H 2 prOフラットモップシステムのみ$ 34.xxウォルマートキャッシュ付き（登録価格$ 50 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "4e5865c93bb1",
    "title": "DEWALT XTREME 12V Cordless Impact Wrench Only $99 at Lowe’s (Reg. $169)",
@@ -4564,13 +4598,15 @@
     "when": "2026-10-30"
    },
    "date": "2026-10-30",
-   "ja": "今週末の無料・格安イベントまとめ",
+   "ja": "今週末(10/30〜11/1)の無料・格安イベントまとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "今週末の無料・格安イベントまとめ",
+    "store": "ヒューストン各地",
+    "item": "今週末(10/30〜11/1)の無料・格安イベントまとめ",
     "when": "10/30〜11/1",
-    "cond": "無料・格安"
+    "cond": "無料・家族向け",
+    "what": "週末イベント",
+    "where": "ヒューストン"
    },
    "localDate": "2026-10-30"
   },
@@ -8870,13 +8906,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "今週のイベント・フード・アート情報まとめ",
+   "ja": "今週(10/26〜10/29)のイベント・グルメまとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "今週のイベント・フード・アート情報まとめ",
+    "store": "ヒューストン各地",
+    "item": "今週(10/26〜10/29)のイベント・グルメまとめ",
     "when": "10/26〜10/29",
-    "cond": "無料・家族向け"
+    "cond": "無料・家族向け",
+    "what": "今週のイベント",
+    "where": "ヒューストン"
    },
    "date": "2026-10-26",
    "localDate": "2026-10-26"
@@ -8908,10 +8946,12 @@
    "ja": "12月の子供向けホリデーイベントまとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
+    "store": "ヒューストン各地",
     "item": "12月の子供向けホリデーイベントまとめ",
-    "when": "12月",
-    "cond": "子供向け"
+    "when": "2026年12月",
+    "cond": "家族向け",
+    "what": "冬の子供向け",
+    "where": "ヒューストン"
    },
    "date": null,
    "family": true
@@ -8940,13 +8980,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "退役軍人の日(Veterans Day)のイベントまとめ",
+   "ja": "「Veterans Day」退役軍人節のパレードと無料食事",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "退役軍人の日(Veterans Day)のイベントまとめ",
-    "when": "",
-    "cond": "無料・家族向け"
+    "store": "ヒューストン各地",
+    "item": "「Veterans Day」退役軍人節のパレードと無料食事",
+    "when": "2026年11月",
+    "cond": "無料・家族向け",
+    "what": "軍人節記念",
+    "where": "ヒューストン"
    },
    "date": null,
    "family": true
@@ -9009,13 +9051,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "テイクアウト付きおすすめピクニック公園まとめ",
+   "ja": "持ち帰りパック付きおすすめピクニック公園まとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "テイクアウト付きおすすめピクニック公園まとめ",
+    "store": "ヒューストン各地",
+    "item": "持ち帰りパック付きおすすめピクニック公園まとめ",
     "when": "",
-    "cond": "家族向け"
+    "cond": "家族向け",
+    "what": "ピクニック",
+    "where": "ヒューストン"
    },
    "date": null,
    "family": true
@@ -12940,13 +12984,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "12月のホリデーシーズン・大人向けイベントまとめ",
+   "ja": "12月に開催される大人向けホリデーイベント一覧",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン・ガルベストン",
-    "item": "12月のホリデーシーズン・大人向けイベントまとめ",
-    "when": "12月",
-    "cond": "大人向け"
+    "store": "ヒューストン / ガルベストン",
+    "item": "12月に開催される大人向けホリデーイベント一覧",
+    "when": "2026年12月",
+    "cond": "大人向け",
+    "what": "冬のイベント",
+    "where": "ヒューストン等"
    }
   },
   {
@@ -12975,13 +13021,15 @@
    "freebie": null,
    "date": null,
    "family": true,
-   "ja": "「Día de los Muertos」死者の日の祭りまとめ",
+   "ja": "「Día de los Muertos」死者の日の祭り・パレード",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "「Día de los Muertos」死者の日の祭りまとめ",
-    "when": "",
-    "cond": "家族向け"
+    "store": "ヒューストン各地",
+    "item": "「Día de los Muertos」死者の日の祭り・パレード",
+    "when": "2026年10月下旬",
+    "cond": "家族向け",
+    "what": "死者の日祭",
+    "where": "ヒューストン"
    }
   },
   {
@@ -13049,13 +13097,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "デリ・ポボーイ・サンドイッチのおすすめ店まとめ",
+   "ja": "ヒューストンのおすすめデリ・サンドイッチ店",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "デリ・ポボーイ・サンドイッチのおすすめ店まとめ",
+    "store": "ヒューストン各地",
+    "item": "ヒューストンのおすすめデリ・サンドイッチ店",
     "when": "",
-    "cond": ""
+    "cond": "グルメ",
+    "what": "サンドイッチ",
+    "where": "ヒューストン"
    }
   },
   {
@@ -16222,13 +16272,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "サンクスギビング週間のイベントまとめ",
+   "ja": "サンクスギビング週のイベント・パレードまとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "サンクスギビング週間のイベントまとめ",
-    "when": "11月下旬",
-    "cond": "家族向け"
+    "store": "ヒューストン各地",
+    "item": "サンクスギビング週のイベント・パレードまとめ",
+    "when": "2026年11月下旬",
+    "cond": "家族向け",
+    "what": "感謝祭イベント",
+    "where": "ヒューストン"
    }
   },
   {
@@ -18822,14 +18874,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "date": null,
-   "ja": "ブライアン市の公園の魅力紹介",
+   "date": "2026-10-22",
+   "ja": "ブライアン市の公園の魅力紹介と新情報",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ブライアン市内の公園",
-    "item": "ブライアン市の公園の魅力紹介",
-    "when": "",
-    "cond": "家族向け"
+    "store": "Bryan",
+    "item": "ブライアン市の公園の魅力紹介と新情報",
+    "when": "10/22",
+    "cond": "無料・家族向け",
+    "what": "公園情報",
+    "where": "Bryan"
    }
   },
   {
@@ -19126,13 +19180,15 @@
    "freebie": null,
    "date": null,
    "family": true,
-   "ja": "サンクスギビング休暇の子供向けキャンプまとめ",
+   "ja": "サンクスギビング休暇の子供向けキャンプ情報",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "サンクスギビング休暇の子供向けキャンプまとめ",
+    "store": "ヒューストン各地",
+    "item": "サンクスギビング休暇の子供向けキャンプ情報",
     "when": "2026年秋",
-    "cond": "子供向け"
+    "cond": "要予約・子供向け",
+    "what": "休暇キャンプ",
+    "where": "ヒューストン"
    }
   },
   {
@@ -19162,13 +19218,15 @@
     "kind": "coupon",
     "when": "2026-10-23"
    },
-   "ja": "今週末の無料・格安イベントまとめ",
+   "ja": "今週末(10/23〜10/25)の無料・格安イベントまとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "今週末の無料・格安イベントまとめ",
+    "store": "ヒューストン各地",
+    "item": "今週末(10/23〜10/25)の無料・格安イベントまとめ",
     "when": "10/23〜10/25",
-    "cond": "無料・格安"
+    "cond": "無料・家族向け",
+    "what": "週末イベント",
+    "where": "ヒューストン"
    },
    "date": "2026-10-23",
    "localDate": "2026-10-23"
@@ -23424,13 +23482,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "市議会チャンネルの無料配信アプリ「CSTV+」",
+   "ja": "カレッジステーション市議会チャンネルの無料配信",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "カレッジステーション",
-    "item": "市議会チャンネルの無料配信アプリ「CSTV+」",
+    "store": "College Station",
+    "item": "カレッジステーション市議会チャンネルの無料配信",
     "when": "",
-    "cond": "無料"
+    "cond": "無料",
+    "what": "市議会配信",
+    "where": "College Station"
    },
    "date": null
   },
@@ -23937,13 +23997,15 @@
    "freebie": null,
    "date": "2026-10-19",
    "localDate": "2026-10-19",
-   "ja": "今週のイベント・フード・アート情報まとめ",
+   "ja": "今週(10/19〜10/22)のイベント・グルメまとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "今週のイベント・フード・アート情報まとめ",
+    "store": "ヒューストン各地",
+    "item": "今週(10/19〜10/22)のイベント・グルメまとめ",
     "when": "10/19〜10/22",
-    "cond": "無料・家族向け"
+    "cond": "無料・家族向け",
+    "what": "今週のイベント",
+    "where": "ヒューストン"
    }
   },
   {
@@ -23972,13 +24034,15 @@
    "freebie": null,
    "date": "2026-10-18",
    "localDate": "2026-10-18",
-   "ja": "サンデーロースト＆南部料理のおすすめ店まとめ",
+   "ja": "ヒューストンのおすすめサンデーロースト＆南部料理店",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "サンデーロースト＆南部料理のおすすめ店まとめ",
+    "store": "ヒューストン各地",
+    "item": "ヒューストンのおすすめサンデーロースト＆南部料理店",
     "when": "",
-    "cond": ""
+    "cond": "グルメ",
+    "what": "南部料理",
+    "where": "ヒューストン"
    }
   },
   {
@@ -24006,13 +24070,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "ヒューストンのディパワリ(Diwali)祝祭イベントまとめ",
+   "ja": "「Diwali」ヒューストンのディーワリ祭りと特別メニュー",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "ヒューストンのディパワリ(Diwali)祝祭イベントまとめ",
-    "when": "",
-    "cond": "家族向け"
+    "store": "ヒューストン各地",
+    "item": "「Diwali」ヒューストンのディーワリ祭りと特別メニュー",
+    "when": "2026年秋",
+    "cond": "家族向け",
+    "what": "ディーワリ祭",
+    "where": "ヒューストン"
    }
   },
   {
@@ -24071,13 +24137,15 @@
    "freebie": null,
    "date": "2026-10-17",
    "localDate": "2026-10-17",
-   "ja": "本日の注目イベントトップ5まとめ",
+   "ja": "本日(10/17)開催のおすすめイベント5選",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン広域",
-    "item": "本日の注目イベントトップ5まとめ",
-    "when": "10/17(土)",
-    "cond": "家族向け"
+    "store": "ヒューストン各地",
+    "item": "本日(10/17)開催のおすすめイベント5選",
+    "when": "10/17",
+    "cond": "家族向け",
+    "what": "本日のイベント",
+    "where": "ヒューストン"
    }
   },
   {
@@ -24104,15 +24172,17 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "date": null,
+   "date": "2026-10-31",
    "family": true,
-   "ja": "ハロウィンのトリック・オア・トリートおすすめ地区まとめ",
+   "ja": "ヒューストンのおすすめハロウィン仮装・お菓子スポット",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン広域",
-    "item": "ハロウィンのトリック・オア・トリートおすすめ地区まとめ",
-    "when": "",
-    "cond": "家族向け"
+    "store": "ヒューストン各地",
+    "item": "ヒューストンのおすすめハロウィン仮装・お菓子スポット",
+    "when": "10/31",
+    "cond": "無料・家族向け",
+    "what": "ハロウィン",
+    "where": "ヒューストン"
    }
   },
   {
@@ -24140,13 +24210,15 @@
    "eventNews": false,
    "freebie": null,
    "date": null,
-   "ja": "「パン・デ・ムエルト」が買えるおすすめベーカリーまとめ",
+   "ja": "伝統菓子「Pan de Muerto」が買えるおすすめ店",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "「パン・デ・ムエルト」が買えるおすすめベーカリーまとめ",
+    "store": "ヒューストン各地",
+    "item": "伝統菓子「Pan de Muerto」が買えるおすすめ店",
     "when": "",
-    "cond": ""
+    "cond": "グルメ",
+    "what": "伝統菓子",
+    "where": "ヒューストン"
    }
   },
   {
@@ -24271,13 +24343,15 @@
     "when": null,
     "roundup": true
    },
-   "ja": "ハロウィン当日の営業情報・特典まとめ",
+   "ja": "ハロウィン当日の営業情報・お菓子マップまとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "ハロウィン当日の営業情報・特典まとめ",
+    "store": "ヒューストン各地",
+    "item": "ハロウィン当日の営業情報・お菓子マップまとめ",
     "when": "10/31",
-    "cond": "家族向け"
+    "cond": "無料・家族向け",
+    "what": "ハロウィン情報",
+    "where": "ヒューストン"
    },
    "date": "2026-10-31"
   },
@@ -24308,13 +24382,15 @@
     "kind": "coupon",
     "when": "2026-10-16"
    },
-   "ja": "今週末の無料・格安イベントまとめ",
+   "ja": "今週末(10/16〜10/18)の無料・格安イベントまとめ",
    "jaVia": "gemini-ev",
    "sum": {
-    "store": "ヒューストン",
-    "item": "今週末の無料・格安イベントまとめ",
+    "store": "ヒューストン各地",
+    "item": "今週末(10/16〜10/18)の無料・格安イベントまとめ",
     "when": "10/16〜10/18",
-    "cond": "無料・格安"
+    "cond": "無料・格安",
+    "what": "週末イベント",
+    "where": "ヒューストン"
    },
    "date": "2026-10-16",
    "localDate": "2026-10-16"
