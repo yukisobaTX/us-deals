@@ -162,16 +162,42 @@ def mymemory_many(items, limit=20):
     return out
 
 
+FALLBACK_MODEL = "gemini-flash-lite-latest"   # 混雑(503)が続くときの予備
+
+
+def _busy(e):
+    return any(c in str(e) for c in ("503", "500", "timed out"))
+
+
 def gemini_once(items, prompt=None):
-    """Gemini に1回だけ依頼(無料枠は1日の回数が少ないので、まとめて1回)。失敗は例外にせず {}。"""
-    try:
-        return gemini(items, prompt)
-    except Exception as e:  # noqa: BLE001
-        body = ""
-        if hasattr(e, "read"):
-            try:
-                body = e.read().decode("utf-8", "replace")[:300]
-            except Exception:  # noqa: BLE001
-                pass
-        LAST_ERROR["gemini"] = f"{e} {body}".strip()
-        return {}
+    """Gemini に1回だけ依頼(無料枠は1日の回数が少ないので、まとめて1回)。失敗は例外にせず {}。
+    混雑(503)・一時的な失敗は 20秒・60秒あけて再試行し、それでもだめなら軽量モデルで1回だけ試す。"""
+    global GEMINI_MODEL
+    err = None
+    for wait in (20, 60, 0):
+        try:
+            return gemini(items, prompt)
+        except Exception as e:  # noqa: BLE001
+            err = e
+            if not _busy(e):
+                break
+            if wait:
+                print(f"gemini 混雑 → {wait}秒後に再試行")
+                time.sleep(wait)
+    if _busy(err) and GEMINI_MODEL != FALLBACK_MODEL:
+        main, GEMINI_MODEL = GEMINI_MODEL, FALLBACK_MODEL
+        try:
+            print(f"gemini 混雑が続くため {FALLBACK_MODEL} で試す")
+            return gemini(items, prompt)
+        except Exception as e2:  # noqa: BLE001
+            err = e2
+        finally:
+            GEMINI_MODEL = main
+    body = ""
+    if hasattr(err, "read"):
+        try:
+            body = err.read().decode("utf-8", "replace")[:300]
+        except Exception:  # noqa: BLE001
+            pass
+    LAST_ERROR["gemini"] = f"{err} {body}".strip()
+    return {}
