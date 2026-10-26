@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T18:00Z",
- "count": 739,
+ "updated": "2026-10-26T18:08Z",
+ "count": 743,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -40,22 +40,160 @@
   },
   "cstx": {
    "read": 5,
-   "added": 2
+   "added": 0
   },
   "bcslib": {
    "read": 10,
-   "added": 1
+   "added": 0
   },
   "ja": {
    "gemini": 0,
-   "mymemory": 25,
-   "geminiToday": 14,
+   "geminiEvent": 0,
+   "mymemory": 14,
+   "geminiToday": 16,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "e16e5edcb194",
+   "title": "JCPenney Black Friday Early Access Sale | Up to 85% Off Furniture & Jewelry",
+   "link": "https://hip2save.com/deals/jcpenney-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-10-26T18:05Z",
+   "firstSeen": "2026-10-26T18:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/jcpenney-black-friday-2.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 85,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "JCPenneyブラックフライデー早期アクセスセール|家具とジュエリーが最大85%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "JCPenneyブラックフライデー早期アクセスセール|家具とジュエリーが最大85%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "96e3850cb0cb",
+   "date": null
+  },
+  {
+   "id": "35155392ab5d",
+   "title": "Craftsman Versastack 242-Piece Mechanics Tool Set w/ Hard Case Only $99 at Lowe’s ($825 Value!)",
+   "link": "https://thefreebieguy.com/craftsman-versastack-at-lowes/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:04Z",
+   "firstSeen": "2026-10-26T18:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Craftsman-Versastack-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Craftsman Versastack 242ピースメカニクスツールセット（ハードケース付き） Lowe'sで$ 99のみ（ $ 825相当！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Craftsman Versastack 242ピースメカニクスツールセット（ハードケース付き） Lowe'sで$ 99のみ（ $ 825相当！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "635aa2d02a79",
+   "date": null
+  },
+  {
+   "id": "7810d8cd5838",
+   "title": "Free In-Store Trick-or-Treating + Crafts for Kids at Lakeshore Stores Through 10/31!",
+   "link": "https://thefreebieguy.com/lakeshore-free-events/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:03Z",
+   "firstSeen": "2026-10-26T18:08Z",
+   "expires": "2026-10-31",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Lakeshore-Events-2026-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-10-31"
+   },
+   "ja": "10月31日まで、レイクショアストアの子供向けの無料店内トリックオアトリート+工芸品！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lakeshore Stores Through",
+    "item": "10月31日まで、レイクショアストアの子供向けの無料店内トリックオアトリート+工芸品！",
+    "when": "10/31(土)",
+    "cond": "子ども向け"
+   },
+   "date": "2026-10-31"
+  },
+  {
+   "id": "e8dd2acfc639",
+   "title": "Dutch Bros Coffee Deals | Daily Offers through October 31st!",
+   "link": "https://thefreebieguy.com/dutch-bros-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-26T18:00Z",
+   "firstSeen": "2026-10-26T18:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Dutch-Bros-Coffee-840x630.jpg",
+   "hot": true,
+   "stores": [
+    "Dutch Bros"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Dutch Bros Coffee Deals | 10月31日までのデイリーオファー！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Dutch Bros",
+    "item": "Dutch Bros Coffee Deals | 10月31日までのデイリーオファー！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "0bf5e9aea416",
    "title": "Sam’s Club’s 3D Holiday Village Advent Calendar Includes 2lbs of Sweet Treats!",
@@ -216,13 +354,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "GO ！ウォルマートのダウニーブースタービーズ4ピースギフトセットはわずか$ 15.97 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "GO ！ウォルマートのダウニーブースタービーズ4ピースギフトセットはわずか$ 15.97 ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ef4b3f1af832",
@@ -8668,7 +8808,7 @@
    "sum": {
     "store": "",
     "item": "ヒューストンの見どころ： 10月26日～ 29日：フード、音楽、アートなど",
-    "when": "",
+    "when": "10/26(月)",
     "cond": ""
    },
    "date": "2026-10-26",
@@ -8704,7 +8844,7 @@
     "store": "",
     "item": "ホリデーマジックのためのスペースを作ろう： 2026年12月にヒューストンで開催されるキッズイベント",
     "when": "",
-    "cond": "子ども向け"
+    "cond": ""
    },
    "date": null,
    "family": true
@@ -8805,7 +8945,7 @@
    "ja": "ヒューストンで人気のファミリーピクニックスポット（安い移動パック付き）",
    "jaVia": "mymemory",
    "sum": {
-    "store": "Cheap To-Go Packs",
+    "store": "",
     "item": "ヒューストンで人気のファミリーピクニックスポット（安い移動パック付き）",
     "when": "",
     "cond": ""
@@ -14878,13 +15018,15 @@
    "event": "prime-day",
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ライソル消毒用ウェットティッシュ補充セール： 80個入りキャニスター4個$ 8.75で発送！ {ベター・ザ・プライムデー}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ライソル消毒用ウェットティッシュ補充セール： 80個入りキャニスター4個$ 8.75で発送！ {ベター・ザ・プライムデー}",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "89272b4061b1",
@@ -20874,9 +21016,9 @@
    "ja": "ウルフ・ペン・クリークの金曜日の「トランク・オア・ツリー・ツリー」で、ハロウィンの楽しみがテキサス・アーバー・デーと出会う",
    "jaVia": "mymemory",
    "sum": {
-    "store": "Friday’s",
+    "store": "",
     "item": "ウルフ・ペン・クリークの金曜日の「トランク・オア・ツリー・ツリー」で、ハロウィンの楽しみがテキサス・アーバー・デーと出会う",
-    "when": "",
+    "when": "10/23(金)",
     "cond": ""
    },
    "date": "2026-10-23"
@@ -21458,7 +21600,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/amazon-solar-light-aootek.jpg?resize=306,182"
   },
   {
    "id": "9108ebab410c",
@@ -23209,7 +23352,7 @@
    "ja": "カレッジステーションの地方自治体チャンネルをお気に入りのすべてのデバイスで無料でストリーミング",
    "jaVia": "mymemory",
    "sum": {
-    "store": "Amazon",
+    "store": "",
     "item": "カレッジステーションの地方自治体チャンネルをお気に入りのすべてのデバイスで無料でストリーミング",
     "when": "",
     "cond": ""
@@ -23724,7 +23867,7 @@
    "sum": {
     "store": "",
     "item": "ヒューストンの見どころ： 10月19日～ 22日：フード、音楽、アートなど",
-    "when": "",
+    "when": "10/19(月)",
     "cond": ""
    }
   },
@@ -23759,7 +23902,7 @@
    "sum": {
     "store": "",
     "item": "ヒューストンで人気の日曜日のロースト＆南のコンフォートフードスポット",
-    "when": "",
+    "when": "10/18(日)",
     "cond": ""
    }
   },
@@ -23858,7 +24001,7 @@
    "sum": {
     "store": "",
     "item": "ヒューストンで開催される上位5つのイベント– 2026年10月17日（土）",
-    "when": "",
+    "when": "10/17(土)",
     "cond": ""
    }
   },
@@ -24663,7 +24806,7 @@
    "sum": {
     "store": "",
     "item": "フレンズ・オブ・ザ・ライブラリー2026年秋の本のセールは11月6日～ 8日です",
-    "when": "",
+    "when": "11/6(金)",
     "cond": ""
    },
    "date": "2026-11-06"
@@ -24756,16 +24899,18 @@
    "pct": null,
    "price": null,
    "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "thumb": "https://hip2save.com/wp-content/uploads/2025/11/thank-a-delivery-driver-snack-basket-.jpg?resize=306,182",
    "date": null,
    "event": "prime-day",
-   "eventNews": false
+   "eventNews": false,
+   "ja": "プライムデイパッケージを大量に入手していますか？この無料の配達ドライバーのサインを印刷してください！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "プライムデイパッケージを大量に入手していますか？この無料の配達ドライバーのサインを印刷してください！",
+    "when": "",
+    "cond": ""
+   }
   },
   {
    "id": "d8190950dcb9",
