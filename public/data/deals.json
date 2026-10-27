@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27T00:13Z",
- "count": 808,
+ "updated": "2026-10-27T00:24Z",
+ "count": 809,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -46,26 +46,327 @@
    "read": 10,
    "added": 0
   },
-  "dbryan": {
-   "read": 0,
-   "added": 0
-  },
-  "bryangov": {
-   "read": 0,
-   "added": 0
-  },
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 7,
+   "mymemory": 8,
    "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [
-  "ブライアン市の催し: https://events.bryantx.gov/default/List: HTTP Error 403: Forbidden"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "84995c4651df",
+   "title": "E Pluribus Unum: Celebrating the American Experience at George H.W. Bush Presidential Library and Museum",
+   "link": "https://www.destinationbryan.com/events/e-pluribus-unum-at-george-bush-library-musuem/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2027-05-16",
+   "thumb": null,
+   "noAlert": true,
+   "localDate": "2026-10-27",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "George H.W. Bush Library and …",
+    "item": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+    "when": "〜2027/5/16",
+    "what": "大統領館の特別展",
+    "where": "Bush図書館・博物館"
+   },
+   "ja": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "date": "2026-10-27",
+   "freebie": null
+  },
+  {
+   "id": "afeca8c625f8",
+   "title": "Pumpkin Patch at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/pumpkin-patch-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-27",
+   "thumb": null,
+   "noAlert": true,
+   "localDate": "2026-10-27",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Outdoors"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walkのパンプキンパッチ(写真スポット)",
+    "cond": "家族向け",
+    "what": "パンプキン畑",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walkのパンプキンパッチ(写真スポット)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外"
+   ],
+   "date": "2026-10-27",
+   "freebie": null
+  },
+  {
+   "id": "3c2b2dca5a61",
+   "title": "Pumpkin Patch with Habitat for Humanity",
+   "link": "https://www.destinationbryan.com/events/pumpkin-patch-wtih-habitat/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-27",
+   "thumb": null,
+   "noAlert": true,
+   "localDate": "2026-10-27",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Outdoors"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Habitat for Humanity",
+    "item": "Habitat for Humanityのパンプキンパッチ",
+    "cond": "家族向け",
+    "what": "パンプキン畑",
+    "where": "Habitat(E 29th…"
+   },
+   "ja": "Habitat for Humanityのパンプキンパッチ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外"
+   ],
+   "date": "2026-10-27",
+   "freebie": null
+  },
+  {
+   "id": "e2240f308405",
+   "title": "\"Sea to Shining Sea\" Art Exhibit at DeGallery",
+   "link": "https://www.destinationbryan.com/events/visual-art-society-bcs-from-sea-to-shining-sea/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-27",
+   "thumb": null,
+   "noAlert": true,
+   "localDate": "2026-10-27",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "DeGallery",
+    "item": "地元美術協会の展示「Sea to Shining Sea」",
+    "what": "美術展",
+    "where": "DeGallery"
+   },
+   "ja": "地元美術協会の展示「Sea to Shining Sea」",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "date": "2026-10-27",
+   "freebie": null
+  },
+  {
+   "id": "62bd3b907d62",
+   "title": "Trunk or Treat at Legends Event Center",
+   "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-legends-event-center-3-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-28",
+   "thumb": null,
+   "noAlert": true,
+   "localDate": "2026-10-28",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Legends Event Center",
+    "item": "車のトランクでお菓子をもらうハロウィン行事",
+    "when": "10/28(水) 18時",
+    "cond": "子供向け",
+    "what": "トランクオアトリート",
+    "where": "Legends Event …"
+   },
+   "ja": "車のトランクでお菓子をもらうハロウィン行事",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "date": "2026-10-28",
+   "freebie": null
+  },
+  {
+   "id": "dd0b1bd4468a",
+   "title": "Lake Walk Run Club",
+   "link": "https://www.destinationbryan.com/events/lake-walk-run-club/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-30",
+   "thumb": null,
+   "noAlert": true,
+   "localDate": "2026-10-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fitness"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walkのランニングクラブ",
+    "when": "10/30(金)",
+    "what": "ランニング会",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walkのランニングクラブ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "date": "2026-10-30",
+   "freebie": null
+  },
+  {
+   "id": "5eff440e9464",
+   "title": "Trunk or Treat So Kids Can Eat",
+   "link": "https://events.bryantx.gov/default/Detail/2026-10-31-1000-Trunk-or-Treat-So-Kids-Can-Eat",
+   "source": "City of Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "City of Bryan"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "City of Bryan",
+    "item": "子供向けトランクオアトリート(食料支援の催し)",
+    "when": "10/31(土) 10時",
+    "cond": "子供向け",
+    "what": "トランクオアトリート",
+    "where": "Bryan市"
+   },
+   "ja": "子供向けトランクオアトリート(食料支援の催し)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "date": "2026-10-31",
+   "freebie": null
+  },
+  {
+   "id": "26ab2b189e99",
+   "title": "Lite-Brite Ultimate Classic Toy Only $9.xx (Reg. $17)",
+   "link": "https://thefreebieguy.com/lite-brite-classic/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T00:05Z",
+   "firstSeen": "2026-10-27T00:24Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Lite-Brite-Classic-Walmart-3-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 47,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Lite - Brite Ultimate Classicおもちゃのみ$ 9.xx （登録価格$ 17 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Lite - Brite Ultimate Classicおもちゃのみ$ 9.xx （登録価格$ 17 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "90a86c74e79b",
    "title": "Pre-Order The Legend of Zelda: Ocarina of Time Just $59.xx (Reg $70)",
@@ -1671,7 +1972,7 @@
     "what": "ハロウィン特典集",
     "where": "各チェーン店"
    },
-   "date": null
+   "date": "2026-10-31"
   },
   {
    "id": "7ab86016194a",
@@ -27157,290 +27458,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "84995c4651df",
-   "title": "E Pluribus Unum: Celebrating the American Experience at George H.W. Bush Presidential Library and Museum",
-   "link": "https://www.destinationbryan.com/events/e-pluribus-unum-at-george-bush-library-musuem/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2027-05-16",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-27",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "George H.W. Bush Library and …",
-    "item": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
-    "when": "〜2027/5/16",
-    "what": "大統領館の特別展",
-    "where": "Bush図書館・博物館"
-   },
-   "ja": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-10-27"
-  },
-  {
-   "id": "afeca8c625f8",
-   "title": "Pumpkin Patch at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/pumpkin-patch-at-lake-walk/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-27",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-27",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Outdoors"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "Lake Walkのパンプキンパッチ(写真スポット)",
-    "cond": "家族向け",
-    "what": "パンプキン畑",
-    "where": "Lake Walk"
-   },
-   "ja": "Lake Walkのパンプキンパッチ(写真スポット)",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外"
-   ],
-   "family": true,
-   "date": "2026-10-27"
-  },
-  {
-   "id": "3c2b2dca5a61",
-   "title": "Pumpkin Patch with Habitat for Humanity",
-   "link": "https://www.destinationbryan.com/events/pumpkin-patch-wtih-habitat/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-27",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-27",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Outdoors"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Habitat for Humanity",
-    "item": "Habitat for Humanityのパンプキンパッチ",
-    "cond": "家族向け",
-    "what": "パンプキン畑",
-    "where": "Habitat(E 29th…"
-   },
-   "ja": "Habitat for Humanityのパンプキンパッチ",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外"
-   ],
-   "family": true,
-   "date": "2026-10-27"
-  },
-  {
-   "id": "e2240f308405",
-   "title": "\"Sea to Shining Sea\" Art Exhibit at DeGallery",
-   "link": "https://www.destinationbryan.com/events/visual-art-society-bcs-from-sea-to-shining-sea/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-27",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-27",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "DeGallery",
-    "item": "地元美術協会の展示「Sea to Shining Sea」",
-    "what": "美術展",
-    "where": "DeGallery"
-   },
-   "ja": "地元美術協会の展示「Sea to Shining Sea」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-10-27"
-  },
-  {
-   "id": "62bd3b907d62",
-   "title": "Trunk or Treat at Legends Event Center",
-   "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-legends-event-center-3-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-28",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-28",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Legends Event Center",
-    "item": "車のトランクでお菓子をもらうハロウィン行事",
-    "when": "10/28(水) 18時",
-    "cond": "子供向け",
-    "what": "トランクオアトリート",
-    "where": "Legends Event …"
-   },
-   "ja": "車のトランクでお菓子をもらうハロウィン行事",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-28"
-  },
-  {
-   "id": "dd0b1bd4468a",
-   "title": "Lake Walk Run Club",
-   "link": "https://www.destinationbryan.com/events/lake-walk-run-club/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-30",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-30",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fitness"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "Lake Walkのランニングクラブ",
-    "when": "10/30(金)",
-    "what": "ランニング会",
-    "where": "Lake Walk"
-   },
-   "ja": "Lake Walkのランニングクラブ",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "スポーツ"
-   ],
-   "family": true,
-   "date": "2026-10-30"
-  },
-  {
-   "id": "5eff440e9464",
-   "title": "Trunk or Treat So Kids Can Eat",
-   "link": "https://events.bryantx.gov/default/Detail/2026-10-31-1000-Trunk-or-Treat-So-Kids-Can-Eat",
-   "source": "City of Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "City of Bryan"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "City of Bryan",
-    "item": "子供向けトランクオアトリート(食料支援の催し)",
-    "when": "10/31(土) 10時",
-    "cond": "子供向け",
-    "what": "トランクオアトリート",
-    "where": "Bryan市"
-   },
-   "ja": "子供向けトランクオアトリート(食料支援の催し)",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-31"
   }
  ]
 }
