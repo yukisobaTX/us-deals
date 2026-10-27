@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T18:57Z",
- "count": 946,
+ "updated": "2026-10-27T19:51Z",
+ "count": 958,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 8
+   "added": 6
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -40,7 +40,7 @@
   },
   "cstx": {
    "read": 5,
-   "added": 0
+   "added": 1
   },
   "bcslib": {
    "read": 10,
@@ -49,13 +49,430 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 11,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "mymemory": 18,
+   "geminiToday": 16,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "44499c4f829f",
+   "title": "50% Off My Texas House Halloween Decor at Walmart – Shop These Spooky Deals!",
+   "link": "https://thefreebieguy.com/my-texas-house-halloween-decor/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T19:50Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/My-Texas-House-Halloween-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートのテキサスハウスハロウィンデコレーションが50%オフ–これらの不気味なセールを購入しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートのテキサスハウスハロウィンデコレーションが50%オフ–これらの不気味なセールを購入しましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ea18333a9c52",
+   "title": "Classic thrills, vintage chills: Catch our annual Halloween scare-a-thon on CSTV",
+   "link": "https://blog.cstx.gov/2026/10/27/classic-thrills-vintage-chills-catch-our-annual-halloween-scare-a-thon-on-cstv/",
+   "source": "カレッジステーション市",
+   "posted": "2026-10-27T19:46Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "freebie": null,
+   "ja": "クラシックなスリル、ビンテージなくつろぎ：毎年恒例のハロウィンスケアサロンをCSTVでキャッチ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "クラシックなスリル、ビンテージなくつろぎ：毎年恒例のハロウィンスケアサロンをCSTVでキャッチ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a2ad08dd112d",
+   "title": "These Sam’s Club Jingle Bells Sold Out Last Year – Snag Them Now!",
+   "link": "https://hip2save.com/deals/members-mark-jingle-bell-set/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T19:45Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/10/Members-Mark-Metal-Jingle-Bells2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブのジングルベルは昨年売り切れました。今すぐ手に入れましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "サムズクラブのジングルベルは昨年売り切れました。今すぐ手に入れましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5b71e9d2b9ef",
+   "title": "Rechargeable Hand Warmers 2-Pack Only $6.xx on Amazon (Reg $15)",
+   "link": "https://thefreebieguy.com/lerat-rechargeable-hand-warmers-2-pack/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T19:42Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Lerat-Hand-Warmers-Rechargeable-2-Pack-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "充電式ハンドウォーマー2パックのみ$ 6.xx Amazon （登録価格$ 15 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "充電式ハンドウォーマー2パックのみ$ 6.xx Amazon （登録価格$ 15 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "ca4cbd587b38",
+   "date": null
+  },
+  {
+   "id": "69d6e0022308",
+   "title": "Harry Potter Advent Calendar Just $14.97 on Amazon (Reg. $30)",
+   "link": "https://hip2save.com/deals/harry-potter-advent-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T19:40Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Harry-Potter-Advent-Calendar.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 14.97,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ハリーポッターアドベントカレンダーAmazonでたったの$ 14.97 （登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ハリーポッターアドベントカレンダーAmazonでたったの$ 14.97 （登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "acc6ad72e386",
+   "date": null
+  },
+  {
+   "id": "b1ad5bbbbfd0",
+   "title": "Snag Sweet Instant Savings Deals on Halloween Treats at Sam’s Club",
+   "link": "https://hip2save.com/deals/sams-club-halloween-candy/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T19:35Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Mars-Halloween-Variety-Pack-Mini-Fun-Size-290-Count.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブでハロウィンのおやつをお得に手に入れよう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "サムズクラブでハロウィンのおやつをお得に手に入れよう",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b1ce3c264c3d",
+   "title": "Portable Heated Lunch Box JUST $17.xx at Kohl’s (Reg. $35)",
+   "link": "https://thefreebieguy.com/nostalgia-portable-lunch-box/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T19:35Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/nostalgia-lunch-box-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 51,
+   "price": 17.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohl'sのポータブルヒートランチボックスはわずか$ 17.xx （登録価格$ 35 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohl'sのポータブルヒートランチボックスはわずか$ 17.xx （登録価格$ 35 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3f5bdcb43a50",
+   "title": "Football Slow Cooker Just $24.96 on Walmart.com (Reg. $50) | Perfect for Dips",
+   "link": "https://hip2save.com/deals/football-slow-cooker/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T19:30Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Pro-Pots-Football-Slow-Cooker.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 24.96,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comのフットボールスロークッカーはたったの$ 24.96 （登録価格$ 50 ）|ディップに最適",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comのフットボールスロークッカーはたったの$ 24.96 （登録価格$ 50 ）|ディップに最適",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "f707e1424351",
+   "date": null
+  },
+  {
+   "id": "ecfe35ef1995",
+   "title": "CAROTE 2.11 QT Cast Iron Bread Oven with Lid Only $29.98 at Walmart (Reg. $120)",
+   "link": "https://thefreebieguy.com/carote-2-11-qt-cast-iron-bread-oven-with-lid/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T19:24Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/CAROTE-2.11-QT-Cast-Iron-Bread-Oven-with-Lid--840x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 75,
+   "price": 29.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CAROTE 2.11 QTキャストアイアンブレッドオーブン蓋付きウォルマートで$ 29.98のみ（登録価格$ 120 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "CAROTE 2.11 QTキャストアイアンブレッドオーブン蓋付きウォルマートで$ 29.98のみ（登録価格$ 120 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1f92562f7c46",
+   "title": "Score 50¢ Sonic Corndogs on October 31st",
+   "link": "https://hip2save.com/deals/sonic-specials/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T19:20Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2020/05/sonic-corn-dogs.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sonic"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "10月31日にSonic Corndogsを50 ¢獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sonic",
+    "item": "10月31日にSonic Corndogsを50 ¢獲得",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1c5bafea2357",
+   "title": "NEW Temptations Halloween Cat Treats from $2.49 on Target.com",
+   "link": "https://hip2save.com/deals/temptations-cat-treats/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T19:15Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/04/temptations-halloween-catnip-treats.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Target.comで$ 2.49からの新しいTemptationsハロウィン猫のおやつ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Target.comで$ 2.49からの新しいTemptationsハロウィン猫のおやつ",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "374341e6f462",
+   "date": null
+  },
+  {
+   "id": "9e348f4018db",
+   "title": "TRU Triple Buffet Server Just $33.99 at Kohl’s (Reg. $70)",
+   "link": "https://thefreebieguy.com/tru-triple-buffet-server/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T19:01Z",
+   "firstSeen": "2026-10-27T19:51Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/TRU-Triple-Buffet-Server-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 51,
+   "price": 33.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "TRUトリプルビュッフェサーバーKohl'sでたったの$ 33.99 （登録価格$ 70 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "TRUトリプルビュッフェサーバーKohl'sでたったの$ 33.99 （登録価格$ 70 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "521b13dd72e5",
    "title": "Life Savers Exotics Gummy Candy 4-Pack Only $5.xx on Amazon (Reg. $15)",
@@ -190,8 +607,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "98b63fd28255",
-   "date": null
+   "date": null,
+   "dup": "98b63fd28255"
   },
   {
    "id": "21b0a0ba723e",
