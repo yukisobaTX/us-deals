@@ -587,7 +587,7 @@ def main():
     # 無料判定・大型セール判定は毎回すべての記事にかけ直す(ルール変更を過去分にも反映)
     for x in by_id.values():
         x["region"] = next((f["region"] for f in sources["feeds"] if f["name"] == x["source"] and f.get("region")), None) \
-            or region_of(x["title"])
+            or (x.get("region") if x.get("calendar") else None) or region_of(x["title"])   # 取り込んだ催しは地域を保つ
         if not x["region"]:
             x.pop("region")
         if x.get("region"):

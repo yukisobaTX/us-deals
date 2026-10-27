@@ -147,5 +147,18 @@ _bg = f.parse_bryangov(open(Path(__file__).parent / "fixtures" / "bryangov.html"
 if len(_db) < 10 or not all(x["start"] for x in _db) or len(_bg) < 10 or not all(x["start"] for x in _bg):
     bad += 1
     print("NG html parsers", len(_db), len(_bg))
+# 取り込んだ催し(calendar)は、情報源一覧にない名前でも地域・家族の印が消えない(10/26 の不具合)
+import json as _json, subprocess as _sp, tempfile as _tf
+_tmp = Path(_tf.mkdtemp()) / "d.json"
+_tmp.write_text(_json.dumps({"items": [{"id": "t1", "title": "Pumpkin Patch at Lake Walk", "link": "https://example.com/e",
+    "source": "Destination Bryan", "posted": "2026-10-26T00:00Z", "firstSeen": "2026-10-26T00:00Z", "expires": "2099-01-01",
+    "region": "College Station", "calendar": True, "localDate": "2099-01-01", "stores": [], "cats": ["Outdoors"],
+    "types": ["sale"], "pct": None, "price": None, "event": None, "eventNews": False}]}))
+_sp.run([sys.executable, str(Path(__file__).parent.parent / "scripts" / "fetch_deals.py"), "--from-dir", str(_tmp.parent / "none"),
+         "--out", str(_tmp), "--no-translate"], check=True, capture_output=True)
+_x = _json.loads(_tmp.read_text())["items"][0]
+if _x.get("region") != "College Station" or not _x.get("family"):
+    bad += 1
+    print("NG calendar region kept", _x.get("region"), _x.get("family"))
 print(f"failures: {bad}")
 sys.exit(1 if bad else 0)
