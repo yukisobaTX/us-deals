@@ -15,7 +15,7 @@
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
 - 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
-- 情報源:Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+- 情報源(RSS):Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
 
 ## 地域(2026-10-26 追加)
 - 本人はカレッジステーション在住。地元の情報を日々使えるように、items[].region に "College Station" / "Houston" を付ける。
@@ -30,6 +30,17 @@
   - 件名は「お得ノート M/D:今日・明日N/家族N/地元N/今後N」の順(本人指定)。
   - メールの無料欄(今日・明日・今後)は**食べ物・もらえる物だけ**(本人指定 10/26)。公園・博物館の入場無料、教室・ワークショップ・読み聞かせ・イベント参加などの体験系(EXPERIENCE_RE)と、割引(DISCOUNT_RE:「50% off」など)は is_goods() で外す。サイトには残る。家族・地元の欄は対象外(催しを載せる欄なので)。
 - 調査済みで使わないもの:KBTX(AI 系ボットを robots.txt で拒否、全国ニュースが多い)、ABC13(AI 系ボット拒否)、Community Impact(RSS なし・/article/ 禁止)、Macaroni KID(RSS なし)、Texas A&M のカレンダー(学内向けが大半で1000件と多い)、Houston Moms(ドメイン売却済み)、Collaborative for Children(RSS が2023年で止まっている)。
+
+## お出かけ先(カレッジステーション周辺、2026-10-26 追加・本人指定)
+- 本人の希望:遊び場・お出かけ先になる公園イベント・動物(動物園・サファリ)・エンタメ・スポーツを充実させる。**A&M 関連のスポーツは不要**。
+- 情報源(HTML のイベント一覧、config/sources.json の html・everyHours・delay):
+  - Destination Bryan(観光局)https://www.destinationbryan.com/events/ … parse_dbryan()。カード(名前・リンク・カテゴリ・次の開催日〜終了日・画像)。4ページ(48件)、6時間ごと、5秒間隔。robots.txt は /cpresources/・/vendor/ 以外許可。
+  - ブライアン市の催し https://events.bryantx.gov/default/List … parse_bryangov()。詳細 URL に日時と題名。今月分だけ(? 付きの URL は robots.txt で不可)。6時間ごと、Crawl-delay 15 秒。
+  - 見送り:Visit College Station(visit.cstx.gov/events。一覧が画面上で読み込まれず取れない)、Tockify の図書館カレンダー(/api/ が robots.txt で不可)、The Eagle(RSS が全国の芸能記事)、Aggieland Safari・Children's Museum(催しは Facebook・Instagram のみ)→ サイトの「家族のお出かけ」タブの公式リンク集(links.json の cat=family)に載せる。
+- 除外 outing_ng():A&M のスポーツ(AGGIE_SPORTS_RE:Aggie/A&M+試合・vs・Gameday・Midnight Yell・Kyle Field など、カテゴリ Aggie Sports)、夜の店の定例(ADULT_NIGHT_RE:bar・pub・open mic・karaoke・trivia・mixology など、カテゴリ Nightlife)、会議(MEETING_RE)。A&M の博物館・展示は残す。
+- 種類 outing_kinds() → items[].outing:公園・屋外🌳/動物🦒/エンタメ🎪/スポーツ⚽/子供向け🧒。outing がある地元記事は family=true(家族のお出かけ欄・タブに入る)。
+- イベント一覧の記事は calendar=true、localDate=次の開催日(毎回更新)、expires=終了日 or 開催日。2週間以上続くもの(long_running)はメールで「〜M/D」と表示し、家族欄の後ろに回す。
+- メールの家族欄:カレッジステーション最大10件・ヒューストン最大4件。行の先頭に種類の絵文字。
 
 ## Claude による要約(2026-10-26 追加・本人選択)
 - Gemini の無料枠(1日20回)が足りないため、毎朝 6:41 CT に Claude の定期実行(scheduled task「お得ノート 朝の要約」)が、朝のメールに載る記事と地元・家族の記事の要約(what・where など)を作る。

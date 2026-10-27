@@ -79,6 +79,105 @@ def desc_text(h):
     return re.sub(r"\s+", " ", t).strip()[:400]
 
 
+MONTH_NAMES = {m: i for i, m in enumerate(
+    ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"], 1)}
+
+
+def _md_to_iso(mon, day, year=None, today=None):
+    today = today or dt.datetime.now(CT).date()
+    mo = MONTH_NAMES.get(mon.lower())
+    if not mo:
+        return None
+    y = int(year) if year else today.year + (1 if mo < today.month - 6 else 0)
+    try:
+        return dt.date(y, mo, int(day)).isoformat()
+    except ValueError:
+        return None
+
+
+def parse_dbryan(text):
+    """Destination Bryan(観光局)のイベント一覧(サーバー側で描画された HTML)。
+    カードごとに 名前・リンク・カテゴリ・日付(次の開催日。期間なら開始〜終了)・画像。"""
+    items = []
+    for c in re.findall(r'<article id="id-\d+" class="card card--listing.*?</article>', text, re.S):
+        href = re.search(r'href="(https://www\.destinationbryan\.com/events/[^"]+)"', c)
+        name = re.search(r'data-dms-partner-name="([^"]*)"', c)
+        if not href or not name:
+            continue
+        cat = re.search(r'data-dms-category-name="([^"]*)"', c)
+        d = re.search(r'card__date-heading[^>]*>(.*?)</span>', c, re.S)
+        dtext = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", d.group(1)))).strip() if d else ""
+        dates = re.findall(r"([A-Z][a-z]+)\s+(\d{1,2})(?:,\s*(\d{4}))?", dtext)
+        start = _md_to_iso(*dates[0]) if dates else None
+        end = _md_to_iso(*dates[1]) if len(dates) > 1 else None
+        rec = re.search(r"\|\s*(Every[^<|]{2,60})", re.sub(r"<[^>]+>", " ", c))
+        img = re.search(r'data-srcset="(https://[^" ,]+)', c)
+        items.append({"title": html.unescape(name.group(1)).strip(), "link": href.group(1), "date": "",
+                      "cats": [html.unescape(cat.group(1))] if cat else [], "thumb": img.group(1).replace("&amp;", "&") if img else None,
+                      "start": start, "end": end, "recurring": bool(rec)})
+    return items
+
+
+def parse_bryangov(text):
+    """ブライアン市の催し(events.bryantx.gov の今月の一覧)。詳細ページの URL に日時と題名が入っている。"""
+    items, seen = [], set()
+    for m in re.finditer(r'href="(?:https://events\.bryantx\.gov)?(/default/Detail/(\d{4}-\d{2}-\d{2})-(\d{4})-([^"]+))"', text):
+        path, day, hhmm, slug = m.groups()
+        if path in seen:
+            continue
+        seen.add(path)
+        title = re.sub(r"\bamp\b", "&", slug.replace("-", " "))
+        title = re.sub(r"\bA ?&M\b|\bAampM\b", "A&M", title)
+        items.append({"title": title, "link": "https://events.bryantx.gov" + path, "date": "", "cats": ["City of Bryan"],
+                      "thumb": None, "start": day, "end": None, "time": None if hhmm == "0000" else f"{int(hhmm[:2])}:{hhmm[2:]}"})
+    return items
+
+
+HTML_PARSERS = {"dbryan": parse_dbryan, "bryangov": parse_bryangov}
+
+# ---------------- お出かけ先の分類(カレッジステーション周辺) ----------------
+# A&M のスポーツ(試合・ゲームデー・Midnight Yell など)は不要(本人指定 10/26)
+AGGIE_SPORTS_RE = re.compile(
+    r"(?:aggie|aggies|texas a&m|texas a ?& ?m|\btamu\b|a&m)\b.*?(?:football|basketball|baseball|softball|volleyball|soccer|"
+    r"golf|tennis|track|swim|equestrian|\bvs\.?\b|game\b|gameday|tailgate|yell)|"
+    r"(?:\bvs\.?\b|game ?day|gameday on main|tailgate|midnight yell|kyle field|reed arena|blue bell park|davis diamond|"
+    r"ellis field|olsen field).*?(?:aggie|a&m|texas a)|gameday|midnight yell|kyle field|tailgate", re.I)
+# 大人向けの夜の店の定例(バーのオープンマイク・カラオケ等)と、市の会議・高齢者向けは外す
+ADULT_NIGHT_RE = re.compile(
+    r"\bbar\b|bar and grill|\bpub\b|saloon|happy hour|mixology|singo|man cave|open mic|karaoke|trivia|bingo|"
+    r"wine tasting|beer|brew(?:ery|ing)?\b|cocktail|21\+|comedy night|drag\b", re.I)
+MEETING_RE = re.compile(r"commission|council|meeting|board of|\bboard\b|hearing|senior social|walk with a doc|ribbon cutting", re.I)
+OUTING_KINDS = [
+    ("公園・屋外", re.compile(r"\bparks?\b|lake walk|lake\b|trail|nature|garden|outdoor|pumpkin patch|corn maze|hayride|farm|"
+                              r"picnic|splash|playground|fishing|camp ?out|star party|astronomy|hike|bike", re.I)),
+    ("動物", re.compile(r"\bzoo\b|safari|animal|petting|pony|horse|rodeo|livestock|aquarium|wildlife|reptile|"
+                         r"giraffe|bird|butterfl|dog\b|puppy|\bcat\b", re.I)),
+    ("エンタメ", re.compile(r"concert|music|festival|\bfest\b|movie|film|theat(?:er|re)|show\b|circus|magic|carnival|fair\b|"
+                            r"parade|fireworks|lights?\b|museum|exhibit|art\b|market|first friday|car show|cruise|"
+                            r"trunk|trick|halloween|christmas|santa|holiday|tree lighting|easter|egg hunt|ghost walk", re.I)),
+    ("スポーツ", re.compile(r"\brun\b|5k|10k|marathon|race\b|bombers|baseball|soccer|hockey|skate|bowling|golf|"
+                             r"climb|trampoline|swim|fitness|yoga|sports?\b|tournament|games?\b", re.I)),
+    ("子供向け", re.compile(r"\bkids?\b|children|child\b|famil(?:y|ies)|story ?time|toddler|teen|youth|lego|craft|"
+                            r"science|stem\b|puppet|book sale", re.I)),
+]
+
+
+def outing_kinds(title, cats=()):
+    text = title + " | " + " | ".join(cats)
+    kinds = [k for k, rx in OUTING_KINDS if rx.search(text)]
+    if any(c.lower() in ("family-friendly", "fairs & festivals", "outdoors", "lake walk", "holiday events",
+                         "rodeos & ag events", "market", "sports") for c in cats) and not kinds:
+        kinds = ["エンタメ"]
+    return kinds
+
+
+def outing_ng(title, cats=()):
+    """お出かけ先として載せないもの(A&M のスポーツ・夜の店・会議)。"""
+    if any(c.lower() in ("aggie sports", "nightlife") for c in cats):
+        return True
+    return bool(AGGIE_SPORTS_RE.search(title) or ADULT_NIGHT_RE.search(title) or MEETING_RE.search(title))
+
+
 def parse_rss(text):
     """RSS 2.0 を読む。壊れた XML でも <item> 単位で拾えるだけ拾う。"""
     items = []
@@ -408,19 +507,27 @@ def main():
 
     for f in sources["feeds"]:
         raw_items = []
+        parser = HTML_PARSERS.get(f.get("html")) or parse_rss
+        # 間隔:everyHours を付けた情報源(イベント一覧の HTML など)は、その時間ごとにだけ取りに行く
+        if not a.from_dir and f.get("everyHours") and now.astimezone(CT).hour % f["everyHours"] != 0 \
+                and any(x.get("source") == f["name"] for x in by_id.values()):
+            stats[f["id"]] = {"skipped": f"{f['everyHours']}時間ごと"}
+            continue
         for n in range(1, f.get("pages", 1) + 1):
             try:
                 if a.from_dir:
-                    p = Path(a.from_dir) / f"{f['id']}.xml"
+                    p = Path(a.from_dir) / f"{f['id']}.{'html' if f.get('html') else 'xml'}"
                     text = p.read_text() if (n == 1 and p.exists()) else ""
                 else:
-                    text = fetch(page_url(f["url"], n))
-                    time.sleep(2)   # 相手に負担をかけない
+                    url = f["url"] if n == 1 else (f["url"] + ("&" if "?" in f["url"] else "?") + f"page={n}"
+                                                   if f.get("html") else page_url(f["url"], n))
+                    text = fetch(url)
+                    time.sleep(f.get("delay", 2))   # 相手に負担をかけない(robots.txt の Crawl-delay に合わせる)
             except Exception as e:  # noqa: BLE001
                 if n == 1:
                     errors.append(f"{f['name']}: {e}")
                 break
-            got = parse_rss(text) if text else []
+            got = parser(text) if text else []
             if not got:
                 break
             raw_items += got
@@ -439,8 +546,16 @@ def main():
             if iid in by_id:
                 if it.get("thumb") and not by_id[iid].get("thumb"):
                     by_id[iid]["thumb"] = it["thumb"]   # 既存の記事にもサムネを補う
+                if it.get("start"):   # イベント一覧:次の開催日が進むので毎回更新する
+                    by_id[iid]["localDate"] = it["start"]
+                    by_id[iid]["expires"] = it.get("end") or it["start"]
                 continue
             posted = parse_date(it["date"]) or now
+            if f.get("html"):
+                # イベント一覧:A&M のスポーツ・夜の店・会議は外す。掲載日は「見つけた時」
+                if outing_ng(title, it["cats"]):
+                    continue
+                posted = now
             if (now - posted).days > KEEP_DAYS:
                 continue
             if f.get("localOnly") and (not LOCAL_EVENT_RE.search(title) or LOCAL_NG_RE.search(title)):
@@ -460,6 +575,9 @@ def main():
                 "thumb": it.get("thumb"),
                 **({"noAlert": True} if f.get("alert") is False else {}),
                 **({"region": f["region"]} if f.get("region") else {}),
+                **({"localDate": it["start"], "calendar": True, "expires": it.get("end") or it["start"]}
+                   if it.get("start") else {}),
+                **({"time": it["time"]} if it.get("time") else {}),
                 "hot": ("free" in c["types"]) or (c["pct"] or 0) >= 70,
                 **c,
             }
@@ -472,10 +590,16 @@ def main():
             or region_of(x["title"])
         if not x["region"]:
             x.pop("region")
-        x["family"] = bool(x.get("region") and FAMILY_RE.search(x["title"]))
+        if x.get("region"):
+            kinds = outing_kinds(x["title"], x.get("cats", []) + ([x["source"]] if x.get("calendar") else []))
+            if kinds and not outing_ng(x["title"]):
+                x["outing"] = kinds
+            else:
+                x.pop("outing", None)
+        x["family"] = bool(x.get("region") and not outing_ng(x["title"]) and (FAMILY_RE.search(x["title"]) or x.get("outing")))
         if not x["family"]:
             x.pop("family")
-        if x.get("region"):
+        if x.get("region") and not x.get("calendar"):
             ld = local_date(x["title"], parse_date_iso(x["posted"]))
             if ld:
                 x["localDate"] = ld
@@ -575,6 +699,8 @@ def main():
             continue
         if x["source"] in local_only and LOCAL_NG_RE.search(x["title"]):
             continue   # 除外の語を後から足したときも、既にある記事から外す
+        if x.get("calendar") and outing_ng(x["title"], x.get("cats", [])):
+            continue
         if x.get("expires") and x["expires"] < (dt.date.fromisoformat(today_ct) - dt.timedelta(days=2)).isoformat():
             continue
         keep.append(x)

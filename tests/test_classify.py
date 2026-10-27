@@ -126,5 +126,26 @@ for title, want in [("Fun at Friday’s Trunk or Tree-t", "2026-10-23"), ("Book 
     if f.local_date(title, _P) != want:
         bad += 1
         print("NG local_date", title, f.local_date(title, _P))
+# お出かけ先(2026-10-26):A&M のスポーツ・夜の店・会議は外す/種類の分類/HTML のイベント一覧
+for title, cats, want in [("Gameday on Main Arkansas vs Texas A&M", [], True), ("Aggie Football Watch Party", [], True),
+                          ("Midnight Yell", [], True), ("Open Mic Night At Murphy's Law", [], True),
+                          ("Planning & Zoning Commission Meeting", [], True), ("Some Game", ["Aggie Sports"], True),
+                          ("Pumpkin Patch at Lake Walk", [], False), ("Trunk or Treat So Kids Can Eat", [], False),
+                          ("Brazos Valley Bombers Opening Night", [], False),
+                          ("\"Remnants of 150 Years at Texas A&M University\" Exhibit", [], False)]:
+    if f.outing_ng(title, cats) != want:
+        bad += 1
+        print("NG outing_ng", title)
+for title, kind in [("Pumpkin Patch at Lake Walk", "公園・屋外"), ("Boo at the Zoo at Aggieland Safari", "動物"),
+                    ("Holiday Lights Parade", "エンタメ"), ("Brazos Valley Bombers Baseball", "スポーツ"),
+                    ("Kids Craft Day", "子供向け")]:
+    if kind not in f.outing_kinds(title):
+        bad += 1
+        print("NG outing_kinds", title, f.outing_kinds(title))
+_db = f.parse_dbryan(open(Path(__file__).parent / "fixtures" / "dbryan.html").read())
+_bg = f.parse_bryangov(open(Path(__file__).parent / "fixtures" / "bryangov.html").read())
+if len(_db) < 10 or not all(x["start"] for x in _db) or len(_bg) < 10 or not all(x["start"] for x in _bg):
+    bad += 1
+    print("NG html parsers", len(_db), len(_bg))
 print(f"failures: {bad}")
 sys.exit(1 if bad else 0)

@@ -88,6 +88,7 @@
     const sub = el('div', { className: 'sub' });
     if (Date.now() - Date.parse(x.firstSeen) < DAY) sub.append(el('span', { className: 'new', textContent: 'NEW' }));
     if (x.family) sub.append(el('span', { className: 'tag free', textContent: '👨‍👩‍👧 家族向け' + (x.localDate ? ' ' + md(x.localDate) : '') }));
+    for (const k of (x.outing || [])) sub.append(el('span', { className: 'tag', textContent: ({ '公園・屋外': '🌳', '動物': '🦒', 'エンタメ': '🎪', 'スポーツ': '⚽', '子供向け': '🧒' }[k] || '') + k }));
     if (x.region) sub.append(el('span', { className: 'tag', textContent: '📍 ' + ({ 'College Station': 'カレッジステーション', Houston: 'ヒューストン' }[x.region] || x.region) }));
     if (x.event) sub.append(el('span', { className: 'tag ev', textContent: '🛍 ' + (EVLAB[x.event] || '大型セール') }));
     if (x.freebie) {

@@ -33,7 +33,7 @@ MAX_LATER = 15
 MAX_LOCAL_CS = 10
 MAX_LOCAL_HOU = 5
 FAMILY_DAYS = 7
-MAX_FAMILY_CS = 6
+MAX_FAMILY_CS = 10
 MAX_FAMILY_HOU = 4
 TYPE_JA = {"free": "無料", "bogo": "BOGO", "coupon": "クーポン", "gc": "ギフトカード", "sale": "セール"}
 
@@ -92,15 +92,27 @@ def clip(t, n):
     return t if len(t) <= n else t[:n - 1] + "…"
 
 
+KIND_ICON = {"公園・屋外": "🌳", "動物": "🦒", "エンタメ": "🎪", "スポーツ": "⚽", "子供向け": "🧒"}
+
+
+def long_running(x):
+    """2週間以上続く催し(展示・季節のパンプキンパッチなど)。"""
+    d, e = x.get("date"), x.get("expires")
+    return bool(d and e and e > d and (dt.date.fromisoformat(e) - dt.date.fromisoformat(d)).days >= 14)
+
+
 def line(x, today, tomorrow, head=None):
-    """メールの1行:「日付：何が(10文字以内)；どこで」。何がにリンク。"""
+    """メールの1行:「日付：何が(10文字以内)；どこで」。何がにリンク。お出かけ先は種類の絵文字を先頭に。"""
     sm = x.get("sum") or {}
     d = x.get("date")
+    if not head and long_running(x):
+        head = f"〜{md(x['expires'])}"
     when = head or ("今日" if d == today else "明日" if d == tomorrow else md(d) if d else "随時")
+    icon = "".join(KIND_ICON[k] for k in (x.get("outing") or [])[:1])
     what = clip(sm.get("what") or sm.get("item") or x.get("ja") or x["title"], 10)
     where = sm.get("where") or sm.get("store") or "・".join(n for n in x.get("stores", [])[:1] if n != "レストラン全般")
     where = "" if where in REGION_WORDS else clip(where, 15)
-    return f"- {when}：[{what}]({x['link']})" + (f"；{where}" if where else "")
+    return f"- {when}：{icon}[{what}]({x['link']})" + (f"；{where}" if where else "")
 
 
 def fmt_local(x, today):
@@ -178,7 +190,8 @@ def build(items, since, site):
     week = (today + dt.timedelta(days=FAMILY_DAYS)).isoformat()
     fam = [x for x in items if x.get("family") and not x.get("dup")
            and ((x.get("date") and t_iso <= x["date"] <= week) or (not x.get("date") and x["firstSeen"] > since))]
-    fam_cs = by_date([x for x in fam if x["region"] == "College Station"])[:MAX_FAMILY_CS]
+    # 日付の決まった催しを先に、長く続く展示などは後ろに
+    fam_cs = sorted(by_date([x for x in fam if x["region"] == "College Station"]), key=long_running)[:MAX_FAMILY_CS]
     fam_hou = by_date([x for x in fam if x["region"] == "Houston"])[:MAX_FAMILY_HOU]
     fam_ids = {x["id"] for x in fam_cs + fam_hou}
     loc = [x for x in items if x.get("region") and not x.get("dup") and x["id"] not in fam_ids
@@ -210,7 +223,7 @@ def build(items, since, site):
              *([f"一覧: {site}"] if site else []), "", "## 🎁 今日・明日(無料の食べ物・もらえる物、BOGO)"]
     lines += [ln(x) for x in near] or ["- 該当なし"]
     if fam_ids:
-        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(1週間)"]
+        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(1週間。🌳公園 🦒動物 🎪エンタメ ⚽スポーツ 🧒子供)"]
         if fam_cs:
             lines += ["**カレッジステーション**", *[ln(x) for x in fam_cs]]
         if fam_hou:
