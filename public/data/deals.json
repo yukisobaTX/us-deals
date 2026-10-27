@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T01:02Z",
- "count": 812,
+ "updated": "2026-10-27T01:53Z",
+ "count": 814,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -49,13 +49,81 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 10,
+   "mymemory": 9,
    "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0665908572e1",
+   "title": "VitaUp Magnesium Sleep Support 2-Month Supply Only $13.46 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/vitaup-sleep-support/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T01:50Z",
+   "firstSeen": "2026-10-27T01:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/vitaup-magnesium.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "VitaUpマグネシウム睡眠サポート2ヶ月供給のみ$ 13.46 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "VitaUpマグネシウム睡眠サポート2ヶ月供給のみ$ 13.46 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ed6e98c8581c",
+   "title": "Sourdough Bread Baking Kit Just $16.99 on Amazon (Reg. $40)",
+   "link": "https://hip2save.com/deals/amazon-sourdough-jar-kit/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T01:30Z",
+   "firstSeen": "2026-10-27T01:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/GanizaSourdough-Bread-Baking-Kit.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 58,
+   "price": 16.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サワードウブレッドベーキングキットAmazonでたったの$ 16.99 （登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "サワードウブレッドベーキングキットAmazonでたったの$ 16.99 （登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "769a8ab69446",
    "title": "Join Costco and Receive a $45 Digital Costco Shop Card (Gold or Executive Membership)",
@@ -88,8 +156,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "3f01f516753b",
-   "date": null
+   "date": null,
+   "dup": "3f01f516753b"
   },
   {
    "id": "efda33b24327",
