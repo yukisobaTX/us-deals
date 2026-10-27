@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T16:58Z",
- "count": 907,
+ "updated": "2026-10-27T17:56Z",
+ "count": 930,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 10
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 8
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -49,14 +49,735 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 14,
-   "geminiToday": 14,
+   "mymemory": 25,
+   "geminiToday": 15,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d64f0c823fd1",
+   "title": "Cook With Color Holiday Snackle Boxes JUST $5.99 on Kohls.com",
+   "link": "https://hip2save.com/deals/kohls-cook-with-color-snackle-box/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:55Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Cook-With-Color-christmas-tree-Snackle-Box-.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohls.comでカラーのホリデースナックルボックスを$ 5.99で作ろう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohls.comでカラーのホリデースナックルボックスを$ 5.99で作ろう",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ad7370459039",
+   "title": "Ninja FrostVault 30-qt. Cooler with Dry Zone Only $109 at Best Buy (Reg. $200)",
+   "link": "https://thefreebieguy.com/ninja-frostvault-cooler/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T17:55Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/1-12-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 109.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Ninja FrostVault 30 - qt.ドライゾーン付きクーラーベストバイで$ 109のみ（登録価格$ 200 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Ninja FrostVault 30 - qt.ドライゾーン付きクーラーベストバイで$ 109のみ（登録価格$ 200 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "89cc4986a12e",
+   "title": "Reduce 2-Pack Chiller & Chiller Go (14 oz) only $12.49!",
+   "link": "https://moneysavingmom.com/reduce-2-pack-chiller-chiller-go-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T17:52Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Reduce-14-oz-2pk-Chiller-Chiller-Go-630x308.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "2パックチラー＆チラーゴー（ 14オンス）を$ 12.49で減らしましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "2パックチラー＆チラーゴー（ 14オンス）を$ 12.49で減らしましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "12a042663e3a",
+   "title": "Halloween Kids Books from $5.90 on Amazon (Reg. $13)",
+   "link": "https://hip2save.com/deals/halloween-kids-books/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:50Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/halloween-kids-book.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 5.9,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonで$ 5.90からハロウィンキッズブック（登録番号： $ 13 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonで$ 5.90からハロウィンキッズブック（登録番号： $ 13 ）",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "bb08b75410c3",
+   "title": "Chips Ahoy! Hot Cocoa Cookies Have Returned + Earn Walmart Cash",
+   "link": "https://hip2save.com/deals/chips-ahoy-hot-cocoa/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:48Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chips-Ahoy-Hot-Cocoa-Cookies.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Chips Ahoy!ホットココアクッキーが戻ってきました+ウォルマートキャッシュを獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Chips Ahoy!ホットココアクッキーが戻ってきました+ウォルマートキャッシュを獲得",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d776d449f448",
+   "title": "This Affordable Amazon Calendar is Giving Skylight a Run for Its Money!",
+   "link": "https://hip2save.com/deals/amazon-digital-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:40Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/digital-calendar-3.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "この手頃な価格のAmazonカレンダーは、お金のために天窓を走らせてくれます！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "この手頃な価格のAmazonカレンダーは、お金のために天窓を走らせてくれます！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "43749ec82ff5",
+   "title": "Wonder Nation and Weekend Academy Girls Dresses From $2 at Walmart (Reg $10)",
+   "link": "https://thefreebieguy.com/girls-dress-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T17:39Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Girls-Dresses-Walmart-840x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 80,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Wonder Nationと週末のアカデミーガールズドレスウォルマートで$ 2から（登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Wonder Nationと週末のアカデミーガールズドレスウォルマートで$ 2から（登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5a05e24b7328",
+   "title": "Team-Fave medicube PDRN Peptide Serum Just $12 Shipped on Amazon (Reg. $22)",
+   "link": "https://hip2save.com/deals/medicube/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:35Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/medicube-pink-peptide-pdrn-serum-ultra-light.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 12.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Team - Fave medicube PDRNペプチドセラムわずか$ 12 Amazonで発送（登録番号$ 22 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Team - Fave medicube PDRNペプチドセラムわずか$ 12 Amazonで発送（登録番号$ 22 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "03c72a79e715",
+   "title": "Drew Barrymore Beautiful 4-Qt Slow Cooker Only $24.98 at Walmart",
+   "link": "https://thefreebieguy.com/drew-barrymore-beautiful-4-qt-slow-cooker/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T17:35Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Drew-Barrymore-Beautiful-4-Qt-Slow-Cooker-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートのDrew Barrymore Beautiful 4 - Qtスロークッカー$ 24.98のみ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートのDrew Barrymore Beautiful 4 - Qtスロークッカー$ 24.98のみ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f7fd19e165c5",
+   "title": "Blink Video Doorbell & Camera Bundle Only $30.99 on Amazon (Reg. $130)",
+   "link": "https://hip2save.com/deals/blink-video-doorbell/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:29Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Blink-Video-Doorbell-Bundle.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 76,
+   "price": 30.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Blinkビデオドアベル＆カメラバンドルAmazonで$ 30.99のみ（登録価格$ 130 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Blinkビデオドアベル＆カメラバンドルAmazonで$ 30.99のみ（登録価格$ 130 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "80ab636d6fc0",
+   "date": null
+  },
+  {
+   "id": "66dc65403899",
+   "title": "Walmart Coupon Deals: FREE Breyer’s Ice Cream Bars, Dove Deodorant, and more!",
+   "link": "https://moneysavingmom.com/walmart-cash-back-deals-current/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T17:26Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/06/Crystal-in-front-of-Walmart.jpg",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free",
+    "coupon"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "ウォルマートクーポンセール：無料のBreyer's Ice Cream Bars、Dove Deodorantなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートクーポンセール：無料のBreyer's Ice Cream Bars、Dove Deodorantなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "402e41140d90",
+   "title": "Bluey Awesome Advent Calendar Book Bundle Just $14.99 on Amazon & Walmart.com (Reg. $30)",
+   "link": "https://hip2save.com/deals/bluey-advent-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:25Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Bluey-Awesome-Advent-Calendar-Book-Bundle.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 14.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bluey AwesomeアドベントカレンダーブックバンドルAmazonとWalmart.comでわずか$ 14.99 （登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "Bluey AwesomeアドベントカレンダーブックバンドルAmazonとWalmart.comでわずか$ 14.99 （登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "81181d3196b7",
+   "title": "Target Deals This Week: Free Shea Moisture Soap, $1.59 Benadryl Itch Relief Stick, and more!",
+   "link": "https://moneysavingmom.com/target-coupon-deals-this-week/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T17:13Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/02/targetcarts-630x472.jpg",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "今週のターゲットセール：無料のシアモイスチャーソープ、$ 1.59ベナドリルかゆみ緩和スティックなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "今週のターゲットセール：無料のシアモイスチャーソープ、$ 1.59ベナドリルかゆみ緩和スティックなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a4d5f286b546",
+   "title": "HEPA Air Purifier just $35.99 shipped (Reg. $81)!",
+   "link": "https://moneysavingmom.com/hepa-air-purifier-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T17:12Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/02/Mooka-Home-Air-Purifier-with-True-HEPA-Filter.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 56,
+   "price": 35.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "HEPA空気清浄機がわずか$ 35.99で出荷されました（登録価格$ 81 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "HEPA空気清浄機がわずか$ 35.99で出荷されました（登録価格$ 81 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "bddb29b62e64",
+   "title": "Price Drop: Halloween Nutcracker w/ Lights Only $89 Shipped on Walmart.com (Reg. $189)",
+   "link": "https://hip2save.com/deals/halloween-nutcracker/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:11Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Way-to-Celebrate-DIY-Skeleton-Nutcracker-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 89.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "価格ドロップ：ハロウィンくるみ割り人形（ライト付き） $ 89のみWalmart.comで発送（登録番号： $ 189 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "価格ドロップ：ハロウィンくるみ割り人形（ライト付き） $ 89のみWalmart.comで発送（登録番号： $ 189 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "64cf8f78db61",
+   "title": "Pawz Men’s Jeff Comfort Clog Slippers Only 12.xx at Walmart (Reg $30)",
+   "link": "https://thefreebieguy.com/mens-slippers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T17:09Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/mens-clog-slippers-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "PawzメンズJeff Comfort Clog Slippers Only 12.xx at Walmart (Reg $ 30)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "PawzメンズJeff Comfort Clog Slippers Only 12.xx at Walmart (Reg $ 30)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6d3500cfc283",
+   "title": "Macy’s Perfume Sale | Save on Calvin Klein, Marc Jacobs & More (+ Free Gifts!)",
+   "link": "https://hip2save.com/deals/macys-perfume/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:06Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Calvin-Klein-Euphoria-Signature-Eau-de-Parfum-Spray-3.3oz.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "メイシーズ香水セール|カルバン・クライン、マーク・ジェイコブスなどがお得（さらに無料ギフト！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "メイシーズ香水セール|カルバン・クライン、マーク・ジェイコブスなどがお得（さらに無料ギフト！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "acc6ad72e386",
+   "title": "Harry Potter Advent Calendar Set Only $14.xx on Amazon (Reg $30)",
+   "link": "https://thefreebieguy.com/harry-potter-advent-calendar-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T17:05Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/harry-potter-advent-calendar-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 14.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ハリーポッターアドベントカレンダーセットのみ$ 14.xx Amazon (Reg $ 30)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ハリーポッターアドベントカレンダーセットのみ$ 14.xx Amazon (Reg $ 30)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "76fff14daded",
+   "title": "Zicam Ultra Cold Remedy Zinc Rapidmelts, 18 Count only $4.33 shipped (Reg. $11)!",
+   "link": "https://moneysavingmom.com/zicam-ultra-cold-remedy-zinc-rapidmelts-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T17:04Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Zicam-Ultra-Cold-Remedy-Zinc-Rapidmelts-Orange-Cream-Flavor-18-Count-1.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 61,
+   "price": 4.33,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Zicam Ultra Cold Remedy Zinc Rapidmelts、18カウントのみ$ 4.33発送（登録番号$ 11 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Zicam Ultra Cold Remedy Zinc Rapidmelts、18カウントのみ$ 4.33発送（登録番号$ 11 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "28565e3b057d",
+   "title": "ChapStick 3-Count just $2.33 shipped!",
+   "link": "https://moneysavingmom.com/chapstick-classic-3-count-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T17:03Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/09/ChapStick-Lip-Care-Set-Classic-Collection-3-Pack.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "59e959766cb2",
+   "title": "Over $95 Worth of Amazon Essentials Men’s Clothing Just $20.98 Shipped for Prime Members",
+   "link": "https://hip2save.com/deals/amazon-essentials-clothing/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T17:00Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Woot-mens-jacket.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
   {
    "id": "bfac0eab2cb0",
    "title": "Up to 70% Off Kohl’s Boxed Jewelry Gifts Including Disney + Earn Kohl’s Cash",
@@ -123,8 +844,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4f47ef257ef1",
-   "date": null
+   "date": null,
+   "dup": "4f47ef257ef1"
   },
   {
    "id": "aeebf34c5d68",
@@ -295,8 +1016,8 @@
     "when": "",
     "cond": "先着115,000名"
    },
-   "dup": "43f9bf0c62a4",
-   "date": null
+   "date": null,
+   "dup": "43f9bf0c62a4"
   },
   {
    "id": "1ff737e36c40",
@@ -470,6 +1191,38 @@
    "date": null
   },
   {
+   "id": "4cb262fcd7e9",
+   "title": "Women’s 2-Piece Long Sleeve Pajama Set just $12.99 (Reg. $40!)",
+   "link": "https://moneysavingmom.com/womens-2-piece-long-sleeve-pj-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T15:28Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-10.24.10-AM-630x633.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 12.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "ca0e7c046349",
    "title": "14 Ways to Get the Look of Pottery Barn Furniture & Decor for WAY Less",
    "link": "https://hip2save.com/deals/pottery-barn-furniture-alternatives/",
@@ -534,6 +1287,38 @@
    "sum": {
     "store": "Amazon",
     "item": "レディースロングリブバスローブはわずか$ 13.99 （登録価格$ 30 ）で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1ee232765bfa",
+   "title": "Women’s Long Ribbed Bathrobe just $13.99 (Reg. $30!)",
+   "link": "https://moneysavingmom.com/womens-long-ribbed-bathrobe-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T15:21Z",
+   "firstSeen": "2026-10-27T17:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-10.17.18-AM-630x632.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 13.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
     "when": "",
     "cond": ""
    },
