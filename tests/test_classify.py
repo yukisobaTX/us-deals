@@ -174,9 +174,9 @@ _items = [{**_base, "id": "c", "title": "Kids Pumpkin Patch", "region": "College
           {**_base, "id": "hf", "title": "Free Donut", "region": "Houston", "freebie": {"kind": "store"}, "date": _t, "sum": {"what": "HOU無料"}},
           {**_base, "id": "f", "title": "Free Donut", "freebie": {"kind": "store"}, "date": _t, "sum": {"what": "全国無料"}}]
 _title, _body, _ = _dd.build(_items, "2000-01-01T00:00Z", "")
-_hou = _body.index("## 🏙 ヒューストン")
+_hou = _body.index("## 🏙 HS")
 if not (_body.index("CS家族") < _hou < _body.index("HOU家族") and _body.index("全国無料") < _hou < _body.index("HOU無料")
-        and _title.endswith("ヒューストン2")):
+        and _title.endswith("HS2")):
     bad += 1
     print("NG digest houston order", _title)
 print(f"failures: {bad}")

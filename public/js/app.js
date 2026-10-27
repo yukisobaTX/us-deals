@@ -5,9 +5,9 @@
   const CATS = [
     { id: 'free', label: '🎁 無料でもらえる' },
     { id: 'family', label: '👨‍👩‍👧 家族のお出かけ' },
-    { id: 'local', label: '📍 カレッジステーション' },
+    { id: 'local', label: '📍 CS' },
     { id: 'event', label: '🛍 大型セール' },
-    { id: 'houston', label: '🏙 ヒューストン' },
+    { id: 'houston', label: '🏙 HS' },
     { id: 'all', label: 'すべて' },
     { id: 'grocery', label: 'スーパー' },
     { id: 'home', label: '雑貨・ホームセンター' },
@@ -23,6 +23,8 @@
   // カレッジステーション(在住地)を優先し、ヒューストンは別タブと各一覧の後半に分ける(本人指定 10/27)
   const SPECIAL = ['all', 'free', 'event', 'local', 'family', 'houston'];
   const isHou = (x) => x.region === 'Houston';
+  // 地名の略記(本人指定 10/27):カレッジステーション=CS、ヒューストン=HS
+  const abbr = (t) => typeof t === 'string' ? t.replace(/カレッジステーション/g, 'CS').replace(/ヒューストン/g, 'HS') : t;
   const past = (x) => x.date && daysLeft(x.date) < 0;
   const EVLAB = { 'black-friday': 'ブラックフライデー', 'cyber-monday': 'サイバーマンデー', 'prime-day': 'プライムデー',
     'amazon-spring': 'Amazon 春セール', 'target-circle': 'Target Circle Week', 'walmart-event': 'Walmart セール',
@@ -85,8 +87,8 @@
   // 「店舗名:もらえるもの:日時:条件」(要約がなければ英語の見出し)
   function sumLine(x, href) {
     const a = (t) => el('a', { href, target: '_blank', rel: 'noopener noreferrer', textContent: t });
-    const sm = x.sum;
-    if (!sm || !sm.item) return el('div', { className: 'sumline' }, a(x.ja || x.title));
+    const sm = x.sum && Object.fromEntries(Object.entries(x.sum).map(([k, v]) => [k, abbr(v)]));
+    if (!sm || !sm.item) return el('div', { className: 'sumline' }, a(abbr(x.ja || x.title)));
     let when = sm.when || '—';
     if (x.date && daysLeft(x.date) === 0 && !when.startsWith('〜')) when = '今日' + (when.includes(' ') ? ' ' + when.split(' ').slice(1).join(' ') : '');
     const store = sm.store || x.stores.filter((n) => n !== 'レストラン全般').slice(0, 2).join('・') || '—';
@@ -102,7 +104,7 @@
     if (Date.now() - Date.parse(x.firstSeen) < DAY) sub.append(el('span', { className: 'new', textContent: 'NEW' }));
     if (x.family) sub.append(el('span', { className: 'tag free', textContent: '👨‍👩‍👧 家族向け' + (x.localDate ? ' ' + md(x.localDate) : '') }));
     for (const k of (x.outing || [])) sub.append(el('span', { className: 'tag', textContent: ({ '公園・屋外': '🌳', '動物': '🦒', 'エンタメ': '🎪', 'スポーツ': '⚽', '子供向け': '🧒' }[k] || '') + k }));
-    if (x.region) sub.append(el('span', { className: 'tag', textContent: '📍 ' + ({ 'College Station': 'カレッジステーション', Houston: 'ヒューストン' }[x.region] || x.region) }));
+    if (x.region) sub.append(el('span', { className: 'tag', textContent: '📍 ' + ({ 'College Station': 'CS', Houston: 'HS' }[x.region] || x.region) }));
     if (x.event) sub.append(el('span', { className: 'tag ev', textContent: '🛍 ' + (EVLAB[x.event] || '大型セール') }));
     if (x.freebie) {
       const w = x.freebie.when ? (daysLeft(x.freebie.when) === 0 ? '今日' : md(x.freebie.when)) : '';
@@ -207,7 +209,7 @@
     const rows = [];
     let houHead = state.cat === 'houston';   // ヒューストンタブでは見出し不要
     for (const x of list) {
-      if (!houHead && isHou(x)) { rows.push(el('li', { className: 'divider', textContent: '🏙 ヒューストン' })); houHead = true; }
+      if (!houHead && isHou(x)) { rows.push(el('li', { className: 'divider', textContent: '🏙 HS' })); houHead = true; }
       rows.push(card(x));
     }
     $('list').replaceChildren(...(rows.length ? rows : [el('li', { className: 'empty', textContent: '該当する情報はありません。' })]));

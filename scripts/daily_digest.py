@@ -85,11 +85,16 @@ def fmt_item(x, today):
     return f"- {icon} **{store}**:[{item}]({x['link']}):{when}:{cond}"
 
 
-REGION_WORDS = ("ヒューストン", "ヒューストン広域", "ヒューストン各地", "カレッジステーション", "Houston", "College Station")
+REGION_WORDS = ("ヒューストン", "ヒューストン広域", "ヒューストン各地", "カレッジステーション", "HS", "HS広域", "HS各地", "CS", "Houston", "College Station")
+
+
+def abbr(t):
+    """地名の略記(本人指定 10/27):カレッジステーション=CS、ヒューストン=HS。"""
+    return (t or "").replace("カレッジステーション", "CS").replace("ヒューストン", "HS")
 
 
 def clip(t, n):
-    t = (t or "").strip()
+    t = abbr(t).strip()
     return t if len(t) <= n else t[:n - 1] + "…"
 
 
@@ -125,7 +130,7 @@ def fmt_local(x, today):
         when = "**今日** " + (when.split(" ", 1)[1] if " " in when else "")
     text = (sm.get("item") or x.get("ja") or x["title"]).strip()
     place = sm.get("store") or ""
-    if place in ("ヒューストン", "ヒューストン広域", "カレッジステーション", "Houston", "College Station"):
+    if place in ("ヒューストン", "ヒューストン広域", "カレッジステーション", "HS", "CS", "Houston", "College Station"):
         place = ""   # 見出し(カレッジステーション周辺/ヒューストン)と同じなら省く
     extra = "・".join(v for v in (place, sm.get("cond")) if v)
     return f"- {when.strip()}:[{text}]({x['link']})" + (f"({extra})" if extra else "")
@@ -226,22 +231,22 @@ def build(items, since, site):
     # 件名:カレッジステーション(と全国)の件数を先に、ヒューストンは最後にまとめて
     parts = [f"今日・明日{len(near)}", *([f"家族{len(fam_cs)}"] if fam_cs else []),
              *([f"地元{len(loc_cs)}"] if loc_cs else []), *([f"今後{len(later)}"] if later else []),
-             *([f"ヒューストン{n_hou}"] if n_hou else [])]
+             *([f"HS{n_hou}"] if n_hou else [])]
     title = f"お得ノート {today.month}/{today.day}:" + "/".join(parts)
     lines = [f"{MENTION} おはようございます。「日付：何が；どこで」で並べています(何がをタップで記事)。",
              *([f"一覧: {site}"] if site else []), "", "## 🎁 今日・明日(無料の食べ物・もらえる物、BOGO)"]
     lines += [ln(x) for x in near] or ["- 該当なし"]
     if fam_cs:
-        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(カレッジステーション周辺・1週間。🌳公園 🦒動物 🎪エンタメ ⚽スポーツ 🧒子供)",
+        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(CS周辺・1週間。🌳公園 🦒動物 🎪エンタメ ⚽スポーツ 🧒子供)",
                   *[ln(x) for x in fam_cs]]
     if loc_cs:
-        lines += ["", "## 📍 地元(カレッジステーション周辺)", *[ln(x) for x in loc_cs]]
+        lines += ["", "## 📍 地元(CS周辺)", *[ln(x) for x in loc_cs]]
     if later or ev_lines:
         lines += ["", "## 📅 今後(詳細はサイト)", *[ln(x) for x in later]]
         if ev_lines:
             lines += ["", "**🛍 大型セール**", *ev_lines]
     if n_hou:
-        lines += ["", "", "## 🏙 ヒューストン(お出かけ・遠出用)"]
+        lines += ["", "", "## 🏙 HS(お出かけ・遠出用)"]
         if fam_hou:
             lines += ["**👨‍👩‍👧 家族のお出かけ(1週間)**", *[ln(x) for x in fam_hou]]
         if loc_hou:
