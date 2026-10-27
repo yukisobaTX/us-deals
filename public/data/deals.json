@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T19:51Z",
- "count": 958,
+ "updated": "2026-10-27T20:49Z",
+ "count": 969,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -16,11 +16,11 @@
   },
   "ffp": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 2
   },
   "tfg": {
    "read": 40,
@@ -36,11 +36,11 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
-   "added": 1
+   "added": 0
   },
   "bcslib": {
    "read": 10,
@@ -48,15 +48,393 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 0,
-   "mymemory": 18,
-   "geminiToday": 16,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "geminiEvent": 1,
+   "mymemory": 17,
+   "geminiToday": 17,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "2becf7674599",
+   "title": "Dainty 18K Gold Plated Initial Bracelet Only $3.xx on Amazon (Reg $10)",
+   "link": "https://thefreebieguy.com/initial-bracelet/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T20:44Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/initial-bracelet-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 3.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Dainty 18 KゴールドメッキイニシャルブレスレットAmazonで$ 3.xxのみ（登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Dainty 18 KゴールドメッキイニシャルブレスレットAmazonで$ 3.xxのみ（登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "9108ebab410c",
+   "date": null
+  },
+  {
+   "id": "e6f8bdc3ef79",
+   "title": "Dreamegg Portable White Noise Machine Only $12.xx on Amazon (Reg. $22)",
+   "link": "https://thefreebieguy.com/dreamegg-white-noise-machine/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T20:43Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Dreamegg-Portable-White-Noise-Machine-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 12.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "DreameggポータブルホワイトノイズマシンAmazonで$ 12.xxのみ（登録価格$ 22 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "DreameggポータブルホワイトノイズマシンAmazonで$ 12.xxのみ（登録価格$ 22 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "43ed89eb022f",
+   "title": "Grace & Stella Lip Gloss Butter only $7.95 shipped!",
+   "link": "https://moneysavingmom.com/grace-stella-lip-gloss-butter-bundle-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T20:36Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Grace-Stella-bundle-630x713.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "グレース＆ステラリップグロスバター$ 7.95のみ発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "グレース＆ステラリップグロスバター$ 7.95のみ発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f7a62cde2ec5",
+   "title": "Shark NeverChange Air Purifier Only $149 on Amazon (Reg. $250)",
+   "link": "https://thefreebieguy.com/shark-neverchange-air-purifier/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T20:21Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Shark-NeverChange-Air-Purifier--840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 149.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Shark NeverChange空気清浄機のみ$ 149 Amazon （登録価格$ 250 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Shark NeverChange空気清浄機のみ$ 149 Amazon （登録価格$ 250 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "909d93415f44",
+   "title": "Home Depot Christmas Bucket Just $2.88 Delivered",
+   "link": "https://hip2save.com/deals/home-depot-christmas-bucket/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T20:20Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Home-Depot-Christmas-bucket.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Home Depot"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Home Depotクリスマスバケツ$ 2.88でお届け",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Home Depot",
+    "item": "Home Depotクリスマスバケツ$ 2.88でお届け",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c7da37c7ecd2",
+   "title": "The Pioneer Woman Colette Stoneware Set of 4 Mugs Only $10.xx at Walmart (Reg $18)",
+   "link": "https://thefreebieguy.com/walmart-mug-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T20:16Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/pioneer-woman-colette-stoneware-mugs-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 44,
+   "price": 10.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "パイオニアウーマンコレット石器4個セットマグカップウォルマートで$ 10.xxのみ（登録価格$ 18 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "パイオニアウーマンコレット石器4個セットマグカップウォルマートで$ 10.xxのみ（登録価格$ 18 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b57c1fe4b4d0",
+   "title": "Nation’s First Detransition Clinic Now Open as Result of Texas AG’s Historic Settlement with Texas Children’s Hospital",
+   "link": "https://wtaw.com/nations-first-detransition-clinic-now-open-as-result-of-texas-ags-historic-settlement-with-texas-childrens-hospital/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-10-27T20:05Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://wtaw.com/wp-content/uploads/2026/08/KenPaxtonLogo-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "子供向け"
+   ],
+   "family": true,
+   "freebie": null,
+   "ja": "テキサス州小児病院とのテキサスAGの歴史的和解の結果として、国内初のデトランジションクリニックが開設されました",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "テキサス州小児病院とのテキサスAGの歴史的和解の結果として、国内初のデトランジションクリニックが開設されました",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1f04d90d7f0a",
+   "title": "The Pioneer Woman Stoneware Mugs 4-Pack only $10.76, plus more!",
+   "link": "https://moneysavingmom.com/the-pioneer-woman-dinnerware-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T20:04Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/The-Pioneer-Woman-Daisy-12-Piece-Bamboo-Melamine-Dinnerware-Set.jpeg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "パイオニアウーマン石器マグカップ4個パックたったの$ 10.76 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "パイオニアウーマン石器マグカップ4個パックたったの$ 10.76 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "970a09414f34",
+   "title": "McDonald’s Adds New Frosted Cranberry and Cookie Butter Beverages",
+   "link": "https://www.fastfoodpost.com/mcdonalds-adds-new-frosted-cranberry-and-cookie-butter-beverages/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-27T20:01Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "McDonald's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "マクドナルドが新しい霜降りクランベリーとクッキーバター飲料を追加",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "McDonald's",
+    "item": "マクドナルドが新しい霜降りクランベリーとクッキーバター飲料を追加",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6e6d8b3fcf04",
+   "title": "Hummingbird Solar Lantern Just $6.74 on Amazon (Reg. $25)",
+   "link": "https://hip2save.com/deals/solar-outdoor-lantern/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T20:00Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/QPPDER-Hummingbird-Solar-Lantern.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 73,
+   "price": 6.74,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "HummingbirdソーラーランタンAmazonでたったの$ 6.74 （登録価格$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "HummingbirdソーラーランタンAmazonでたったの$ 6.74 （登録価格$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9fa58f09cff5",
+   "title": "Mini Rechargeable Air Duster with Nozzle Attachments Only $19.xx on Amazon (Reg. $40)",
+   "link": "https://thefreebieguy.com/jvscam-compressed-air-duster/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T19:56Z",
+   "firstSeen": "2026-10-27T20:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/JVSCAM-Compressed-Air-Duster-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": 19.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ノズルアタッチメント付きミニ充電式エアダスターAmazonで$ 19.xxのみ（登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ノズルアタッチメント付きミニ充電式エアダスターAmazonで$ 19.xxのみ（登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "44499c4f829f",
    "title": "50% Off My Texas House Halloween Decor at Walmart – Shop These Spooky Deals!",
@@ -119,15 +497,17 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "クラシックなスリル、ビンテージなくつろぎ：毎年恒例のハロウィンスケアサロンをCSTVでキャッチ",
-   "jaVia": "mymemory",
+   "ja": "CSTVのハロウィン名作ホラー映画連続放送",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "クラシックなスリル、ビンテージなくつろぎ：毎年恒例のハロウィンスケアサロンをCSTVでキャッチ",
-    "when": "",
-    "cond": ""
+    "store": "CSTV (カレッジステーション市)",
+    "item": "CSTVのハロウィン名作ホラー映画連続放送",
+    "when": "10/30(金)朝〜10/31(土)夜",
+    "cond": "無料",
+    "what": "映画マラソン放送",
+    "where": "CSTV (テレビ)"
    },
-   "date": null
+   "date": "2026-10-30"
   },
   {
    "id": "a2ad08dd112d",
@@ -195,8 +575,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ca4cbd587b38",
-   "date": null
+   "date": null,
+   "dup": "ca4cbd587b38"
   },
   {
    "id": "69d6e0022308",
@@ -230,8 +610,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "acc6ad72e386",
-   "date": null
+   "date": null,
+   "dup": "acc6ad72e386"
   },
   {
    "id": "b1ad5bbbbfd0",
@@ -333,8 +713,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "f707e1424351",
-   "date": null
+   "date": null,
+   "dup": "f707e1424351"
   },
   {
    "id": "ecfe35ef1995",
@@ -436,8 +816,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "374341e6f462",
-   "date": null
+   "date": null,
+   "dup": "374341e6f462"
   },
   {
    "id": "9e348f4018db",
@@ -28077,7 +28457,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Blue-Needoh-Cube-in-Hand.png?resize=306,182"
   },
   {
    "id": "8dfc17d74411",
@@ -29335,7 +29716,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/MONOZO-Initial-Bracelet.jpg?resize=306,182"
   },
   {
    "id": "3f0bd94f9cac",
