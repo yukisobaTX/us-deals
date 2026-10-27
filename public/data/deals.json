@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T10:51Z",
- "count": 830,
+ "updated": "2026-10-27T11:49Z",
+ "count": 845,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 5
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 10
   },
   "mws": {
    "read": 20,
@@ -47,15 +47,834 @@
    "added": 0
   },
   "ja": {
-   "gemini": 9,
+   "gemini": 12,
    "geminiEvent": 0,
-   "mymemory": 4,
-   "geminiToday": 6,
+   "mymemory": 12,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d58dd0beb3b1",
+   "title": "Amazon Grocery Chopped Walnuts, 8 oz only $2.99 shipped!",
+   "link": "https://moneysavingmom.com/amazon-grocery-chopped-walnuts-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T11:48Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Amazon-Grocery-Chopped-Walnuts-630x687.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Groceryみじん切りクルミ、8オンスのみ$ 2.99で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Groceryみじん切りクルミ、8オンスのみ$ 2.99で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f92aae4a0aba",
+   "title": "Kinder Bueno Snack Size 6.8oz Bag Only $4.97 on Amazon & Walmart.com",
+   "link": "https://hip2save.com/deals/kinder-bueno/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T11:45Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/Kinder-Halloween-Bueno-Snack-Size-6.8oz.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kinder Buenoスナックサイズ6.8オンスバッグのみ$ 4.97 Amazon & Walmart.com",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "Kinder Buenoスナックサイズ6.8オンスバッグのみ$ 4.97 Amazon & Walmart.com",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "431b4c316050",
+   "title": "Nesugar G6 Pro Smart Handheld Travel Steamer Only $12.xx on Amazon (Reg $40)",
+   "link": "https://thefreebieguy.com/nesugar-g6-pro-smart-handheld-steamer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:45Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Nesugar-G6-Pro-Smart-Handheld-Travel-Steamer-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 12.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Nesugar G 6 ProスマートハンドヘルドトラベルスチーマーAmazonで$ 12.xxのみ（登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Nesugar G 6 ProスマートハンドヘルドトラベルスチーマーAmazonで$ 12.xxのみ（登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "256839907b7b",
+   "title": "Trunk or Treat at Legends Event Center",
+   "link": "https://events.bryantx.gov/default/Detail/2026-10-28-1800-Trunk-or-Treat-at-Legends-Event-Center",
+   "source": "City of Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-28",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-28",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Legends Event Center",
+    "item": "Legends Event Centerのトランクオアトリート。夕方18時から。",
+    "when": "10/28(水) 18時",
+    "cond": "子供向け",
+    "what": "トランクオアトリート",
+    "where": "Legends（ブライアン）"
+   },
+   "ja": "Legends Event Centerのトランクオアトリート。夕方18時から。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-28",
+   "freebie": null,
+   "dup": "62bd3b907d62"
+  },
+  {
+   "id": "5bbe060b2576",
+   "title": "Trunk or Treat at Aggieland Humane Society",
+   "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-aggieland-humane-society/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-30",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Aggieland Humane Society",
+    "item": "動物愛護協会でのトランクオアトリート。動物にも会える。",
+    "when": "10/30(金)",
+    "cond": "子供向け・動物",
+    "what": "トランクオアトリート",
+    "where": "アギーランド動物協会"
+   },
+   "ja": "動物愛護協会でのトランクオアトリート。動物にも会える。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-30",
+   "freebie": null
+  },
+  {
+   "id": "a509967cee06",
+   "title": "Little Kids Spooky Carnival at Clara B. Mounce Library",
+   "link": "https://www.destinationbryan.com/events/little-kids-spooky-carnival/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Clara B. Mounce Library",
+    "item": "小さな子ども向けのハロウィンカーニバル。図書館で。",
+    "when": "10/31(土)",
+    "cond": "子供向け",
+    "what": "ハロウィンカーニバル",
+    "where": "Mounce図書館"
+   },
+   "ja": "小さな子ども向けのハロウィンカーニバル。図書館で。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-31",
+   "freebie": null
+  },
+  {
+   "id": "20b160df8905",
+   "title": "Halloween Costume Party on Wheels at Happy Feet Skating Rink",
+   "link": "https://www.destinationbryan.com/events/halloween-costume-party-on-wheels-at-happy-feet-skating-rink/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-30",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Happy Feet Skating Rink",
+    "item": "仮装してローラースケートを楽しむハロウィン会。",
+    "when": "10/30(金)",
+    "cond": "仮装・子供向け",
+    "what": "仮装スケート会",
+    "where": "Happy Feet Rink"
+   },
+   "ja": "仮装してローラースケートを楽しむハロウィン会。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-30",
+   "freebie": null
+  },
+  {
+   "id": "3de604c17d5c",
+   "title": "Jim Henson's Fraggle Rock: Back to the Rock (OPAS)",
+   "link": "https://www.destinationbryan.com/events/jim-hensons-fraggle-rock-back-to-the-rock-live-at-opas/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Rudder Theater",
+    "item": "Jim Hensonの『Fraggle Rock』ライブ公演。",
+    "when": "10/30(金)〜10/31(土)",
+    "cond": "家族向け舞台",
+    "what": "フラグルロック",
+    "where": "Rudder Theater"
+   },
+   "ja": "Jim Hensonの『Fraggle Rock』ライブ公演。",
+   "jaVia": "claude-ev",
+   "date": "2026-10-30",
+   "freebie": null
+  },
+  {
+   "id": "74f8cf90347a",
+   "title": "The Farmers' Market in Brazos County",
+   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Midtown Park",
+    "item": "毎週土曜のファーマーズマーケット（ミッドタウン公園）。",
+    "when": "毎週土曜",
+    "cond": "屋外・マーケット",
+    "what": "ファーマーズ市",
+    "where": "Midtown Park"
+   },
+   "ja": "毎週土曜のファーマーズマーケット（ミッドタウン公園）。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-10-31",
+   "freebie": null
+  },
+  {
+   "id": "fadc4d000f54",
+   "title": "Rountree Market at Midtown Park",
+   "link": "https://www.destinationbryan.com/events/sunday-market-at-rountree/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-11-01",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-01",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Midtown Park",
+    "item": "ミッドタウン公園の日曜マーケット。",
+    "when": "11/1(日)",
+    "cond": "屋外・マーケット",
+    "what": "日曜マーケット",
+    "where": "Midtown Park"
+   },
+   "ja": "ミッドタウン公園の日曜マーケット。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-01",
+   "freebie": null
+  },
+  {
+   "id": "657c3de797f3",
+   "title": "SpongeBob Men’s 6-Pack Crew Socks Only $2.xx on Walmart (Reg $15)",
+   "link": "https://thefreebieguy.com/spongebob-mens-crew-socks/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:28Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/SpongeBob-Mens-6-Pack-Crew-Socks-840x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 87,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スポンジボブメンズ6パッククルーソックスウォルマートで$ 2.xxのみ（登録価格$ 15 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "スポンジボブメンズ6パッククルーソックスウォルマートで$ 2.xxのみ（登録価格$ 15 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1e986aba3944",
+   "title": "Up to 75% Off Halloween Decorations at Home Depot | Items Selling FAST!",
+   "link": "https://thefreebieguy.com/halloween-decorations-at-home-depot/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:28Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Halloween-Home-Depot-1-840x630.png",
+   "hot": true,
+   "stores": [
+    "Home Depot"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 75,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ホームデポのハロウィンデコレーションが最大75%オフ|アイテムが早く売れる！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Home Depot",
+    "item": "ホームデポのハロウィンデコレーションが最大75%オフ|アイテムが早く売れる！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "b434499f7c37",
+   "date": null
+  },
+  {
+   "id": "19a25cac7abb",
+   "title": "Progresso Lasagna-Style Soup Just $1.58 on Amazon",
+   "link": "https://hip2save.com/deals/progresso-soup/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T11:25Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Progresso-Rich-Hearty-Lasagna-Style-Soup-w_-Italian-Sausage-18.5oz.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでたったの$ 1.58のプログレッソラザニア風スープ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでたったの$ 1.58のプログレッソラザニア風スープ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3d066a00e652",
+   "title": "Who Knew Storage Could Be This Cute? Pink Lowe’s Finds From $1.98",
+   "link": "https://thefreebieguy.com/lowes-pink-finds/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:24Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Lowes-Pink-Takeover-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ストレージがこんなに可愛いなんて誰が知っていましたか？ Pink Lowe'sの商品が$ 1.98から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "ストレージがこんなに可愛いなんて誰が知っていましたか？ Pink Lowe'sの商品が$ 1.98から",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "18e98c852a35",
+   "title": "Jimmy John’s Deals | Free Pickle Pal w/ Triple Pickle Meal Purchase!",
+   "link": "https://thefreebieguy.com/jimmy-johns-deals-and-codes/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:19Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Jimmy-Johns-Pickle-Pals-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Jimmy John's",
+    "item": "ピックルパル無料",
+    "when": "2026-10-27",
+    "cond": "トリプルピックルミール購入",
+    "what": "無料ピクルス",
+    "where": "Jimmy John's"
+   },
+   "ja": "ピックルパル無料",
+   "jaVia": "gemini",
+   "dup": "c7515e4a5b3b",
+   "date": null
+  },
+  {
+   "id": "09244b7997ca",
+   "title": "Cheap Food Deals & Freebies For Tuesday! Taco Bell, Jimmy John’s, & More!",
+   "link": "https://thefreebieguy.com/cheap-tuesday-food-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:19Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Tuesday-Food-Deals-840x630.png",
+   "hot": true,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "sum": {
+    "item": "火曜限定のお得・無料フード",
+    "when": "10/27(火)",
+    "what": "お得フード",
+    "where": "Taco Bell等"
+   },
+   "ja": "火曜限定のお得・無料フード",
+   "jaVia": "gemini",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "cd485ec6691c",
+   "title": "Taco Bell Deals | $4 Meal Deals through November 2nd + $1 Meals Drop on Tuesdays!",
+   "link": "https://thefreebieguy.com/taco-bell-deals-coupons/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:19Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Taco-Bell-Paris-Hiltons-Meal-Deal-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "タコスベルのお得情報| 11月2日までの$ 4のお食事のお得情報と火曜日の$ 1のお食事ドロップ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Taco Bell",
+    "item": "タコスベルのお得情報| 11月2日までの$ 4のお食事のお得情報と火曜日の$ 1のお食事ドロップ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8a10dd252e10",
+   "title": "60-Ct Salonpas Muscle Soreness Pain Relieving Patch Only $5.xx on Amazon (Reg $13)",
+   "link": "https://thefreebieguy.com/salonpas-muscle-soreness-pain-relieving-patch/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:15Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Salonpas-Pain-Relieving-Patch-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "60 Ct Salonpas筋肉痛疼痛緩和パッチのみ$ 5.xxアマゾン（登録$ 13 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "60 Ct Salonpas筋肉痛疼痛緩和パッチのみ$ 5.xxアマゾン（登録$ 13 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2f6a17e52d19",
+   "title": "Two Maybelline Color Sensational Cream Finish Lipstick Only $4.xx on Amazon (Reg $18)",
+   "link": "https://thefreebieguy.com/maybelline-lipstick/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T11:00Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Maybelline-Color-Sensational-Lipstick-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 78,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "2つのメイベリンカラーセンセーショナルクリームフィニッシュリップスティックのみ$ 4.xxアマゾン（登録$ 18 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "2つのメイベリンカラーセンセーショナルクリームフィニッシュリップスティックのみ$ 4.xxアマゾン（登録$ 18 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "52aff01a2859",
+   "title": "Brigette’s $22.26 CVS Shopping Trip ($1.74 Money Maker after Rewards) and $39.04 Walgreens Shopping Trip ($11.63 after Rewards)!",
+   "link": "https://moneysavingmom.com/brigettes-22-26-cvs-shopping-trip-1-74-money-maker-after-rewards-and-39-04-walgreens-shopping-trip-11-63-after-rewards/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T10:59Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/CVS-2-630x473.jpg",
+   "hot": false,
+   "stores": [
+    "CVS",
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Brigetteの$ 22.26 CVSショッピング旅行（報酬後$ 1.74マネーメーカー）と$ 39.04 Walgreensショッピング旅行（報酬後$ 11.63 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "CVS・Walgreens",
+    "item": "Brigetteの$ 22.26 CVSショッピング旅行（報酬後$ 1.74マネーメーカー）と$ 39.04 Walgreensショッピング旅行（報酬後$ 11.63 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d5119d4e4f9a",
+   "title": "Free KONG Dog or Cat Toy!",
+   "link": "https://moneysavingmom.com/free-kong-dog-or-cat-toy/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T10:54Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/FREE-KONG-Toy-for-Cats-or-Dogs-630x382.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "item": "KONG犬猫用おもちゃ無料",
+    "when": "2026-10-27",
+    "what": "無料おもちゃ"
+   },
+   "ja": "KONG犬猫用おもちゃ無料",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "15a49d6b348f",
+   "title": "Dollar General Penny List: Updated Weekly + Penny Shopping Guide ⭐",
+   "link": "https://thefreebieguy.com/dollar-general-penny-shopping-master-list/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T10:48Z",
+   "firstSeen": "2026-10-27T11:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Dollar-General-Penny-List-840x630.png",
+   "hot": false,
+   "stores": [
+    "Dollar General"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ドル一般ペニーリスト：更新されたウィークリー+ペニーショッピングガイド ⭐",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Dollar General",
+    "item": "ドル一般ペニーリスト：更新されたウィークリー+ペニーショッピングガイド ⭐",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "0dfc2c3ff337",
    "title": "Pirate’s Booty Aged White Cheddar Cheese Puffs 24 Pack Just $7.xx on Amazon",
@@ -88,8 +907,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "1f3bd7e1deb6",
-   "date": null
+   "date": null,
+   "dup": "1f3bd7e1deb6"
   },
   {
    "id": "5d3cdbf27f65",
@@ -123,8 +942,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "2996550afe7a",
-   "date": null
+   "date": null,
+   "dup": "2996550afe7a"
   },
   {
    "id": "3995829631e5",
@@ -19351,7 +20170,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Kiss-Haunt-Nails.jpg?resize=306,182"
   },
   {
    "id": "5581d08184ae",
@@ -28030,295 +28850,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "256839907b7b",
-   "title": "Trunk or Treat at Legends Event Center",
-   "link": "https://events.bryantx.gov/default/Detail/2026-10-28-1800-Trunk-or-Treat-at-Legends-Event-Center",
-   "source": "City of Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-28",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-28",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Legends Event Center",
-    "item": "Legends Event Centerのトランクオアトリート。夕方18時から。",
-    "when": "10/28(水) 18時",
-    "cond": "子供向け",
-    "what": "トランクオアトリート",
-    "where": "Legends（ブライアン）"
-   },
-   "ja": "Legends Event Centerのトランクオアトリート。夕方18時から。",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-28"
-  },
-  {
-   "id": "5bbe060b2576",
-   "title": "Trunk or Treat at Aggieland Humane Society",
-   "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-aggieland-humane-society/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-30",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-30",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Aggieland Humane Society",
-    "item": "動物愛護協会でのトランクオアトリート。動物にも会える。",
-    "when": "10/30(金)",
-    "cond": "子供向け・動物",
-    "what": "トランクオアトリート",
-    "where": "アギーランド動物協会"
-   },
-   "ja": "動物愛護協会でのトランクオアトリート。動物にも会える。",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-30"
-  },
-  {
-   "id": "a509967cee06",
-   "title": "Little Kids Spooky Carnival at Clara B. Mounce Library",
-   "link": "https://www.destinationbryan.com/events/little-kids-spooky-carnival/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Clara B. Mounce Library",
-    "item": "小さな子ども向けのハロウィンカーニバル。図書館で。",
-    "when": "10/31(土)",
-    "cond": "子供向け",
-    "what": "ハロウィンカーニバル",
-    "where": "Mounce図書館"
-   },
-   "ja": "小さな子ども向けのハロウィンカーニバル。図書館で。",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-31"
-  },
-  {
-   "id": "20b160df8905",
-   "title": "Halloween Costume Party on Wheels at Happy Feet Skating Rink",
-   "link": "https://www.destinationbryan.com/events/halloween-costume-party-on-wheels-at-happy-feet-skating-rink/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-30",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-30",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Happy Feet Skating Rink",
-    "item": "仮装してローラースケートを楽しむハロウィン会。",
-    "when": "10/30(金)",
-    "cond": "仮装・子供向け",
-    "what": "仮装スケート会",
-    "where": "Happy Feet Rink"
-   },
-   "ja": "仮装してローラースケートを楽しむハロウィン会。",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-30"
-  },
-  {
-   "id": "3de604c17d5c",
-   "title": "Jim Henson's Fraggle Rock: Back to the Rock (OPAS)",
-   "link": "https://www.destinationbryan.com/events/jim-hensons-fraggle-rock-back-to-the-rock-live-at-opas/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-30",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Rudder Theater",
-    "item": "Jim Hensonの『Fraggle Rock』ライブ公演。",
-    "when": "10/30(金)〜10/31(土)",
-    "cond": "家族向け舞台",
-    "what": "フラグルロック",
-    "where": "Rudder Theater"
-   },
-   "ja": "Jim Hensonの『Fraggle Rock』ライブ公演。",
-   "jaVia": "claude-ev",
-   "date": "2026-10-30"
-  },
-  {
-   "id": "74f8cf90347a",
-   "title": "The Farmers' Market in Brazos County",
-   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Midtown Park",
-    "item": "毎週土曜のファーマーズマーケット（ミッドタウン公園）。",
-    "when": "毎週土曜",
-    "cond": "屋外・マーケット",
-    "what": "ファーマーズ市",
-    "where": "Midtown Park"
-   },
-   "ja": "毎週土曜のファーマーズマーケット（ミッドタウン公園）。",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-10-31"
-  },
-  {
-   "id": "fadc4d000f54",
-   "title": "Rountree Market at Midtown Park",
-   "link": "https://www.destinationbryan.com/events/sunday-market-at-rountree/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-11-01",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-01",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Midtown Park",
-    "item": "ミッドタウン公園の日曜マーケット。",
-    "when": "11/1(日)",
-    "cond": "屋外・マーケット",
-    "what": "日曜マーケット",
-    "where": "Midtown Park"
-   },
-   "ja": "ミッドタウン公園の日曜マーケット。",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-01"
   }
  ]
 }
