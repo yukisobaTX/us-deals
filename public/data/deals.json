@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T13:01Z",
- "count": 857,
+ "updated": "2026-10-27T13:52Z",
+ "count": 870,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 3
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 6
   },
   "mws": {
    "read": 20,
@@ -49,13 +49,453 @@
   "ja": {
    "gemini": 8,
    "geminiEvent": 0,
-   "mymemory": 3,
-   "geminiToday": 9,
+   "mymemory": 7,
+   "geminiToday": 10,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "15c5c305639f",
+   "title": "T-Mobile Tuesdays for T-Mobile & Metro Customers – Score a FREE 2-in-1 Lantern Flashlight!",
+   "link": "https://thefreebieguy.com/t-mobile-tuesdays-deals-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T13:46Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/T-Mobile-Lantern-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "T-Mobile",
+    "item": "2-in-1ランタン懐中電灯",
+    "when": "10/27",
+    "cond": "会員限定",
+    "what": "無料ランタン",
+    "where": "T-Mobile"
+   },
+   "ja": "2-in-1ランタン懐中電灯",
+   "jaVia": "gemini",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "345e4f72e5bb",
+   "title": "Crest Kid’s Toothpaste Only $1.xx Each WYB 3 at Walmart!",
+   "link": "https://thefreebieguy.com/crest-kids-toothpaste/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T13:43Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/kids-crest-toothpaste-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Crest Kidの歯磨き粉はウォルマートで各WYB 3 $ 1.xxのみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Crest Kidの歯磨き粉はウォルマートで各WYB 3 $ 1.xxのみ！",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "c30eef7ed9aa",
+   "title": "Great Value Strong Flex 33 Gallon Trash Bags 4-Pack Only $21 at Walmart (Reg $38)",
+   "link": "https://thefreebieguy.com/great-value-trash-bags/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T13:35Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/strong-flex-trash-bags-great-value-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 21.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "お買い得ストロングフレックス33ガロンゴミ袋4個パックのみウォルマートで$ 21 （登録価格$ 38 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "お買い得ストロングフレックス33ガロンゴミ袋4個パックのみウォルマートで$ 21 （登録価格$ 38 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4b93ff92788d",
+   "title": "Better Homes & Gardens 2-Piece Clear Ribbed Tritan Sipper Set Only $2 at Walmart!",
+   "link": "https://thefreebieguy.com/better-homes-gardens-tritan-sipper-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T13:35Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/walmart-sipper-set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Better Homes & Gardens 2ピースクリアリブトリタンシッパーセットはウォルマートで$ 2のみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Better Homes & Gardens 2ピースクリアリブトリタンシッパーセットはウォルマートで$ 2のみ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b9082f9d8931",
+   "title": "Drizzilicious Peppermint Mini Rice Cakes Family Size Bag ONLY $4.98 at Sam’s Club",
+   "link": "https://hip2save.com/deals/drizzilicious-rice-cakes/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T13:30Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Drizzilicious-Peppermint-Mini-Rice-Cakes.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブでわずか$ 4.98のドリジリシャスペパーミントミニライスケーキファミリーサイズバッグ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "サムズクラブでわずか$ 4.98のドリジリシャスペパーミントミニライスケーキファミリーサイズバッグ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "355c8cac136c",
+   "title": "Best Buy Just Dropped Their 2026 Black Friday Schedule (Here’s What You Need to Know!)",
+   "link": "https://hip2save.com/deals/best-buy-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T13:22Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/10/best-buy-4.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Best Buyが2026年のブラックフライデースケジュールを廃止しました（知っておくべきことは次のとおりです！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Best Buyが2026年のブラックフライデースケジュールを廃止しました（知っておくべきことは次のとおりです！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "adefc69875cd",
+   "title": "7.5′ Pre-Lit Slim Christmas Tree Only $39.99 Shipped for Prime Members (Reg. $155)",
+   "link": "https://hip2save.com/deals/woot-christmas/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T13:15Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/woot-christmas-tree.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 74,
+   "price": 39.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "7.5 'プレライトスリムクリスマスツリーのみ$ 39.99プライムメンバー向けに発送（登録価格$ 155 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "7.5 'プレライトスリムクリスマスツリーのみ$ 39.99プライムメンバー向けに発送（登録価格$ 155 ）",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "a61afc58448f",
+   "title": "Earn Prizes & Freebies with the Junior Ranger Challenge!",
+   "link": "https://thefreebieguy.com/earn-prizes-freebies-with-the-junior-ranger-challenge/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T13:12Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/The-Freebie-Guy-Junior-Ranger-Program-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "sum": {
+    "item": "賞品・無料特典",
+    "what": "無料特典",
+    "where": "ジュニアレンジャー"
+   },
+   "ja": "賞品・無料特典",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "ef98677c68f9",
+   "title": "Huge Price Drops on LEGO Botanical Collection and Flower Sets!",
+   "link": "https://moneysavingmom.com/rare-deals-on-lego-botanical-collection-sets/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T13:11Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/08/Screenshot-2025-12-11-at-9.13.04 AM-630x576.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レゴボタニカルコレクションとフラワーセットが大幅値下げ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "レゴボタニカルコレクションとフラワーセットが大幅値下げ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cf389026a9b4",
+   "title": "Coslus Water Dental Flosser Pick Only $8.xx on Amazon (Reg. $43)",
+   "link": "https://thefreebieguy.com/coslus-flosser/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T13:11Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/COSLUS-Water-Dental-Flosser-Tooth-Pick-840x630.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 81,
+   "price": 8.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "249fe81f7c7f",
+   "title": "Palmolive Dish Soap Just $1.15 at CVS (Reg. $4) – All You Have to Do Is Clip a Coupon!",
+   "link": "https://hip2save.com/deals/palmolive-dish-soap/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T13:10Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Palmolive-soaps.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "CVS"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "coupon"
+   ],
+   "pct": 71,
+   "price": 1.15,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "CVS",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a159e488c29b",
+   "title": "Pink Stork Women’s Health Probiotic, 50 Billion CFU, 30 count just $17.99, plus more!",
+   "link": "https://moneysavingmom.com/pink-stork-total-prenatal-vitamins-one-month-supply-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T13:06Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/02/Screenshot-2026-02-02-at-3.11.11 PM-630x597.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "95df5b1005dd",
+   "title": "Sonic Deals, Coupons & Promo Codes | $0.50 Corn Dogs on October 31st!",
+   "link": "https://moneysavingmom.com/sonic-promo-codes-deals-specials/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T13:02Z",
+   "firstSeen": "2026-10-27T13:52Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Screenshot-2025-10-31-at-6.54.04 AM-630x844.jpg",
+   "hot": false,
+   "stores": [
+    "Sonic"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Sonic",
+    "item": "",
+    "when": "",
+    "cond": "コード入力"
+   },
+   "date": null
+  },
   {
    "id": "8b1f3dc257f2",
    "title": "Hisense 65″ Class QD5 Hi-QLED 4K UHD Smart Roku TV Only $329.xx on Best Buy (Reg $550)",
