@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T21:18Z",
- "count": 972,
+ "updated": "2026-10-27T21:48Z",
+ "count": 979,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -48,15 +48,254 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 0,
-   "mymemory": 9,
-   "geminiToday": 18,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "geminiEvent": 1,
+   "mymemory": 13,
+   "geminiToday": 19,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "b3f04d63ef95",
+   "title": "TWO Bags of Laffy Taffy Banana Mini Bars JUST $1.xx on Amazon (Reg. $5)",
+   "link": "https://thefreebieguy.com/laffy-taffy-mini-bar-bag-banana/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T21:43Z",
+   "firstSeen": "2026-10-27T21:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Laffy-Taffy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 80,
+   "price": 1.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでわずか$ 1.xxのラフィータフィーバナナミニバー2袋（登録価格$ 5 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでわずか$ 1.xxのラフィータフィーバナナミニバー2袋（登録価格$ 5 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "34ca88df5182",
+   "title": "Beautiful by Drew Barrymore 4-Quart Slow Cooker Just $24.98 (Perfect for Holiday Cooking!)",
+   "link": "https://hip2save.com/deals/beautiful-by-drew-barrymore-slow-cookers/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T21:35Z",
+   "firstSeen": "2026-10-27T21:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Drew-Barrymore-Slow-Cooker.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Drew Barrymoreによる美しい4クォートスロークッカー、わずか$ 24.98 （ホリデークッキングに最適！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Drew Barrymoreによる美しい4クォートスロークッカー、わずか$ 24.98 （ホリデークッキングに最適！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "03c72a79e715",
+   "date": null
+  },
+  {
+   "id": "76c5f866a3b9",
+   "title": "Reduce Chiller & Chiller Go Water Bottle 2-Pack Just $12.49 on Target.com",
+   "link": "https://hip2save.com/deals/target-reduce-tumbler/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T21:30Z",
+   "firstSeen": "2026-10-27T21:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/reduce-water-bottles.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Target.comでチラー＆チラーゴーウォーターボトル2パックを$ 12.49で削減",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Target.comでチラー＆チラーゴーウォーターボトル2パックを$ 12.49で削減",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "b87e3b2a22f8",
+   "date": null
+  },
+  {
+   "id": "55807eb60f57",
+   "title": "HP 14 Inch Everyday Laptop Only $319.xx on Amazon (Reg $700)",
+   "link": "https://thefreebieguy.com/hp-14-inch-everyday-laptop/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T21:28Z",
+   "firstSeen": "2026-10-27T21:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/HP-14-Inch-Everyday-Laptop-2027-Edition-featured-image-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 54,
+   "price": 319.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "HP 14インチ毎日ノートパソコンのみ$ 319.xx Amazon （登録価格$ 700 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "HP 14インチ毎日ノートパソコンのみ$ 319.xx Amazon （登録価格$ 700 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6f26da700434",
+   "title": "These Grinch Teethers Are Perfect for a Baby’s Stocking!",
+   "link": "https://hip2save.com/deals/infantino-grinch-baby-teethers/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T21:25Z",
+   "firstSeen": "2026-10-27T21:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/The-Grinch-Max-Silicone-Baby-Pop-Teethers-2-Pack.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "このグリンチティーターは赤ちゃんのストッキングにぴったりです！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "このグリンチティーターは赤ちゃんのストッキングにぴったりです！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5b93a773e452",
+   "title": "Play-Doh Rainbow Swirl Ice Cream Playset Only $11.xx on Amazon (Reg. $25)",
+   "link": "https://thefreebieguy.com/play-doh-rainbow-swirl-ice-cream-playset/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T21:25Z",
+   "firstSeen": "2026-10-27T21:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/play-doh-ice-cream-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 56,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Play - Dohレインボースワールアイスクリームプレイセットのみ$ 11.xx Amazon （登録価格$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Play - Dohレインボースワールアイスクリームプレイセットのみ$ 11.xx Amazon （登録価格$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f39fde9a15c0",
+   "title": "Amazon Basics Dutch Oven Only $19 (Reg. $32)",
+   "link": "https://hip2save.com/deals/amazon-basics-dutch-oven/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T21:20Z",
+   "firstSeen": "2026-10-27T21:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Amazon-Basics-4.3-Quart-Cast-Iron-Dutch-Oven.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 19.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Basicsオランダ製オーブンのみ$ 19 （登録番号： $ 32 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Basicsオランダ製オーブンのみ$ 19 （登録番号： $ 32 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "963dbb837684",
    "title": "Telescoping LED Flashlight & Magnetic Pickup Tool Just $8.99 on Amazon (Reg. $19)",
@@ -388,15 +627,17 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "テキサス州小児病院とのテキサスAGの歴史的和解の結果として、国内初のデトランジションクリニックが開設されました",
-   "jaVia": "mymemory",
+   "ja": "「Texas Children's」脱性転換外来を開設",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "テキサス州小児病院とのテキサスAGの歴史的和解の結果として、国内初のデトランジションクリニックが開設されました",
-    "when": "",
-    "cond": ""
+    "store": "Texas Children's Hospital",
+    "item": "「Texas Children's」脱性転換外来を開設",
+    "when": "10/27(火)〜",
+    "cond": "",
+    "what": "専門外来開設",
+    "where": "Texas Children's"
    },
-   "date": null
+   "date": "2026-10-27"
   },
   {
    "id": "1f04d90d7f0a",
@@ -24664,7 +24905,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/target-threshold-small-pumpkin-candle.jpg?resize=306,182"
   },
   {
    "id": "25028e662487",
