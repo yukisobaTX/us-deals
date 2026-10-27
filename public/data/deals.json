@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27T07:57Z",
- "count": 814,
+ "updated": "2026-10-27T08:55Z",
+ "count": 817,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -47,15 +47,113 @@
    "added": 0
   },
   "ja": {
-   "gemini": 25,
+   "gemini": 11,
    "geminiEvent": 0,
-   "mymemory": 2,
-   "geminiToday": 3,
+   "mymemory": 1,
+   "geminiToday": 4,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "42c2ba7fefed",
+   "title": "Convertible Boneless Loveseat Sofa Bed Only $138.xx on Amazon (Reg $220)",
+   "link": "https://thefreebieguy.com/tykacna-convertible-boneless-loveseat-sofa-bed/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T08:49Z",
+   "firstSeen": "2026-10-27T08:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Tykacna-Convertible-Boneless-Loveseat-Sofa-Bed-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 37,
+   "price": 138.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "骨なしラブシートソファベッド（コンバーチブルタイプ）がAmazonでわずか138.xxドル（通常価格220ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "骨なしラブシートソファベッド（コンバーチブルタイプ）がAmazonでわずか138.xxドル（通常価格220ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "29ed849d836a",
+   "title": "George Men’s Ribbed Fleece Lined Knit Beanie Just $1.xx at Walmart (Reg. $10)",
+   "link": "https://thefreebieguy.com/george-knit-beanie/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T08:15Z",
+   "firstSeen": "2026-10-27T08:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/George-Ribbed-Fleece-Lined-Knit-Beanie--945x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 90,
+   "price": 1.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ea5d114908ef",
+   "title": "Bedsure GentleSoft 50″x60″ Reversible Sherpa Fleece Throw Blanket Only $10.xx on Amazon (Reg $35)",
+   "link": "https://thefreebieguy.com/bedsure-gentlesoft-reversible-sherpa-fleece-throw-blanket/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T08:05Z",
+   "firstSeen": "2026-10-27T08:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Bedsure-GentleSoft-Sherpa-Fleece-Throw-Blanket-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 10.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "707a36166fe5",
    "title": "ARM & HAMMER Clean Scentsations In-Wash Scent Booster Just $1.xx After Walmart Cash",
@@ -122,8 +220,8 @@
     "when": "",
     "cond": "子ども向け"
    },
-   "dup": "099c027c5566",
-   "date": null
+   "date": null,
+   "dup": "099c027c5566"
   },
   {
    "id": "9080d6798e6c",
@@ -27640,13 +27738,15 @@
    "date": null,
    "event": "prime-day",
    "eventNews": false,
-   "ja": "プライムデイパッケージを大量に入手していますか？この無料の配達ドライバーのサインを印刷してください！",
-   "jaVia": "mymemory",
+   "ja": "配達員向け感謝サイン素材",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "プライムデイパッケージを大量に入手していますか？この無料の配達ドライバーのサインを印刷してください！",
+    "item": "配達員向け感謝サイン素材",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料感謝サイン",
+    "where": "オンライン"
    }
   },
   {
@@ -27671,13 +27771,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "Crunchtimeピザ",
+   "ja": "クランチタイム ピザ",
    "jaVia": "gemini",
    "sum": {
     "store": "Red Baron",
-    "item": "Crunchtimeピザ",
+    "item": "クランチタイム ピザ",
     "when": "",
-    "cond": "先着1万名"
+    "cond": "先着1万名",
+    "what": "無料ピザ",
+    "where": "Red Baron"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/red-baron-crunchtime-pizza-1.jpg?resize=306,182",
    "date": null,
