@@ -33,9 +33,11 @@
 
 ## お出かけ先(カレッジステーション周辺、2026-10-26 追加・本人指定)
 - 本人の希望:遊び場・お出かけ先になる公園イベント・動物(動物園・サファリ)・エンタメ・スポーツを充実させる。**A&M 関連のスポーツは不要**。
-- 情報源(HTML のイベント一覧、config/sources.json の html・everyHours・delay):
-  - Destination Bryan(観光局)https://www.destinationbryan.com/events/ … parse_dbryan()。カード(名前・リンク・カテゴリ・次の開催日〜終了日・画像)。4ページ(48件)、6時間ごと、5秒間隔。robots.txt は /cpresources/・/vendor/ 以外許可。
-  - ブライアン市の催し https://events.bryantx.gov/default/List … parse_bryangov()。詳細 URL に日時と題名。今月分だけ(? 付きの URL は robots.txt で不可)。6時間ごと、Crawl-delay 15 秒。
+- 情報源(イベント一覧):GitHub Actions からは取れない(ブライアン市は 403、Destination Bryan は一覧が空)ため、**Claude の朝の定期実行が Firecrawl で読み、scripts/import_events.py で取り込む**。
+  - Destination Bryan(観光局)https://www.destinationbryan.com/events/ と ?page=2・?page=3(robots.txt は /cpresources/・/vendor/ 以外許可)。
+  - ブライアン市の催し https://events.bryantx.gov/default/List(今月分。? 付きは robots.txt で不可、Crawl-delay 15)。
+  - import_events.py:入力は [{title, link, start, end, category, source, what, where, item, when, cond}]。outing_ng() で除外、既存は開催日・要約を更新、新規は region=College Station・calendar=true・jaVia=claude-ev。
+  - fetch_deals.py の parse_dbryan()・parse_bryangov()・html/everyHours/delay の仕組みは、Actions で取れるようになったとき用に残している(tests/fixtures の HTML で試験)。
   - 見送り:Visit College Station(visit.cstx.gov/events。一覧が画面上で読み込まれず取れない)、Tockify の図書館カレンダー(/api/ が robots.txt で不可)、The Eagle(RSS が全国の芸能記事)、Aggieland Safari・Children's Museum(催しは Facebook・Instagram のみ)→ サイトの「家族のお出かけ」タブの公式リンク集(links.json の cat=family)に載せる。
 - 除外 outing_ng():A&M のスポーツ(AGGIE_SPORTS_RE:Aggie/A&M+試合・vs・Gameday・Midnight Yell・Kyle Field など、カテゴリ Aggie Sports)、夜の店の定例(ADULT_NIGHT_RE:bar・pub・open mic・karaoke・trivia・mixology など、カテゴリ Nightlife)、会議(MEETING_RE)。A&M の博物館・展示は残す。
 - 種類 outing_kinds() → items[].outing:公園・屋外🌳/動物🦒/エンタメ🎪/スポーツ⚽/子供向け🧒。outing がある地元記事は family=true(家族のお出かけ欄・タブに入る)。

@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-27T00:13Z",
- "count": 801,
+ "count": 808,
  "stats": {
   "h2s": {
    "read": 100,
@@ -331,13 +331,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "アップルビーのセール|無料の骨のない翼とその他色々！",
-   "jaVia": "mymemory",
+   "ja": "骨なしウイング無料ほか",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "アップルビーのセール|無料の骨のない翼とその他色々！",
+    "store": "Applebee's",
+    "item": "骨なしウイング無料ほか",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料ウイング",
+    "where": "Applebee's"
    },
    "date": null
   },
@@ -366,13 +368,15 @@
     "kind": "store",
     "when": "2026-10-26"
    },
-   "ja": "10月26日に無料のレッドブルの缶詰–最初の5,000個！",
-   "jaVia": "mymemory",
+   "ja": "レッドブル1缶無料(先着5,000名)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "10月26日に無料のレッドブルの缶詰–最初の5,000個！",
+    "store": "Red Bull",
+    "item": "レッドブル1缶無料(先着5,000名)",
     "when": "10/26(月)",
-    "cond": "先着5,000名"
+    "cond": "先着5,000名",
+    "what": "無料レッドブル",
+    "where": "オンライン"
    },
    "date": "2026-10-26"
   },
@@ -469,13 +473,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "AT&Tのお客様：アカウントをリンクすると、5,000アメリカン航空マイルが無料（最初の65,000マイル）",
-   "jaVia": "mymemory",
+   "ja": "AT&T会員がアカウント連携でAAマイル5,000",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "AT&Tのお客様：アカウントをリンクすると、5,000アメリカン航空マイルが無料（最初の65,000マイル）",
+    "store": "AT&T",
+    "item": "AT&T会員がアカウント連携でAAマイル5,000",
     "when": "",
-    "cond": "先着65,000名"
+    "cond": "AT&T会員・先着",
+    "what": "5千マイル",
+    "where": "AT&T"
    },
    "date": null
   },
@@ -772,13 +778,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "テントに荷物をまとめよう：リック・クリーク・パーク・イン・ザ・ダークが11月の夜に帰ってきます",
-   "jaVia": "mymemory",
+   "ja": "Lick Creek Parkの夜のキャンプ「Park in the Dark…",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "",
-    "item": "テントに荷物をまとめよう：リック・クリーク・パーク・イン・ザ・ダークが11月の夜に帰ってきます",
-    "when": "",
-    "cond": ""
+    "store": "Lick Creek Park",
+    "item": "Lick Creek Parkの夜のキャンプ「Park in the Dark…",
+    "when": "11月",
+    "cond": "要予約",
+    "what": "公園で夜キャンプ",
+    "where": "Lick Creek Park"
    },
    "date": null,
    "outing": [
@@ -950,13 +958,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "最高のアマゾンファッションプロモーションコード： $ 14で人々にインスパイアされたカーディガンが無料！",
-   "jaVia": "mymemory",
+   "ja": "Amazonファッションのプロモコード",
+   "jaVia": "claude",
    "sum": {
     "store": "Amazon",
-    "item": "最高のアマゾンファッションプロモーションコード： $ 14で人々にインスパイアされたカーディガンが無料！",
+    "item": "Amazonファッションのプロモコード",
     "when": "",
-    "cond": "コード入力"
+    "cond": "コード入力",
+    "what": "服のクーポン",
+    "where": "Amazon"
    },
    "date": null
   },
@@ -1229,13 +1239,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "新しいドッグマンブックを予約して、無料の$ 5ターゲットギフトカードを手に入れよう",
-   "jaVia": "mymemory",
+   "ja": "Dog Man新刊の予約で$5ギフトカード",
+   "jaVia": "claude",
    "sum": {
     "store": "Target",
-    "item": "新しいドッグマンブックを予約して、無料の$ 5ターゲットギフトカードを手に入れよう",
+    "item": "Dog Man新刊の予約で$5ギフトカード",
     "when": "",
-    "cond": ""
+    "cond": "新刊の予約",
+    "what": "$5ギフト券",
+    "where": "Target"
    },
    "date": null
   },
@@ -1537,13 +1549,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "* HOT * 30日間無料Curologyスキンケアボックス+限定版カスタムフォーミュラボトル{送料$ 5.45 ！}",
-   "jaVia": "mymemory",
+   "ja": "スキンケア30日分が無料(送料$5.45)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "* HOT * 30日間無料Curologyスキンケアボックス+限定版カスタムフォーミュラボトル{送料$ 5.45 ！}",
+    "store": "Curology",
+    "item": "スキンケア30日分が無料(送料$5.45)",
     "when": "",
-    "cond": ""
+    "cond": "送料$5.45",
+    "what": "スキンケア試供",
+    "where": "Curology"
    },
    "date": null
   },
@@ -1647,13 +1661,15 @@
     "when": null,
     "roundup": true
    },
-   "ja": "2026年の最高のハロウィンセールとフード景品– 7 Brew、クリスピー・クリームなど！",
-   "jaVia": "mymemory",
+   "ja": "ハロウィンの飲食無料・特典まとめ(7 Brew・Krispy Kreme等)",
+   "jaVia": "claude",
    "sum": {
-    "store": "Krispy Kreme・7 Brew",
-    "item": "2026年の最高のハロウィンセールとフード景品– 7 Brew、クリスピー・クリームなど！",
-    "when": "",
-    "cond": ""
+    "store": "各チェーン店",
+    "item": "ハロウィンの飲食無料・特典まとめ(7 Brew・Krispy Kreme等)",
+    "when": "10/31(土)",
+    "cond": "",
+    "what": "ハロウィン特典集",
+    "where": "各チェーン店"
    },
    "date": null
   },
@@ -27141,6 +27157,290 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "84995c4651df",
+   "title": "E Pluribus Unum: Celebrating the American Experience at George H.W. Bush Presidential Library and Museum",
+   "link": "https://www.destinationbryan.com/events/e-pluribus-unum-at-george-bush-library-musuem/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2027-05-16",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-27",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "George H.W. Bush Library and …",
+    "item": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+    "when": "〜2027/5/16",
+    "what": "大統領館の特別展",
+    "where": "Bush図書館・博物館"
+   },
+   "ja": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-10-27"
+  },
+  {
+   "id": "afeca8c625f8",
+   "title": "Pumpkin Patch at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/pumpkin-patch-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-27",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-27",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Outdoors"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walkのパンプキンパッチ(写真スポット)",
+    "cond": "家族向け",
+    "what": "パンプキン畑",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walkのパンプキンパッチ(写真スポット)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外"
+   ],
+   "family": true,
+   "date": "2026-10-27"
+  },
+  {
+   "id": "3c2b2dca5a61",
+   "title": "Pumpkin Patch with Habitat for Humanity",
+   "link": "https://www.destinationbryan.com/events/pumpkin-patch-wtih-habitat/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-27",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-27",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Outdoors"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Habitat for Humanity",
+    "item": "Habitat for Humanityのパンプキンパッチ",
+    "cond": "家族向け",
+    "what": "パンプキン畑",
+    "where": "Habitat(E 29th…"
+   },
+   "ja": "Habitat for Humanityのパンプキンパッチ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外"
+   ],
+   "family": true,
+   "date": "2026-10-27"
+  },
+  {
+   "id": "e2240f308405",
+   "title": "\"Sea to Shining Sea\" Art Exhibit at DeGallery",
+   "link": "https://www.destinationbryan.com/events/visual-art-society-bcs-from-sea-to-shining-sea/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-27",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-27",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "DeGallery",
+    "item": "地元美術協会の展示「Sea to Shining Sea」",
+    "what": "美術展",
+    "where": "DeGallery"
+   },
+   "ja": "地元美術協会の展示「Sea to Shining Sea」",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-10-27"
+  },
+  {
+   "id": "62bd3b907d62",
+   "title": "Trunk or Treat at Legends Event Center",
+   "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-legends-event-center-3-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-28",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-28",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Legends Event Center",
+    "item": "車のトランクでお菓子をもらうハロウィン行事",
+    "when": "10/28(水) 18時",
+    "cond": "子供向け",
+    "what": "トランクオアトリート",
+    "where": "Legends Event …"
+   },
+   "ja": "車のトランクでお菓子をもらうハロウィン行事",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-28"
+  },
+  {
+   "id": "dd0b1bd4468a",
+   "title": "Lake Walk Run Club",
+   "link": "https://www.destinationbryan.com/events/lake-walk-run-club/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-30",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fitness"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walkのランニングクラブ",
+    "when": "10/30(金)",
+    "what": "ランニング会",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walkのランニングクラブ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-10-30"
+  },
+  {
+   "id": "5eff440e9464",
+   "title": "Trunk or Treat So Kids Can Eat",
+   "link": "https://events.bryantx.gov/default/Detail/2026-10-31-1000-Trunk-or-Treat-So-Kids-Can-Eat",
+   "source": "City of Bryan",
+   "posted": "2026-10-27T00:17Z",
+   "firstSeen": "2026-10-27T00:17Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "City of Bryan"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "City of Bryan",
+    "item": "子供向けトランクオアトリート(食料支援の催し)",
+    "when": "10/31(土) 10時",
+    "cond": "子供向け",
+    "what": "トランクオアトリート",
+    "where": "Bryan市"
+   },
+   "ja": "子供向けトランクオアトリート(食料支援の催し)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-31"
   }
  ]
 }

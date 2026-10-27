@@ -85,30 +85,6 @@
       "alert": false,
       "region": "College Station",
       "localOnly": true
-    },
-    {
-      "id": "dbryan",
-      "name": "Destination Bryan(観光局のイベント)",
-      "url": "https://www.destinationbryan.com/events/",
-      "html": "dbryan",
-      "pages": 4,
-      "everyHours": 6,
-      "delay": 5,
-      "alert": false,
-      "region": "College Station",
-      "_robots": "/cpresources/・/vendor/ 以外は許可。6時間ごと・4ページまで"
-    },
-    {
-      "id": "bryangov",
-      "name": "ブライアン市の催し",
-      "url": "https://events.bryantx.gov/default/List",
-      "html": "bryangov",
-      "pages": 1,
-      "everyHours": 6,
-      "delay": 15,
-      "alert": false,
-      "region": "College Station",
-      "_robots": "/*/List は許可(? 付きは不可)、Crawl-delay 15。今月分だけ"
     }
   ]
 }

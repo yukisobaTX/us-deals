@@ -695,8 +695,8 @@ def main():
     local_only = {f["name"] for f in sources["feeds"] if f.get("localOnly")}
     for x in by_id.values():
         posted = parse_date_iso(x["posted"])
-        if (now - posted).days > KEEP_DAYS:
-            continue
+        if (now - posted).days > KEEP_DAYS and not x.get("calendar"):
+            continue   # イベント一覧の催しは掲載日でなく開催日(expires)で消す
         if x["source"] in local_only and LOCAL_NG_RE.search(x["title"]):
             continue   # 除外の語を後から足したときも、既にある記事から外す
         if x.get("calendar") and outing_ng(x["title"], x.get("cats", [])):
