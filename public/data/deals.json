@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27T20:49Z",
- "count": 969,
+ "updated": "2026-10-27T21:18Z",
+ "count": 972,
  "stats": {
   "h2s": {
    "read": 100,
@@ -16,15 +16,15 @@
   },
   "ffp": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -36,7 +36,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -48,14 +48,117 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 1,
-   "mymemory": 17,
-   "geminiToday": 17,
-   "model": "gemini-flash-latest"
+   "geminiEvent": 0,
+   "mymemory": 9,
+   "geminiToday": 18,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "963dbb837684",
+   "title": "Telescoping LED Flashlight & Magnetic Pickup Tool Just $8.99 on Amazon (Reg. $19)",
+   "link": "https://hip2save.com/deals/biib-magnetic-pickup-tool/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T21:10Z",
+   "firstSeen": "2026-10-27T21:18Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/BIIB-Extendable-Magnetic-Pickup-Tool.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 8.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "伸縮LED懐中電灯＆磁気ピックアップツールAmazonでわずか$ 8.99 （登録価格$ 19 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "伸縮LED懐中電灯＆磁気ピックアップツールAmazonでわずか$ 8.99 （登録価格$ 19 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "813fb890f95e",
+   "title": "Zak Christmas Tumblers Just $14.97 on Walmart.com | The Grinch, Snoopy, Pooh & More",
+   "link": "https://hip2save.com/deals/zak-christmas-tumblers/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T21:05Z",
+   "firstSeen": "2026-10-27T21:18Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Zak-Cups-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comのZAKクリスマスタンブラーはたったの$ 14.97 |グリンチ、スヌーピー、プーさんなど",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comのZAKクリスマスタンブラーはたったの$ 14.97 |グリンチ、スヌーピー、プーさんなど",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3e4128eb2bb4",
+   "title": "Automatic Pet Water Fountain Only $18.xx on Amazon (Reg. $40)",
+   "link": "https://thefreebieguy.com/automatic-pet-water-fountain-deal-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T20:54Z",
+   "firstSeen": "2026-10-27T21:18Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/04/pet-water-fountain-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 18.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンの自動ペット用噴水のみ$ 18.xx （登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンの自動ペット用噴水のみ$ 18.xx （登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "2becf7674599",
    "title": "Dainty 18K Gold Plated Initial Bracelet Only $3.xx on Amazon (Reg $10)",
@@ -88,8 +191,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "9108ebab410c",
-   "date": null
+   "date": null,
+   "dup": "9108ebab410c"
   },
   {
    "id": "e6f8bdc3ef79",
@@ -284,10 +387,6 @@
    "price": null,
    "event": null,
    "eventNews": false,
-   "outing": [
-    "子供向け"
-   ],
-   "family": true,
    "freebie": null,
    "ja": "テキサス州小児病院とのテキサスAGの歴史的和解の結果として、国内初のデトランジションクリニックが開設されました",
    "jaVia": "mymemory",
@@ -22456,7 +22555,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Sams-Club-Holiday-Throws.jpg?resize=306,182"
   },
   {
    "id": "f59303e227b1",
