@@ -35,6 +35,7 @@ MAX_LOCAL_HOU = 5
 FAMILY_DAYS = 7
 MAX_FAMILY_CS = 10
 MAX_FAMILY_HOU = 4
+MAX_HOU_FREE = 5
 TYPE_JA = {"free": "無料", "bogo": "BOGO", "coupon": "クーポン", "gc": "ギフトカード", "sale": "セール"}
 
 
@@ -201,11 +202,16 @@ def build(items, since, site):
     loc_hou = by_date([x for x in loc if x["region"] == "Houston"])[:MAX_LOCAL_HOU]
     local_ids = {x["id"] for x in loc_cs + loc_hou}
     fbs = [x for x in fbs if x["id"] not in local_ids | fam_ids]
+    # ヒューストンの無料情報は前半(カレッジステーション・全国)から外し、後半のヒューストン欄へ(本人指定 10/27)
+    hou_fbs = [x for x in fbs if x.get("region") == "Houston"]
+    fbs = [x for x in fbs if x.get("region") != "Houston"]
     near = [x for x in fbs if x.get("date") in (t_iso, tomorrow)
             or (not x.get("date") and x["firstSeen"] > since)]
     near = by_date([x for x in near if is_pure_free(x) and is_goods(x)])
     # この先:明後日〜2週間先の無料情報(短文のみ。毎朝の予定表として繰り返し載せる)
     later = by_date([x for x in fbs if x.get("date") and tomorrow < x["date"] <= horizon and is_goods(x)])[:MAX_LATER]
+    hou_free = by_date([x for x in hou_fbs if is_goods(x) and (
+        (x.get("date") and t_iso <= x["date"] <= horizon) or (not x.get("date") and x["firstSeen"] > since))])[:MAX_HOU_FREE]
     # 大型セール:前回のまとめ以降の記事を、セールごとに最大3件(短文のみ)
     ev_labels = {e["id"]: e["label"] for e in json.loads(STORES.read_text()).get("events", [])}
     ev_lines = []
@@ -214,30 +220,34 @@ def build(items, since, site):
                     and not x.get("freebie") and not x.get("dup")],
                    key=lambda x: x["posted"], reverse=True)
         ev_lines += [line(x, t_iso, tomorrow, head=f"【{lab}】") for x in g[:3]]
-    n = len(near) + len(later) + len(ev_lines) + len(local_ids) + len(fam_ids)
+    n_hou = len(fam_hou) + len(loc_hou) + len(hou_free)
+    n = len(near) + len(later) + len(ev_lines) + len(fam_cs) + len(loc_cs) + n_hou
     ln = lambda x: line(x, t_iso, tomorrow)
-    parts = [f"今日・明日{len(near)}", *([f"家族{len(fam_ids)}"] if fam_ids else []),
-             *([f"地元{len(local_ids)}"] if local_ids else []), *([f"今後{len(later)}"] if later else [])]
+    # 件名:カレッジステーション(と全国)の件数を先に、ヒューストンは最後にまとめて
+    parts = [f"今日・明日{len(near)}", *([f"家族{len(fam_cs)}"] if fam_cs else []),
+             *([f"地元{len(loc_cs)}"] if loc_cs else []), *([f"今後{len(later)}"] if later else []),
+             *([f"ヒューストン{n_hou}"] if n_hou else [])]
     title = f"お得ノート {today.month}/{today.day}:" + "/".join(parts)
     lines = [f"{MENTION} おはようございます。「日付：何が；どこで」で並べています(何がをタップで記事)。",
              *([f"一覧: {site}"] if site else []), "", "## 🎁 今日・明日(無料の食べ物・もらえる物、BOGO)"]
     lines += [ln(x) for x in near] or ["- 該当なし"]
-    if fam_ids:
-        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(1週間。🌳公園 🦒動物 🎪エンタメ ⚽スポーツ 🧒子供)"]
-        if fam_cs:
-            lines += ["**カレッジステーション**", *[ln(x) for x in fam_cs]]
-        if fam_hou:
-            lines += ["**ヒューストン**", *[ln(x) for x in fam_hou]]
-    if local_ids:
-        lines += ["", "## 📍 地元"]
-        if loc_cs:
-            lines += ["**カレッジステーション**", *[ln(x) for x in loc_cs]]
-        if loc_hou:
-            lines += ["**ヒューストン**", *[ln(x) for x in loc_hou]]
+    if fam_cs:
+        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(カレッジステーション周辺・1週間。🌳公園 🦒動物 🎪エンタメ ⚽スポーツ 🧒子供)",
+                  *[ln(x) for x in fam_cs]]
+    if loc_cs:
+        lines += ["", "## 📍 地元(カレッジステーション周辺)", *[ln(x) for x in loc_cs]]
     if later or ev_lines:
         lines += ["", "## 📅 今後(詳細はサイト)", *[ln(x) for x in later]]
         if ev_lines:
             lines += ["", "**🛍 大型セール**", *ev_lines]
+    if n_hou:
+        lines += ["", "", "## 🏙 ヒューストン(お出かけ・遠出用)"]
+        if fam_hou:
+            lines += ["**👨‍👩‍👧 家族のお出かけ(1週間)**", *[ln(x) for x in fam_hou]]
+        if loc_hou:
+            lines += ["**📍 催し・地元情報**", *[ln(x) for x in loc_hou]]
+        if hou_free:
+            lines += ["**🎁 無料・BOGO(2週間)**", *[ln(x) for x in hou_free]]
     lines += ["", "---", "実施は店舗ごとに違うことがあります。リンク先・公式で確認してください。"]
     return title, "\n".join(lines), n
 

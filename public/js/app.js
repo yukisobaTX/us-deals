@@ -5,8 +5,9 @@
   const CATS = [
     { id: 'free', label: '🎁 無料でもらえる' },
     { id: 'family', label: '👨‍👩‍👧 家族のお出かけ' },
-    { id: 'local', label: '📍 地元' },
+    { id: 'local', label: '📍 カレッジステーション' },
     { id: 'event', label: '🛍 大型セール' },
+    { id: 'houston', label: '🏙 ヒューストン' },
     { id: 'all', label: 'すべて' },
     { id: 'grocery', label: 'スーパー' },
     { id: 'home', label: '雑貨・ホームセンター' },
@@ -19,6 +20,10 @@
     { id: 'gc', label: 'ギフトカード' }, { id: 'p50', label: '50%以上' }, { id: 'today', label: '期限が近い' }
   ];
   const DAY = 86400000;
+  // カレッジステーション(在住地)を優先し、ヒューストンは別タブと各一覧の後半に分ける(本人指定 10/27)
+  const SPECIAL = ['all', 'free', 'event', 'local', 'family', 'houston'];
+  const isHou = (x) => x.region === 'Houston';
+  const past = (x) => x.date && daysLeft(x.date) < 0;
   const EVLAB = { 'black-friday': 'ブラックフライデー', 'cyber-monday': 'サイバーマンデー', 'prime-day': 'プライムデー',
     'amazon-spring': 'Amazon 春セール', 'target-circle': 'Target Circle Week', 'walmart-event': 'Walmart セール',
     'holiday-sale': '祝日セール', 'tax-free': '免税週末' };
@@ -44,9 +49,10 @@
     if (x.dup) return false;   // 別の情報源の同じ話題は1件にまとめる
     if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
     if (state.cat === 'event' && !x.event) return false;
-    if (state.cat === 'local' && !x.region) return false;
-    if (state.cat === 'family' && (!x.family || (x.date && daysLeft(x.date) < 0))) return false;
-    if (!['all', 'free', 'event', 'local', 'family'].includes(state.cat) && !x.cats.includes(state.cat)) return false;
+    if (state.cat === 'local' && x.region !== 'College Station') return false;
+    if (state.cat === 'family' && (!x.family || isHou(x) || past(x))) return false;
+    if (state.cat === 'houston' && (!isHou(x) || (x.family && past(x)))) return false;
+    if (!SPECIAL.includes(state.cat) && !x.cats.includes(state.cat)) return false;
     for (const t of state.types) {
       if (t === 'p50' && !((x.pct || 0) >= 50)) return false;
       if (t === 'today' && !(x.expires && daysLeft(x.expires) <= 2)) return false;
@@ -57,7 +63,14 @@
     return true;
   }
 
+  // ヒューストンの記事は後半へ(ヒューストンタブでは家族のお出かけを先に)。sort は安定なので日付順などは保たれる
   function sorted(list) {
+    const s = sortBy(list);
+    if (state.cat === 'houston') return s.sort((a, b) => (b.family ? 1 : 0) - (a.family ? 1 : 0));
+    return s.sort((a, b) => (isHou(a) ? 1 : 0) - (isHou(b) ? 1 : 0));
+  }
+
+  function sortBy(list) {
     const s = list.slice();
     if (state.sort === 'date') {
       // 日付順:配布日・期限の近い順(日付が読めないものは後ろに、新しい掲載順)
@@ -130,8 +143,9 @@
     const tabs = $('tabs');
     tabs.replaceChildren(...CATS.map((c) => {
       const n = c.id === 'all' ? items.length : c.id === 'free' ? items.filter((x) => x.freebie).length : c.id === 'event' ? items.filter((x) => x.event).length
-        : c.id === 'local' ? items.filter((x) => x.region && !x.dup).length
-        : c.id === 'family' ? items.filter((x) => x.family && !x.dup && !(x.date && daysLeft(x.date) < 0)).length
+        : c.id === 'local' ? items.filter((x) => x.region === 'College Station' && !x.dup).length
+        : c.id === 'family' ? items.filter((x) => x.family && !isHou(x) && !x.dup && !past(x)).length
+        : c.id === 'houston' ? items.filter((x) => isHou(x) && !x.dup && !(x.family && past(x))).length
         : items.filter((x) => x.cats.includes(c.id)).length;
       if (c.id === 'other' && !n) return null;
       const b = el('button', { type: 'button' }, [c.label, el('span', { className: 'n', textContent: n })]);
@@ -151,7 +165,7 @@
   }
 
   function renderStores() {
-    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : state.cat === 'local' ? x.region : state.cat === 'family' ? x.family : x.cats.includes(state.cat)));
+    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : state.cat === 'local' ? x.region === 'College Station' : state.cat === 'family' ? x.family && !isHou(x) : state.cat === 'houston' ? isHou(x) : x.cats.includes(state.cat)));
     const cnt = new Map();
     for (const x of pool) for (const s of x.stores) cnt.set(s, (cnt.get(s) || 0) + 1);
     const sel = $('store');
@@ -161,7 +175,8 @@
   }
 
   function renderLinks() {
-    const groups = links.groups.filter((g) => ['all', 'free', 'event', 'local', 'family'].includes(state.cat) || g.cat === state.cat);
+    const groups = links.groups.filter((g) => state.cat === 'houston' ? g.cat === 'houston'
+      : g.cat === state.cat || (SPECIAL.includes(state.cat) && g.cat !== 'houston'));
     const label = Object.fromEntries(CATS.map((c) => [c.id, c.label]));
     $('linkbody').replaceChildren(...groups.flatMap((g) => [
       el('h3', { textContent: label[g.cat] || g.cat }),
@@ -189,7 +204,13 @@
     renderTabs(); renderTypes(); renderStores(); renderLinks();
     const list = sorted(items.filter(match));
     $('count').textContent = `${list.length} 件`;
-    $('list').replaceChildren(...(list.length ? list.map(card) : [el('li', { className: 'empty', textContent: '該当する情報はありません。' })]));
+    const rows = [];
+    let houHead = state.cat === 'houston';   // ヒューストンタブでは見出し不要
+    for (const x of list) {
+      if (!houHead && isHou(x)) { rows.push(el('li', { className: 'divider', textContent: '🏙 ヒューストン' })); houHead = true; }
+      rows.push(card(x));
+    }
+    $('list').replaceChildren(...(rows.length ? rows : [el('li', { className: 'empty', textContent: '該当する情報はありません。' })]));
   }
 
   function save() { try { localStorage.setItem('deals.cat', state.cat); } catch (e) { /* 保存できなくても動く */ } }

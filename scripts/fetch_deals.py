@@ -147,6 +147,8 @@ ADULT_NIGHT_RE = re.compile(
     r"\bbar\b|bar and grill|\bpub\b|saloon|happy hour|mixology|singo|man cave|open mic|karaoke|trivia|bingo|"
     r"wine tasting|beer|brew(?:ery|ing)?\b|cocktail|21\+|comedy night|drag\b", re.I)
 MEETING_RE = re.compile(r"commission|council|meeting|board of|\bboard\b|hearing|senior social|walk with a doc|ribbon cutting", re.I)
+# ニュース(病院・訴訟・行政)はお出かけ先ではない(例:「Children's Hospital」で子供向けと誤判定、10/27)
+NEWS_NG_RE = re.compile(r"hospital|clinic|lawsuit|settlement|attorney general|\bAG'?s?\b|arrest|court\b", re.I)
 OUTING_KINDS = [
     ("公園・屋外", re.compile(r"\bparks?\b|lake walk|lake\b|trail|nature|garden|outdoor|pumpkin patch|corn maze|hayride|farm|"
                               r"picnic|splash|playground|fishing|camp ?out|star party|astronomy|hike|bike", re.I)),
@@ -175,7 +177,8 @@ def outing_ng(title, cats=()):
     """お出かけ先として載せないもの(A&M のスポーツ・夜の店・会議)。"""
     if any(c.lower() in ("aggie sports", "nightlife") for c in cats):
         return True
-    return bool(AGGIE_SPORTS_RE.search(title) or ADULT_NIGHT_RE.search(title) or MEETING_RE.search(title))
+    return bool(AGGIE_SPORTS_RE.search(title) or ADULT_NIGHT_RE.search(title) or MEETING_RE.search(title)
+                or NEWS_NG_RE.search(title))
 
 
 def parse_rss(text):

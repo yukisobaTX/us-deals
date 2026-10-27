@@ -160,5 +160,24 @@ _x = _json.loads(_tmp.read_text())["items"][0]
 if _x.get("region") != "College Station" or not _x.get("family"):
     bad += 1
     print("NG calendar region kept", _x.get("region"), _x.get("family"))
+# 病院・訴訟のニュースはお出かけ先にしない(10/27)
+if not f.outing_ng("Nation's first detransition clinic now open as result of Texas AG's settlement with Texas Children's Hospital"):
+    bad += 1
+    print("NG outing_ng hospital news")
+# 朝のメール:ヒューストンはカレッジステーションの後ろの「ヒューストン」欄だけに出る(10/27 本人指定)
+sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+import daily_digest as _dd, datetime as _dt
+_t = _dt.datetime.now(_dd.CT).date().isoformat()
+_base = {"posted": "2026-10-26T00:00Z", "firstSeen": "2099-01-01T00:00Z", "stores": [], "cats": [], "types": [], "link": "https://example.com/"}
+_items = [{**_base, "id": "c", "title": "Kids Pumpkin Patch", "region": "College Station", "family": True, "date": _t, "sum": {"what": "CS家族"}},
+          {**_base, "id": "h", "title": "Kids Pumpkin Patch", "region": "Houston", "family": True, "date": _t, "sum": {"what": "HOU家族"}},
+          {**_base, "id": "hf", "title": "Free Donut", "region": "Houston", "freebie": {"kind": "store"}, "date": _t, "sum": {"what": "HOU無料"}},
+          {**_base, "id": "f", "title": "Free Donut", "freebie": {"kind": "store"}, "date": _t, "sum": {"what": "全国無料"}}]
+_title, _body, _ = _dd.build(_items, "2000-01-01T00:00Z", "")
+_hou = _body.index("## 🏙 ヒューストン")
+if not (_body.index("CS家族") < _hou < _body.index("HOU家族") and _body.index("全国無料") < _hou < _body.index("HOU無料")
+        and _title.endswith("ヒューストン2")):
+    bad += 1
+    print("NG digest houston order", _title)
 print(f"failures: {bad}")
 sys.exit(1 if bad else 0)
