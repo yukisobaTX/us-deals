@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-27T10:51Z",
- "count": 823,
+ "count": 830,
  "stats": {
   "h2s": {
    "read": 100,
@@ -698,12 +698,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Library and …",
-    "item": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+    "item": "ブッシュ大統領図書館の展示『E Pluribus Unum』。",
     "when": "〜2027/5/16",
-    "what": "大統領館の特別展",
-    "where": "Bush図書館・博物館"
+    "what": "大統領図書館展示",
+    "where": "G.H.W.ブッシュ図書館",
+    "cond": "博物館・展示"
    },
-   "ja": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+   "ja": "ブッシュ大統領図書館の展示『E Pluribus Unum』。",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -720,7 +721,7 @@
    "source": "Destination Bryan",
    "posted": "2026-10-27T00:17Z",
    "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-27",
+   "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
    "localDate": "2026-10-27",
@@ -739,12 +740,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkのパンプキンパッチ(写真スポット)",
-    "cond": "家族向け",
+    "item": "レイクウォークのパンプキン畑。秋の屋外お出かけに。",
+    "cond": "子供向け・屋外",
     "what": "パンプキン畑",
-    "where": "Lake Walk"
+    "where": "Lake Walk（ブライア…",
+    "when": "10/27〜10/31"
    },
-   "ja": "Lake Walkのパンプキンパッチ(写真スポット)",
+   "ja": "レイクウォークのパンプキン畑。秋の屋外お出かけに。",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -761,7 +763,7 @@
    "source": "Destination Bryan",
    "posted": "2026-10-27T00:17Z",
    "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-27",
+   "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
    "localDate": "2026-10-27",
@@ -779,13 +781,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "Habitat for Humanity",
-    "item": "Habitat for Humanityのパンプキンパッチ",
-    "cond": "家族向け",
+    "store": "2301 E 29th St",
+    "item": "ハビタット・フォー・ヒューマニティのパンプキン畑。",
+    "cond": "子供向け・屋外",
     "what": "パンプキン畑",
-    "where": "Habitat(E 29th…"
+    "where": "ハビタット（ブライアン）",
+    "when": "10/27〜10/31"
    },
-   "ja": "Habitat for Humanityのパンプキンパッチ",
+   "ja": "ハビタット・フォー・ヒューマニティのパンプキン畑。",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -945,14 +948,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "City of Bryan",
-    "item": "子供向けトランクオアトリート(食料支援の催し)",
+    "store": "Bryan High School",
+    "item": "ブライアン高校でのハロウィン・トランクオアトリート。",
     "when": "10/31(土) 10時",
     "cond": "子供向け",
     "what": "トランクオアトリート",
-    "where": "Bryan市"
+    "where": "ブライアン高校"
    },
-   "ja": "子供向けトランクオアトリート(食料支援の催し)",
+   "ja": "ブライアン高校でのハロウィン・トランクオアトリート。",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -28027,6 +28030,295 @@
    "date": null,
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "256839907b7b",
+   "title": "Trunk or Treat at Legends Event Center",
+   "link": "https://events.bryantx.gov/default/Detail/2026-10-28-1800-Trunk-or-Treat-at-Legends-Event-Center",
+   "source": "City of Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-28",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-28",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Legends Event Center",
+    "item": "Legends Event Centerのトランクオアトリート。夕方18時から。",
+    "when": "10/28(水) 18時",
+    "cond": "子供向け",
+    "what": "トランクオアトリート",
+    "where": "Legends（ブライアン）"
+   },
+   "ja": "Legends Event Centerのトランクオアトリート。夕方18時から。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-28"
+  },
+  {
+   "id": "5bbe060b2576",
+   "title": "Trunk or Treat at Aggieland Humane Society",
+   "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-aggieland-humane-society/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-30",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Aggieland Humane Society",
+    "item": "動物愛護協会でのトランクオアトリート。動物にも会える。",
+    "when": "10/30(金)",
+    "cond": "子供向け・動物",
+    "what": "トランクオアトリート",
+    "where": "アギーランド動物協会"
+   },
+   "ja": "動物愛護協会でのトランクオアトリート。動物にも会える。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-30"
+  },
+  {
+   "id": "a509967cee06",
+   "title": "Little Kids Spooky Carnival at Clara B. Mounce Library",
+   "link": "https://www.destinationbryan.com/events/little-kids-spooky-carnival/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Clara B. Mounce Library",
+    "item": "小さな子ども向けのハロウィンカーニバル。図書館で。",
+    "when": "10/31(土)",
+    "cond": "子供向け",
+    "what": "ハロウィンカーニバル",
+    "where": "Mounce図書館"
+   },
+   "ja": "小さな子ども向けのハロウィンカーニバル。図書館で。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-31"
+  },
+  {
+   "id": "20b160df8905",
+   "title": "Halloween Costume Party on Wheels at Happy Feet Skating Rink",
+   "link": "https://www.destinationbryan.com/events/halloween-costume-party-on-wheels-at-happy-feet-skating-rink/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-30",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Happy Feet Skating Rink",
+    "item": "仮装してローラースケートを楽しむハロウィン会。",
+    "when": "10/30(金)",
+    "cond": "仮装・子供向け",
+    "what": "仮装スケート会",
+    "where": "Happy Feet Rink"
+   },
+   "ja": "仮装してローラースケートを楽しむハロウィン会。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-10-30"
+  },
+  {
+   "id": "3de604c17d5c",
+   "title": "Jim Henson's Fraggle Rock: Back to the Rock (OPAS)",
+   "link": "https://www.destinationbryan.com/events/jim-hensons-fraggle-rock-back-to-the-rock-live-at-opas/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Rudder Theater",
+    "item": "Jim Hensonの『Fraggle Rock』ライブ公演。",
+    "when": "10/30(金)〜10/31(土)",
+    "cond": "家族向け舞台",
+    "what": "フラグルロック",
+    "where": "Rudder Theater"
+   },
+   "ja": "Jim Hensonの『Fraggle Rock』ライブ公演。",
+   "jaVia": "claude-ev",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "74f8cf90347a",
+   "title": "The Farmers' Market in Brazos County",
+   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Midtown Park",
+    "item": "毎週土曜のファーマーズマーケット（ミッドタウン公園）。",
+    "when": "毎週土曜",
+    "cond": "屋外・マーケット",
+    "what": "ファーマーズ市",
+    "where": "Midtown Park"
+   },
+   "ja": "毎週土曜のファーマーズマーケット（ミッドタウン公園）。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-10-31"
+  },
+  {
+   "id": "fadc4d000f54",
+   "title": "Rountree Market at Midtown Park",
+   "link": "https://www.destinationbryan.com/events/sunday-market-at-rountree/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-27T11:44Z",
+   "firstSeen": "2026-10-27T11:44Z",
+   "expires": "2026-11-01",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-01",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Midtown Park",
+    "item": "ミッドタウン公園の日曜マーケット。",
+    "when": "11/1(日)",
+    "cond": "屋外・マーケット",
+    "what": "日曜マーケット",
+    "where": "Midtown Park"
+   },
+   "ja": "ミッドタウン公園の日曜マーケット。",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-01"
   }
  ]
 }
