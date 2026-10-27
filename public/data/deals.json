@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T23:44Z",
+ "updated": "2026-10-27T00:13Z",
  "count": 801,
  "stats": {
   "h2s": {
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -46,15 +46,25 @@
    "read": 10,
    "added": 0
   },
+  "dbryan": {
+   "read": 0,
+   "added": 0
+  },
+  "bryangov": {
+   "read": 0,
+   "added": 0
+  },
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 11,
+   "mymemory": 7,
    "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "ブライアン市の催し: https://events.bryantx.gov/default/List: HTTP Error 403: Forbidden"
+ ],
  "items": [
   {
    "id": "90a86c74e79b",
@@ -770,7 +780,11 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "outing": [
+    "公園・屋外"
+   ],
+   "family": true
   },
   {
    "id": "50ecf26f30d8",
@@ -10889,7 +10903,11 @@
     "where": "ヒューストン各地"
    },
    "date": "2026-10-26",
-   "localDate": "2026-10-26"
+   "localDate": "2026-10-26",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true
   },
   {
    "id": "36cee78a17ca",
@@ -10926,7 +10944,11 @@
     "where": "ヒューストン各地"
    },
    "date": null,
-   "family": true
+   "family": true,
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ]
   },
   {
    "id": "f177620387b2",
@@ -10963,7 +10985,10 @@
     "where": "ヒューストン各地"
    },
    "date": "2026-11-11",
-   "family": true
+   "family": true,
+   "outing": [
+    "エンタメ"
+   ]
   },
   {
    "id": "dfa30d09ad47",
@@ -11034,7 +11059,11 @@
     "where": "ヒューストン各地"
    },
    "date": null,
-   "family": true
+   "family": true,
+   "outing": [
+    "公園・屋外",
+    "子供向け"
+   ]
   },
   {
    "id": "2850fbebbd8f",
@@ -14967,7 +14996,11 @@
     "cond": "大人向け",
     "what": "12月大人催し",
     "where": "ヒューストン各地"
-   }
+   },
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true
   },
   {
    "id": "315dfc3ad223",
@@ -15004,7 +15037,10 @@
     "cond": "家族向け",
     "what": "死者の日祭り",
     "where": "ヒューストン各地"
-   }
+   },
+   "outing": [
+    "エンタメ"
+   ]
   },
   {
    "id": "8bc419cf6e6c",
@@ -15044,7 +15080,10 @@
     "where": "Texas City"
    },
    "date": null,
-   "family": true
+   "family": true,
+   "outing": [
+    "エンタメ"
+   ]
   },
   {
    "id": "b9efcaf4397a",
@@ -20863,7 +20902,11 @@
     "cond": "無料・家族向け",
     "what": "公園情報",
     "where": "Bryan"
-   }
+   },
+   "outing": [
+    "公園・屋外"
+   ],
+   "family": true
   },
   {
    "id": "58ddc5baf6af",
@@ -23134,7 +23177,10 @@
     "what": "ハロウィン祭",
     "where": "Wolf Pen Creek"
    },
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "outing": [
+    "エンタメ"
+   ]
   },
   {
    "id": "cf5735eb4f03",
@@ -25950,7 +25996,11 @@
     "cond": "無料・家族向け",
     "what": "今週のイベント",
     "where": "ヒューストン"
-   }
+   },
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true
   },
   {
    "id": "2c460bdcc917",
@@ -26127,7 +26177,10 @@
     "cond": "家族向け",
     "what": "お菓子もらい",
     "where": "ヒューストン各地"
-   }
+   },
+   "outing": [
+    "エンタメ"
+   ]
   },
   {
    "id": "e7db87630b5e",
@@ -26297,7 +26350,11 @@
     "what": "ハロウィン情報",
     "where": "ヒューストン各地"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true
   },
   {
    "id": "e088e680b7df",
@@ -26910,7 +26967,10 @@
     "what": "古本セール",
     "where": "Bryan図書館"
    },
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "outing": [
+    "子供向け"
+   ]
   },
   {
    "id": "f60079bc8344",
