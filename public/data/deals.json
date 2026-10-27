@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T14:02Z",
- "count": 872,
+ "updated": "2026-10-27T15:00Z",
+ "count": 886,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 6
   },
   "h2s-free": {
    "read": 100,
@@ -16,7 +16,7 @@
   },
   "ffp": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "msm": {
    "read": 75,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -49,14 +49,496 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 8,
-   "geminiToday": 11,
+   "mymemory": 20,
+   "geminiToday": 12,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "8508296188a4",
+   "title": "Our Generation K-Pop Dolls as Low as $17.99 at Target (Reg. $30)",
+   "link": "https://thefreebieguy.com/our-generation-dolls/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T14:58Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/our-generation-k-pop-dolls-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 17.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "私たちの世代のK - Pop人形は、ターゲットで$ 17.99 （登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "私たちの世代のK - Pop人形は、ターゲットで$ 17.99 （登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c331c1ad5fdc",
+   "title": "Amazon Fire TV Stick 4K Select Only $19.xx on Amazon (Reg. $50)",
+   "link": "https://thefreebieguy.com/amazon-fire-tv-stick-4k/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T14:55Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/fire-stick--840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 19.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Fire TV Stick 4 K Select Only $ 19.xx （ Amazon ） （登録価格$ 50 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Fire TV Stick 4 K Select Only $ 19.xx （ Amazon ） （登録価格$ 50 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "52e2285723f9",
+   "title": "Finish Ultimate Quantum Dishwasher Pods Just $11.69 Shipped on Amazon (Reg. $23)",
+   "link": "https://hip2save.com/deals/finish-dishwasher-detergent/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T14:54Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/finish-ultimate-quantum-dishwasher-pods.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 49,
+   "price": 11.69,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "究極の量子食器洗い機ポッドを仕上げるわずか$ 11.69 Amazonで出荷（登録番号： $ 23 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "究極の量子食器洗い機ポッドを仕上げるわずか$ 11.69 Amazonで出荷（登録番号： $ 23 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "f35f2d45e2a7",
+   "date": null
+  },
+  {
+   "id": "566ba67bd971",
+   "title": "Rechargeable LED Beanie w/ Bluetooth Just $9.99 on Amazon (Listen to Music, Take Calls & More)",
+   "link": "https://hip2save.com/deals/led-beanie/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T14:47Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/amazon-zooi-beanie.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンでわずか$ 9.99のBluetooth付き充電式LEDビーニー（音楽を聴いたり、電話をかけるなど）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンでわずか$ 9.99のBluetooth付き充電式LEDビーニー（音楽を聴いたり、電話をかけるなど）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "fa0796f8a11e",
+   "title": "Provirtec Pet Air Purifier Only $85.xx on Amazon (Reg $140)",
+   "link": "https://thefreebieguy.com/provirtec-pet-air-purifier/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T14:43Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Provirtec-Pet-Air-Purifier-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 39,
+   "price": 85.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Provirtecペット用空気清浄機Amazonで$ 85.xxのみ（登録価格$ 140 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Provirtecペット用空気清浄機Amazonで$ 85.xxのみ（登録価格$ 140 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "74c4b6053971",
+   "title": "Old Spice Seasonal Body Wash Just $4.55 Shipped on Amazon (Reg. $8)",
+   "link": "https://hip2save.com/deals/old-spice-body-wash/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T14:41Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/Old-Spice-Body-Wash.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 4.55,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "オールドスパイス季節のボディウォッシュわずか$ 4.55アマゾンで発送（登録価格$ 8 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "オールドスパイス季節のボディウォッシュわずか$ 4.55アマゾンで発送（登録価格$ 8 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "7b32488769c7",
+   "date": null
+  },
+  {
+   "id": "ba0aa1cdc8ae",
+   "title": "Better Homes & Gardens 12-Piece Dinnerware Set Only $16.23 at Walmart (Reg. $25)",
+   "link": "https://thefreebieguy.com/better-homes-gardens-12-piece-dinnerware-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T14:38Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Better-Homes-Gardens-12-Piece-Dinnerware-Set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 35,
+   "price": 16.23,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Better Homes & Gardens 12ピースディナーウェアセットウォルマートでわずか$ 16.23 （登録価格$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Better Homes & Gardens 12ピースディナーウェアセットウォルマートでわずか$ 16.23 （登録価格$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "7c1c6a6f07c0",
+   "date": null
+  },
+  {
+   "id": "0bd893743b0e",
+   "title": "Travel Clothes Steamer Only $12.99 Shipped on Amazon (Reg. $38)",
+   "link": "https://hip2save.com/deals/nexdoo-travel-clothes-steamer/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T14:36Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Nexdoo-Travel-Clothes-Steamer.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 66,
+   "price": 12.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "トラベルクローズスチーマーのみ$ 12.99 Amazonで発送（登録価格$ 38 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "トラベルクローズスチーマーのみ$ 12.99 Amazonで発送（登録価格$ 38 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0cfffa54e23b",
+   "title": "bObsweep – UltraVision Self-Empty Robot Vacuum Only $199 at Best Buy (Reg $600) – Today Only!",
+   "link": "https://thefreebieguy.com/bobsweep-ultravision-self-empty-robot-vacuum-mop-deal-at-best-buy/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T14:23Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": "2026-10-27",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/05/bobsweep-Best-Buy-840x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 199.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "bObsweep – UltraVision Self - Empty Robot Vacuum Only $ 199 at Best Buy (Reg $ 600) –本日限定！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "bObsweep – UltraVision Self - Empty Robot Vacuum Only $ 199 at Best Buy (Reg $ 600) –本日限定！",
+    "when": "10/27(火)まで",
+    "cond": ""
+   },
+   "date": "2026-10-27"
+  },
+  {
+   "id": "13c37bbf701e",
+   "title": "LEGO Classic Creative Food Friends Set Just $6 on Amazon & Target.com",
+   "link": "https://hip2save.com/deals/lego-classic-creative-food-friends/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T14:22Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/LEGO-Classic-Creative-Food-Friends-Set-.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target",
+    "Amazon"
+   ],
+   "cats": [
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "LEGOクラシッククリエイティブフードフレンドセットたったの$ 6 Amazon & Target.com",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target・Amazon",
+    "item": "LEGOクラシッククリエイティブフードフレンドセットたったの$ 6 Amazon & Target.com",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "42109eb6e997",
+   "title": "Deep Fried Turkey Gobbler and Deep Fried Turkey Club Sandwiches are Back at Arby’s",
+   "link": "https://www.fastfoodpost.com/arbys-welcomes-back-deep-fried-turkey-gobbler-and-deep-fried-turkey-club/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-27T14:20Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Arby's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "揚げたて七面鳥ゴブラーと揚げたて七面鳥クラブサンドイッチがArby'sに戻ってきました",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Arby's",
+    "item": "揚げたて七面鳥ゴブラーと揚げたて七面鳥クラブサンドイッチがArby'sに戻ってきました",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3ba937fe73ab",
+   "title": "Score $5.00 Worth of FREE Beech-Nut Products!",
+   "link": "https://thefreebieguy.com/free-beech-nut-products/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T14:19Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Beech-Nut-Products-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "$ 5.00相当の無料ビーチナッツ製品を獲得しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "$ 5.00相当の無料ビーチナッツ製品を獲得しましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "09136721844c",
+   "title": "SEHMUA Security Cameras Wireless Outdoor Kit Only $120.xx on Amazon (Reg $200)",
+   "link": "https://thefreebieguy.com/sehmua-security-cameras/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T14:13Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/SEHMUA-Security-Cameras-Wireless-Outdoor-Kit-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 120.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "SEHMUA防犯カメラワイヤレス屋外キットAmazonで$ 120.xxのみ（登録価格$ 200 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "SEHMUA防犯カメラワイヤレス屋外キットAmazonで$ 120.xxのみ（登録価格$ 200 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9c903e0d5770",
+   "title": "Stick-On Window Camera Just $19.99 Shipped on Amazon (Regularly $40)",
+   "link": "https://hip2save.com/deals/window-camera/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T14:07Z",
+   "firstSeen": "2026-10-27T15:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/GUOANVISION-Window-Camera.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スティックオンウィンドウカメラ$ 19.99のみAmazonで発送（通常$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "スティックオンウィンドウカメラ$ 19.99のみAmazonで発送（通常$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "43b1f7e63ef5",
    "title": "Best Buy Black Friday 2026 is ALMOST HERE! Double Rewards + Holiday Price Match Guarantee is Back!",
