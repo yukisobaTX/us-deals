@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T15:57Z",
- "count": 899,
+ "updated": "2026-10-27T16:58Z",
+ "count": 907,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -49,14 +49,289 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 19,
-   "geminiToday": 13,
+   "mymemory": 14,
+   "geminiToday": 14,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "bfac0eab2cb0",
+   "title": "Up to 70% Off Kohl’s Boxed Jewelry Gifts Including Disney + Earn Kohl’s Cash",
+   "link": "https://hip2save.com/deals/kohls-jewelry/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T16:50Z",
+   "firstSeen": "2026-10-27T16:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/04/Disney-Boxed-jewelry-1.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ディズニーを含むKohl's Boxed Jewelryギフトが最大70%オフ+ Kohl's Cashを獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "ディズニーを含むKohl's Boxed Jewelryギフトが最大70%オフ+ Kohl's Cashを獲得",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "750c7793a2df",
+   "title": "Walmart+ Now FREE with Sam’s Club Plus Membership – Get BOTH for Just $120/Year!",
+   "link": "https://thefreebieguy.com/walmart-plus-membership-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T16:46Z",
+   "firstSeen": "2026-10-27T16:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Walmart-Plus-Kendall-1024x576.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブプラスメンバーシップでウォルマート+が無料になりました。年間わずか$ 120で両方を手に入れましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "サムズクラブプラスメンバーシップでウォルマート+が無料になりました。年間わずか$ 120で両方を手に入れましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "4f47ef257ef1",
+   "date": null
+  },
+  {
+   "id": "aeebf34c5d68",
+   "title": "New Lip Smacker Squishmallows Lip Balm & Lip Oil Duos Just $9.99 on Target.com",
+   "link": "https://hip2save.com/deals/lip-smacker-squishmallows/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T16:37Z",
+   "firstSeen": "2026-10-27T16:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lip-Smacker-Squishmallows.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Target.comでわずか$ 9.99の新しいリップスマッカースクイッシュマロウリップバーム＆リップオイルデュオ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Target.comでわずか$ 9.99の新しいリップスマッカースクイッシュマロウリップバーム＆リップオイルデュオ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b87e3b2a22f8",
+   "title": "Reduce 14oz Chiller and Chiller Go Water Bottle 2-Pack From $12.49 at Target (Reg. $25)",
+   "link": "https://thefreebieguy.com/reduce-water-bottle/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T16:30Z",
+   "firstSeen": "2026-10-27T16:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/reduce-water-bottles-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 12.49,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットで14オンスのチラーとチラーゴーウォーターボトル2パックを$ 12.49から減らします（登録番号： $ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットで14オンスのチラーとチラーゴーウォーターボトル2パックを$ 12.49から減らします（登録番号： $ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "fac11fceb0ec",
+   "title": "The Best Amazon Things Under $5 | Cheap Snacks, Household Essentials & More",
+   "link": "https://thefreebieguy.com/cool-amazon-things-under-5/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T16:26Z",
+   "firstSeen": "2026-10-27T16:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/thefreebieguy-amazon-finds-under-5--945x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "$ 5未満のAmazonのおすすめ|安いスナック、日用品など",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "$ 5未満のAmazonのおすすめ|安いスナック、日用品など",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "66035c58edb5",
+   "title": "Kids Christmas Stickers 400-Count Set Only $2.99 on Amazon",
+   "link": "https://hip2save.com/deals/amazon-christmas-stickers/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T16:25Z",
+   "firstSeen": "2026-10-27T16:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/HSHFAMIIY-Kids-400-Count-Christmas-Stickers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キッズクリスマスステッカー400枚セットのみ$ 2.99アマゾンで",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "キッズクリスマスステッカー400枚セットのみ$ 2.99アマゾンで",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "a9e03d6fed6a",
+   "title": "Free 20 oz Bottle of Sprite! First 115,000 Only!",
+   "link": "https://thefreebieguy.com/free-20-oz-bottle-of-sprite-first-115000-only/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T16:18Z",
+   "firstSeen": "2026-10-27T16:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Free-Sprite-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": null
+   },
+   "ja": "20オンスのスプライトボトルが無料！最初の115,000人のみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "20オンスのスプライトボトルが無料！最初の115,000人のみ！",
+    "when": "",
+    "cond": "先着115,000名"
+   },
+   "dup": "43f9bf0c62a4",
+   "date": null
+  },
+  {
+   "id": "1ff737e36c40",
+   "title": "*HOT* Physician’s Choice Women’s Probiotic, 30-Count only $8.54 shipped (Reg. $30), plus more!",
+   "link": "https://moneysavingmom.com/physicians-choice-probiotics-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T16:06Z",
+   "firstSeen": "2026-10-27T16:58Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/06/Physicians-CHOICE-Probiotics-for-Women-30-Coun-1.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 72,
+   "price": 8.54,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT * Physician's Choiceレディースプロバイオティクス、30 -出荷はわずか$ 8.54 （登録価格$ 30 ）、その他多数！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "* HOT * Physician's Choiceレディースプロバイオティクス、30 -出荷はわずか$ 8.54 （登録価格$ 30 ）、その他多数！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "299b10e9c37a",
    "title": "Free nulo Culinary Harvest, Turkey & Herring Kibble Sample for Adult Dogs",
@@ -296,8 +571,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "d58dd0beb3b1",
-   "date": null
+   "date": null,
+   "dup": "d58dd0beb3b1"
   },
   {
    "id": "de40eb2daa15",
@@ -502,8 +777,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "a41eed337c3a",
-   "date": null
+   "date": null,
+   "dup": "a41eed337c3a"
   },
   {
    "id": "8508296188a4",
