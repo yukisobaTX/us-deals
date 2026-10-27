@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T00:26Z",
- "count": 809,
+ "updated": "2026-10-27T01:02Z",
+ "count": 812,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -49,13 +49,82 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 7,
+   "mymemory": 10,
    "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "769a8ab69446",
+   "title": "Join Costco and Receive a $45 Digital Costco Shop Card (Gold or Executive Membership)",
+   "link": "https://thefreebieguy.com/costco-membership-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T00:41Z",
+   "firstSeen": "2026-10-27T01:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Costco-1-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Costco"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コストコに参加して、$ 45のデジタルコストコショップカード（ゴールドまたはエグゼクティブメンバーシップ）を受け取りましょう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Costco",
+    "item": "コストコに参加して、$ 45のデジタルコストコショップカード（ゴールドまたはエグゼクティブメンバーシップ）を受け取りましょう",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "3f01f516753b",
+   "date": null
+  },
+  {
+   "id": "efda33b24327",
+   "title": "Metal Kitchen Shears 3-Pack Only $9.99 Shipped for Amazon Prime Members (Reg. $15)",
+   "link": "https://hip2save.com/deals/metal-kitchen-shears/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T00:40Z",
+   "firstSeen": "2026-10-27T01:02Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/08/kitchen-shears.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 33,
+   "price": 9.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Metal Kitchen Shears 3パックのみ$ 9.99 Amazonプライムメンバー向け発送（登録価格$ 15 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Metal Kitchen Shears 3パックのみ$ 9.99 Amazonプライムメンバー向け発送（登録価格$ 15 ）",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
   {
    "id": "84995c4651df",
    "title": "E Pluribus Unum: Celebrating the American Experience at George H.W. Bush Presidential Library and Museum",
@@ -346,6 +415,40 @@
    "freebie": null,
    "region": "College Station",
    "family": true
+  },
+  {
+   "id": "d6b012d1d37f",
+   "title": "Crock-Pot 7-qt. Countdown Cook & Carry Slow Cooker Only $59.99 Shipped at Kohl’s (Reg. $100)",
+   "link": "https://thefreebieguy.com/crock-pot-7-qt-countdown-cook-carry-slow-cooker/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T00:13Z",
+   "firstSeen": "2026-10-27T01:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Crock-Pot-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 59.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Crock - Pot 7 - qt.カウントダウンクック＆キャリースロークッカーのみ$ 59.99 Kohl'sで発送（登録価格$ 100 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Crock - Pot 7 - qt.カウントダウンクック＆キャリースロークッカーのみ$ 59.99 Kohl'sで発送（登録価格$ 100 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "26ab2b189e99",
