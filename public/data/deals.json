@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T07:00Z",
- "count": 812,
+ "updated": "2026-10-27T07:57Z",
+ "count": 814,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -49,13 +49,82 @@
   "ja": {
    "gemini": 25,
    "geminiEvent": 0,
-   "mymemory": 8,
-   "geminiToday": 2,
+   "mymemory": 2,
+   "geminiToday": 3,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "707a36166fe5",
+   "title": "ARM & HAMMER Clean Scentsations In-Wash Scent Booster Just $1.xx After Walmart Cash",
+   "link": "https://thefreebieguy.com/arm-hammer-clean-scentsations-in-wash-scent-booster/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T07:49Z",
+   "firstSeen": "2026-10-27T07:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Arm-Hammer-In-Wash-Scent-Booster-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ARM & HAMMER クリーンセンセーションズ インウォッシュ セントブースター ウォルマートキャッシュ適用でわずか1.xxドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ARM & HAMMER クリーンセンセーションズ インウォッシュ セントブースター ウォルマートキャッシュ適用でわずか1.xxドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "63652c64739c",
+   "title": "8.9″ Kids Magnetic Drawing Board Only $10.xx on Amazon (Reg $28)",
+   "link": "https://thefreebieguy.com/smasiagon-kids-magnetic-drawing-board/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T07:27Z",
+   "firstSeen": "2026-10-27T07:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Smasiagon-Kids-Magnetic-Drawing-Board-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 64,
+   "price": 10.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "8.9インチの子供用マグネット式お絵かきボードがAmazonでわずか10ドル台（通常価格28ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "8.9インチの子供用マグネット式お絵かきボードがAmazonでわずか10ドル台（通常価格28ドル）",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "dup": "099c027c5566",
+   "date": null
+  },
   {
    "id": "9080d6798e6c",
    "title": "Cordless Full Body Hair Trimmer with 4 Guards Only $21.xx on Amazon (Reg. $50)",
@@ -18825,13 +18894,15 @@
    "price": null,
    "freebie": null,
    "date": "2026-10-30",
-   "ja": "ホリデーセール商品",
+   "ja": "ブラックフライデーセール",
    "jaVia": "gemini",
    "sum": {
     "store": "Costco",
-    "item": "ホリデーセール商品",
+    "item": "ブラックフライデーセール",
     "when": "10/30〜",
-    "cond": ""
+    "cond": "",
+    "what": "BFセール",
+    "where": "Costco"
    },
    "event": "black-friday",
    "eventNews": true
@@ -18925,13 +18996,15 @@
    "price": null,
    "freebie": null,
    "date": null,
-   "ja": "ブラックフライデー日替わり特価品",
+   "ja": "BFセール＆日替わり特価",
    "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "ブラックフライデー日替わり特価品",
+    "item": "BFセール＆日替わり特価",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BFセール情報",
+    "where": "Target"
    },
    "event": "black-friday",
    "eventNews": true
@@ -19396,13 +19469,15 @@
     "when": null,
     "roundup": true
    },
-   "ja": "ハロウィン料理や無料特典",
+   "ja": "ハロウィン限定メニューや無料品",
    "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "ハロウィン料理や無料特典",
+    "item": "ハロウィン限定メニューや無料品",
     "when": "ハロウィン",
-    "cond": ""
+    "cond": "",
+    "what": "ハロウィン特典",
+    "where": "各レストラン"
    },
    "date": null
   },
@@ -20885,13 +20960,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "アイス無料、Breyersが39¢〜",
+   "ja": "パイントアイスクリーム",
    "jaVia": "gemini",
    "sum": {
     "store": "Kroger",
-    "item": "アイス無料、Breyersが39¢〜",
+    "item": "パイントアイスクリーム",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料アイス",
+    "where": "Kroger"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/06/kroger-private-selections-ice-cream-pint.jpg?resize=306,182",
    "date": null,
@@ -20993,13 +21070,15 @@
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Halloween.jpg?resize=306,182",
    "date": null,
-   "ja": "飲食店ハロウィン無料特典・割引",
+   "ja": "ハロウィン限定特典・無料品",
    "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "飲食店ハロウィン無料特典・割引",
+    "item": "ハロウィン限定特典・無料品",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "ハロウィン特典",
+    "where": "各レストラン"
    },
    "event": null,
    "eventNews": false
@@ -21503,13 +21582,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "おもちゃ",
+   "ja": "ハローキティのおもちゃ",
    "jaVia": "gemini",
    "sum": {
     "store": "Burger King",
-    "item": "おもちゃ",
+    "item": "ハローキティのおもちゃ",
     "when": "",
-    "cond": "キッズミール購入"
+    "cond": "キッズミール購入",
+    "what": "キティおもちゃ",
+    "where": "Burger King"
    },
    "date": null,
    "event": null,
@@ -21749,13 +21830,15 @@
    "date": null,
    "event": "prime-day",
    "eventNews": false,
-   "ja": "Barnum's Animals Crackers 10パックのみ$ 3 Amazonで発送（プライムデーよりも安い！ ）",
-   "jaVia": "mymemory",
+   "ja": "動物クラッカー10袋",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "Barnum's Animals Crackers 10パックのみ$ 3 Amazonで発送（プライムデーよりも安い！ ）",
+    "item": "動物クラッカー10袋",
     "when": "",
-    "cond": ""
+    "cond": "$3(送料無料)",
+    "what": "クラッカー$3",
+    "where": "Amazon"
    }
   },
   {
@@ -21882,13 +21965,15 @@
    "date": null,
    "event": "black-friday",
    "eventNews": true,
-   "ja": "おもちゃや家電など",
+   "ja": "ブラックフライデーセール",
    "jaVia": "gemini",
    "sum": {
-    "store": "Sam's Club",
-    "item": "おもちゃや家電など",
+    "store": "Sam’s Club",
+    "item": "ブラックフライデーセール",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BF広告公開",
+    "where": "Sam’s Club"
    }
   },
   {
@@ -22781,7 +22866,9 @@
     "store": "Barnes & Noble",
     "item": "レゴ組み立てイベント",
     "when": "11/13〜11/15",
-    "cond": ""
+    "cond": "",
+    "what": "無料レゴイベント",
+    "where": "Barnes & Noble"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Barnes-and-noble-Christmas.jpg?resize=306,182",
    "date": "2026-11-13",
@@ -23821,7 +23908,9 @@
     "store": "Dunkin’",
     "item": "コーヒー",
     "when": "",
-    "cond": "プロモコード入力"
+    "cond": "プロモコード",
+    "what": "無料コーヒー",
+    "where": "Dunkin’"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2022/05/man-holding-ice-coffee-from-dunkin.jpg?resize=306,182",
    "date": null,
@@ -25011,13 +25100,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "フォトカード6枚セット",
+   "ja": "5x7写真カード6枚セット",
    "jaVia": "gemini",
    "sum": {
     "store": "Walgreens",
-    "item": "フォトカード6枚セット",
+    "item": "5x7写真カード6枚セット",
     "when": "",
-    "cond": "プロモコード入力"
+    "cond": "コードBIGSIX",
+    "what": "無料写真カード",
+    "where": "Walgreens"
    },
    "date": null,
    "event": null,
@@ -26106,13 +26197,15 @@
     "kind": "store",
     "when": "2026-10-25"
    },
-   "ja": "子供向けレゴ体験",
+   "ja": "ゴーストレゴ制作体験",
    "jaVia": "gemini",
    "sum": {
     "store": "LEGO",
-    "item": "子供向けレゴ体験",
+    "item": "ゴーストレゴ制作体験",
     "when": "10/25",
-    "cond": "子供限定"
+    "cond": "子ども限定",
+    "what": "無料レゴ教室",
+    "where": "レゴストア"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/08/LEGO-Ghost-Street.jpg?resize=306,182",
    "date": "2026-10-25",
@@ -26891,13 +26984,15 @@
     "kind": "store",
     "when": "2026-12-12"
    },
-   "ja": "サンタとペットの写真撮影",
+   "ja": "サンタとのペット写真撮影",
    "jaVia": "gemini",
    "sum": {
     "store": "Petco",
-    "item": "サンタとペットの写真撮影",
+    "item": "サンタとのペット写真撮影",
     "when": "12/12",
-    "cond": ""
+    "cond": "",
+    "what": "無料ペット写真",
+    "where": "Petco"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2023/12/petco-pics-with-santa.jpg?resize=306,182",
    "date": "2026-12-12",
@@ -26958,13 +27053,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "4×6写真プリント25枚",
+   "ja": "4x6写真プリント25枚",
    "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "4×6写真プリント25枚",
+    "item": "4x6写真プリント25枚",
     "when": "毎月",
-    "cond": "Walmart+会員限定"
+    "cond": "Walmart+会員限定",
+    "what": "毎月無料写真",
+    "where": "Walmart"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/walmart-photo.jpg?resize=306,182",
    "date": null,
@@ -27027,13 +27124,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "MyLowe's $10分特典",
+   "ja": "$10分のMyLowe’sマネー",
    "jaVia": "gemini",
    "sum": {
-    "store": "Lowe's",
-    "item": "MyLowe's $10分特典",
+    "store": "Lowe’s",
+    "item": "$10分のMyLowe’sマネー",
     "when": "",
-    "cond": "アプリダウンロード"
+    "cond": "アプリDL",
+    "what": "$10分マネー",
+    "where": "Lowe’s"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mylowes-money.jpg?resize=306,182",
    "date": null,
@@ -27330,13 +27429,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "トートバッグ無料",
+   "ja": "トートバッグ＆お菓子",
    "jaVia": "gemini",
    "sum": {
     "store": "PetSmart",
-    "item": "トートバッグ無料",
+    "item": "トートバッグ＆お菓子",
     "when": "",
-    "cond": "イベント参加"
+    "cond": "イベント参加",
+    "what": "無料トート＆イベ",
+    "where": "PetSmart"
    },
    "date": null
   },
