@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-27T12:42Z",
- "count": 853,
+ "updated": "2026-10-27T13:01Z",
+ "count": 857,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
-   "added": 7
+   "added": 6
   },
   "doc": {
    "read": 15,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 7
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -47,15 +47,121 @@
    "added": 0
   },
   "ja": {
-   "gemini": 9,
+   "gemini": 8,
    "geminiEvent": 0,
-   "mymemory": 8,
-   "geminiToday": 8,
+   "mymemory": 3,
+   "geminiToday": 9,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "8b1f3dc257f2",
+   "title": "Hisense 65″ Class QD5 Hi-QLED 4K UHD Smart Roku TV Only $329.xx on Best Buy (Reg $550)",
+   "link": "https://thefreebieguy.com/hisense-65qd5sr-65-class-qd5-smart-roku-tv/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T12:59Z",
+   "firstSeen": "2026-10-27T13:01Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Hisense-65_-QD5-Hi-QLED-4K-UHD-Smart-Roku-TV-840x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 329.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Hisense 65インチクラスQD 5 Hi - QLED 4 K UHDスマートRoku TV Best Buyで$ 329.xxのみ（登録価格$ 550 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Hisense 65インチクラスQD 5 Hi - QLED 4 K UHDスマートRoku TV Best Buyで$ 329.xxのみ（登録価格$ 550 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "569f62f371f4",
+   "title": "ACOTAR Fans! Sam’s Club Just Dropped Collector’s Edition Throws & They’re Selling Out FAST!",
+   "link": "https://hip2save.com/deals/acotar-collectors-edition-throws/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T12:55Z",
+   "firstSeen": "2026-10-27T13:01Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Sarah-J.-Maas-ACOTAR-Collection-Chenille-Throws.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ACOTARファン！サムのクラブがコレクターズエディションのスローを落としたばかりで、すぐに売り切れてしまいました！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "ACOTARファン！サムのクラブがコレクターズエディションのスローを落としたばかりで、すぐに売り切れてしまいました！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "10ae23d89a65",
+   "title": "Krispy Kreme Halloween Dozen Just $13 (+ FREE Doughnut This Weekend!)",
+   "link": "https://hip2save.com/deals/krispy-kreme-coupon/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T12:50Z",
+   "firstSeen": "2026-10-27T13:01Z",
+   "expires": "2026-10-31",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Krispy-Kreme-All-Jacked-Up-Dozen.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Krispy Kreme"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-10-31"
+   },
+   "sum": {
+    "store": "Krispy Kreme",
+    "item": "ハロウィン12個入が$13、週末ドーナツ1個無料",
+    "when": "2026-10-31週末",
+    "what": "無料ドーナツ",
+    "where": "Krispy Kreme"
+   },
+   "ja": "ハロウィン12個入が$13、週末ドーナツ1個無料",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
+  },
   {
    "id": "27395c088b48",
    "title": "Nesugar Dual-Head Fabric Shaver and Lint Remover Only $12.xx on Amazon (Reg. $39)",
@@ -119,6 +225,41 @@
    "sum": {
     "store": "Walmart",
     "item": "ウォルマートビューティーギフトセットセール！価格は$ 6から！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "589d1337ebd7",
+   "title": "Sam’s, Costco & BJs Wholesale Memberships Are All on Sale Right Now!",
+   "link": "https://thefreebieguy.com/these-3-club-stores-have-a-big-deal-going-on-super-cheap-memberships/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-27T12:32Z",
+   "firstSeen": "2026-10-27T13:01Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Wholesale-Club-Memberships-840x630.png",
+   "hot": false,
+   "stores": [
+    "Costco",
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Sam's、Costco、BJ'sの卸売メンバーシップはすべて現在セール中です！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Costco・Sam's Club",
+    "item": "Sam's、Costco、BJ'sの卸売メンバーシップはすべて現在セール中です！",
     "when": "",
     "cond": ""
    },
