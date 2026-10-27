@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27T04:47Z",
- "count": 816,
+ "updated": "2026-10-27T05:47Z",
+ "count": 810,
  "stats": {
   "h2s": {
    "read": 100,
@@ -50,8 +50,9 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 7,
-   "geminiToday": 19,
-   "model": "gemini-flash-latest"
+   "geminiToday": 1,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -13034,40 +13035,6 @@
    "eventNews": false
   },
   {
-   "id": "ff87d4559116",
-   "title": "TODAY ONLY! BOGO 50% Off Favorite Day Halloween Snacks at Target!",
-   "link": "https://thefreebieguy.com/halloween-snacks-at-target/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-24T18:53Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": "2026-10-24",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/favorite-day-halloween-snacks-840x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "bogo"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-24",
-   "ja": "本日限り！ターゲットでお気に入りの日のハロウィンスナックを50%オフでゲット！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "本日限り！ターゲットでお気に入りの日のハロウィンスナックを50%オフでゲット！",
-    "when": "10/24(土)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "6b633406589f",
    "title": "Up to 80% Off David’s Bridal Dresses | Prices From $9.xx",
    "link": "https://thefreebieguy.com/davids-bridal-dresses-sale/",
@@ -14952,43 +14919,6 @@
    "date": null
   },
   {
-   "id": "246a6f84c72c",
-   "title": "Get a FREE Monster Taco & Small Drink at Jack in the Box Today!",
-   "link": "https://moneysavingmom.com/get-a-free-monster-taco-small-drink-at-jack-in-the-box-on-october-24th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-24T13:22Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": "2026-10-24",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-at-10.07.38-AM.png",
-   "hot": true,
-   "stores": [
-    "Jack in the Box"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-24"
-   },
-   "ja": "無料モンスタータコ＆ドリンクS",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Jack in the Box",
-    "item": "無料モンスタータコ＆ドリンクS",
-    "when": "10/24",
-    "cond": ""
-   },
-   "date": "2026-10-24"
-  },
-  {
    "id": "b92d76abc62e",
    "title": "Amazon Haul Squishy Must-Haves from $5.99",
    "link": "https://hip2save.com/deals/amazon-haul-app/",
@@ -15021,42 +14951,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "e4a2cf1dda38",
-   "title": "Tiff’s Treats: FREE Ice Cream Sandwiches for Young Athletes on October 24th & October 25th!",
-   "link": "https://moneysavingmom.com/tiffs-treats-free-ice-cream-sandwiches-for-young-athletes-on-october-24th-october-25th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-24T13:10Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": "2026-10-24",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-23-at-1.59.31-PM.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-24"
-   },
-   "ja": "無料アイスサンドイッチ",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Tiff's Treats",
-    "item": "無料アイスサンドイッチ",
-    "when": "10/24〜10/25",
-    "cond": "若年アスリート限定"
-   },
-   "date": "2026-10-24",
-   "dup": "1ba2740a197a"
   },
   {
    "id": "799842002339",
@@ -15189,43 +15083,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "1ba2740a197a",
-   "title": "FREE Tiff’s Treats Ice Cream Sandwiches for Young Athletes This Weekend",
-   "link": "https://hip2save.com/deals/tiffs-treats-coupon/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T12:26Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-24",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-24"
-   },
-   "ja": "アイスサンド無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Tiff’s Treats",
-    "item": "アイスサンド無料",
-    "when": "10/24〜10/25",
-    "cond": "若年アスリート限定"
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Tiffs-Treats-Ice-Cream-Sandwiches.jpg?resize=306,182",
-   "date": "2026-10-24",
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "8a8c0a139024",
@@ -15421,43 +15278,6 @@
    "jaVia": "gemini",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Amazon-grocery-Items.jpg?resize=306,182",
    "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "4d5f66f8fc1e",
-   "title": "FREE NYX & Maybelline + essie Beauty Events at Target Today from 12-4 PM (Includes Gem Stickers!)",
-   "link": "https://hip2save.com/deals/target-store-event/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T11:23Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-24",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-24"
-   },
-   "sum": {
-    "store": "Target",
-    "item": "コスメイベント・シール無料",
-    "when": "10/24 12〜16時",
-    "cond": ""
-   },
-   "ja": "コスメイベント・シール無料",
-   "jaVia": "gemini",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/target-beauty-event-halloween.jpg?resize=306,182",
-   "date": "2026-10-24",
    "event": null,
    "eventNews": false
   },
@@ -17007,38 +16827,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "a49cb64595a4",
-   "title": "Photo Freebie, 99¢ Photo Magnets + 50% Off Everything at Walgreens Photo (Ends 10/24)",
-   "link": "https://momswhosave.com/walgreens-photo-deals/",
-   "source": "Moms Who Save",
-   "posted": "2026-10-23T18:52Z",
-   "firstSeen": "2026-10-25T01:43Z",
-   "expires": "2026-10-24",
-   "thumb": "https://momswhosave.com/wp-content/uploads/2026/10/walgreens-Pinterest-1000×1500@1x.png",
-   "hot": true,
-   "stores": [
-    "Walgreens"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walgreens",
-    "item": "",
-    "when": "10/24(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-24"
   },
   {
    "id": "cc167ca93ab3",
