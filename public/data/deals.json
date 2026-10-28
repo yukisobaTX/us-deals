@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T01:14Z",
- "count": 992,
+ "updated": "2026-10-28T02:06Z",
+ "count": 994,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -49,13 +49,47 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 8,
+   "mymemory": 7,
    "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "b210e0f0da9b",
+   "title": "Amazon Cranberry Sauce Only $1 Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-cranberry-sauce/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T01:40Z",
+   "firstSeen": "2026-10-28T02:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/amazon-grocery-crandberry-sauce.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンクランベリーソースのみ$ 1発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンクランベリーソースのみ$ 1発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "84b4789c82ed",
    "title": "Unicorn Drawing Projector Just $12.49 on Amazon (Screen Free Toy!)",
@@ -1872,6 +1906,39 @@
     "when": "",
     "cond": ""
    },
+   "date": null
+  },
+  {
+   "id": "3959822843ba",
+   "title": "Lysol Power Toilet Bowl Cleaner (4-pack) only $6.18 shipped!",
+   "link": "https://moneysavingmom.com/lysol-power-toilet-bowl-cleaner-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T18:30Z",
+   "firstSeen": "2026-10-28T02:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/09/Lysol-Toilet-Bowl-Cleaner-1.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "1f0f637b8b45",
    "date": null
   },
   {
