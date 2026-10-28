@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T04:57Z",
- "count": 972,
+ "updated": "2026-10-28T05:55Z",
+ "count": 964,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 0
   },
   "tfg": {
    "read": 40,
@@ -59,11 +59,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 25,
    "geminiEvent": 0,
-   "mymemory": 16,
-   "geminiToday": 19,
-   "model": "gemini-flash-latest"
+   "mymemory": 4,
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -129,13 +130,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "アマゾンでわずか$ 12.49のユニコーン描画プロジェクター（スクリーンフリーおもちゃ！ ）",
-   "jaVia": "mymemory",
+   "ja": "描画プロジェクターが$12.49",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "アマゾンでわずか$ 12.49のユニコーン描画プロジェクター（スクリーンフリーおもちゃ！ ）",
+    "item": "描画プロジェクターが$12.49",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "$12.49知育玩具",
+    "where": "Amazon"
    },
    "date": null
   },
@@ -266,13 +269,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "チェッカー&ラリーのセール|ビッグ・ビュフォードなどが無料！",
-   "jaVia": "mymemory",
+   "ja": "Big Bufordバーガー等",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "チェッカー&ラリーのセール|ビッグ・ビュフォードなどが無料！",
+    "store": "Checkers & Rally’s",
+    "item": "Big Bufordバーガー等",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料バーガー",
+    "where": "Checkers & Rally’s"
    },
    "date": null
   },
@@ -917,13 +922,15 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "ターゲットは、ライソルサンプル付きの無料ポーチを提供しています（ 10月31日午後12時から午後4時まで）",
-   "jaVia": "mymemory",
+   "ja": "Lysolサンプル入りポーチ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "ターゲットは、ライソルサンプル付きの無料ポーチを提供しています（ 10月31日午後12時から午後4時まで）",
-    "when": "10/31(土) 12PM",
-    "cond": ""
+    "item": "Lysolサンプル入りポーチ",
+    "when": "10/31 12〜16時",
+    "cond": "",
+    "what": "無料ポーチセット",
+    "where": "Target"
    },
    "date": "2026-10-31"
   },
@@ -1917,13 +1924,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ホームデポの2026年ブラックフライデーセールについて知っていること（残念ながら、それほど多くはありません）",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデー情報",
+   "jaVia": "gemini",
    "sum": {
     "store": "Home Depot",
-    "item": "ホームデポの2026年ブラックフライデーセールについて知っていること（残念ながら、それほど多くはありません）",
+    "item": "ブラックフライデー情報",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BFセール情報",
+    "where": "Home Depot"
    },
    "date": null
   },
@@ -2681,13 +2690,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ウォルマートクーポンセール：無料のBreyer's Ice Cream Bars、Dove Deodorantなど！",
-   "jaVia": "mymemory",
+   "ja": "アイスバー、制汗剤など",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "ウォルマートクーポンセール：無料のBreyer's Ice Cream Bars、Dove Deodorantなど！",
+    "item": "アイスバー、制汗剤など",
     "when": "",
-    "cond": ""
+    "cond": "クーポン",
+    "what": "無料アイス・日用品",
+    "where": "Walmart"
    },
    "date": null
   },
@@ -2754,13 +2765,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "今週のターゲットセール：無料のシアモイスチャーソープ、$ 1.59ベナドリルかゆみ緩和スティックなど！",
-   "jaVia": "mymemory",
+   "ja": "無料石鹸、$1.59かゆみ止め等",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "今週のターゲットセール：無料のシアモイスチャーソープ、$ 1.59ベナドリルかゆみ緩和スティックなど！",
-    "when": "",
-    "cond": ""
+    "item": "無料石鹸、$1.59かゆみ止め等",
+    "when": "今週",
+    "cond": "",
+    "what": "無料石鹸・格安薬",
+    "where": "Target"
    },
    "date": null
   },
@@ -2891,13 +2904,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "メイシーズ香水セール|カルバン・クライン、マーク・ジェイコブスなどがお得（さらに無料ギフト！ ）",
-   "jaVia": "mymemory",
+   "ja": "ブランド香水各種とおまけ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "メイシーズ香水セール|カルバン・クライン、マーク・ジェイコブスなどがお得（さらに無料ギフト！ ）",
+    "store": "Macy’s",
+    "item": "ブランド香水各種とおまけ",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "香水割引・おまけ",
+    "where": "Macy’s"
    },
    "date": null
   },
@@ -3263,13 +3278,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "20オンスのスプライトボトルが無料！最初の115,000人のみ！",
-   "jaVia": "mymemory",
+   "ja": "20ozスプライト1本",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "20オンスのスプライトボトルが無料！最初の115,000人のみ！",
+    "store": "Sprite",
+    "item": "20ozスプライト1本",
     "when": "",
-    "cond": "先着115,000名"
+    "cond": "先着11.5万名",
+    "what": "無料スプライト",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -3332,13 +3349,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Nulo Culinary Harvest、七面鳥、ニシンのキブルサンプル（大人の犬用）",
-   "jaVia": "mymemory",
+   "ja": "成犬用フードサンプル",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Nulo Culinary Harvest、七面鳥、ニシンのキブルサンプル（大人の犬用）",
+    "store": "nulo",
+    "item": "成犬用フードサンプル",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料ドッグフード",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -3739,50 +3758,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "新しいNeeDohは、ウォルマートのアーリーブラックフライデーディールのために11月12日にドロップするように設定します",
-   "jaVia": "mymemory",
+   "ja": "NeeDoh新セット販売",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "新しいNeeDohは、ウォルマートのアーリーブラックフライデーディールのために11月12日にドロップするように設定します",
-    "when": "",
-    "cond": ""
+    "item": "NeeDoh新セット販売",
+    "when": "11/12",
+    "cond": "",
+    "what": "新作トイ発売",
+    "where": "Walmart"
    },
-   "date": null
-  },
-  {
-   "id": "20e3adf5c3f0",
-   "title": "TODAY ONLY! 40% Off EVERYTHING at Victoria’s Secret + FREE Tote w/$100+ Purchase!",
-   "link": "https://thefreebieguy.com/victorias-secret-extra-40-off-today-only/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T15:04Z",
-   "firstSeen": "2026-10-27T15:57Z",
-   "expires": "2026-10-27",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/victorias-secret-scent-event-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-27"
-   },
-   "ja": "本日限り！ビクトリアズ・シークレットのすべてが40%オフ+ $ 100以上の購入で無料トートバッグ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Victoria’s Secret",
-    "item": "本日限り！ビクトリアズ・シークレットのすべてが40%オフ+ $ 100以上の購入で無料トートバッグ！",
-    "when": "10/27(火)",
-    "cond": ""
-   },
-   "date": "2026-10-27"
+   "date": "2026-11-12"
   },
   {
    "id": "7b27637a788f",
@@ -4095,40 +4081,6 @@
    "date": null
   },
   {
-   "id": "0cfffa54e23b",
-   "title": "bObsweep – UltraVision Self-Empty Robot Vacuum Only $199 at Best Buy (Reg $600) – Today Only!",
-   "link": "https://thefreebieguy.com/bobsweep-ultravision-self-empty-robot-vacuum-mop-deal-at-best-buy/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T14:23Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": "2026-10-27",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/05/bobsweep-Best-Buy-840x630.png",
-   "hot": false,
-   "stores": [
-    "Best Buy"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 67,
-   "price": 199.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "bObsweep – UltraVision Self - Empty Robot Vacuum Only $ 199 at Best Buy (Reg $ 600) –本日限定！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Best Buy",
-    "item": "bObsweep – UltraVision Self - Empty Robot Vacuum Only $ 199 at Best Buy (Reg $ 600) –本日限定！",
-    "when": "10/27(火)まで",
-    "cond": ""
-   },
-   "date": "2026-10-27"
-  },
-  {
    "id": "13c37bbf701e",
    "title": "LEGO Classic Creative Food Friends Set Just $6 on Amazon & Target.com",
    "link": "https://hip2save.com/deals/lego-classic-creative-food-friends/",
@@ -4223,13 +4175,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "$ 5.00相当の無料ビーチナッツ製品を獲得しましょう！",
-   "jaVia": "mymemory",
+   "ja": "$5相当の製品",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "$ 5.00相当の無料ビーチナッツ製品を獲得しましょう！",
+    "store": "Beech-Nut",
+    "item": "$5相当の製品",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "$5分商品無料",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -4325,13 +4279,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Best Buyブラックフライデー2026が間もなく登場！ 2倍の報酬とホリデー価格のマッチ保証が再登場！",
-   "jaVia": "mymemory",
+   "ja": "ポイント2倍＆価格保証",
+   "jaVia": "gemini",
    "sum": {
     "store": "Best Buy",
-    "item": "Best Buyブラックフライデー2026が間もなく登場！ 2倍の報酬とホリデー価格のマッチ保証が再登場！",
+    "item": "ポイント2倍＆価格保証",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "ポイント2倍還元",
+    "where": "Best Buy"
    },
    "date": null
   },
@@ -4357,13 +4313,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "カレンダーにマークを付けてください！ 2026年ブラックフライデーの日付でトラクターの供給が減少しました",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデー日程情報",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "カレンダーにマークを付けてください！ 2026年ブラックフライデーの日付でトラクターの供給が減少しました",
+    "store": "Tractor Supply",
+    "item": "ブラックフライデー日程情報",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BF日程発表",
+    "where": "Tractor Supply"
    },
    "date": null
   },
@@ -4564,13 +4522,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Best Buyが2026年のブラックフライデースケジュールを廃止しました（知っておくべきことは次のとおりです！ ）",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデー日程情報",
+   "jaVia": "gemini",
    "sum": {
     "store": "Best Buy",
-    "item": "Best Buyが2026年のブラックフライデースケジュールを廃止しました（知っておくべきことは次のとおりです！ ）",
+    "item": "ブラックフライデー日程情報",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BF日程発表",
+    "where": "Best Buy"
    },
    "date": null
   },
@@ -5049,38 +5009,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "aac314a6dfbc",
-   "title": "Kroger’s 13 Scary Days of Deals Are Here = $0.99 2-Liter Soft Drinks Today!",
-   "link": "https://moneysavingmom.com/krogers-12-merry-days-of-deals/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T12:22Z",
-   "firstSeen": "2026-10-28T04:57Z",
-   "expires": "2026-10-27",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/12/Screenshot-2026-10-22-at-11.01.24-AM.png",
-   "hot": false,
-   "stores": [
-    "Kroger"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Kroger",
-    "item": "",
-    "when": "10/27(火)まで",
-    "cond": ""
-   },
-   "date": "2026-10-27"
   },
   {
    "id": "f707e1424351",
@@ -6805,46 +6733,6 @@
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
-   ],
-   "date": "2026-10-27",
-   "freebie": null,
-   "region": "College Station",
-   "family": true
-  },
-  {
-   "id": "e2240f308405",
-   "title": "\"Sea to Shining Sea\" Art Exhibit at DeGallery",
-   "link": "https://www.destinationbryan.com/events/visual-art-society-bcs-from-sea-to-shining-sea/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-27",
-   "thumb": null,
-   "noAlert": true,
-   "localDate": "2026-10-27",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "DeGallery",
-    "item": "地元美術協会の展示「Sea to Shining Sea」",
-    "what": "美術展",
-    "where": "DeGallery"
-   },
-   "ja": "地元美術協会の展示「Sea to Shining Sea」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
    ],
    "date": "2026-10-27",
    "freebie": null,
@@ -11465,43 +11353,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "7f60adeef6e9",
-   "title": "Explore America’s National Parks for Free on October 27th!",
-   "link": "https://thefreebieguy.com/free-national-park-entrance-days/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T13:51Z",
-   "firstSeen": "2026-10-26T14:45Z",
-   "expires": "2026-10-27",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/National-State-Parks-2026-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-27"
-   },
-   "ja": "国立公園の入場無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "National Park Service",
-    "item": "国立公園の入場無料",
-    "when": "10/27(火)",
-    "cond": "",
-    "what": "国立公園無料",
-    "where": "全米の国立公園"
-   },
-   "date": "2026-10-27"
   },
   {
    "id": "4344e157eece",
@@ -16786,40 +16637,6 @@
    "date": null
   },
   {
-   "id": "722bcb471c8f",
-   "title": "Amazon Prime: Four Months Of Standard Audible for $.99/month + Bonus $20 Audible Credit (Ends October 27th)",
-   "link": "https://www.doctorofcredit.com/amazon-prime-free-four-months-of-standard-audible/",
-   "source": "Doctor of Credit",
-   "posted": "2026-10-25T15:17Z",
-   "firstSeen": "2026-10-25T15:44Z",
-   "expires": "2026-10-27",
-   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/Screenshot-2026-10-21-at-10.07.57-AM-1024x342.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazonプライム： 4か月分のスタンダードオーディブル月額$ .99 +ボーナス$ 20オーディブルクレジット（ 10月27日まで）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonプライム： 4か月分のスタンダードオーディブル月額$ .99 +ボーナス$ 20オーディブルクレジット（ 10月27日まで）",
-    "when": "10/27(火)まで",
-    "cond": ""
-   },
-   "date": "2026-10-27"
-  },
-  {
    "id": "706a81ea1eaf",
    "title": "Gothic Bats Halloween Shower Curtain Only $5.xx on Amazon (Reg $19)!",
    "link": "https://thefreebieguy.com/halloween-shower-curtain/",
@@ -19209,43 +19026,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "059c30065587",
-   "title": "FREE National Park Admission on October 27th!",
-   "link": "https://hip2save.com/deals/free-national-park-day/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T19:45Z",
-   "firstSeen": "2026-10-24T20:41Z",
-   "expires": "2026-10-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2021/06/family-in-zion-national-park--e1699313079923.jpeg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-27"
-   },
-   "ja": "国立公園の入場無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "National Park Service",
-    "item": "国立公園の入場無料",
-    "when": "10/27(火)",
-    "cond": "",
-    "what": "国立公園無料",
-    "where": "全米の国立公園"
-   },
-   "date": "2026-10-27",
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "a7104165436e",
@@ -27160,45 +26940,6 @@
    },
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "c7515e4a5b3b",
-   "title": "FREE Mystery Pickle Plushie with Jimmy John’s Triple Pickle Meal (Starting 10/27)",
-   "link": "https://hip2save.com/deals/jimmy-johns-coupons/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T15:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-27",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-27"
-   },
-   "ja": "ピクルスのぬいぐるみ無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Jimmy John’s",
-    "item": "ピクルスのぬいぐるみ無料",
-    "when": "10/27〜",
-    "cond": "トリプルピクルスミール購入",
-    "what": "無料グッズ",
-    "where": "Jimmy John’s"
-   },
-   "date": "2026-10-27",
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Jimmy-Johns-Picklewich-Meal.jpg?resize=306,182"
   },
   {
    "id": "6a4602794f13",
