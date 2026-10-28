@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-28T12:50Z",
- "count": 994,
+ "updated": "2026-10-28T12:52Z",
+ "count": 979,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
-   "added": 23
+   "added": 22
   },
   "doc": {
    "read": 15,
@@ -29,10 +29,6 @@
   "mws": {
    "read": 20,
    "added": 1
-  },
-  "hotc": {
-   "read": 20,
-   "added": 4
   },
   "wtaw": {
    "read": 20,
@@ -61,7 +57,7 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
+   "mymemory": 24,
    "geminiToday": 14,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
@@ -73,9 +69,9 @@
    "id": "0a30630bd9b0",
    "title": "FREE Sonny’s BBQ Sandwich, Side & Drink Today for First Responders",
    "link": "https://hip2save.com/deals/free-sonnys-bbq-sandwich/",
-   "source": "Hip2Save(無料)",
+   "source": "Hip2Save",
    "posted": "2026-10-28T12:50Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": "2026-10-28",
    "thumb": "https://hip2save.com/wp-content/uploads/2023/08/Hip2Save-1200x630-3-24.jpg?resize=306,182",
    "hot": true,
@@ -109,7 +105,7 @@
    "link": "https://hip2save.com/deals/amazon-reusable-ear-plugs/",
    "source": "Hip2Save",
    "posted": "2026-10-28T12:45Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/LITLISFLY-Ear-Plugs-in-Classic-Black.jpg?resize=306,182",
    "hot": false,
@@ -143,7 +139,7 @@
    "link": "https://hip2save.com/deals/tcl-55-inch-tv/",
    "source": "Hip2Save",
    "posted": "2026-10-28T12:40Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://hip2save.com/wp-content/uploads/2022/10/TCL-55-4K-Mini-LED-Smart-TV.jpg?resize=306,182",
    "hot": false,
@@ -177,7 +173,7 @@
    "link": "https://moneysavingmom.com/lego-creator-set-lowest-price-plus-more/",
    "source": "Money Saving Mom",
    "posted": "2026-10-28T12:36Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/LEGO-Classic-Creative-Food-Friends-Building-Toy-Set-630x551.jpg",
    "hot": false,
@@ -212,7 +208,7 @@
    "link": "https://thefreebieguy.com/smart-digital-calendar/",
    "source": "The Freebie Guy",
    "posted": "2026-10-28T12:31Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/10.1-Smart-Digital-Calendar--840x630.png",
    "hot": false,
@@ -247,7 +243,7 @@
    "link": "https://thefreebieguy.com/nulas-6-pc-colorful-kitchen-knife-set/",
    "source": "The Freebie Guy",
    "posted": "2026-10-28T12:29Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/NULAS-6-PC-Colorful-Kitchen-Knife-Set-840x630.png",
    "hot": true,
@@ -281,7 +277,7 @@
    "link": "https://thefreebieguy.com/clabber-girl-cornstarch-2-pack/",
    "source": "The Freebie Guy",
    "posted": "2026-10-28T12:14Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Clabber-Girl-Non-GMO-Corn-Starch-840x630.png",
    "hot": true,
@@ -299,9 +295,11 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "ja": "Clabber Girlコーンスターチ2パックAmazonで$ 2.xxのみ！ (Reg. $ 10)",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Clabber Girlコーンスターチ2パックAmazonで$ 2.xxのみ！ (Reg. $ 10)",
     "when": "",
     "cond": ""
    },
@@ -7093,7 +7091,7 @@
    "link": "https://moneysavingmom.com/free-national-park-day/",
    "source": "Money Saving Mom",
    "posted": "2026-10-27T11:09Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/08/Bryce-Canyon-630x473.jpg",
    "hot": true,
@@ -7198,7 +7196,7 @@
    "link": "https://moneysavingmom.com/free-kong-dog-or-cat-toy/",
    "source": "Money Saving Mom",
    "posted": "2026-10-27T10:54Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/FREE-KONG-Toy-for-Cats-or-Dogs-630x382.jpg",
    "hot": true,
@@ -14479,7 +14477,6 @@
    "expires": "2026-11-01",
    "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Things-to-do-in-Houston-this-Weekend-–-October-30-November-1.jpg",
    "noAlert": true,
-   "region": "Houston",
    "hot": true,
    "stores": [],
    "cats": [
@@ -18760,128 +18757,6 @@
    "date": null
   },
   {
-   "id": "1cd1c5facca4",
-   "title": "Houston Highlights: October 26 to October 29 – Food, Music, Arts & More",
-   "link": "https://www.houstononthecheap.com/houston-picks-october-26-october-29-2026/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-25T09:49Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": "2026-10-29",
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Houston-Highlights_-October-26-to-October-29.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "今週(10/26〜29)の食・音楽・アートの催しまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "今週(10/26〜29)の食・音楽・アートの催しまとめ",
-    "when": "10/26〜10/29",
-    "cond": "無料・家族向け",
-    "what": "今週の催し",
-    "where": "ヒューストン各地"
-   },
-   "date": "2026-10-26",
-   "localDate": "2026-10-26",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true
-  },
-  {
-   "id": "36cee78a17ca",
-   "title": "Make Room for Holiday Magic: Kids Events in Houston in December 2026",
-   "link": "https://www.houstononthecheap.com/kids-events-in-houston-in-december-2026/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-25T09:08Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Kids-Events-in-Houston-in-December-2026.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "12月の子供向けホリデーイベントまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "12月の子供向けホリデーイベントまとめ",
-    "when": "12月",
-    "cond": "子供向け",
-    "what": "12月子供催し",
-    "where": "ヒューストン各地"
-   },
-   "date": null,
-   "family": true,
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ]
-  },
-  {
-   "id": "f177620387b2",
-   "title": "Veterans Day Houston 2026: Parades, Free Meals & Ceremony Guide",
-   "link": "https://www.houstononthecheap.com/veterans-day-parades-ceremonies-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-25T08:00Z",
-   "firstSeen": "2026-10-25T08:46Z",
-   "expires": "2026-11-11",
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Veterans-Day-Houston-2026.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "退役軍人の日のパレード・無料食事まとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "退役軍人の日のパレード・無料食事まとめ",
-    "when": "11/11(水)",
-    "cond": "無料・家族向け",
-    "what": "退役軍人の日",
-    "where": "ヒューストン各地"
-   },
-   "date": "2026-11-11",
-   "family": true,
-   "outing": [
-    "エンタメ"
-   ]
-  },
-  {
    "id": "dfa30d09ad47",
    "title": "Gift Guide: 20 Great Gift Ideas for Fashionistas",
    "link": "https://momswhosave.com/gift-guide-20-great-gift-ideas-for-fashionistas/",
@@ -18914,47 +18789,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "f0dfd6f435bb",
-   "title": "Best Family Picnic Spots in Houston with Cheap To-Go Packs",
-   "link": "https://www.houstononthecheap.com/family-picnic-spots-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-25T07:21Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Family-Picnic-Spots-in-Houston.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "家族向けピクニック公園と格安テイクアウトまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "家族向けピクニック公園と格安テイクアウトまとめ",
-    "when": "",
-    "cond": "家族向け",
-    "what": "ピクニック場所",
-    "where": "ヒューストン各地"
-   },
-   "date": null,
-   "family": true,
-   "outing": [
-    "公園・屋外",
-    "子供向け"
-   ]
   },
   {
    "id": "2850fbebbd8f",
@@ -19510,7 +19344,7 @@
    "link": "https://hip2save.com/deals/walgreens-photo-prints/",
    "source": "Hip2Save(無料)",
    "posted": "2026-10-24T22:30Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Walgreens-Retro-Mini-Print-Sets.jpg?resize=306,182",
    "hot": true,
@@ -22502,7 +22336,7 @@
    "link": "https://hip2save.com/deals/lowes-kids-workshop/",
    "source": "Hip2Save(無料)",
    "posted": "2026-10-24T11:15Z",
-   "firstSeen": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T12:52Z",
    "expires": null,
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mr-beast-at-lowes.jpg?resize=306,182",
    "hot": true,
@@ -22534,86 +22368,6 @@
    "date": null
   },
   {
-   "id": "6d66ac046cae",
-   "title": "A Houston Holiday Bucket List: December 2026 Events in Houston for Adults",
-   "link": "https://www.houstononthecheap.com/december-2026-events-in-houston-for-adults/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-24T10:00Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/December-2026-Events-in-Houston-for-Adults.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "12月の大人向けホリデーイベントまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "12月の大人向けホリデーイベントまとめ",
-    "when": "12月",
-    "cond": "大人向け",
-    "what": "12月大人催し",
-    "where": "ヒューストン各地"
-   },
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true
-  },
-  {
-   "id": "315dfc3ad223",
-   "title": "Día de los Muertos Houston 2026: Best Festivals & Parades",
-   "link": "https://www.houstononthecheap.com/dia-de-los-muertos-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-24T09:00Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": "2026-11-02",
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Dia-de-Los-Muertos-Houston-1.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-02",
-   "family": true,
-   "ja": "死者の日(Día de los Muertos)の祭り・パレードまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "死者の日(Día de los Muertos)の祭り・パレードまとめ",
-    "when": "10月末〜11/2",
-    "cond": "家族向け",
-    "what": "死者の日祭り",
-    "where": "ヒューストン各地"
-   },
-   "outing": [
-    "エンタメ"
-   ]
-  },
-  {
    "id": "8bc419cf6e6c",
    "title": "Guide to the 2026 Texas City Music Festival | Free Live Music & Local Fun",
    "link": "https://www.houstononthecheap.com/texas-city-music-festival-2026/",
@@ -22623,7 +22377,6 @@
    "expires": null,
    "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Texas-City-Music-Festival.jpg",
    "noAlert": true,
-   "region": "Houston",
    "hot": true,
    "stores": [],
    "cats": [
@@ -22651,46 +22404,9 @@
     "where": "Texas City"
    },
    "date": null,
-   "family": true,
    "outing": [
     "エンタメ"
    ]
-  },
-  {
-   "id": "b9efcaf4397a",
-   "title": "Best Delis, Po’ Boys, and Sandwiches in Houston",
-   "link": "https://www.houstononthecheap.com/best-sandwiches-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-24T07:00Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Best-Delis-Po-Boys-and-Sandwiches-in-Houston.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "デリ・ポーボーイのおすすめ店まとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "デリ・ポーボーイのおすすめ店まとめ",
-    "when": "",
-    "cond": "グルメ",
-    "what": "サンドイッチ店",
-    "where": "ヒューストン各地"
-   }
   },
   {
    "id": "e8b3bb06a5ac",
@@ -25737,42 +25453,6 @@
    "date": null
   },
   {
-   "id": "afd2bee30afb",
-   "title": "15+ Best Things to Do in Houston Thanksgiving Week (2026)",
-   "link": "https://www.houstononthecheap.com/things-to-do-houston-thanksgiving-week/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-23T10:00Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Things-to-Do-in-Houston-Thanksgiving-Week.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "感謝祭週間のおすすめイベントまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "感謝祭週間のおすすめイベントまとめ",
-    "when": "11月下旬",
-    "cond": "家族向け",
-    "what": "感謝祭の催し",
-    "where": "ヒューストン各地"
-   }
-  },
-  {
    "id": "7f4e9d549677",
    "title": "Leg Massager Only $39 Shipped on Amazon (Reg. $100)",
    "link": "https://hip2save.com/deals/leg-massager/",
@@ -28591,43 +28271,6 @@
     "item": "ウォルマートでキャッシュバック後の2つの無料ダウニーアンストッパブルリリーススプレー",
     "when": "",
     "cond": ""
-   }
-  },
-  {
-   "id": "bcb7e070b629",
-   "title": "Best Thanksgiving Break Camps in Houston (2026)",
-   "link": "https://www.houstononthecheap.com/thanksgiving-break-camps-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-22T10:00Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Thanksgiving-Break-Camps-in-Houston.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "family": true,
-   "ja": "感謝祭休みの子供向けキャンプまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "感謝祭休みの子供向けキャンプまとめ",
-    "when": "11月下旬",
-    "cond": "子供向け・有料",
-    "what": "感謝祭キャンプ",
-    "where": "ヒューストン各地"
    }
   },
   {
@@ -33213,194 +32856,6 @@
    "date": null
   },
   {
-   "id": "c6d1abd3a3cf",
-   "title": "Houston Highlights: October 19 to October 22 – Food, Music, Arts & More",
-   "link": "https://www.houstononthecheap.com/houston-picks-october-19-october-22-2026/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-18T10:29Z",
-   "firstSeen": "2026-10-28T12:50Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Houston-Highlights_-October-19-to-October-22.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "localDate": "2026-10-19",
-   "freebie": null,
-   "ja": "ヒューストンの見どころ： 10月19日～ 22日：フード、音楽、アートなど",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ヒューストンの見どころ： 10月19日～ 22日：フード、音楽、アートなど",
-    "when": "10/19(月)",
-    "cond": ""
-   },
-   "date": "2026-10-19"
-  },
-  {
-   "id": "2c460bdcc917",
-   "title": "Best Sunday Roast & Southern Comfort Food Spots in Houston",
-   "link": "https://www.houstononthecheap.com/best-comfort-food-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-18T09:17Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Comfort-Food-Spots-in-Houston.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-18",
-   "localDate": "2026-10-18",
-   "ja": "ヒューストンのおすすめサンデーロースト＆南部料理店",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "ヒューストンのおすすめサンデーロースト＆南部料理店",
-    "when": "",
-    "cond": "グルメ",
-    "what": "南部料理",
-    "where": "ヒューストン"
-   }
-  },
-  {
-   "id": "2f89e0e8394b",
-   "title": "Festive Ways to Celebrate Diwali in Houston (2026)",
-   "link": "https://www.houstononthecheap.com/diwali-in-houston-texas-events/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-18T08:00Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Diwali-in-Houston.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "ディワリ(インドの光の祭り)の催しまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "ディワリ(インドの光の祭り)の催しまとめ",
-    "when": "2026年秋",
-    "cond": "家族向け",
-    "what": "ディワリ祭",
-    "where": "ヒューストン各地"
-   }
-  },
-  {
-   "id": "e32608716303",
-   "title": "Best Trick-or-Treat Neighborhoods in Greater Houston",
-   "link": "https://www.houstononthecheap.com/trick-or-treat-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-17T09:45Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": "2026-10-31",
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Trick-or-Treat-Houston.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-31",
-   "family": true,
-   "ja": "トリック・オア・トリートのおすすめ地区まとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "トリック・オア・トリートのおすすめ地区まとめ",
-    "when": "10/31(土)",
-    "cond": "家族向け",
-    "what": "お菓子もらい",
-    "where": "ヒューストン各地"
-   },
-   "outing": [
-    "エンタメ"
-   ]
-  },
-  {
-   "id": "e7db87630b5e",
-   "title": "Best Panaderias in Houston for Fresh Pan de Muerto",
-   "link": "https://www.houstononthecheap.com/best-panaderias-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-17T08:00Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Best-Panaderias-in-Houston.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "Pan de Muertoが買えるパン屋まとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "Pan de Muertoが買えるパン屋まとめ",
-    "when": "",
-    "cond": "グルメ",
-    "what": "死者の日パン",
-    "where": "ヒューストンのパン屋"
-   }
-  },
-  {
    "id": "7a0e2d2cade2",
    "title": "Taco Bell Debuts New Dream Refresca Drinks",
    "link": "https://www.fastfoodpost.com/taco-bell-debuts-new-dream-refresca-drinks/",
@@ -33463,50 +32918,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e2166daa4237",
-   "title": "Halloween Day in Houston 2026: What’s Open, Freebies & Candy Maps",
-   "link": "https://www.houstononthecheap.com/halloween-day-houston/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-16T07:48Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": "2026-10-31",
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Halloween-Day-in-Houston.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "ja": "ハロウィン当日の営業・無料特典・お菓子マップ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "ハロウィン当日の営業・無料特典・お菓子マップ",
-    "when": "10/31(土)",
-    "cond": "家族向け",
-    "what": "ハロウィン情報",
-    "where": "ヒューストン各地"
-   },
-   "date": "2026-10-31",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true
   },
   {
    "id": "c0feef908921",
