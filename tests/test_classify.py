@@ -235,3 +235,12 @@ assert f.life_days({"title": "Free Cookie", "freebie": {"kind": "coupon"}}) == f
 assert f.life_days({"title": "Socks 50% off", "types": ["sale"]}) == f.SALE_LIFE_DAYS
 print("expiry failures:", len(_bad), _bad if _bad else "")
 assert not _bad
+
+# 要約の日時・曜日からの期限(2026-10-28:10/24 の Lowe's、For Tuesday が残った)
+for _w, _e in [("10/24", "2026-10-24"), ("10/31(土)まで", "2026-10-31"), ("10/30〜11/2", "2026-11-02"),
+               ("11/1〜", None), ("11/3(火)〜", None), ("毎週金曜", None), ("11月", None)]:
+    assert f.sum_expiry(_w, _P) == _e, (_w, f.sum_expiry(_w, _P))
+_T = _dt.datetime(2026, 10, 27, 15, tzinfo=_dt.timezone.utc)   # 火曜
+assert f.weekday_expiry("Cheap Food Deals & Freebies For Tuesday!", _T) == "2026-10-27"
+assert f.weekday_expiry("Black Friday Free Gift", _T) is None
+print("sum/weekday expiry ok")

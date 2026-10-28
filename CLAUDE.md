@@ -61,7 +61,7 @@
 ## 変えるとき
 - 店を足す:config/stores.json に追記 → `python3 tests/test_classify.py` で failures: 0。
 - 分類を変えたら tests/test_classify.py に1件足す。
-- 期限は見出しの「Today/Tonight」「through 10/31」「through October 31st」「October 23 – October 25」「on 10/25」「Halloween」などから推定(guess_expiry、毎回すべての記事にかけ直す。コラボは strict=終わりが書いてあるものだけ)。**期限の翌日に消す**(サイトは期限切れを即非表示)。
+- 期限は見出しの「Today/Tonight」「through 10/31」「through October 31st」「October 23 – October 25」「on 10/25」「Halloween」などから推定(guess_expiry、毎回すべての記事にかけ直す。コラボは strict=終わりが書いてあるものだけ)。**期限の翌日に消す**(サイトは期限切れを即非表示)。見出しで読めないときは、日本語要約の日時 sum.when(「10/24」「〜11/2」など。「11/1〜」の開始だけ・「毎週」は読まない、sum_expiry)と、無料・BOGO の見出しの曜日(「For Tuesday」「T-Mobile Tuesdays」→ 掲載日以降の最初のその曜日。Black Friday 等は除く、weekday_expiry)で補う(2026-10-28 本人指摘)。
 - 期限が読めない記事は life_days() の日数で消す(2026-10-27、古い無料情報が残ると本人指摘):数量限定の無料(「First 10,000」「Hurry」「RUN!」「115,000 Available」)3日、その他の無料・BOGO 7日、セール14日、キャラコラボ21日。日付の先の地元の催し(localDate が今日以降)とイベント一覧(calendar)は残す。
 - 「注目」= 無料、または 70%以上の値引き。
 - 「無料でもらえる」(freebie)= fetch_deals.py の freebie_info()。送料無料・キャッシュバック後無料・懸賞・お試し・退役軍人向け・電子書籍・「〜で稼ぐ」などは除外。「Freebies」まとめ記事はクーポン扱い。別の情報源の同じ話題は mark_duplicates() で dup を付け、通知・画面から外す。店頭(イベント・日時・数量限定)とクーポンに分け、日付を見出しから読む。毎回すべての記事にかけ直す。画面の初期タブ(「無料・BOGO」)。

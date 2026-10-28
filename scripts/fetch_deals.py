@@ -627,6 +627,45 @@ def guess_expiry(title, posted, strict=False):
         return None
 
 
+WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+# 「For Tuesday!」「T-Mobile Tuesdays」など曜日だけの無料(2026-10-28 本人指摘)。Black Friday などの行事名は除く
+WEEKDAY_RE = re.compile(r"(?<!black )(?<!cyber )(?<!giving )(?<!business )(?<!good )\b(" + "|".join(WEEKDAYS) + r")s?\b", re.I)
+SUM_DATE_RE = re.compile(r"(?:(\d{4})[-/])?(\d{1,2})[/-](\d{1,2})")
+
+
+def _ymd(y, mo, d, posted):
+    ct = posted.astimezone(CT)
+    y = int(y) if y else ct.year + (1 if mo < ct.month - 6 else 0)
+    try:
+        return dt.date(y, mo, d).isoformat()
+    except ValueError:
+        return None
+
+
+def sum_expiry(when, posted):
+    """日本語要約の日時(sum.when)から期限を読む。「10/24」「10/31(土)まで」「〜11/2」「10/30〜11/2」→ 最後の日付。
+    「11/1〜」(開始だけ)・「毎週〜」・「11月」などは読まない(None)。"""
+    if not when or "毎週" in when:
+        return None
+    ds = list(SUM_DATE_RE.finditer(when))
+    if not ds:
+        return None
+    last = ds[-1]
+    if re.match(r"\s*(?:\([^)]*\))?\s*(?:[〜~]|から)", when[last.end():]):
+        return None   # 「11/1〜」「11/1から」=開始日だけ
+    return _ymd(last.group(1), int(last.group(2)), int(last.group(3)), posted)
+
+
+def weekday_expiry(title, posted):
+    """見出しの曜日 → 掲載日以降で最初のその曜日(当日を含む)"""
+    m = WEEKDAY_RE.search(title)
+    if not m:
+        return None
+    ct = posted.astimezone(CT).date()
+    wd = WEEKDAYS.index(m.group(1).lower())
+    return (ct + dt.timedelta(days=(wd - ct.weekday()) % 7)).isoformat()
+
+
 def life_days(x):
     """期限が読めない記事を掲載日から何日残すか(2026-10-27:古い無料情報が残る問題の対策)"""
     if x.get("collab"):
@@ -771,6 +810,11 @@ def main():
             x["expires"] = guess_expiry(x["title"], parse_date_iso(x["posted"]), strict=bool(x.get("collab")))
         if x["freebie"] and x["freebie"]["when"] and not x.get("expires") and x["freebie"]["kind"] == "store":
             x["expires"] = x["freebie"]["when"]
+        if not x.get("expires") and not x.get("calendar") and not x.get("collab"):
+            # 見出しに日付がなくても、日本語要約の日時や曜日(For Tuesday 等)から期限を補う(2026-10-28)
+            p_ = parse_date_iso(x["posted"])
+            x["expires"] = sum_expiry((x.get("sum") or {}).get("when"), p_) \
+                or (weekday_expiry(x["title"], p_) if (x["freebie"] or "bogo" in x.get("types", [])) else None)
 
     # 日本語化:
     # - 無料でもらえるもの → Gemini で4項目に要約(無料枠は1日20回なので、1回の実行で最大1回・1日15回まで)
