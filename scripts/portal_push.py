@@ -16,7 +16,7 @@ def push(title: str, body: str, url: str = "", tag: str = "") -> bool:
     """1台以上に届いたら True。url を空にするとポータル側の既定(そのサイトのカード)を開く。"""
     req_url, tok = os.environ.get("ACTIONS_ID_TOKEN_REQUEST_URL"), os.environ.get("ACTIONS_ID_TOKEN_REQUEST_TOKEN")
     if not req_url or not tok:
-        print("プッシュ:OIDC が使えない(id-token: write がない or ローカル実行)ので送らない")
+        print("::warning::プッシュ:OIDC が使えない(id-token: write がない or ローカル実行)ので送らない")
         return False
     try:
         r = urllib.request.Request(req_url + "&audience=my-portal", headers={"Authorization": f"bearer {tok}"})
@@ -28,8 +28,9 @@ def push(title: str, body: str, url: str = "", tag: str = "") -> bool:
                                             "User-Agent": "portal-push-actions"})
         with urllib.request.urlopen(r, timeout=20) as res:
             out = json.loads(res.read())
-        print(f"プッシュ:{out.get('sent')}/{out.get('total')} 台に送信")
+        print(f"::notice::プッシュ:{out.get('sent')}/{out.get('total')} 台に送信")
         return bool(out.get("sent"))
     except Exception as e:  # noqa: BLE001
-        print("プッシュ:送れなかった", type(e).__name__, str(e)[:200])
+        detail = e.read().decode(errors="replace")[:200] if hasattr(e, "read") else ""
+        print(f"::warning::プッシュ:送れなかった {type(e).__name__} {str(e)[:200]} {detail}")
         return False
