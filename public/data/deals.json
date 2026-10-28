@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T09:02Z",
- "count": 970,
+ "updated": "2026-10-28T09:59Z",
+ "count": 974,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -60,14 +60,151 @@
   },
   "ja": {
    "gemini": 14,
-   "geminiEvent": 2,
-   "mymemory": 4,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest"
+   "geminiEvent": 0,
+   "mymemory": 5,
+   "geminiToday": 10,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "33a6078a0b8f",
+   "title": "So Cozy Kids Detangler & Leave In Conditioner Spray Just $5.xx on Amazon (Reg $10)",
+   "link": "https://thefreebieguy.com/so-cozy-kids-detangler-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T09:44Z",
+   "firstSeen": "2026-10-28T09:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/05/SO-COZY-Kids-2-in-1-Detangler-Leave-In-Conditioner-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "So Cozyキッズデタングラー＆コンディショナースプレーAmazonでわずか$ 5.xx （登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "So Cozyキッズデタングラー＆コンディショナースプレーAmazonでわずか$ 5.xx （登録価格$ 10 ）",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "83a5e39f3b9a",
+   "title": "Bella Pro Series 4-qt Slim Digital Air Fryer Only $39.xx at Best Buy (Reg. $70)",
+   "link": "https://thefreebieguy.com/bella-pro-series-4-qt-slim-digital-air-fryer-deal-at-best-buy/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T09:27Z",
+   "firstSeen": "2026-10-28T09:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Bella-Pro-Series-4-qt-Slim-Digital-Air-Fryer-840x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 44,
+   "price": 39.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bella Proシリーズ4 - qtスリムデジタルエアフライヤーBest Buyで$ 39.xxのみ（登録価格$ 70 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Bella Proシリーズ4 - qtスリムデジタルエアフライヤーBest Buyで$ 39.xxのみ（登録価格$ 70 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6c4c9c3270b0",
+   "title": "Grab a $100 PetSmart Gift Card For Only $85 at Best Buy!",
+   "link": "https://thefreebieguy.com/petsmart-gift-card/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T09:22Z",
+   "firstSeen": "2026-10-28T09:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/PetSmart-Gift-Card--840x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Best Buyでわずか85ドルで100ドルのPetSmartギフトカードを手に入れましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Best Buyでわずか85ドルで100ドルのPetSmartギフトカードを手に入れましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "01b7b76c5ba9",
+   "title": "DeWALT ToughGrip 35-Pc Screwdriving Bit Set Only $9.xx on Amazon",
+   "link": "https://thefreebieguy.com/dewalt-toughgrip-35-pc-screwdriving-bit-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T09:11Z",
+   "firstSeen": "2026-10-28T09:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/DEWALT-Screwdriver-Bit-Set-35-Pc-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "DeWALT ToughGrip 35ピースドライバービットセットがAmazonでわずか9.xxドル！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "DeWALT ToughGrip 35ピースドライバービットセットがAmazonでわずか9.xxドル！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "5ba48d746575",
    "title": "USB C to Lightning Cable 2-Pack 6FT MFi Certified Only $3.xx on Amazon",
