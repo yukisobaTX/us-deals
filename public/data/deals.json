@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T13:58Z",
- "count": 992,
+ "updated": "2026-10-28T14:10Z",
+ "count": 993,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -16,15 +16,15 @@
   },
   "ffp": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,81 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 22,
+   "mymemory": 16,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "c269fe723ce4",
+   "title": "Jack in the Box Launches New Doomsday Dipping Box Featuring Assemble Sauce, Mutant Marinara and Fantastic Buttermilk Ranch",
+   "link": "https://www.fastfoodpost.com/jack-in-the-box-launches-new-doomsday-dipping-box-featuring-assemble-sauce-mutant-marinara-and-fantastic-buttermilk-ranch/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-28T14:08Z",
+   "firstSeen": "2026-10-28T14:10Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Jack in the Box"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ジャック・イン・ザ・ボックスが、ソース、ミュータント・マリナラ、ファンタスティック・バターミルク・ランチをフィーチャーした新しいドゥームズデイ・ディッピングボックスを発売",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Jack in the Box",
+    "item": "ジャック・イン・ザ・ボックスが、ソース、ミュータント・マリナラ、ファンタスティック・バターミルク・ランチをフィーチャーした新しいドゥームズデイ・ディッピングボックスを発売",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "90769ef1e4f2",
+   "title": "Otium Bone Conduction Headphones Only $24.xx on Amazon (Reg $60)",
+   "link": "https://thefreebieguy.com/otium-bone-conduction-headphones/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T14:08Z",
+   "firstSeen": "2026-10-28T14:10Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Otium-Bone-Conduction-Headphones-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 24.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Otium骨伝導ヘッドフォンのみ$ 24.xx Amazon （登録価格$ 60 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Otium骨伝導ヘッドフォンのみ$ 24.xx Amazon （登録価格$ 60 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "e614535f3777",
    "title": "BioSilk Silk Therapy Original Only $7.xx on Amazon (Reg $21)",
@@ -7518,42 +7586,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "ebcf47eea297",
-   "title": "Free National Park Day | October 27",
-   "link": "https://moneysavingmom.com/free-national-park-day/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T11:09Z",
-   "firstSeen": "2026-10-28T13:58Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/08/Bryce-Canyon-630x473.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-27"
-   },
-   "ja": "無料国立公園の日| 10月27日",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "無料国立公園の日| 10月27日",
-    "when": "10/27(火)",
-    "cond": ""
-   },
-   "dup": "059c30065587",
-   "date": "2026-10-27"
   },
   {
    "id": "2f6a17e52d19",
