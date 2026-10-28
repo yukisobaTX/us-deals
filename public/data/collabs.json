@@ -1,0 +1,38 @@
+{
+ "_note": "🧸 コラボ予定(ポケモン・サンリオ。本人指定 10/27)。手入力の予定(auto なし)と、fetch_deals.py が見出しの日付から自動で足す予定(auto: true)。status は 公式/報道(未公式)/開催中。終わった予定は自動で消える。",
+ "updated": "2026-10-28T03:20Z",
+ "collabs": [
+  {
+   "id": "BK-sanrio-2026-10",
+   "store": "Burger King",
+   "chars": ["サンリオ"],
+   "kind": "food",
+   "title": "ハローキティ&フレンズのキッズミール(シークレット玩具6種+王冠、金色キティあり)",
+   "what": "キッズミール玩具",
+   "start": "2026-10-22",
+   "end": "2026-11-30",
+   "status": "開催中",
+   "note": "10/22 に開始を確認(Hip2Save)。終了日は公式発表なし(事前リークでは 11/30 まで)。なくなり次第終了。",
+   "sources": [
+    {"name": "Hip2Save", "url": "https://hip2save.com/deals/burger-king-kids-meals/"},
+    {"name": "Essential Japan(事前リーク)", "url": "https://essential-japan.com/news/burger-king-x-hello-kitty-and-friends-collab-leaks-ahead-of-october-us-launch/"}
+   ]
+  },
+  {
+   "id": "McDonald's-pokemon-2026-11",
+   "store": "McDonald's",
+   "chars": ["ポケモン"],
+   "kind": "food",
+   "title": "ポケモン30周年ハッピーセット(ミニ箱型フィギュア15種+カード2枚)",
+   "what": "ハッピーセット",
+   "start": "2026-11-10",
+   "end": "2026-12-14",
+   "status": "報道(未公式)",
+   "note": "米国の日程は未発表。10/27 の PokeBeach(複数店舗で確認)では 11/10〜12/14。9月の報道では 11/5〜12/9 だったため、公式発表で変わる可能性あり。",
+   "sources": [
+    {"name": "Pirates & Princesses(PokeBeach 経由、10/27)", "url": "https://news.piratesandprincesses.net/p/pokemon-happy-meals-return-nov-10"},
+    {"name": "Sporked(9/29、11/5〜12/9 の報道)", "url": "https://sporked.com/article/mcdonalds-new-pokemon-happy-meals-are-a-collectors-dream/"}
+   ]
+  }
+ ]
+}

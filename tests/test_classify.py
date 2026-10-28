@@ -179,21 +179,35 @@ if not (_body.index("CS家族") < _hou < _body.index("HOU家族") and _body.inde
         and _title.endswith("HS2")):
     bad += 1
     print("NG digest houston order", _title)
-# キャラコラボ(10/27 本人指定):飲食・グッズのコラボは拾い、ライセンス玩具の値下げ・カードの箱・抽選・ソニック(店)は拾わない
+# キャラコラボ(10/27 本人指定:ポケモンとサンリオだけ):飲食・グッズのコラボは拾い、カード箱の値下げ・抽選・ほかのキャラは拾わない
 for title, want in [("McDonald's Pokémon Happy Meal Returns Nov 4", ("food", "ポケモン")),
+                    ("McDonald's Pokemon TCG Promotion to Launch in November for 30th Anniversary!", ("food", "ポケモン")),
+                    ("Pokémon and McDonald's Reveal 15 New Happy Meal Toys Ahead of November Release", ("food", "ポケモン")),
                     ("Hello Kitty Fan? Grab a FREE Mystery Toy with Any Burger King Kids Meal!", ("food", "サンリオ")),
-                    ("Score Domino’s x Minecraft Dungeons Exclusives", ("food", "マインクラフト")),
-                    ("McDonald’s Unveils New Disney Villains Boo Buckets", ("food", "ディズニー")),
                     ("Stanley x Hello Kitty Quencher Tumbler Drops Today", ("goods", "サンリオ")),
                     ("Owala x Pokémon FreeSip Bottle", ("goods", "ポケモン")),
+                    ("Score Domino’s x Minecraft Dungeons Exclusives", None),
+                    ("McDonald’s Unveils New Disney Villains Boo Buckets", None),
                     ("Score 50¢ Sonic Corndogs on October 31st", None), ("Pokémon Elite Trainer Box $59.99", None),
-                    ("LEGO Disney Frozen Olaf Set Only $22", None), ("Disney Frozen Bluetooth Headphones Only $9", None),
-                    ("Walmart Drawing TODAY at 5PM ET — Pokémon Cards Up For Grabs!", None),
-                    ("Planters Peanuts Canister Only $1.79", None)]:
+                    ("Walmart Drawing TODAY at 5PM ET — Pokémon Cards Up For Grabs!", None)]:
     r = f.collab_info(title)
     if (r and (r["kind"], r["chars"][0])) != want:
         bad += 1
         print("NG collab", title, r)
+# コラボ予定:見出しに日付がある飲食店のコラボは collabs.json に入り、手入力の予定と近ければ出典だけ足す
+_cp = Path(_tf.mkdtemp()) / "c.json"
+_cp.write_text(_json.dumps({"collabs": [{"id": "m", "store": "McDonald's", "chars": ["ポケモン"], "start": "2099-11-10", "end": "2099-12-14", "sources": []}]}))
+_now = _dt.datetime(2099, 10, 27, tzinfo=_dt.timezone.utc)
+_ci = [{"id": "a", "title": "McDonald's Pokémon Happy Meal Starts Nov 5", "link": "https://e.com/a", "source": "X", "posted": "2099-10-27T00:00Z",
+        "stores": ["McDonald's"], "collab": {"chars": ["ポケモン"], "kind": "food"}},
+       {"id": "b", "title": "Burger King Hello Kitty Meal Starts Nov 20", "link": "https://e.com/b", "source": "X", "posted": "2099-10-27T00:00Z",
+        "stores": ["Burger King"], "collab": {"chars": ["サンリオ"], "kind": "food"}}]
+f.update_collab_calendar(_ci, _now, _cp)
+_cal = _json.loads(_cp.read_text())["collabs"]
+if not (len(_cal) == 2 and _cal[0]["start"] == "2099-11-10" and _cal[0]["sources"][0]["url"] == "https://e.com/a"
+        and _cal[1]["auto"] and _cal[1]["start"] == "2099-11-20"):
+    bad += 1
+    print("NG collab calendar", _cal)
 _atom = f.parse_rss('<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>Pokémon x Krispy Kreme Donuts</title>'
                     '<link rel="alternate" href="https://example.com/a"/><published>2026-10-27T10:00:00-05:00</published></entry></feed>')
 if not (_atom and _atom[0]["link"] == "https://example.com/a" and f.parse_date(_atom[0]["date"])):

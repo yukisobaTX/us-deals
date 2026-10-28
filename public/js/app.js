@@ -7,7 +7,7 @@
     { id: 'family', label: '👨‍👩‍👧 家族のお出かけ' },
     { id: 'local', label: '📍 CS' },
     { id: 'event', label: '🛍 大型セール' },
-    { id: 'collab', label: '🧸 キャラコラボ' },
+    { id: 'collab', label: '🧸 ポケモン・サンリオ' },
     { id: 'houston', label: '🏙 HS' },
     { id: 'all', label: 'すべて' },
     { id: 'grocery', label: 'スーパー' },
@@ -31,6 +31,7 @@
     'amazon-spring': 'Amazon 春セール', 'target-circle': 'Target Circle Week', 'walmart-event': 'Walmart セール',
     'holiday-sale': '祝日セール', 'tax-free': '免税週末' };
   let calendar = [];
+  let collabs = [];   // コラボ予定(collabs.json)
   const state = { cat: 'free', types: new Set(), store: '', sort: 'date', q: '' };
   let items = [];
   let links = { groups: [] };
@@ -192,6 +193,7 @@
 
   function renderCalendar() {
     const box = document.getElementById('cal');
+    if (state.cat === 'collab') { renderCollabPlan(box); return; }
     if (state.cat !== 'event' || !calendar.length) { box.hidden = true; return; }
     box.hidden = false;
     const upcoming = calendar.filter((e) => !e.date || daysLeft(e.date) >= 0);
@@ -201,6 +203,25 @@
       const li = el('li', {}, [el('b', { textContent: head + ' ' }), el('span', { textContent: e.name }),
         el('div', { className: 'note', textContent: e.note || '' })]);
       if (e.url && /^https:\/\//.test(e.url)) li.append(el('a', { href: e.url, target: '_blank', rel: 'noopener noreferrer', textContent: '公式' }));
+      return li;
+    })));
+  }
+
+  // 🧸 コラボ予定:開始日・終了日・公式かどうか・出典(本人指定 10/27)
+  function renderCollabPlan(box) {
+    const rows = collabs.filter((e) => daysLeft(e.end || e.start) >= 0);
+    if (!rows.length) { box.hidden = true; return; }
+    box.hidden = false;
+    box.replaceChildren(el('h2', { textContent: 'コラボ予定(ポケモン・サンリオ)' }), el('ul', {}, rows.map((e) => {
+      const s = daysLeft(e.start);
+      const head = s > 0 ? `${md(e.start)}〜${e.end ? md(e.end) : ''}(あと${s}日)` : `開催中${e.end ? '・〜' + md(e.end) : ''}`;
+      const li = el('li', {}, [el('b', { textContent: head + ' ' }),
+        el('span', { textContent: `${e.kind === 'food' ? '🍔' : '🎁'}【${(e.chars || []).join('・')}】${e.store}:${e.title}` }),
+        e.status && !['公式', '開催中'].includes(e.status) ? el('span', { className: 'tag exp soon', textContent: '未公式' }) : null,
+        el('div', { className: 'note', textContent: e.note || '' })]);
+      for (const s2 of (e.sources || [])) {
+        if (/^https:\/\//.test(s2.url)) li.append(el('a', { href: s2.url, target: '_blank', rel: 'noopener noreferrer', textContent: s2.name + ' ' }));
+      }
       return li;
     })));
   }
@@ -227,8 +248,9 @@
     const [d, l] = await Promise.all([
       fetch('data/deals.json' + v).then((r) => r.json()),
       fetch('data/links.json' + v).then((r) => r.json()).catch(() => ({ groups: [] })),
-      fetch('data/events.json' + v).then((r) => r.json()).catch(() => ({ events: [] }))
-    ]).then((r) => { calendar = (r[2].events || []); return r; });
+      fetch('data/events.json' + v).then((r) => r.json()).catch(() => ({ events: [] })),
+      fetch('data/collabs.json' + v).then((r) => r.json()).catch(() => ({ collabs: [] }))
+    ]).then((r) => { calendar = (r[2].events || []); collabs = (r[3].collabs || []); return r; });
     items = d.items || [];
     links = l;
     const up = new Date(Date.parse(d.updated)).toLocaleString('ja-JP', { timeZone: 'America/Chicago', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });

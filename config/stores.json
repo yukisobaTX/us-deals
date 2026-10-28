@@ -929,14 +929,17 @@
     }
   ],
   "_events": "大型セール。見出しにキーワードがあれば items[].event に入る。日程発表・開始の記事(EVENT_NEWS_RE)は即時通知、ほかはサイトと朝のまとめ。",
-  "_collab": "キャラコラボ(2026-10-27 本人指定)。core=キャラ名+(飲食・グッズ・コラボの語)で拾う。broad=ディズニー等の広いIPは、飲食店・キッズミール・明示のコラボ語・ボトル/タンブラーのときだけ。key は画面・メールに出す日本語名、値は見出しの語。",
+  "_collab": "キャラコラボ(2026-10-27 本人指定:ポケモンとサンリオだけに絞る)。core=キャラ名+(飲食・グッズ・コラボの語)。key は画面・メールに出す日本語名、値は見出しの語。broad は使わない(空)。",
   "collab": {
     "core": {
       "ポケモン": [
         "Pokémon",
         "Pokemon",
         "Pikachu",
-        "Eevee"
+        "Eevee",
+        "Pokémon TCG",
+        "Poké Ball",
+        "Poke Ball"
       ],
       "サンリオ": [
         "Sanrio",
@@ -949,143 +952,11 @@
         "Keroppi",
         "Badtz-Maru",
         "Gudetama",
-        "Aggretsuko"
-      ],
-      "ちいかわ": [
-        "Chiikawa"
-      ],
-      "すみっコ・リラックマ": [
-        "Sumikko Gurashi",
-        "Rilakkuma",
-        "San-X"
-      ],
-      "ジブリ": [
-        "Studio Ghibli",
-        "Ghibli",
-        "Totoro",
-        "Kiki's Delivery"
-      ],
-      "カービィ": [
-        "Kirby"
-      ],
-      "マリオ": [
-        "Super Mario",
-        "Mario Kart",
-        "Mario",
-        "Yoshi"
-      ],
-      "初音ミク": [
-        "Hatsune Miku"
-      ],
-      "スヌーピー": [
-        "Snoopy",
-        "Charlie Brown"
-      ],
-      "ラブブ": [
-        "Labubu",
-        "Pop Mart"
-      ],
-      "スクイッシュマロウ": [
-        "Squishmallows",
-        "Squishmallow"
-      ],
-      "ブルーイ": [
-        "Bluey"
-      ],
-      "マインクラフト": [
-        "Minecraft"
-      ],
-      "ソニック": [
-        "Sonic the Hedgehog"
-      ],
-      "ドラゴンボール": [
-        "Dragon Ball"
-      ],
-      "鬼滅の刃": [
-        "Demon Slayer"
-      ],
-      "呪術廻戦": [
-        "Jujutsu Kaisen"
-      ],
-      "ヒロアカ": [
-        "My Hero Academia"
-      ],
-      "スパイファミリー": [
-        "Spy x Family"
-      ],
-      "ナルト": [
-        "Naruto"
-      ],
-      "ドラえもん": [
-        "Doraemon"
-      ],
-      "ミッフィー": [
-        "Miffy"
+        "Aggretsuko",
+        "Kiki & Lala",
+        "Little Twin Stars"
       ]
     },
-    "broad": {
-      "ディズニー": [
-        "Disney",
-        "Mickey",
-        "Minnie",
-        "Stitch",
-        "Frozen",
-        "Pixar",
-        "Toy Story",
-        "Disney Villains"
-      ],
-      "マーベル": [
-        "Marvel",
-        "Spider-Man",
-        "Avengers"
-      ],
-      "スター・ウォーズ": [
-        "Star Wars",
-        "Mandalorian",
-        "Grogu"
-      ],
-      "バービー": [
-        "Barbie"
-      ],
-      "パウ・パトロール": [
-        "Paw Patrol"
-      ],
-      "ハリー・ポッター": [
-        "Harry Potter"
-      ],
-      "グリンチ": [
-        "Grinch"
-      ],
-      "ミニオンズ": [
-        "Minions",
-        "Despicable Me"
-      ],
-      "セサミストリート": [
-        "Sesame Street",
-        "Elmo"
-      ],
-      "ペッパピッグ": [
-        "Peppa Pig"
-      ],
-      "スポンジ・ボブ": [
-        "SpongeBob"
-      ],
-      "ウィキッド": [
-        "Wicked"
-      ],
-      "DC": [
-        "Batman",
-        "Superman"
-      ],
-      "ケアベア": [
-        "Care Bears"
-      ],
-      "ガーフィールド": [
-        "Garfield"
-      ],
-      "シュレック": [
-        "Shrek"
-      ]
-    }
+    "broad": {}
   }
 }

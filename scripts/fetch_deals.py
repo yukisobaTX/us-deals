@@ -472,8 +472,9 @@ COLLAB_GOODS_RE = re.compile(
     r"tumblers?|bottles?|\bcups?\b|\bmugs?\b|drinkware|stanley|owala|yeti|hydro ?flask|simple modern|"
     r"plush|backpacks?|crocs|sneakers|shoes|makeup|cosmetics|lip|nail|apparel|pajamas|merch", re.I)
 # 拾わないもの:LEGO などのライセンス玩具の値下げ、カードの箱、抽選・懸賞、ソニック(ドライブイン)
-COLLAB_NG_RE = re.compile(
-    r"\blego\b|trainer box|booster|\btcg\b|trading card|sweepstakes|\bdrawing\b|enter to win|\bwin\b", re.I)
+COLLAB_NG_RE = re.compile(r"\blego\b|sweepstakes|\bdrawing\b|enter to win|\bwin\b|giveaway", re.I)
+# カード商品(ポケカの箱など)の値下げは拾わない。ただし飲食店のコラボ(ハッピーセットのカードなど)は拾う
+CARD_RE = re.compile(r"trainer box|booster|\btcg\b|trading cards?|\bcards?\b|\bpacks?\b|\bbinder|\bsleeves", re.I)
 
 
 def build_collab(stores_cfg):
@@ -493,6 +494,8 @@ def collab_info(title):
     if not core and not broad:
         return None
     food_store = any(rx.search(title) for rx in FOOD_STORE)
+    if CARD_RE.search(title) and not food_store and not re.search(r"happy meal|kids'? meal", title, re.I):
+        return None
     food = food_store or bool(COLLAB_FOOD_RE.search(title))
     goods = bool(COLLAB_GOODS_RE.search(title))
     word = bool(COLLAB_WORD_RE.search(title))
@@ -501,6 +504,50 @@ def collab_info(title):
     if not ok:
         return None
     return {"chars": (core + broad)[:3], "kind": "food" if (food_store or (food and not goods)) else "goods"}
+
+
+COLLABS = ROOT / "public" / "data" / "collabs.json"
+US_RE = re.compile(r"\bU\.?S\.?\b|\bUSA\b|America|North America|United States", re.I)
+
+
+def update_collab_calendar(items, now, path=None):
+    """キャラコラボ(飲食店)の記事で、見出しに開始日があるものを collabs.json の予定に足す。
+    手で入れた予定(auto なし)と同じ店・キャラ・開始日±21日なら、新しい日付で上書きせず「報道」として出典だけ足す。
+    終わった予定(終了日 or 開始日 + 14日 を過ぎたもの)は自動で消す(手入力は終了日 + 3日)。"""
+    path = Path(path or COLLABS)
+    cal = json.loads(path.read_text()) if path.exists() else {"collabs": []}
+    today = now.astimezone(CT).date()
+    rows = cal.get("collabs", [])
+    for x in items:
+        c = x.get("collab")
+        if not c or x.get("dup") or c.get("kind") != "food":
+            continue
+        start = event_date(x["title"], parse_date_iso(x["posted"]))
+        store = next((s for s in x.get("stores", []) if s != "レストラン全般"), "")
+        if not start or not store or start < today.isoformat():
+            continue
+        char = c["chars"][0]
+        near = [e for e in rows if e.get("store") == store and char in e.get("chars", [])
+                and abs((dt.date.fromisoformat(e["start"]) - dt.date.fromisoformat(start)).days) <= 21]
+        src = {"name": x["source"], "url": x["link"], "date": start}
+        if near:
+            e = near[0]
+            if all(s.get("url") != x["link"] for s in e.setdefault("sources", [])):
+                e["sources"].append(src)
+            if e.get("auto"):
+                e["start"] = min(e["start"], start)
+            continue
+        rows.append({"id": f"{store}-{char}-{start}", "store": store, "chars": c["chars"], "kind": "food",
+                     "title": x["title"], "itemId": x["id"], "start": start, "end": None,
+                     "status": "報道", "sources": [src], "auto": True,
+                     "firstSeen": now.isoformat(timespec="minutes").replace("+00:00", "Z")})
+
+    def alive(e):
+        last = dt.date.fromisoformat(e.get("end") or e["start"])
+        return last + dt.timedelta(days=(3 if e.get("end") else 14)) >= today
+    cal["collabs"] = sorted([e for e in rows if alive(e)], key=lambda e: e["start"])
+    cal["updated"] = now.isoformat(timespec="minutes").replace("+00:00", "Z")
+    path.write_text(json.dumps(cal, ensure_ascii=False, indent=1) + "\n")
 
 
 def freebie_info(title, posted):
@@ -629,7 +676,9 @@ def main():
                 continue   # 地元ニュース局は催し・無料・お得の見出しだけ
             col = collab_info(title)
             if f.get("collabOnly") and not col:
-                continue   # 新商品・ファストフード全般の情報源は、キャラコラボの記事だけ拾う
+                continue
+            if f.get("usOnly") and not (US_RE.search(title) or any(rx.search(title) for _, _, rx in stores)):
+                continue   # 日本だけのコラボは外す(米国の店名か US の語があるものだけ)   # 新商品・ファストフード全般の情報源は、キャラコラボの記事だけ拾う
             c = classify(title, it["cats"], stores, types, stores_cfg.get("skipRegionsNotIn", []))
             if not c and col:
                 # キャラコラボは店名・値引きの語がなくても載せる(本人指定 10/27)
@@ -758,6 +807,10 @@ def main():
                         "cond": ""}
         else:
             x["sum"] = fallback_sum(x)
+
+    # 🧸 コラボ予定(public/data/collabs.json):飲食店のコラボで見出しに日付があれば自動で予定に入れる(本人指定 10/27)
+    if not a.from_dir:
+        update_collab_calendar(by_id.values(), now)
 
     # 別の情報源の同じ話題(例:Tiff's Treats の無料アイス)を重複として印を付ける(先に見つけた方を残す)
     mark_duplicates(by_id.values())

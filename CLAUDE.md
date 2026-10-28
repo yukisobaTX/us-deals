@@ -15,7 +15,7 @@
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
 - 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
-- 情報源(RSS):Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・Sporked/The Impulsive Buy(collabOnly=キャラコラボの見出しだけ。下記)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+- 情報源(RSS):Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・Sporked/The Impulsive Buy/Essential Japan/PokeBeach(collabOnly=キャラコラボの見出しだけ。下記)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
 
 ## 地域(2026-10-26 追加)
 - 本人はカレッジステーション在住。地元の情報を日々使えるように、items[].region に "College Station" / "Houston" を付ける。
@@ -78,16 +78,21 @@
 - 朝のまとめ(7:15)で、**当日の**無料・BOGO(今日・明日欄のうち日付が今日のもの+日付なしの新着)があれば、`scripts/portal_push.py` でポータル(my-portal)経由で iPhone に通知する(最大4件「何が；どこで」)。該当なしの日は送らない。
 - **メールは家族あて(pinkpokepoke)にも必要なので従来どおり送る**(本人指定)。テスト送信・dry-run ではプッシュしない。認証は OIDC(digest.yml に id-token: write)。
 
-## 🧸 キャラコラボ(2026-10-27 本人指定)
-- 本人の希望:ファストフードや各種商品(ボトル・タンブラーなど)と、ポケモン・サンリオなどのキャラクターのコラボ情報も載せる。
-- 判定 fetch_deals.collab_info() → items[].collab = {"chars": [日本語名], "kind": "food"|"goods"}。毎回すべての記事にかけ直す。キャラの一覧は config/stores.json の collab。
-  - core(ポケモン・サンリオ・ちいかわ・ジブリ・カービィ・マリオ・スヌーピー・ラブブ・スクイッシュマロウ・ブルーイ・マインクラフトなど):キャラ名+(飲食の語・グッズの語・コラボの語)。
-  - broad(ディズニー・マーベル・スター・ウォーズ・バービーなど広い IP):飲食店の店名・キッズミール・Boo Bucket・明示のコラボ語(collab・ x ・team up)・ボトル/タンブラー/カップのときだけ(ライセンス商品の値下げが多いため)。
-  - 除外 COLLAB_NG_RE:LEGO、カードの箱(Elite Trainer Box・booster)、抽選・懸賞(drawing・sweepstakes・win)。ソニック(ドライブイン)は「Sonic the Hedgehog」だけをキャラとして扱う。
+## 🧸 キャラコラボ(2026-10-27 本人指定:**ポケモンとサンリオだけ**)
+- 本人の希望:ファストフードや各種商品(ボトル・タンブラーなど)と、**ポケモン・サンリオ**のコラボ情報を載せる。11月のマック×ポケモンのような予定を確実に把握する。ほかのキャラ(ディズニー等)は載せない(同日 本人指定で絞り込み)。
+- 判定 fetch_deals.collab_info() → items[].collab = {"chars": [日本語名], "kind": "food"|"goods"}。毎回すべての記事にかけ直す。キャラの一覧は config/stores.json の collab.core(broad は空)。
+  - キャラ名+(飲食の語・グッズの語・コラボの語)で拾う。
+  - 除外:LEGO・抽選・懸賞(COLLAB_NG_RE)。カード商品(CARD_RE:ポケカの箱・booster など)は値下げ記事が多いので外すが、**飲食店の店名かハッピーセット/キッズミールがあれば拾う**(マックのポケカ付きハッピーセットのため)。
   - kind:飲食店の店名がある、または飲食の語だけ → food(🍔)、それ以外 → goods(🎁)。
 - 店名・値引きの語がなくてもコラボなら載せる(classify が None のとき既定の分類を付ける)。
-- 情報源:既存の RSS に加え、collabOnly の Sporked(robots.txt で /feed/atom/ だけ許可 → Atom)・The Impulsive Buy(新商品)。collabOnly はコラボの見出しだけ拾う。parse_rss は Atom(<entry>)にも対応、parse_date は ISO 形式にも対応。
-- 朝のメール:「🧸 キャラコラボ(新着)」欄(今後・大型セールの後、HS の前)。前回のまとめ以降の新着で、ほかの欄に出ていないもの最大6件(飲食を先に)。行は「日付(なければ新着)：🍔【キャラ】何が；どこで」(collab_line)。件名に「コラボN」(今後の後・HS の前)。
-- サイト:「🧸 キャラコラボ」タブ(大型セールの隣)と、カードの「🍔/🎁 キャラ名コラボ」ラベル(.tag.collab)。
+- 情報源:既存の RSS に加え、collabOnly(コラボの見出しだけ拾う)の Sporked(robots.txt で /feed/atom/ だけ許可 → Atom)・The Impulsive Buy・Essential Japan(usOnly=米国の店名か US/America の語がある見出しだけ。日本だけのコラボが多いため)・PokeBeach(User-agent: * は許可。AI 学習用ボットだけ拒否)。parse_rss は Atom にも、parse_date は ISO 形式にも対応。
+- **コラボ予定 public/data/collabs.json**(RSS の記事は21日で消えるので、予定は別に持つ):
+  - 手入力の予定(store・chars・title・what・start・end・status=公式/報道(未公式)/開催中・note・sources)。Claude が調べて入れる(ダブルチェック:2つ以上の報道、日付が食い違えば新しい方+note に旧日程)。
+  - 自動:update_collab_calendar() が、飲食店のコラボ記事で見出しに開始日があれば auto: true で追加。手入力の予定と同じ店・キャラで開始日±21日なら、日付は変えず sources に出典だけ足す。終了日+3日(自動は開始日+14日)を過ぎたら消える。
+  - 2026-10-27 時点:McDonald's ポケモン30周年ハッピーセット 11/10〜12/14(未公式。10/27 PokeBeach が店舗で確認。9月の報道は 11/5〜12/9)、Burger King ハローキティ&フレンズのキッズミール(10/22 開始確認、リークでは 11/30 まで)。
+- 朝のメール:「🧸 ポケモン・サンリオ コラボ」欄(今後・大型セールの後、HS の前)。
+  - 📅 予定・まもなく終了(collab_plan):2週間以内に始まる予定、今日始まる予定、3日以内に終わる予定。行は「11/10(火)〜12/14(月)：🍔【ポケモン】ハッピーセット；McDonald's(未公式)」。
+  - 🆕 新着:前回のまとめ以降の新着で、ほかの欄・予定に出ていないもの最大6件(飲食を先に)。行は「日付(なければ新着)：🍔【キャラ】何が；どこで」(collab_line)。
+  - 件名に「コラボN」(今後の後・HS の前)。
+- サイト:「🧸 ポケモン・サンリオ」タブ(大型セールの隣)。上にコラボ予定の枠(開始日・あと何日・未公式の印・出典リンク)、下に記事。カードには「🍔/🎁 キャラ名コラボ」ラベル(.tag.collab)。
 - 2026-10-27:kw_regex が曲がった引用符(Domino’s など)に当たっていなかった不具合を修正(re.escape は ' をエスケープしないため、置換が効いていなかった)。
-

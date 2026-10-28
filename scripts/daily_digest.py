@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DEALS = ROOT / "public" / "data" / "deals.json"
 STATE = ROOT / "public" / "data" / "digest-state.json"
 STORES = ROOT / "config" / "stores.json"
+COLLABS = ROOT / "public" / "data" / "collabs.json"   # 🧸 コラボ予定(10/27)
 CT = ZoneInfo("America/Chicago")
 LABEL = "deals-digest"
 MENTION = "@yukisobaTX"
@@ -129,6 +130,36 @@ def collab_line(x, today, tomorrow):
     s = line(x, today, tomorrow, head=None if x.get("date") else "新着")
     icon = "🍔" if c.get("kind") == "food" else "🎁"
     return s.replace("：", f"：{icon}【{'・'.join(c.get('chars', [])[:2])}】", 1)
+
+
+def collab_plan(today, path=None):
+    """コラボ予定から、2週間以内に始まるもの・今日始まるもの・3日以内に終わるものを選ぶ。"""
+    p = Path(path or COLLABS)
+    rows = json.loads(p.read_text()).get("collabs", []) if p.exists() else []
+    out = []
+    for e in rows:
+        s = dt.date.fromisoformat(e["start"])
+        end = dt.date.fromisoformat(e["end"]) if e.get("end") else None
+        if 0 <= (s - today).days <= HORIZON_DAYS or (end and s < today <= end and (end - today).days <= 3):
+            out.append(e)
+    return out
+
+
+def plan_line(e, today):
+    """予定の1行:「11/10(火)〜12/14：🍔【ポケモン】ハッピーセット；McDonald's(報道)」。"""
+    s = dt.date.fromisoformat(e["start"])
+    end = f"{md(e['end'])}" if e.get("end") else ""
+    if s > today:
+        when = f"{md(e['start'])}〜{end}" if end else f"{md(e['start'])}〜"
+        when = ("明日から " if (s - today).days == 1 else "") + when
+    else:
+        when = "今日から" if s == today else f"{end}まで"
+    url = (e.get("sources") or [{}])[0].get("url", "")
+    what = clip(e.get("what") or e.get("title", ""), 10)
+    status = "" if e.get("status") in ("公式", "開催中") else "(未公式)"
+    icon = "🍔" if e.get("kind") == "food" else "🎁"
+    link = f"[{what}]({url})" if url else what
+    return f"- {when}：{icon}【{'・'.join(e.get('chars', [])[:2])}】{link}；{e.get('store', '')}{status}"
 
 
 def fmt_local(x, today):
@@ -242,12 +273,15 @@ def build(items, since, site):
     collab = sorted([x for x in items if x.get("collab") and not x.get("dup") and x["firstSeen"] > since
                      and x["id"] not in shown and (x.get("date") or "9999") >= t_iso],
                     key=lambda x: (x["collab"].get("kind") != "food", x.get("date") or "9999", x["posted"]))[:MAX_COLLAB]
+    plan = collab_plan(today)
+    plan_ids = {e.get("itemId") for e in plan}
+    collab = [x for x in collab if x["id"] not in plan_ids]
     n_hou = len(fam_hou) + len(loc_hou) + len(hou_free)
-    n = len(near) + len(later) + len(ev_lines) + len(fam_cs) + len(loc_cs) + len(collab) + n_hou
+    n = len(near) + len(later) + len(ev_lines) + len(fam_cs) + len(loc_cs) + len(collab) + len(plan) + n_hou
     ln = lambda x: line(x, t_iso, tomorrow)
     # 件名:カレッジステーション(と全国)の件数を先に、ヒューストンは最後にまとめて
     parts = [f"今日・明日{len(near)}", *([f"家族{len(fam_cs)}"] if fam_cs else []),
-             *([f"地元{len(loc_cs)}"] if loc_cs else []), *([f"今後{len(later)}"] if later else []), *([f"コラボ{len(collab)}"] if collab else []),
+             *([f"地元{len(loc_cs)}"] if loc_cs else []), *([f"今後{len(later)}"] if later else []), *([f"コラボ{len(collab) + len(plan)}"] if collab or plan else []),
              *([f"HS{n_hou}"] if n_hou else [])]
     title = f"お得ノート {today.month}/{today.day}:" + "/".join(parts)
     lines = [f"{MENTION} おはようございます。「日付：何が；どこで」で並べています(何がをタップで記事)。",
@@ -262,8 +296,12 @@ def build(items, since, site):
         lines += ["", "## 📅 今後(詳細はサイト)", *[ln(x) for x in later]]
         if ev_lines:
             lines += ["", "**🛍 大型セール**", *ev_lines]
-    if collab:
-        lines += ["", "## 🧸 キャラコラボ(新着。🍔飲食 🎁グッズ)", *[collab_line(x, t_iso, tomorrow) for x in collab]]
+    if collab or plan:
+        lines += ["", "## 🧸 ポケモン・サンリオ コラボ(🍔飲食 🎁グッズ)"]
+        if plan:
+            lines += ["**📅 予定・まもなく終了**", *[plan_line(e, today) for e in plan]]
+        if collab:
+            lines += [*(["**🆕 新着**"] if plan else []), *[collab_line(x, t_iso, tomorrow) for x in collab]]
     if n_hou:
         lines += ["", "", "## 🏙 HS(お出かけ・遠出用)"]
         if fam_hou:
