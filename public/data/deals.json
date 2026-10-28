@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-28T15:05Z",
- "count": 1008,
+ "updated": "2026-10-28T16:03Z",
+ "count": 1023,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 5
   },
   "h2s-free": {
    "read": 100,
-   "added": 20
+   "added": 19
   },
   "doc": {
    "read": 15,
@@ -16,15 +16,15 @@
   },
   "ffp": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "msm": {
    "read": 75,
-   "added": 6
+   "added": 5
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 6
   },
   "mws": {
    "read": 20,
@@ -65,6 +65,554 @@
  "errors": [],
  "items": [
   {
+   "id": "2d98f19cf4d2",
+   "title": "Carl’s Jr. Halloween Deal Includes a Free Exor-Sip With El Diablo Burger Purchase Through November 1, 2026",
+   "link": "https://www.fastfoodpost.com/carls-jr-halloween-deal-free-exor-sip/",
+   "source": "Fast Food Post",
+   "posted": "2026-10-28T16:00Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": "2026-11-01",
+   "thumb": null,
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-01"
+   },
+   "ja": "カールのジュニアハロウィン・セールには、2026年11月1日までのエル・ディアブロ・バーガー購入でエクソ・シップが無料で含まれています",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "カールのジュニアハロウィン・セールには、2026年11月1日までのエル・ディアブロ・バーガー購入でエクソ・シップが無料で含まれています",
+    "when": "11/1(日)",
+    "cond": ""
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "id": "fcffe930b227",
+   "title": "365 by Whole Foods Market Spaghetti Pasta only $0.94 shipped or Organic Lasagne just $1.59 shipped!",
+   "link": "https://moneysavingmom.com/365-by-whole-foods-market-pasta-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T16:00Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/365-by-Whole-Foods-Market-Spaghetti-and-Lasagne-Pasta.jpg",
+   "hot": false,
+   "stores": [
+    "Whole Foods",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "365 by Whole Foods Marketスパゲッティパスタわずか$ 0.94出荷またはオーガニックラザニアわずか$ 1.59出荷！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Whole Foods・Amazon",
+    "item": "365 by Whole Foods Marketスパゲッティパスタわずか$ 0.94出荷またはオーガニックラザニアわずか$ 1.59出荷！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8f802ab92fb8",
+   "title": "From Snacks to Everyday Essentials, See Our Amazon Subscribe & Save Faves!",
+   "link": "https://hip2save.com/deals/team-amazon-subscriptions/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T15:57Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/10/Amazon-Snack-Boxes.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "おやつから日常の必需品まで、Amazonのサブスクリプションを見てお得に購入しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "おやつから日常の必需品まで、Amazonのサブスクリプションを見てお得に購入しましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e1f64e0b3500",
+   "title": "Barbie Dreamhouse Just $185 Shipped on Walmart.com + FREE In-Home Assembly",
+   "link": "https://hip2save.com/deals/barbie-dreamhouse/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T15:54Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/10/Barbie-DreamHouse.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "バービー・ドリームハウスわずか$ 185 Walmart.comで発送+無料在宅アセンブリ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "バービー・ドリームハウスわずか$ 185 Walmart.comで発送+無料在宅アセンブリ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "dd3cf2261917",
+   "title": "Up to 65% Off Sam’s Club Harvest Decor | Pumpkins, Doormats, & More",
+   "link": "https://hip2save.com/deals/sams-club-fall-decor/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T15:43Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/members-mark-terra-cotta-pumpkins-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブハーベストのデコレーションが最大65%オフ|カボチャ、ドアマットなど",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "サムズクラブハーベストのデコレーションが最大65%オフ|カボチャ、ドアマットなど",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3b5ab7f6f650",
+   "title": "Ninja Crispi 5-in-1 Glass Air Fryer w/ 3 Containers As Low As $134.xx (Reg $220)",
+   "link": "https://thefreebieguy.com/ninja-crispi-5-in-1/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T15:40Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/ninja-crispi-840x630.png",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 39,
+   "price": 134.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Ninja Crispi 5 - in -1ガラス製エアフライヤー（ 3つの容器付き） $ 134.xx （登録価格$ 220 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "Ninja Crispi 5 - in -1ガラス製エアフライヤー（ 3つの容器付き） $ 134.xx （登録価格$ 220 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e00b9eddee15",
+   "title": "*RUN* Carote Dutch Ovens Only $29.98 on Walmart.com (Reg. $120)",
+   "link": "https://hip2save.com/deals/carote-cast-iron-dutch-oven/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T15:37Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/carote-bread-dutch-oven-baguette.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 75,
+   "price": 29.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "*ラン*カローテダッチオーブンWalmart.comで$ 29.98のみ（登録番号$ 120 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "*ラン*カローテダッチオーブンWalmart.comで$ 29.98のみ（登録番号$ 120 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8f120852163e",
+   "title": "Possible Free Yves Saint Laurent Libre Santal Couture Fragrance Sample!",
+   "link": "https://thefreebieguy.com/possible-free-yves-saint-laurent-libre-santal-couture-fragrance-sample/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T15:26Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/YSL-Libre-Santal-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "イヴ・サンローラン・リブレ・サンタル・クチュールの無料フレグランスサンプル！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "イヴ・サンローラン・リブレ・サンタル・クチュールの無料フレグランスサンプル！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4283031dbed4",
+   "title": "Fisher-Price Little People My Mario Figure 6-Pack Only $16.xx on Amazon (Reg. $22)",
+   "link": "https://thefreebieguy.com/fisher-price-little-people-my-mario/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T15:26Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/LITTLE-PEOPLE-MARIO-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 27,
+   "price": 16.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "フィッシャープライスリトルピープルマイマリオフィギュア6パックのみ$ 16.xxアマゾン（登録価格$ 22 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "フィッシャープライスリトルピープルマイマリオフィギュア6パックのみ$ 16.xxアマゾン（登録価格$ 22 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "10aefef28933",
+   "title": "Reynolds Kitchens Slow Cooker Liners 20-Count From $6.xx on Amazon (Reg $14)",
+   "link": "https://thefreebieguy.com/reynolds-slow-cooker-liners/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T15:26Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2024/10/SLOW-COOKER-LINERS-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 57,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Reynolds Kitchensスロークッカーライナー20本Amazonで$ 6.xxから（登録価格$ 14 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Reynolds Kitchensスロークッカーライナー20本Amazonで$ 6.xxから（登録価格$ 14 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0dca98073336",
+   "title": "First Responders Get FREE $10 MyLowe’s Money (+ Free Shipping Perks)",
+   "link": "https://hip2save.com/deals/lowes-money/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T15:25Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mylowes-money.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ファーストレスポンダーは無料で10 $のMyLowe's Money （+送料無料特典）を入手できます",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "ファーストレスポンダーは無料で10 $のMyLowe's Money （+送料無料特典）を入手できます",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c50c748b88ce",
+   "title": "Yogurtland: BOGO FREE Cups (+2x points!) on October 28th!",
+   "link": "https://moneysavingmom.com/yogurtland-free-cup-of-frozen-yogurt-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T15:24Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": "2026-10-28",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/03/Dirt-Cups-630x634.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "10/28(水)まで",
+    "cond": ""
+   },
+   "dup": "21d12d5bcff2",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "f20f3f43bdc2",
+   "title": "Target: Seasonal Care Event on October 31st!",
+   "link": "https://moneysavingmom.com/target-free-store-event/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T15:18Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": "2026-10-31",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-at-10.15.06-AM.png",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "10/31(土)まで",
+    "cond": ""
+   },
+   "date": "2026-10-31"
+  },
+  {
+   "id": "cb7c188fd75e",
+   "title": "Michaels: FREE Hand-Stitched Card Event on November 1st!",
+   "link": "https://moneysavingmom.com/michaels-free-events/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T15:13Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": "2026-11-01",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-at-10.09.54-AM.png",
+   "hot": true,
+   "stores": [
+    "Michaels"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-01"
+   },
+   "ja": "マイケルズ： 11月1日に無料の手縫いカードイベントが開催されます！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Michaels",
+    "item": "マイケルズ： 11月1日に無料の手縫いカードイベントが開催されます！",
+    "when": "11/1(日)",
+    "cond": ""
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "id": "5b59bd13dd70",
+   "title": "4D Build KPop Demon Hunters Puzzles Only $13.xx at Sam’s Club",
+   "link": "https://thefreebieguy.com/4d-build-kpop-demon-hunters/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T15:12Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/4d-build-kpop-demon-hunters-puzzles-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "930e1943e8c1",
+   "title": "Tempx 8 Seconds Basal Thermometer Only $2.xx on Amazon (Reg $9)",
+   "link": "https://thefreebieguy.com/tempx-8-seconds-basal-thermometer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T15:08Z",
+   "firstSeen": "2026-10-28T16:03Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/tempx-thermostat-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 78,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "dc2ba668c9d3",
    "title": "Get a FREE Postcard from Photojoy!",
    "link": "https://moneysavingmom.com/get-a-free-postcard-from-photojoy/",
@@ -97,8 +645,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "10896ac451c3",
-   "date": null
+   "date": null,
+   "dup": "10896ac451c3"
   },
   {
    "id": "189032270753",
@@ -132,8 +680,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "b15c61148bc6",
-   "date": null
+   "date": null,
+   "dup": "b15c61148bc6"
   },
   {
    "id": "1adfff7608f2",
@@ -474,8 +1022,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "928cbb19b542",
-   "date": null
+   "date": null,
+   "dup": "928cbb19b542"
   },
   {
    "id": "e20a3a82f076",
@@ -539,8 +1087,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "493232b005ad",
-   "date": null
+   "date": null,
+   "dup": "493232b005ad"
   },
   {
    "id": "a7957652ecd4",
@@ -8096,42 +8644,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "ebcf47eea297",
-   "title": "Free National Park Day | October 27",
-   "link": "https://moneysavingmom.com/free-national-park-day/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T11:09Z",
-   "firstSeen": "2026-10-28T15:05Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/08/Bryce-Canyon-630x473.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-27"
-   },
-   "ja": "無料国立公園の日| 10月27日",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "無料国立公園の日| 10月27日",
-    "when": "10/27(火)",
-    "cond": ""
-   },
-   "dup": "059c30065587",
-   "date": "2026-10-27"
   },
   {
    "id": "2f6a17e52d19",
@@ -31089,7 +31601,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/avia-scuba-knit-pants.jpg?resize=306,182"
   },
   {
    "id": "55a622633d25",
