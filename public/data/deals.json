@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-28T03:57Z",
- "count": 969,
+ "updated": "2026-10-28T04:57Z",
+ "count": 972,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
-   "added": 6
+   "added": 19
   },
   "doc": {
    "read": 15,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -32,7 +32,7 @@
   },
   "hotc": {
    "read": 20,
-   "added": 0
+   "added": 3
   },
   "wtaw": {
    "read": 20,
@@ -61,7 +61,7 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 6,
+   "mymemory": 16,
    "geminiToday": 19,
    "model": "gemini-flash-latest"
   }
@@ -891,6 +891,43 @@
    "date": null
   },
   {
+   "id": "4d5f66f8fc1e",
+   "title": "Target Is Giving Away FREE Pouch with Lysol Samples (October 31st from 12PM-4PM)",
+   "link": "https://hip2save.com/deals/target-store-event/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T20:50Z",
+   "firstSeen": "2026-10-28T04:57Z",
+   "expires": "2026-10-31",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/target-Lysol-Event.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-10-31"
+   },
+   "ja": "ターゲットは、ライソルサンプル付きの無料ポーチを提供しています（ 10月31日午後12時から午後4時まで）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットは、ライソルサンプル付きの無料ポーチを提供しています（ 10月31日午後12時から午後4時まで）",
+    "when": "10/31(土) 12PM",
+    "cond": ""
+   },
+   "date": "2026-10-31"
+  },
+  {
    "id": "2becf7674599",
    "title": "Dainty 18K Gold Plated Initial Bracelet Only $3.xx on Amazon (Reg $10)",
    "link": "https://thefreebieguy.com/initial-bracelet/",
@@ -1090,6 +1127,40 @@
    "sum": {
     "store": "Walmart",
     "item": "パイオニアウーマンコレット石器4個セットマグカップウォルマートで$ 10.xxのみ（登録価格$ 18 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "999a2e276b65",
+   "title": "Walmart Drawing for NeeDoh, Dumplings, & Pokémon (October 28th at 5pm ET!)",
+   "link": "https://hip2save.com/deals/walmart-draw/",
+   "source": "Hip2Save",
+   "posted": "2026-10-27T20:10Z",
+   "firstSeen": "2026-10-28T04:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Blue-Needoh-Cube-in-Hand.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ニードー、餃子、ポケモンのためのウォルマートドローイング（ 10月28日午後5時、東部標準時！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ニードー、餃子、ポケモンのためのウォルマートドローイング（ 10月28日午後5時、東部標準時！ ）",
     "when": "",
     "cond": ""
    },
@@ -3200,8 +3271,7 @@
     "when": "",
     "cond": "先着115,000名"
    },
-   "date": null,
-   "dup": "43f9bf0c62a4"
+   "date": null
   },
   {
    "id": "1ff737e36c40",
@@ -4979,6 +5049,38 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "aac314a6dfbc",
+   "title": "Kroger’s 13 Scary Days of Deals Are Here = $0.99 2-Liter Soft Drinks Today!",
+   "link": "https://moneysavingmom.com/krogers-12-merry-days-of-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-27T12:22Z",
+   "firstSeen": "2026-10-28T04:57Z",
+   "expires": "2026-10-27",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/12/Screenshot-2026-10-22-at-11.01.24-AM.png",
+   "hot": false,
+   "stores": [
+    "Kroger"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kroger",
+    "item": "",
+    "when": "10/27(火)まで",
+    "cond": ""
+   },
+   "date": "2026-10-27"
   },
   {
    "id": "f707e1424351",
