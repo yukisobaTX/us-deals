@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-28T12:52Z",
- "count": 979,
+ "updated": "2026-10-28T13:11Z",
+ "count": 982,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
-   "added": 22
+   "added": 20
   },
   "doc": {
    "read": 15,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -55,16 +55,116 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 18,
    "geminiEvent": 0,
-   "mymemory": 24,
-   "geminiToday": 14,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "mymemory": 1,
+   "geminiToday": 15,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "2cdd39a23195",
+   "title": "NIIMBOT D110 Mini Label Maker w/Tape Only $7.xx on Amazon (Reg. $16)",
+   "link": "https://thefreebieguy.com/niimbot-label-maker/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T13:03Z",
+   "firstSeen": "2026-10-28T13:11Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/NIIMBOT-D110-Upgrade-Mini-Label-Maker-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 56,
+   "price": 7.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "NIIMBOT D 110ミニラベルメーカーテープ付きAmazonで$ 7.xxのみ（登録価格$ 16 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "NIIMBOT D 110ミニラベルメーカーテープ付きAmazonで$ 7.xxのみ（登録価格$ 16 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "badbe9016541",
+   "title": "Walmart Drawing TODAY at 5PM ET — NeeDoh Toy & Pokemon Card Game For Grabs!",
+   "link": "https://thefreebieguy.com/walmart-drawing/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T13:01Z",
+   "firstSeen": "2026-10-28T13:11Z",
+   "expires": "2026-10-28",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/NeeDoh-Nice-Cube-Squish-Toy-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "10/28(水)まで 5PM",
+    "cond": ""
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "id": "7684ba990eb3",
+   "title": "National First Responders Day 2026 – Free Meals & Drinks, & More!",
+   "link": "https://thefreebieguy.com/national-first-responders-day-freebies-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T13:00Z",
+   "firstSeen": "2026-10-28T13:11Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/First-Responders-Freebies-and-Deals-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "item": "無料の食事とドリンクなど",
+    "when": "10/28",
+    "what": "無料食事・ドリンク",
+    "where": "対象店舗"
+   },
+   "ja": "無料の食事とドリンクなど",
+   "jaVia": "gemini",
+   "date": "2026-10-28"
+  },
   {
    "id": "0a30630bd9b0",
    "title": "FREE Sonny’s BBQ Sandwich, Side & Drink Today for First Responders",
@@ -98,6 +198,38 @@
     "cond": ""
    },
    "date": "2026-10-28"
+  },
+  {
+   "id": "493232b005ad",
+   "title": "High Brew Coffee 12-Pack Only $11.xx on Amazon (Reg $24)",
+   "link": "https://thefreebieguy.com/high-brew-coffee/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T12:50Z",
+   "firstSeen": "2026-10-28T13:11Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/high-brew-coffee--840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 54,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "8cfbdb449c5b",
@@ -199,8 +331,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "347026f5b38a",
-   "date": null
+   "date": null,
+   "dup": "347026f5b38a"
   },
   {
    "id": "9a19c65f025b",
@@ -234,8 +366,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "c8c35ef0ef79",
-   "date": null
+   "date": null,
+   "dup": "c8c35ef0ef79"
   },
   {
    "id": "ff72ab6ec7d2",
@@ -7086,42 +7218,6 @@
    "date": null
   },
   {
-   "id": "ebcf47eea297",
-   "title": "Free National Park Day | October 27",
-   "link": "https://moneysavingmom.com/free-national-park-day/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T11:09Z",
-   "firstSeen": "2026-10-28T12:52Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/08/Bryce-Canyon-630x473.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-27"
-   },
-   "ja": "無料国立公園の日| 10月27日",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "無料国立公園の日| 10月27日",
-    "when": "10/27(火)",
-    "cond": ""
-   },
-   "dup": "059c30065587",
-   "date": "2026-10-27"
-  },
-  {
    "id": "2f6a17e52d19",
    "title": "Two Maybelline Color Sensational Cream Finish Lipstick Only $4.xx on Amazon (Reg $18)",
    "link": "https://thefreebieguy.com/maybelline-lipstick/",
@@ -7215,13 +7311,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "無料のコングの犬または猫のおもちゃ！",
-   "jaVia": "mymemory",
+   "ja": "犬または猫用おもちゃ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "無料のコングの犬または猫のおもちゃ！",
+    "store": "KONG",
+    "item": "犬または猫用おもちゃ",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料ペット玩具",
+    "where": "KONG"
    },
    "date": null
   },
@@ -22357,13 +22455,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "ロウズでMrBeastデー–報酬メンバーのための無料スワーム（お早めに！ ）",
-   "jaVia": "mymemory",
+   "ja": "Swarms おもちゃ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "ロウズでMrBeastデー–報酬メンバーのための無料スワーム（お早めに！ ）",
+    "item": "Swarms おもちゃ",
     "when": "",
-    "cond": "会員限定・なくなり次第終了"
+    "cond": "会員限定",
+    "what": "無料おもちゃ",
+    "where": "Lowe's"
    },
    "date": null
   },
@@ -29406,7 +29506,8 @@
     "item": "GO ！わずか55 ¢で出荷されたAmazon Spicesでパントリーにスパイスを添えましょう！",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Amazon-Grocery-Spices.jpg?resize=306,182"
   },
   {
    "id": "e318e01c7474",
