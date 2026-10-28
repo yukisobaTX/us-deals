@@ -214,3 +214,24 @@ if not (_atom and _atom[0]["link"] == "https://example.com/a" and f.parse_date(_
     bad += 1
     print("NG atom", _atom)
 print(f"failures: {bad}")
+
+
+# 期限の読み取りと、期限が読めない記事の残す日数(2026-10-27:古い無料情報が残る問題)
+import datetime as _dt  # noqa: E402
+_P = _dt.datetime(2026, 10, 20, 15, tzinfo=_dt.timezone.utc)
+_EXP = [
+    ("Fun, Free & Cheap Events | October 23 – October 25", "2026-10-25"),
+    ("Free Can of Red Bull on October 26th – FIRST 5,000!", "2026-10-26"),
+    ("Free Kids LEGO Workshop on 10/25", "2026-10-25"),
+    ("FREE Keebler Cookies Through October 31st!", "2026-10-31"),
+    ("Free PetSmart Halloween Events 2026", "2026-10-31"),
+    ("Oct 30-Nov 2 Sale at Kohl's", "2026-11-02"),
+    ("Black Friday Ad Leaks", None),
+]
+_bad = [(t, e, f.guess_expiry(t, _P)) for t, e in _EXP if f.guess_expiry(t, _P) != e]
+assert f.guess_expiry("Pokemon Happy Meal arrives on Nov 10", _P, strict=True) is None, "コラボは開始日を期限にしない"
+assert f.life_days({"title": "Hurry! FREE Pizza for the First 10,000!", "freebie": {"kind": "coupon"}}) == f.LIMITED_LIFE_DAYS
+assert f.life_days({"title": "Free Cookie", "freebie": {"kind": "coupon"}}) == f.DEFAULT_LIFE_DAYS
+assert f.life_days({"title": "Socks 50% off", "types": ["sale"]}) == f.SALE_LIFE_DAYS
+print("expiry failures:", len(_bad), _bad if _bad else "")
+assert not _bad

@@ -32,8 +32,11 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config"
 OUT = ROOT / "public" / "data" / "deals.json"
 UA = "us-deals-personal/1.0 (+personal RSS reader; github.com/yukisobaTX)"
-KEEP_DAYS = 21          # これより古い記事は削除
-DEFAULT_LIFE_DAYS = 7   # 期限が読み取れない記事の目安(掲載日から)
+KEEP_DAYS = 21          # これより古い記事は削除(コラボ・日付の先の催しはここまで残す)
+SALE_LIFE_DAYS = 14     # 期限が読めないセール記事は掲載日から14日で消す(2026-10-27)
+DEFAULT_LIFE_DAYS = 7   # 期限が読めない無料・BOGO は掲載日から7日で消す
+LIMITED_LIFE_DAYS = 3   # 「先着1万名」「Hurry!」など数量限定は3日で消す
+LIMITED_RE = re.compile(r"first [\d,]+|while supplies last|\bhurry\b|\brun!|just dropped|[\d,]{4,} available|limited quantit", re.I)
 
 
 # ---------------- 取得 ----------------
@@ -283,7 +286,13 @@ PCT_RE = re.compile(r"(\d{2})\s*%\s*off", re.I)
 PRICE_RE = re.compile(r"\$(\d+(?:\.\d{1,2})?)")
 REG_RE = re.compile(r"\(\s*reg\.?\s*\$(\d+(?:\.\d{1,2})?)", re.I)
 REGION_RE = re.compile(r"^\s*\[([^\]]+)\]")
-TODAY_RE = re.compile(r"today only|1[- ]day only|ends tonight|today \(\d", re.I)
+TODAY_RE = re.compile(r"today only|1[- ]day only|ends tonight|today \(\d|\btoday\b|\btonight\b", re.I)
+_MON = r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?"
+# 「October 23 – October 25」「Oct 23-25」→ 終わりの日。「on October 26th」「on 10/25」→ その日
+RANGE_RE = re.compile(_MON + r"\s+(\d{1,2})(?:st|nd|rd|th)?\s*[–—-]\s*(?:" + _MON + r"\s+)?(\d{1,2})\b", re.I)
+UNTIL_MON_RE = re.compile(r"(?:thru|through|until|ends?|valid (?:thru|through))\s+" + _MON + r"\s+(\d{1,2})(?:st|nd|rd|th)?\b", re.I)
+HOLIDAY_RE = {"halloween": (10, 31), "veterans day": (11, 11)}   # 当日に配る無料が多い祝日は、その日を期限に
+ON_RE = re.compile(r"\bon\s+(?:" + _MON + r"\s+(\d{1,2})(?:st|nd|rd|th)?\b|(\d{1,2})/(\d{1,2})\b)", re.I)
 UNTIL_RE = re.compile(r"(?:thru|through|until|ends?|by|valid (?:thru|through)?)\s+(\d{1,2})/(\d{1,2})", re.I)
 
 
@@ -585,20 +594,46 @@ def parse_date(s):
         return None
 
 
-def guess_expiry(title, posted):
+def guess_expiry(title, posted, strict=False):
     """見出しから期限を推定する。読めなければ None(画面では掲載日+7日を目安にする)。"""
     ct = posted.astimezone(CT)
     if TODAY_RE.search(title):
         return ct.date().isoformat()
+    mo = d = None
     m = UNTIL_RE.search(title)
     if m:
         mo, d = int(m.group(1)), int(m.group(2))
-        y = ct.year + (1 if mo < ct.month - 6 else 0)
-        try:
-            return dt.date(y, mo, d).isoformat()
-        except ValueError:
+    elif (m := UNTIL_MON_RE.search(title)):
+        mo, d = MONTHS[m.group(1).lower()[:3]], int(m.group(2))
+    elif strict:
+        pass   # コラボは「on Nov 10」が開始日のことが多いので、終わりが書いてあるものだけ
+    elif (m := RANGE_RE.search(title)):
+        mo, d = MONTHS[(m.group(3) or m.group(1)).lower()[:3]], int(m.group(4))
+    elif (m := ON_RE.search(title)):
+        if m.group(1):
+            mo, d = MONTHS[m.group(1).lower()[:3]], int(m.group(2))
+        else:
+            mo, d = int(m.group(3)), int(m.group(4))
+    if not mo:
+        low = title.lower()
+        hit = next((v for k, v in HOLIDAY_RE.items() if k in low), None)
+        if not hit or strict:
             return None
-    return None
+        mo, d = hit
+    y = ct.year + (1 if mo < ct.month - 6 else 0)
+    try:
+        return dt.date(y, mo, d).isoformat()
+    except ValueError:
+        return None
+
+
+def life_days(x):
+    """期限が読めない記事を掲載日から何日残すか(2026-10-27:古い無料情報が残る問題の対策)"""
+    if x.get("collab"):
+        return KEEP_DAYS
+    if x.get("freebie") or "free" in x.get("types", []) or "bogo" in x.get("types", []):
+        return LIMITED_LIFE_DAYS if LIMITED_RE.search(x["title"]) else DEFAULT_LIFE_DAYS
+    return SALE_LIFE_DAYS
 
 
 # ---------------- 本体 ----------------
@@ -732,6 +767,8 @@ def main():
         x["event"] = event_of(x["title"])
         x["eventNews"] = bool(x["event"] and EVENT_NEWS_RE.search(x["title"]))
         x["freebie"] = freebie_info(x["title"], parse_date_iso(x["posted"]))
+        if not x.get("calendar"):   # 期限の読み方を直したら過去の記事にも反映する
+            x["expires"] = guess_expiry(x["title"], parse_date_iso(x["posted"]), strict=bool(x.get("collab")))
         if x["freebie"] and x["freebie"]["when"] and not x.get("expires") and x["freebie"]["kind"] == "store":
             x["expires"] = x["freebie"]["when"]
 
@@ -831,8 +868,11 @@ def main():
             continue   # 除外の語を後から足したときも、既にある記事から外す
         if x.get("calendar") and outing_ng(x["title"], x.get("cats", [])):
             continue
-        if x.get("expires") and x["expires"] < (dt.date.fromisoformat(today_ct) - dt.timedelta(days=2)).isoformat():
-            continue
+        if x.get("expires") and x["expires"] < today_ct:
+            continue   # 期限の翌日に消す(以前は2日残していた)
+        if not x.get("expires") and not x.get("calendar") and (now - posted).days > life_days(x) \
+                and not (x.get("localDate") and x["localDate"] >= today_ct):
+            continue   # 期限が読めないものは種類ごとの日数で消す(日付の先の地元の催しは残す)
         keep.append(x)
     keep.sort(key=lambda x: x["posted"], reverse=True)
     result = {"updated": now.isoformat(timespec="minutes").replace("+00:00", "Z"),

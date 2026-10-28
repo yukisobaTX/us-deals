@@ -61,7 +61,8 @@
 ## 変えるとき
 - 店を足す:config/stores.json に追記 → `python3 tests/test_classify.py` で failures: 0。
 - 分類を変えたら tests/test_classify.py に1件足す。
-- 期限は見出しの「Today Only」「through 10/31」などから推定。読めないものは画面で「掲載日 + 7日」を目安にする。21日より古い記事は自動で消える。
+- 期限は見出しの「Today/Tonight」「through 10/31」「through October 31st」「October 23 – October 25」「on 10/25」「Halloween」などから推定(guess_expiry、毎回すべての記事にかけ直す。コラボは strict=終わりが書いてあるものだけ)。**期限の翌日に消す**(サイトは期限切れを即非表示)。
+- 期限が読めない記事は life_days() の日数で消す(2026-10-27、古い無料情報が残ると本人指摘):数量限定の無料(「First 10,000」「Hurry」「RUN!」「115,000 Available」)3日、その他の無料・BOGO 7日、セール14日、キャラコラボ21日。日付の先の地元の催し(localDate が今日以降)とイベント一覧(calendar)は残す。
 - 「注目」= 無料、または 70%以上の値引き。
 - 「無料でもらえる」(freebie)= fetch_deals.py の freebie_info()。送料無料・キャッシュバック後無料・懸賞・お試し・退役軍人向け・電子書籍・「〜で稼ぐ」などは除外。「Freebies」まとめ記事はクーポン扱い。別の情報源の同じ話題は mark_duplicates() で dup を付け、通知・画面から外す。店頭(イベント・日時・数量限定)とクーポンに分け、日付を見出しから読む。毎回すべての記事にかけ直す。画面の初期タブ(「無料・BOGO」)。
 - BOGO(1つ買うと1つ無料、2-for-1)は**レストラン・カフェの飲食物だけ**「もらえる」扱い(freebie.bogo=true、通知あり・🥤BOGO 表示)。判定は is_food():stores.json の food の店名があれば対象、スーパー・雑貨の店名だけなら対象外、店名なしは飲み物・食べ物の語で判定。「BOGO 50% Off」は無料ではないので対象外。「on the house / complimentary」も飲食なら無料扱い。

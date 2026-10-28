@@ -51,6 +51,7 @@
 
   function match(x) {
     if (x.dup) return false;   // 別の情報源の同じ話題は1件にまとめる
+    if (x.expires && daysLeft(x.expires) < 0) return false;   // 期限切れは次の収集を待たずに隠す(10/27)
     if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
     if (state.cat === 'event' && !x.event) return false;
     if (state.cat === 'collab' && (!x.collab || past(x))) return false;   // キャラコラボ(本人指定 10/27)
