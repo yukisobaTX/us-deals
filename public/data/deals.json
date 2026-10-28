@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T11:55Z",
- "count": 991,
+ "updated": "2026-10-28T12:13Z",
+ "count": 983,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -59,15 +59,185 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 10,
-   "geminiToday": 12,
-   "model": "gemini-flash-latest"
+   "mymemory": 20,
+   "geminiToday": 13,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "e316967bed3b",
+   "title": "Stock Up! BOGO Free Bath & Body Works Holiday Candles, Hand Soap & More",
+   "link": "https://hip2save.com/deals/bath-body-works-promo-code/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T12:11Z",
+   "firstSeen": "2026-10-28T12:13Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/bbw-holiday-candles.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "買いだめ！ BOGO無料バス＆ボディワークスホリデーキャンドル、ハンドソープなど",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "買いだめ！ BOGO無料バス＆ボディワークスホリデーキャンドル、ハンドソープなど",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "be0bc0fc975e",
+   "title": "Kids 2-in-1 Detangler & Leave In Conditioner Spray only $5.41 shipped!",
+   "link": "https://moneysavingmom.com/kids-2-in-1-detangler-leave-in-conditioner-spray-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T12:07Z",
+   "firstSeen": "2026-10-28T12:13Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/SO-COZY-Kids-2-in-1-Detangler-Leave-In-Conditioner-Spray-8-Fl-Oz-630x733.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キッズ2 - in -1デタングラー＆リビングコンディショナースプレー$ 5.41のみ発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "キッズ2 - in -1デタングラー＆リビングコンディショナースプレー$ 5.41のみ発送！",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "dup": "33a6078a0b8f",
+   "date": null
+  },
+  {
+   "id": "4088d703885c",
+   "title": "ShowYoo Wireless Jelly Bras Only $9.xx on Amazon (Reg. $30)",
+   "link": "https://thefreebieguy.com/showyoo-jelly-bras/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T12:02Z",
+   "firstSeen": "2026-10-28T12:13Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Bras-for-Women-No-Underwire-Seamless-Jelly-bra-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ShowYooワイヤレスジェリーブラAmazonで$ 9.xxのみ（登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ShowYooワイヤレスジェリーブラAmazonで$ 9.xxのみ（登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3518223739b3",
+   "title": "Bath & Body Works: Buy One, Get One Free Holiday Items Today!",
+   "link": "https://moneysavingmom.com/bath-body-works-buy-one-get-one-free-holiday-items-today/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T12:00Z",
+   "firstSeen": "2026-10-28T12:13Z",
+   "expires": "2026-10-28",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Bath-Body-630x498.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bath & Body Works ：今すぐホリデーアイテムを1つ無料でゲット！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Bath & Body Works ：今すぐホリデーアイテムを1つ無料でゲット！",
+    "when": "10/28(水)まで",
+    "cond": ""
+   },
+   "dup": "c750be826749",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "07ee689089a1",
+   "title": "Mixing Bowls with Lids Set (21 Piece) only $29.99 shipped (Reg. $50!)",
+   "link": "https://moneysavingmom.com/mixing-bowls-with-lids-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T11:57Z",
+   "firstSeen": "2026-10-28T12:13Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Mixing-Bowls-630x535.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 29.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "蓋付きミキシングボウルセット（ 21個） $ 29.99のみ発送（登録価格$ 50 ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "蓋付きミキシングボウルセット（ 21個） $ 29.99のみ発送（登録価格$ 50 ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "32d4aceeb0f9",
    "title": "Community Yoga at Lake Walk",
@@ -244,8 +414,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "0bd893743b0e",
-   "date": null
+   "date": null,
+   "dup": "0bd893743b0e"
   },
   {
    "id": "674fc8d6a95f",
@@ -317,8 +487,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "0bd893743b0e",
-   "date": null
+   "date": null,
+   "dup": "0bd893743b0e"
   },
   {
    "id": "ff0bf99429c0",
@@ -4673,7 +4843,7 @@
    "source": "Hip2Save",
    "posted": "2026-10-27T15:08Z",
    "firstSeen": "2026-10-27T15:57Z",
-   "expires": null,
+   "expires": "2026-11-12",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Blue-Needoh-Cube-in-Hand.png?resize=306,182",
    "hot": false,
    "stores": [
@@ -5256,43 +5426,6 @@
     "where": "Tractor Supply"
    },
    "date": null
-  },
-  {
-   "id": "15c5c305639f",
-   "title": "T-Mobile Tuesdays for T-Mobile & Metro Customers – Score a FREE 2-in-1 Lantern Flashlight!",
-   "link": "https://thefreebieguy.com/t-mobile-tuesdays-deals-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T13:46Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/T-Mobile-Lantern-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "T-Mobile",
-    "item": "2-in-1ランタン懐中電灯",
-    "when": "10/27",
-    "cond": "会員限定",
-    "what": "無料ランタン",
-    "where": "T-Mobile"
-   },
-   "ja": "2-in-1ランタン懐中電灯",
-   "jaVia": "gemini",
-   "date": "2026-10-27"
   },
   {
    "id": "345e4f72e5bb",
@@ -6649,81 +6782,6 @@
    "date": null
   },
   {
-   "id": "18e98c852a35",
-   "title": "Jimmy John’s Deals | Free Pickle Pal w/ Triple Pickle Meal Purchase!",
-   "link": "https://thefreebieguy.com/jimmy-johns-deals-and-codes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:19Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Jimmy-Johns-Pickle-Pals-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Jimmy John's",
-    "item": "ピックルパル無料",
-    "when": "2026-10-27",
-    "cond": "トリプルピックルミール購入",
-    "what": "無料ピクルス",
-    "where": "Jimmy John's"
-   },
-   "ja": "ピックルパル無料",
-   "jaVia": "gemini",
-   "date": null
-  },
-  {
-   "id": "09244b7997ca",
-   "title": "Cheap Food Deals & Freebies For Tuesday! Taco Bell, Jimmy John’s, & More!",
-   "link": "https://thefreebieguy.com/cheap-tuesday-food-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:19Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Tuesday-Food-Deals-840x630.png",
-   "hot": true,
-   "stores": [
-    "Taco Bell"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "sum": {
-    "item": "火曜限定のお得・無料フード",
-    "when": "10/27(火)",
-    "what": "お得フード",
-    "where": "Taco Bell等"
-   },
-   "ja": "火曜限定のお得・無料フード",
-   "jaVia": "gemini",
-   "date": "2026-10-27"
-  },
-  {
    "id": "cd485ec6691c",
    "title": "Taco Bell Deals | $4 Meal Deals through November 2nd + $1 Meals Drop on Tuesdays!",
    "link": "https://thefreebieguy.com/taco-bell-deals-coupons/",
@@ -6858,40 +6916,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "d5119d4e4f9a",
-   "title": "Free KONG Dog or Cat Toy!",
-   "link": "https://moneysavingmom.com/free-kong-dog-or-cat-toy/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T10:54Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/FREE-KONG-Toy-for-Cats-or-Dogs-630x382.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "item": "KONG犬猫用おもちゃ無料",
-    "when": "2026-10-27",
-    "what": "無料おもちゃ"
-   },
-   "ja": "KONG犬猫用おもちゃ無料",
-   "jaVia": "gemini",
    "date": null
   },
   {
@@ -9334,7 +9358,7 @@
    "source": "Hip2Save",
    "posted": "2026-10-26T18:58Z",
    "firstSeen": "2026-10-26T19:01Z",
-   "expires": null,
+   "expires": "2026-11-17",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Starbucks-Red-Cup.jpg?resize=306,182",
    "hot": true,
    "stores": [
@@ -9720,7 +9744,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-10-26T18:25Z",
    "firstSeen": "2026-10-26T18:38Z",
-   "expires": null,
+   "expires": "2026-11-17",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Starbucks-Red-Cup-Day-1-840x630.png",
    "hot": true,
    "stores": [
@@ -13406,7 +13430,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-10-26T12:07Z",
    "firstSeen": "2026-10-26T13:31Z",
-   "expires": null,
+   "expires": "2026-10-30",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Pottery-Barn-Story-Time-Event-840x630.png",
    "hot": true,
    "stores": [],
@@ -13434,7 +13458,7 @@
     "what": "絵本読み聞かせ",
     "where": "Pottery Barn K…"
    },
-   "date": null
+   "date": "2026-10-30"
   },
   {
    "id": "277d3684c2b9",
@@ -13643,45 +13667,6 @@
    "date": null
   },
   {
-   "id": "53446cacb0b8",
-   "title": "Cheap Food Deals for Monday – Burger King Free Menu Item, Habit Burger Free Meals & More!",
-   "link": "https://thefreebieguy.com/cheap-monday-food-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T10:54Z",
-   "firstSeen": "2026-10-26T13:31Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Monday-Food-Deals-840x630.png",
-   "hot": true,
-   "stores": [
-    "Burger King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "月曜の無料メニュー(Burger King・Habit Burger)",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Burger King",
-    "item": "月曜の無料メニュー(Burger King・Habit Burger)",
-    "when": "月曜",
-    "cond": "",
-    "what": "月曜の無料飯",
-    "where": "Burger King他"
-   },
-   "date": null
-  },
-  {
    "id": "5b725132e70c",
    "title": "Bella 7-Quart Programmable Slow Cooker w/ Searing Function Only $34.99 (Reg. $70)",
    "link": "https://thefreebieguy.com/bella-slow-cooker/",
@@ -13792,43 +13777,6 @@
     "cond": "$10.99のL注文",
     "what": "BOGOピザ",
     "where": "Pizza Hut"
-   },
-   "date": null
-  },
-  {
-   "id": "416ffa643455",
-   "title": "Scooter’s Coffee Deals | Free Stickers on Mondays w/ Drink Purchase!",
-   "link": "https://thefreebieguy.com/scooters-coffee-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T10:46Z",
-   "firstSeen": "2026-10-26T10:53Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Scooters-Coffee-Nightmare-Shake-and-Green-Ghoul-Red-Bull-Infusion-Awaken-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "ステッカー無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Scooter’s Coffee",
-    "item": "ステッカー無料",
-    "when": "毎週月曜",
-    "cond": "ドリンク購入",
-    "what": "無料ステッカー",
-    "where": "Scooter’s Coffee"
    },
    "date": null
   },
@@ -18509,7 +18457,7 @@
    "source": "Houston on the Cheap",
    "posted": "2026-10-25T09:49Z",
    "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
+   "expires": "2026-10-29",
    "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Houston-Highlights_-October-26-to-October-29.jpg",
    "noAlert": true,
    "region": "Houston",
@@ -21682,43 +21630,6 @@
    "eventNews": false
   },
   {
-   "id": "ebcf47eea297",
-   "title": "Free National Park Day | October 27",
-   "link": "https://moneysavingmom.com/free-national-park-day/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-24T14:00Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/08/Bryce-Canyon-630x473.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-27"
-   },
-   "ja": "国立公園の入場無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "National Park",
-    "item": "国立公園の入場無料",
-    "when": "10/27",
-    "cond": "",
-    "what": "国立公園無料",
-    "where": "全米の国立公園"
-   },
-   "date": "2026-10-27"
-  },
-  {
    "id": "2996550afe7a",
    "title": "Ruffles Original Potato Chips (Pack of 40) only $9.58 shipped!",
    "link": "https://moneysavingmom.com/ruffles-original-potato-chips-deal/",
@@ -22014,40 +21925,6 @@
    "date": null
   },
   {
-   "id": "4b1d469bbb17",
-   "title": "Last Day for Stackable Savings on Neutrogena Makeup = Beauty Faves from $2.49 at CVS",
-   "link": "https://hip2save.com/deals/savings-cvs-neutrogena-makeup/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T12:58Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "CVS"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "CVS",
-    "item": "コスメ各種が$2.49から",
-    "when": "〜10/24",
-    "cond": "クーポン併用"
-   },
-   "ja": "コスメ各種が$2.49から",
-   "jaVia": "gemini",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Neutrogena-Makeup.jpg?resize=306,182",
-   "date": "2026-10-24",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "ec952302950e",
    "title": "Kroger’s 13 Days of Scary Savings | 88¢ Hot Dog & Hamburger Buns",
    "link": "https://hip2save.com/deals/kroger-digital-coupons/",
@@ -22279,79 +22156,6 @@
    "eventNews": false
   },
   {
-   "id": "fb82147d284e",
-   "title": "It’s MrBeast Day at Lowe’s – FREE Swarms for Rewards Members (Get There Early!)",
-   "link": "https://hip2save.com/deals/lowes-kids-workshop/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T11:15Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "store",
-    "when": null
-   },
-   "ja": "Swarms無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Lowe’s",
-    "item": "Swarms無料",
-    "when": "10/24",
-    "cond": "リワード会員限定",
-    "what": "無料グッズ",
-    "where": "Lowe’s"
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mr-beast-at-lowes.jpg?resize=306,182",
-   "date": "2026-10-24",
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "3b3eac3c055e",
-   "title": "Last Chance: TWO FREE Walgreens Retro Mini Photo Print Sets w/ Free Same-Day Pickup",
-   "link": "https://hip2save.com/deals/walgreens-photo-prints/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T11:11Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Walgreens"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Walgreens",
-    "item": "ミニ写真プリント2組無料",
-    "when": "〜10/24",
-    "cond": "店舗受取"
-   },
-   "ja": "ミニ写真プリント2組無料",
-   "jaVia": "gemini",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Walgreens-Retro-Mini-Print-Sets.jpg?resize=306,182",
-   "date": "2026-10-24",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "6d66ac046cae",
    "title": "A Houston Holiday Bucket List: December 2026 Events in Houston for Adults",
    "link": "https://www.houstononthecheap.com/december-2026-events-in-houston-for-adults/",
@@ -22398,7 +22202,7 @@
    "source": "Houston on the Cheap",
    "posted": "2026-10-24T09:00Z",
    "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
+   "expires": "2026-11-02",
    "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Dia-de-Los-Muertos-Houston-1.jpg",
    "noAlert": true,
    "region": "Houston",
@@ -24684,42 +24488,6 @@
    "date": null
   },
   {
-   "id": "a505d5034a84",
-   "title": "It’s Hazardous Household Waste Weekend!",
-   "link": "https://wtaw.com/its-hazardous-household-waste-weekend/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-10-23T14:15Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://wtaw.com/wp-content/uploads/2026/08/CollegeStationLogo-300x168.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-24",
-   "ja": "家庭の有害ごみ回収日(Hazardous Household Waste)",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "College Station",
-    "item": "家庭の有害ごみ回収日(Hazardous Household Waste)",
-    "when": "10/24(土)",
-    "cond": "住民向け",
-    "what": "有害ごみ回収",
-    "where": "College Station"
-   }
-  },
-  {
    "id": "7060de85059c",
    "title": "Amazon Grocery Rainbow Sprinkles Only 94¢ Shipped",
    "link": "https://hip2save.com/deals/amazon-grocery-sprinkles/",
@@ -24924,7 +24692,7 @@
    "source": "Money Saving Mom",
    "posted": "2026-10-23T13:36Z",
    "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
+   "expires": "2026-10-31",
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
    "hot": true,
    "stores": [
@@ -25461,7 +25229,7 @@
    "source": "Hip2Save",
    "posted": "2026-10-23T11:41Z",
    "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
+   "expires": "2026-11-01",
    "hot": true,
    "stores": [
     "レストラン全般"
@@ -28171,46 +27939,6 @@
    }
   },
   {
-   "id": "a6ce701bd959",
-   "title": "Perfect weather means it’s time to visit a park",
-   "link": "https://wtaw.com/perfect-weather-means-its-time-to-visit-a-park/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-10-22T14:15Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://wtaw.com/wp-content/uploads/2026/07/City-of-Bryan-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-22",
-   "ja": "ブライアン市の公園の魅力紹介と新情報",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "Bryan",
-    "item": "ブライアン市の公園の魅力紹介と新情報",
-    "when": "10/22",
-    "cond": "無料・家族向け",
-    "what": "公園情報",
-    "where": "Bryan"
-   },
-   "outing": [
-    "公園・屋外"
-   ],
-   "family": true
-  },
-  {
    "id": "58ddc5baf6af",
    "title": "FREE Red Robin Burger & Bottomless Fries for Veterans & Military on November 11th!",
    "link": "https://hip2save.com/deals/red-robin-veterans-day-offer/",
@@ -30230,7 +29958,7 @@
    "source": "Hip2Save",
    "posted": "2026-10-21T16:38Z",
    "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
+   "expires": "2026-11-01",
    "hot": true,
    "stores": [
     "レストラン全般"
@@ -33138,47 +32866,6 @@
    "date": null
   },
   {
-   "id": "c6d1abd3a3cf",
-   "title": "Houston Highlights: October 19 to October 22 – Food, Music, Arts & More",
-   "link": "https://www.houstononthecheap.com/houston-picks-october-19-october-22-2026/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-18T10:29Z",
-   "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Houston-Highlights_-October-19-to-October-22.jpg",
-   "noAlert": true,
-   "region": "Houston",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-19",
-   "localDate": "2026-10-19",
-   "ja": "今週(10/19〜10/22)のイベント・グルメまとめ",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "今週(10/19〜10/22)のイベント・グルメまとめ",
-    "when": "10/19〜10/22",
-    "cond": "無料・家族向け",
-    "what": "今週のイベント",
-    "where": "ヒューストン"
-   },
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true
-  },
-  {
    "id": "2c460bdcc917",
    "title": "Best Sunday Roast & Southern Comfort Food Spots in Houston",
    "link": "https://www.houstononthecheap.com/best-comfort-food-houston/",
@@ -33258,7 +32945,7 @@
    "source": "Houston on the Cheap",
    "posted": "2026-10-17T09:45Z",
    "firstSeen": "2026-10-26T17:53Z",
-   "expires": null,
+   "expires": "2026-10-31",
    "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Trick-or-Treat-Houston.jpg",
    "noAlert": true,
    "region": "Houston",
