@@ -87,7 +87,7 @@
 - 店名・値引きの語がなくてもコラボなら載せる(classify が None のとき既定の分類を付ける)。
 - 情報源:既存の RSS に加え、collabOnly(コラボの見出しだけ拾う)の Sporked(robots.txt で /feed/atom/ だけ許可 → Atom)・The Impulsive Buy・My Nintendo News(usOnly=米国の店名か US/America の語がある見出しだけ。日本だけのコラボが多いため)。試して外したもの:PokeBeach(Actions から HTTP 500)、Essential Japan(RSS が出ない)。parse_rss は Atom にも、parse_date は ISO 形式にも対応。
 - **コラボ予定 public/data/collabs.json**(RSS の記事は21日で消えるので、予定は別に持つ):
-  - 手入力の予定(store・chars・title・what・start・end・status=公式/報道(未公式)/開催中・note・sources)。Claude が調べて入れる(ダブルチェック:2つ以上の報道、日付が食い違えば新しい方+note に旧日程)。
+  - 手入力の予定(store・chars・title・what・start・end・status=公式/報道(未公式)/開催中・note・sources)。**毎週日曜 18:23 CT に Claude の定期実行(scheduled task「お得ノート ポケモン・サンリオ コラボ週次チェック」trig_01Xy7SyDPKdZ43voDfBaew5o)が検索して更新**(本人指定 10/27)。チャットで頼まれたときも Claude が調べて入れる(ダブルチェック:2つ以上の報道、日付が食い違えば新しい方+note に旧日程)。
   - 自動:update_collab_calendar() が、飲食店のコラボ記事で見出しに開始日があれば auto: true で追加。手入力の予定と同じ店・キャラで開始日±21日なら、日付は変えず sources に出典だけ足す。終了日+3日(自動は開始日+14日)を過ぎたら消える。
   - 2026-10-27 時点:McDonald's ポケモン30周年ハッピーセット 11/10〜12/14(未公式。10/27 PokeBeach が店舗で確認。9月の報道は 11/5〜12/9)、Burger King ハローキティ&フレンズのキッズミール(10/22 開始確認、リークでは 11/30 まで)。
 - 朝のメール:「🧸 ポケモン・サンリオ コラボ」欄(今後・大型セールの後、HS の前)。
