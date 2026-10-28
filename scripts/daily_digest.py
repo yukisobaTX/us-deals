@@ -36,6 +36,7 @@ FAMILY_DAYS = 7
 MAX_FAMILY_CS = 10
 MAX_FAMILY_HOU = 4
 MAX_HOU_FREE = 5
+MAX_COLLAB = 6     # 🧸 キャラコラボ(新着)の上限(本人指定 10/27)
 LAST = {}          # 直近の build() で選んだ記事(プッシュ通知用)
 TYPE_JA = {"free": "無料", "bogo": "BOGO", "coupon": "クーポン", "gc": "ギフトカード", "sale": "セール"}
 
@@ -120,6 +121,14 @@ def line(x, today, tomorrow, head=None):
     where = sm.get("where") or sm.get("store") or "・".join(n for n in x.get("stores", [])[:1] if n != "レストラン全般")
     where = "" if where in REGION_WORDS else clip(where, 15)
     return f"- {when}：{icon}[{what}]({x['link']})" + (f"；{where}" if where else "")
+
+
+def collab_line(x, today, tomorrow):
+    """キャラコラボの1行:「日付：🍔【キャラ】何が；どこで」(日付なしは「新着」)。"""
+    c = x.get("collab") or {}
+    s = line(x, today, tomorrow, head=None if x.get("date") else "新着")
+    icon = "🍔" if c.get("kind") == "food" else "🎁"
+    return s.replace("：", f"：{icon}【{'・'.join(c.get('chars', [])[:2])}】", 1)
 
 
 def fmt_local(x, today):
@@ -228,12 +237,17 @@ def build(items, since, site):
                     and not x.get("freebie") and not x.get("dup")],
                    key=lambda x: x["posted"], reverse=True)
         ev_lines += [line(x, t_iso, tomorrow, head=f"【{lab}】") for x in g[:3]]
+    # 🧸 キャラコラボ(ポケモン・サンリオなど。本人指定 10/27):前回のまとめ以降の新着だけ。ほかの欄に出たものは除く
+    shown = {x["id"] for x in near + later + fam_cs + fam_hou + loc_cs + loc_hou + hou_free}
+    collab = sorted([x for x in items if x.get("collab") and not x.get("dup") and x["firstSeen"] > since
+                     and x["id"] not in shown and (x.get("date") or "9999") >= t_iso],
+                    key=lambda x: (x["collab"].get("kind") != "food", x.get("date") or "9999", x["posted"]))[:MAX_COLLAB]
     n_hou = len(fam_hou) + len(loc_hou) + len(hou_free)
-    n = len(near) + len(later) + len(ev_lines) + len(fam_cs) + len(loc_cs) + n_hou
+    n = len(near) + len(later) + len(ev_lines) + len(fam_cs) + len(loc_cs) + len(collab) + n_hou
     ln = lambda x: line(x, t_iso, tomorrow)
     # 件名:カレッジステーション(と全国)の件数を先に、ヒューストンは最後にまとめて
     parts = [f"今日・明日{len(near)}", *([f"家族{len(fam_cs)}"] if fam_cs else []),
-             *([f"地元{len(loc_cs)}"] if loc_cs else []), *([f"今後{len(later)}"] if later else []),
+             *([f"地元{len(loc_cs)}"] if loc_cs else []), *([f"今後{len(later)}"] if later else []), *([f"コラボ{len(collab)}"] if collab else []),
              *([f"HS{n_hou}"] if n_hou else [])]
     title = f"お得ノート {today.month}/{today.day}:" + "/".join(parts)
     lines = [f"{MENTION} おはようございます。「日付：何が；どこで」で並べています(何がをタップで記事)。",
@@ -248,6 +262,8 @@ def build(items, since, site):
         lines += ["", "## 📅 今後(詳細はサイト)", *[ln(x) for x in later]]
         if ev_lines:
             lines += ["", "**🛍 大型セール**", *ev_lines]
+    if collab:
+        lines += ["", "## 🧸 キャラコラボ(新着。🍔飲食 🎁グッズ)", *[collab_line(x, t_iso, tomorrow) for x in collab]]
     if n_hou:
         lines += ["", "", "## 🏙 HS(お出かけ・遠出用)"]
         if fam_hou:

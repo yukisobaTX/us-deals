@@ -85,6 +85,23 @@
       "alert": false,
       "region": "College Station",
       "localOnly": true
+    },
+    {
+      "id": "sporked",
+      "name": "Sporked",
+      "url": "https://sporked.com/feed/atom/",
+      "pages": 1,
+      "collabOnly": true,
+      "_robots": "/*/feed/ は禁止、/feed/atom/ は Allow → Atom を使う"
+    },
+    {
+      "id": "tib",
+      "name": "The Impulsive Buy",
+      "url": "https://www.theimpulsivebuy.com/wordpress/feed/",
+      "pages": 1,
+      "collabOnly": true,
+      "_robots": "User-agent: * の制限なし"
     }
-  ]
+  ],
+  "_collab": "collabOnly:キャラコラボ(ポケモン・サンリオなど)の見出しだけ拾う情報源(2026-10-27 追加)。"
 }

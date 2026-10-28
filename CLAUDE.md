@@ -15,7 +15,7 @@
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
 - 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
-- 情報源(RSS):Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+- 情報源(RSS):Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・Sporked/The Impulsive Buy(collabOnly=キャラコラボの見出しだけ。下記)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
 
 ## 地域(2026-10-26 追加)
 - 本人はカレッジステーション在住。地元の情報を日々使えるように、items[].region に "College Station" / "Houston" を付ける。
@@ -55,6 +55,7 @@
 ## Claude による要約(2026-10-26 追加・本人選択)
 - Gemini の無料枠(1日20回)が足りないため、毎朝 6:41 CT に Claude の定期実行(scheduled task「お得ノート 朝の要約」)が、朝のメールに載る記事と地元・家族の記事の要約(what・where など)を作る。
 - 手順:`python3 scripts/claude_pending.py > /tmp/pending.json`(要約が必要な記事を書き出す。daily_digest.build() で選ばれる記事+日付が過ぎていない地元記事のうち、jaVia が claude/claude-ev でないか what がないもの)→ Claude が要約 JSON を作る → `python3 scripts/apply_summaries.py <json>`(what 10字・where 15字に切り詰め、空の項目は前の要約を残す、jaVia="claude"/"claude-ev")→ commit・push。
+- **キャラコラボの記事(items[].collab)の要約**:what は何のコラボ商品か(キャラ名はメールの【】に別に出るので繰り返さない。例「限定タンブラー」「キッズミール玩具」「限定バケツ」「コラボ菓子」)、where は販売店・チェーン名(例「McDonald's」「Target」)、item は「〇〇×キャラの限定△△」、when は発売日・開始日、cond は「数量限定」「キッズミール購入」など。
 - fetch_deals.py は jaVia が SUMMARIZED(gemini・gemini-ev・claude・claude-ev)の要約を上書きしない。Gemini は毎時の収集で補助として残す。
 
 ## 変えるとき
@@ -76,3 +77,17 @@
 ## ポータルへのプッシュ通知(2026-10-27 追加・本人指定)
 - 朝のまとめ(7:15)で、**当日の**無料・BOGO(今日・明日欄のうち日付が今日のもの+日付なしの新着)があれば、`scripts/portal_push.py` でポータル(my-portal)経由で iPhone に通知する(最大4件「何が；どこで」)。該当なしの日は送らない。
 - **メールは家族あて(pinkpokepoke)にも必要なので従来どおり送る**(本人指定)。テスト送信・dry-run ではプッシュしない。認証は OIDC(digest.yml に id-token: write)。
+
+## 🧸 キャラコラボ(2026-10-27 本人指定)
+- 本人の希望:ファストフードや各種商品(ボトル・タンブラーなど)と、ポケモン・サンリオなどのキャラクターのコラボ情報も載せる。
+- 判定 fetch_deals.collab_info() → items[].collab = {"chars": [日本語名], "kind": "food"|"goods"}。毎回すべての記事にかけ直す。キャラの一覧は config/stores.json の collab。
+  - core(ポケモン・サンリオ・ちいかわ・ジブリ・カービィ・マリオ・スヌーピー・ラブブ・スクイッシュマロウ・ブルーイ・マインクラフトなど):キャラ名+(飲食の語・グッズの語・コラボの語)。
+  - broad(ディズニー・マーベル・スター・ウォーズ・バービーなど広い IP):飲食店の店名・キッズミール・Boo Bucket・明示のコラボ語(collab・ x ・team up)・ボトル/タンブラー/カップのときだけ(ライセンス商品の値下げが多いため)。
+  - 除外 COLLAB_NG_RE:LEGO、カードの箱(Elite Trainer Box・booster)、抽選・懸賞(drawing・sweepstakes・win)。ソニック(ドライブイン)は「Sonic the Hedgehog」だけをキャラとして扱う。
+  - kind:飲食店の店名がある、または飲食の語だけ → food(🍔)、それ以外 → goods(🎁)。
+- 店名・値引きの語がなくてもコラボなら載せる(classify が None のとき既定の分類を付ける)。
+- 情報源:既存の RSS に加え、collabOnly の Sporked(robots.txt で /feed/atom/ だけ許可 → Atom)・The Impulsive Buy(新商品)。collabOnly はコラボの見出しだけ拾う。parse_rss は Atom(<entry>)にも対応、parse_date は ISO 形式にも対応。
+- 朝のメール:「🧸 キャラコラボ(新着)」欄(今後・大型セールの後、HS の前)。前回のまとめ以降の新着で、ほかの欄に出ていないもの最大6件(飲食を先に)。行は「日付(なければ新着)：🍔【キャラ】何が；どこで」(collab_line)。件名に「コラボN」(今後の後・HS の前)。
+- サイト:「🧸 キャラコラボ」タブ(大型セールの隣)と、カードの「🍔/🎁 キャラ名コラボ」ラベル(.tag.collab)。
+- 2026-10-27:kw_regex が曲がった引用符(Domino’s など)に当たっていなかった不具合を修正(re.escape は ' をエスケープしないため、置換が効いていなかった)。
+

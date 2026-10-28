@@ -203,6 +203,18 @@ def parse_rss(text):
                                      mt.get("url") if mt is not None else None,
                                      m.group(1) if m else None]),
             })
+        if not items:   # Atom(<entry>)。Sporked は robots.txt で Atom だけ許可
+            A = "{http://www.w3.org/2005/Atom}"
+            for it in root.iter(A + "entry"):
+                lk = next((l.get("href") for l in it.findall(A + "link") if l.get("rel") in (None, "alternate")), "")
+                summ = it.findtext(A + "summary") or it.findtext(A + "content") or ""
+                m = IMG_RE.search(summ)
+                items.append({
+                    "title": (it.findtext(A + "title") or "").strip(), "link": (lk or "").strip(),
+                    "date": (it.findtext(A + "published") or it.findtext(A + "updated") or "").strip(),
+                    "cats": [c.get("term") for c in it.findall(A + "category") if c.get("term")],
+                    "desc": desc_text(summ), "thumb": find_thumb([m.group(1) if m else None]),
+                })
         return items
     except ET.ParseError:
         pass
@@ -228,7 +240,7 @@ def parse_rss(text):
 def kw_regex(words):
     parts = []
     for w in words:
-        e = re.escape(w).replace(r"\'", "['’]")
+        e = re.escape(w).replace(r"\'", "'").replace("'", "['’]")   # 見出しの ’(曲がった引用符)にも当てる
         parts.append(rf"(?<![A-Za-z0-9]){e}(?![A-Za-z0-9])")
     return re.compile("|".join(parts), re.I)
 
@@ -244,6 +256,7 @@ def build_matchers(stores_cfg):
     other = [w for cat in stores_cfg["categories"] if cat["id"] != "food" for s in cat["stores"] for w in s["keywords"]]
     SHOP_STORE[:] = [kw_regex(other)] if other else []
     EVENTS[:] = [(e["id"], kw_regex(e["keywords"])) for e in stores_cfg.get("events", [])]
+    build_collab(stores_cfg)
     return stores, types
 
 
@@ -444,6 +457,52 @@ def is_food(title):
     return bool(FOOD_WORD_RE.search(title))
 
 
+# ---------------- キャラコラボ(2026-10-27 本人指定) ----------------
+COLLAB = {"core": [], "broad": []}   # [(日本語名, 正規表現)]
+# 「コラボ」を示す語(グッズ・飲食どちらでも)
+COLLAB_WORD_RE = re.compile(
+    r"collab|collaboration|\s[x×]\s|teams? up|partner(?:ship|s with)|crossover|limited[- ]edition|"
+    r"exclusive|themed|inspired|capsule|\bdrop\b|\bedition\b|\blaunch|\bunveil|\bdebut|\breturns?\b|\bcollection\b", re.I)
+# 飲食のコラボ(キッズミールのおもちゃ、限定カップ・バケツ、限定メニュー・お菓子)
+COLLAB_FOOD_RE = re.compile(
+    r"happy meal|kids'? meal|boo buckets?|popcorn buckets?|\bmenu\b|\bmeal\b|\bdrinks?\b|frapp|latte|sundae|"
+    r"donuts?|doughnuts?|pizza|burger|fries|shake|cereal|oreo|cookies?|candy|snacks?|ice cream|cups?\b", re.I)
+# グッズのコラボ(ボトル・タンブラー・ぬいぐるみ・コスメ・服など)
+COLLAB_GOODS_RE = re.compile(
+    r"tumblers?|bottles?|\bcups?\b|\bmugs?\b|drinkware|stanley|owala|yeti|hydro ?flask|simple modern|"
+    r"plush|backpacks?|crocs|sneakers|shoes|makeup|cosmetics|lip|nail|apparel|pajamas|merch", re.I)
+# 拾わないもの:LEGO などのライセンス玩具の値下げ、カードの箱、抽選・懸賞、ソニック(ドライブイン)
+COLLAB_NG_RE = re.compile(
+    r"\blego\b|trainer box|booster|\btcg\b|trading card|sweepstakes|\bdrawing\b|enter to win|\bwin\b", re.I)
+
+
+def build_collab(stores_cfg):
+    cfg = stores_cfg.get("collab") or {}
+    for tier in ("core", "broad"):
+        COLLAB[tier] = [(name, kw_regex(words)) for name, words in (cfg.get(tier) or {}).items()]
+
+
+def collab_info(title):
+    """キャラコラボの記事なら {"chars": [日本語名], "kind": "food"|"goods"}。
+    core(ポケモン・サンリオなど)はキャラ名+(飲食・グッズ・コラボの語)、
+    broad(ディズニー・マーベルなど広い IP)は飲食店・キッズミール・明示のコラボ語・ボトル類のときだけ。"""
+    if COLLAB_NG_RE.search(title):
+        return None
+    core = [n for n, rx in COLLAB["core"] if rx.search(title)]
+    broad = [n for n, rx in COLLAB["broad"] if rx.search(title)]
+    if not core and not broad:
+        return None
+    food_store = any(rx.search(title) for rx in FOOD_STORE)
+    food = food_store or bool(COLLAB_FOOD_RE.search(title))
+    goods = bool(COLLAB_GOODS_RE.search(title))
+    word = bool(COLLAB_WORD_RE.search(title))
+    strong = bool(re.search(r"collab|collaboration|\s[x×]\s|teams? up|crossover|happy meal|kids'? meal|boo bucket|popcorn bucket", title, re.I))
+    ok = (core and (food or goods or word)) or (broad and (food_store or strong or COLLAB_GOODS_RE.search(title) and re.search(r"tumbler|bottle|cup|mug|stanley|owala", title, re.I)))
+    if not ok:
+        return None
+    return {"chars": (core + broad)[:3], "kind": "food" if (food_store or (food and not goods)) else "goods"}
+
+
 def freebie_info(title, posted):
     """無料でもらえるものなら {"kind": "store"|"coupon", "when": 日付} を返す。"""
     if NOT_GIFT_RE.search(title) or ENDED_RE.search(title):
@@ -471,6 +530,11 @@ def parse_date(s):
             d = d.replace(tzinfo=dt.timezone.utc)
         return d.astimezone(dt.timezone.utc)
     except Exception:  # noqa: BLE001
+        pass
+    try:   # Atom の ISO 形式(2026-10-27T12:00:00-05:00)
+        d = dt.datetime.fromisoformat((s or "").strip().replace("Z", "+00:00"))
+        return (d if d.tzinfo else d.replace(tzinfo=dt.timezone.utc)).astimezone(dt.timezone.utc)
+    except ValueError:
         return None
 
 
@@ -563,7 +627,14 @@ def main():
                 continue
             if f.get("localOnly") and (not LOCAL_EVENT_RE.search(title) or LOCAL_NG_RE.search(title)):
                 continue   # 地元ニュース局は催し・無料・お得の見出しだけ
+            col = collab_info(title)
+            if f.get("collabOnly") and not col:
+                continue   # 新商品・ファストフード全般の情報源は、キャラコラボの記事だけ拾う
             c = classify(title, it["cats"], stores, types, stores_cfg.get("skipRegionsNotIn", []))
+            if not c and col:
+                # キャラコラボは店名・値引きの語がなくても載せる(本人指定 10/27)
+                c = {"stores": [], "cats": ["food" if col["kind"] == "food" else "other"], "types": ["sale"],
+                     "pct": None, "price": None, "event": None, "eventNews": False}
             if not c and f.get("region"):
                 # 地元の情報源は、店名・無料の語がなくても催しとして載せる
                 c = {"stores": [], "cats": ["other"], "types": ["sale"], "pct": None, "price": None,
@@ -606,6 +677,9 @@ def main():
             ld = local_date(x["title"], parse_date_iso(x["posted"]))
             if ld:
                 x["localDate"] = ld
+        x["collab"] = collab_info(x["title"])
+        if not x["collab"]:
+            x.pop("collab")
         x["event"] = event_of(x["title"])
         x["eventNews"] = bool(x["event"] and EVENT_NEWS_RE.search(x["title"]))
         x["freebie"] = freebie_info(x["title"], parse_date_iso(x["posted"]))

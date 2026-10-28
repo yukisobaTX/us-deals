@@ -7,6 +7,7 @@
     { id: 'family', label: '👨‍👩‍👧 家族のお出かけ' },
     { id: 'local', label: '📍 CS' },
     { id: 'event', label: '🛍 大型セール' },
+    { id: 'collab', label: '🧸 キャラコラボ' },
     { id: 'houston', label: '🏙 HS' },
     { id: 'all', label: 'すべて' },
     { id: 'grocery', label: 'スーパー' },
@@ -21,7 +22,7 @@
   ];
   const DAY = 86400000;
   // カレッジステーション(在住地)を優先し、ヒューストンは別タブと各一覧の後半に分ける(本人指定 10/27)
-  const SPECIAL = ['all', 'free', 'event', 'local', 'family', 'houston'];
+  const SPECIAL = ['all', 'free', 'event', 'collab', 'local', 'family', 'houston'];
   const isHou = (x) => x.region === 'Houston';
   // 地名の略記(本人指定 10/27):カレッジステーション=CS、ヒューストン=HS
   const abbr = (t) => typeof t === 'string' ? t.replace(/カレッジステーション/g, 'CS').replace(/ヒューストン/g, 'HS') : t;
@@ -51,6 +52,7 @@
     if (x.dup) return false;   // 別の情報源の同じ話題は1件にまとめる
     if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
     if (state.cat === 'event' && !x.event) return false;
+    if (state.cat === 'collab' && (!x.collab || past(x))) return false;   // キャラコラボ(本人指定 10/27)
     if (state.cat === 'local' && x.region !== 'College Station') return false;
     if (state.cat === 'family' && (!x.family || isHou(x) || past(x))) return false;
     if (state.cat === 'houston' && (!isHou(x) || (x.family && past(x)))) return false;
@@ -105,6 +107,7 @@
     if (x.family) sub.append(el('span', { className: 'tag free', textContent: '👨‍👩‍👧 家族向け' + (x.localDate ? ' ' + md(x.localDate) : '') }));
     for (const k of (x.outing || [])) sub.append(el('span', { className: 'tag', textContent: ({ '公園・屋外': '🌳', '動物': '🦒', 'エンタメ': '🎪', 'スポーツ': '⚽', '子供向け': '🧒' }[k] || '') + k }));
     if (x.region) sub.append(el('span', { className: 'tag', textContent: '📍 ' + ({ 'College Station': 'CS', Houston: 'HS' }[x.region] || x.region) }));
+    if (x.collab) sub.append(el('span', { className: 'tag collab', textContent: (x.collab.kind === 'food' ? '🍔 ' : '🎁 ') + x.collab.chars.join('・') + 'コラボ' }));
     if (x.event) sub.append(el('span', { className: 'tag ev', textContent: '🛍 ' + (EVLAB[x.event] || '大型セール') }));
     if (x.freebie) {
       const w = x.freebie.when ? (daysLeft(x.freebie.when) === 0 ? '今日' : md(x.freebie.when)) : '';
@@ -145,6 +148,7 @@
     const tabs = $('tabs');
     tabs.replaceChildren(...CATS.map((c) => {
       const n = c.id === 'all' ? items.length : c.id === 'free' ? items.filter((x) => x.freebie).length : c.id === 'event' ? items.filter((x) => x.event).length
+        : c.id === 'collab' ? items.filter((x) => x.collab && !x.dup && !past(x)).length
         : c.id === 'local' ? items.filter((x) => x.region === 'College Station' && !x.dup).length
         : c.id === 'family' ? items.filter((x) => x.family && !isHou(x) && !x.dup && !past(x)).length
         : c.id === 'houston' ? items.filter((x) => isHou(x) && !x.dup && !(x.family && past(x))).length
@@ -167,7 +171,7 @@
   }
 
   function renderStores() {
-    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : state.cat === 'local' ? x.region === 'College Station' : state.cat === 'family' ? x.family && !isHou(x) : state.cat === 'houston' ? isHou(x) : x.cats.includes(state.cat)));
+    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : state.cat === 'collab' ? x.collab : state.cat === 'local' ? x.region === 'College Station' : state.cat === 'family' ? x.family && !isHou(x) : state.cat === 'houston' ? isHou(x) : x.cats.includes(state.cat)));
     const cnt = new Map();
     for (const x of pool) for (const s of x.stores) cnt.set(s, (cnt.get(s) || 0) + 1);
     const sel = $('store');
