@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T10:58Z",
- "count": 981,
+ "updated": "2026-10-28T11:55Z",
+ "count": 991,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -59,15 +59,403 @@
    "added": 0
   },
   "ja": {
-   "gemini": 14,
+   "gemini": 15,
    "geminiEvent": 0,
-   "mymemory": 7,
-   "geminiToday": 11,
+   "mymemory": 10,
+   "geminiToday": 12,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "32d4aceeb0f9",
+   "title": "Community Yoga at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/yoga-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-28T11:44Z",
+   "firstSeen": "2026-10-28T11:44Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Outdoors"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "レイクウォークでの屋外ヨガ",
+    "when": "10/31(土)",
+    "cond": "大人向け",
+    "what": "屋外ヨガ",
+    "where": "Lake Walk"
+   },
+   "ja": "レイクウォークでの屋外ヨガ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-10-31",
+   "freebie": null
+  },
+  {
+   "id": "c7d054b7c803",
+   "title": "Alani Nu Mini Energy Drinks Just 69¢ Each at Sam’s Club",
+   "link": "https://hip2save.com/deals/alani-nu-mini-energy-drinks/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T11:35Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/mini-alani-sams-club-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブでアラニ・ヌ・ミニ・エナジー・ドリンク各69 ¢",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "サムズクラブでアラニ・ヌ・ミニ・エナジー・ドリンク各69 ¢",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "21d12d5bcff2",
+   "title": "Yogurtland Deals | BOGO Free + 2x Points on October 28th!",
+   "link": "https://thefreebieguy.com/yogurtland-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T11:32Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": "2026-10-28",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/2-People-holding-Yogurtland-Yogurt-Cups-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ヨーグルトランドのお買い得情報| 10月28日に無料で2倍のポイントを獲得しよう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ヨーグルトランドのお買い得情報| 10月28日に無料で2倍のポイントを獲得しよう！",
+    "when": "10/28(水)まで",
+    "cond": ""
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "id": "786582e8b3be",
+   "title": "Price Drop: Swiss Miss Hot Chocolate 50-Pack JUST $6 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/swiss-miss-hot-chocolate/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T11:30Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Swiss-Miss-Milk-Chocolate-Flavor-Hot-Cocoa-Mix-1.38oz-50-Count-Box-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "値下げ：スイスミスホットチョコレート50枚入りわずか$ 6 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "値下げ：スイスミスホットチョコレート50枚入りわずか$ 6 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "53ef5cf8cb79",
+   "title": "1200W Travel Steamer for Clothes Only $12.xx on Amazon (Reg. $40)",
+   "link": "https://thefreebieguy.com/g10-1200w-travel-steamer-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T11:26Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/G10-1200W-Travel-Steamer-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 12.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "1200 Wトラベルスチーマー衣類のみ$ 12.xxアマゾン（登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "1200 Wトラベルスチーマー衣類のみ$ 12.xxアマゾン（登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "0bd893743b0e",
+   "date": null
+  },
+  {
+   "id": "674fc8d6a95f",
+   "title": "Del Taco Deals | BOGO Free The Del Taco + More!",
+   "link": "https://thefreebieguy.com/del-taco-coupon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T11:25Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Del-Taco-Restaurant-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "bogo": true
+   },
+   "sum": {
+    "store": "Del Taco",
+    "item": "The Del Taco",
+    "cond": "1つ購入でもう1つ無料",
+    "what": "BOGOタコス",
+    "where": "Del Taco"
+   },
+   "ja": "The Del Taco",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "451ce391f852",
+   "title": "2-in-1 Professional Travel Steamer Only $17.xx on Amazon (Reg $59)",
+   "link": "https://thefreebieguy.com/nexdoo-g9-professional-travel-steamer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T11:23Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Nexdoo-G9-2-in-1-Professional-Travel-Steamer--840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 17.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "2 - in -1プロフェッショナルトラベルスチーマーのみ$ 17.xxアマゾン（登録価格$ 59 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "2 - in -1プロフェッショナルトラベルスチーマーのみ$ 17.xxアマゾン（登録価格$ 59 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "0bd893743b0e",
+   "date": null
+  },
+  {
+   "id": "ff0bf99429c0",
+   "title": "*HOT* Collagen Gummies with Biotin, 60-Count only $16.86 shipped {Gretchen Loves These!}",
+   "link": "https://moneysavingmom.com/hot-collagen-gummies-with-biotin-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T11:05Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/05/Screenshot-2025-05-01-at-3.43.00 PM-630x778.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "*ホット*ビオチン入りコラーゲングミ、60枚入り、たったの$ 16.86で発送されました{Gretchen Loves These!}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "*ホット*ビオチン入りコラーゲングミ、60枚入り、たったの$ 16.86で発送されました{Gretchen Loves These!}",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "47d4b27a13a8",
+   "title": "Laffy Taffy Mini Bar Bag (2 pack) only $1.90 shipped!",
+   "link": "https://moneysavingmom.com/laffy-taffy-mini-bar-bag-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T11:04Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/03/Laffy-Taffy-Mini-Bar-Bag-630x613.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Laffy Taffyミニバーバッグ（ 2パック） $ 1.90のみ発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Laffy Taffyミニバーバッグ（ 2パック） $ 1.90のみ発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0ddd46b45a89",
+   "title": "Marvel Captain America Adjustable Snapback Hat Only $2.xx on Walmart (Reg $12)",
+   "link": "https://thefreebieguy.com/marvel-captain-america-adjustable-snapback-hat/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T11:04Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Captain-America-Adjustable-Snapback-Hat-841x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 83,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Marvelキャプテンアメリカ調節可能スナップバックハットウォルマートで$ 2.xxのみ（登録価格$ 12 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Marvelキャプテンアメリカ調節可能スナップバックハットウォルマートで$ 2.xxのみ（登録価格$ 12 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ab56c8bfc017",
+   "title": "Lunakai Sambucus Elderberry Gummies with Zinc & Vitamin C, 60 count only $16.84 shipped!",
+   "link": "https://moneysavingmom.com/lunakai-sambucus-elderberry-gummies-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T11:03Z",
+   "firstSeen": "2026-10-28T11:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/02/Screenshot-2025-02-24-at-4.05.11 PM-630x745.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ルナカイサンブカスエルダーベリーグミ亜鉛とビタミンC、60個のみ$ 16.84発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ルナカイサンブカスエルダーベリーグミ亜鉛とビタミンC、60個のみ$ 16.84発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "7d69ff5e985b",
    "title": "Swiss Miss Hot Cocoa Mix Packets (50 count) only $5.68 shipped!",
@@ -236,8 +624,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "7d69ff5e985b",
-   "date": null
+   "date": null,
+   "dup": "7d69ff5e985b"
   },
   {
    "id": "ef7765dbd45e",
@@ -7193,7 +7581,7 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -7235,7 +7623,7 @@
    "outing": [
     "公園・屋外"
    ],
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -7277,7 +7665,7 @@
    "outing": [
     "公園・屋外"
    ],
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -33464,48 +33852,6 @@
    "date": "2026-10-31",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "32d4aceeb0f9",
-   "title": "Community Yoga at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/yoga-at-lake-walk/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-28T11:44Z",
-   "firstSeen": "2026-10-28T11:44Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Outdoors"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "レイクウォークでの屋外ヨガ",
-    "when": "10/31(土)",
-    "cond": "大人向け",
-    "what": "屋外ヨガ",
-    "where": "Lake Walk"
-   },
-   "ja": "レイクウォークでの屋外ヨガ",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "スポーツ"
-   ],
-   "family": true,
-   "date": "2026-10-31"
   }
  ]
 }
