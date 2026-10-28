@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T21:53Z",
- "count": 1078,
+ "updated": "2026-10-28T22:51Z",
+ "count": 1080,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,84 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 15,
+   "mymemory": 13,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "24fc9965ca5f",
+   "title": "Dove Body Wash Gift Set Only $10.xx at Walmart ($30 Value)",
+   "link": "https://thefreebieguy.com/dove-body-wash-gift-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T22:42Z",
+   "firstSeen": "2026-10-28T22:51Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Dove-Body-Wash-set_20261028_182039_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Doveボディウォッシュギフトセットウォルマートで$ 10.xxのみ（$ 30相当）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Doveボディウォッシュギフトセットウォルマートで$ 10.xxのみ（$ 30相当）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c7c846794ad2",
+   "title": "Tropical Smoothie Deals | FREE Smoothie w/ Tropic Bowl / Food Purchase Starts November 2nd!",
+   "link": "https://thefreebieguy.com/tropical-smoothie-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T22:35Z",
+   "firstSeen": "2026-10-28T22:51Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/tropical-smoothie-cafe-840x630.png",
+   "hot": true,
+   "stores": [
+    "Tropical Smoothie"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-02"
+   },
+   "ja": "トロピカルスムージーセール|トロピカルボウル付き無料スムージー/フードの購入は11月2日から始まります！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Tropical Smoothie",
+    "item": "トロピカルスムージーセール|トロピカルボウル付き無料スムージー/フードの購入は11月2日から始まります！",
+    "when": "11/2(月)",
+    "cond": ""
+   },
+   "date": "2026-11-02"
+  },
   {
    "id": "c394873b1d99",
    "title": "e.l.f. Cosmetics Primers Only $4 Shipped on Amazon (Reg. $9)",
@@ -34570,7 +34641,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Birthday-cards.jpg?resize=306,182"
   },
   {
    "id": "fbe539b4c23c",
