@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T05:55Z",
+ "updated": "2026-10-28T07:12Z",
  "count": 964,
  "stats": {
   "h2s": {
@@ -8,7 +8,7 @@
   },
   "h2s-free": {
    "read": 100,
-   "added": 19
+   "added": 20
   },
   "doc": {
    "read": 15,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -59,12 +59,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 25,
-   "geminiEvent": 0,
-   "mymemory": 4,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "gemini": 14,
+   "geminiEvent": 2,
+   "mymemory": 1,
+   "geminiToday": 4,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -5751,8 +5750,7 @@
    },
    "ja": "ピックルパル無料",
    "jaVia": "gemini",
-   "date": null,
-   "dup": "c7515e4a5b3b"
+   "date": null
   },
   {
    "id": "09244b7997ca",
@@ -20784,8 +20782,7 @@
     "what": "国立公園無料",
     "where": "全米の国立公園"
    },
-   "date": "2026-10-27",
-   "dup": "059c30065587"
+   "date": "2026-10-27"
   },
   {
    "id": "2996550afe7a",
