@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T09:59Z",
- "count": 974,
+ "updated": "2026-10-28T10:58Z",
+ "count": 980,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 4
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -61,14 +61,218 @@
   "ja": {
    "gemini": 14,
    "geminiEvent": 0,
-   "mymemory": 5,
-   "geminiToday": 10,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "mymemory": 7,
+   "geminiToday": 11,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "7d69ff5e985b",
+   "title": "Swiss Miss Hot Cocoa Mix Packets (50 count) only $5.68 shipped!",
+   "link": "https://moneysavingmom.com/hot-swiss-miss-hot-cocoa-mix-packets-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T10:56Z",
+   "firstSeen": "2026-10-28T10:58Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/11/Screenshot-2023-11-01-at-12.22.26-PM.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スイスミスホットココアミックスパケット（ 50カウント）わずか$ 5.68で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "スイスミスホットココアミックスパケット（ 50カウント）わずか$ 5.68で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1209ac0db861",
+   "title": "Kindle Unlimited is now Kindle+ | Score a FREE 30-Day Trial!",
+   "link": "https://moneysavingmom.com/hot-kindle-unlimited-trial-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T10:49Z",
+   "firstSeen": "2026-10-28T10:58Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/02/Kindle-Unlimited-at-breakfast.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kindle UnlimitedがKindle +になりました| 30日間の無料トライアルを獲得しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Kindle UnlimitedがKindle +になりました| 30日間の無料トライアルを獲得しましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9233fe1a67e9",
+   "title": "Smart Touchscreen Digital Calendar only $69.99 shipped {Frugal Alternative to Skylight!}",
+   "link": "https://moneysavingmom.com/smart-touchscreen-digital-calendar-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T10:43Z",
+   "firstSeen": "2026-10-28T10:58Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Calendar-630x485.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スマートタッチスクリーンデジタルカレンダー$ 69.99のみ出荷{Frugal Alternative to Skylight!}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "スマートタッチスクリーンデジタルカレンダー$ 69.99のみ出荷{Frugal Alternative to Skylight!}",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8feb17e9f76c",
+   "title": "6-Pack Burlap Christmas Fridge Door Handle Covers Only $15.xx on Amazon",
+   "link": "https://thefreebieguy.com/mosoan-burlap-christmas-fridge-door-handle-covers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T10:35Z",
+   "firstSeen": "2026-10-28T10:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Mosoan-Christmas-Refrigerator-Fridge-Door-Handle-Covers-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "6パックバーラップクリスマス冷蔵庫ドアハンドルカバーのみ$ 15.xx （ Amazon ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "6パックバーラップクリスマス冷蔵庫ドアハンドルカバーのみ$ 15.xx （ Amazon ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "36067e79321b",
+   "title": "Swiss Miss Milk Chocolate Flavor Hot Cocoa Mix 50-Count Only $5.xx on Amazon",
+   "link": "https://thefreebieguy.com/swiss-miss-hot-cocoa/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T10:21Z",
+   "firstSeen": "2026-10-28T10:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Swiss-Miss-cocoa-788x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スイスミスミルクチョコレートフレーバーホットココアミックス50 - Amazonでわずか$ 5.xx",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "スイスミスミルクチョコレートフレーバーホットココアミックス50 - Amazonでわずか$ 5.xx",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "7d69ff5e985b",
+   "date": null
+  },
+  {
+   "id": "ef7765dbd45e",
+   "title": "Amazon Essentials Clothing Sale at WOOT! Prices up to 79% Off + Buy 5 Get 50% Off",
+   "link": "https://thefreebieguy.com/amazon-essentials-apparel-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T09:55Z",
+   "firstSeen": "2026-10-28T10:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Amazon-Essentials-MEGA-Apparel-Deals-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 79,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "WOOTでAmazon Essentialsウェアセール！最大79 ％オフ+ 5個購入で50 ％オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "WOOTでAmazon Essentialsウェアセール！最大79 ％オフ+ 5個購入で50 ％オフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "33a6078a0b8f",
    "title": "So Cozy Kids Detangler & Leave In Conditioner Spray Just $5.xx on Amazon (Reg $10)",
