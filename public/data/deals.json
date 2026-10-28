@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T19:02Z",
- "count": 1062,
+ "updated": "2026-10-28T19:57Z",
+ "count": 1068,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 8
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -57,13 +57,221 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
+   "mymemory": 24,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d43e562fb9b0",
+   "title": "McDonald’s Deals | New Disney Boo Buckets, New Drinks Coming 11/3, & More!",
+   "link": "https://thefreebieguy.com/mcdonalds-deals-coupon-codes/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T19:50Z",
+   "firstSeen": "2026-10-28T19:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/McDonalds-Boo-Buckets-2026-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "McDonald's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "マクドナルドのお買い得情報|新しいディズニーブーバケツ、11月3日に登場する新しいドリンクなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "McDonald's",
+    "item": "マクドナルドのお買い得情報|新しいディズニーブーバケツ、11月3日に登場する新しいドリンクなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "45168bcaa82d",
+   "title": "Kate Spade Crossbody and Shoulder Bags as low as $50.62 shipped (Reg. $280)!",
+   "link": "https://moneysavingmom.com/kate-spade-crossbody-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-28T19:46Z",
+   "firstSeen": "2026-10-28T19:57Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Kate-Spade-Leila-Crossbody-Bag.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 82,
+   "price": 50.62,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kate Spadeクロスボディとショルダーバッグは$ 50.62で発送されました（登録価格$ 280 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Kate Spadeクロスボディとショルダーバッグは$ 50.62で発送されました（登録価格$ 280 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6b010bcd8b2a",
+   "title": "ARMANI Acqua di Gioia Eau de Parfum Only $60 Shipped on ULTA.com (Reg. $120) + Free Gift!",
+   "link": "https://hip2save.com/deals/armani-acqua-di-gioia-parfum/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T19:40Z",
+   "firstSeen": "2026-10-28T19:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/ARMANI-Acqua-di-Gioia-Eau-de-Parfum-1.7oz.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 50,
+   "price": 60.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "ARMANI Acqua di Gioiaオードパルファムのみ$ 60 ULTA.comで発送（登録番号$ 120 ） +無料ギフト！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "ARMANI Acqua di Gioiaオードパルファムのみ$ 60 ULTA.comで発送（登録番号$ 120 ） +無料ギフト！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "dfbc48c5b04f",
+   "date": null
+  },
+  {
+   "id": "12a5851d7702",
+   "title": "President Trump Announces Arrival of First One Million Barrels of Oil in Texas Thanks to Historic Oil Deal",
+   "link": "https://wtaw.com/president-trump-announces-arrival-of-first-one-million-barrels-of-oil-in-texas-thanks-to-historic-oil-deal/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-10-28T19:32Z",
+   "firstSeen": "2026-10-28T19:57Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/10/28143217/Trumps-Texas-Oil-Headline-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8d709a414725",
+   "title": "Pedal Resistance Band Only $6.95 on Amazon (Regularly $20)",
+   "link": "https://hip2save.com/deals/resistance-bands/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T19:20Z",
+   "firstSeen": "2026-10-28T19:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/STYNGT-Pedal-Resistance-Band.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ペダル抵抗バンドのみ$ 6.95 （通常$ 20 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ペダル抵抗バンドのみ$ 6.95 （通常$ 20 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d4e0f17a151c",
+   "title": "Holiday Zak Designs 30oz Stainless Steel Tumblers Just $14.xx at Walmart!",
+   "link": "https://thefreebieguy.com/zak-tumblers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T19:19Z",
+   "firstSeen": "2026-10-28T19:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/holiday-zak-tumblers-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ホリデーザックデザイン30オンスステンレススチールタンブラーウォルマートでたったの$ 14.xx ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ホリデーザックデザイン30オンスステンレススチールタンブラーウォルマートでたったの$ 14.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "8348f4819e2f",
    "title": "365 by Whole Foods Market Pasta Only 94¢ Shipped on Amazon",
@@ -98,8 +306,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "fcffe930b227",
-   "date": null
+   "date": null,
+   "dup": "fcffe930b227"
   },
   {
    "id": "4f8cfbc686e0",
@@ -578,13 +786,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "新しいサムズクラブの即時割引–電子機器、家具などの最新割引！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "新しいサムズクラブの即時割引–電子機器、家具などの最新割引！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "24ba14cb5057",
@@ -2009,13 +2219,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Tempx 8秒基礎温度計Amazonで$ 2.xxのみ（登録価格$ 9 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Tempx 8秒基礎温度計Amazonで$ 2.xxのみ（登録価格$ 9 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "dc2ba668c9d3",
@@ -2352,13 +2564,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Little Tikes Dirt Diggers掘削機サンドボックスAmazonで$ 47.xxのみ（登録価格$ 73 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Little Tikes Dirt Diggers掘削機サンドボックスAmazonで$ 47.xxのみ（登録価格$ 73 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ebd7e6554e33",
@@ -2384,13 +2598,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キッズグローブ12枚パックAmazonでわずか$ 7 （ペアあたりわずか58 ¢ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "キッズグローブ12枚パックAmazonでわずか$ 7 （ペアあたりわずか58 ¢ ）",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "0af18543fdc0",
@@ -2454,13 +2670,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CHIヘルメットヘッドエクストラホールドヘアスプレーAmazonで$ 11.xxのみ（登録価格$ 28 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "CHIヘルメットヘッドエクストラホールドヘアスプレーAmazonで$ 11.xxのみ（登録価格$ 28 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b148cce2a8c9",
@@ -2486,13 +2704,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "HIGH BREW COFFEEダブルエスプレッソ12パックのみ$ 11 Amazonで発送（登録価格$ 29 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "HIGH BREW COFFEEダブルエスプレッソ12パックのみ$ 11 Amazonで発送（登録価格$ 29 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "493232b005ad"
   },
   {
@@ -2519,13 +2739,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートの休日の食事が戻ってきました– $ 35未満で10人分の食事を提供（昨年よりも安い！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートの休日の食事が戻ってきました– $ 35未満で10人分の食事を提供（昨年よりも安い！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c269fe723ce4",
