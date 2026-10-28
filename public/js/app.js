@@ -8,12 +8,9 @@
     { id: 'local', label: '📍 CS' },
     { id: 'event', label: '🛍 大型セール' },
     { id: 'collab', label: '🧸 ポケモン・サンリオ' },
-    { id: 'houston', label: '🏙 HS' },
-    { id: 'all', label: 'すべて' },
-    { id: 'grocery', label: 'スーパー' },
+    // HS・すべて・スーパー・ネット通販のタブは削除(2026-10-28 本人指定:見ない)
     { id: 'home', label: '雑貨・ホームセンター' },
     { id: 'food', label: 'レストラン・カフェ' },
-    { id: 'online', label: 'ネット通販' },
     { id: 'other', label: 'その他' }
   ];
   const TYPES = [
@@ -51,6 +48,7 @@
 
   function match(x) {
     if (x.dup) return false;   // 別の情報源の同じ話題は1件にまとめる
+    if (isHou(x)) return false;   // HS は表示しない(2026-10-28)
     if (x.expires && daysLeft(x.expires) < 0) return false;   // 期限切れは次の収集を待たずに隠す(10/27)
     if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
     if (state.cat === 'event' && !x.event) return false;

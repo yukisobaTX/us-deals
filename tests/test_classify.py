@@ -164,7 +164,7 @@ if _x.get("region") != "College Station" or not _x.get("family"):
 if not f.outing_ng("Nation's first detransition clinic now open as result of Texas AG's settlement with Texas Children's Hospital"):
     bad += 1
     print("NG outing_ng hospital news")
-# 朝のメール:ヒューストンはカレッジステーションの後ろの「ヒューストン」欄だけに出る(10/27 本人指定)
+# 朝のメール:HS は載せない(10/28 本人指定)
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 import daily_digest as _dd, datetime as _dt
 _t = _dt.datetime.now(_dd.CT).date().isoformat()
@@ -174,11 +174,9 @@ _items = [{**_base, "id": "c", "title": "Kids Pumpkin Patch", "region": "College
           {**_base, "id": "hf", "title": "Free Donut", "region": "Houston", "freebie": {"kind": "store"}, "date": _t, "sum": {"what": "HOU無料"}},
           {**_base, "id": "f", "title": "Free Donut", "freebie": {"kind": "store"}, "date": _t, "sum": {"what": "全国無料"}}]
 _title, _body, _ = _dd.build(_items, "2000-01-01T00:00Z", "")
-_hou = _body.index("## 🏙 HS")
-if not (_body.index("CS家族") < _hou < _body.index("HOU家族") and _body.index("全国無料") < _hou < _body.index("HOU無料")
-        and _title.endswith("HS2")):
+if not ("CS家族" in _body and "全国無料" in _body and "HOU" not in _body and "## 🏙 HS" not in _body and "HS" not in _title):
     bad += 1
-    print("NG digest houston order", _title)
+    print("NG digest houston removed", _title)
 # キャラコラボ(10/27 本人指定:ポケモンとサンリオだけ):飲食・グッズのコラボは拾い、カード箱の値下げ・抽選・ほかのキャラは拾わない
 for title, want in [("McDonald's Pokémon Happy Meal Returns Nov 4", ("food", "ポケモン")),
                     ("McDonald's Pokemon TCG Promotion to Launch in November for 30th Anniversary!", ("food", "ポケモン")),

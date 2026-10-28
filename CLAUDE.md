@@ -52,6 +52,10 @@
 - **表記は略記:カレッジステーション=CS、ヒューストン=HS**(本人指定 10/27)。メールは daily_digest.abbr()、サイトは app.js の abbr() で表示時に置き換える(保存データの region は "College Station"/"Houston" のまま)。要約の指示(translate_ja・朝の定期実行)も「HS各地」などの略記で。
 - 試験:tests/test_classify.py に、メールでヒューストンがカレッジステーションより後ろの欄に出ることの確認を入れている。
 
+## 表示しないもの(2026-10-28 本人指定:見ないので削除)
+- **HS(ヒューストン)の情報はすべて載せない**:Houston on the Cheap を情報源から外し、region=Houston の記事は fetch_deals.py で保存せず、daily_digest.build() と app.js でも除外。メールの「🏙 HS」欄・件名の HS・サイトの HS タブ・links.json の cat=houston はなし。上の「ヒューストンは分ける」の記述は、HS の記事が来ない前提で残っている古い仕組み。
+- **サイトのタブから「すべて」「スーパー」「ネット通販」を削除**(スーパーの大きなセールは「🛍 大型セール」でくくれるため)。links.json の cat=grocery・online も削除。記事の分類(cats)はそのままで、無料・大型セールなどのタブには出る。
+
 ## Claude による要約(2026-10-26 追加・本人選択)
 - Gemini の無料枠(1日20回)が足りないため、毎朝 6:41 CT に Claude の定期実行(scheduled task「お得ノート 朝の要約」)が、朝のメールに載る記事と地元・家族の記事の要約(what・where など)を作る。
 - 手順:`python3 scripts/claude_pending.py > /tmp/pending.json`(要約が必要な記事を書き出す。daily_digest.build() で選ばれる記事+日付が過ぎていない地元記事のうち、jaVia が claude/claude-ev でないか what がないもの)→ Claude が要約 JSON を作る → `python3 scripts/apply_summaries.py <json>`(what 10字・where 15字に切り詰め、空の項目は前の要約を残す、jaVia="claude"/"claude-ev")→ commit・push。

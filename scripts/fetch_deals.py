@@ -908,6 +908,8 @@ def main():
         posted = parse_date_iso(x["posted"])
         if (now - posted).days > KEEP_DAYS and not x.get("calendar"):
             continue   # イベント一覧の催しは掲載日でなく開催日(expires)で消す
+        if x.get("region") == "Houston":
+            continue   # HS の情報は見ないので載せない(2026-10-28 本人指定)
         if x["source"] in local_only and LOCAL_NG_RE.search(x["title"]):
             continue   # 除外の語を後から足したときも、既にある記事から外す
         if x.get("calendar") and outing_ng(x["title"], x.get("cats", [])):

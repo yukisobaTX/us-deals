@@ -230,6 +230,7 @@ def build(items, since, site):
     t_iso = today.isoformat()
     tomorrow = (today + dt.timedelta(days=1)).isoformat()
     horizon = (today + dt.timedelta(days=HORIZON_DAYS)).isoformat()
+    items = [x for x in items if x.get("region") != "Houston"]   # HS は載せない(2026-10-28 本人指定)
     fbs = [x for x in items if x.get("freebie") and not x.get("dup") and not x.get("noAlert")]
     # 今日・明日:日付が今日・明日のもの(前に載せたものも毎回)+日付なしの新着(今すぐ使える)
     # 📍地元(カレッジステーション優先・ヒューストン):今日・明日の分と、新着の今後の分(購入条件は問わない)
