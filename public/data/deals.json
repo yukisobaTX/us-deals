@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T22:51Z",
- "count": 1080,
+ "updated": "2026-10-28T23:48Z",
+ "count": 1085,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,158 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 13,
+   "mymemory": 16,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "3fae5c34481b",
+   "title": "Colgate Harry Potter Toothbrush 2 Count Only $3.96 After Walmart Cash! (Reg. $9.96)",
+   "link": "https://thefreebieguy.com/colgate-harry-potter-toothbrush/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T23:45Z",
+   "firstSeen": "2026-10-28T23:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Harry-Potter-Toothbrush-_20261028_194427_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 3.96,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コルゲートハリーポッター歯ブラシ2カウントのみ$ 3.96ウォルマートキャッシュ後！ (Reg. $ 9.96)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "コルゲートハリーポッター歯ブラシ2カウントのみ$ 3.96ウォルマートキャッシュ後！ (Reg. $ 9.96)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0ea5c3ffc9a1",
+   "title": "Dairy Queen Deals | Free Mini Blizzard, Holiday Cookie Swap BLIZZARD Collection, & More!",
+   "link": "https://thefreebieguy.com/dairy-queen-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T23:30Z",
+   "firstSeen": "2026-10-28T23:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Dairy-Queen-Holiday-Cookie-Swap-Blizzard-Collection-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Dairy Queen"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "デイリークイーン・セール|無料ミニブリザード、ホリデークッキー・スワップ・ブリザードコレクションなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Dairy Queen",
+    "item": "デイリークイーン・セール|無料ミニブリザード、ホリデークッキー・スワップ・ブリザードコレクションなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "70925bb2a27b",
+   "title": "Capital One Offers: Spend $20+, Get 1,000 Points/$10 At Many Retailers (Home Depot, Lowe’s, eBay & More)",
+   "link": "https://www.doctorofcredit.com/capital-one-offers-spend-20-get-1000-points-10-at-many-retailers-home-depot-more/",
+   "source": "Doctor of Credit",
+   "posted": "2026-10-28T23:24Z",
+   "firstSeen": "2026-10-28T23:48Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Sam's Club",
+    "Home Depot",
+    "Lowe's",
+    "Dollar General",
+    "eBay"
+   ],
+   "cats": [
+    "grocery",
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Capital Oneオファー：多くの小売業者（ Home Depot、Lowe's、eBayなど）で20ドル以上を費やし、1,000ポイント/10ドルを獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club・Home Depot",
+    "item": "Capital Oneオファー：多くの小売業者（ Home Depot、Lowe's、eBayなど）で20ドル以上を費やし、1,000ポイント/10ドルを獲得",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "dc1d163c526d",
+   "title": "Lunakai Sleep Gummies 60-Count Only $7.96 Shipped on Amazon (Reg. $25)",
+   "link": "https://hip2save.com/deals/lunakai-sleep-gummies/",
+   "source": "Hip2Save",
+   "posted": "2026-10-28T23:10Z",
+   "firstSeen": "2026-10-28T23:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Lunakai-Sleep-Gummies-60-Count.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 7.96,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ルナカイスリープグミ60個- $ 7.96のみAmazonで発送（登録価格$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ルナカイスリープグミ60個- $ 7.96のみAmazonで発送（登録価格$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "24fc9965ca5f",
    "title": "Dove Body Wash Gift Set Only $10.xx at Walmart ($30 Value)",
@@ -105,7 +250,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-10-28T22:35Z",
    "firstSeen": "2026-10-28T22:51Z",
-   "expires": null,
+   "expires": "2026-11-02",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/tropical-smoothie-cafe-840x630.png",
    "hot": true,
    "stores": [
@@ -134,6 +279,41 @@
     "cond": ""
    },
    "date": "2026-11-02"
+  },
+  {
+   "id": "1485c41becb2",
+   "title": "Cheap Food Deals for Thursday – Dairy Queen, Taco Bell, & More!",
+   "link": "https://thefreebieguy.com/cheap-thursday-food-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-28T22:00Z",
+   "firstSeen": "2026-10-28T23:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Thursday-Food-Deals-840x630.png",
+   "hot": true,
+   "stores": [
+    "Taco Bell",
+    "Dairy Queen"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "木曜日のお得なフードセール–乳製品クイーン、タコスベルなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Taco Bell・Dairy Queen",
+    "item": "木曜日のお得なフードセール–乳製品クイーン、タコスベルなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "c394873b1d99",
