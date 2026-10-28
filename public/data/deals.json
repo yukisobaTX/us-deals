@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-28T10:58Z",
- "count": 980,
+ "count": 981,
  "stats": {
   "h2s": {
    "read": 100,
@@ -674,14 +674,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "描画プロジェクターが$12.49",
-   "jaVia": "gemini",
+   "ja": "知育玩具の描画プロジェクターが$12.49",
+   "jaVia": "claude",
    "sum": {
     "store": "Amazon",
-    "item": "描画プロジェクターが$12.49",
+    "item": "知育玩具の描画プロジェクターが$12.49",
     "when": "",
     "cond": "",
-    "what": "$12.49知育玩具",
+    "what": "描画プロジェクター",
     "where": "Amazon"
    },
    "date": null
@@ -813,15 +813,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Big Bufordバーガー等",
-   "jaVia": "gemini",
+   "ja": "Big Bufordバーガーなどが無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "Checkers & Rally’s",
-    "item": "Big Bufordバーガー等",
+    "store": "Checkers & Rally's",
+    "item": "Big Bufordバーガーなどが無料",
     "when": "",
     "cond": "",
     "what": "無料バーガー",
-    "where": "Checkers & Rally’s"
+    "where": "Checkers"
    },
    "date": null
   },
@@ -1466,14 +1466,14 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "Lysolサンプル入りポーチ",
-   "jaVia": "gemini",
+   "ja": "Lysolサンプル入りポーチを無料配布",
+   "jaVia": "claude",
    "sum": {
     "store": "Target",
-    "item": "Lysolサンプル入りポーチ",
+    "item": "Lysolサンプル入りポーチを無料配布",
     "when": "10/31 12〜16時",
     "cond": "",
-    "what": "無料ポーチセット",
+    "what": "無料ポーチ",
     "where": "Target"
    },
    "date": "2026-10-31"
@@ -1951,15 +1951,15 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "CSTVのハロウィン名作ホラー映画連続放送",
-   "jaVia": "gemini-ev",
+   "ja": "ハロウィンの名作ホラー映画を連続放送",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "CSTV (カレッジステーション市)",
-    "item": "CSTVのハロウィン名作ホラー映画連続放送",
+    "item": "ハロウィンの名作ホラー映画を連続放送",
     "when": "10/30(金)朝〜10/31(土)夜",
     "cond": "無料",
-    "what": "映画マラソン放送",
-    "where": "CSTV (テレビ)"
+    "what": "ホラー映画一挙",
+    "where": "CSTV"
    },
    "date": "2026-10-30"
   },
@@ -2468,14 +2468,14 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ブラックフライデー情報",
-   "jaVia": "gemini",
+   "ja": "ホームデポのブラックフライデー情報。内容は少なめ",
+   "jaVia": "claude",
    "sum": {
     "store": "Home Depot",
-    "item": "ブラックフライデー情報",
+    "item": "ホームデポのブラックフライデー情報。内容は少なめ",
     "when": "",
     "cond": "",
-    "what": "BFセール情報",
+    "what": "BF情報まとめ",
     "where": "Home Depot"
    },
    "date": null
@@ -3234,14 +3234,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "アイスバー、制汗剤など",
-   "jaVia": "gemini",
+   "ja": "Walmartのクーポン：アイスバー・制汗剤など無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Walmart",
-    "item": "アイスバー、制汗剤など",
+    "item": "Walmartのクーポン：アイスバー・制汗剤など無料",
     "when": "",
     "cond": "クーポン",
-    "what": "無料アイス・日用品",
+    "what": "無料アイスバー",
     "where": "Walmart"
    },
    "date": null
@@ -3309,14 +3309,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "無料石鹸、$1.59かゆみ止め等",
-   "jaVia": "gemini",
+   "ja": "Target今週のクーポン：無料石鹸、$1.59かゆみ止め等",
+   "jaVia": "claude",
    "sum": {
     "store": "Target",
-    "item": "無料石鹸、$1.59かゆみ止め等",
+    "item": "Target今週のクーポン：無料石鹸、$1.59かゆみ止め等",
     "when": "今週",
-    "cond": "",
-    "what": "無料石鹸・格安薬",
+    "cond": "クーポン",
+    "what": "無料石鹸など",
     "where": "Target"
    },
    "date": null
@@ -3822,14 +3822,14 @@
     "kind": "store",
     "when": null
    },
-   "ja": "20ozスプライト1本",
-   "jaVia": "gemini",
+   "ja": "20ozスプライト1本が無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Sprite",
-    "item": "20ozスプライト1本",
+    "item": "20ozスプライト1本が無料",
     "when": "",
     "cond": "先着11.5万名",
-    "what": "無料スプライト",
+    "what": "スプライト無料",
     "where": "オンライン"
    },
    "date": null
@@ -3893,14 +3893,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "成犬用フードサンプル",
-   "jaVia": "gemini",
+   "ja": "成犬用nuloフードの無料サンプル",
+   "jaVia": "claude",
    "sum": {
     "store": "nulo",
-    "item": "成犬用フードサンプル",
+    "item": "成犬用nuloフードの無料サンプル",
     "when": "",
     "cond": "",
-    "what": "無料ドッグフード",
+    "what": "犬用フード試供品",
     "where": "オンライン"
    },
    "date": null
@@ -4302,14 +4302,14 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "NeeDoh新セット販売",
-   "jaVia": "gemini",
+   "ja": "11/12発売のNeeDoh新セット（Walmart先行BF）",
+   "jaVia": "claude",
    "sum": {
     "store": "Walmart",
-    "item": "NeeDoh新セット販売",
+    "item": "11/12発売のNeeDoh新セット（Walmart先行BF）",
     "when": "11/12",
     "cond": "",
-    "what": "新作トイ発売",
+    "what": "NeeDoh新セット",
     "where": "Walmart"
    },
    "date": "2026-11-12"
@@ -4719,15 +4719,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "$5相当の製品",
-   "jaVia": "gemini",
+   "ja": "Beech-Nut製品が$5分無料で手に入る",
+   "jaVia": "claude",
    "sum": {
     "store": "Beech-Nut",
-    "item": "$5相当の製品",
+    "item": "Beech-Nut製品が$5分無料で手に入る",
     "when": "",
     "cond": "",
-    "what": "$5分商品無料",
-    "where": "オンライン"
+    "what": "$5分無料",
+    "where": "Beech-Nut"
    },
    "date": null
   },
@@ -4823,14 +4823,14 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ポイント2倍＆価格保証",
-   "jaVia": "gemini",
+   "ja": "BF前にポイント2倍と価格保証が復活",
+   "jaVia": "claude",
    "sum": {
     "store": "Best Buy",
-    "item": "ポイント2倍＆価格保証",
+    "item": "BF前にポイント2倍と価格保証が復活",
     "when": "",
     "cond": "",
-    "what": "ポイント2倍還元",
+    "what": "ポイント2倍",
     "where": "Best Buy"
    },
    "date": null
@@ -5139,12 +5139,12 @@
     "roundup": true
    },
    "sum": {
-    "item": "賞品・無料特典",
-    "what": "無料特典",
-    "where": "ジュニアレンジャー"
+    "item": "ジュニアレンジャー挑戦で賞品・無料特典",
+    "what": "レンジャー特典",
+    "where": "国立公園"
    },
-   "ja": "賞品・無料特典",
-   "jaVia": "gemini",
+   "ja": "ジュニアレンジャー挑戦で賞品・無料特典",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -5408,13 +5408,13 @@
    },
    "sum": {
     "store": "Krispy Kreme",
-    "item": "ハロウィン12個入が$13、週末ドーナツ1個無料",
-    "when": "2026-10-31週末",
+    "item": "ハロウィン12個入$13。週末ドーナツ1個無料",
+    "when": "今週末",
     "what": "無料ドーナツ",
     "where": "Krispy Kreme"
    },
-   "ja": "ハロウィン12個入が$13、週末ドーナツ1個無料",
-   "jaVia": "gemini",
+   "ja": "ハロウィン12個入$13。週末ドーナツ1個無料",
+   "jaVia": "claude",
    "date": "2026-10-31"
   },
   {
@@ -5853,13 +5853,13 @@
    "eventNews": false,
    "sum": {
     "store": "Legends Event Center",
-    "item": "Legends Event Centerのトランクオアトリート。夕方18時から。",
+    "item": "車のトランクでお菓子をもらうハロウィン会",
     "when": "10/28(水) 18時",
     "cond": "子供向け",
     "what": "トランクオアトリート",
-    "where": "Legends（ブライアン）"
+    "where": "Legends Midtown"
    },
-   "ja": "Legends Event Centerのトランクオアトリート。夕方18時から。",
+   "ja": "車のトランクでお菓子をもらうハロウィン会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -5897,13 +5897,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Humane Society",
-    "item": "動物愛護協会でのトランクオアトリート。動物にも会える。",
+    "item": "動物保護施設のハロウィン会",
     "when": "10/30(金)",
     "cond": "子供向け・動物",
     "what": "トランクオアトリート",
-    "where": "アギーランド動物協会"
+    "where": "Aggieland"
    },
-   "ja": "動物愛護協会でのトランクオアトリート。動物にも会える。",
+   "ja": "動物保護施設のハロウィン会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -5940,13 +5940,13 @@
    "eventNews": false,
    "sum": {
     "store": "Clara B. Mounce Library",
-    "item": "小さな子ども向けのハロウィンカーニバル。図書館で。",
+    "item": "幼児向けのハロウィン縁日（図書館）",
     "when": "10/31(土)",
     "cond": "子供向け",
-    "what": "ハロウィンカーニバル",
-    "where": "Mounce図書館"
+    "what": "ハロウィン縁日",
+    "where": "Mounce Library"
    },
-   "ja": "小さな子ども向けのハロウィンカーニバル。図書館で。",
+   "ja": "幼児向けのハロウィン縁日（図書館）",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -5983,13 +5983,13 @@
    "eventNews": false,
    "sum": {
     "store": "Happy Feet Skating Rink",
-    "item": "仮装してローラースケートを楽しむハロウィン会。",
+    "item": "仮装して滑るハロウィン会。ローラースケート場",
     "when": "10/30(金)",
-    "cond": "仮装・子供向け",
+    "cond": "仮装して参加",
     "what": "仮装スケート会",
-    "where": "Happy Feet Rink"
+    "where": "Happy Feet"
    },
-   "ja": "仮装してローラースケートを楽しむハロウィン会。",
+   "ja": "仮装して滑るハロウィン会。ローラースケート場",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -6026,13 +6026,13 @@
    "eventNews": false,
    "sum": {
     "store": "Rudder Theater",
-    "item": "Jim Hensonの『Fraggle Rock』ライブ公演。",
-    "when": "10/30(金)〜10/31(土)",
-    "cond": "家族向け舞台",
-    "what": "フラグルロック",
+    "item": "人形劇の舞台。10/31は昼の回あり",
+    "when": "10/30(金)・10/31(土)",
+    "cond": "チケット要",
+    "what": "ファミリー劇",
     "where": "Rudder Theater"
    },
-   "ja": "Jim Hensonの『Fraggle Rock』ライブ公演。",
+   "ja": "人形劇の舞台。10/31は昼の回あり",
    "jaVia": "claude-ev",
    "date": "2026-10-30",
    "freebie": null
@@ -6064,13 +6064,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "毎週土曜のファーマーズマーケット（ミッドタウン公園）。",
-    "when": "毎週土曜",
-    "cond": "屋外・マーケット",
-    "what": "ファーマーズ市",
+    "item": "ブラゾス郡の毎週土曜のマーケット",
+    "when": "10/31(土)〜毎週土",
+    "cond": "毎週土曜",
+    "what": "週末マーケット",
     "where": "Midtown Park"
    },
-   "ja": "毎週土曜のファーマーズマーケット（ミッドタウン公園）。",
+   "ja": "ブラゾス郡の毎週土曜のマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -6107,13 +6107,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "ミッドタウン公園の日曜マーケット。",
-    "when": "11/1(日)",
-    "cond": "屋外・マーケット",
+    "item": "毎週日曜のマーケット（Rountree）",
+    "when": "11/1(日)〜毎週日",
+    "cond": "毎週日曜",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "ミッドタウン公園の日曜マーケット。",
+   "ja": "毎週日曜のマーケット（Rountree）",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -7166,7 +7166,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-27",
+   "localDate": "2026-10-28",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -7181,14 +7181,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "George H.W. Bush Library and …",
-    "item": "ブッシュ大統領図書館の展示『E Pluribus Unum』。",
+    "store": "George H.W. Bush Library",
+    "item": "米国の歴史を紹介する展示。2027年5月まで",
     "when": "〜2027/5/16",
-    "what": "大統領図書館展示",
-    "where": "G.H.W.ブッシュ図書館",
-    "cond": "博物館・展示"
+    "what": "大統領博物館",
+    "where": "Bush Library",
+    "cond": "期間限定展示"
    },
-   "ja": "ブッシュ大統領図書館の展示『E Pluribus Unum』。",
+   "ja": "米国の歴史を紹介する展示。2027年5月まで",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -7208,7 +7208,7 @@
    "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-27",
+   "localDate": "2026-10-28",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -7224,13 +7224,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "レイクウォークのパンプキン畑。秋の屋外お出かけに。",
-    "cond": "子供向け・屋外",
+    "item": "レイクウォークのパンプキン畑。10/31まで",
+    "cond": "子供向け",
     "what": "パンプキン畑",
-    "where": "Lake Walk（ブライア…",
-    "when": "10/27〜10/31"
+    "where": "Lake Walk",
+    "when": "10/28(水)〜10/31(土)"
    },
-   "ja": "レイクウォークのパンプキン畑。秋の屋外お出かけに。",
+   "ja": "レイクウォークのパンプキン畑。10/31まで",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -7250,7 +7250,7 @@
    "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-27",
+   "localDate": "2026-10-28",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -7265,14 +7265,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "2301 E 29th St",
-    "item": "ハビタット・フォー・ヒューマニティのパンプキン畑。",
-    "cond": "子供向け・屋外",
+    "store": "Habitat for Humanity",
+    "item": "Habitat for Humanityのパンプキン畑。10/31まで",
+    "cond": "子供向け",
     "what": "パンプキン畑",
-    "where": "ハビタット（ブライアン）",
-    "when": "10/27〜10/31"
+    "where": "E 29th St",
+    "when": "10/28(水)〜10/31(土)"
    },
-   "ja": "ハビタット・フォー・ヒューマニティのパンプキン畑。",
+   "ja": "Habitat for Humanityのパンプキン畑。10/31まで",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -7351,12 +7351,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkのランニングクラブ",
+    "item": "レイクウォークでのランニング会",
     "when": "10/30(金)",
     "what": "ランニング会",
-    "where": "Lake Walk"
+    "where": "Lake Walk",
+    "cond": "要確認"
    },
-   "ja": "Lake Walkのランニングクラブ",
+   "ja": "レイクウォークでのランニング会",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -7393,13 +7394,13 @@
    "eventNews": false,
    "sum": {
     "store": "Bryan High School",
-    "item": "ブライアン高校でのハロウィン・トランクオアトリート。",
+    "item": "子どもの食支援を兼ねたハロウィン会",
     "when": "10/31(土) 10時",
     "cond": "子供向け",
     "what": "トランクオアトリート",
-    "where": "ブライアン高校"
+    "where": "Bryan High"
    },
-   "ja": "ブライアン高校でのハロウィン・トランクオアトリート。",
+   "ja": "子どもの食支援を兼ねたハロウィン会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -25869,11 +25870,11 @@
     "when": null,
     "roundup": true
    },
-   "ja": "ハロウィン限定メニューや無料品",
-   "jaVia": "gemini",
+   "ja": "ハロウィン限定メニューと無料品のまとめ",
+   "jaVia": "claude",
    "sum": {
     "store": "",
-    "item": "ハロウィン限定メニューや無料品",
+    "item": "ハロウィン限定メニューと無料品のまとめ",
     "when": "ハロウィン",
     "cond": "",
     "what": "ハロウィン特典",
@@ -27470,11 +27471,11 @@
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Halloween.jpg?resize=306,182",
    "date": "2026-10-31",
-   "ja": "ハロウィン限定特典・無料品",
-   "jaVia": "gemini",
+   "ja": "ハロウィン限定の無料品・メニューまとめ",
+   "jaVia": "claude",
    "sum": {
     "store": "",
-    "item": "ハロウィン限定特典・無料品",
+    "item": "ハロウィン限定の無料品・メニューまとめ",
     "when": "",
     "cond": "",
     "what": "ハロウィン特典",
@@ -33463,6 +33464,48 @@
    "date": "2026-10-31",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "32d4aceeb0f9",
+   "title": "Community Yoga at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/yoga-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-28T11:44Z",
+   "firstSeen": "2026-10-28T11:44Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Outdoors"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "レイクウォークでの屋外ヨガ",
+    "when": "10/31(土)",
+    "cond": "大人向け",
+    "what": "屋外ヨガ",
+    "where": "Lake Walk"
+   },
+   "ja": "レイクウォークでの屋外ヨガ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-10-31"
   }
  ]
 }
