@@ -72,3 +72,7 @@
 
 ## 使えない情報源(調査済み 10/24)
 - Instagram:API なし・規約で自動収集不可。Google News RSS・Chew Boom(2024年に終了)・Krazy Coupon Lady(RSS なし)も不可。Brand Eating は新メニュー中心で価値が低い。
+
+## ポータルへのプッシュ通知(2026-10-27 追加・本人指定)
+- 朝のまとめ(7:15)で、**当日の**無料・BOGO(今日・明日欄のうち日付が今日のもの+日付なしの新着)があれば、`scripts/portal_push.py` でポータル(my-portal)経由で iPhone に通知する(最大4件「何が；どこで」)。該当なしの日は送らない。
+- **メールは家族あて(pinkpokepoke)にも必要なので従来どおり送る**(本人指定)。テスト送信・dry-run ではプッシュしない。認証は OIDC(digest.yml に id-token: write)。
