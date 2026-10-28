@@ -15,7 +15,7 @@
 ## 情報源のルール
 - RSS は robots.txt で禁止されていないものだけ(Slickdeals は禁止なので使わない)。
 - 保存するのは見出し・リンク・掲載日・分類・サムネイル画像の URL だけ。本文・画像ファイルは保存しない(サムネは配信元 RSS の thumbnail-image 等を直接表示)。
-- 情報源(RSS):Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・Sporked/The Impulsive Buy/Essential Japan/PokeBeach(collabOnly=キャラコラボの見出しだけ。下記)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
+- 情報源(RSS):Hip2Save・Doctor of Credit・Fast Food Post(レストラン)・Money Saving Mom・The Freebie Guy・Moms Who Save・Houston on the Cheap(ヒューストンの催し)・カレッジステーション市のブログ(blog.cstx.gov。公園・図書館・催し)・Bryan+College Station 図書館(bcslibrary.org)・Sporked/The Impulsive Buy/My Nintendo News(collabOnly=キャラコラボの見出しだけ。下記)・WTAW(カレッジステーションの地元ラジオ局。localOnly=催し・無料・お得の見出しだけ、事件・スポーツ・選挙は除外。robots.txt の Crawl-delay 600 秒 → 毎時1回なので可)。取得先は config/sources.json、店とキーワードは config/stores.json、公式リンク集は public/data/links.json。
 
 ## 地域(2026-10-26 追加)
 - 本人はカレッジステーション在住。地元の情報を日々使えるように、items[].region に "College Station" / "Houston" を付ける。
@@ -85,7 +85,7 @@
   - 除外:LEGO・抽選・懸賞(COLLAB_NG_RE)。カード商品(CARD_RE:ポケカの箱・booster など)は値下げ記事が多いので外すが、**飲食店の店名かハッピーセット/キッズミールがあれば拾う**(マックのポケカ付きハッピーセットのため)。
   - kind:飲食店の店名がある、または飲食の語だけ → food(🍔)、それ以外 → goods(🎁)。
 - 店名・値引きの語がなくてもコラボなら載せる(classify が None のとき既定の分類を付ける)。
-- 情報源:既存の RSS に加え、collabOnly(コラボの見出しだけ拾う)の Sporked(robots.txt で /feed/atom/ だけ許可 → Atom)・The Impulsive Buy・Essential Japan(usOnly=米国の店名か US/America の語がある見出しだけ。日本だけのコラボが多いため)・PokeBeach(User-agent: * は許可。AI 学習用ボットだけ拒否)。parse_rss は Atom にも、parse_date は ISO 形式にも対応。
+- 情報源:既存の RSS に加え、collabOnly(コラボの見出しだけ拾う)の Sporked(robots.txt で /feed/atom/ だけ許可 → Atom)・The Impulsive Buy・My Nintendo News(usOnly=米国の店名か US/America の語がある見出しだけ。日本だけのコラボが多いため)。試して外したもの:PokeBeach(Actions から HTTP 500)、Essential Japan(RSS が出ない)。parse_rss は Atom にも、parse_date は ISO 形式にも対応。
 - **コラボ予定 public/data/collabs.json**(RSS の記事は21日で消えるので、予定は別に持つ):
   - 手入力の予定(store・chars・title・what・start・end・status=公式/報道(未公式)/開催中・note・sources)。Claude が調べて入れる(ダブルチェック:2つ以上の報道、日付が食い違えば新しい方+note に旧日程)。
   - 自動:update_collab_calendar() が、飲食店のコラボ記事で見出しに開始日があれば auto: true で追加。手入力の予定と同じ店・キャラで開始日±21日なら、日付は変えず sources に出典だけ足す。終了日+3日(自動は開始日+14日)を過ぎたら消える。

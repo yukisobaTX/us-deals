@@ -103,22 +103,15 @@
       "_robots": "User-agent: * の制限なし"
     },
     {
-      "id": "ej",
-      "name": "Essential Japan",
-      "url": "https://essential-japan.com/feed/",
+      "id": "mnn",
+      "name": "My Nintendo News",
+      "url": "https://mynintendonews.com/feed/",
       "pages": 1,
       "collabOnly": true,
       "usOnly": true,
-      "_note": "アニメ・キャラのコラボニュース。日本だけのコラボが多いので usOnly(米国の店名か US/America の語がある見出しだけ)"
-    },
-    {
-      "id": "pokebeach",
-      "name": "PokeBeach",
-      "url": "https://www.pokebeach.com/feed",
-      "pages": 1,
-      "collabOnly": true,
-      "_robots": "User-agent: * は Allow: /(AI 学習用ボットだけ拒否)。個人の RSS 閲覧で見出し・リンクのみ"
+      "_note": "ポケモンの米国コラボ(マックなど)の報道用。usOnly。robots.txt は /wp-admin/ 以外許可"
     }
   ],
-  "_collab": "collabOnly:キャラコラボ(ポケモン・サンリオなど)の見出しだけ拾う情報源(2026-10-27 追加)。"
+  "_collab": "collabOnly:キャラコラボ(ポケモン・サンリオなど)の見出しだけ拾う情報源(2026-10-27 追加)。",
+  "_tried": "2026-10-27 試して外した:PokeBeach(/feed が Actions から HTTP 500)、Essential Japan(/feed/ が RSS でなく HTML)"
 }
