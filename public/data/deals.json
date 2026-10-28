@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T02:57Z",
+ "updated": "2026-10-28T03:04Z",
  "count": 995,
  "stats": {
   "h2s": {
@@ -54,6 +54,14 @@
    "read": 25,
    "added": 0
   },
+  "ej": {
+   "read": 0,
+   "added": 0
+  },
+  "pokebeach": {
+   "read": 0,
+   "added": 0
+  },
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
@@ -62,7 +70,9 @@
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "PokeBeach: https://www.pokebeach.com/feed: HTTP Error 500: Internal Server Error"
+ ],
  "items": [
   {
    "id": "b210e0f0da9b",
@@ -850,14 +860,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "collab": {
-    "chars": [
-     "スヌーピー",
-     "グリンチ"
-    ],
-    "kind": "goods"
-   }
+   "date": null
   },
   {
    "id": "3e4128eb2bb4",
@@ -3066,13 +3069,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "collab": {
-    "chars": [
-     "スクイッシュマロウ"
-    ],
-    "kind": "goods"
-   }
+   "date": null
   },
   {
    "id": "b87e3b2a22f8",
@@ -10190,13 +10187,7 @@
     "what": "マイクラ無料",
     "where": "Domino's"
    },
-   "date": null,
-   "collab": {
-    "chars": [
-     "マインクラフト"
-    ],
-    "kind": "food"
-   }
+   "date": null
   },
   {
    "id": "a53d3d5e3c96",
@@ -10669,13 +10660,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "collab": {
-    "chars": [
-     "マインクラフト"
-    ],
-    "kind": "food"
-   }
+   "date": null
   },
   {
    "id": "44344f01fa3a",
@@ -33391,13 +33376,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "collab": {
-    "chars": [
-     "ディズニー"
-    ],
-    "kind": "food"
-   }
+   "date": null
   },
   {
    "id": "0dca98073336",
@@ -33593,13 +33572,7 @@
     "when": "",
     "cond": "子ども向け"
    },
-   "date": null,
-   "collab": {
-    "chars": [
-     "ウィキッド"
-    ],
-    "kind": "food"
-   }
+   "date": null
   },
   {
    "id": "e1a93906d1c4",
