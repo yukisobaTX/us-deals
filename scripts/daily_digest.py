@@ -36,6 +36,7 @@ FAMILY_DAYS = 7
 MAX_FAMILY_CS = 10
 MAX_FAMILY_HOU = 4
 MAX_HOU_FREE = 5
+LAST = {}          # 直近の build() で選んだ記事(プッシュ通知用)
 TYPE_JA = {"free": "無料", "bogo": "BOGO", "coupon": "クーポン", "gc": "ギフトカード", "sale": "セール"}
 
 
@@ -213,6 +214,8 @@ def build(items, since, site):
     near = [x for x in fbs if x.get("date") in (t_iso, tomorrow)
             or (not x.get("date") and x["firstSeen"] > since)]
     near = by_date([x for x in near if is_pure_free(x) and is_goods(x)])
+    # ポータルのプッシュ通知は「当日のみ」(本人指定 10/27):日付が今日のもの+日付なしの新着(今すぐ使える)
+    LAST["today"] = [x for x in near if x.get("date") in (t_iso, None, "")]
     # この先:明後日〜2週間先の無料情報(短文のみ。毎朝の予定表として繰り返し載せる)
     later = by_date([x for x in fbs if x.get("date") and tomorrow < x["date"] <= horizon and is_goods(x)])[:MAX_LATER]
     hou_free = by_date([x for x in hou_fbs if is_goods(x) and (
@@ -255,6 +258,20 @@ def build(items, since, site):
             lines += ["**🎁 無料・BOGO(2週間)**", *[ln(x) for x in hou_free]]
     lines += ["", "---", "実施は店舗ごとに違うことがあります。リンク先・公式で確認してください。"]
     return title, "\n".join(lines), n
+
+
+def push_text(items, today):
+    """プッシュ通知の本文:当日の無料・BOGO を「何が；どこで」で最大4件。"""
+    rows = []
+    for x in items[:4]:
+        sm = x.get("sum") or {}
+        what = clip(sm.get("what") or sm.get("item") or x.get("ja") or x["title"], 10)
+        where = sm.get("where") or sm.get("store") or ""
+        where = "" if where in REGION_WORDS else clip(abbr(where), 12)
+        rows.append(f"・{what}" + (f"；{where}" if where else ""))
+    if len(items) > 4:
+        rows.append(f"ほか{len(items) - 4}件")
+    return f"🎁 今日の無料 {today.month}/{today.day}({len(items)}件)", "\n".join(rows)
 
 
 def main():
@@ -300,6 +317,10 @@ def main():
         ok = mailer.send_mail("[テスト] " + title, body.replace(MENTION + " ", ""))
         print("テスト送信:" + ("送信しました(GMAIL_USER のみ)" if ok else "失敗"))
         return 0 if ok else 1
+    # ポータル(iPhone)へのプッシュ:当日の無料・BOGO があるときだけ。メール(家族あて)とは別に送る
+    if LAST.get("today"):
+        import portal_push
+        portal_push.push(*push_text(LAST["today"], now_ct.date()), tag="deals")
     if mailer.send_mail(title, body.replace(MENTION + " ", "")):
         created = {"number": None}
     else:

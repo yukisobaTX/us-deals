@@ -20,6 +20,7 @@ on:
 permissions:
   contents: write
   issues: write
+  id-token: write   # ポータル(my-portal)へのプッシュ通知の認証(OIDC)
 
 concurrency:
   group: data-write
