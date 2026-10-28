@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T03:04Z",
+ "updated": "2026-10-28T03:11Z",
  "count": 995,
  "stats": {
   "h2s": {
@@ -54,12 +54,8 @@
    "read": 25,
    "added": 0
   },
-  "ej": {
-   "read": 0,
-   "added": 0
-  },
-  "pokebeach": {
-   "read": 0,
+  "mnn": {
+   "read": 15,
    "added": 0
   },
   "ja": {
@@ -70,9 +66,7 @@
    "model": "gemini-flash-latest"
   }
  },
- "errors": [
-  "PokeBeach: https://www.pokebeach.com/feed: HTTP Error 500: Internal Server Error"
- ],
+ "errors": [],
  "items": [
   {
    "id": "b210e0f0da9b",
