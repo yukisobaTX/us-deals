@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T08:13Z",
+ "updated": "2026-10-29T09:05Z",
  "count": 1082,
  "stats": {
   "h2s": {
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -56,9 +56,9 @@
   },
   "ja": {
    "gemini": 11,
-   "geminiEvent": 0,
-   "mymemory": 6,
-   "geminiToday": 5,
+   "geminiEvent": 1,
+   "mymemory": 4,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
@@ -1063,15 +1063,17 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
-   "jaVia": "mymemory",
+   "ja": "トランプ大統領、原油100万バレルの到着発表",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
-    "when": "",
-    "cond": ""
+    "store": "Corpus Christi",
+    "item": "トランプ大統領、原油100万バレルの到着発表",
+    "when": "10/27(火)",
+    "cond": "",
+    "what": "原油到着発表",
+    "where": "Corpus Christi"
    },
-   "date": null
+   "date": "2026-10-27"
   },
   {
    "id": "8d709a414725",
