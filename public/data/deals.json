@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-29T10:01Z",
- "count": 1082,
+ "updated": "2026-10-29T10:58Z",
+ "count": 1084,
  "stats": {
   "h2s": {
    "read": 100,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -57,13 +57,48 @@
   "ja": {
    "gemini": 11,
    "geminiEvent": 0,
-   "mymemory": 5,
-   "geminiToday": 8,
+   "mymemory": 6,
+   "geminiToday": 10,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "8626d49d7304",
+   "title": "Price Drop! Step2 My First Christmas Tree in PINK or White Available Now",
+   "link": "https://thefreebieguy.com/step2-my-first-christmas-tree/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T10:10Z",
+   "firstSeen": "2026-10-29T10:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Step2-My-First-Christmas-Tree-Stacking-and-Sorting-Toys-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "価格が下がる！ステップ2ピンクまたはホワイトの初めてのクリスマスツリーが利用可能になりました",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "価格が下がる！ステップ2ピンクまたはホワイトの初めてのクリスマスツリーが利用可能になりました",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "c8aa02e39901",
+   "date": null
+  },
   {
    "id": "3e28b7614576",
    "title": "Bella Pro Series Juice Extractor Only $49.99 at Best Buy (Reg. $120)",
@@ -1072,6 +1107,40 @@
    },
    "date": null,
    "dup": "dfbc48c5b04f"
+  },
+  {
+   "id": "12a5851d7702",
+   "title": "President Trump Announces Arrival of First One Million Barrels of Oil in Texas Thanks to Historic Oil Deal",
+   "link": "https://wtaw.com/president-trump-announces-arrival-of-first-one-million-barrels-of-oil-in-texas-thanks-to-historic-oil-deal/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-10-28T19:32Z",
+   "firstSeen": "2026-10-29T10:58Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/10/28143217/Trumps-Texas-Oil-Headline-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "8d709a414725",
