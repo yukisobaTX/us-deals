@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T09:05Z",
+ "updated": "2026-10-29T10:01Z",
  "count": 1082,
  "stats": {
   "h2s": {
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -56,14 +56,48 @@
   },
   "ja": {
    "gemini": 11,
-   "geminiEvent": 1,
-   "mymemory": 4,
-   "geminiToday": 7,
+   "geminiEvent": 0,
+   "mymemory": 5,
+   "geminiToday": 8,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "3e28b7614576",
+   "title": "Bella Pro Series Juice Extractor Only $49.99 at Best Buy (Reg. $120)",
+   "link": "https://thefreebieguy.com/best-buy-bella-pro-series-juice-extractor-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T09:25Z",
+   "firstSeen": "2026-10-29T10:01Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Bella-Juicer-861x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 58,
+   "price": 49.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bella Proシリーズジュース抽出器Best Buyで$ 49.99のみ（登録価格$ 120 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Bella Proシリーズジュース抽出器Best Buyで$ 49.99のみ（登録価格$ 120 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "1463307e00f2",
    "title": "Hanes Cool DRI Men’s Quarter-Zip Lightweight Pullover Only $5.xx at Walmart (Reg. $22)",
@@ -1038,42 +1072,6 @@
    },
    "date": null,
    "dup": "dfbc48c5b04f"
-  },
-  {
-   "id": "12a5851d7702",
-   "title": "President Trump Announces Arrival of First One Million Barrels of Oil in Texas Thanks to Historic Oil Deal",
-   "link": "https://wtaw.com/president-trump-announces-arrival-of-first-one-million-barrels-of-oil-in-texas-thanks-to-historic-oil-deal/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-10-28T19:32Z",
-   "firstSeen": "2026-10-29T08:13Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/10/28143217/Trumps-Texas-Oil-Headline-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "トランプ大統領、原油100万バレルの到着発表",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "Corpus Christi",
-    "item": "トランプ大統領、原油100万バレルの到着発表",
-    "when": "10/27(火)",
-    "cond": "",
-    "what": "原油到着発表",
-    "where": "Corpus Christi"
-   },
-   "date": "2026-10-27"
   },
   {
    "id": "8d709a414725",
