@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T22:54Z",
- "count": 1210,
+ "updated": "2026-10-29T23:49Z",
+ "count": 1214,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,148 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 13,
+   "mymemory": 16,
    "geminiToday": 16,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "37c43a1c956d",
+   "title": "Bestier Makeup Vanity Set with Mirror and Lights Only $119.xx on Walmart (Reg $200)",
+   "link": "https://thefreebieguy.com/bestier-makeup-vanity-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T23:22Z",
+   "firstSeen": "2026-10-29T23:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Bestier-Makeup-Vanity-Set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 119.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートの鏡とライト付きBestierメイクアップバニティセット$ 119.xxのみ（登録価格$ 200 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートの鏡とライト付きBestierメイクアップバニティセット$ 119.xxのみ（登録価格$ 200 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "96f594eaf900",
+   "title": "Shop Black Friday Like a Pro With These 16 Insider Tips",
+   "link": "https://thefreebieguy.com/black-friday-shopping-tips/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T23:12Z",
+   "firstSeen": "2026-10-29T23:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Black-Friday-Shopping-Secrets-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "16のインサイダーヒントでプロのようにブラックフライデーを購入しよう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "16のインサイダーヒントでプロのようにブラックフライデーを購入しよう",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "266a4871b5bd",
+   "title": "Best Cheap Friday Food and Restaurant Deals – Krispy Kreme, KFC, & More!",
+   "link": "https://thefreebieguy.com/cheap-friday-food-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T23:00Z",
+   "firstSeen": "2026-10-29T23:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Friday-Food-Deals-840x630.png",
+   "hot": true,
+   "stores": [
+    "Krispy Kreme",
+    "KFC"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "クリスピー・クリーム、ケンタッキーフライデーフード＆レストランのお買い得情報など！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Krispy Kreme・KFC",
+    "item": "クリスピー・クリーム、ケンタッキーフライデーフード＆レストランのお買い得情報など！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e91065fd4b24",
+   "title": "Beef Tallow Moisturizing Cream Only $4.xx on Amazon (Reg. $11) – My Fave!!",
+   "link": "https://thefreebieguy.com/beef-tallow-for-skin-deal-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T22:58Z",
+   "firstSeen": "2026-10-29T23:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Mrouvik-Beef-Tallow-Cream-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 64,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ビーフタローモイスチャライジングクリームのみ$ 4.xxアマゾン（登録番号： $ 11 ） –私のお気に入り！ ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ビーフタローモイスチャライジングクリームのみ$ 4.xxアマゾン（登録番号： $ 11 ） –私のお気に入り！ ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "44e111484a8e",
    "title": "Annie’s Organic Granola Bars 12-Count Box Just $4.75 Shipped on Amazon (Reg. $9)",
@@ -2570,6 +2705,40 @@
    "sum": {
     "store": "",
     "item": "その古いジュエリーを寄付する前に、この60秒間の無料トリックを試してみてください！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "90e8059fae9a",
+   "title": "Lunakai Saffron Supplements, 60 count only $12.93 shipped, plus more!",
+   "link": "https://moneysavingmom.com/saffron-supplements-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T15:22Z",
+   "firstSeen": "2026-10-29T23:49Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/07/Saffron-1-630x834.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ルナカイサフランサプリメント、60カウントのみ$ 12.93発送、その他多数！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ルナカイサフランサプリメント、60カウントのみ$ 12.93発送、その他多数！",
     "when": "",
     "cond": ""
    },
@@ -37392,39 +37561,6 @@
     "cond": ""
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/04/NIIMBOT-Label-Maker.jpg?resize=306,182"
-  },
-  {
-   "id": "f8857ef865e8",
-   "title": "LAST CHANCE! Score Up to 70% Off Saucony, adidas & Brooks Shoes + FREE Prime Shipping!",
-   "link": "https://hip2save.com/deals/woot-shoe-sale/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T23:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 70,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "最後のチャンス！ソーコニー、アディダス、ブルックスシューズが最大70%オフ+無料プライム配送！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "最後のチャンス！ソーコニー、アディダス、ブルックスシューズが最大70%オフ+無料プライム配送！",
-    "when": "",
-    "cond": ""
-   }
   },
   {
    "id": "94f06423fae0",
