@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T21:54Z",
- "count": 1208,
+ "updated": "2026-10-29T22:54Z",
+ "count": 1210,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,81 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 22,
+   "mymemory": 13,
    "geminiToday": 16,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "44e111484a8e",
+   "title": "Annie’s Organic Granola Bars 12-Count Box Just $4.75 Shipped on Amazon (Reg. $9)",
+   "link": "https://hip2save.com/deals/annies-granola-bars/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T22:20Z",
+   "firstSeen": "2026-10-29T22:54Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/annies-organic-chocolate-chip-chewy-granola-bars.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 47,
+   "price": 4.75,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Annie's Organic Granola Bars 12カウントボックスわずか$ 4.75 Amazonで発送（登録価格$ 9 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Annie's Organic Granola Bars 12カウントボックスわずか$ 4.75 Amazonで発送（登録価格$ 9 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "207ec4b6293a",
+   "title": "Cetaphil Baby Wash & Shampoo Only $2.xx on Amazon (Reg. $6)",
+   "link": "https://thefreebieguy.com/cetaphil-baby-shampoo/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T22:08Z",
+   "firstSeen": "2026-10-29T22:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Untitled-design_20260217_142658_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Cetaphilベビーウォッシュ＆シャンプーAmazonで$ 2.xxのみ（登録価格$ 6 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Cetaphilベビーウォッシュ＆シャンプーAmazonで$ 2.xxのみ（登録価格$ 6 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "900e7cad8771",
    "title": "80% Off David’s Bridal Clearance Dresses on Amazon | Prices from $9.99",
@@ -96,8 +164,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "6b633406589f",
-   "date": null
+   "date": null,
+   "dup": "6b633406589f"
   },
   {
    "id": "1819dd53afa3",
@@ -233,8 +301,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "579e948f572a",
-   "date": null
+   "date": null,
+   "dup": "579e948f572a"
   },
   {
    "id": "ca68090b853b",
