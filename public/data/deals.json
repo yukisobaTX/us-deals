@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-29T14:15Z",
- "count": 1125,
+ "updated": "2026-10-29T15:12Z",
+ "count": 1135,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 6
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -55,15 +55,367 @@
    "added": 0
   },
   "ja": {
-   "gemini": 18,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 10,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "mymemory": 22,
+   "geminiToday": 16,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "3c01a86f5b06",
+   "title": "Lowe’s Early Black Friday Deals are LIVE | Hot Buys on Home Essentials, Tools & More",
+   "link": "https://hip2save.com/deals/lowes-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T15:11Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/Lowes-Black-Friday-7.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Loweのアーリーブラックフライデーのお買い得情報が公開されました|ホーム必需品、ツールなどのホットな購入",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Loweのアーリーブラックフライデーのお買い得情報が公開されました|ホーム必需品、ツールなどのホットな購入",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ef467311a537",
+   "title": "101 FREE Prints at Shutterfly + 5 FREE Photo Gifts!",
+   "link": "https://thefreebieguy.com/shutterfly-prints/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T15:09Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/SHUTTERFLY-PRINTS-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "シャッターフライで無料プリント101枚＋無料写真ギフト5枚！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Shutterfly",
+    "item": "シャッターフライで無料プリント101枚＋無料写真ギフト5枚！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1198750913a7",
+   "title": "Dawn Powerwash Spray Refills Just $1.94 After Walmart Cash Back (Reg. $4)",
+   "link": "https://thefreebieguy.com/dawn-powerwash-at-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T15:00Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Dawn-PowerWash-Sprays-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": 1.94,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Dawnパワーウォッシュスプレー補充わずか$ 1.94ウォルマートキャッシュバック後（登録価格$ 4 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Dawnパワーウォッシュスプレー補充わずか$ 1.94ウォルマートキャッシュバック後（登録価格$ 4 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "5a9f11bee4e8",
+   "date": null
+  },
+  {
+   "id": "570a92d50dfa",
+   "title": "Members Mark Matching Family Pajamas at Sam’s Club From $7!",
+   "link": "https://thefreebieguy.com/holiday-pajamas-at-sams-club/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T14:57Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/SAMS-CLUB-FAMILY-PAJAMAS-840x630.png",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Sam's Clubでファミリーパジャマをマッチングするメンバーを$ 7からマーク！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "Sam's Clubでファミリーパジャマをマッチングするメンバーを$ 7からマーク！",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "05f0c4cdc0e7",
+   "title": "Fight Hunger with Trunk or Treat So Kids Can Eat",
+   "link": "https://wtaw.com/fight-hunger-with-trunk-or-treat-so-kids-can-eat/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-10-29T14:38Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://wtaw.com/wp-content/uploads/2026/07/City-of-Bryan-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "freebie": null,
+   "ja": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "5eff440e9464",
+   "date": null
+  },
+  {
+   "id": "7f10f4144491",
+   "title": "Goldfish Baby Crackers Only $1.42 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/goldfish-crackers/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T14:36Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Goldfish-Baby-Crackers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "金魚ベビークラッカーのみ$ 1.42 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "金魚ベビークラッカーのみ$ 1.42 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "38bef68d1bd6",
+   "date": null
+  },
+  {
+   "id": "0361730a79a1",
+   "title": "Kids Instant Print Camera Only $11.xx on Amazon (Reg. $16)",
+   "link": "https://thefreebieguy.com/kids-instant-camera/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T14:35Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Kids-Camera-Instant-Print-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 31,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キッズインスタントプリントカメラAmazonで$ 11.xxのみ（登録価格$ 16 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "キッズインスタントプリントカメラAmazonで$ 11.xxのみ（登録価格$ 16 ）",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "dup": "890a37aa3708",
+   "date": null
+  },
+  {
+   "id": "e9541d4b36af",
+   "title": "Grandma’s Mini Vanilla Sandwich Crème Cookies (24 Pack) just $8.98 shipped!",
+   "link": "https://moneysavingmom.com/grandmas-mini-vanilla-sandwich-creme-cookies-24-pack-for-just-8-98-shipped/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T14:32Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-29-at-9.28.48-AM-630x569.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "おばあちゃんのミニバニラサンドイッチクリームクッキー（ 24パック）がわずか$ 8.98で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "おばあちゃんのミニバニラサンドイッチクリームクッキー（ 24パック）がわずか$ 8.98で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "74d15e94130d",
+   "title": "Werner 6′ Step Ladder Only $79 at Lowe’s (Reg. $149)",
+   "link": "https://thefreebieguy.com/werner-ladder/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T14:30Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Lowes-ladder-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 47,
+   "price": 79.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Werner 6 'ステップはしごLowe'sで$ 79のみ（登録価格$ 149 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Werner 6 'ステップはしごLowe'sで$ 79のみ（登録価格$ 149 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "51bd664ae50b",
+   "title": "Hanes Cool DRI Men’s Quarter-Zip Pullover only $5.69 (Reg. 22)!",
+   "link": "https://moneysavingmom.com/hanes-mens-pullover-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T14:26Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Hanes-Cool-DRI-Mens-Quarter-Zip-Pullover-with-40-UPF.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Hanes Cool DRIメンズクォータージッププルオーバー$ 5.69 （ Reg. 22 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Hanes Cool DRIメンズクォータージッププルオーバー$ 5.69 （ Reg. 22 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "1463307e00f2",
+   "date": null
+  },
   {
    "id": "af9b097b02cf",
    "title": "Magna-Tiles Dinos Set Just $25.57 on Amazon (Reg. $50)",
@@ -93,6 +445,40 @@
    "sum": {
     "store": "Amazon",
     "item": "アマゾンでわずか$ 25.57のマグナタイル恐竜セット（登録価格$ 50 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5b5b9ea5f346",
+   "title": "VIRAL Jelly Bras From $8.xx on Amazon (Reg. $25)",
+   "link": "https://thefreebieguy.com/letsjoli-wireless-bras/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T14:14Z",
+   "firstSeen": "2026-10-29T15:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/1-91-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 8.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウイルスゼリーブラAmazonで$ 8.xxから（登録番号： $ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ウイルスゼリーブラAmazonで$ 8.xxから（登録番号： $ 25 ）",
     "when": "",
     "cond": ""
    },
@@ -32366,7 +32752,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2019/09/Man-holding-Costco-membership-card.jpg?resize=306,182"
   },
   {
    "id": "ac23f577c7a2",
@@ -38192,38 +38579,6 @@
     "item": "",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "06775e8c2dfb",
-   "title": "Wingstop Debuts New Sour Patch Kids Wicked Punch Glazed Wings",
-   "link": "https://www.fastfoodpost.com/wingstop-debuts-new-sour-patch-kids-wicked-punch-glazed-wings/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-14T14:38Z",
-   "firstSeen": "2026-10-25T01:43Z",
-   "expires": null,
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Wingstop"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Wingstop",
-    "item": "",
-    "when": "",
-    "cond": "子ども向け"
    },
    "date": null
   },
