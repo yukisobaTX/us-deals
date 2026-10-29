@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T14:01Z",
- "count": 1119,
+ "updated": "2026-10-29T14:15Z",
+ "count": 1125,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 6
+   "added": 5
   },
   "tfg": {
    "read": 40,
-   "added": 10
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -55,16 +55,220 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 18,
    "geminiEvent": 0,
-   "mymemory": 24,
-   "geminiToday": 14,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "mymemory": 10,
+   "geminiToday": 15,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "af9b097b02cf",
+   "title": "Magna-Tiles Dinos Set Just $25.57 on Amazon (Reg. $50)",
+   "link": "https://hip2save.com/deals/amazon-magna-tiles-dinos-set/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T14:14Z",
+   "firstSeen": "2026-10-29T14:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/magna-tiles-dinos.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 49,
+   "price": 25.57,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンでわずか$ 25.57のマグナタイル恐竜セット（登録価格$ 50 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンでわずか$ 25.57のマグナタイル恐竜セット（登録価格$ 50 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "784e0a107707",
+   "title": "Over 40 Amazon Grocery Items You Can Score for $1.xx or Less!",
+   "link": "https://thefreebieguy.com/cheap-amazon-groceries-for-1-or-less/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T14:12Z",
+   "firstSeen": "2026-10-29T14:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Amazon-Grocery-1.00-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "$ 1.xx以下で40以上のAmazon食品・雑貨アイテムを獲得できます！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "$ 1.xx以下で40以上のAmazon食品・雑貨アイテムを獲得できます！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "48386c0fcd56",
+   "title": "BOGO Free Bluey Hey Clay Kits Only $9.xx on Amazon! (Reg $14 Each)",
+   "link": "https://thefreebieguy.com/bluey-hey-clay/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T14:12Z",
+   "firstSeen": "2026-10-29T14:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/bluey-hey-clay-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": 36,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "BOGO無料Bluey Hey ClayキットAmazonで$ 9.xxのみ！ （各14 $ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "BOGO無料Bluey Hey ClayキットAmazonで$ 9.xxのみ！ （各14 $ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4a9fe7055a5d",
+   "title": "Dolly Parton Holiday Tumblers UNDER $19 on Walmart.com (Will Sell Out!)",
+   "link": "https://hip2save.com/deals/dolly-parton-tumblers/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T14:10Z",
+   "firstSeen": "2026-10-29T14:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Dolly-Parton-Holly-Dolly-40oz-Stainless-Steel-Tumbler.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comで19 $未満のDolly Partonホリデータンブラー（売り切れます！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comで19 $未満のDolly Partonホリデータンブラー（売り切れます！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "60d36d3bd2c1",
+   "title": "No Boundaries Women’s 2-Piece Pajama Set as low as $7.53, plus more!",
+   "link": "https://moneysavingmom.com/womens-pajama-sets-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T14:09Z",
+   "firstSeen": "2026-10-29T14:15Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/No-Boundaries-Cloud-Core-Collection-Womens-Pajama-Set.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "No Boundariesレディース2ピースパジャマセットは$ 7.53から！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "No Boundariesレディース2ピースパジャマセットは$ 7.53から！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "08bddfe47573",
+   "title": "Chipotle Discount | Boo-Rito for just $6 on October 31st!",
+   "link": "https://moneysavingmom.com/chipotle-rewards-coupons-discount-codes/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T14:02Z",
+   "firstSeen": "2026-10-29T14:15Z",
+   "expires": "2026-10-31",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Screenshot-2025-11-26-at-6.39.08 AM-630x501.jpg",
+   "hot": true,
+   "stores": [
+    "Chipotle"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "10月31日のChipotle割引| Boo - Ritoはわずか$ 6 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Chipotle",
+    "item": "10月31日のChipotle割引| Boo - Ritoはわずか$ 6 ！",
+    "when": "10/31(土)まで",
+    "cond": ""
+   },
+   "date": "2026-10-31"
+  },
   {
    "id": "958e7bee0381",
    "title": "Lunakai USA Made GLP-1 Supplement, 60 count only $23.36 shipped!",
@@ -131,8 +335,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "d315e1a0ff86",
-   "date": null
+   "date": null,
+   "dup": "d315e1a0ff86"
   },
   {
    "id": "7f9a465bebad",
@@ -161,16 +365,18 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ダイエットコークカフェインフリーソーダ12パックのみ$ 6.xx （ Amazon ）",
-   "jaVia": "mymemory",
+   "ja": "カフェインフリー炭酸水12缶",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "ダイエットコークカフェインフリーソーダ12パックのみ$ 6.xx （ Amazon ）",
+    "item": "カフェインフリー炭酸水12缶",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "炭酸水$6台",
+    "where": "Amazon"
    },
-   "dup": "edf78790c20c",
-   "date": null
+   "date": null,
+   "dup": "edf78790c20c"
   },
   {
    "id": "e801a0ca9dad",
@@ -228,13 +434,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "キッチュブラックフライデーセールがさらに30%オフ（ヘア香水+ $ 5 ！ ）",
-   "jaVia": "mymemory",
+   "ja": "ヘア香水などBFセール",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "キッチュブラックフライデーセールがさらに30%オフ（ヘア香水+ $ 5 ！ ）",
+    "store": "Kitsch",
+    "item": "ヘア香水などBFセール",
     "when": "",
-    "cond": ""
+    "cond": "追加30%OFF",
+    "what": "ヘアケア割引",
+    "where": "Kitsch"
    },
    "date": null
   },
@@ -406,8 +614,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "98b63fd28255",
-   "date": null
+   "date": null,
+   "dup": "98b63fd28255"
   },
   {
    "id": "794edb8e072a",
@@ -468,13 +676,15 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "GameStopでポケウィーンに参加しよう！ 10月31日に無料のトリック・オア・トレード・ブースターパックを獲得する",
-   "jaVia": "mymemory",
+   "ja": "ポケモンブースターパック",
+   "jaVia": "gemini",
    "sum": {
     "store": "GameStop",
-    "item": "GameStopでポケウィーンに参加しよう！ 10月31日に無料のトリック・オア・トレード・ブースターパックを獲得する",
-    "when": "10/31(土)",
-    "cond": ""
+    "item": "ポケモンブースターパック",
+    "when": "10/31",
+    "cond": "来店",
+    "what": "無料ポケカ",
+    "where": "GameStop"
    },
    "date": "2026-10-31"
   },
@@ -502,14 +712,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アロマセラピーシャワースチーマー8パックAmazonで$ 3.xxのみ（登録価格$ 13 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アロマセラピーシャワースチーマー8パックAmazonで$ 3.xxのみ（登録価格$ 13 ）",
     "when": "",
     "cond": ""
    },
-   "dup": "cf5735eb4f03",
-   "date": null
+   "dup": "cf5735eb4f03"
   },
   {
    "id": "890a37aa3708",
@@ -535,13 +747,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キッズインスタントプリントデジタルカメラのみ$ 11.99 Amazon |自撮り＆ビデオ録画",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "キッズインスタントプリントデジタルカメラのみ$ 11.99 Amazon |自撮り＆ビデオ録画",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "a3091d0b0592",
@@ -567,13 +781,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-10-29",
+   "ja": "本日限り！ CRAFTSMAN V 20 20ボルト可変速ベルトコードレスサンダーLowesで$ 49のみ（登録$ 119 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "本日限り！ CRAFTSMAN V 20 20ボルト可変速ベルトコードレスサンダーLowesで$ 49のみ（登録$ 119 ）",
     "when": "10/29(木)まで",
     "cond": ""
-   },
-   "date": "2026-10-29"
+   }
   },
   {
    "id": "a3a6b94b2ad9",
@@ -599,13 +815,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "サテンピローケース2パックのみ$ 3.47 Amazonプライムメンバー向けに発送（数千件の5つ星レビュー）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "サテンピローケース2パックのみ$ 3.47 Amazonプライムメンバー向けに発送（数千件の5つ星レビュー）",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "8c46740dce58",
@@ -634,13 +852,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "CRAFTSMAN V20リチウムイオンバッテリーキットが99ドルで販売中！さらに無料ツール付き（最大109ドル相当）",
-   "jaVia": "mymemory",
+   "ja": "無料工具+バッテリーセット",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Lowe's",
-    "item": "CRAFTSMAN V20リチウムイオンバッテリーキットが99ドルで販売中！さらに無料ツール付き（最大109ドル相当）",
+    "store": "CRAFTSMAN",
+    "item": "無料工具+バッテリーセット",
     "when": "",
-    "cond": ""
+    "cond": "キット$99購入",
+    "what": "無料工具付き",
+    "where": "CRAFTSMAN"
    },
    "date": null
   },
@@ -839,13 +1059,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "デイリークイーン： $ 1スモールディップコーン+無料ブリザード！",
-   "jaVia": "mymemory",
+   "ja": "コーン$1＆無料ブリザード",
+   "jaVia": "gemini",
    "sum": {
     "store": "Dairy Queen",
-    "item": "デイリークイーン： $ 1スモールディップコーン+無料ブリザード！",
+    "item": "コーン$1＆無料ブリザード",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料アイス",
+    "where": "Dairy Queen"
    },
    "date": null
   },
@@ -1216,13 +1438,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "無料のペトコイベント–無料のトリック・オア・トリートやその他いろいろ＋ 12月のサンタと一緒に無料の写真撮影！",
-   "jaVia": "mymemory",
+   "ja": "ペット向け無料イベント・撮影",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "無料のペトコイベント–無料のトリック・オア・トリートやその他いろいろ＋ 12月のサンタと一緒に無料の写真撮影！",
-    "when": "",
-    "cond": ""
+    "store": "Petco",
+    "item": "ペット向け無料イベント・撮影",
+    "when": "〜12月",
+    "cond": "",
+    "what": "無料写真撮影",
+    "where": "Petco"
    },
    "date": null
   },
@@ -1291,13 +1515,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ロウのアーリーブラックフライデー割引が登場！",
-   "jaVia": "mymemory",
+   "ja": "早期ブラックフライデー割引",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "ロウのアーリーブラックフライデー割引が登場！",
+    "item": "早期ブラックフライデー割引",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BFセール",
+    "where": "Lowe's"
    },
    "date": null
   },
