@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T12:50Z",
- "count": 1101,
+ "updated": "2026-10-29T13:12Z",
+ "count": 1104,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 7
+   "added": 3
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,114 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 12,
+   "mymemory": 13,
+   "geminiToday": 13,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d26b4057b00f",
+   "title": "Target’s Holiday Price Match Guarantee – Score The Lowest Prices Through Christmas Eve!",
+   "link": "https://thefreebieguy.com/target-price-match-guarantee/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T13:07Z",
+   "firstSeen": "2026-10-29T13:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/target-christmas-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットのホリデー価格マッチ保証–クリスマスイブまで最低価格を獲得しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットのホリデー価格マッチ保証–クリスマスイブまで最低価格を獲得しましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9833ea7a365e",
+   "title": "Takis Mini Rolled Tortilla Chips Multipack – Fuego Bite Size, Pack of 2 Only $11.xx on Amazon (Reg $30)",
+   "link": "https://thefreebieguy.com/takis-multipack/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T13:06Z",
+   "firstSeen": "2026-10-29T13:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/mini-takis-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 63,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "タキスミニロールトルティーヤチップスマルチパック–フエゴバイトサイズ、2個入りアマゾンで$ 11.xxのみ（登録$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "タキスミニロールトルティーヤチップスマルチパック–フエゴバイトサイズ、2個入りアマゾンで$ 11.xxのみ（登録$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ba7ec55a81ae",
+   "title": "Squishy Bakery Set Only $12.49 on Amazon (Reg. $25)",
+   "link": "https://hip2save.com/deals/amazon-squishy-bakery-set/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T13:00Z",
+   "firstSeen": "2026-10-29T13:12Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/JOLIBOP-8-Piece-Squishy-Bread-Bakery-Collection-e1793277657232.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 12.49,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "ba896863f2e8",
    "title": "miisso Slim Portable Charger only $14.49!",
@@ -440,8 +540,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "5c3571cab7ac",
-   "date": null
+   "date": null,
+   "dup": "5c3571cab7ac"
   },
   {
    "id": "e8854688e850",
@@ -509,8 +609,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "0cc6649e98fc",
-   "date": null
+   "date": null,
+   "dup": "0cc6649e98fc"
   },
   {
    "id": "511aa0086966",
