@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T15:12Z",
- "count": 1135,
+ "updated": "2026-10-29T16:07Z",
+ "count": 1147,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 6
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -57,14 +57,423 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 22,
+   "mymemory": 23,
    "geminiToday": 16,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "140bd92313fa",
+   "title": "Isotoner Women’s Classic Comfort Slippers Only $9.xx at Sam’s Club (Reg $13)",
+   "link": "https://thefreebieguy.com/isotoner-slippers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T16:07Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/isotoner-womens-slippers-840x630.png",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 31,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "IsotonerレディースクラシックコンフォートスリッパSam's Clubで$ 9.xxのみ（登録価格$ 13 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "IsotonerレディースクラシックコンフォートスリッパSam's Clubで$ 9.xxのみ（登録価格$ 13 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "bb4871d1ec97",
+   "title": "BODYARMOR Sports Drinks 8-Pack Only $4.48 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/bodyarmor/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T16:00Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/BODYARMOR-Sports-Drink.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "BODYARMORスポーツドリンク8パックのみ$ 4.48 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "BODYARMORスポーツドリンク8パックのみ$ 4.48 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "99b8f7d195c7",
+   "title": "Carhartt Men’s Short Sleeve T-Shirts as low as $13.99, plus more!",
+   "link": "https://moneysavingmom.com/carhartt-mens-workwear-pocket-short-sleeve-t-shirt-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T15:57Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/04/Screen-Shot-2021-04-02-at-7.40.45-AM.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Carharttメンズ半袖Tシャツは$ 13.99から！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Carharttメンズ半袖Tシャツは$ 13.99から！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4fbe9d9d2bdd",
+   "title": "DAYETTE Air Purifier for Large Rooms Only $52.xx on Amazon (Reg. $90)",
+   "link": "https://thefreebieguy.com/dayette-air-purifiers-for-large-rooms/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T15:55Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/DAYETTE-Air-Purifiers-for-Large-Rooms-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 42,
+   "price": 52.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "DAYETTE大型客室用空気清浄機Amazonで$ 52.xxのみ（登録価格$ 90 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "DAYETTE大型客室用空気清浄機Amazonで$ 52.xxのみ（登録価格$ 90 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a65913e13c01",
+   "title": "$300 Off Shark PowerDetect Speed Cordless Vacuum on BestBuy.com + Free Shipping",
+   "link": "https://hip2save.com/deals/shark-power-detect/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T15:52Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Shark-PowerDetect-Speed-Cordless-Stick-Vacuum-best-buy.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "BestBuy.comでサメPowerDetectスピードコードレスバキュームが$ 300オフ+送料無料",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "BestBuy.comでサメPowerDetectスピードコードレスバキュームが$ 300オフ+送料無料",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e3cc1af69090",
+   "title": "*HOT* LEGO Speed Champions 2-Car Set only $26.99 shipped, plus more!",
+   "link": "https://moneysavingmom.com/lego-speed-champions-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T15:52Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/LEGO-Speed-Champions-Set.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT *レゴスピードチャンピオンズ2両セットのみ$ 26.99発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "* HOT *レゴスピードチャンピオンズ2両セットのみ$ 26.99発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7714a16bbb0c",
+   "title": "Snoopy Squishy Cube & Dumpling Toys Only $4.98 Shipped on Lowes.com",
+   "link": "https://hip2save.com/deals/lowes-snoopy-squishy-toys/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T15:40Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lowes-Squishy-Toys-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スヌーピースクイッシーキューブ＆餃子おもちゃ$ 4.98のみLowes.comで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "スヌーピースクイッシーキューブ＆餃子おもちゃ$ 4.98のみLowes.comで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f85750c180fe",
+   "title": "7Brew Coffee: Get 4 Medium Drinks for $17 October 31st!",
+   "link": "https://moneysavingmom.com/7-brew-drink-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T15:40Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Screenshot-2025-10-27-at-12.54.37 PM-630x842.jpg",
+   "hot": false,
+   "stores": [
+    "7 Brew"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "7 Brew Coffee ： 10月31日$ 17でミディアムドリンク4杯をゲット！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "7 Brew",
+    "item": "7 Brew Coffee ： 10月31日$ 17でミディアムドリンク4杯をゲット！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "de4b3c9f5ec1",
+   "title": "FREE $10 MyLowe’s Money for First Responders at Lowe’s",
+   "link": "https://thefreebieguy.com/first-responder-appreciation-at-lowes/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T15:38Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/First-Responder-Appreciation-at-Lowes-840x630.jpg",
+   "hot": true,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Lowe'sの救急隊員に$ 10のMyLowe's Moneyを無料で提供",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Lowe'sの救急隊員に$ 10のMyLowe's Moneyを無料で提供",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "0dca98073336",
+   "date": null
+  },
+  {
+   "id": "55c5b9086b85",
+   "title": "*HOT* 100 Free Photo Prints at Shutterfly!",
+   "link": "https://moneysavingmom.com/hot-100-free-photo-prints-at-shutterfly/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T15:36Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2012/06/photos1.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "* HOT * Shutterflyで100枚の無料写真プリント！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Shutterfly",
+    "item": "* HOT * Shutterflyで100枚の無料写真プリント！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d1cfb15dbbdd",
+   "title": "Microfiber Hair Towels 3-Pack Just $5.99 on Amazon (Just $2 Per Towel)",
+   "link": "https://hip2save.com/deals/microfiber-hair-towels/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T15:18Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/hair-towle-3-pack-amazon-YFONG.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "マイクロファイバーヘアタオル3枚パックAmazonでわずか$ 5.99 （タオル1枚につきわずか$ 2 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "マイクロファイバーヘアタオル3枚パックAmazonでわずか$ 5.99 （タオル1枚につきわずか$ 2 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1619d8604c28",
+   "title": "Dolly Parton Holly Dolly Tumblers From $17 at Walmart!",
+   "link": "https://thefreebieguy.com/dolly-parton-tumblers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T15:13Z",
+   "firstSeen": "2026-10-29T16:07Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Dolly-Parton-tumblers-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Dolly Parton Holly Dollyタンブラーウォルマートで$ 17から！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Dolly Parton Holly Dollyタンブラーウォルマートで$ 17から！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "3c01a86f5b06",
    "title": "Lowe’s Early Black Friday Deals are LIVE | Hot Buys on Home Essentials, Tools & More",
@@ -166,8 +575,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "5a9f11bee4e8",
-   "date": null
+   "date": null,
+   "dup": "5a9f11bee4e8"
   },
   {
    "id": "570a92d50dfa",
@@ -240,8 +649,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "5eff440e9464",
-   "date": null
+   "date": null,
+   "dup": "5eff440e9464"
   },
   {
    "id": "7f10f4144491",
@@ -275,8 +684,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "38bef68d1bd6",
-   "date": null
+   "date": null,
+   "dup": "38bef68d1bd6"
   },
   {
    "id": "0361730a79a1",
@@ -310,8 +719,8 @@
     "when": "",
     "cond": "子ども向け"
    },
-   "dup": "890a37aa3708",
-   "date": null
+   "date": null,
+   "dup": "890a37aa3708"
   },
   {
    "id": "e9541d4b36af",
@@ -413,8 +822,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "1463307e00f2",
-   "date": null
+   "date": null,
+   "dup": "1463307e00f2"
   },
   {
    "id": "af9b097b02cf",
@@ -35681,7 +36090,8 @@
    },
    "date": "2026-10-31",
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/qdoba-bogo-offer-entrees.jpg?resize=306,182"
   },
   {
    "id": "254da37a2b7c",
