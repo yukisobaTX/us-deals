@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T20:56Z",
- "count": 1198,
+ "updated": "2026-10-29T21:54Z",
+ "count": 1208,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 6
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,390 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
+   "mymemory": 22,
    "geminiToday": 16,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "900e7cad8771",
+   "title": "80% Off David’s Bridal Clearance Dresses on Amazon | Prices from $9.99",
+   "link": "https://hip2save.com/deals/davids-bridal-clearance/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T21:40Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/06/Davids-Bridal-Dresses.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 80,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンでデビッドのブライダルクリアランスドレスが80 ％オフ|価格は$ 9.99から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンでデビッドのブライダルクリアランスドレスが80 ％オフ|価格は$ 9.99から",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "6b633406589f",
+   "date": null
+  },
+  {
+   "id": "1819dd53afa3",
+   "title": "Foldable Wagon Stroller with Canopy Only $129.xx on Amazon (Reg. $210)",
+   "link": "https://thefreebieguy.com/ever-advanced-foldable-wagon-stroller/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T21:40Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/EVER-ADVANCED-Foldable-Wagon-Stroller-with-Canopy-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 39,
+   "price": 129.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonのキャノピー付き折りたたみワゴンベビーカーは$ 129.xxのみ（登録価格$ 210 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonのキャノピー付き折りたたみワゴンベビーカーは$ 129.xxのみ（登録価格$ 210 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "df563d19b9ba",
+   "title": "Purell Travel-Size Hand Sanitizer 6-Pack Just $5.70 Shipped on Amazon (Reg. $12)",
+   "link": "https://hip2save.com/deals/purell-hand-sanitizer/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T21:35Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/purell-travel-size-hand-sanitizer.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": 5.7,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Purellトラベルサイズハンドサニタイザー6パックわずか$ 5.70 Amazonで発送（登録価格$ 12 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Purellトラベルサイズハンドサニタイザー6パックわずか$ 5.70 Amazonで発送（登録価格$ 12 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0f42086f5363",
+   "title": "FunWater Inflatable Stand Up Paddle Board Only $75.xx on Amazon (Reg. $250)",
+   "link": "https://thefreebieguy.com/funwater-inflatable-paddle-board/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T21:32Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/KENDALL-ON-INFLATABLE-PADDLE-BOARD--840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 75.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "FunWaterインフレータブルスタンドアップパドルボードAmazonで$ 75.xxのみ（登録価格$ 250 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "FunWaterインフレータブルスタンドアップパドルボードAmazonで$ 75.xxのみ（登録価格$ 250 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a78459799313",
+   "title": "Arm & Hammer Power Paks 42-Count Just $5 Shipped on Amazon (Reg. $10)",
+   "link": "https://hip2save.com/deals/arm-hammer-power-paks/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T21:30Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/04/Arm-Hammer-Laundry-Detergent-Paks.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アーム＆ハンマーパワーパック42個-カウントわずか$ 5 Amazonで発送（登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アーム＆ハンマーパワーパック42個-カウントわずか$ 5 Amazonで発送（登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "579e948f572a",
+   "date": null
+  },
+  {
+   "id": "ca68090b853b",
+   "title": "Free GREENIES Original Dog Dental Treats Samples!",
+   "link": "https://thefreebieguy.com/free-greenies-dental-treat-samples/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T21:20Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Kendall-Greenies-840x630.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "無料のGREENIESオリジナル犬用歯科おやつサンプル！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "無料のGREENIESオリジナル犬用歯科おやつサンプル！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "524a9cb868f1",
+   "title": "Wet Brush Ceramic Speed Dry Detangler $7.xx On Amazon (Reg $18)",
+   "link": "https://thefreebieguy.com/wet-brush-ceramic/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T21:20Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/wet-brush-ceramic-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 61,
+   "price": 7.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウェットブラシセラミックスピードドライデタングラー$ 7.xx Amazon （登録価格$ 18 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ウェットブラシセラミックスピードドライデタングラー$ 7.xx Amazon （登録価格$ 18 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "79802e7e33d7",
+   "title": "Nature Valley Oatmeal Squares 6-Pack Just $2.39 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/nature-valley-oatmeal-squares/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T21:10Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/Nature-Valley-Soft-Baked-Oatmeal-Squares-6-Pack-in-Cinnamon-Brown-Sugar.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ネイチャーバレーオートミールスクエア6パックわずか$ 2.39 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ネイチャーバレーオートミールスクエア6パックわずか$ 2.39 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "91465e86e0be",
+   "title": "iPhone Fast Charging Lightning Cables 2-Pack Just $3 on Amazon",
+   "link": "https://hip2save.com/deals/iphone-lightning-charging-cables/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T21:05Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/usbc-to-lightening-2-pack.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "iPhone高速充電Lightningケーブル2パックAmazonでわずか$ 3",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "iPhone高速充電Lightningケーブル2パックAmazonでわずか$ 3",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f3b7ad787176",
+   "title": "Real Techniques Miracle Complexion Sponge 4-Pack Only $8.xx on Amazon (Reg. $19)",
+   "link": "https://thefreebieguy.com/real-techniques-miracle-complexion-sponges/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T21:02Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Real-Techniques-Miracle-Complexion-Sponges-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 58,
+   "price": 8.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Real Techniques Miracle Complexion Sponge 4パックのみ$ 8.xx Amazon （登録価格$ 19 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Real Techniques Miracle Complexion Sponge 4パックのみ$ 8.xx Amazon （登録価格$ 19 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e96be45fc0e7",
+   "title": "Werner Extendable Ladder Just $79 on Lowes.com (Reg. $149) | Holds Up to 350 Lbs",
+   "link": "https://hip2save.com/deals/werner-ladder/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T21:00Z",
+   "firstSeen": "2026-10-29T21:54Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Werner-Ladder.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 47,
+   "price": 79.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Werner拡張可能なはしごLowes.comでたったの$ 79 （登録価格$ 149 ）|最大350ポンドまで収納可能",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Werner拡張可能なはしごLowes.comでたったの$ 79 （登録価格$ 149 ）|最大350ポンドまで収納可能",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "ceccee290cc1",
    "title": "Christmas Wreath w/ Lights Only $25 Shipped on Amazon (Reg. $60)",
@@ -165,8 +542,8 @@
     "when": "10/31(土)",
     "cond": ""
    },
-   "dup": "bc9d627571cc",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dup": "bc9d627571cc"
   },
   {
    "id": "7ddc415bd980",
@@ -268,8 +645,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "10aefef28933",
-   "date": null
+   "date": null,
+   "dup": "10aefef28933"
   },
   {
    "id": "abb384e13dc1",
@@ -507,8 +884,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "579e948f572a",
-   "date": null
+   "date": null,
+   "dup": "579e948f572a"
   },
   {
    "id": "7f52d2e36489",
@@ -33352,7 +33729,8 @@
     "where": "Costco"
    },
    "event": "black-friday",
-   "eventNews": true
+   "eventNews": true,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Costco-Black-Friday-3.jpg?resize=306,182"
   },
   {
    "id": "d69b37d92b3e",
@@ -37182,39 +37560,6 @@
    "date": "2026-11-13",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "c106cd5ddbb8",
-   "title": "FREE Dreft Laundry Stain Remover or Dish Soap at Walmart After Fetch Rewards",
-   "link": "https://hip2save.com/deals/walmart-dreft/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T21:15Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "ウォルマートでのDreft Laundry Stain Removerまたは食器用石鹸無料（フェッチリワード後）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートでのDreft Laundry Stain Removerまたは食器用石鹸無料（フェッチリワード後）",
-    "when": "",
-    "cond": ""
-   }
   },
   {
    "id": "079ad0088f1b",
