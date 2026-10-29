@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-29T10:58Z",
- "count": 1084,
+ "count": 1085,
  "stats": {
   "h2s": {
    "read": 100,
@@ -430,11 +430,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ミニブリザード無料",
-   "jaVia": "gemini",
+   "ja": "ミニブリザード無料＋ホリデーの新メニュー",
+   "jaVia": "claude",
    "sum": {
     "store": "Dairy Queen",
-    "item": "ミニブリザード無料",
+    "item": "ミニブリザード無料＋ホリデーの新メニュー",
     "when": "",
     "cond": "",
     "what": "無料ブリザード",
@@ -577,15 +577,15 @@
     "kind": "coupon",
     "when": "2026-11-02"
    },
-   "ja": "スムージー無料",
-   "jaVia": "gemini",
+   "ja": "指定フード購入でスムージー無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Tropical Smoothie",
-    "item": "スムージー無料",
+    "item": "指定フード購入でスムージー無料",
     "when": "11/2〜",
     "cond": "指定フード購入",
     "what": "無料スムージー",
-    "where": "Tropical Smoothie"
+    "where": "Tropical Smoot…"
    },
    "date": "2026-11-02"
   },
@@ -1132,13 +1132,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
-   "jaVia": "mymemory",
+   "ja": "テキサス州に最初の100万バレルの石油到着とトランプ大統領が発表",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "",
-    "item": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
+    "item": "テキサス州に最初の100万バレルの石油到着とトランプ大統領が発表",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "石油100万バレル",
+    "where": "テキサス州"
    },
    "date": null
   },
@@ -1347,11 +1349,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "8x10写真プリント無料",
-   "jaVia": "gemini",
+   "ja": "8x10写真プリントを当日受取で無料",
+   "jaVia": "claude",
    "sum": {
     "store": "CVS",
-    "item": "8x10写真プリント無料",
+    "item": "8x10写真プリントを当日受取で無料",
     "when": "",
     "cond": "当日受取",
     "what": "無料写真プリント",
@@ -1418,11 +1420,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "60K XRP無料",
-   "jaVia": "gemini",
+   "ja": "取引量に応じて6万XRPのエアドロップ",
+   "jaVia": "claude",
    "sum": {
     "store": "OKX",
-    "item": "60K XRP無料",
+    "item": "取引量に応じて6万XRPのエアドロップ",
     "when": "",
     "cond": "取引量に応じる",
     "what": "無料暗号資産",
@@ -1523,14 +1525,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "TVストリーミング無料",
-   "jaVia": "gemini",
+   "ja": "動画配信サービスを無料で使う方法",
+   "jaVia": "claude",
    "sum": {
     "store": "",
-    "item": "TVストリーミング無料",
+    "item": "動画配信サービスを無料で使う方法",
     "when": "",
     "cond": "",
-    "what": "無料配信サービス",
+    "what": "無料動画配信",
     "where": "オンライン"
    },
    "date": null
@@ -1596,11 +1598,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "香水$60＋無料ギフト",
-   "jaVia": "gemini",
+   "ja": "Acqua di Gioia香水が$60＋無料ギフト",
+   "jaVia": "claude",
    "sum": {
     "store": "Ulta",
-    "item": "香水$60＋無料ギフト",
+    "item": "Acqua di Gioia香水が$60＋無料ギフト",
     "when": "",
     "cond": "",
     "what": "香水$60",
@@ -2296,11 +2298,11 @@
     "when": null,
     "roundup": true
    },
-   "ja": "新ホリデーメニュー等",
-   "jaVia": "gemini",
+   "ja": "ホリデー新メニューとアベンジャーズ新作メニュー予定",
+   "jaVia": "claude",
    "sum": {
     "store": "Dunkin",
-    "item": "新ホリデーメニュー等",
+    "item": "ホリデー新メニューとアベンジャーズ新作メニュー予定",
     "when": "",
     "cond": "",
     "what": "新メニュー情報",
@@ -2482,15 +2484,15 @@
    },
    "sum": {
     "store": "Wolf Pen Creek",
-    "item": "「ジュラシック・パーク」野外上映と仮装コンテスト",
+    "item": "『ジュラシック・パーク』野外上映と仮装コンテスト",
     "when": "11/6(金) 17:00〜",
     "cond": "無料",
     "what": "野外映画上映",
     "where": "Wolf Pen Creek"
    },
    "date": "2026-11-06",
-   "ja": "「ジュラシック・パーク」野外上映と仮装コンテスト",
-   "jaVia": "gemini-ev"
+   "ja": "『ジュラシック・パーク』野外上映と仮装コンテスト",
+   "jaVia": "claude-ev"
   },
   {
    "id": "123707b7d7f1",
@@ -2654,15 +2656,15 @@
     "kind": "coupon",
     "when": "2026-11-01"
    },
-   "ja": "エキソルシップ無料",
-   "jaVia": "gemini",
+   "ja": "ハロウィン限定、エルディアブロ購入でドリンク無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "Carl’s Jr.",
-    "item": "エキソルシップ無料",
+    "store": "Carl's Jr.",
+    "item": "ハロウィン限定、エルディアブロ購入でドリンク無料",
     "when": "〜11/1",
-    "cond": "特定バーガー購入",
-    "what": "無料ドリンク",
-    "where": "Carl’s Jr."
+    "cond": "エルディアブロ購入",
+    "what": "ドリンク無料",
+    "where": "Carl's Jr."
    },
    "date": "2026-11-01"
   },
@@ -2763,11 +2765,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "バービーハウス$185＋組立無料",
-   "jaVia": "gemini",
+   "ja": "バービーハウスが$185・組立無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Walmart",
-    "item": "バービーハウス$185＋組立無料",
+    "item": "バービーハウスが$185・組立無料",
     "when": "",
     "cond": "",
     "what": "バービーハウス",
@@ -2902,14 +2904,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "香水サンプル無料",
-   "jaVia": "gemini",
+   "ja": "YSLのLibre香水サンプル（抽選の可能性）",
+   "jaVia": "claude",
    "sum": {
     "store": "Yves Saint Laurent",
-    "item": "香水サンプル無料",
+    "item": "YSLのLibre香水サンプル（抽選の可能性）",
     "when": "",
     "cond": "抽選の可能性あり",
-    "what": "無料サンプル",
+    "what": "無料香水サンプル",
     "where": "オンライン"
    },
    "date": null
@@ -3289,11 +3291,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "商品1点無料",
-   "jaVia": "gemini",
+   "ja": "Beech-Nut製品が1点無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Beech-Nut",
-    "item": "商品1点無料",
+    "item": "Beech-Nut製品が1点無料",
     "when": "",
     "cond": "",
     "what": "無料商品",
@@ -3462,15 +3464,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "献血でギフト無料",
-   "jaVia": "gemini",
+   "ja": "献血・血小板提供で無料ギフト",
+   "jaVia": "claude",
    "sum": {
-    "store": "The American Red Cross",
-    "item": "献血でギフト無料",
+    "store": "American Red Cross",
+    "item": "献血・血小板提供で無料ギフト",
     "when": "",
-    "cond": "献血または血小板提供",
-    "what": "無料ギフト",
-    "where": "American Red Cross"
+    "cond": "献血・血小板提供",
+    "what": "献血ギフト",
+    "where": "Red Cross"
    },
    "date": null
   },
@@ -10504,13 +10506,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Humane Society",
-    "item": "動物保護施設のハロウィン会",
+    "item": "動物保護施設でのトランクオアトリート",
     "when": "10/30(金)",
-    "cond": "子供向け・動物",
+    "cond": "子供向け",
     "what": "トランクオアトリート",
-    "where": "Aggieland"
+    "where": "Aggieland Huma…"
    },
-   "ja": "動物保護施設のハロウィン会",
+   "ja": "動物保護施設でのトランクオアトリート",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -10547,13 +10549,13 @@
    "eventNews": false,
    "sum": {
     "store": "Clara B. Mounce Library",
-    "item": "幼児向けのハロウィン縁日（図書館）",
+    "item": "図書館の小さな子向けハロウィンカーニバル",
     "when": "10/31(土)",
     "cond": "子供向け",
-    "what": "ハロウィン縁日",
+    "what": "小さな子向けハロウ…",
     "where": "Mounce Library"
    },
-   "ja": "幼児向けのハロウィン縁日（図書館）",
+   "ja": "図書館の小さな子向けハロウィンカーニバル",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -10590,13 +10592,13 @@
    "eventNews": false,
    "sum": {
     "store": "Happy Feet Skating Rink",
-    "item": "仮装して滑るハロウィン会。ローラースケート場",
+    "item": "仮装してローラースケートを楽しむ会",
     "when": "10/30(金)",
     "cond": "仮装して参加",
-    "what": "仮装スケート会",
+    "what": "ハロウィン滑走会",
     "where": "Happy Feet"
    },
-   "ja": "仮装して滑るハロウィン会。ローラースケート場",
+   "ja": "仮装してローラースケートを楽しむ会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -10633,13 +10635,13 @@
    "eventNews": false,
    "sum": {
     "store": "Rudder Theater",
-    "item": "人形劇の舞台。10/31は昼の回あり",
+    "item": "人形劇「Fraggle Rock」のライブ公演",
     "when": "10/30(金)・10/31(土)",
     "cond": "チケット要",
-    "what": "ファミリー劇",
+    "what": "Fraggle R…",
     "where": "Rudder Theater"
    },
-   "ja": "人形劇の舞台。10/31は昼の回あり",
+   "ja": "人形劇「Fraggle Rock」のライブ公演",
    "jaVia": "claude-ev",
    "date": "2026-10-30",
    "freebie": null
@@ -10651,7 +10653,7 @@
    "source": "Destination Bryan",
    "posted": "2026-10-27T11:44Z",
    "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-31",
+   "expires": "2026-11-07",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -10671,13 +10673,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "ブラゾス郡の毎週土曜のマーケット",
-    "when": "10/31(土)〜毎週土",
+    "item": "毎週土曜の地元ファーマーズマーケット",
+    "when": "毎週土曜",
     "cond": "毎週土曜",
-    "what": "週末マーケット",
+    "what": "ファーマーズマーケ…",
     "where": "Midtown Park"
    },
-   "ja": "ブラゾス郡の毎週土曜のマーケット",
+   "ja": "毎週土曜の地元ファーマーズマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -10714,13 +10716,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "毎週日曜のマーケット（Rountree）",
-    "when": "11/1(日)〜毎週日",
+    "item": "日曜開催のRountreeマーケット",
+    "when": "11/1(日)",
     "cond": "毎週日曜",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "毎週日曜のマーケット（Rountree）",
+   "ja": "日曜開催のRountreeマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -11029,11 +11031,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "犬または猫用おもちゃ",
-   "jaVia": "gemini",
+   "ja": "KONGの犬か猫用おもちゃが無料",
+   "jaVia": "claude",
    "sum": {
     "store": "KONG",
-    "item": "犬または猫用おもちゃ",
+    "item": "KONGの犬か猫用おもちゃが無料",
     "when": "",
     "cond": "",
     "what": "無料ペット玩具",
@@ -11701,7 +11703,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-28",
+   "localDate": "2026-10-29",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -11717,13 +11719,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Library",
-    "item": "米国の歴史を紹介する展示。2027年5月まで",
-    "when": "〜2027/5/16",
-    "what": "大統領博物館",
-    "where": "Bush Library",
+    "item": "ブッシュ大統領図書館・博物館の展示",
+    "when": "10/29〜2027/5/16",
+    "what": "米国の歴史展示",
+    "where": "George Bush Lib",
     "cond": "期間限定展示"
    },
-   "ja": "米国の歴史を紹介する展示。2027年5月まで",
+   "ja": "ブッシュ大統領図書館・博物館の展示",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -11743,7 +11745,7 @@
    "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-28",
+   "localDate": "2026-10-29",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -11759,13 +11761,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "レイクウォークのパンプキン畑。10/31まで",
+    "item": "湖沿いのパンプキン畑。秋の写真にも",
     "cond": "子供向け",
     "what": "パンプキン畑",
     "where": "Lake Walk",
-    "when": "10/28(水)〜10/31(土)"
+    "when": "10/29(木)〜10/31(土)"
    },
-   "ja": "レイクウォークのパンプキン畑。10/31まで",
+   "ja": "湖沿いのパンプキン畑。秋の写真にも",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -11785,7 +11787,7 @@
    "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-28",
+   "localDate": "2026-10-29",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -11801,13 +11803,13 @@
    "eventNews": false,
    "sum": {
     "store": "Habitat for Humanity",
-    "item": "Habitat for Humanityのパンプキン畑。10/31まで",
+    "item": "Habitat for Humanity主催のパンプキン畑",
     "cond": "子供向け",
     "what": "パンプキン畑",
     "where": "E 29th St",
-    "when": "10/28(水)〜10/31(土)"
+    "when": "10/29(木)〜10/31(土)"
    },
-   "ja": "Habitat for Humanityのパンプキン畑。10/31まで",
+   "ja": "Habitat for Humanity主催のパンプキン畑",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -11824,7 +11826,7 @@
    "source": "Destination Bryan",
    "posted": "2026-10-27T00:17Z",
    "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-30",
+   "expires": "2026-11-06",
    "thumb": null,
    "noAlert": true,
    "localDate": "2026-10-30",
@@ -11843,13 +11845,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "レイクウォークでのランニング会",
-    "when": "10/30(金)",
-    "what": "ランニング会",
+    "item": "Lake Walkの朝のランニング会",
+    "when": "10/30(金)・11/6(金)",
+    "what": "ラン会",
     "where": "Lake Walk",
     "cond": "要確認"
    },
-   "ja": "レイクウォークでのランニング会",
+   "ja": "Lake Walkの朝のランニング会",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -11886,13 +11888,13 @@
    "eventNews": false,
    "sum": {
     "store": "Bryan High School",
-    "item": "子どもの食支援を兼ねたハロウィン会",
+    "item": "子供向けのトランクオアトリート。食事支援も",
     "when": "10/31(土) 10時",
     "cond": "子供向け",
     "what": "トランクオアトリート",
-    "where": "Bryan High"
+    "where": "Bryan High Sch"
    },
-   "ja": "子どもの食支援を兼ねたハロウィン会",
+   "ja": "子供向けのトランクオアトリート。食事支援も",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -26130,13 +26132,13 @@
     "kind": "store",
     "when": null
    },
-   "ja": "Swarms おもちゃ",
-   "jaVia": "gemini",
+   "ja": "MrBeast Dayの無料Swarms（リワード会員向け）",
+   "jaVia": "claude",
    "sum": {
     "store": "Lowe's",
-    "item": "Swarms おもちゃ",
+    "item": "MrBeast Dayの無料Swarms（リワード会員向け）",
     "when": "",
-    "cond": "会員限定",
+    "cond": "リワード会員・先着",
     "what": "無料おもちゃ",
     "where": "Lowe's"
    },
@@ -37021,6 +37023,46 @@
    "date": "2026-10-31",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "5a2cbca55317",
+   "title": "First Friday in Historic Downtown Bryan",
+   "link": "https://www.destinationbryan.com/events/first-friday-event/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-29T11:43Z",
+   "firstSeen": "2026-10-29T11:43Z",
+   "expires": "2026-11-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Live Music"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Historic Downtown Bryan",
+    "item": "街中の音楽・アート・体験の月例イベント",
+    "when": "11/6(金)",
+    "what": "ファーストフライデー",
+    "where": "Downtown Bryan"
+   },
+   "ja": "街中の音楽・アート・体験の月例イベント",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-06"
   }
  ]
 }
