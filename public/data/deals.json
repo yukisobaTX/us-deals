@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-29T04:58Z",
- "count": 1091,
+ "updated": "2026-10-29T05:56Z",
+ "count": 1081,
  "stats": {
   "h2s": {
    "read": 100,
@@ -56,10 +56,11 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 0,
+   "geminiEvent": 2,
    "mymemory": 11,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -1023,15 +1024,17 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
-   "jaVia": "mymemory",
+   "ja": "トランプ氏、TX州への原油100万バレル到着を発表",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
-    "when": "",
-    "cond": ""
+    "store": "Corpus Christi",
+    "item": "トランプ氏、TX州への原油100万バレル到着を発表",
+    "when": "10/27(火)",
+    "cond": "",
+    "what": "原油到着発表",
+    "where": "Corpus Christi"
    },
-   "date": null
+   "date": "2026-10-27"
   },
   {
    "id": "8d709a414725",
@@ -2358,12 +2361,16 @@
     "when": null
    },
    "sum": {
-    "store": "",
-    "item": "Roar Under the Stars: Free 'Jurassic Park' Movie Night, Costume Contest at Wolf Pen Creek",
-    "when": "",
-    "cond": ""
+    "store": "Wolf Pen Creek",
+    "item": "「ジュラシック・パーク」野外上映と仮装コンテスト",
+    "when": "11/6(金) 17:00〜",
+    "cond": "無料",
+    "what": "野外映画上映",
+    "where": "Wolf Pen Creek"
    },
-   "date": null
+   "date": "2026-11-06",
+   "ja": "「ジュラシック・パーク」野外上映と仮装コンテスト",
+   "jaVia": "gemini-ev"
   },
   {
    "id": "123707b7d7f1",
@@ -2882,42 +2889,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "c50c748b88ce",
-   "title": "Yogurtland: BOGO FREE Cups (+2x points!) on October 28th!",
-   "link": "https://moneysavingmom.com/yogurtland-free-cup-of-frozen-yogurt-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-28T15:24Z",
-   "firstSeen": "2026-10-28T16:03Z",
-   "expires": "2026-10-28",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/03/Dirt-Cups-630x634.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-28",
-   "ja": "ヨーグルトランド： 10月28日にボゴ・フリーカップ（ポイントが2倍に！ ）が登場！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ヨーグルトランド： 10月28日にボゴ・フリーカップ（ポイントが2倍に！ ）が登場！",
-    "when": "10/28(水)まで",
-    "cond": ""
-   },
-   "dup": "21d12d5bcff2"
   },
   {
    "id": "f20f3f43bdc2",
@@ -3817,40 +3788,6 @@
    "date": null
   },
   {
-   "id": "0f4cad155a91",
-   "title": "Today Only! Lenovo Chromebook M 15.3″ 2K Laptop Only $189 at Best Buy (Reg $399)",
-   "link": "https://thefreebieguy.com/best-buy-chromebook-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-28T13:21Z",
-   "firstSeen": "2026-10-28T13:58Z",
-   "expires": "2026-10-28",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Lenovo-chromebook--840x630.png",
-   "hot": false,
-   "stores": [
-    "Best Buy"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 53,
-   "price": 189.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "本日限定！ Lenovo Chromebook M 15.3インチ2 KノートパソコンBest Buyで$ 189のみ（登録価格$ 399 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Best Buy",
-    "item": "本日限定！ Lenovo Chromebook M 15.3インチ2 KノートパソコンBest Buyで$ 189のみ（登録価格$ 399 ）",
-    "when": "10/28(水)まで",
-    "cond": ""
-   },
-   "date": "2026-10-28"
-  },
-  {
    "id": "95596cf1891b",
    "title": "LEGO Friends Advent Calendar Only $25 on Amazon (Reg. $35)",
    "link": "https://hip2save.com/deals/lego-friends-advent-calendar/",
@@ -3917,107 +3854,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "badbe9016541",
-   "title": "Walmart Drawing TODAY at 5PM ET — NeeDoh Toy & Pokemon Card Game For Grabs!",
-   "link": "https://thefreebieguy.com/walmart-drawing/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-28T13:01Z",
-   "firstSeen": "2026-10-28T13:11Z",
-   "expires": "2026-10-28",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/NeeDoh-Nice-Cube-Squish-Toy-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "10/28(水)まで 5PM",
-    "cond": ""
-   },
-   "date": "2026-10-28"
-  },
-  {
-   "id": "7684ba990eb3",
-   "title": "National First Responders Day 2026 – Free Meals & Drinks, & More!",
-   "link": "https://thefreebieguy.com/national-first-responders-day-freebies-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-28T13:00Z",
-   "firstSeen": "2026-10-28T13:11Z",
-   "expires": "2026-10-28",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/First-Responders-Freebies-and-Deals-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "item": "無料の食事とドリンクなど",
-    "when": "10/28",
-    "what": "無料食事・ドリンク",
-    "where": "対象店舗"
-   },
-   "ja": "無料の食事とドリンクなど",
-   "jaVia": "gemini",
-   "date": "2026-10-28"
-  },
-  {
-   "id": "0a30630bd9b0",
-   "title": "FREE Sonny’s BBQ Sandwich, Side & Drink Today for First Responders",
-   "link": "https://hip2save.com/deals/free-sonnys-bbq-sandwich/",
-   "source": "Hip2Save",
-   "posted": "2026-10-28T12:50Z",
-   "firstSeen": "2026-10-28T12:52Z",
-   "expires": "2026-10-28",
-   "thumb": "https://hip2save.com/wp-content/uploads/2023/08/Hip2Save-1200x630-3-24.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ファーストレスポンダーのためのSonny's BBQサンドイッチ、サイド＆ドリンクを今すぐ無料で楽しもう",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ファーストレスポンダーのためのSonny's BBQサンドイッチ、サイド＆ドリンクを今すぐ無料で楽しもう",
-    "when": "10/28(水)まで",
-    "cond": ""
-   },
-   "date": "2026-10-28"
   },
   {
    "id": "493232b005ad",
@@ -4360,39 +4196,6 @@
    "date": null
   },
   {
-   "id": "3518223739b3",
-   "title": "Bath & Body Works: Buy One, Get One Free Holiday Items Today!",
-   "link": "https://moneysavingmom.com/bath-body-works-buy-one-get-one-free-holiday-items-today/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-28T12:00Z",
-   "firstSeen": "2026-10-28T12:13Z",
-   "expires": "2026-10-28",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Bath-Body-630x498.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Bath & Body Works ：今すぐホリデーアイテムを1つ無料でゲット！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "Bath & Body Works ：今すぐホリデーアイテムを1つ無料でゲット！",
-    "when": "10/28(水)まで",
-    "cond": ""
-   },
-   "date": "2026-10-28",
-   "dup": "c750be826749"
-  },
-  {
    "id": "07ee689089a1",
    "title": "Mixing Bowls with Lids Set (21 Piece) only $29.99 shipped (Reg. $50!)",
    "link": "https://moneysavingmom.com/mixing-bowls-with-lids-set-deal/",
@@ -4502,39 +4305,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "21d12d5bcff2",
-   "title": "Yogurtland Deals | BOGO Free + 2x Points on October 28th!",
-   "link": "https://thefreebieguy.com/yogurtland-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-28T11:32Z",
-   "firstSeen": "2026-10-28T11:55Z",
-   "expires": "2026-10-28",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/2-People-holding-Yogurtland-Yogurt-Cups-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ヨーグルトランドのお買い得情報| 10月28日に無料で2倍のポイントを獲得しよう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ヨーグルトランドのお買い得情報| 10月28日に無料で2倍のポイントを獲得しよう！",
-    "when": "10/28(水)まで",
-    "cond": ""
-   },
-   "date": "2026-10-28"
   },
   {
    "id": "786582e8b3be",
@@ -4709,38 +4479,6 @@
    },
    "date": null,
    "dup": "0bd893743b0e"
-  },
-  {
-   "id": "2e0752501c88",
-   "title": "Sonny’s BBQ: FREE Pork Big Deal for First Responders Today, October 28th!",
-   "link": "https://moneysavingmom.com/sonnys-bbq-free-pork-meal-for-teachers/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-28T11:11Z",
-   "firstSeen": "2026-10-28T13:58Z",
-   "expires": "2026-10-28",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/08/Screen-Shot-2023-08-16-at-5.52.17-AM.png",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "",
-    "item": "",
-    "when": "10/28(水)まで",
-    "cond": ""
-   },
-   "date": "2026-10-28"
   },
   {
    "id": "ff0bf99429c0",
@@ -10600,50 +10338,6 @@
    "date": null
   },
   {
-   "id": "256839907b7b",
-   "title": "Trunk or Treat at Legends Event Center",
-   "link": "https://events.bryantx.gov/default/Detail/2026-10-28-1800-Trunk-or-Treat-at-Legends-Event-Center",
-   "source": "City of Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-28",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-28",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Legends Event Center",
-    "item": "車のトランクでお菓子をもらうハロウィン会",
-    "when": "10/28(水) 18時",
-    "cond": "子供向け",
-    "what": "トランクオアトリート",
-    "where": "Legends Midtown"
-   },
-   "ja": "車のトランクでお菓子をもらうハロウィン会",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-28",
-   "freebie": null,
-   "dup": "62bd3b907d62"
-  },
-  {
    "id": "5bbe060b2576",
    "title": "Trunk or Treat at Aggieland Humane Society",
    "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-aggieland-humane-society/",
@@ -11977,49 +11671,6 @@
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
-   ],
-   "date": "2026-10-28",
-   "freebie": null,
-   "region": "College Station",
-   "family": true
-  },
-  {
-   "id": "62bd3b907d62",
-   "title": "Trunk or Treat at Legends Event Center",
-   "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-legends-event-center-3-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-28",
-   "thumb": null,
-   "noAlert": true,
-   "localDate": "2026-10-28",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Legends Event Center",
-    "item": "車のトランクでお菓子をもらうハロウィン行事",
-    "when": "10/28(水) 18時",
-    "cond": "子供向け",
-    "what": "トランクオアトリート",
-    "where": "Legends Event …"
-   },
-   "ja": "車のトランクでお菓子をもらうハロウィン行事",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
    ],
    "date": "2026-10-28",
    "freebie": null,
