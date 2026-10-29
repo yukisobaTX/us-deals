@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-29T07:12Z",
- "count": 1080,
+ "updated": "2026-10-29T08:13Z",
+ "count": 1082,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -55,15 +55,49 @@
    "added": 0
   },
   "ja": {
-   "gemini": 25,
+   "gemini": 11,
    "geminiEvent": 0,
-   "mymemory": 10,
-   "geminiToday": 3,
+   "mymemory": 6,
+   "geminiToday": 5,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "1463307e00f2",
+   "title": "Hanes Cool DRI Men’s Quarter-Zip Lightweight Pullover Only $5.xx at Walmart (Reg. $22)",
+   "link": "https://thefreebieguy.com/hanes-cool-dri-mens-quarter-zip-lightweight-pullover/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T07:29Z",
+   "firstSeen": "2026-10-29T08:13Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Hanes-Cool-DRI-Mens-Quarter-Zip-Pullover-Long-Sleeve-840x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 77,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Hanes Cool DRIメンズクォータージップ軽量プルオーバーウォルマートでたったの$ 5.xx （登録価格$ 22 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Hanes Cool DRIメンズクォータージップ軽量プルオーバーウォルマートでたったの$ 5.xx （登録価格$ 22 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "25fa57ec7878",
    "title": "Little People Disney Christmas Train Just $36.50 Shipped on Amazon (Reg. $45)",
@@ -454,7 +488,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-10-28T22:35Z",
    "firstSeen": "2026-10-28T22:51Z",
-   "expires": "2026-11-02",
+   "expires": null,
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/tropical-smoothie-cafe-840x630.png",
    "hot": true,
    "stores": [
@@ -1004,6 +1038,40 @@
    },
    "date": null,
    "dup": "dfbc48c5b04f"
+  },
+  {
+   "id": "12a5851d7702",
+   "title": "President Trump Announces Arrival of First One Million Barrels of Oil in Texas Thanks to Historic Oil Deal",
+   "link": "https://wtaw.com/president-trump-announces-arrival-of-first-one-million-barrels-of-oil-in-texas-thanks-to-historic-oil-deal/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-10-28T19:32Z",
+   "firstSeen": "2026-10-29T08:13Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/10/28143217/Trumps-Texas-Oil-Headline-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着すると発表",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "8d709a414725",
