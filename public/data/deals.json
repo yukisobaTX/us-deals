@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T10:58Z",
- "count": 1085,
+ "updated": "2026-10-29T11:55Z",
+ "count": 1088,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,15 +55,160 @@
    "added": 0
   },
   "ja": {
-   "gemini": 11,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 6,
-   "geminiToday": 10,
-   "model": "gemini-flash-latest"
+   "mymemory": 18,
+   "geminiToday": 11,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "511aa0086966",
+   "title": "Free Petco Events – Free Trick or Treating & More + Free Pics with Santa in December!",
+   "link": "https://thefreebieguy.com/free-petco-events/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T11:46Z",
+   "firstSeen": "2026-10-29T11:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/PETCO-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "無料のペトコイベント–無料のトリック・オア・トリートやその他いろいろ＋ 12月のサンタと一緒に無料の写真撮影！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "無料のペトコイベント–無料のトリック・オア・トリートやその他いろいろ＋ 12月のサンタと一緒に無料の写真撮影！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5a2cbca55317",
+   "title": "First Friday in Historic Downtown Bryan",
+   "link": "https://www.destinationbryan.com/events/first-friday-event/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-29T11:43Z",
+   "firstSeen": "2026-10-29T11:43Z",
+   "expires": "2026-11-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Live Music"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Historic Downtown Bryan",
+    "item": "街中の音楽・アート・体験の月例イベント",
+    "when": "11/6(金)",
+    "what": "ファーストフライデー",
+    "where": "Downtown Bryan"
+   },
+   "ja": "街中の音楽・アート・体験の月例イベント",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-06",
+   "freebie": null
+  },
+  {
+   "id": "fbf67cb8cf3b",
+   "title": "Lowe’s Early Black Friday Savings Live Now!",
+   "link": "https://thefreebieguy.com/lowes-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T11:35Z",
+   "firstSeen": "2026-10-29T11:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Lowes-Black-Friday-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ロウのアーリーブラックフライデー割引が登場！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "ロウのアーリーブラックフライデー割引が登場！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2a2c23a4d99a",
+   "title": "My Life As Elf Dolls Only $39.94 Shipped on Walmart.com",
+   "link": "https://hip2save.com/deals/my-life-as-elf-doll/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T11:00Z",
+   "firstSeen": "2026-10-29T11:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/my-life-elf-doll-walmart.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "My Life As Elf Dollsたったの$ 39.94 Walmart.comで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "My Life As Elf Dollsたったの$ 39.94 Walmart.comで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "8626d49d7304",
    "title": "Price Drop! Step2 My First Christmas Tree in PINK or White Available Now",
@@ -96,8 +241,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "c8aa02e39901",
-   "date": null
+   "date": null,
+   "dup": "c8aa02e39901"
   },
   {
    "id": "3e28b7614576",
@@ -11730,7 +11875,7 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -11772,7 +11917,7 @@
    "outing": [
     "公園・屋外"
    ],
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -11814,7 +11959,7 @@
    "outing": [
     "公園・屋外"
    ],
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -31956,7 +32101,8 @@
     "item": "サムズクラブでフェアライフプロテインシェイクが$ 5.50オフ（これはめったに起こりません！ ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Fairlife-Nutrition-Plan-30g-Protein-Shake-12-Pack.jpg?resize=306,182"
   },
   {
    "id": "78a1cc20632d",
@@ -37023,46 +37169,6 @@
    "date": "2026-10-31",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "5a2cbca55317",
-   "title": "First Friday in Historic Downtown Bryan",
-   "link": "https://www.destinationbryan.com/events/first-friday-event/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-29T11:43Z",
-   "firstSeen": "2026-10-29T11:43Z",
-   "expires": "2026-11-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Live Music"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Historic Downtown Bryan",
-    "item": "街中の音楽・アート・体験の月例イベント",
-    "when": "11/6(金)",
-    "what": "ファーストフライデー",
-    "where": "Downtown Bryan"
-   },
-   "ja": "街中の音楽・アート・体験の月例イベント",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-06"
   }
  ]
 }
