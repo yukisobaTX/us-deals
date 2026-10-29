@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T23:48Z",
- "count": 1085,
+ "updated": "2026-10-29T01:12Z",
+ "count": 1086,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,45 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 16,
+   "mymemory": 12,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "ad63ecfcabd6",
+   "title": "Earn FREE GIFT CARDS for your Opinions w/ LifePoints!",
+   "link": "https://thefreebieguy.com/lifepoints-offer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T00:31Z",
+   "firstSeen": "2026-10-29T01:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Wall-of-Gift-Cards-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ライフポイントで、ご意見に応じて無料ギフトカードを獲得しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ライフポイントで、ご意見に応じて無料ギフトカードを獲得しましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "3fae5c34481b",
    "title": "Colgate Harry Potter Toothbrush 2 Count Only $3.96 After Walmart Cash! (Reg. $9.96)",
