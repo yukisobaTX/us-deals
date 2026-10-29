@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-29T05:56Z",
- "count": 1081,
+ "updated": "2026-10-29T07:12Z",
+ "count": 1080,
  "stats": {
   "h2s": {
    "read": 100,
@@ -8,7 +8,7 @@
   },
   "h2s-free": {
    "read": 100,
-   "added": 17
+   "added": 18
   },
   "doc": {
    "read": 15,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 3
   },
   "tfg": {
    "read": 40,
@@ -55,12 +55,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
-   "geminiEvent": 2,
-   "mymemory": 11,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "gemini": 25,
+   "geminiEvent": 0,
+   "mymemory": 10,
+   "geminiToday": 3,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -328,13 +327,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "デイリークイーン・セール|無料ミニブリザード、ホリデークッキー・スワップ・ブリザードコレクションなど！",
-   "jaVia": "mymemory",
+   "ja": "ミニブリザード無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Dairy Queen",
-    "item": "デイリークイーン・セール|無料ミニブリザード、ホリデークッキー・スワップ・ブリザードコレクションなど！",
+    "item": "ミニブリザード無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料ブリザード",
+    "where": "Dairy Queen"
    },
    "date": null
   },
@@ -473,13 +474,15 @@
     "kind": "coupon",
     "when": "2026-11-02"
    },
-   "ja": "トロピカルスムージーセール|トロピカルボウル付き無料スムージー/フードの購入は11月2日から始まります！",
-   "jaVia": "mymemory",
+   "ja": "スムージー無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Tropical Smoothie",
-    "item": "トロピカルスムージーセール|トロピカルボウル付き無料スムージー/フードの購入は11月2日から始まります！",
-    "when": "11/2(月)",
-    "cond": ""
+    "item": "スムージー無料",
+    "when": "11/2〜",
+    "cond": "指定フード購入",
+    "what": "無料スムージー",
+    "where": "Tropical Smoothie"
    },
    "date": "2026-11-02"
   },
@@ -989,52 +992,18 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ARMANI Acqua di Gioiaオードパルファムのみ$ 60 ULTA.comで発送（登録番号$ 120 ） +無料ギフト！",
-   "jaVia": "mymemory",
+   "ja": "香水が$60＋無料ギフト",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Ulta",
-    "item": "ARMANI Acqua di Gioiaオードパルファムのみ$ 60 ULTA.comで発送（登録番号$ 120 ） +無料ギフト！",
+    "store": "ULTA",
+    "item": "香水が$60＋無料ギフト",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "香水$60",
+    "where": "ULTA.com"
    },
    "date": null,
    "dup": "dfbc48c5b04f"
-  },
-  {
-   "id": "12a5851d7702",
-   "title": "President Trump Announces Arrival of First One Million Barrels of Oil in Texas Thanks to Historic Oil Deal",
-   "link": "https://wtaw.com/president-trump-announces-arrival-of-first-one-million-barrels-of-oil-in-texas-thanks-to-historic-oil-deal/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-10-28T19:32Z",
-   "firstSeen": "2026-10-28T19:57Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/10/28143217/Trumps-Texas-Oil-Headline-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "トランプ氏、TX州への原油100万バレル到着を発表",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "Corpus Christi",
-    "item": "トランプ氏、TX州への原油100万バレル到着を発表",
-    "when": "10/27(火)",
-    "cond": "",
-    "what": "原油到着発表",
-    "where": "Corpus Christi"
-   },
-   "date": "2026-10-27"
   },
   {
    "id": "8d709a414725",
@@ -1168,13 +1137,15 @@
     "kind": "store",
     "when": "2026-11-14"
    },
-   "ja": "無料のロウズキッズワークショップ： 11月14日のホリデーエンジンビルドに今すぐ登録",
-   "jaVia": "mymemory",
+   "ja": "子供向け工作イベント",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "無料のロウズキッズワークショップ： 11月14日のホリデーエンジンビルドに今すぐ登録",
-    "when": "11/14(土)",
-    "cond": "要登録・子ども向け"
+    "item": "子供向け工作イベント",
+    "when": "11/14",
+    "cond": "要予約",
+    "what": "子供向け工作",
+    "where": "Lowe's"
    },
    "date": "2026-11-14"
   },
@@ -1239,13 +1210,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "無料の8 × 10 CVSゾンビ写真プリント（当日ピックアップ付き）",
-   "jaVia": "mymemory",
+   "ja": "8x10写真プリント無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "CVS",
-    "item": "無料の8 × 10 CVSゾンビ写真プリント（当日ピックアップ付き）",
+    "item": "8x10写真プリント無料",
     "when": "",
-    "cond": ""
+    "cond": "当日受取",
+    "what": "無料写真プリント",
+    "where": "CVS"
    },
    "date": null
   },
@@ -1308,13 +1281,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "OKX Airdrop ：無料暗号ドロップ– 60 K XRP （取引量に基づく）",
-   "jaVia": "mymemory",
+   "ja": "60K XRP無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "OKX Airdrop ：無料暗号ドロップ– 60 K XRP （取引量に基づく）",
+    "store": "OKX",
+    "item": "60K XRP無料",
     "when": "",
-    "cond": ""
+    "cond": "取引量に応じる",
+    "what": "無料暗号資産",
+    "where": "OKX"
    },
    "date": null
   },
@@ -1411,13 +1386,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "最高のテレビストリーミングサービスを無料で利用する方法",
-   "jaVia": "mymemory",
+   "ja": "TVストリーミング無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "最高のテレビストリーミングサービスを無料で利用する方法",
+    "item": "TVストリーミング無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料配信サービス",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -1482,13 +1459,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Acqua di Gioiaオードパルファムのみ$ 60 at Ulta (Reg $ 120) +無料ギフトセット！",
-   "jaVia": "mymemory",
+   "ja": "香水$60＋無料ギフト",
+   "jaVia": "gemini",
    "sum": {
     "store": "Ulta",
-    "item": "Acqua di Gioiaオードパルファムのみ$ 60 at Ulta (Reg $ 120) +無料ギフトセット！",
+    "item": "香水$60＋無料ギフト",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "香水$60",
+    "where": "Ulta"
    },
    "date": null
   },
@@ -1865,13 +1844,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "Krogerで2つ購入すると、3つのソーダ12パックが無料で手に入ります（各$ 4.80 ！ ）",
-   "jaVia": "mymemory",
+   "ja": "炭酸飲料2個買えば3個無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Kroger",
-    "item": "Krogerで2つ購入すると、3つのソーダ12パックが無料で手に入ります（各$ 4.80 ！ ）",
+    "item": "炭酸飲料2個買えば3個無料",
     "when": "",
-    "cond": ""
+    "cond": "2個購入",
+    "what": "BOGO炭酸飲料",
+    "where": "Kroger"
    },
    "date": null
   },
@@ -2178,13 +2159,15 @@
     "when": null,
     "roundup": true
    },
-   "ja": "ダンキンセールと景品|新しいホリデーメニュー、新しいアベンジャーズ：ドゥームズデイ・メニューとその他色々が登場！",
-   "jaVia": "mymemory",
+   "ja": "新ホリデーメニュー等",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Dunkin'",
-    "item": "ダンキンセールと景品|新しいホリデーメニュー、新しいアベンジャーズ：ドゥームズデイ・メニューとその他色々が登場！",
+    "store": "Dunkin",
+    "item": "新ホリデーメニュー等",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "新メニュー情報",
+    "where": "Dunkin"
    },
    "date": null
   },
@@ -2335,7 +2318,7 @@
    "source": "カレッジステーション市",
    "posted": "2026-10-28T16:21Z",
    "firstSeen": "2026-10-28T17:02Z",
-   "expires": null,
+   "expires": "2026-11-06",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -2534,13 +2517,15 @@
     "kind": "coupon",
     "when": "2026-11-01"
    },
-   "ja": "カールのジュニアハロウィン・セールには、2026年11月1日までのエル・ディアブロ・バーガー購入でエクソ・シップが無料で含まれています",
-   "jaVia": "mymemory",
+   "ja": "エキソルシップ無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "カールのジュニアハロウィン・セールには、2026年11月1日までのエル・ディアブロ・バーガー購入でエクソ・シップが無料で含まれています",
-    "when": "11/1(日)",
-    "cond": ""
+    "store": "Carl’s Jr.",
+    "item": "エキソルシップ無料",
+    "when": "〜11/1",
+    "cond": "特定バーガー購入",
+    "what": "無料ドリンク",
+    "where": "Carl’s Jr."
    },
    "date": "2026-11-01"
   },
@@ -2641,13 +2626,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "バービー・ドリームハウスわずか$ 185 Walmart.comで発送+無料在宅アセンブリ",
-   "jaVia": "mymemory",
+   "ja": "バービーハウス$185＋組立無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "バービー・ドリームハウスわずか$ 185 Walmart.comで発送+無料在宅アセンブリ",
+    "item": "バービーハウス$185＋組立無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "バービーハウス",
+    "where": "Walmart.com"
    },
    "date": null
   },
@@ -2778,13 +2765,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "イヴ・サンローラン・リブレ・サンタル・クチュールの無料フレグランスサンプル！",
-   "jaVia": "mymemory",
+   "ja": "香水サンプル無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "イヴ・サンローラン・リブレ・サンタル・クチュールの無料フレグランスサンプル！",
+    "store": "Yves Saint Laurent",
+    "item": "香水サンプル無料",
     "when": "",
-    "cond": ""
+    "cond": "抽選の可能性あり",
+    "what": "無料サンプル",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -2951,13 +2940,15 @@
     "kind": "store",
     "when": "2026-11-01"
    },
-   "ja": "マイケルズ： 11月1日に無料の手縫いカードイベントが開催されます！",
-   "jaVia": "mymemory",
+   "ja": "カード作りイベント",
+   "jaVia": "gemini",
    "sum": {
     "store": "Michaels",
-    "item": "マイケルズ： 11月1日に無料の手縫いカードイベントが開催されます！",
-    "when": "11/1(日)",
-    "cond": ""
+    "item": "カード作りイベント",
+    "when": "11/1",
+    "cond": "",
+    "what": "無料イベント",
+    "where": "Michaels"
    },
    "date": "2026-11-01"
   },
@@ -3054,13 +3045,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Photojoyから無料のハガキを手に入れましょう！",
-   "jaVia": "mymemory",
+   "ja": "ポストカード無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Photojoyから無料のハガキを手に入れましょう！",
+    "store": "Photojoy",
+    "item": "ポストカード無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料ポストカード",
+    "where": "Photojoy"
    },
    "date": null,
    "dup": "10896ac451c3"
@@ -3159,13 +3152,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ビーチナッツ製品を無料で手に入れましょう！",
-   "jaVia": "mymemory",
+   "ja": "商品1点無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ビーチナッツ製品を無料で手に入れましょう！",
+    "store": "Beech-Nut",
+    "item": "商品1点無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料商品",
+    "where": "Beech-Nut"
    },
    "date": null
   },
@@ -3330,13 +3325,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "血液または血小板を寄付すると、アメリカ赤十字社から無料ギフトを獲得できます！",
-   "jaVia": "mymemory",
+   "ja": "献血でギフト無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "The American Red Cross",
-    "item": "血液または血小板を寄付すると、アメリカ赤十字社から無料ギフトを獲得できます！",
+    "item": "献血でギフト無料",
     "when": "",
-    "cond": ""
+    "cond": "献血または血小板提供",
+    "what": "無料ギフト",
+    "where": "American Red Cross"
    },
    "date": null
   },
@@ -3435,13 +3432,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "チェッカーズ＆ラリーズでビッグビュフォードバーガーを無料で手に入れよう！",
-   "jaVia": "mymemory",
+   "ja": "ビッグビューフォード無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Checkers & Rally’s",
-    "item": "チェッカーズ＆ラリーズでビッグビュフォードバーガーを無料で手に入れよう！",
+    "item": "ビッグビューフォード無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料バーガー",
+    "where": "Checkers & Rally’s"
    },
    "date": null,
    "dup": "928cbb19b542"
@@ -3879,13 +3878,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "HIGH BREW COFFEE 12パックのみ$ 11.xx （ Amazon ） （登録価格$ 24 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "HIGH BREW COFFEE 12パックのみ$ 11.xx （ Amazon ） （登録価格$ 24 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8cfbdb449c5b",
@@ -4399,13 +4400,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "デジタルクーポン付きのKrogerアイスクリームはわずか$ 1.99 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kroger",
-    "item": "",
+    "item": "デジタルクーポン付きのKrogerアイスクリームはわずか$ 1.99 ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "674fc8d6a95f",
