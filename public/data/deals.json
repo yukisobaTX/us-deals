@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T01:12Z",
- "count": 1086,
+ "updated": "2026-10-29T02:06Z",
+ "count": 1088,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,81 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 12,
+   "mymemory": 13,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "c8aa02e39901",
+   "title": "The Pink Step2 My First Christmas Tree Now Cheaper on Target.com",
+   "link": "https://hip2save.com/deals/step2-my-first-christmas-tree/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T02:00Z",
+   "firstSeen": "2026-10-29T02:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/pink-Step2-My-First-Christmas-Tree-1-e1792422404564.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "The Pink Step 2私の初めてのクリスマスツリーがTarget.comで安くなりました",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "The Pink Step 2私の初めてのクリスマスツリーがTarget.comで安くなりました",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "59551dc99671",
+   "title": "GLP-1 Booster Supplement 1-Month Supply Just $20.74 Shipped on Amazon (Reg. $40)",
+   "link": "https://hip2save.com/deals/lunakai-pro-glp1-booster/",
+   "source": "Hip2Save",
+   "posted": "2026-10-29T01:50Z",
+   "firstSeen": "2026-10-29T02:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/Lunakai-PRO-GLP-1-Booster.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 48,
+   "price": 20.74,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "GLP -1ブースターサプリメント1ヶ月分わずか$ 20.74 Amazonで発送（登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "GLP -1ブースターサプリメント1ヶ月分わずか$ 20.74 Amazonで発送（登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "ad63ecfcabd6",
    "title": "Earn FREE GIFT CARDS for your Opinions w/ LifePoints!",
@@ -27834,7 +27902,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/AHJ-5-Quart-Pre-Seasoned-Cast-Iron-Dutch-Oven.jpg?resize=306,182"
   },
   {
    "id": "f56f5cba23be",
