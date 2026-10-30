@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T15:06Z",
- "count": 1281,
+ "updated": "2026-10-30T16:00Z",
+ "count": 1294,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 9
+   "added": 7
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 7
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,462 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
+   "gemini": 14,
    "geminiEvent": 0,
-   "mymemory": 16,
-   "geminiToday": 14,
+   "mymemory": 10,
+   "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "70c837ee4c50",
+   "title": "Arm & Hammer Laundry Products From $1.xx After Walmart Cash!",
+   "link": "https://thefreebieguy.com/arm-hammer-laundry/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T15:59Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Arm-Hammer-Laundry-Products-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アーム＆ハンマーランドリー製品$ 1.xxからウォルマートキャッシュ後！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "アーム＆ハンマーランドリー製品$ 1.xxからウォルマートキャッシュ後！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "231590c95e97",
+   "title": "FREE CeraVe Anti-Dandruff Hydrating Shampoo Sample",
+   "link": "https://hip2save.com/deals/free-cerave-sample/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:56Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/09/CeraVe-Anti-Dandruff-Shampoo.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "CeraVe",
+    "item": "シャンプーの無料サンプル",
+    "what": "無料サンプル",
+    "where": "オンライン"
+   },
+   "ja": "シャンプーの無料サンプル",
+   "jaVia": "gemini",
+   "dup": "aff98f37b772",
+   "date": null
+  },
+  {
+   "id": "6dffefeaec0d",
+   "title": "Amazon: $10 Off $35 General Mills Products",
+   "link": "https://www.doctorofcredit.com/amazon-10-off-35-general-mills-products-2/",
+   "source": "Doctor of Credit",
+   "posted": "2026-10-30T15:56Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/Screenshot-2026-10-30-at-11.55.34-AM-1024x150.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon ： $ 35ゼネラルミルズ製品が$ 10オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon ： $ 35ゼネラルミルズ製品が$ 10オフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cd9f0475608a",
+   "title": "Puzzle Table w/ Drawers & Cover Just $35.74 Shipped on Amazon (Reg. $65)",
+   "link": "https://hip2save.com/deals/amazon-puzzle-table/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:50Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/puzzle-table.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 35.74,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "引き出し＆カバー付きパズルテーブルわずか$ 35.74 Amazonで発送（登録番号$ 65 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "引き出し＆カバー付きパズルテーブルわずか$ 35.74 Amazonで発送（登録番号$ 65 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "197c11fd1c0c",
+   "title": "Candy Stock-Up Alert! Mars Full-Size Bars 30-Pack Just $22 at Sam’s Club!",
+   "link": "https://hip2save.com/deals/mars-chocolate-candy-variety/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:44Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Mars-Variety-Pack.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キャンディーのストックアップアラート！サムズクラブでたったの$ 22のMarsフルサイズバー30パック！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "キャンディーのストックアップアラート！サムズクラブでたったの$ 22のMarsフルサイズバー30パック！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c251ab4dd43f",
+   "title": "Possible Free Maison Francis Kurkdjian Baccarat Rouge 540 Fragrance Sample!",
+   "link": "https://thefreebieguy.com/possible-free-maison-francis-kurkdjian-baccarat-rouge-540-fragrance-sample/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T15:43Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/06/Kurkdjian-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Maison Francis Kurkdjian",
+    "item": "香水の無料サンプル",
+    "cond": "抽選の可能性あり",
+    "what": "無料サンプル",
+    "where": "オンライン"
+   },
+   "ja": "香水の無料サンプル",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "47f2f3fe84f2",
+   "title": "hello Unicorn Aluminum Free Deodorant Only $3.97 After Walmart Cash (Reg. $7)",
+   "link": "https://thefreebieguy.com/hello-unicorn-aluminum-free-deodorant/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T15:36Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/hello-deodorant-840x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 43,
+   "price": 3.97,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "こんにちはユニコーンアルミニウム無料デオドラントのみ$ 3.97ウォルマートキャッシュ後（登録番号$ 7 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "こんにちはユニコーンアルミニウム無料デオドラントのみ$ 3.97ウォルマートキャッシュ後（登録番号$ 7 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ea2d18267cf2",
+   "title": "Pink Wooden Train Set Only $14.99 on Amazon (Reg. $30)",
+   "link": "https://hip2save.com/deals/wooden-train-set/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:34Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/09/Hot-Bee-Pink-Wooden-Train-Set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 14.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ピンクの木製トレインセットのみ$ 14.99アマゾン（登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ピンクの木製トレインセットのみ$ 14.99アマゾン（登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9e15da4e3c81",
+   "title": "Ultra-Slim MagSafe Power Bank Just $16.99 on Amazon (Reg. $30)",
+   "link": "https://hip2save.com/deals/amazon-lisen-portable-charger/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:29Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Slim-Magsafe-Power-Bank.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 16.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "超薄型MagSafeパワーバンクAmazonでわずか$ 16.99 （登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "超薄型MagSafeパワーバンクAmazonでわずか$ 16.99 （登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f886ee4f7e37",
+   "title": "Walgreens Custom Yard Signs Only $10.50 w/ Free Same-Day Pickup",
+   "link": "https://hip2save.com/deals/walgreens-yard-signs/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:26Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/Walgreens-yard-signs.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walgreensカスタムヤードサインのみ$ 10.50 （当日無料ピックアップ付き）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walgreens",
+    "item": "Walgreensカスタムヤードサインのみ$ 10.50 （当日無料ピックアップ付き）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f866b12f8eb5",
+   "title": "Steam Mop Cleaner Just $29.99 Shipped on Amazon (Reg. $70)",
+   "link": "https://hip2save.com/deals/amazon-steam-mop-cleaner/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:20Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/steam-mop.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 57,
+   "price": 29.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スチームモップクリーナーわずか$ 29.99 Amazonで発送（登録価格$ 70 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "スチームモップクリーナーわずか$ 29.99 Amazonで発送（登録価格$ 70 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9737a94aedf1",
+   "title": "Sports Research Creatine Sugar-Free Electrolytes Variety Pack, 16 Count only $13.82 shipped (Reg. $28)!",
+   "link": "https://moneysavingmom.com/sports-research-creatine-electrolyte-variety-pack-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T15:13Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Sports-Research®-Creatine-Electrolytes16-Sugar-Free-Flavored-Variety-Packs-1.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 51,
+   "price": 13.82,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Sports Researchクレアチンシュガーフリー電解質バラエティパック、16個のみ$ 13.82発送（登録価格$ 28 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Sports Researchクレアチンシュガーフリー電解質バラエティパック、16個のみ$ 13.82発送（登録価格$ 28 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "aa8cf4bda604",
+   "title": "Bass Pro Shops Freebies | Free Leaf Crafts, 4×6 Photo, Mini Reindeer Plush Giveaway & More!",
+   "link": "https://thefreebieguy.com/bass-pro-shops-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T15:11Z",
+   "firstSeen": "2026-10-30T16:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Bass-Pro-Events-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Bass Pro Shops",
+    "item": "工作、写真、ぬいぐるみ等",
+    "what": "無料配布",
+    "where": "Bass Pro Shops"
+   },
+   "ja": "工作、写真、ぬいぐるみ等",
+   "jaVia": "gemini",
+   "date": null
+  },
   {
    "id": "eb53831f9df6",
    "title": "Glade Automatic Spray Holder Air Freshener Spray 10.2 oz Just $1.27 After Walmart Cash Back (Reg. $8)",
@@ -340,8 +787,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "b0017756de4b",
-   "date": null
+   "date": null,
+   "dup": "b0017756de4b"
   },
   {
    "id": "a2db15c43ac2",
@@ -375,8 +822,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "7d06a4f8ead8",
-   "date": null
+   "date": null,
+   "dup": "7d06a4f8ead8"
   },
   {
    "id": "b556366ca366",
@@ -549,8 +996,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "cf5735eb4f03",
-   "date": null
+   "date": null,
+   "dup": "cf5735eb4f03"
   },
   {
    "id": "327f8b50fa7e",
@@ -584,8 +1031,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "0f42086f5363",
-   "date": null
+   "date": null,
+   "dup": "0f42086f5363"
   },
   {
    "id": "1abcfc4c80d3",
@@ -688,8 +1135,8 @@
     "when": "",
     "cond": "子ども向け"
    },
-   "dup": "a18f72ff9b0c",
-   "date": null
+   "date": null,
+   "dup": "a18f72ff9b0c"
   },
   {
    "id": "4e42cfb639da",
@@ -23536,8 +23983,7 @@
     "what": "無料サンプル",
     "where": "Kiehl’s"
    },
-   "date": null,
-   "dup": "3d85dbd49692"
+   "date": null
   },
   {
    "id": "1e3d9b66326c",
@@ -35217,7 +35663,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/subway-subs-2-foot-longs.jpg?resize=306,182"
   },
   {
    "id": "0984acc09d8d",
