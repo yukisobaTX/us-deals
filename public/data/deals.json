@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T19:55Z",
- "count": 1338,
+ "updated": "2026-10-30T20:53Z",
+ "count": 1351,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 3
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,463 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 22,
+   "mymemory": 25,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "deca2cc1c580",
+   "title": "Arm & Hammer Laundry Detergent Just $1.88 After Walmart Cash",
+   "link": "https://hip2save.com/deals/walmart-arm-hammer-laundry/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T20:50Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/05/Arm-Hammer-Laundry-Bottle-being-held-by-a-woman-in-the-aisle-at-Walgreens.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アーム＆ハンマー洗濯用洗剤わずか$ 1.88ウォルマートキャッシュ後",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "アーム＆ハンマー洗濯用洗剤わずか$ 1.88ウォルマートキャッシュ後",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "70c837ee4c50",
+   "date": null
+  },
+  {
+   "id": "03e4f3be0ab6",
+   "title": "Atom Tickets: Free Ticket To See Paper Tiger With Promo Code ATOMTIGER",
+   "link": "https://www.doctorofcredit.com/atom-tickets-free-ticket-to-see-paper-tiger-with-promo-code-atomtiger/",
+   "source": "Doctor of Credit",
+   "posted": "2026-10-30T20:50Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free",
+    "coupon"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "ATOMチケット：プロモーションコードATOMTIGERで紙の虎を見る無料チケット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ATOMチケット：プロモーションコードATOMTIGERで紙の虎を見る無料チケット",
+    "when": "",
+    "cond": "コード入力"
+   },
+   "date": null
+  },
+  {
+   "id": "4fbc13288ea8",
+   "title": "Physician’s Choice Women’s Probiotics 30-Count Only $8.54 Shipped on Amazon (Reg. $30)",
+   "link": "https://hip2save.com/deals/physicians-choice/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T20:40Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/physicians-chocie-womens-and-probiotic.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 72,
+   "price": 8.54,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Physician's Choiceレディースプロバイオティクス30 -カウントのみ$ 8.54 Amazonで発送（登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Physician's Choiceレディースプロバイオティクス30 -カウントのみ$ 8.54 Amazonで発送（登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "1ff737e36c40",
+   "date": null
+  },
+  {
+   "id": "bc0fa0123d62",
+   "title": "Ecoeve Permanent Outdoor Lights Just $30 on Amazon (Reg $300)!",
+   "link": "https://thefreebieguy.com/permanent-outdoor-lights/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T20:40Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/house-lights-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 90,
+   "price": 30.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "EcoeveパーマネントアウトドアライトはAmazonでわずか$ 30 （登録価格$ 300 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "EcoeveパーマネントアウトドアライトはAmazonでわずか$ 30 （登録価格$ 300 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8948766592b9",
+   "title": "Rhinestone Bedazzling Kit (50,000 Pieces) only $4.99!",
+   "link": "https://moneysavingmom.com/rhinestone-bedazzling-kit-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:30Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Bedazzling-Kit-50000Pcs-28-Colors--630x607.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ラインストーンベッドアズリングキット（ 50,000個）たったの$ 4.99 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ラインストーンベッドアズリングキット（ 50,000個）たったの$ 4.99 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1979d82a7db2",
+   "title": "Capital One Offers: Dunkin/Wendy’s/Burger King, Spend $5 & Get $5 Back",
+   "link": "https://www.doctorofcredit.com/capital-one-offers-dunkin-wendys-burger-king-spend-5-get-5-back/",
+   "source": "Doctor of Credit",
+   "posted": "2026-10-30T20:28Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Dunkin'",
+    "Wendy's",
+    "Burger King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キャピタルワンオファー：ダンキン/ウェンディーズ/バーガーキング、$ 5を購入して$ 5をゲット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Dunkin'・Wendy's",
+    "item": "キャピタルワンオファー：ダンキン/ウェンディーズ/バーガーキング、$ 5を購入して$ 5をゲット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8556b121eca8",
+   "title": "Adorable Christmas Ornament Candles Under $10 on Walmart.com",
+   "link": "https://hip2save.com/deals/walmart-better-homes-gardens-candles/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T20:20Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/better-homes-gardens-candle.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comで$ 10未満のかわいいクリスマスオーナメントキャンドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comで$ 10未満のかわいいクリスマスオーナメントキャンドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0f2bc40e9be0",
+   "title": "Veterans Day 2026 | FREE Meals, Haircuts & More!",
+   "link": "https://thefreebieguy.com/veterans-day-meal-deals-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T20:20Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": "2026-11-11",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Veterans-Day-Free-Meals-and-more-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "2026年退役軍人の日|無料の食事、ヘアカットなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "2026年退役軍人の日|無料の食事、ヘアカットなど！",
+    "when": "11/11(水)まで",
+    "cond": ""
+   },
+   "dup": "dd5d4d6d6e74",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "3fd77f4afc33",
+   "title": "Free Movie Ticket to See “Paper Tiger” at Atom Theaters",
+   "link": "https://thefreebieguy.com/free-atom-movie-tickets/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T20:15Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Paper-Tiger-Free-Movie-Ticket-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "アトムシアターで「ペーパー・タイガー」を観る無料映画チケット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Atom Theaters",
+    "item": "アトムシアターで「ペーパー・タイガー」を観る無料映画チケット",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "03e4f3be0ab6",
+   "date": null
+  },
+  {
+   "id": "69209fa8c7ce",
+   "title": "Godinger Hershey Kiss Shaped Candy Dish from $8.xx on Amazon!",
+   "link": "https://thefreebieguy.com/godinger-hershey-candy-dish/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T20:14Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Godinger-Hershey-Kiss-Shaped-Candy-Dish-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンで$ 8.xxからのGodinger Hershey Kissシェイプキャンディーディッシュ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンで$ 8.xxからのGodinger Hershey Kissシェイプキャンディーディッシュ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9ccfcae67edc",
+   "title": "NEW Scotch-Brite Sponge w/ Stand Just $6 Shipped on Amazon (Reg. $11)",
+   "link": "https://hip2save.com/deals/scotch-brite-sponges/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T20:10Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/scotch-brite-palm-scrubber-sponge-with-drain.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンで出荷された新しいScotch - Briteスポンジ、スタンド付きわずか$ 6 （登録価格$ 11 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンで出荷された新しいScotch - Briteスポンジ、スタンド付きわずか$ 6 （登録価格$ 11 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6823374e31f8",
+   "title": "50000-Piece Bedazzling Kit with Jelly Resin Rhinestones in 28 Colors Only $4.xx on Amazon",
+   "link": "https://thefreebieguy.com/bedazzling-kit-with-jelly-resin-rhinestones/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T20:04Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Bedazzling-Kit-50000Pcs-28-Colors-Jelly-Resin-Rhinestones-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "50000ピースBedazzlingキット28色のゼリー樹脂ラインストーン付きアマゾンで$ 4.xxのみ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "50000ピースBedazzlingキット28色のゼリー樹脂ラインストーン付きアマゾンで$ 4.xxのみ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7482aaf40db5",
+   "title": "GameStop: Free Pokemon Trick Or Trade Pack (10/31/26)",
+   "link": "https://www.doctorofcredit.com/gamestop-free-pokemon-trick-or-trade-pack-10-31-26/",
+   "source": "Doctor of Credit",
+   "posted": "2026-10-30T19:56Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/pokemon.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31"
+   },
+   "ja": "GameStop ：無料ポケモン・トリック・オア・トレードパック（ 2022年10月31日）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "GameStop ：無料ポケモン・トリック・オア・トレードパック（ 2022年10月31日）",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
+  },
   {
    "id": "3c2247522198",
    "title": "NEW Holiday Time Mug Sets w/ Metal Rack Just $12.xx at Walmart!",
@@ -4427,6 +4877,38 @@
    "sum": {
     "store": "Best Buy",
     "item": "ベラプロバリスタエリートエスプレッソステーションベストバイで$ 89.xxのみ（登録価格$ 230 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e56dc4f395aa",
+   "title": "Quaker Oatmeal Squares Breakfast Cereal (Family Size) only $2.74 shipped!",
+   "link": "https://moneysavingmom.com/quaker-oatmeal-squares-breakfast-cereal-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T08:37Z",
+   "firstSeen": "2026-10-30T20:53Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/02/Quaker-Squares-630x809.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
     "when": "",
     "cond": ""
    },
@@ -41443,7 +41925,8 @@
     "cond": "",
     "what": "BF広告公開",
     "where": "Sam’s Club"
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Sams-Club-Black-Friday-Ad.jpg?resize=306,182"
   },
   {
    "id": "5a93a9a1d7b0",
@@ -45845,38 +46328,6 @@
    "outing": [
     "子供向け"
    ]
-  },
-  {
-   "id": "f60079bc8344",
-   "title": "Burger King Unleashes New Vampire’s Bite Strawberry & Sprite Drink for Halloween",
-   "link": "https://www.fastfoodpost.com/burger-king-unleashes-new-vampires-bite-strawberry-sprite-drink-for-halloween/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-08T20:06Z",
-   "firstSeen": "2026-10-25T01:43Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Burger King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Burger King",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   }
  ]
 }
