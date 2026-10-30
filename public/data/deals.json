@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-30T10:56Z",
- "count": 1226,
+ "count": 1228,
  "stats": {
   "h2s": {
    "read": 100,
@@ -430,11 +430,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ボーナスポイント",
-   "jaVia": "gemini",
+   "ja": "Enterpriseのボーナスポイント企画(無料ポイント)",
+   "jaVia": "claude",
    "sum": {
     "store": "Enterprise",
-    "item": "ボーナスポイント",
+    "item": "Enterpriseのボーナスポイント企画(無料ポイント)",
     "when": "",
     "cond": "",
     "what": "無料ポイント",
@@ -636,14 +636,14 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "BF攻略ヒント16選",
-   "jaVia": "gemini",
+   "ja": "ブラックフライデーの買い物のコツ16選",
+   "jaVia": "claude",
    "sum": {
     "store": "",
-    "item": "BF攻略ヒント16選",
+    "item": "ブラックフライデーの買い物のコツ16選",
     "when": "",
     "cond": "",
-    "what": "買い物ヒント",
+    "what": "BF買い方ガイド",
     "where": "オンライン"
    },
    "date": null
@@ -746,12 +746,12 @@
    },
    "sum": {
     "store": "Krispy Kreme",
-    "item": "オリジナルグレーズド等",
+    "item": "オリジナルグレーズドなどの無料特典",
     "what": "無料ドーナツ",
     "where": "Krispy Kreme"
    },
-   "ja": "オリジナルグレーズド等",
-   "jaVia": "gemini",
+   "ja": "オリジナルグレーズドなどの無料特典",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1019,11 +1019,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "犬用デンタルケアおやつ試供品",
-   "jaVia": "gemini",
+   "ja": "GREENIES 犬用デンタルおやつの無料試供品",
+   "jaVia": "claude",
    "sum": {
     "store": "GREENIES",
-    "item": "犬用デンタルケアおやつ試供品",
+    "item": "GREENIES 犬用デンタルおやつの無料試供品",
     "when": "",
     "cond": "",
     "what": "無料サンプル",
@@ -1817,15 +1817,15 @@
    },
    "sum": {
     "store": "Lululemon",
-    "item": "サーマルタイツが$49",
+    "item": "サーマルハイライズタイツが送料込$49(定価$148)",
     "when": "",
     "cond": "送料込",
     "what": "タイツ$49",
     "where": "Lululemon"
    },
    "date": null,
-   "ja": "サーマルタイツが$49",
-   "jaVia": "gemini"
+   "ja": "サーマルハイライズタイツが送料込$49(定価$148)",
+   "jaVia": "claude"
   },
   {
    "id": "d6e7808f2dd2",
@@ -2396,11 +2396,11 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "$129相当のヘアケアが$35",
-   "jaVia": "gemini",
+   "ja": "$129相当のヘアケアが送料込$35",
+   "jaVia": "claude",
    "sum": {
     "store": "Kitsch",
-    "item": "$129相当のヘアケアが$35",
+    "item": "$129相当のヘアケアが送料込$35",
     "when": "",
     "cond": "送料込",
     "what": "ヘアケア$35",
@@ -2503,14 +2503,14 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "2026年BFセール日程表",
-   "jaVia": "gemini",
+   "ja": "2026年ブラックフライデーのセール日程表",
+   "jaVia": "claude",
    "sum": {
     "store": "",
-    "item": "2026年BFセール日程表",
+    "item": "2026年ブラックフライデーのセール日程表",
     "when": "",
     "cond": "",
-    "what": "セール情報",
+    "what": "BFセール日程",
     "where": "オンライン"
    },
    "date": null
@@ -2715,13 +2715,13 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "フケ予防保湿シャンプー試供品",
-   "jaVia": "gemini",
+   "ja": "CeraVeのフケ予防保湿シャンプーの無料試供品",
+   "jaVia": "claude",
    "sum": {
     "store": "CeraVe",
-    "item": "フケ予防保湿シャンプー試供品",
+    "item": "CeraVeのフケ予防保湿シャンプーの無料試供品",
     "when": "",
-    "cond": "",
+    "cond": "数量限定",
     "what": "無料サンプル",
     "where": "オンライン"
    },
@@ -3277,11 +3277,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "写真プリント100枚",
-   "jaVia": "gemini",
+   "ja": "写真プリント100枚が無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Shutterfly",
-    "item": "写真プリント100枚",
+    "item": "写真プリント100枚が無料",
     "when": "",
     "cond": "",
     "what": "無料写真印刷",
@@ -3314,11 +3314,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "古いジュエリーの活用裏技",
-   "jaVia": "gemini",
+   "ja": "古いジュエリーの査定に使える無料の裏技アプリ",
+   "jaVia": "claude",
    "sum": {
     "store": "",
-    "item": "古いジュエリーの活用裏技",
+    "item": "古いジュエリーの査定に使える無料の裏技アプリ",
     "when": "",
     "cond": "",
     "what": "無料の裏技",
@@ -3489,11 +3489,11 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "写真101枚印刷＋フォトギフト5点",
-   "jaVia": "gemini",
+   "ja": "写真101枚の無料プリント＋フォトギフト5点",
+   "jaVia": "claude",
    "sum": {
     "store": "Shutterfly",
-    "item": "写真101枚印刷＋フォトギフト5点",
+    "item": "写真101枚の無料プリント＋フォトギフト5点",
     "when": "",
     "cond": "",
     "what": "無料プリント",
@@ -3639,12 +3639,12 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "風邪シーズン用ポーチ",
-   "jaVia": "gemini",
+   "ja": "10/31、Target で風邪シーズン用ポーチを無料配布",
+   "jaVia": "claude",
    "sum": {
     "store": "Target",
-    "item": "風邪シーズン用ポーチ",
-    "when": "10/31",
+    "item": "10/31、Target で風邪シーズン用ポーチを無料配布",
+    "when": "10/31(土)",
     "cond": "",
     "what": "無料ポーチ",
     "where": "Target"
@@ -4470,12 +4470,12 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "ポケモンブースターパック",
-   "jaVia": "gemini",
+   "ja": "10/31限定、Pokéween来店でブースターパック無料",
+   "jaVia": "claude",
    "sum": {
     "store": "GameStop",
-    "item": "ポケモンブースターパック",
-    "when": "10/31",
+    "item": "10/31限定、Pokéween来店でブースターパック無料",
+    "when": "10/31(土)",
     "cond": "来店",
     "what": "無料ポケカ",
     "where": "GameStop"
@@ -5237,12 +5237,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "街中の音楽・アート・体験の月例イベント",
-    "when": "11/6(金)",
+    "item": "毎月第1金曜の歴史地区の音楽・アートイベント",
+    "when": "11/6(金)・毎月",
     "what": "ファーストフライデー",
-    "where": "Downtown Bryan"
+    "where": "Historic Downt…",
+    "cond": "毎月開催"
    },
-   "ja": "街中の音楽・アート・体験の月例イベント",
+   "ja": "毎月第1金曜の歴史地区の音楽・アートイベント",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -15763,13 +15764,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Humane Society",
-    "item": "動物保護施設でのトランクオアトリート",
+    "item": "動物保護団体のトランクオアトリート",
     "when": "10/30(金)",
     "cond": "子供向け",
     "what": "トランクオアトリート",
     "where": "Aggieland Huma…"
    },
-   "ja": "動物保護施設でのトランクオアトリート",
+   "ja": "動物保護団体のトランクオアトリート",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -15808,9 +15809,9 @@
     "store": "Clara B. Mounce Library",
     "item": "図書館の小さな子向けハロウィンカーニバル",
     "when": "10/31(土)",
-    "cond": "子供向け",
-    "what": "小さな子向けハロウ…",
-    "where": "Mounce Library"
+    "cond": "小さな子向け",
+    "what": "ハロウィン縁日",
+    "where": "Clara B. Mounc…"
    },
    "ja": "図書館の小さな子向けハロウィンカーニバル",
    "jaVia": "claude-ev",
@@ -15849,13 +15850,13 @@
    "eventNews": false,
    "sum": {
     "store": "Happy Feet Skating Rink",
-    "item": "仮装してローラースケートを楽しむ会",
+    "item": "ローラースケートのハロウィン仮装パーティー",
     "when": "10/30(金)",
-    "cond": "仮装して参加",
-    "what": "ハロウィン滑走会",
-    "where": "Happy Feet"
+    "cond": "仮装・要確認",
+    "what": "ハロウィン仮装スケ…",
+    "where": "Happy Feet Ska…"
    },
-   "ja": "仮装してローラースケートを楽しむ会",
+   "ja": "ローラースケートのハロウィン仮装パーティー",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -15892,13 +15893,13 @@
    "eventNews": false,
    "sum": {
     "store": "Rudder Theater",
-    "item": "人形劇「Fraggle Rock」のライブ公演",
-    "when": "10/30(金)・10/31(土)",
-    "cond": "チケット要",
+    "item": "人形劇 Fraggle Rock のライブ公演(OPAS)",
+    "when": "10/30(金)・10/31(土)マチネ",
+    "cond": "家族向け・要チケット",
     "what": "Fraggle R…",
     "where": "Rudder Theater"
    },
-   "ja": "人形劇「Fraggle Rock」のライブ公演",
+   "ja": "人形劇 Fraggle Rock のライブ公演(OPAS)",
    "jaVia": "claude-ev",
    "date": "2026-10-30",
    "freebie": null
@@ -15910,7 +15911,7 @@
    "source": "Destination Bryan",
    "posted": "2026-10-27T11:44Z",
    "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-11-07",
+   "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -15930,13 +15931,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "毎週土曜の地元ファーマーズマーケット",
-    "when": "毎週土曜",
-    "cond": "毎週土曜",
+    "item": "毎週土曜の地元農産物マーケット(Midtown Park)",
+    "when": "毎週土曜 10/31〜",
+    "cond": "屋外マーケット",
     "what": "ファーマーズマーケ…",
     "where": "Midtown Park"
    },
-   "ja": "毎週土曜の地元ファーマーズマーケット",
+   "ja": "毎週土曜の地元農産物マーケット(Midtown Park)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -15973,13 +15974,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "日曜開催のRountreeマーケット",
+    "item": "日曜の屋外マーケット(Rountree Market)",
     "when": "11/1(日)",
-    "cond": "毎週日曜",
+    "cond": "屋外マーケット",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "日曜開催のRountreeマーケット",
+   "ja": "日曜の屋外マーケット(Rountree Market)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -16960,7 +16961,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-29",
+   "localDate": "2026-10-30",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -16975,14 +16976,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "George H.W. Bush Library",
-    "item": "ブッシュ大統領図書館・博物館の展示",
-    "when": "10/29〜2027/5/16",
-    "what": "米国の歴史展示",
-    "where": "George Bush Lib",
-    "cond": "期間限定展示"
+    "store": "George H.W. Bush Presidential…",
+    "item": "アメリカ史をテーマにした大統領図書館の特別展示",
+    "when": "10/30〜2027/5/16",
+    "what": "博物館の展示",
+    "where": "G.H.W.ブッシュ図書館",
+    "cond": "入館料は要確認"
    },
-   "ja": "ブッシュ大統領図書館・博物館の展示",
+   "ja": "アメリカ史をテーマにした大統領図書館の特別展示",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -17002,7 +17003,7 @@
    "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-29",
+   "localDate": "2026-10-30",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -17018,13 +17019,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "湖沿いのパンプキン畑。秋の写真にも",
-    "cond": "子供向け",
+    "item": "湖畔の公園のパンプキン畑。屋外でお出かけに",
+    "cond": "屋外・子供向け",
     "what": "パンプキン畑",
     "where": "Lake Walk",
-    "when": "10/29(木)〜10/31(土)"
+    "when": "10/30(金)〜10/31(土)"
    },
-   "ja": "湖沿いのパンプキン畑。秋の写真にも",
+   "ja": "湖畔の公園のパンプキン畑。屋外でお出かけに",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -17044,7 +17045,7 @@
    "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-29",
+   "localDate": "2026-10-30",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -17060,13 +17061,13 @@
    "eventNews": false,
    "sum": {
     "store": "Habitat for Humanity",
-    "item": "Habitat for Humanity主催のパンプキン畑",
-    "cond": "子供向け",
+    "item": "Habitat for Humanity 主催のパンプキン畑",
+    "cond": "屋外・子供向け",
     "what": "パンプキン畑",
-    "where": "E 29th St",
-    "when": "10/29(木)〜10/31(土)"
+    "where": "Habitat 会場(E 2…",
+    "when": "10/30(金)〜10/31(土)"
    },
-   "ja": "Habitat for Humanity主催のパンプキン畑",
+   "ja": "Habitat for Humanity 主催のパンプキン畑",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -17145,13 +17146,13 @@
    "eventNews": false,
    "sum": {
     "store": "Bryan High School",
-    "item": "子供向けのトランクオアトリート。食事支援も",
+    "item": "子供向けのトランクオアトリート(Bryan High School)",
     "when": "10/31(土) 10時",
     "cond": "子供向け",
     "what": "トランクオアトリート",
-    "where": "Bryan High Sch"
+    "where": "Bryan High Sch…"
    },
-   "ja": "子供向けのトランクオアトリート。食事支援も",
+   "ja": "子供向けのトランクオアトリート(Bryan High School)",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -41987,6 +41988,88 @@
    "date": "2026-10-31",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "d025729bc21e",
+   "title": "Fall Book Sale at Clara B. Mounce Library",
+   "link": "https://www.destinationbryan.com/events/bryan-college-station-friends-of-the-library-fall-book-sale-saturday/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-30T11:43Z",
+   "firstSeen": "2026-10-30T11:43Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Clara B. Mounce Library",
+    "item": "図書館の友の会による秋の古本セール",
+    "when": "11/7(土)",
+    "cond": "子供向けの本も(要確認)",
+    "what": "古本セール",
+    "where": "Clara B. Mounc…"
+   },
+   "ja": "図書館の友の会による秋の古本セール",
+   "jaVia": "claude-ev",
+   "outing": [
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-11-07"
+  },
+  {
+   "id": "a2e0d4e94c65",
+   "title": "History in Motion at The Museum of the American G.I.",
+   "link": "https://www.destinationbryan.com/events/history-in-motion-museum-of-american-gi/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-30T11:43Z",
+   "firstSeen": "2026-10-30T11:43Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Museum of the American G.I.",
+    "item": "アメリカ軍の歴史博物館でのイベント",
+    "when": "11/7(土)",
+    "cond": "博物館",
+    "what": "博物館の催し",
+    "where": "American G.I.博…"
+   },
+   "ja": "アメリカ軍の歴史博物館でのイベント",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07"
   }
  ]
 }
