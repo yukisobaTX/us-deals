@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30T09:06Z",
- "count": 1222,
+ "updated": "2026-10-30T10:02Z",
+ "count": 1223,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,47 @@
   "ja": {
    "gemini": 11,
    "geminiEvent": 0,
-   "mymemory": 2,
-   "geminiToday": 6,
+   "mymemory": 1,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "a190eaa1910f",
+   "title": "Bose QuietComfort ANC Headphones Only $169 on Amazon (Reg. $359)",
+   "link": "https://thefreebieguy.com/bose-headphones/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T09:55Z",
+   "firstSeen": "2026-10-30T10:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/bose-headphones-pink-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 169.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bose QuietComfort ANCヘッドホンがAmazonでわずか169ドル（通常価格359ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Bose QuietComfort ANCヘッドホンがAmazonでわずか169ドル（通常価格359ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "91480f4856bd",
    "title": "Apple AirTag (2nd Generation) 4-Pack Only $69.xx on Amazon (Reg $99)",
