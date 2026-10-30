@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T23:49Z",
- "count": 1214,
+ "updated": "2026-10-30T01:15Z",
+ "count": 1219,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -57,13 +57,210 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 16,
+   "mymemory": 1,
    "geminiToday": 16,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "7ce48c5ab576",
+   "title": "Your Laundry Just Got a Holiday Makeover! Gain Grinchmas Cheer Is on Sale at Amazon",
+   "link": "https://hip2save.com/deals/grinch-gain/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T01:00Z",
+   "firstSeen": "2026-10-30T01:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Gain-Grinchmas-Cheer.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1b48b04bea01",
+   "title": "Enterprise ‘Plus Your Points’ Promotion 2026 (Free Points)",
+   "link": "https://www.doctorofcredit.com/enterprise-plus-your-points-promotion-2023-free-points/",
+   "source": "Doctor of Credit",
+   "posted": "2026-10-30T01:00Z",
+   "firstSeen": "2026-10-30T01:15Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2024/12/enterprise-1024x342.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "2026年エンタープライズ「Plus Your Points」プロモーション（無料ポイント）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "2026年エンタープライズ「Plus Your Points」プロモーション（無料ポイント）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a4af332d0a55",
+   "title": "Cottonelle Ultra Soft Toilet Paper 32 Family Mega Rolls as low as $22.xx on Amazon (Reg. $35)",
+   "link": "https://thefreebieguy.com/cottonelle-toilet-paper-32-family-rolls/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T00:13Z",
+   "firstSeen": "2026-10-30T01:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Cottonelle-Toilet-Paper-32-Family-Mega-Rolls-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 37,
+   "price": 22.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "a4daabafc846",
+   "date": null
+  },
+  {
+   "id": "8df80526f3e9",
+   "title": "Brawny Tear-A-Square 6 Double Rolls 3-Ply Paper Towels Only $10.xx on Amazon",
+   "link": "https://thefreebieguy.com/brawny-paper-towels/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T00:12Z",
+   "firstSeen": "2026-10-30T01:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/6-rolls-Brawny-double-rolls-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "b406734ead27",
+   "date": null
+  },
+  {
+   "id": "97a749e9ee37",
+   "title": "Huge Walmart Furniture Sale | Prices from $20.xx",
+   "link": "https://thefreebieguy.com/huge-walmart-furniture-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T00:10Z",
+   "firstSeen": "2026-10-30T01:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Walmart-Furniture-Clearance-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e0705a8a1051",
+   "title": "Neutrogena Hydro Boost Body Gel Cream Only $6.xx on Amazon (Reg $16)",
+   "link": "https://thefreebieguy.com/neutrogena-hydro-boost-body-gel-cream/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T00:09Z",
+   "firstSeen": "2026-10-30T01:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Neutrogena-Hydro-Boost-Body-Gel-Cream-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "37c43a1c956d",
    "title": "Bestier Makeup Vanity Set with Mirror and Lights Only $119.xx on Walmart (Reg $200)",
@@ -1224,6 +1421,39 @@
    "sum": {
     "store": "Amazon",
     "item": "PlayStation ® 5とXBox Series Xの「ボーダーランズ4」はAmazonでわずか$ 18.xx （登録価格$ 50 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "49576c565a38",
+   "title": "Lululemon Fast and Free High-Rise Thermal Tights with Pockets for only $49 shipped (Reg. $148), plus more!",
+   "link": "https://moneysavingmom.com/lululemon-thermal-high-rise-running-tight-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-29T19:31Z",
+   "firstSeen": "2026-10-30T01:15Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Lululemon-Thermal-High-Rise-Running-Tight.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 67,
+   "price": 49.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Pockets",
+    "item": "",
     "when": "",
     "cond": ""
    },
@@ -37231,37 +37461,6 @@
    }
   },
   {
-   "id": "047cc876d53f",
-   "title": "Get $10 Back on Gas, Groceries & Dining Out w/ the Free Upside App!",
-   "link": "https://hip2save.com/deals/upside-promo-code/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T00:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "無料のUpsideアプリで、ガソリン、食料品、外食を$ 10でゲット！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "無料のUpsideアプリで、ガソリン、食料品、外食を$ 10でゲット！",
-    "when": "",
-    "cond": "アプリ"
-   }
-  },
-  {
    "id": "3aa9b5b4ad45",
    "title": "Lysol Laundry Sanitizer Just $8.43 Shipped on Amazon",
    "link": "https://hip2save.com/deals/lysol-laundry-sanitizer/",
@@ -37359,41 +37558,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "e4dafd6efa82",
-   "title": "WOW! Sam’s Club Plus Includes FREE Walmart+ Membership (+ See If They Owe You a Refund!)",
-   "link": "https://hip2save.com/deals/sams-club-plus-membership/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T00:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Walmart",
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "うわー！ Sam's Club Plusには、無料のウォルマートとメンバーシップが含まれています（返金が必要かどうかを確認してください！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart・Sam's Club",
-    "item": "うわー！ Sam's Club Plusには、無料のウォルマートとメンバーシップが含まれています（返金が必要かどうかを確認してください！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Sams-Club-Plus-Walmart-Delivery.jpg?resize=306,182"
   },
   {
    "id": "e21b1059f5a1",
@@ -40917,7 +41081,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Burger-Wrapping-Paper-Set.jpg?resize=306,182"
   },
   {
    "id": "0d6f682b68d8",
