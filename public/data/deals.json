@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T10:56Z",
- "count": 1228,
+ "updated": "2026-10-30T11:54Z",
+ "count": 1234,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,298 @@
    "added": 0
   },
   "ja": {
-   "gemini": 11,
+   "gemini": 13,
    "geminiEvent": 0,
-   "mymemory": 3,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest"
+   "mymemory": 0,
+   "geminiToday": 9,
+   "model": "gemini-flash-latest",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f2354643d212",
+   "title": "Apply Now for the Free Cuddle Clones Pajama Sampling Program!",
+   "link": "https://thefreebieguy.com/apply-now-for-the-free-cuddle-clones-pajama-sampling-program/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T11:52Z",
+   "firstSeen": "2026-10-30T11:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Cuddle-Clonies-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Cuddle Clones",
+    "item": "パジャマの無料サンプル",
+    "cond": "要応募",
+    "what": "無料パジャマ",
+    "where": "オンライン"
+   },
+   "ja": "パジャマの無料サンプル",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "e4585d7c2aef",
+   "title": "The Home Depot Early Black Friday Sale 2026 AD Scan Released!",
+   "link": "https://thefreebieguy.com/home-depot-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T11:50Z",
+   "firstSeen": "2026-10-30T11:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2020/11/Home-Depot-Exterior-1024x538.jpg",
+   "hot": false,
+   "stores": [
+    "Home Depot"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "sum": {
+    "store": "The Home Depot",
+    "item": "先行ブラックフライデーセール",
+    "what": "BFセール",
+    "where": "The Home Depot"
+   },
+   "ja": "先行ブラックフライデーセール",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "d025729bc21e",
+   "title": "Fall Book Sale at Clara B. Mounce Library",
+   "link": "https://www.destinationbryan.com/events/bryan-college-station-friends-of-the-library-fall-book-sale-saturday/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-30T11:43Z",
+   "firstSeen": "2026-10-30T11:43Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Clara B. Mounce Library",
+    "item": "図書館の友の会による秋の古本セール",
+    "when": "11/7(土)",
+    "cond": "子供向けの本も(要確認)",
+    "what": "古本セール",
+    "where": "Clara B. Mounc…"
+   },
+   "ja": "図書館の友の会による秋の古本セール",
+   "jaVia": "claude-ev",
+   "outing": [
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-11-07",
+   "freebie": null
+  },
+  {
+   "id": "a2e0d4e94c65",
+   "title": "History in Motion at The Museum of the American G.I.",
+   "link": "https://www.destinationbryan.com/events/history-in-motion-museum-of-american-gi/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-30T11:43Z",
+   "firstSeen": "2026-10-30T11:43Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Museum of the American G.I.",
+    "item": "アメリカ軍の歴史博物館でのイベント",
+    "when": "11/7(土)",
+    "cond": "博物館",
+    "what": "博物館の催し",
+    "where": "American G.I.博…"
+   },
+   "ja": "アメリカ軍の歴史博物館でのイベント",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07",
+   "freebie": null
+  },
+  {
+   "id": "901bc809055a",
+   "title": "Restocked! Jumbo Strawberry Squishy Only $5.xx on Amazon",
+   "link": "https://thefreebieguy.com/sunny-days-strawberry-squishy/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T11:16Z",
+   "firstSeen": "2026-10-30T11:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Strawberry-Squish-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ca0bfc614f85",
+   "title": "Red Robin Deals | Free Kids Sundae, Free Meal for Veterans & More!",
+   "link": "https://thefreebieguy.com/red-robin-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T11:15Z",
+   "firstSeen": "2026-10-30T11:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Red-Robin-Big-Yummm-Deals-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Red Robin"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Red Robin",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "cfc06a9d6968",
+   "title": "Insulated Lunch Bag Just $4.95 on Amazon (Reg. $16) – Today Only",
+   "link": "https://hip2save.com/deals/amazon-lunch-bag/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T11:11Z",
+   "firstSeen": "2026-10-30T11:54Z",
+   "expires": "2026-10-30",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lifewit-Cooler.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 69,
+   "price": 4.95,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "10/30(金)まで",
+    "cond": ""
+   },
+   "date": "2026-10-30"
+  },
+  {
+   "id": "01fea48a80d2",
+   "title": "Gold Bond Plumping Collagen Body & Face Lotion Only $1.63 at Target (Reg $12)",
+   "link": "https://thefreebieguy.com/gold-bond-collagen-lotion/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T11:10Z",
+   "firstSeen": "2026-10-30T11:54Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/goldbond-collagen-840x630.png",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 86,
+   "price": 1.63,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "bc6a17ace9c2",
    "title": "Apple AirPods 5 with Wireless Charging Case Only $149 on Walmart",
@@ -16988,7 +17271,7 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -17030,7 +17313,7 @@
    "outing": [
     "公園・屋外"
    ],
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -17072,7 +17355,7 @@
    "outing": [
     "公園・屋外"
    ],
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -34423,7 +34706,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2020/07/CVS-Basket-Grocery.jpg?resize=306,182"
   },
   {
    "id": "b0c4839c97aa",
@@ -40815,7 +41099,8 @@
    },
    "date": "2026-10-31",
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Boorito.jpg?resize=306,182"
   },
   {
    "id": "e9e49d56b41c",
@@ -41988,88 +42273,6 @@
    "date": "2026-10-31",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "d025729bc21e",
-   "title": "Fall Book Sale at Clara B. Mounce Library",
-   "link": "https://www.destinationbryan.com/events/bryan-college-station-friends-of-the-library-fall-book-sale-saturday/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-30T11:43Z",
-   "firstSeen": "2026-10-30T11:43Z",
-   "expires": "2026-11-07",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Clara B. Mounce Library",
-    "item": "図書館の友の会による秋の古本セール",
-    "when": "11/7(土)",
-    "cond": "子供向けの本も(要確認)",
-    "what": "古本セール",
-    "where": "Clara B. Mounc…"
-   },
-   "ja": "図書館の友の会による秋の古本セール",
-   "jaVia": "claude-ev",
-   "outing": [
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-11-07"
-  },
-  {
-   "id": "a2e0d4e94c65",
-   "title": "History in Motion at The Museum of the American G.I.",
-   "link": "https://www.destinationbryan.com/events/history-in-motion-museum-of-american-gi/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-30T11:43Z",
-   "firstSeen": "2026-10-30T11:43Z",
-   "expires": "2026-11-07",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Museum of the American G.I.",
-    "item": "アメリカ軍の歴史博物館でのイベント",
-    "when": "11/7(土)",
-    "cond": "博物館",
-    "what": "博物館の催し",
-    "where": "American G.I.博…"
-   },
-   "ja": "アメリカ軍の歴史博物館でのイベント",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-07"
   }
  ]
 }
