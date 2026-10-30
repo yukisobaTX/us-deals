@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T03:59Z",
- "count": 1220,
+ "updated": "2026-10-30T04:59Z",
+ "count": 1221,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 0,
+   "read": 25,
    "added": 0
   },
   "mnn": {
@@ -62,10 +62,40 @@
    "model": "gemini-flash-latest"
   }
  },
- "errors": [
-  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: HTTP Error 522: <none>"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "fb50d9860ee3",
+   "title": "Halloween Party Treats Made Easy! Sam’s Club Bakery Goodies from $8.92",
+   "link": "https://hip2save.com/deals/sams-club-bakery/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T04:00Z",
+   "firstSeen": "2026-10-30T04:59Z",
+   "expires": "2026-10-31",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/sams-club-halloween-cut-out-cookies.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Sam's Club",
+    "item": "",
+    "when": "10/31(土)まで",
+    "cond": ""
+   },
+   "date": "2026-10-31"
+  },
   {
    "id": "b11c59961a51",
    "title": "Amazon Grocery Cookies Just $1.25 Shipped",
