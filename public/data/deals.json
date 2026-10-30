@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30T10:02Z",
- "count": 1223,
+ "updated": "2026-10-30T10:56Z",
+ "count": 1226,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,115 @@
   "ja": {
    "gemini": 11,
    "geminiEvent": 0,
-   "mymemory": 1,
-   "geminiToday": 7,
+   "mymemory": 3,
+   "geminiToday": 8,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "bc6a17ace9c2",
+   "title": "Apple AirPods 5 with Wireless Charging Case Only $149 on Walmart",
+   "link": "https://thefreebieguy.com/apple-airpods/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T10:50Z",
+   "firstSeen": "2026-10-30T10:56Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/apple-AirPods-preorder-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Apple AirPods 5ワイヤレス充電ケース付きウォルマートでわずか$ 149",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Apple AirPods 5ワイヤレス充電ケース付きウォルマートでわずか$ 149",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "159f2655f68d",
+   "title": "Apple 2026 MacBook Air M5 13 Inch Laptop Only $1099 Shipped (Reg. $1299)",
+   "link": "https://thefreebieguy.com/apple-macbook-air/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T10:40Z",
+   "firstSeen": "2026-10-30T10:56Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Apple-2026-MacBook-Air-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 15,
+   "price": 1099.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Apple 2026 MacBook Air M 5 13インチノートパソコンのみ$ 1099発送（登録価格$ 1299 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Apple 2026 MacBook Air M 5 13インチノートパソコンのみ$ 1099発送（登録価格$ 1299 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f57b3855058a",
+   "title": "Glad ForceFlex MaxStrength Trash Bags, 13 Gal, 90 Ct Only $11.xx (Reg $22)",
+   "link": "https://thefreebieguy.com/glad-forceflex-maxstrength-trash-bags/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T10:27Z",
+   "firstSeen": "2026-10-30T10:56Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/05/Glad-ForceFlex-MaxStrength-Tall-Kitchen-Trash-Bags-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Glad ForceFlex MaxStrengthゴミ袋、13ガロン、90カラットのみ$ 11.xx （登録$ 22 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Glad ForceFlex MaxStrengthゴミ袋、13ガロン、90カラットのみ$ 11.xx （登録$ 22 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "a190eaa1910f",
    "title": "Bose QuietComfort ANC Headphones Only $169 on Amazon (Reg. $359)",
