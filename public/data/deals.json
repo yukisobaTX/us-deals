@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30T05:57Z",
- "count": 1219,
+ "updated": "2026-10-30T07:13Z",
+ "count": 1220,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -55,12 +55,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 25,
-   "geminiEvent": 0,
-   "mymemory": 11,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "gemini": 12,
+   "geminiEvent": 2,
+   "mymemory": 0,
+   "geminiToday": 4,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -512,6 +511,43 @@
     "when": "",
     "cond": ""
    },
+   "date": null
+  },
+  {
+   "id": "d8eb1200a98b",
+   "title": "Krispy Kreme Deals | Free Original Glazed Doughnut, Jack’s Treat Dozen Pass, & More!",
+   "link": "https://thefreebieguy.com/krispy-kreme-coupons-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-29T22:45Z",
+   "firstSeen": "2026-10-30T07:13Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Krispy-Kreme-All-Jacked-Up-Dozen-thefreebieguy--840x630.png",
+   "hot": true,
+   "stores": [
+    "Krispy Kreme"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Krispy Kreme",
+    "item": "オリジナルグレーズド等",
+    "what": "無料ドーナツ",
+    "where": "Krispy Kreme"
+   },
+   "ja": "オリジナルグレーズド等",
+   "jaVia": "gemini",
    "date": null
   },
   {
@@ -2623,13 +2659,15 @@
    "family": true,
    "localDate": "2026-11-06",
    "freebie": null,
-   "ja": "11月6日～ 8日の「図書館の友」本セールで次の素晴らしい本を見つけよう",
-   "jaVia": "mymemory",
+   "ja": "図書館友の会の秋の古本市",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "11月6日～ 8日の「図書館の友」本セールで次の素晴らしい本を見つけよう",
-    "when": "11/6(金)",
-    "cond": ""
+    "store": "Clara B. Mounce Public Library",
+    "item": "図書館友の会の秋の古本市",
+    "when": "11/6(金)〜11/8(日)",
+    "cond": "",
+    "what": "古本セール",
+    "where": "Mounce図書館"
    },
    "date": "2026-11-06",
    "dup": "e22d0dc04461"
@@ -3357,15 +3395,17 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
-   "jaVia": "mymemory",
+   "ja": "缶詰寄付のハロウィン「Trunk or Treat」",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
-    "when": "",
-    "cond": ""
+    "store": "Bryan High School",
+    "item": "缶詰寄付のハロウィン「Trunk or Treat」",
+    "when": "10/31(土) 10〜13時",
+    "cond": "缶詰5個持参・家族向け",
+    "what": "ハロウィン祭",
+    "where": "Bryan高校"
    },
-   "date": null,
+   "date": "2026-10-31",
    "dup": "5eff440e9464"
   },
   {
