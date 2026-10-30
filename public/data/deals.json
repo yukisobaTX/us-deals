@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T01:15Z",
- "count": 1219,
+ "updated": "2026-10-30T02:10Z",
+ "count": 1220,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,78 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 1,
+   "mymemory": 0,
    "geminiToday": 16,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "b11c59961a51",
+   "title": "Amazon Grocery Cookies Just $1.25 Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-cookies/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T02:00Z",
+   "firstSeen": "2026-10-30T02:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Amazon-Grocery-Vanilla-Sandwich-Cookies.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "4373355d7b6c",
+   "date": null
+  },
+  {
+   "id": "6ce68115ad4a",
+   "title": "Bleach Tablets 32-Count Only $4.34 Shipped on Amazon (Reg. $9)",
+   "link": "https://hip2save.com/deals/amaze-bleach-tablets/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T01:40Z",
+   "firstSeen": "2026-10-30T02:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/amaze-bleach-tablets-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": 4.34,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "7ce48c5ab576",
    "title": "Your Laundry Just Got a Holiday Makeover! Gain Grinchmas Cheer Is on Sale at Amazon",
@@ -161,8 +226,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "a4daabafc846",
-   "date": null
+   "date": null,
+   "dup": "a4daabafc846"
   },
   {
    "id": "8df80526f3e9",
@@ -194,8 +259,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "b406734ead27",
-   "date": null
+   "date": null,
+   "dup": "b406734ead27"
   },
   {
    "id": "97a749e9ee37",
@@ -37224,39 +37289,6 @@
    "sum": {
     "store": "Amazon",
     "item": "マルチツールペンAmazonで$ 4.99のみ（登録番号： $ 10 ）|ドライバー、スタイラスなど",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "ce9eae42a24c",
-   "title": "Buy 1, Get 1 FREE Oscar Mayer Hot Dogs After Walmart Cash",
-   "link": "https://hip2save.com/deals/walmart-oscar-mayer/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T02:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "ウォルマートキャッシュ後、オスカーメイヤーホットドッグを1個購入して1個無料でゲット",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートキャッシュ後、オスカーメイヤーホットドッグを1個購入して1個無料でゲット",
     "when": "",
     "cond": ""
    }
