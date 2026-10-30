@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T02:10Z",
+ "updated": "2026-10-30T02:59Z",
  "count": 1220,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 25,
+   "read": 0,
    "added": 0
   },
   "mnn": {
@@ -62,7 +62,9 @@
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: The read operation timed out"
+ ],
  "items": [
   {
    "id": "b11c59961a51",
@@ -94,8 +96,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4373355d7b6c",
-   "date": null
+   "date": null,
+   "dup": "4373355d7b6c"
   },
   {
    "id": "6ce68115ad4a",
@@ -35536,7 +35538,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/ONN-HD-Smart-TV.jpg?resize=306,182"
   },
   {
    "id": "f7144496b620",
