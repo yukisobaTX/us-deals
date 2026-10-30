@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T11:54Z",
- "count": 1234,
+ "updated": "2026-10-30T12:50Z",
+ "count": 1240,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 3
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,266 @@
   "ja": {
    "gemini": 13,
    "geminiEvent": 0,
-   "mymemory": 0,
-   "geminiToday": 9,
-   "model": "gemini-flash-latest",
-   "mymemoryError": "HTTP Error 429: Too Many Requests"
+   "mymemory": 9,
+   "geminiToday": 10,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f6ee3c12d454",
+   "title": "Owala Sale on Amazon! Tumblers Starting at $19",
+   "link": "https://thefreebieguy.com/rare-owala-discount-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T12:43Z",
+   "firstSeen": "2026-10-30T12:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Owala-Tumblers-2-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでオワラセール！タンブラーは$ 19から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでオワラセール！タンブラーは$ 19から",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4e7dec5f5f38",
+   "title": "LEGO Christmas Table Decoration Building Toy Only $23.xx on Amazon (Reg $40)",
+   "link": "https://thefreebieguy.com/lego-christmas-table-decoration/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T12:37Z",
+   "firstSeen": "2026-10-30T12:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/LEGO-Christmas-Table-Decoration-Building-Toy-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 23.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レゴクリスマステーブルデコレーション建物おもちゃのみ$ 23.xxアマゾン（登録$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レゴクリスマステーブルデコレーション建物おもちゃのみ$ 23.xxアマゾン（登録$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "b5ddbe4303c8",
+   "date": null
+  },
+  {
+   "id": "b3d9d15819a4",
+   "title": "FREE Original Doughnut at Krispy Kreme on October 30th-31st!",
+   "link": "https://moneysavingmom.com/free-doughnut-at-krispy-kreme/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T12:33Z",
+   "firstSeen": "2026-10-30T12:50Z",
+   "expires": "2026-10-30",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-14-at-9.54.08-AM-edited.png",
+   "hot": true,
+   "stores": [
+    "Krispy Kreme"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-10-30"
+   },
+   "sum": {
+    "store": "Krispy Kreme",
+    "item": "オリジナルドーナツ1個",
+    "when": "10/30〜10/31",
+    "what": "無料ドーナツ",
+    "where": "Krispy Kreme"
+   },
+   "ja": "オリジナルドーナツ1個",
+   "jaVia": "gemini",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "751fc14fd52a",
+   "title": "Gift Card Hack: Score $20 CVS ExtraBucks on Chipotle, Wayfair & More (Starts 11/1)",
+   "link": "https://hip2save.com/deals/cvs-gift-cards/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T12:30Z",
+   "firstSeen": "2026-10-30T12:50Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/05/Chipotle-Gift-Cards.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "CVS",
+    "Chipotle"
+   ],
+   "cats": [
+    "home",
+    "food"
+   ],
+   "types": [
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ギフトカードハック： Chipotle、Wayfairなどで$ 20 CVS ExtraBucksを獲得（ 11月1日開始）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "CVS・Chipotle",
+    "item": "ギフトカードハック： Chipotle、Wayfairなどで$ 20 CVS ExtraBucksを獲得（ 11月1日開始）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9ef28651ceba",
+   "title": "*HOT* Portable Bluetooth Speaker only $19.40 (Reg. $80!)",
+   "link": "https://moneysavingmom.com/hot-portable-bluetooth-speaker-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T12:09Z",
+   "firstSeen": "2026-10-30T12:50Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Portable-Bluetooth-Speaker-630x426.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 76,
+   "price": 19.4,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT *ポータブルBluetoothスピーカーのみ$ 19.40 （登録価格$ 80 ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "* HOT *ポータブルBluetoothスピーカーのみ$ 19.40 （登録価格$ 80 ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "fa532605a052",
+   "title": "Women’s Christmas Sweater only $14.84!",
+   "link": "https://moneysavingmom.com/womens-christmas-sweater-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T12:05Z",
+   "firstSeen": "2026-10-30T12:50Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Sweater-1-630x580.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レディースクリスマスセーターはわずか$ 14.84 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディースクリスマスセーターはわずか$ 14.84 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "aec907444d9a",
+   "title": "November’s Hottest Sales & Freebies | Black Friday Deals, FREE Turkeys + Much More!",
+   "link": "https://hip2save.com/deals/november-sales/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T11:53Z",
+   "firstSeen": "2026-10-30T12:50Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/black-friday-sales.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walmart",
+    "Sam's Club",
+    "Home Depot",
+    "Lowe's",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "home",
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "item": "七面鳥やBFセール品各種",
+    "when": "11月",
+    "what": "11月セール情報"
+   },
+   "ja": "七面鳥やBFセール品各種",
+   "jaVia": "gemini",
+   "date": null
+  },
   {
    "id": "f2354643d212",
    "title": "Apply Now for the Free Cuddle Clones Pajama Sampling Program!",
@@ -243,13 +495,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "再入荷！ジャンボストロベリースクイッシーAmazonでたったの$ 5.xx",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "再入荷！ジャンボストロベリースクイッシーAmazonでたったの$ 5.xx",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ca0bfc614f85",
@@ -275,13 +529,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レッドロビンのセール|無料キッズサンデー、退役軍人のための無料食事など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Red Robin",
-    "item": "",
+    "item": "レッドロビンのセール|無料キッズサンデー、退役軍人のための無料食事など！",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "cfc06a9d6968",
@@ -307,13 +563,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-10-30",
+   "ja": "断熱ランチバッグAmazonでたったの$ 4.95 （登録番号： $ 16 ） –本日限定",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "断熱ランチバッグAmazonでたったの$ 4.95 （登録番号： $ 16 ） –本日限定",
     "when": "10/30(金)まで",
     "cond": ""
-   },
-   "date": "2026-10-30"
+   }
   },
   {
    "id": "01fea48a80d2",
@@ -339,13 +597,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ゴールドボンドプランピングコラーゲンボディ＆フェイスローションターゲットで$ 1.63のみ（登録$ 12 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ゴールドボンドプランピングコラーゲンボディ＆フェイスローションターゲットで$ 1.63のみ（登録$ 12 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bc6a17ace9c2",
@@ -34469,7 +34729,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/maybelline-eyeshadow.jpg?resize=306,182"
   },
   {
    "id": "ad5abae33e32",
@@ -37534,39 +37795,6 @@
    "sum": {
     "store": "Amazon",
     "item": "最終日！アマゾンでわずか$ 9.99の猫型メイクバッグ（ Purr - fectギフトのアイデア！ ）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "89ffca7214d4",
-   "title": "TWO FREE Downy Unstopables Wrinkle Release Sprays After Cash Back at Walmart",
-   "link": "https://hip2save.com/deals/downy-unstopables/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T12:01Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "ウォルマートでキャッシュバック後の2つの無料ダウニーアンストッパブルリリーススプレー",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートでキャッシュバック後の2つの無料ダウニーアンストッパブルリリーススプレー",
     "when": "",
     "cond": ""
    }
