@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T14:11Z",
- "count": 1263,
+ "updated": "2026-10-30T15:06Z",
+ "count": 1281,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 9
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 3
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,642 @@
    "added": 0
   },
   "ja": {
-   "gemini": 14,
+   "gemini": 15,
    "geminiEvent": 0,
-   "mymemory": 5,
-   "geminiToday": 13,
+   "mymemory": 16,
+   "geminiToday": 14,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "eb53831f9df6",
+   "title": "Glade Automatic Spray Holder Air Freshener Spray 10.2 oz Just $1.27 After Walmart Cash Back (Reg. $8)",
+   "link": "https://thefreebieguy.com/glade-automatic-spray-holder-air-freshener-spray/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T15:07Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Glade-Automatic-Spray-Holder-Battery-Operated-Air-Freshener-Spray-840x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 84,
+   "price": 1.27,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Glade自動スプレーホルダー芳香剤スプレー10.2オンスウォルマートキャッシュバック後わずか$ 1.27 (Reg. $ 8)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "Glade自動スプレーホルダー芳香剤スプレー10.2オンスウォルマートキャッシュバック後わずか$ 1.27 (Reg. $ 8)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5bc7b92d82bc",
+   "title": "Wooden Coaster & Trivet Trees from $9.99 on Amazon",
+   "link": "https://hip2save.com/deals/trivet-tree/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:06Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/wooden-trivet-trees-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "木製コースター＆トライベットツリーはAmazonで$ 9.99から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "木製コースター＆トライベットツリーはAmazonで$ 9.99から",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "38f9e17d7dca",
+   "title": "Buy 2, Get 2 FREE Hershey Movie Tickets + NEW Freddy’s Menu Items",
+   "link": "https://hip2save.com/deals/freddys-menu/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T15:02Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/freddys-treats.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Freddy's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Hershey / Freddy’s",
+    "item": "映画チケット2枚",
+    "cond": "2枚購入",
+    "what": "無料映画券2枚",
+    "where": "Hersheyなど"
+   },
+   "ja": "映画チケット2枚",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "f0d502c7a95d",
+   "title": "Red Light Heated Knee Massager Only $29.69 Shipped on Amazon (Reg. $70)",
+   "link": "https://hip2save.com/deals/amazon-red-light-massager/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T14:52Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/red-light-hterapy-knee-massager.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 58,
+   "price": 29.69,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レッドライトヒートニーマッサージャーのみ$ 29.69 Amazonで発送（登録番号$ 70 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レッドライトヒートニーマッサージャーのみ$ 29.69 Amazonで発送（登録番号$ 70 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2f13fcdfcce2",
+   "title": "National Tree Company 24in Pre-Lit Majestic Fir Mini Christmas Tree Only $27.xx on Amazon (Reg $40)",
+   "link": "https://thefreebieguy.com/national-tree-company-mini-christmas-tree/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T14:51Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/National-Tree-Company-24in-Pre-Lit-Majestic-Fir-Mini-Christmas-Tree-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 32,
+   "price": 27.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ナショナルツリーカンパニー24インチプレライトマジェスティックモミニクリスマスツリーのみ$ 27.xxアマゾン（登録$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ナショナルツリーカンパニー24インチプレライトマジェスティックモミニクリスマスツリーのみ$ 27.xxアマゾン（登録$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "53aabf531d32",
+   "title": "Milwaukee 7-Piece Hand Tool Gift Set Under $100 Shipped on HomeDepot.com – Today Only!",
+   "link": "https://hip2save.com/deals/milwaukee-tool-gift-set/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T14:44Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": "2026-10-30",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/milwaukee-hand-tools-gift-set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Home Depot"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Milwaukee 7ピースハンドツールギフトセット$ 100未満HomeDepot.comで発送-本日限り！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Home Depot",
+    "item": "Milwaukee 7ピースハンドツールギフトセット$ 100未満HomeDepot.comで発送-本日限り！",
+    "when": "10/30(金)まで",
+    "cond": ""
+   },
+   "date": "2026-10-30"
+  },
+  {
+   "id": "9d2b6488f31c",
+   "title": "Revlon Smooth Brilliance Ceramic Hair Flat Iron Only $18.xx on Amazon (Reg $38)",
+   "link": "https://thefreebieguy.com/revlon-ceramic-hair-flat-iron/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T14:43Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Revlon-Smooth-Brilliance-Ceramic-Hair-Flat-Iron-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 18.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レブロンスムースブリリアンスセラミックヘアフラットアイロンのみ$ 18.xx Amazon （登録価格$ 38 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レブロンスムースブリリアンスセラミックヘアフラットアイロンのみ$ 18.xx Amazon （登録価格$ 38 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "98214609542f",
+   "title": "Best Buy: 40″ 1080P Smart TV with Roku just $99 shipped (Reg. $300!)",
+   "link": "https://moneysavingmom.com/best-buy-40-1080p-smart-tv-with-roku-just-99-shipped-reg-300/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T14:42Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-30-at-9.34.04-AM-edited.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 99.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Best Buy ： 40インチ1080 pスマートテレビ、Rokuはわずか$ 99出荷（登録価格$ 300 ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Best Buy ： 40インチ1080 pスマートテレビ、Rokuはわずか$ 99出荷（登録価格$ 300 ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "b0017756de4b",
+   "date": null
+  },
+  {
+   "id": "a2db15c43ac2",
+   "title": "Best Buy Doorbuster Deals | Up to 55% Off Headphones, AirTags, TVs & More",
+   "link": "https://hip2save.com/deals/best-buy-sale/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T14:40Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/JLAb-Headphones-e1793367846140.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Best Buy Doorbusterセール|ヘッドフォン、エアタグ、テレビなどが最大55%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Best Buy Doorbusterセール|ヘッドフォン、エアタグ、テレビなどが最大55%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "7d06a4f8ead8",
+   "date": null
+  },
+  {
+   "id": "b556366ca366",
+   "title": "The Ultimate Guide to Freebies You Can Score Right Now!",
+   "link": "https://thefreebieguy.com/ultimate-freebies-guide/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T14:33Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Kendall-holding-a-big-box-of-FREE-Stuff-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "sum": {
+    "item": "無料サンプル・特典各種",
+    "what": "無料品まとめ",
+    "where": "オンライン"
+   },
+   "ja": "無料サンプル・特典各種",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "b103232c3819",
+   "title": "Athletic Works Clothing As Low As $1.xx at Walmart!",
+   "link": "https://thefreebieguy.com/athletic-clothing-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T14:32Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Athletic-Works-Clothing-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートのAthletic Worksの服は$ 1.xx ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートのAthletic Worksの服は$ 1.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9bf9fb753076",
+   "title": "Glad Cherry Blossom Scented Pink Trash Bags 90-Count Just $11 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/glad-scented-trash-bags/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T14:29Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Glad-Pink-Trash-Bags.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target",
+    "Amazon"
+   ],
+   "cats": [
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Glad Cherry Blossom Scented Pinkゴミ袋90カウントわずか$ 11 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target・Amazon",
+    "item": "Glad Cherry Blossom Scented Pinkゴミ袋90カウントわずか$ 11 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8708f9e97d95",
+   "title": "Biscoff XL Cookies 40-Pack Just $9.49 on Amazon (80 Extra Large Cookies!)",
+   "link": "https://hip2save.com/deals/biscoff-cookies/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T14:26Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/Hand-Holding-Lotus-Biscoff-Pack.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Biscoff XLクッキー40パックAmazonでわずか$ 9.49 （ 80個の特大クッキー！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Biscoff XLクッキー40パックAmazonでわずか$ 9.49 （ 80個の特大クッキー！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8abc03812a25",
+   "title": "Shower Steamers Aromatherapy (8 Pack) only $2.99 shipped!",
+   "link": "https://moneysavingmom.com/shower-steamers-aromatherapy-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T14:24Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/12/Screenshot-2024-12-12-at-8.13.02 AM-630x479.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "シャワースチーマーアロマセラピー（ 8パック） $ 2.99のみ発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "シャワースチーマーアロマセラピー（ 8パック） $ 2.99のみ発送！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "cf5735eb4f03",
+   "date": null
+  },
+  {
+   "id": "327f8b50fa7e",
+   "title": "Inflatable Paddle Board w/ Accessories Just $76 Shipped on Amazon (Reg. $250)",
+   "link": "https://hip2save.com/deals/inflatable-paddle-board/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T14:22Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/amazon-funwater-paddleboard.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 76.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "インフレータブルパドルボードアクセサリー付きわずか$ 76 Amazonで発送（登録価格$ 250 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "インフレータブルパドルボードアクセサリー付きわずか$ 76 Amazonで発送（登録価格$ 250 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "0f42086f5363",
+   "date": null
+  },
+  {
+   "id": "1abcfc4c80d3",
+   "title": "Free Sample of Greenies Dental Treats!",
+   "link": "https://moneysavingmom.com/free-sample-of-greenies-dental-chews/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T14:15Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/03/Screenshot-2025-03-26-at-6.47.49 AM-630x791.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Greenies",
+    "item": "犬用デンタルトリーツ",
+    "what": "無料サンプル",
+    "where": "Greenies"
+   },
+   "ja": "犬用デンタルトリーツ",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "ee99028de898",
+   "title": "Disney Tim Burton’s The Nightmare Before Christmas Crochet Kit Only $10.xx on Amazon (Reg. $25)",
+   "link": "https://thefreebieguy.com/disney-tim-burtons-the-nightmare-before-christmas-crochet-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T14:15Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Disney-Tim-Burtons-The-Nightmare-Before-Christmas-Crochet-kit-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 10.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ディズニー・ティム・バートンのナイトメア・ビフォア・クリスマスかぎ針編みキットAmazonで$ 10.xxのみ（登録価格$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ディズニー・ティム・バートンのナイトメア・ビフォア・クリスマスかぎ針編みキットAmazonで$ 10.xxのみ（登録価格$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b80c0f4895ce",
+   "title": "Cat & Jack Kids Christmas Pajamas 2-Piece Sets from $8 on Target.com",
+   "link": "https://hip2save.com/deals/target-kids-pajamas/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T14:14Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/girls-cat-jack-holiday-pajamas-3.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "猫＆ジャックキッズクリスマスパジャマ2ピースセット$ 8からTarget.com",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "猫＆ジャックキッズクリスマスパジャマ2ピースセット$ 8からTarget.com",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "dup": "a18f72ff9b0c",
+   "date": null
+  },
   {
    "id": "4e42cfb639da",
    "title": "FREE Colgate Bright Smiles, Bright Futures Classroom Kit for Head Start – 1st Grade Teachers!",
@@ -98,6 +725,40 @@
    },
    "ja": "教室用オーラルケアキット",
    "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "013f02c6e333",
+   "title": "Adidas Men’s All Day Training Socks 3 Pairs Only $6.xx on Amazon (Reg $18)",
+   "link": "https://thefreebieguy.com/adidas-socks-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T14:10Z",
+   "firstSeen": "2026-10-30T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Adidas-socks-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アディダスメンズオールデイトレーニングソックス3ペアのみ$ 6.xx Amazon (Reg $ 18)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アディダスメンズオールデイトレーニングソックス3ペアのみ$ 6.xx Amazon (Reg $ 18)",
+    "when": "",
+    "cond": ""
+   },
    "date": null
   },
   {
@@ -226,13 +887,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "コストコ2026年ブラックフライデー前のセールが登場–エレクトロニクス、ホームセキュリティなどがお得！",
-   "jaVia": "mymemory",
+   "ja": "家電・ホームセキュリティ等",
+   "jaVia": "gemini",
    "sum": {
     "store": "Costco",
-    "item": "コストコ2026年ブラックフライデー前のセールが登場–エレクトロニクス、ホームセキュリティなどがお得！",
+    "item": "家電・ホームセキュリティ等",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BF先行セール",
+    "where": "Costco"
    },
    "date": null
   },
@@ -22801,43 +23464,6 @@
     "item": "ソニック、新しいサンタスラッシュフロートと新しいスモークゴーダとベーコンスマッシャーを発表",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "3d85dbd49692",
-   "title": "RUN! FREE Kiehl’s 1cc* CollaShot Plumping Serum Sample!",
-   "link": "https://thefreebieguy.com/run-free-kiehls-1cc-collashot-plumping-serum-sample/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T14:13Z",
-   "firstSeen": "2026-10-26T14:45Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Kiehls-1CC-Sample-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "美容液サンプル無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Kiehl's",
-    "item": "美容液サンプル無料",
-    "when": "",
-    "cond": "申込",
-    "what": "美容液サンプル",
-    "where": "Kiehl's"
    },
    "date": null
   },
