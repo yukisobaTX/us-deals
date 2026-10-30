@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T04:59Z",
- "count": 1221,
+ "updated": "2026-10-30T05:57Z",
+ "count": 1219,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -55,11 +55,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 25,
    "geminiEvent": 0,
-   "mymemory": 0,
-   "geminiToday": 16,
-   "model": "gemini-flash-latest"
+   "mymemory": 11,
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -88,13 +89,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-10-31",
+   "ja": "ハロウィンパーティーのおやつが簡単に！サムズクラブのベーカリーグッズが$ 8.92から",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "ハロウィンパーティーのおやつが簡単に！サムズクラブのベーカリーグッズが$ 8.92から",
     "when": "10/31(土)まで",
     "cond": ""
-   },
-   "date": "2026-10-31"
+   }
   },
   {
    "id": "b11c59961a51",
@@ -120,13 +123,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonの食品・雑貨クッキーがたったの$ 1.25で発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonの食品・雑貨クッキーがたったの$ 1.25で発送",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "4373355d7b6c"
   },
   {
@@ -153,13 +158,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Bleachタブレット32 -カウントのみ$ 4.34 Amazonで発送（登録価格$ 9 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Bleachタブレット32 -カウントのみ$ 4.34 Amazonで発送（登録価格$ 9 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7ce48c5ab576",
@@ -185,13 +192,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "洗濯物がホリデーシーズンに変身しました！ Gain Grinchmas CheerがAmazonでセール中",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "洗濯物がホリデーシーズンに変身しました！ Gain Grinchmas CheerがAmazonでセール中",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1b48b04bea01",
@@ -218,13 +227,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "2026年エンタープライズ「Plus Your Points」プロモーション（無料ポイント）",
-   "jaVia": "mymemory",
+   "ja": "ボーナスポイント",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "2026年エンタープライズ「Plus Your Points」プロモーション（無料ポイント）",
+    "store": "Enterprise",
+    "item": "ボーナスポイント",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料ポイント",
+    "where": "Enterprise"
    },
    "date": null
   },
@@ -252,13 +263,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Cottonelleウルトラソフトトイレットペーパー32ファミリーメガロールAmazonで$ 22.xx （登録番号： $ 35 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Cottonelleウルトラソフトトイレットペーパー32ファミリーメガロールAmazonで$ 22.xx （登録番号： $ 35 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "a4daabafc846"
   },
   {
@@ -285,13 +298,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Brawny Tear - A - Square 6ダブルロール3プライペーパータオルのみ$ 10.xx Amazonで",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Brawny Tear - A - Square 6ダブルロール3プライペーパータオルのみ$ 10.xx Amazonで",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "b406734ead27"
   },
   {
@@ -318,13 +333,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "大規模なウォルマート家具セール| $ 20.xxからの価格",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "大規模なウォルマート家具セール| $ 20.xxからの価格",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e0705a8a1051",
@@ -350,13 +367,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Neutrogena Hydro BoostボディジェルクリームAmazonで$ 6.xxのみ（登録価格$ 16 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Neutrogena Hydro BoostボディジェルクリームAmazonで$ 6.xxのみ（登録価格$ 16 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "37c43a1c956d",
@@ -414,13 +433,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "16のインサイダーヒントでプロのようにブラックフライデーを購入しよう",
-   "jaVia": "mymemory",
+   "ja": "BF攻略ヒント16選",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "16のインサイダーヒントでプロのようにブラックフライデーを購入しよう",
+    "item": "BF攻略ヒント16選",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "買い物ヒント",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -758,13 +779,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "無料のGREENIESオリジナル犬用歯科おやつサンプル！",
-   "jaVia": "mymemory",
+   "ja": "犬用デンタルケアおやつ試供品",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "無料のGREENIESオリジナル犬用歯科おやつサンプル！",
+    "store": "GREENIES",
+    "item": "犬用デンタルケアおやつ試供品",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料サンプル",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -1031,13 +1054,15 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "10月31日にGamestopから無料のトリックオアトレードポケモンブースターパック",
-   "jaVia": "mymemory",
+   "ja": "ポケモンブースターパック",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "10月31日にGamestopから無料のトリックオアトレードポケモンブースターパック",
-    "when": "10/31(土)",
-    "cond": ""
+    "store": "GameStop",
+    "item": "ポケモンブースターパック",
+    "when": "10/31",
+    "cond": "",
+    "what": "無料ポケカ",
+    "where": "GameStop"
    },
    "date": "2026-10-31",
    "dup": "bc9d627571cc"
@@ -1478,13 +1503,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "CeraVeふけ止め保湿シャンプー無料サンプル！",
-   "jaVia": "mymemory",
+   "ja": "フケ予防保湿シャンプー試供品",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "CeraVeふけ止め保湿シャンプー無料サンプル！",
+    "store": "CeraVe",
+    "item": "フケ予防保湿シャンプー試供品",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料サンプル",
+    "where": "オンライン"
    },
    "date": null,
    "dup": "aff98f37b772"
@@ -1549,12 +1576,16 @@
     "when": null
    },
    "sum": {
-    "store": "Pockets",
-    "item": "",
+    "store": "Lululemon",
+    "item": "サーマルタイツが$49",
     "when": "",
-    "cond": ""
+    "cond": "送料込",
+    "what": "タイツ$49",
+    "where": "Lululemon"
    },
-   "date": null
+   "date": null,
+   "ja": "サーマルタイツが$49",
+   "jaVia": "gemini"
   },
   {
    "id": "d6e7808f2dd2",
@@ -2125,13 +2156,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "キッチュブラックフライデーセール| 35ドルで129ドル相当のヘアケアを獲得！",
-   "jaVia": "mymemory",
+   "ja": "$129相当のヘアケアが$35",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "キッチュブラックフライデーセール| 35ドルで129ドル相当のヘアケアを獲得！",
+    "store": "Kitsch",
+    "item": "$129相当のヘアケアが$35",
     "when": "",
-    "cond": ""
+    "cond": "送料込",
+    "what": "ヘアケア$35",
+    "where": "Kitsch"
    },
    "date": null
   },
@@ -2195,13 +2228,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Shutterfly.comで101枚の無料写真プリントをゲット|送料無料",
-   "jaVia": "mymemory",
+   "ja": "写真プリント101枚",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Shutterfly.comで101枚の無料写真プリントをゲット|送料無料",
+    "store": "Shutterfly",
+    "item": "写真プリント101枚",
     "when": "",
-    "cond": ""
+    "cond": "要送料",
+    "what": "無料写真印刷",
+    "where": "Shutterfly"
    },
    "date": null,
    "dup": "ef467311a537"
@@ -2228,13 +2263,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "2026年ブラックフライデーの販売スケジュール",
-   "jaVia": "mymemory",
+   "ja": "2026年BFセール日程表",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "2026年ブラックフライデーの販売スケジュール",
+    "item": "2026年BFセール日程表",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "セール情報",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -2333,13 +2370,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Lowes.comでDEWALTバッテリーを購入し、最大3つの無料ツールを入手（ 700 $以上の価値！ ）",
-   "jaVia": "mymemory",
+   "ja": "最大3個の工具",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "Lowes.comでDEWALTバッテリーを購入し、最大3つの無料ツールを入手（ 700 $以上の価値！ ）",
+    "item": "最大3個の工具",
     "when": "",
-    "cond": ""
+    "cond": "DEWALT電池購入",
+    "what": "工具無料",
+    "where": "Lowe's"
    },
    "date": null
   },
@@ -2436,13 +2475,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ラン！無料のCeraVeふけ止め水分補給シャンプーサンプル！",
-   "jaVia": "mymemory",
+   "ja": "フケ予防保湿シャンプー試供品",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ラン！無料のCeraVeふけ止め水分補給シャンプーサンプル！",
+    "store": "CeraVe",
+    "item": "フケ予防保湿シャンプー試供品",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料サンプル",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -2471,13 +2512,15 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "ゲームストップ： 10月31日に無料のトリック・オア・トレード・ブースターパックをゲットしよう！",
-   "jaVia": "mymemory",
+   "ja": "ブースターパック",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ゲームストップ： 10月31日に無料のトリック・オア・トレード・ブースターパックをゲットしよう！",
-    "when": "10/31(土)",
-    "cond": ""
+    "store": "GameStop",
+    "item": "ブースターパック",
+    "when": "10/31",
+    "cond": "",
+    "what": "無料パック",
+    "where": "GameStop"
    },
    "date": "2026-10-31",
    "dup": "bc9d627571cc"
@@ -2992,13 +3035,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "* HOT * Shutterflyで100枚の無料写真プリント！",
-   "jaVia": "mymemory",
+   "ja": "写真プリント100枚",
+   "jaVia": "gemini",
    "sum": {
     "store": "Shutterfly",
-    "item": "* HOT * Shutterflyで100枚の無料写真プリント！",
+    "item": "写真プリント100枚",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料写真印刷",
+    "where": "Shutterfly"
    },
    "date": null
   },
@@ -3027,13 +3072,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "その古いジュエリーを寄付する前に、この60秒間の無料トリックを試してみてください！",
-   "jaVia": "mymemory",
+   "ja": "古いジュエリーの活用裏技",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "その古いジュエリーを寄付する前に、この60秒間の無料トリックを試してみてください！",
+    "item": "古いジュエリーの活用裏技",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料の裏技",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -3163,13 +3210,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Loweのアーリーブラックフライデーのお買い得情報が公開されました|ホーム必需品、ツールなどのホットな購入",
-   "jaVia": "mymemory",
+   "ja": "日用品や工具などのセール品",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "Loweのアーリーブラックフライデーのお買い得情報が公開されました|ホーム必需品、ツールなどのホットな購入",
+    "item": "日用品や工具などのセール品",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BFセール",
+    "where": "Lowe's"
    },
    "date": null
   },
@@ -3198,13 +3247,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "シャッターフライで無料プリント101枚＋無料写真ギフト5枚！",
-   "jaVia": "mymemory",
+   "ja": "写真101枚印刷＋フォトギフト5点",
+   "jaVia": "gemini",
    "sum": {
     "store": "Shutterfly",
-    "item": "シャッターフライで無料プリント101枚＋無料写真ギフト5枚！",
+    "item": "写真101枚印刷＋フォトギフト5点",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料プリント",
+    "where": "Shutterfly"
    },
    "date": null
   },
@@ -3344,13 +3395,15 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "10月31日TARGETでの無料インフルエンザシーズンポーチプレゼント",
-   "jaVia": "mymemory",
+   "ja": "風邪シーズン用ポーチ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "10月31日TARGETでの無料インフルエンザシーズンポーチプレゼント",
-    "when": "10/31(土)",
-    "cond": ""
+    "item": "風邪シーズン用ポーチ",
+    "when": "10/31",
+    "cond": "",
+    "what": "無料ポーチ",
+    "where": "Target"
    },
    "date": "2026-10-31"
   },
@@ -4252,40 +4305,6 @@
     "item": "キッズインスタントプリントデジタルカメラのみ$ 11.99 Amazon |自撮り＆ビデオ録画",
     "when": "",
     "cond": "子ども向け"
-   }
-  },
-  {
-   "id": "a3091d0b0592",
-   "title": "Today Only! CRAFTSMAN V20 20-Volt Variable Speed Belt Cordless Sander Only $49 at Lowes (Reg $119)",
-   "link": "https://thefreebieguy.com/craftsman-sander/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T13:19Z",
-   "firstSeen": "2026-10-29T14:01Z",
-   "expires": "2026-10-29",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/craftsman-cordless-sander1-840x630.png",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 59,
-   "price": 49.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-29",
-   "ja": "本日限り！ CRAFTSMAN V 20 20ボルト可変速ベルトコードレスサンダーLowesで$ 49のみ（登録$ 119 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "本日限り！ CRAFTSMAN V 20 20ボルト可変速ベルトコードレスサンダーLowesで$ 49のみ（登録$ 119 ）",
-    "when": "10/29(木)まで",
-    "cond": ""
    }
   },
   {
@@ -17104,40 +17123,6 @@
     "cond": ""
    },
    "date": "2026-10-31"
-  },
-  {
-   "id": "d8eb1200a98b",
-   "title": "Krispy Kreme Deals | $13 All Jacked Up Dozen through Oct. 29th & More!",
-   "link": "https://thefreebieguy.com/krispy-kreme-coupons-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T22:35Z",
-   "firstSeen": "2026-10-26T22:48Z",
-   "expires": "2026-10-29",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Krispy-Kreme-All-Jacked-Up-Dozen-thefreebieguy--840x630.png",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "クリスピー・クリームのセール| $ 13 10月29日までのオールジャックアップ・ダズンなど！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Krispy Kreme",
-    "item": "クリスピー・クリームのセール| $ 13 10月29日までのオールジャックアップ・ダズンなど！",
-    "when": "10/29(木)まで",
-    "cond": ""
-   },
-   "date": "2026-10-29"
   },
   {
    "id": "6e1216bc9a32",
