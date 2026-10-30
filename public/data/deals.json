@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T07:13Z",
+ "updated": "2026-10-30T08:13Z",
  "count": 1220,
  "stats": {
   "h2s": {
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 12,
-   "geminiEvent": 2,
+   "gemini": 11,
+   "geminiEvent": 0,
    "mymemory": 0,
-   "geminiToday": 4,
+   "geminiToday": 5,
    "model": "gemini-flash-latest"
   }
  },
@@ -3373,7 +3373,7 @@
    "source": "WTAW(カレッジステーション)",
    "posted": "2026-10-29T14:38Z",
    "firstSeen": "2026-10-29T15:12Z",
-   "expires": null,
+   "expires": "2026-10-31",
    "thumb": "https://wtaw.com/wp-content/uploads/2026/07/City-of-Bryan-300x169.jpg",
    "noAlert": true,
    "region": "College Station",
