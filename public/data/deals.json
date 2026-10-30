@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T13:09Z",
- "count": 1245,
+ "updated": "2026-10-30T13:59Z",
+ "count": 1257,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,459 @@
   "ja": {
    "gemini": 11,
    "geminiEvent": 0,
-   "mymemory": 6,
-   "geminiToday": 11,
+   "mymemory": 13,
+   "geminiToday": 12,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "7d06a4f8ead8",
+   "title": "Best Buy Weekend DoorBOOster Deals – Save Up to 52% Off TVs, Laptops & More!",
+   "link": "https://thefreebieguy.com/best-buy-doorbooster-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T13:53Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Best-Buy-Weekend-DoorBOOster-Deals-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "週末のベストバイDoorBOOsterセール–テレビ、ノートパソコンなどが最大52%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "週末のベストバイDoorBOOsterセール–テレビ、ノートパソコンなどが最大52%オフ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "318abb10c9db",
+   "title": "onn 32″ Smart TV Only $68 Shipped at Walmart!",
+   "link": "https://thefreebieguy.com/onn-smart-tv/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T13:51Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/onn-smart-tv-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "オン32インチスマートテレビのみ$ 68ウォルマートで発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "オン32インチスマートテレビのみ$ 68ウォルマートで発送！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "2df2eb7f190a",
+   "date": null
+  },
+  {
+   "id": "37b47e53cc8f",
+   "title": "Portable White Noise Sound Machine Just $10.49 on Amazon (Reg. $33)",
+   "link": "https://hip2save.com/deals/portable-white-noise-sound-machine/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T13:50Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/dreamegg-noise-machine.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 10.49,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ポータブルホワイトノイズサウンドマシンAmazonでわずか$ 10.49 （登録価格$ 33 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ポータブルホワイトノイズサウンドマシンAmazonでわずか$ 10.49 （登録価格$ 33 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "e6f8bdc3ef79",
+   "date": null
+  },
+  {
+   "id": "7cbcdbcc80af",
+   "title": "365 by Whole Foods Market Frosted Wheat Cereal 16oz Just $2 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/365-by-whole-foods-market-frosted-wheat-cereal/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T13:45Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/365-Whole-Foods-Frosted-Shredded-Wheat-Cereal.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Whole Foods",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "365 by Whole Foods Market霜降り小麦シリアル16オンスわずか$ 2 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Whole Foods・Amazon",
+    "item": "365 by Whole Foods Market霜降り小麦シリアル16オンスわずか$ 2 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "314a89abb721",
+   "date": null
+  },
+  {
+   "id": "01b5380bdcbd",
+   "title": "Target Black Friday Sales 2026 Begin November 1st!",
+   "link": "https://moneysavingmom.com/target-black-friday-sales-2026-begin-november-1st/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T13:43Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Target-Black-Friday-630x169.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "ブラックフライデーセール2026の目標は11月1日から！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ブラックフライデーセール2026の目標は11月1日から！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5cd7ef5aa85b",
+   "title": "Kohl’s Boxed Jewelry Gifts! Disney Sets as Low as $17.59 (Reg. $50)",
+   "link": "https://thefreebieguy.com/kohls-boxed-jewelry/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T13:35Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/DISNEY-JEWELRY-KOHLS-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": 17.59,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コールの箱入りジュエリーギフト！ディズニーは17.59ドル（登録価格50ドル）と低く設定しています",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "コールの箱入りジュエリーギフト！ディズニーは17.59ドル（登録価格50ドル）と低く設定しています",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f832e2fab777",
+   "title": "HOT Athletics Works Sale on Walmart.com (Styles UNDER $2!)",
+   "link": "https://hip2save.com/deals/walmart-athletic-works/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T13:30Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Athletic-Works-Walmart.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comのホットアスレチックスワークスセール（ $ 2未満のスタイル！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comのホットアスレチックスワークスセール（ $ 2未満のスタイル！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e74b8d361627",
+   "title": "Walmart Black Friday 2026 Begins November 12th {Early Access for Walmart+ Members!}",
+   "link": "https://moneysavingmom.com/walmart-week-is-coming/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T13:28Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Black-Friday-630x362.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "ウォルマートブラックフライデー2026は11月12日に始まります{ウォルマート+メンバーのための早期アクセス！}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートブラックフライデー2026は11月12日に始まります{ウォルマート+メンバーのための早期アクセス！}",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "11ec8074777f",
+   "title": "The Pioneer Woman 20-Piece Bakeware Set Only $47.97 Shipped (Reg. $120)",
+   "link": "https://thefreebieguy.com/the-pioneer-woman-cookware/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T13:25Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/The-Pioneer-Woman-Vintage-Lace-20-Piece-Ceramic-Bakeware-Set-with-Acacia-Wood-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 47.97,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "パイオニアウーマン20個セット$ 47.97のみ発送（登録価格$ 120 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "パイオニアウーマン20個セット$ 47.97のみ発送（登録価格$ 120 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "9dd3e24ad4e1",
+   "date": null
+  },
+  {
+   "id": "957b4eb98e42",
+   "title": "Join in for the Scary Creatures Scavenger Hunt at LEGO Stores Through Oct. 31!",
+   "link": "https://thefreebieguy.com/free-event-at-lego-stores/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T13:22Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": "2026-10-31",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/LEGO-Scavenger-hunt-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "10月31日まで、レゴストアで恐ろしい生き物のスカベンジャーハントに参加しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "LEGO Stores Through Oct.",
+    "item": "10月31日まで、レゴストアで恐ろしい生き物のスカベンジャーハントに参加しましょう！",
+    "when": "10/31(土)まで",
+    "cond": ""
+   },
+   "date": "2026-10-31"
+  },
+  {
+   "id": "9dcf207d2d92",
+   "title": "Kohl’s Sephora Savings Event: Sephora Collection from $2.45",
+   "link": "https://hip2save.com/deals/kohls-sephora/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T13:20Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/sephora.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohl's Sephora割引イベント： $ 2.45からのSephoraコレクション",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohl's Sephora割引イベント： $ 2.45からのSephoraコレクション",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4d25833ca4a1",
+   "title": "Target’s 20% Off Military Discount Is Back 11/05 – 11/11",
+   "link": "https://thefreebieguy.com/target-military-discount/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T13:16Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Target-Store-Front-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 20,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットの20%オフの軍事割引が11月5日～ 11月11日に再登場",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットの20%オフの軍事割引が11月5日～ 11月11日に再登場",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8d363d89588f",
+   "title": "TCL 40″ Smart TV with Roku Only $99.99 at Best Buy (Reg. $300)",
+   "link": "https://thefreebieguy.com/tcl-40-inch-smart-tv/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T13:15Z",
+   "firstSeen": "2026-10-30T13:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/TCL-40_-Smart-TV-with-Roku-840x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 99.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "TCL 40インチスマートテレビRoku付きBest Buyでたったの$ 99.99 （登録価格$ 300 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "TCL 40インチスマートテレビRoku付きBest Buyでたったの$ 99.99 （登録価格$ 300 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "91c20b21a186",
    "title": "Drops of Nature Green Tea Extract Liquid Supplement only $11.69 shipped!",
@@ -42445,38 +42891,6 @@
    "freebie": null,
    "sum": {
     "store": "McDonald's",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "37eef08c785b",
-   "title": "Taco Bell Launches New Double Dipping Burritos and Chicken Crunchadillas Nationwide",
-   "link": "https://www.fastfoodpost.com/taco-bell-launches-new-double-dipping-burritos-and-chicken-crunchadillas-nationwide/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-15T13:24Z",
-   "firstSeen": "2026-10-25T01:43Z",
-   "expires": null,
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Taco Bell"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Taco Bell",
     "item": "",
     "when": "",
     "cond": ""
