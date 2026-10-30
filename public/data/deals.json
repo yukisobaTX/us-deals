@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T21:50Z",
- "count": 1360,
+ "updated": "2026-10-30T22:50Z",
+ "count": 1363,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -44,7 +44,7 @@
   },
   "sporked": {
    "read": 12,
-   "added": 1
+   "added": 0
   },
   "tib": {
    "read": 25,
@@ -57,13 +57,188 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 23,
+   "mymemory": 17,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "32da7e576a87",
+   "title": "Stainless-Steel Cutting Board Just $11.xx on Amazon (Reg $30)",
+   "link": "https://thefreebieguy.com/snowclad-cutting-board/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T22:38Z",
+   "firstSeen": "2026-10-30T22:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/SNOWCLAD-Stainless-Steel-Cutting-Board-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 63,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ステンレス製まな板Amazonでわずか$ 11.xx （登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ステンレス製まな板Amazonでわずか$ 11.xx （登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "53446cacb0b8",
+   "title": "Cheap Food Deals for Monday – Subway BOGO Footlongs, TGI Friday’s 50¢ Wings & More!",
+   "link": "https://thefreebieguy.com/cheap-monday-food-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T22:35Z",
+   "firstSeen": "2026-10-30T22:50Z",
+   "expires": "2026-11-02",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Monday-Food-Deals-840x630.png",
+   "hot": true,
+   "stores": [
+    "Subway"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "bogo": true
+   },
+   "ja": "月曜日のお得なフードセール–地下鉄BOGO Footlongs、TGI Fridayの50 ¢ Wingsなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Subway",
+    "item": "月曜日のお得なフードセール–地下鉄BOGO Footlongs、TGI Fridayの50 ¢ Wingsなど！",
+    "when": "11/2(月)まで",
+    "cond": ""
+   },
+   "date": "2026-11-02"
+  },
+  {
+   "id": "95563cd7e729",
+   "title": "TWO 4-in-1 Multi Charging Cables Just $3.xx on Amazon (Reg $10)",
+   "link": "https://thefreebieguy.com/multi-charging-cables/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-30T22:18Z",
+   "firstSeen": "2026-10-30T22:50Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Multi-Charging-Cable-4ft-2Pack-4-in-1--840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 3.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでわずか$ 3.xxの4 - in -1マルチ充電ケーブル2本（登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでわずか$ 3.xxの4 - in -1マルチ充電ケーブル2本（登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ff6887ccb343",
+   "title": "*RARE* 50% Off Ride-On Toys on Target.com",
+   "link": "https://hip2save.com/deals/target-ride-on-toys/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T22:00Z",
+   "firstSeen": "2026-10-30T22:50Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/03/minniemouse-rideon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Target.comで*レア* 50%オフの乗車用おもちゃ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Target.comで*レア* 50%オフの乗車用おもちゃ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "eb7583e9e69a",
+   "title": "This Mini Backpack Keychain Looks Like lululemon (& It’s Only $8.99 on Amazon!)",
+   "link": "https://hip2save.com/deals/mini-backpack-keychain/",
+   "source": "Hip2Save",
+   "posted": "2026-10-30T21:50Z",
+   "firstSeen": "2026-10-30T22:50Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Babysun-Mini-Backpack-Keychain.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "このミニバックパックキーチェーンはルルレモンのように見えます（ Amazonではわずか$ 8.99です！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "このミニバックパックキーチェーンはルルレモンのように見えます（ Amazonではわずか$ 8.99です！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "4e3692bc128f",
    "title": "Personalized Initial Jewelry Box Just $3.xx on Amazon (Reg $7)",
@@ -22533,43 +22708,6 @@
     "item": "ハンドヘルドキッズ顕微鏡のみ$ 11.59 Amazonプライム会員向けに発送（登録価格$ 25 ）",
     "when": "",
     "cond": "会員限定・子ども向け"
-   },
-   "date": null
-  },
-  {
-   "id": "f1eec86c7462",
-   "title": "AT&T Customers: 5,000 American Airline Miles For Free (First 65,000) When You Link Accounts",
-   "link": "https://www.doctorofcredit.com/att-customers-5000-american-airline-miles-for-free-first-65000-when-you-link-accounts/",
-   "source": "Doctor of Credit",
-   "posted": "2026-10-26T21:59Z",
-   "firstSeen": "2026-10-26T22:48Z",
-   "expires": null,
-   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/att-deal.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": null
-   },
-   "ja": "AT&T会員がアカウント連携でAAマイル5,000",
-   "jaVia": "claude",
-   "sum": {
-    "store": "AT&T",
-    "item": "AT&T会員がアカウント連携でAAマイル5,000",
-    "when": "",
-    "cond": "AT&T会員・先着",
-    "what": "5千マイル",
-    "where": "AT&T"
    },
    "date": null
   },
@@ -46602,47 +46740,6 @@
     "where": "PetSmart"
    },
    "date": "2026-10-31"
-  },
-  {
-   "id": "e22d0dc04461",
-   "title": "Friends of the Library Fall 2026 Book Sale is Nov. 6-8",
-   "link": "https://www.bcslibrary.org/friends-of-the-library-fall-2026-book-sale-is-nov-6-8/",
-   "source": "Bryan+College Station 図書館",
-   "posted": "2026-10-08T22:05Z",
-   "firstSeen": "2026-10-26T18:00Z",
-   "expires": "2026-11-08",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "family": true,
-   "localDate": "2026-11-06",
-   "freebie": null,
-   "ja": "図書館友の会の秋の古本セール",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "Clara B. Mounce Library",
-    "item": "図書館友の会の秋の古本セール",
-    "when": "11/6〜11/8",
-    "cond": "家族向け",
-    "what": "古本セール",
-    "where": "Bryan図書館"
-   },
-   "date": "2026-11-06",
-   "outing": [
-    "子供向け"
-   ]
   }
  ]
 }
