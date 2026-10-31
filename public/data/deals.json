@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-31T10:49Z",
- "count": 1363,
+ "count": 1366,
  "stats": {
   "h2s": {
    "read": 100,
@@ -577,13 +577,15 @@
     "kind": "food"
    },
    "freebie": null,
-   "ja": "ポケモンハッピーミールがようやくマクドナルドに帰ってきました",
-   "jaVia": "mymemory",
+   "ja": "マクドナルドのポケモン・ハッピーセット復活",
+   "jaVia": "claude",
    "sum": {
     "store": "McDonald's",
-    "item": "ポケモンハッピーミールがようやくマクドナルドに帰ってきました",
+    "item": "マクドナルドのポケモン・ハッピーセット復活",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "ポケモンのハッピー…",
+    "where": "McDonald's"
    },
    "date": null
   },
@@ -646,12 +648,12 @@
     "kind": "coupon",
     "when": "2026-11-05"
    },
-   "ja": "PCゲーム Sorry We're Closed",
-   "jaVia": "gemini",
+   "ja": "Epic Gamesの無料PCゲーム（11/5まで）",
+   "jaVia": "claude",
    "sum": {
-    "store": "Epic Games",
-    "item": "PCゲーム Sorry We're Closed",
-    "when": "〜11/5",
+    "store": "Epic Games Store",
+    "item": "Epic Gamesの無料PCゲーム（11/5まで）",
+    "when": "〜11/5(木)",
     "cond": "",
     "what": "無料PCゲーム",
     "where": "Epic Games"
@@ -1272,14 +1274,14 @@
     "kind": "coupon",
     "when": "2026-10-31"
    },
-   "ja": "ポケモンカードパック",
-   "jaVia": "gemini",
+   "ja": "GameStopの無料ポケモン「Trick or Trade」パック",
+   "jaVia": "claude",
    "sum": {
     "store": "GameStop",
-    "item": "ポケモンカードパック",
-    "when": "10/31",
-    "cond": "",
-    "what": "無料ポケカ",
+    "item": "GameStopの無料ポケモン「Trick or Trade」パック",
+    "when": "10/31(土)",
+    "cond": "店頭",
+    "what": "無料ポケモンパック",
     "where": "GameStop"
    },
    "date": "2026-10-31"
@@ -1686,14 +1688,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "カラープリンター$49＋インク3か月分",
-   "jaVia": "gemini",
+   "ja": "HPカラープリンター$49台＋Instant Ink 3か月無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Amazon",
-    "item": "カラープリンター$49＋インク3か月分",
+    "item": "HPカラープリンター$49台＋Instant Ink 3か月無料",
     "when": "",
     "cond": "",
-    "what": "プリンター特売",
+    "what": "プリンター値下げ",
     "where": "Amazon"
    },
    "date": null
@@ -2577,17 +2579,18 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "BFセール割引＋Kohl's Cash",
-   "jaVia": "gemini",
+   "ja": "Kohl'sのブラックフライデー先行セール（Kohl's Cash付き）",
+   "jaVia": "claude",
    "sum": {
     "store": "Kohl's",
-    "item": "BFセール割引＋Kohl's Cash",
+    "item": "Kohl'sのブラックフライデー先行セール（Kohl's Cash付き）",
     "when": "",
     "cond": "",
-    "what": "BFセール",
+    "what": "ブラックフライデー…",
     "where": "Kohl's"
    },
-   "date": null
+   "date": null,
+   "when": null
   },
   {
    "id": "baa09135fdd3",
@@ -2719,14 +2722,14 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "キッズミール",
-   "jaVia": "gemini",
+   "ja": "Red Lobsterで週末の子供無料メニュー",
+   "jaVia": "claude",
    "sum": {
     "store": "Red Lobster",
-    "item": "キッズミール",
-    "when": "今週末",
-    "cond": "子ども向け",
-    "what": "キッズ食無料",
+    "item": "Red Lobsterで週末の子供無料メニュー",
+    "when": "10/31(土)〜週末",
+    "cond": "子供向け",
+    "what": "子供無料メニュー",
     "where": "Red Lobster"
    },
    "date": "2026-10-31"
@@ -3107,13 +3110,13 @@
    },
    "sum": {
     "store": "Maison Francis Kurkdjian",
-    "item": "香水の無料サンプル",
+    "item": "Baccarat Rouge 540の無料香水サンプル（未確定）",
     "cond": "抽選の可能性あり",
-    "what": "無料サンプル",
+    "what": "無料香水サンプル",
     "where": "オンライン"
    },
-   "ja": "香水の無料サンプル",
-   "jaVia": "gemini",
+   "ja": "Baccarat Rouge 540の無料香水サンプル（未確定）",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -3347,12 +3350,12 @@
    },
    "sum": {
     "store": "Bass Pro Shops",
-    "item": "工作、写真、ぬいぐるみ等",
-    "what": "無料配布",
+    "item": "Bass Pro Shopsの無料プレゼント（クラフト・写真など）",
+    "what": "無料プレゼント",
     "where": "Bass Pro Shops"
    },
-   "ja": "工作、写真、ぬいぐるみ等",
-   "jaVia": "gemini",
+   "ja": "Bass Pro Shopsの無料プレゼント（クラフト・写真など）",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -3662,12 +3665,12 @@
     "roundup": true
    },
    "sum": {
-    "item": "無料サンプル・特典各種",
+    "item": "今すぐもらえる無料品のまとめ記事",
     "what": "無料品まとめ",
     "where": "オンライン"
    },
-   "ja": "無料サンプル・特典各種",
-   "jaVia": "gemini",
+   "ja": "今すぐもらえる無料品のまとめ記事",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -3871,12 +3874,12 @@
    },
    "sum": {
     "store": "Greenies",
-    "item": "犬用デンタルトリーツ",
+    "item": "Greenies犬用歯みがきおやつの無料サンプル",
     "what": "無料サンプル",
     "where": "Greenies"
    },
-   "ja": "犬用デンタルトリーツ",
-   "jaVia": "gemini",
+   "ja": "Greenies犬用歯みがきおやつの無料サンプル",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -4144,17 +4147,18 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "家電・ホームセキュリティ等",
-   "jaVia": "gemini",
+   "ja": "Costcoのブラックフライデー前セール（電化製品・防犯など）",
+   "jaVia": "claude",
    "sum": {
     "store": "Costco",
-    "item": "家電・ホームセキュリティ等",
+    "item": "Costcoのブラックフライデー前セール（電化製品・防犯など）",
     "when": "",
     "cond": "",
-    "what": "BF先行セール",
+    "what": "ブラックフライデー…",
     "where": "Costco"
    },
-   "date": null
+   "date": null,
+   "when": null
   },
   {
    "id": "c36e645dba39",
@@ -4355,14 +4359,14 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "ブラックフライデーセール",
-   "jaVia": "gemini",
+   "ja": "Targetのブラックフライデーセール（11/1開始）",
+   "jaVia": "claude",
    "sum": {
     "store": "Target",
-    "item": "ブラックフライデーセール",
+    "item": "Targetのブラックフライデーセール（11/1開始）",
     "when": "11/1(日)〜",
     "cond": "",
-    "what": "BFセール開始",
+    "what": "ブラックフライデー",
     "where": "Target"
    },
    "date": "2026-11-01"
@@ -5156,13 +5160,13 @@
    "eventNews": false,
    "sum": {
     "store": "Clara B. Mounce Library",
-    "item": "図書館の友の会による秋の古本セール",
+    "item": "図書館の秋の古本セール",
     "when": "11/7(土)",
     "cond": "子供向けの本も(要確認)",
     "what": "古本セール",
-    "where": "Clara B. Mounc…"
+    "where": "Mounce Library"
    },
-   "ja": "図書館の友の会による秋の古本セール",
+   "ja": "図書館の秋の古本セール",
    "jaVia": "claude-ev",
    "outing": [
     "子供向け"
@@ -5198,13 +5202,13 @@
    "eventNews": false,
    "sum": {
     "store": "Museum of the American G.I.",
-    "item": "アメリカ軍の歴史博物館でのイベント",
+    "item": "American G.I.博物館のイベント（CS）",
     "when": "11/7(土)",
     "cond": "博物館",
-    "what": "博物館の催し",
-    "where": "American G.I.博…"
+    "what": "博物館イベント",
+    "where": "Museum of the …"
    },
-   "ja": "アメリカ軍の歴史博物館でのイベント",
+   "ja": "American G.I.博物館のイベント（CS）",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -8148,15 +8152,15 @@
    "family": true,
    "localDate": "2026-11-06",
    "freebie": null,
-   "ja": "図書館友の会の秋の古本市",
-   "jaVia": "gemini-ev",
+   "ja": "CS図書館の友の会・古本セール",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "Clara B. Mounce Public Library",
-    "item": "図書館友の会の秋の古本市",
+    "store": "CS Library",
+    "item": "CS図書館の友の会・古本セール",
     "when": "11/6(金)〜11/8(日)",
     "cond": "",
-    "what": "古本セール",
-    "where": "Mounce図書館"
+    "what": "図書館の古本セール",
+    "where": "CS図書館"
    },
    "date": "2026-11-06"
   },
@@ -10520,13 +10524,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "毎月第1金曜の歴史地区の音楽・アートイベント",
-    "when": "11/6(金)・毎月",
-    "what": "ファーストフライデー",
+    "item": "ダウンタウンの第1金曜（生演奏・催し）",
+    "when": "11/6(金)",
+    "what": "第1金曜イベント",
     "where": "Historic Downt…",
     "cond": "毎月開催"
    },
-   "ja": "毎月第1金曜の歴史地区の音楽・アートイベント",
+   "ja": "ダウンタウンの第1金曜（生演奏・催し）",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -21047,13 +21051,13 @@
    "eventNews": false,
    "sum": {
     "store": "Clara B. Mounce Library",
-    "item": "図書館の小さな子向けハロウィンカーニバル",
+    "item": "幼児向けのスプーキー・カーニバル（図書館）",
     "when": "10/31(土)",
-    "cond": "小さな子向け",
-    "what": "ハロウィン縁日",
-    "where": "Clara B. Mounc…"
+    "cond": "子供向け",
+    "what": "子供ハロウィン縁日",
+    "where": "Mounce Library"
    },
-   "ja": "図書館の小さな子向けハロウィンカーニバル",
+   "ja": "幼児向けのスプーキー・カーニバル（図書館）",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -21128,13 +21132,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "毎週土曜の地元農産物マーケット(Midtown Park)",
-    "when": "毎週土曜 10/31〜",
+    "item": "毎週土曜のブラゾス郡ファーマーズマーケット（屋外）",
+    "when": "毎週土曜",
     "cond": "屋外マーケット",
-    "what": "ファーマーズマーケ…",
+    "what": "週末の農産物市",
     "where": "Midtown Park"
    },
-   "ja": "毎週土曜の地元農産物マーケット(Midtown Park)",
+   "ja": "毎週土曜のブラゾス郡ファーマーズマーケット（屋外）",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -21171,13 +21175,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "日曜の屋外マーケット(Rountree Market)",
+    "item": "Rountree Marketの日曜マーケット（屋外）",
     "when": "11/1(日)",
     "cond": "屋外マーケット",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "日曜の屋外マーケット(Rountree Market)",
+   "ja": "Rountree Marketの日曜マーケット（屋外）",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -22158,7 +22162,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-30",
+   "localDate": "2026-10-31",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -22174,13 +22178,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "アメリカ史をテーマにした大統領図書館の特別展示",
-    "when": "10/30〜2027/5/16",
+    "item": "ブッシュ大統領図書館・博物館の展示（〜2027/5）",
+    "when": "10/31〜5/16",
     "what": "博物館の展示",
-    "where": "G.H.W.ブッシュ図書館",
+    "where": "Bush Library(C…",
     "cond": "入館料は要確認"
    },
-   "ja": "アメリカ史をテーマにした大統領図書館の特別展示",
+   "ja": "ブッシュ大統領図書館・博物館の展示（〜2027/5）",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -22200,7 +22204,7 @@
    "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-30",
+   "localDate": "2026-10-31",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -22216,13 +22220,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "湖畔の公園のパンプキン畑。屋外でお出かけに",
+    "item": "Lake Walkのパンプキン畑（屋外）",
     "cond": "屋外・子供向け",
     "what": "パンプキン畑",
     "where": "Lake Walk",
-    "when": "10/30(金)〜10/31(土)"
+    "when": "10/31(土)"
    },
-   "ja": "湖畔の公園のパンプキン畑。屋外でお出かけに",
+   "ja": "Lake Walkのパンプキン畑（屋外）",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -22242,7 +22246,7 @@
    "expires": "2026-10-31",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-30",
+   "localDate": "2026-10-31",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -22258,13 +22262,13 @@
    "eventNews": false,
    "sum": {
     "store": "Habitat for Humanity",
-    "item": "Habitat for Humanity 主催のパンプキン畑",
+    "item": "Habitat for Humanityのパンプキン畑（屋外）",
     "cond": "屋外・子供向け",
     "what": "パンプキン畑",
-    "where": "Habitat 会場(E 2…",
-    "when": "10/30(金)〜10/31(土)"
+    "where": "Habitat for Hu…",
+    "when": "10/31(土)"
    },
-   "ja": "Habitat for Humanity 主催のパンプキン畑",
+   "ja": "Habitat for Humanityのパンプキン畑（屋外）",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -22343,13 +22347,13 @@
    "eventNews": false,
    "sum": {
     "store": "Bryan High School",
-    "item": "子供向けのトランクオアトリート(Bryan High School)",
+    "item": "Bryan High Schoolのトランクオアトリート（子供向けハロウィン）",
     "when": "10/31(土) 10時",
     "cond": "子供向け",
     "what": "トランクオアトリート",
     "where": "Bryan High Sch…"
    },
-   "ja": "子供向けのトランクオアトリート(Bryan High School)",
+   "ja": "Bryan High Schoolのトランクオアトリート（子供向けハロウィン）",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ",
@@ -46731,6 +46735,126 @@
     "where": "PetSmart"
    },
    "date": "2026-10-31"
+  },
+  {
+   "id": "41d276829578",
+   "title": "Jim Henson's Fraggle Rock: Back to the Rock Live at OPAS (Matinee)",
+   "link": "https://www.destinationbryan.com/events/jim-hensons-fraggle-rock-back-to-the-rock-live-at-opas-matinee/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-31T11:42Z",
+   "firstSeen": "2026-10-31T11:42Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Rudder Theater",
+    "item": "Fraggle Rockの舞台（マチネ・子供向け）",
+    "when": "10/31(土) マチネ",
+    "cond": "子供向け",
+    "what": "Fraggle R…",
+    "where": "Rudder Theater…"
+   },
+   "ja": "Fraggle Rockの舞台（マチネ・子供向け）",
+   "jaVia": "claude-ev",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "eea71aee0b88",
+   "title": "Illuminate Concert at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/illuminate-concert-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-31T11:42Z",
+   "firstSeen": "2026-10-31T11:42Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Live Music"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walkの野外コンサート（屋外）",
+    "when": "11/7(土)",
+    "what": "野外コンサート",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walkの野外コンサート（屋外）",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07"
+  },
+  {
+   "id": "a4ba50c5fcbb",
+   "title": "DSABV 5K Run With a Little Extra at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/dsabv-5k-run-with-a-little-extra-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-31T11:42Z",
+   "firstSeen": "2026-10-31T11:42Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fitness"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walkの5Kラン（チャリティ）",
+    "when": "11/7(土)",
+    "cond": "参加型",
+    "what": "5Kラン大会",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walkの5Kラン（チャリティ）",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-11-07"
   }
  ]
 }
