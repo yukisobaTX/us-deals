@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31T11:48Z",
- "count": 1365,
+ "updated": "2026-10-31T12:44Z",
+ "count": 1372,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,313 @@
    "added": 0
   },
   "ja": {
-   "gemini": 13,
+   "gemini": 18,
    "geminiEvent": 0,
-   "mymemory": 1,
-   "geminiToday": 7,
+   "mymemory": 4,
+   "geminiToday": 8,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "b51c17749f44",
+   "title": "Burger King Deals | BOGO Free Whopper Jr. Sandwiches on Halloween",
+   "link": "https://thefreebieguy.com/burger-king-deals-coupons/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:26Z",
+   "firstSeen": "2026-10-31T12:44Z",
+   "expires": "2026-10-31",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Burger-King-Store-840x630.png",
+   "hot": true,
+   "stores": [
+    "Burger King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "bogo": true
+   },
+   "sum": {
+    "store": "Burger King",
+    "item": "ワッパージュニア1個無料",
+    "when": "10/31(土)",
+    "cond": "1個購入",
+    "what": "BOGOバーガー",
+    "where": "Burger King"
+   },
+   "ja": "ワッパージュニア1個無料",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "c18de803707c",
+   "title": "HydroJug Sport 40oz Insulated Stainless Steel Water Bottle Just $29.97 on Amazon (Reg. $40)",
+   "link": "https://hip2save.com/deals/hydrojug-tumbler/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T12:10Z",
+   "firstSeen": "2026-10-31T12:44Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/HydroJug-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 25,
+   "price": 29.97,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "HydroJug Sport 40 oz断熱ステンレススチールウォーターボトルたったの$ 29.97 Amazon (Reg. $ 40)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "HydroJug Sport 40 oz断熱ステンレススチールウォーターボトルたったの$ 29.97 Amazon (Reg. $ 40)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "04f68b5dc208",
+   "title": "Sonic Deals: 50% Off Cheeseburgers Every Tuesday, 50¢ Corn Dogs, & More",
+   "link": "https://thefreebieguy.com/sonic-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:02Z",
+   "firstSeen": "2026-10-31T12:44Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Sonic-Drive-In-840x630.png",
+   "hot": true,
+   "stores": [
+    "Sonic"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Sonicセール：毎週火曜日にチーズバーガーが50 ％オフ、50 ¢のトウモロコシ犬など",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sonic",
+    "item": "Sonicセール：毎週火曜日にチーズバーガーが50 ％オフ、50 ¢のトウモロコシ犬など",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4b6177b4666a",
+   "title": "QDOBA Deals | Free Entree for Halloween (W/ Purchase of Entree & Drink)",
+   "link": "https://thefreebieguy.com/qdoba-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:00Z",
+   "firstSeen": "2026-10-31T12:44Z",
+   "expires": "2026-10-31",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/QDOBA-Free-Entree-with-purchase-of-Entree-and-Drink-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Qdoba"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "QDOBA",
+    "item": "アントレ無料",
+    "when": "10/31(土)",
+    "cond": "アントレ＆飲料購入",
+    "what": "無料アントレ",
+    "where": "QDOBA"
+   },
+   "ja": "アントレ無料",
+   "jaVia": "gemini",
+   "dup": "a7bbda804156",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "fb51494ff369",
+   "title": "Shake Shack Deals | FREE Sandwiches All Month Long!",
+   "link": "https://thefreebieguy.com/shake-shack-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:00Z",
+   "firstSeen": "2026-10-31T12:44Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Shake-Shack-Free-Sandwiches-in-October-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Shake Shack"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Shake Shack",
+    "item": "サンドイッチ無料",
+    "when": "〜10/31",
+    "what": "無料サンド",
+    "where": "Shake Shack"
+   },
+   "ja": "サンドイッチ無料",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "a3236e272889",
+   "title": "Denny’s Deals | Kids Eat Free on Halloween + FREE Denny’s Triple Play Meal",
+   "link": "https://thefreebieguy.com/dennys-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:00Z",
+   "firstSeen": "2026-10-31T12:44Z",
+   "expires": "2026-10-31",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Dennys-Building-840x630.png",
+   "hot": true,
+   "stores": [
+    "Denny's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Denny's",
+    "item": "キッズ食・ミール無料",
+    "when": "10/31(土)",
+    "what": "無料ミール",
+    "where": "Denny's"
+   },
+   "ja": "キッズ食・ミール無料",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "41c2763ebaec",
+   "title": "Raising Cane’s Deals| Limited-Edition Cup Available Now!",
+   "link": "https://thefreebieguy.com/raising-canes-deals-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:00Z",
+   "firstSeen": "2026-10-31T12:44Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Raising-Canes-Halloween-Cup-for-2026-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Raising Cane's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レイズ・ケインのセール|限定版カップが登場！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Raising Cane's",
+    "item": "レイズ・ケインのセール|限定版カップが登場！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "454e7543059b",
+   "title": "Paris Baguette Deals: Score a Free Pastry w/ Drink Purchase on Halloween",
+   "link": "https://thefreebieguy.com/paris-baguette-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:00Z",
+   "firstSeen": "2026-10-31T12:44Z",
+   "expires": "2026-10-31",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Paris-Baugette-Fall-Pumpkin-Menu-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Paris Baguette"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Paris Baguette",
+    "item": "ペストリー無料",
+    "when": "10/31(土)",
+    "cond": "ドリンク購入",
+    "what": "無料ペストリー",
+    "where": "Paris Baguette"
+   },
+   "ja": "ペストリー無料",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
+  },
   {
    "id": "41d276829578",
    "title": "Jim Henson's Fraggle Rock: Back to the Rock Live at OPAS (Matinee)",
@@ -39368,40 +39666,6 @@
    },
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "2830c60823d7",
-   "title": "CVS Sneak Peek: Better Than Free Degree, 50¢ Colgate Toothpaste + More!",
-   "link": "https://hip2save.com/deals/upcoming-cvs-ad/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T12:38Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "CVS"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "CVSスニークピーク：無料よりも優れた学位、50 ¢のコルゲート歯磨き粉など！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "CVS",
-    "item": "CVSスニークピーク：無料よりも優れた学位、50 ¢のコルゲート歯磨き粉など！",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/maybelline-eyeshadow.jpg?resize=306,182"
   },
   {
    "id": "ad5abae33e32",
