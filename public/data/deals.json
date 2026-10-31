@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31T13:00Z",
- "count": 1375,
+ "updated": "2026-10-31T13:45Z",
+ "count": 1380,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,186 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
+   "gemini": 13,
    "geminiEvent": 0,
-   "mymemory": 2,
-   "geminiToday": 9,
+   "mymemory": 6,
+   "geminiToday": 10,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "5fafd7d0fae6",
+   "title": "Mainstays 10-Piece Mixing Bowl Set w/ Lids Under $9.97 on Walmart.com",
+   "link": "https://hip2save.com/deals/mainstays-nesting-serving-bowls/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T13:38Z",
+   "firstSeen": "2026-10-31T13:45Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Mainstays-Mixing-Bowl-Set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Mainstays 10ピースミキシングボウルセット$ 9.97以下の蓋付きWalmart.com",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Mainstays 10ピースミキシングボウルセット$ 9.97以下の蓋付きWalmart.com",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3d592c02241e",
+   "title": "NEW Dearfoams Cozy Comfort Girl’s Quilted Slippers Only $2.xx at Walmart!",
+   "link": "https://thefreebieguy.com/dearfoams-cozy-comfort-girls-quilted-slippers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T13:38Z",
+   "firstSeen": "2026-10-31T13:45Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Dearfoams-Cozy-Comfort-Girls-Quilted-Slippers-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートの新しいDearfoams居心地の良いコンフォートガールのキルティングスリッパは$ 2.xxのみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートの新しいDearfoams居心地の良いコンフォートガールのキルティングスリッパは$ 2.xxのみ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d3ed591d9844",
+   "title": "LEVAO Wireless Push-Up Jelly Bra Only $6.xx on Amazon (Reg. $20)",
+   "link": "https://thefreebieguy.com/levao-wireless-push-up-jelly-bra/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T13:34Z",
+   "firstSeen": "2026-10-31T13:45Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/LEVAO-Wireless-Push-Up-Jelly-Bra-840x630.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 70,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "LEVAOワイヤレスプッシュアップジェリーブラAmazonで$ 6.xxのみ（登録価格$ 20 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "LEVAOワイヤレスプッシュアップジェリーブラAmazonで$ 6.xxのみ（登録価格$ 20 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "144cdcb2b869",
+   "date": null
+  },
+  {
+   "id": "48e524bf7a32",
+   "title": "Dunkin’ x Avengers: Doomsday Drops November 4th | NEW Drinks, Donuts & Collectible Merch",
+   "link": "https://hip2save.com/deals/dunkin-marvel/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T13:15Z",
+   "firstSeen": "2026-10-31T13:45Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Dunkin-Marvel-Avengers-Doomsday-Tumblers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Dunkin'"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ダンキンxアベンジャーズ：ドゥームズデイ11月4日ドロップ|新しいドリンク、ドーナツ、コレクショングッズ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Dunkin'",
+    "item": "ダンキンxアベンジャーズ：ドゥームズデイ11月4日ドロップ|新しいドリンク、ドーナツ、コレクショングッズ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2d54cfa98c9c",
+   "title": "Memory Foam Women’s Slippers Just $7.xx on Amazon (Reg. $18+)",
+   "link": "https://thefreebieguy.com/litfun-slippers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T13:15Z",
+   "firstSeen": "2026-10-31T13:45Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Memory-Foam-Womens-Slippers-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 61,
+   "price": 7.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Memory FoamレディーススリッパAmazonでたったの$ 7.xx （登録価格$ 18 +）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Memory FoamレディーススリッパAmazonでたったの$ 7.xx （登録価格$ 18 +）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "3242f31986c4",
    "title": "Tropical Smoothie | Get a FREE Smoothie with food purchase beginning November 2nd!",
@@ -101,8 +272,42 @@
    },
    "ja": "スムージー1杯無料",
    "jaVia": "gemini",
-   "dup": "c7c846794ad2",
-   "date": "2026-11-02"
+   "date": "2026-11-02",
+   "dup": "c7c846794ad2"
+  },
+  {
+   "id": "0a92b77f56f6",
+   "title": "Bounty Napkins 600-Count Just $9.90 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/bounty-napkins/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T13:00Z",
+   "firstSeen": "2026-10-31T13:45Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/10/Bounty-Napkins.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "バウンティナプキン600枚-わずか$ 9.90 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "バウンティナプキン600枚-わずか$ 9.90 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "b51c17749f44",
@@ -39545,42 +39750,6 @@
     "when": "",
     "cond": ""
    },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "0d23a40499ad",
-   "title": "FREE Bowling at Bowlero, AMF & Lucky Strike + $10 Arcade Card",
-   "link": "https://hip2save.com/deals/bowlero-bowling/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T13:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "ボウリング無料＋$10アーケードカード",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Bowlero, AMF & Lucky Strike",
-    "item": "ボウリング無料＋$10アーケードカード",
-    "when": "",
-    "cond": "",
-    "what": "無料ボウリング",
-    "where": "Bowlero他"
-   },
-   "date": null,
    "event": null,
    "eventNews": false
   },
