@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-31T04:55Z",
- "count": 1370,
+ "updated": "2026-10-31T05:52Z",
+ "count": 1363,
  "stats": {
   "h2s": {
    "read": 100,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 22,
    "geminiEvent": 0,
-   "mymemory": 12,
-   "geminiToday": 15,
+   "mymemory": 0,
+   "geminiToday": 1,
    "model": "gemini-flash-latest"
   }
  },
@@ -365,13 +365,15 @@
     "when": null,
     "bogo": true
    },
-   "ja": "月曜日のお得なフードセール–地下鉄BOGO Footlongs、TGI Fridayの50 ¢ Wingsなど！",
-   "jaVia": "mymemory",
+   "ja": "サンド1買1無料、チキン50¢等",
+   "jaVia": "gemini",
    "sum": {
     "store": "Subway",
-    "item": "月曜日のお得なフードセール–地下鉄BOGO Footlongs、TGI Fridayの50 ¢ Wingsなど！",
-    "when": "11/2(月)まで",
-    "cond": ""
+    "item": "サンド1買1無料、チキン50¢等",
+    "when": "11/2(月)",
+    "cond": "",
+    "what": "フード割引",
+    "where": "Subwayなど"
    },
    "date": "2026-11-02"
   },
@@ -644,13 +646,15 @@
     "kind": "coupon",
     "when": "2026-11-05"
    },
-   "ja": "11月5日までエピックゲームストアでPCゲーム「Sorry We 're Closed」を無料でプレイできます！",
-   "jaVia": "mymemory",
+   "ja": "PCゲーム Sorry We're Closed",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "11月5日までエピックゲームストアでPCゲーム「Sorry We 're Closed」を無料でプレイできます！",
-    "when": "11/5(木)",
-    "cond": ""
+    "store": "Epic Games",
+    "item": "PCゲーム Sorry We're Closed",
+    "when": "〜11/5",
+    "cond": "",
+    "what": "無料PCゲーム",
+    "where": "Epic Games"
    },
    "date": "2026-11-05"
   },
@@ -885,13 +889,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ATOMチケット：プロモーションコードATOMTIGERで紙の虎を見る無料チケット",
-   "jaVia": "mymemory",
+   "ja": "映画鑑賞券",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ATOMチケット：プロモーションコードATOMTIGERで紙の虎を見る無料チケット",
+    "store": "Atom Tickets",
+    "item": "映画鑑賞券",
     "when": "",
-    "cond": "コード入力"
+    "cond": "プロモコード",
+    "what": "無料映画券",
+    "where": "Atom Tickets"
    },
    "date": null
   },
@@ -1126,13 +1132,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "アトムシアターで「ペーパー・タイガー」を観る無料映画チケット",
-   "jaVia": "mymemory",
+   "ja": "映画 Paper Tiger 鑑賞券",
+   "jaVia": "gemini",
    "sum": {
     "store": "Atom Theaters",
-    "item": "アトムシアターで「ペーパー・タイガー」を観る無料映画チケット",
+    "item": "映画 Paper Tiger 鑑賞券",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料映画券",
+    "where": "Atom Theaters"
    },
    "date": null,
    "dup": "03e4f3be0ab6"
@@ -1264,13 +1272,15 @@
     "kind": "coupon",
     "when": "2026-10-31"
    },
-   "ja": "GameStop ：無料ポケモン・トリック・オア・トレードパック（ 2022年10月31日）",
-   "jaVia": "mymemory",
+   "ja": "ポケモンカードパック",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "GameStop ：無料ポケモン・トリック・オア・トレードパック（ 2022年10月31日）",
-    "when": "10/31(土)",
-    "cond": ""
+    "store": "GameStop",
+    "item": "ポケモンカードパック",
+    "when": "10/31",
+    "cond": "",
+    "what": "無料ポケカ",
+    "where": "GameStop"
    },
    "date": "2026-10-31"
   },
@@ -1676,13 +1686,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "HPカラープリンターAmazonで$ 49.xxのみ（登録価格$ 90 ） + 3か月間無料のインスタントインクをゲット！",
-   "jaVia": "mymemory",
+   "ja": "カラープリンター$49＋インク3か月分",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "HPカラープリンターAmazonで$ 49.xxのみ（登録価格$ 90 ） + 3か月間無料のインスタントインクをゲット！",
+    "item": "カラープリンター$49＋インク3か月分",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "プリンター特売",
+    "where": "Amazon"
    },
    "date": null
   },
@@ -2268,41 +2280,6 @@
    "date": null
   },
   {
-   "id": "98784d1adc08",
-   "title": "Score 200 Free Dell Rewards Points Every Friday!",
-   "link": "https://thefreebieguy.com/free-dell-rewards/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T17:22Z",
-   "firstSeen": "2026-10-30T17:53Z",
-   "expires": "2026-10-30",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Dell-Logo-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "毎週金曜日に200デル報酬ポイントを無料で獲得しましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "毎週金曜日に200デル報酬ポイントを無料で獲得しましょう！",
-    "when": "10/30(金)まで",
-    "cond": ""
-   },
-   "date": "2026-10-30"
-  },
-  {
    "id": "cc03c8e841dd",
    "title": "Gold Bond Plumping Collagen Lotion Just $2 Shipped on Amazon (Reg. $12)",
    "link": "https://hip2save.com/deals/gold-bond-lotion/",
@@ -2600,13 +2577,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "コールの2026年ブラックフライデーが間もなく登場！追加割引+コールのキャッシュ！",
-   "jaVia": "mymemory",
+   "ja": "BFセール割引＋Kohl's Cash",
+   "jaVia": "gemini",
    "sum": {
     "store": "Kohl's",
-    "item": "コールの2026年ブラックフライデーが間もなく登場！追加割引+コールのキャッシュ！",
+    "item": "BFセール割引＋Kohl's Cash",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BFセール",
+    "where": "Kohl's"
    },
    "date": null
   },
@@ -2740,13 +2719,15 @@
     "kind": "store",
     "when": "2026-10-31"
    },
-   "ja": "今週末はレッドロブスターでお子様無料で食べよう",
-   "jaVia": "mymemory",
+   "ja": "キッズミール",
+   "jaVia": "gemini",
    "sum": {
     "store": "Red Lobster",
-    "item": "今週末はレッドロブスターでお子様無料で食べよう",
-    "when": "10/31(土)",
-    "cond": "子ども向け"
+    "item": "キッズミール",
+    "when": "今週末",
+    "cond": "子ども向け",
+    "what": "キッズ食無料",
+    "where": "Red Lobster"
    },
    "date": "2026-10-31"
   },
@@ -2775,13 +2756,15 @@
     "kind": "store",
     "when": "2026-11-14"
    },
-   "ja": "JCPenneyキッズゾーンイベント| 11月14日に無料の3 D七面鳥を作ろう",
-   "jaVia": "mymemory",
+   "ja": "3Dターキー工作キット",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "JCPenneyキッズゾーンイベント| 11月14日に無料の3 D七面鳥を作ろう",
-    "when": "11/14(土)",
-    "cond": "子ども向け"
+    "store": "JCPenney",
+    "item": "3Dターキー工作キット",
+    "when": "11/14",
+    "cond": "子ども限定",
+    "what": "無料工作",
+    "where": "JCPenney"
    },
    "date": "2026-11-14"
   },
@@ -3547,40 +3530,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "53aabf531d32",
-   "title": "Milwaukee 7-Piece Hand Tool Gift Set Under $100 Shipped on HomeDepot.com – Today Only!",
-   "link": "https://hip2save.com/deals/milwaukee-tool-gift-set/",
-   "source": "Hip2Save",
-   "posted": "2026-10-30T14:44Z",
-   "firstSeen": "2026-10-30T15:06Z",
-   "expires": "2026-10-30",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/milwaukee-hand-tools-gift-set.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Home Depot"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Milwaukee 7ピースハンドツールギフトセット$ 100未満HomeDepot.comで発送-本日限り！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Home Depot",
-    "item": "Milwaukee 7ピースハンドツールギフトセット$ 100未満HomeDepot.comで発送-本日限り！",
-    "when": "10/30(金)まで",
-    "cond": ""
-   },
-   "date": "2026-10-30"
   },
   {
    "id": "9d2b6488f31c",
@@ -4965,44 +4914,6 @@
    "dup": "b5ddbe4303c8"
   },
   {
-   "id": "b3d9d15819a4",
-   "title": "FREE Original Doughnut at Krispy Kreme on October 30th-31st!",
-   "link": "https://moneysavingmom.com/free-doughnut-at-krispy-kreme/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-30T12:33Z",
-   "firstSeen": "2026-10-30T12:50Z",
-   "expires": "2026-10-30",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-14-at-9.54.08-AM-edited.png",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-30"
-   },
-   "sum": {
-    "store": "Krispy Kreme",
-    "item": "オリジナルドーナツ1個",
-    "when": "10/30〜10/31",
-    "what": "無料ドーナツ",
-    "where": "Krispy Kreme"
-   },
-   "ja": "オリジナルドーナツ1個",
-   "jaVia": "gemini",
-   "date": "2026-10-30"
-  },
-  {
    "id": "751fc14fd52a",
    "title": "Gift Card Hack: Score $20 CVS ExtraBucks on Chipotle, Wayfair & More (Starts 11/1)",
    "link": "https://hip2save.com/deals/cvs-gift-cards/",
@@ -5368,40 +5279,6 @@
     "item": "レッドロビンのセール|無料キッズサンデー、退役軍人のための無料食事など！",
     "when": "",
     "cond": "子ども向け"
-   }
-  },
-  {
-   "id": "cfc06a9d6968",
-   "title": "Insulated Lunch Bag Just $4.95 on Amazon (Reg. $16) – Today Only",
-   "link": "https://hip2save.com/deals/amazon-lunch-bag/",
-   "source": "Hip2Save",
-   "posted": "2026-10-30T11:11Z",
-   "firstSeen": "2026-10-30T11:54Z",
-   "expires": "2026-10-30",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lifewit-Cooler.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 69,
-   "price": 4.95,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-30",
-   "ja": "断熱ランチバッグAmazonでたったの$ 4.95 （登録番号： $ 16 ） –本日限定",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "断熱ランチバッグAmazonでたったの$ 4.95 （登録番号： $ 16 ） –本日限定",
-    "when": "10/30(金)まで",
-    "cond": ""
    }
   },
   {
@@ -21144,49 +21021,6 @@
    "date": null
   },
   {
-   "id": "5bbe060b2576",
-   "title": "Trunk or Treat at Aggieland Humane Society",
-   "link": "https://www.destinationbryan.com/events/trunk-or-treat-at-aggieland-humane-society/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-30",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-30",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Aggieland Humane Society",
-    "item": "動物保護団体のトランクオアトリート",
-    "when": "10/30(金)",
-    "cond": "子供向け",
-    "what": "トランクオアトリート",
-    "where": "Aggieland Huma…"
-   },
-   "ja": "動物保護団体のトランクオアトリート",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-30",
-   "freebie": null
-  },
-  {
    "id": "a509967cee06",
    "title": "Little Kids Spooky Carnival at Clara B. Mounce Library",
    "link": "https://www.destinationbryan.com/events/little-kids-spooky-carnival/",
@@ -21227,49 +21061,6 @@
    ],
    "family": true,
    "date": "2026-10-31",
-   "freebie": null
-  },
-  {
-   "id": "20b160df8905",
-   "title": "Halloween Costume Party on Wheels at Happy Feet Skating Rink",
-   "link": "https://www.destinationbryan.com/events/halloween-costume-party-on-wheels-at-happy-feet-skating-rink/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-30",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-30",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Happy Feet Skating Rink",
-    "item": "ローラースケートのハロウィン仮装パーティー",
-    "when": "10/30(金)",
-    "cond": "仮装・要確認",
-    "what": "ハロウィン仮装スケ…",
-    "where": "Happy Feet Ska…"
-   },
-   "ja": "ローラースケートのハロウィン仮装パーティー",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-30",
    "freebie": null
   },
   {
@@ -28059,43 +27850,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "d7bdfa2b8b93",
-   "title": "Free Pottery Barn Kids Weekly Story Time Every Friday! More Events Coming Soon!",
-   "link": "https://thefreebieguy.com/pottery-barn-kids-events/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T12:07Z",
-   "firstSeen": "2026-10-26T13:31Z",
-   "expires": "2026-10-30",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Pottery-Barn-Story-Time-Event-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "毎週金曜の無料ストーリータイム",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Pottery Barn Kids",
-    "item": "毎週金曜の無料ストーリータイム",
-    "when": "毎週金曜",
-    "cond": "子供向け",
-    "what": "絵本読み聞かせ",
-    "where": "Pottery Barn K…"
-   },
-   "date": "2026-10-30"
   },
   {
    "id": "277d3684c2b9",
