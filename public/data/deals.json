@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31T21:46Z",
- "count": 1436,
+ "updated": "2026-10-31T22:47Z",
+ "count": 1437,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,49 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 22,
+   "mymemory": 14,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "582d08e72d91",
+   "title": "365 by Whole Foods Organic Flour 5lb Bag Just $5.50 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/amazon-365-whole-foods-flour/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T22:00Z",
+   "firstSeen": "2026-10-31T22:47Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/whole-foods-organic-flour-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Whole Foods",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "365 by Whole Foodsオーガニック小麦粉5ポンドバッグわずか$ 5.50 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Whole Foods・Amazon",
+    "item": "365 by Whole Foodsオーガニック小麦粉5ポンドバッグわずか$ 5.50 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "f9c43abcf4de",
    "title": "Carter’s Baby & Toddler Holiday Pajamas From $5 at Walmart!",
@@ -130,8 +166,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "799842002339",
-   "date": null
+   "date": null,
+   "dup": "799842002339"
   },
   {
    "id": "21b53ac21f45",
@@ -233,8 +269,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ca4cbd587b38",
-   "date": null
+   "date": null,
+   "dup": "ca4cbd587b38"
   },
   {
    "id": "966fdd7e23f5",
@@ -1089,8 +1125,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "85a3f669fdc7",
-   "date": null
+   "date": null,
+   "dup": "85a3f669fdc7"
   },
   {
    "id": "6e9b34acfc66",
