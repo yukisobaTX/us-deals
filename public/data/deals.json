@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-31T10:49Z",
- "count": 1366,
+ "updated": "2026-10-31T11:48Z",
+ "count": 1365,
  "stats": {
   "h2s": {
    "read": 100,
@@ -58,12 +58,135 @@
    "gemini": 13,
    "geminiEvent": 0,
    "mymemory": 1,
-   "geminiToday": 6,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "41d276829578",
+   "title": "Jim Henson's Fraggle Rock: Back to the Rock Live at OPAS (Matinee)",
+   "link": "https://www.destinationbryan.com/events/jim-hensons-fraggle-rock-back-to-the-rock-live-at-opas-matinee/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-31T11:42Z",
+   "firstSeen": "2026-10-31T11:42Z",
+   "expires": "2026-10-31",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-10-31",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Rudder Theater",
+    "item": "Fraggle Rockの舞台（マチネ・子供向け）",
+    "when": "10/31(土) マチネ",
+    "cond": "子供向け",
+    "what": "Fraggle R…",
+    "where": "Rudder Theater…"
+   },
+   "ja": "Fraggle Rockの舞台（マチネ・子供向け）",
+   "jaVia": "claude-ev",
+   "date": "2026-10-31",
+   "freebie": null
+  },
+  {
+   "id": "eea71aee0b88",
+   "title": "Illuminate Concert at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/illuminate-concert-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-31T11:42Z",
+   "firstSeen": "2026-10-31T11:42Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Live Music"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walkの野外コンサート（屋外）",
+    "when": "11/7(土)",
+    "what": "野外コンサート",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walkの野外コンサート（屋外）",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07",
+   "freebie": null
+  },
+  {
+   "id": "a4ba50c5fcbb",
+   "title": "DSABV 5K Run With a Little Extra at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/dsabv-5k-run-with-a-little-extra-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-10-31T11:42Z",
+   "firstSeen": "2026-10-31T11:42Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fitness"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walkの5Kラン（チャリティ）",
+    "when": "11/7(土)",
+    "cond": "参加型",
+    "what": "5Kラン大会",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walkの5Kラン（チャリティ）",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-11-07",
+   "freebie": null
+  },
   {
    "id": "52ebac9f2616",
    "title": "Salonpas Patches 6-Count Box Only $3.58 Shipped on Amazon",
@@ -22189,7 +22312,7 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -22231,7 +22354,7 @@
    "outing": [
     "公園・屋外"
    ],
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -22273,7 +22396,7 @@
    "outing": [
     "公園・屋外"
    ],
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -38045,7 +38168,8 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2020/07/Target-carts.jpg?resize=306,182"
   },
   {
    "id": "a66e7fb8c801",
@@ -39516,38 +39640,6 @@
    "event": null,
    "eventNews": false,
    "thumb": "https://hip2save.com/wp-content/uploads/2020/07/CVS-Basket-Grocery.jpg?resize=306,182"
-  },
-  {
-   "id": "b0c4839c97aa",
-   "title": "Sirius XM Deal: 3 FREE Months of XM Radio {Car + App OR App Only!}",
-   "link": "https://moneysavingmom.com/hot-siriusxm-deal-free-in-car-satellite-radio-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-23T11:10Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/11/InCar-dash-finger-1929x1080-1-630x354.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Sirius XMセール： XMラジオ3か月無料{車+アプリまたはアプリのみ！}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "Sirius XMセール： XMラジオ3か月無料{車+アプリまたはアプリのみ！}",
-    "when": "",
-    "cond": "アプリ"
-   },
-   "date": null
   },
   {
    "id": "7f4e9d549677",
@@ -46735,126 +46827,6 @@
     "where": "PetSmart"
    },
    "date": "2026-10-31"
-  },
-  {
-   "id": "41d276829578",
-   "title": "Jim Henson's Fraggle Rock: Back to the Rock Live at OPAS (Matinee)",
-   "link": "https://www.destinationbryan.com/events/jim-hensons-fraggle-rock-back-to-the-rock-live-at-opas-matinee/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-31T11:42Z",
-   "firstSeen": "2026-10-31T11:42Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Rudder Theater",
-    "item": "Fraggle Rockの舞台（マチネ・子供向け）",
-    "when": "10/31(土) マチネ",
-    "cond": "子供向け",
-    "what": "Fraggle R…",
-    "where": "Rudder Theater…"
-   },
-   "ja": "Fraggle Rockの舞台（マチネ・子供向け）",
-   "jaVia": "claude-ev",
-   "date": "2026-10-31"
-  },
-  {
-   "id": "eea71aee0b88",
-   "title": "Illuminate Concert at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/illuminate-concert-at-lake-walk/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-31T11:42Z",
-   "firstSeen": "2026-10-31T11:42Z",
-   "expires": "2026-11-07",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Live Music"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "Lake Walkの野外コンサート（屋外）",
-    "when": "11/7(土)",
-    "what": "野外コンサート",
-    "where": "Lake Walk"
-   },
-   "ja": "Lake Walkの野外コンサート（屋外）",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-07"
-  },
-  {
-   "id": "a4ba50c5fcbb",
-   "title": "DSABV 5K Run With a Little Extra at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/dsabv-5k-run-with-a-little-extra-at-lake-walk/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-31T11:42Z",
-   "firstSeen": "2026-10-31T11:42Z",
-   "expires": "2026-11-07",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fitness"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "Lake Walkの5Kラン（チャリティ）",
-    "when": "11/7(土)",
-    "cond": "参加型",
-    "what": "5Kラン大会",
-    "where": "Lake Walk"
-   },
-   "ja": "Lake Walkの5Kラン（チャリティ）",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "スポーツ"
-   ],
-   "family": true,
-   "date": "2026-11-07"
   }
  ]
 }
