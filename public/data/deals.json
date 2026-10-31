@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31T12:44Z",
- "count": 1372,
+ "updated": "2026-10-31T13:00Z",
+ "count": 1375,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 7
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,55 @@
    "added": 0
   },
   "ja": {
-   "gemini": 18,
+   "gemini": 15,
    "geminiEvent": 0,
-   "mymemory": 4,
-   "geminiToday": 8,
+   "mymemory": 2,
+   "geminiToday": 9,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "3242f31986c4",
+   "title": "Tropical Smoothie | Get a FREE Smoothie with food purchase beginning November 2nd!",
+   "link": "https://moneysavingmom.com/tropical-smoothie-flip-flop-day/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-31T13:00Z",
+   "firstSeen": "2026-10-31T13:00Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/05/Screenshot-2024-05-29-at-8.18.30 AM-630x789.jpg",
+   "hot": true,
+   "stores": [
+    "Tropical Smoothie"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-02"
+   },
+   "sum": {
+    "store": "Tropical Smoothie Cafe",
+    "item": "スムージー1杯無料",
+    "when": "11/2〜",
+    "cond": "フード購入時",
+    "what": "無料スムージー",
+    "where": "Tropical Smoothie"
+   },
+   "ja": "スムージー1杯無料",
+   "jaVia": "gemini",
+   "dup": "c7c846794ad2",
+   "date": "2026-11-02"
+  },
   {
    "id": "b51c17749f44",
    "title": "Burger King Deals | BOGO Free Whopper Jr. Sandwiches on Halloween",
@@ -140,6 +180,40 @@
    "date": null
   },
   {
+   "id": "06ecd1b4cea8",
+   "title": "Wendy’s Deals | Last Chance for Boo Books!",
+   "link": "https://thefreebieguy.com/wendys-deals-specials/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:10Z",
+   "firstSeen": "2026-10-31T13:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Wendys-One-Dollar-Boo-Books-centered-blur-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Wendy's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウェンディのセール|ブーブックのラストチャンス！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Wendy's",
+    "item": "ウェンディのセール|ブーブックのラストチャンス！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "04f68b5dc208",
    "title": "Sonic Deals: 50% Off Cheeseburgers Every Tuesday, 50¢ Corn Dogs, & More",
    "link": "https://thefreebieguy.com/sonic-deals/",
@@ -210,8 +284,8 @@
    },
    "ja": "アントレ無料",
    "jaVia": "gemini",
-   "dup": "a7bbda804156",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dup": "a7bbda804156"
   },
   {
    "id": "fb51494ff369",
@@ -220,7 +294,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-10-31T12:00Z",
    "firstSeen": "2026-10-31T12:44Z",
-   "expires": null,
+   "expires": "2026-10-31",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Shake-Shack-Free-Sandwiches-in-October-thefreebieguy-840x630.png",
    "hot": true,
    "stores": [
@@ -359,6 +433,46 @@
     "where": "Paris Baguette"
    },
    "ja": "ペストリー無料",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "9e00e0872b49",
+   "title": "Whataburger Deals | BOGO Whatawings for Halloween",
+   "link": "https://thefreebieguy.com/whataburger-deals-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T12:00Z",
+   "firstSeen": "2026-10-31T13:00Z",
+   "expires": "2026-10-31",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Whataburger-Free-Medium-Fries-with-Whatafresher-purchase-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Whataburger"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "bogo": true
+   },
+   "sum": {
+    "store": "Whataburger",
+    "item": "Whatawings 1品購入でもう1品無料",
+    "when": "10/31",
+    "what": "BOGOチキン",
+    "where": "Whataburger"
+   },
+   "ja": "Whatawings 1品購入でもう1品無料",
    "jaVia": "gemini",
    "date": "2026-10-31"
   },
