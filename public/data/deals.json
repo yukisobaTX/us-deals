@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31T13:45Z",
- "count": 1380,
+ "updated": "2026-10-31T13:53Z",
+ "count": 1383,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 3
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,115 @@
   "ja": {
    "gemini": 13,
    "geminiEvent": 0,
-   "mymemory": 6,
-   "geminiToday": 10,
+   "mymemory": 3,
+   "geminiToday": 11,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "b7082e08d36e",
+   "title": "Grace Karin Women’s Cardigan Sweater only $20.99!",
+   "link": "https://moneysavingmom.com/grace-karin-womens-cardigan-sweater-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-31T13:48Z",
+   "firstSeen": "2026-10-31T13:53Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/cardigan-1-630x1051.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "GRACE KARINレディースカーディガンセーターたったの$ 20.99 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "GRACE KARINレディースカーディガンセーターたったの$ 20.99 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b13dfeea0b35",
+   "title": "Women’s Christmas Graphic Tees Under $10 on Walmart.com",
+   "link": "https://hip2save.com/deals/walmart-christmas-graphic-tees/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T13:45Z",
+   "firstSeen": "2026-10-31T13:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Holiday-Time-Womens-Christmas-Graphic-Tee-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comの10 $以下のレディースクリスマスグラフィックTシャツ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comの10 $以下のレディースクリスマスグラフィックTシャツ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a2422683ab73",
+   "title": "Target: Extra 20% Off for Military & Veterans!",
+   "link": "https://moneysavingmom.com/target-extra-10-off-for-military-veterans-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-31T13:45Z",
+   "firstSeen": "2026-10-31T13:53Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/06/Target-Military-Thank-You-630x473.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 20,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲット：軍人と退役軍人がさらに20%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲット：軍人と退役軍人がさらに20%オフ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "5fafd7d0fae6",
    "title": "Mainstays 10-Piece Mixing Bowl Set w/ Lids Under $9.97 on Walmart.com",
@@ -164,8 +266,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "144cdcb2b869",
-   "date": null
+   "date": null,
+   "dup": "144cdcb2b869"
   },
   {
    "id": "48e524bf7a32",
