@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-31T15:47Z",
- "count": 1398,
+ "updated": "2026-10-31T16:49Z",
+ "count": 1405,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,288 @@
    "added": 0
   },
   "ja": {
-   "gemini": 13,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 11,
-   "geminiToday": 13,
-   "model": "gemini-flash-latest"
+   "mymemory": 21,
+   "geminiToday": 14,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "74c572741e5f",
+   "title": "Headband Making Craft Kit Just $9.99 on Amazon (Reg. $17)",
+   "link": "https://hip2save.com/deals/headbands-craft-kit/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T16:45Z",
+   "firstSeen": "2026-10-31T16:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/09/yasest-Headband-Making-Ki.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 9.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonのヘッドバンドメイキングクラフトキットはわずか$ 9.99 （登録価格$ 17 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonのヘッドバンドメイキングクラフトキットはわずか$ 9.99 （登録価格$ 17 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3278d041b0c7",
+   "title": "Carote 5QT Enamel Cast Iron Dutch Oven Only $29.xx at Walmart (Reg. $60)",
+   "link": "https://thefreebieguy.com/carote-5qt-enamel-cast-iron-dutch-oven-at-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T16:43Z",
+   "firstSeen": "2026-10-31T16:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/08/CAROTE-5QT-Enamel-Cast-Iron-Dutch-Oven-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": 29.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Carote 5 QTエナメル鋳鉄オランダ製オーブンウォルマートで$ 29.xxのみ（登録価格$ 60 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Carote 5 QTエナメル鋳鉄オランダ製オーブンウォルマートで$ 29.xxのみ（登録価格$ 60 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c9e86d1da9be",
+   "title": "Philips Norelco 22-in-1 Trimmer Just $59.99 Shipped + Get $10 Kohl’s Cash",
+   "link": "https://hip2save.com/deals/philips-norelco-cordless-trimmer/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T16:30Z",
+   "firstSeen": "2026-10-31T16:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/philips-22-in-1-trimmers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Philips Norelco 22 - in -1トリマーわずか$ 59.99発送+ $ 10 Kohl's Cashをゲット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Philips Norelco 22 - in -1トリマーわずか$ 59.99発送+ $ 10 Kohl's Cashをゲット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9c155e92df47",
+   "title": "WOW! Ember Smart Cup ONLY $32.99 Shipped for Prime Members (Reg. $130)",
+   "link": "https://hip2save.com/deals/ember-temperature-control-smart-mug/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T16:20Z",
+   "firstSeen": "2026-10-31T16:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Ember-Smart-Mug-6oz.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 75,
+   "price": 32.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "うわー！ Ember Smart Cupのみ$ 32.99プライムメンバー向けに発送（登録価格$ 130 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "うわー！ Ember Smart Cupのみ$ 32.99プライムメンバー向けに発送（登録価格$ 130 ）",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "8f6007f59f89",
+   "title": "Walmart Ride-On Toy Clearance – Prices Start as Low as $19.xx!",
+   "link": "https://thefreebieguy.com/walmart-ride-on-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T16:12Z",
+   "firstSeen": "2026-10-31T16:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Ride-On-Toy-Clearance-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートライドオン玩具クリアランス–価格は$ 19.xxから！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートライドオン玩具クリアランス–価格は$ 19.xxから！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5274a99ab00f",
+   "title": "Paw Patrol Instant Print Camera for Kids Only $49.xx on Amazon (Reg. $83)",
+   "link": "https://thefreebieguy.com/paw-patrol-instant-print-camera/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T16:06Z",
+   "firstSeen": "2026-10-31T16:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Paw-Patrol-Instant-Print-Camera-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 49.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Paw Patrolインスタントプリントカメラ子供専用Amazonで$ 49.xx （登録価格$ 83 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Paw Patrolインスタントプリントカメラ子供専用Amazonで$ 49.xx （登録価格$ 83 ）",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "008867583bc5",
+   "title": "Dual Tip Acrylic Paint Markers 48-Count Just $11 Shipped on Amazon (Reg. $19)",
+   "link": "https://hip2save.com/deals/amazon-acrylic-paint-markers/",
+   "source": "Hip2Save",
+   "posted": "2026-10-31T16:00Z",
+   "firstSeen": "2026-10-31T16:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/48-count-acrylic-paintmarkers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 42,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "デュアルチップアクリルペイントマーカー48 -カウントわずか$ 11 Amazonで発送（登録価格$ 19 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "デュアルチップアクリルペイントマーカー48 -カウントわずか$ 11 Amazonで発送（登録価格$ 19 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9225848778c8",
+   "title": "Up to 60% Off Melissa & Doug Toys on Amazon!",
+   "link": "https://thefreebieguy.com/amazon-melissa-doug-toys/",
+   "source": "The Freebie Guy",
+   "posted": "2026-10-31T15:59Z",
+   "firstSeen": "2026-10-31T16:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Melissa-Doug-1-861x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AmazonでMelissa & Doug Toysが最大60%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "AmazonでMelissa & Doug Toysが最大60%オフ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "21aee821150c",
    "title": "Estée Lauder Holiday Blockbuster ONLY $99 Shipped! 9 FULL-SIZE Products w/ any Estée Lauder purchase!",
@@ -198,8 +471,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "3995829631e5",
-   "date": null
+   "date": null,
+   "dup": "3995829631e5"
   },
   {
    "id": "07878d7c638b",
@@ -437,8 +710,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "402f40ebb3e3",
-   "date": null
+   "date": null,
+   "dup": "402f40ebb3e3"
   },
   {
    "id": "0f156d80289f",
@@ -20416,43 +20689,6 @@
     "item": "キッズクリスマスステッカー400枚セットのみ$ 2.99アマゾンで",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
-  },
-  {
-   "id": "a9e03d6fed6a",
-   "title": "Free 20 oz Bottle of Sprite! First 115,000 Only!",
-   "link": "https://thefreebieguy.com/free-20-oz-bottle-of-sprite-first-115000-only/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T16:18Z",
-   "firstSeen": "2026-10-27T16:58Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Free-Sprite-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": null
-   },
-   "ja": "20ozスプライト1本が無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Sprite",
-    "item": "20ozスプライト1本が無料",
-    "when": "",
-    "cond": "先着11.5万名",
-    "what": "スプライト無料",
-    "where": "オンライン"
    },
    "date": null
   },
