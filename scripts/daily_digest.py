@@ -38,6 +38,8 @@ MAX_FAMILY_CS = 10
 MAX_FAMILY_HOU = 4
 MAX_HOU_FREE = 5
 MAX_COLLAB = 6     # 🧸 キャラコラボ(新着)の上限(本人指定 10/27)
+GIFT_SOON_DAYS = 3  # 💳 スーパーのギフトカード特典は、終わる3日前から毎回載せる(Kroger の4倍燃料ポイントなど)
+MAX_GIFT = 5       # 💳 ギフトカードをお得に買う(新着+明日まで)の上限(本人指定 11/1)
 LAST = {}          # 直近の build() で選んだ記事(プッシュ通知用)
 SEND_HOURS = (17, 18)   # 送信する CT の時間帯(前日 18 時ごろ。本人指定 10/31)
 
@@ -284,12 +286,20 @@ def build(items, since, site):
     plan = collab_plan(today)
     plan_ids = {e.get("itemId") for e in plan}
     collab = [x for x in collab if x["id"] not in plan_ids]
+    # 💳 ギフトカードをお得に買う(本人指定 11/1:特にスーパー・Kroger など):前回以降の新着+スーパーで3日以内に終わるもの。スーパーを先に
+    shown |= {x["id"] for x in collab}
+    soon = (today + dt.timedelta(days=GIFT_SOON_DAYS)).isoformat()
+    gift = sorted([x for x in items if x.get("gift") and not x.get("dup") and x["id"] not in shown
+                   and (x.get("expires") or "9999") >= t_iso
+                   and (x["firstSeen"] > since or (x["gift"].get("grocery") and x.get("expires") and x["expires"] <= soon))],
+                  key=lambda x: (not x["gift"].get("grocery"), x.get("expires") or "9999", x["posted"]))[:MAX_GIFT]
     n_hou = len(fam_hou) + len(loc_hou) + len(hou_free)
-    n = len(near) + len(later) + len(ev_lines) + len(fam_cs) + len(loc_cs) + len(collab) + len(plan) + n_hou
+    n = len(near) + len(later) + len(ev_lines) + len(fam_cs) + len(loc_cs) + len(collab) + len(plan) + len(gift) + n_hou
     ln = lambda x: line(x, t_iso, tomorrow)
     # 件名:カレッジステーション(と全国)の件数を先に、ヒューストンは最後にまとめて
     parts = [f"明日{len(near)}", *([f"家族{len(fam_cs)}"] if fam_cs else []),
              *([f"地元{len(loc_cs)}"] if loc_cs else []), *([f"今後{len(later)}"] if later else []), *([f"コラボ{len(collab) + len(plan)}"] if collab or plan else []),
+             *([f"ギフト{len(gift)}"] if gift else []),
              *([f"HS{n_hou}"] if n_hou else [])]
     title = f"お得ノート {md(t_iso)}の予定:" + "/".join(parts)
     lines = [f"{MENTION} こんばんは。明日 {md(t_iso)} からの予定です。「日付：何が；どこで」で並べています(何がをタップで記事)。",
@@ -310,6 +320,12 @@ def build(items, since, site):
             lines += ["**📅 予定・まもなく終了**", *[plan_line(e, today) for e in plan]]
         if collab:
             lines += [*(["**🆕 新着**"] if plan else []), *[collab_line(x, t_iso, tomorrow) for x in collab]]
+    if gift:
+        lines += ["", "## 💳 ギフトカードをお得に(🛒スーパー)"]
+        for x in gift:
+            e = x.get("expires")
+            head = ("明日まで" if e == t_iso else f"〜{md(e)}") if e else "新着"
+            lines.append(line(x, t_iso, tomorrow, head=head).replace("：", "：🛒" if x["gift"].get("grocery") else "：", 1))
     if n_hou:
         lines += ["", "", "## 🏙 HS(お出かけ・遠出用)"]
         if fam_hou:

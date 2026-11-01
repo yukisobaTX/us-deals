@@ -258,6 +258,7 @@ def build_matchers(stores_cfg):
     FOOD_STORE[:] = [kw_regex(food)] if food else []
     other = [w for cat in stores_cfg["categories"] if cat["id"] != "food" for s in cat["stores"] for w in s["keywords"]]
     SHOP_STORE[:] = [kw_regex(other)] if other else []
+    GROCERY_STORE[:] = [s["name"] for cat in stores_cfg["categories"] if cat["id"] == "grocery" for s in cat["stores"]]
     EVENTS[:] = [(e["id"], kw_regex(e["keywords"])) for e in stores_cfg.get("events", [])]
     build_collab(stores_cfg)
     return stores, types
@@ -293,6 +294,7 @@ RANGE_RE = re.compile(_MON + r"\s+(\d{1,2})(?:st|nd|rd|th)?\s*[–—-]\s*(?:" +
 UNTIL_MON_RE = re.compile(r"(?:thru|through|until|ends?|valid (?:thru|through))\s+" + _MON + r"\s+(\d{1,2})(?:st|nd|rd|th)?\b", re.I)
 HOLIDAY_RE = {"halloween": (10, 31), "veterans day": (11, 11)}   # 当日に配る無料が多い祝日は、その日を期限に
 ON_RE = re.compile(r"\bon\s+(?:" + _MON + r"\s+(\d{1,2})(?:st|nd|rd|th)?\b|(\d{1,2})/(\d{1,2})\b)", re.I)
+NUM_RANGE_RE = re.compile(r"\b(\d{1,2})/(\d{1,2})\s*[–—-]\s*(\d{1,2})/(\d{1,2})\b")   # (10/21 – 11/3) → 11/3
 UNTIL_RE = re.compile(r"(?:thru|through|until|ends?|by|valid (?:thru|through)?)\s+(\d{1,2})/(\d{1,2})", re.I)
 
 
@@ -579,6 +581,33 @@ def freebie_info(title, posted):
     return {"kind": kind, "when": event_date(title, posted)}
 
 
+# ---------------- 💳 ギフトカードをお得に買う(2026-11-01 本人指定:特にスーパー・Kroger など) ----------------
+GC_WORD_RE = re.compile(r"gift\s?cards?|e-?gift\s?cards?|\bGCs?\b", re.I)
+# 「ギフトカードを買うこと」自体が得になる型だけ拾う(商品を買うとギフトカードが付く・懸賞・アンケートは除く)
+GC_DEAL_RE = re.compile(
+    r"fuel points?|fuel rewards?"                                            # Kroger の 4倍燃料ポイント
+    r"|\$\d+(?:\.\d\d)?\s+(?:[\w&'’.-]+\s+){0,4}e?-?gift\s?cards?\s+(?:for|only)\s+\$"   # $120 Amtrak eGiftcards For $99.99
+    r"|gift\s?cards?\s+(?:for\s+)?only\s+\$|gift\s?cards?\s+for\s+\$\d"     # $100 PetSmart Gift Card For Only $85
+    r"|\d{1,2}\s*%\s*off\s+(?:[\w&'’-]+\s+){0,3}gift\s?cards?|gift\s?cards?\s+\d{1,2}\s*%\s*off"   # 20% Off Gift Cards
+    r"|\$\d+\s+off\s+\$\d+\s+(?:[\w&'’-]+\s+){0,3}gift\s?cards?"             # $20 Off $100 On Selected Giftcards
+    r"|(?:purchase|activation)\s+fees?\s+(?:waived|free)|fee[- ]free|no (?:purchase |activation )?fees?"   # 購入手数料なし
+    r"|(?:buy|purchas\w*|when you buy)\s+\$\d+\s+(?:in\s+)?(?:[\w&'’/,.-]+\s+){0,6}gift\s?cards?"   # $100 分買うと $20 の HEB カード
+    r"|with\s+\$\d+\s+(?:select(?:ed)?\s+)?(?:[\w&'’/-]+\s+){0,3}gift\s?cards?\s+purchase"
+    r"|savings on gift cards|discounted gift\s?cards?|gift\s?card (?:deals?|hack|sale)|extrabucks", re.I)
+GC_NG_RE = re.compile(r"\bwin\b|giveaway|sweepstakes|enter to|opinions?|survey|lifepoints|earn free gift"
+                      r"|\blimits?\s+(?:select|gift|purchases?)|stops? allowing|no longer|draining|scam|fraud", re.I)
+
+
+def giftcard_info(title, stores):
+    """ギフトカードを安く・ポイント付きで買える記事なら {"grocery": スーパーか} を返す。"""
+    if not GC_WORD_RE.search(title) or not GC_DEAL_RE.search(title) or GC_NG_RE.search(title) or ENDED_RE.search(title):
+        return None
+    return {"grocery": any(s in GROCERY_STORE for s in stores)}
+
+
+GROCERY_STORE = []   # スーパーの店名(ギフトカード欄でスーパーを先に出す)
+
+
 def parse_date(s):
     try:
         d = email.utils.parsedate_to_datetime(s)
@@ -603,6 +632,8 @@ def guess_expiry(title, posted, strict=False):
     m = UNTIL_RE.search(title)
     if m:
         mo, d = int(m.group(1)), int(m.group(2))
+    elif (m := NUM_RANGE_RE.search(title)):
+        mo, d = int(m.group(3)), int(m.group(4))
     elif (m := UNTIL_MON_RE.search(title)):
         mo, d = MONTHS[m.group(1).lower()[:3]], int(m.group(2))
     elif strict:
@@ -806,6 +837,9 @@ def main():
         x["event"] = event_of(x["title"])
         x["eventNews"] = bool(x["event"] and EVENT_NEWS_RE.search(x["title"]))
         x["freebie"] = freebie_info(x["title"], parse_date_iso(x["posted"]))
+        x["gift"] = giftcard_info(x["title"], x.get("stores", []))   # 💳 ギフトカードをお得に(2026-11-01)
+        if not x["gift"]:
+            x.pop("gift")
         if not x.get("calendar"):   # 期限の読み方を直したら過去の記事にも反映する
             x["expires"] = guess_expiry(x["title"], parse_date_iso(x["posted"]), strict=bool(x.get("collab")))
         if x["freebie"] and x["freebie"]["when"] and not x.get("expires") and x["freebie"]["kind"] == "store":

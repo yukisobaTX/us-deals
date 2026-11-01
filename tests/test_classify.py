@@ -247,3 +247,23 @@ _T = _dt.datetime(2026, 10, 27, 15, tzinfo=_dt.timezone.utc)   # 火曜
 assert f.weekday_expiry("Cheap Food Deals & Freebies For Tuesday!", _T) == "2026-10-27"
 assert f.weekday_expiry("Black Friday Free Gift", _T) is None
 print("sum/weekday expiry ok")
+
+# 💳 ギフトカードをお得に買う(2026-11-01 本人指定:特にスーパー・Kroger など)
+_GC = [
+    ("Kroger / Harris Teeter: 4x Fuel Points On Third Party Giftcards (10/21 – 11/3)", True),
+    ("H-E-B: Get $15 H-E-B Giftcard When You Buy $100 in Home Depot, Lowe’s and other Giftcards", True),
+    ("H-E-B: $20 Off $100 On Selected Giftcards", True),
+    ("Costco.com: $120 in Amtrak eGiftcards For $99.99 (Limit 5)", True),
+    ("Kroger: Purchase $150 Visa/Mastercard Variable Load Giftcard & Get Purchase Fee Waived", True),
+    ("Free $20 Target Gift Card w/ $80 Diapers & Wipes Purchase", None),   # 商品の購入特典は対象外
+    ("Giveaway: Enter to Win a $75 Amazon Gift Card", None),
+    ("Earn FREE GIFT CARDS for your Opinions w/ LifePoints!", None),
+    ("Safeway Limits Select Gift Card Purchases to $500/Txn", None),
+]
+for _t, _want in _GC:
+    _r = c(_t)
+    _g = f.giftcard_info(_t, (_r or {}).get("stores", []))
+    assert bool(_g) == bool(_want), (_t, _g)
+assert f.giftcard_info(_GC[0][0], ["Kroger"])["grocery"] is True, "Kroger はスーパー扱い"
+assert f.guess_expiry(_GC[0][0], _P) == "2026-11-03", "数字の範囲 10/21 – 11/3 の終わりを期限に"
+print("giftcard ok")

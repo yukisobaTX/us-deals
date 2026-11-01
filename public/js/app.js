@@ -8,6 +8,7 @@
     { id: 'local', label: '📍 CS' },
     { id: 'event', label: '🛍 大型セール' },
     { id: 'collab', label: '🧸 ポケモン・サンリオ' },
+    { id: 'gift', label: '💳 ギフトカード' },   // ギフトカードをお得に買う(本人指定 11/1:特にスーパー)
     // HS・すべて・スーパー・ネット通販のタブは削除(2026-10-28 本人指定:見ない)
     { id: 'home', label: '雑貨・ホームセンター' },
     { id: 'food', label: 'レストラン・カフェ' },
@@ -19,7 +20,7 @@
   ];
   const DAY = 86400000;
   // カレッジステーション(在住地)を優先し、ヒューストンは別タブと各一覧の後半に分ける(本人指定 10/27)
-  const SPECIAL = ['all', 'free', 'event', 'collab', 'local', 'family', 'houston'];
+  const SPECIAL = ['all', 'free', 'event', 'collab', 'gift', 'local', 'family', 'houston'];
   const isHou = (x) => x.region === 'Houston';
   // 地名の略記(本人指定 10/27):カレッジステーション=CS、ヒューストン=HS
   const abbr = (t) => typeof t === 'string' ? t.replace(/カレッジステーション/g, 'CS').replace(/ヒューストン/g, 'HS') : t;
@@ -53,6 +54,7 @@
     if (state.cat === 'free' && (!x.freebie || (x.freebie.when && daysLeft(x.freebie.when) < 0))) return false;
     if (state.cat === 'event' && !x.event) return false;
     if (state.cat === 'collab' && (!x.collab || past(x))) return false;   // キャラコラボ(本人指定 10/27)
+    if (state.cat === 'gift' && !x.gift) return false;
     if (state.cat === 'local' && x.region !== 'College Station') return false;
     if (state.cat === 'family' && (!x.family || isHou(x) || past(x))) return false;
     if (state.cat === 'houston' && (!isHou(x) || (x.family && past(x)))) return false;
@@ -70,6 +72,7 @@
   // ヒューストンの記事は後半へ(ヒューストンタブでは家族のお出かけを先に)。sort は安定なので日付順などは保たれる
   function sorted(list) {
     const s = sortBy(list);
+    if (state.cat === 'gift') return s.sort((a, b) => (b.gift.grocery ? 1 : 0) - (a.gift.grocery ? 1 : 0));   // スーパーを先に
     if (state.cat === 'houston') return s.sort((a, b) => (b.family ? 1 : 0) - (a.family ? 1 : 0));
     return s.sort((a, b) => (isHou(a) ? 1 : 0) - (isHou(b) ? 1 : 0));
   }
@@ -108,6 +111,7 @@
     for (const k of (x.outing || [])) sub.append(el('span', { className: 'tag', textContent: ({ '公園・屋外': '🌳', '動物': '🦒', 'エンタメ': '🎪', 'スポーツ': '⚽', '子供向け': '🧒' }[k] || '') + k }));
     if (x.region) sub.append(el('span', { className: 'tag', textContent: '📍 ' + ({ 'College Station': 'CS', Houston: 'HS' }[x.region] || x.region) }));
     if (x.collab) sub.append(el('span', { className: 'tag collab', textContent: (x.collab.kind === 'food' ? '🍔 ' : '🎁 ') + x.collab.chars.join('・') + 'コラボ' }));
+    if (x.gift) sub.append(el('span', { className: 'tag gift', textContent: x.gift.grocery ? '💳 🛒スーパーのギフトカード' : '💳 ギフトカード' }));
     if (x.event) sub.append(el('span', { className: 'tag ev', textContent: '🛍 ' + (EVLAB[x.event] || '大型セール') }));
     if (x.freebie) {
       const w = x.freebie.when ? (daysLeft(x.freebie.when) === 0 ? '今日' : md(x.freebie.when)) : '';
@@ -149,6 +153,7 @@
     tabs.replaceChildren(...CATS.map((c) => {
       const n = c.id === 'all' ? items.length : c.id === 'free' ? items.filter((x) => x.freebie).length : c.id === 'event' ? items.filter((x) => x.event).length
         : c.id === 'collab' ? items.filter((x) => x.collab && !x.dup && !past(x)).length
+        : c.id === 'gift' ? items.filter((x) => x.gift && !x.dup && !(x.expires && daysLeft(x.expires) < 0)).length
         : c.id === 'local' ? items.filter((x) => x.region === 'College Station' && !x.dup).length
         : c.id === 'family' ? items.filter((x) => x.family && !isHou(x) && !x.dup && !past(x)).length
         : c.id === 'houston' ? items.filter((x) => isHou(x) && !x.dup && !(x.family && past(x))).length
@@ -171,7 +176,7 @@
   }
 
   function renderStores() {
-    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : state.cat === 'collab' ? x.collab : state.cat === 'local' ? x.region === 'College Station' : state.cat === 'family' ? x.family && !isHou(x) : state.cat === 'houston' ? isHou(x) : x.cats.includes(state.cat)));
+    const pool = items.filter((x) => state.cat === 'all' || (state.cat === 'free' ? x.freebie : state.cat === 'event' ? x.event : state.cat === 'collab' ? x.collab : state.cat === 'gift' ? x.gift : state.cat === 'local' ? x.region === 'College Station' : state.cat === 'family' ? x.family && !isHou(x) : state.cat === 'houston' ? isHou(x) : x.cats.includes(state.cat)));
     const cnt = new Map();
     for (const x of pool) for (const s of x.stores) cnt.set(s, (cnt.get(s) || 0) + 1);
     const sel = $('store');
@@ -193,6 +198,7 @@
   function renderCalendar() {
     const box = document.getElementById('cal');
     if (state.cat === 'collab') { renderCollabPlan(box); return; }
+    if (state.cat === 'gift') { renderGiftGuide(box); return; }
     if (state.cat !== 'event' || !calendar.length) { box.hidden = true; return; }
     box.hidden = false;
     const upcoming = calendar.filter((e) => !e.date || daysLeft(e.date) >= 0);
@@ -223,6 +229,25 @@
       }
       return li;
     })));
+  }
+
+  // 💳 ギフトカード:スーパーで定期的にある「お得に買う」型(2026-11 時点の調査。実施日は記事と店頭で確認)
+  const GIFT_GUIDE = [
+    { store: 'H-E-B', text: '対象のギフトカード(Home Depot・Lowe\'s・Starbucks・Cinemark など)を $50〜$150 買うと、H-E-B ギフトカード $10〜$25 がもらえる(店頭のみ・期間限定)。$100 で $20 引きの回もある。' },
+    { store: 'Kroger', text: '他社ギフトカードの購入で燃料ポイント 4倍(週末〜2週間ほど)。100 ポイント = Kroger のガソリン 1 ガロン 10¢ 引き。Visa/Mastercard の購入手数料が無料になる回もある。' },
+    { store: 'Costco・Sam\'s Club', text: '会員向けに、レストラン・映画・旅行などのギフトカードを額面より安く常時販売(例:$100 分を $80 前後)。Sam\'s は週末の特売で値引き幅が広がることがある。' }
+  ];
+  const GIFT_LINKS = [
+    { name: 'Kroger ギフトカードの特典', url: 'https://giftcards.kroger.com/Promotions' },
+    { name: 'Kroger の店舗・ガソリン(CS)', url: 'https://www.kroger.com/stores/fuel/tx/college-station' },
+    { name: 'Doctor of Credit(Kroger の記事)', url: 'https://www.doctorofcredit.com/tag/kroger' }
+  ];
+  function renderGiftGuide(box) {
+    box.hidden = false;
+    box.replaceChildren(el('h2', { textContent: 'ギフトカードをお得に買う(スーパーの定番)' }),
+      el('ul', {}, GIFT_GUIDE.map((g) => el('li', {}, [el('b', { textContent: g.store + ' ' }), el('span', { textContent: g.text })]))),
+      el('div', { className: 'note' }, GIFT_LINKS.flatMap((l, i) => [i ? '・' : '',
+        el('a', { href: l.url, target: '_blank', rel: 'noopener noreferrer', textContent: l.name })])));
   }
 
   function render() {
