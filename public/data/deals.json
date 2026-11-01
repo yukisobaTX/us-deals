@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-01T23:18Z",
- "count": 1437,
+ "count": 1441,
  "stats": {
   "h2s": {
    "read": 100,
@@ -3032,13 +3032,13 @@
     "when": "2026-11-14"
    },
    "sum": {
-    "item": "感謝祭アニメ番組の視聴",
-    "when": "11/14〜11/15",
+    "item": "感謝祭アニメ番組を無料で視聴できる",
+    "when": "11/14(土)〜11/15(日)",
     "what": "無料配信",
     "where": "オンライン"
    },
-   "ja": "感謝祭アニメ番組の視聴",
-   "jaVia": "gemini",
+   "ja": "感謝祭アニメ番組を無料で視聴できる",
+   "jaVia": "claude",
    "date": "2026-11-14"
   },
   {
@@ -5885,12 +5885,12 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkの野外コンサート（屋外）",
+    "item": "湖畔の遊歩道で行われる屋外コンサート",
     "when": "11/7(土)",
-    "what": "野外コンサート",
+    "what": "湖畔コンサート",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walkの野外コンサート（屋外）",
+   "ja": "湖畔の遊歩道で行われる屋外コンサート",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -10713,7 +10713,7 @@
    "source": "Destination Bryan",
    "posted": "2026-10-30T11:43Z",
    "firstSeen": "2026-10-30T11:43Z",
-   "expires": "2026-11-07",
+   "expires": "2026-11-08",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -10733,13 +10733,13 @@
    "eventNews": false,
    "sum": {
     "store": "Clara B. Mounce Library",
-    "item": "図書館の秋の古本セール",
-    "when": "11/7(土)",
+    "item": "図書館の友による秋の古本セール",
+    "when": "11/7(土)〜11/8(日)",
     "cond": "子供向けの本も(要確認)",
     "what": "古本セール",
-    "where": "Mounce Library"
+    "where": "Mounce図書館"
    },
-   "ja": "図書館の秋の古本セール",
+   "ja": "図書館の友による秋の古本セール",
    "jaVia": "claude-ev",
    "outing": [
     "子供向け"
@@ -10775,13 +10775,13 @@
    "eventNews": false,
    "sum": {
     "store": "Museum of the American G.I.",
-    "item": "American G.I.博物館のイベント（CS）",
+    "item": "博物館の体験型歴史イベント",
     "when": "11/7(土)",
     "cond": "博物館",
-    "what": "博物館イベント",
-    "where": "Museum of the …"
+    "what": "歴史イベント",
+    "where": "アメリカ軍博物館"
    },
-   "ja": "American G.I.博物館のイベント（CS）",
+   "ja": "博物館の体験型歴史イベント",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -14350,13 +14350,14 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
-   "jaVia": "mymemory",
+   "ja": "子どもの食料支援を目的としたトランク・オア・トリート",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "",
-    "item": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+    "item": "子どもの食料支援を目的としたトランク・オア・トリート",
     "when": "",
-    "cond": ""
+    "cond": "食料支援",
+    "what": "トランクオアトリート"
    },
    "date": null
   },
@@ -15874,13 +15875,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ダウンタウンの第1金曜（生演奏・催し）",
-    "when": "11/6(金)",
-    "what": "第1金曜イベント",
-    "where": "Historic Downt…",
-    "cond": "毎月開催"
+    "item": "毎月第1金曜のダウンタウン路上ライブ・体験イベント",
+    "when": "11/6(金) 17時〜",
+    "what": "ファーストフライデー",
+    "where": "ヒストリックダウンタウン",
+    "cond": "家族向け・無料"
    },
-   "ja": "ダウンタウンの第1金曜（生演奏・催し）",
+   "ja": "毎月第1金曜のダウンタウン路上ライブ・体験イベント",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -25849,11 +25850,11 @@
    "source": "Destination Bryan",
    "posted": "2026-10-27T11:44Z",
    "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-11-01",
+   "expires": "2026-11-08",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-01",
+   "localDate": "2026-11-08",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -25869,13 +25870,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Rountree Marketの日曜マーケット（屋外）",
-    "when": "11/1(日)",
+    "item": "毎週日曜のミッドタウン公園マーケット",
+    "when": "11/8(日)〜毎週日曜",
     "cond": "屋外マーケット",
     "what": "日曜マーケット",
-    "where": "Midtown Park"
+    "where": "ミッドタウン公園"
    },
-   "ja": "Rountree Marketの日曜マーケット（屋外）",
+   "ja": "毎週日曜のミッドタウン公園マーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -26821,7 +26822,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-31",
+   "localDate": "2026-11-02",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -26837,13 +26838,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館・博物館の展示（〜2027/5）",
-    "when": "10/31〜5/16",
-    "what": "博物館の展示",
-    "where": "Bush Library(C…",
-    "cond": "入館料は要確認"
+    "item": "アメリカの歴史を紹介する博物館の展示",
+    "when": "〜2027/5/16",
+    "what": "アメリカ展示",
+    "where": "ブッシュ大統領図書館",
+    "cond": "展示・長期開催"
    },
-   "ja": "ブッシュ大統領図書館・博物館の展示（〜2027/5）",
+   "ja": "アメリカの歴史を紹介する博物館の展示",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -26863,7 +26864,7 @@
    "expires": "2026-11-06",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-10-30",
+   "localDate": "2026-11-06",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -26879,13 +26880,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkの朝のランニング会",
-    "when": "10/30(金)・11/6(金)",
-    "what": "ラン会",
+    "item": "湖畔の遊歩道でのランニング会",
+    "when": "11/6(金)",
+    "what": "ランニング会",
     "where": "Lake Walk",
-    "cond": "要確認"
+    "cond": "無料"
    },
-   "ja": "Lake Walkの朝のランニング会",
+   "ja": "湖畔の遊歩道でのランニング会",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -45720,13 +45721,15 @@
    "date": "2026-11-03",
    "event": null,
    "eventNews": false,
-   "ja": "Kroger/Harris Teeter ：サードパーティギフトカードの燃料ポイント4倍（ 10/21 ～ 11/3 ）",
-   "jaVia": "mymemory",
+   "ja": "サードパーティ製ギフトカードで燃料ポイント4倍",
+   "jaVia": "claude",
    "sum": {
-    "store": "Kroger",
-    "item": "Kroger/Harris Teeter ：サードパーティギフトカードの燃料ポイント4倍（ 10/21 ～ 11/3 ）",
-    "when": "11/3(火)まで",
-    "cond": ""
+    "store": "Kroger / Harris Teeter",
+    "item": "サードパーティ製ギフトカードで燃料ポイント4倍",
+    "when": "〜11/3(火)",
+    "cond": "サードパーティ製ギフトカード対象",
+    "what": "燃料ポイント4倍",
+    "where": "Kroger"
    },
    "gift": {
     "grocery": true
@@ -49172,6 +49175,170 @@
    "date": "2026-11-07",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "58b12e46b401",
+   "title": "Music Play at St. Andrew's Episcopal Church",
+   "link": "https://www.destinationbryan.com/events/music-play-st-andrews-church/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-01T23:33Z",
+   "firstSeen": "2026-11-01T23:33Z",
+   "expires": "2026-11-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "St. Andrew's Episcopal Church",
+    "item": "子ども向けの音楽あそび会",
+    "when": "11/6(金)",
+    "cond": "子供向け",
+    "what": "音楽あそび",
+    "where": "セント・アンドリュース教会"
+   },
+   "ja": "子ども向けの音楽あそび会",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-06"
+  },
+  {
+   "id": "74f8cf90347a",
+   "title": "The Farmers' Market in Brazos County",
+   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-01T23:33Z",
+   "firstSeen": "2026-11-01T23:33Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Midtown Park",
+    "item": "毎週土曜の地元農産物マーケット",
+    "when": "11/7(土)〜毎週土曜",
+    "what": "農産物マーケット",
+    "where": "ミッドタウン公園"
+   },
+   "ja": "毎週土曜の地元農産物マーケット",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07"
+  },
+  {
+   "id": "5dd5cac6d1b7",
+   "title": "Paint-a-Palooza at Great Escapes RV Park",
+   "link": "https://www.destinationbryan.com/events/paint-a-palooza-26/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-01T23:33Z",
+   "firstSeen": "2026-11-01T23:33Z",
+   "expires": "2026-11-08",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-08",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Great Escapes RV Park",
+    "item": "屋外で絵を描いて楽しむイベント",
+    "when": "11/8(日)",
+    "cond": "子供向け",
+    "what": "ペイントイベント",
+    "where": "Great Escapes …"
+   },
+   "ja": "屋外で絵を描いて楽しむイベント",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外"
+   ],
+   "family": true,
+   "date": "2026-11-08"
+  },
+  {
+   "id": "74bb372cab83",
+   "title": "Lights On presented by Frost Bank",
+   "link": "https://events.bryantx.gov/default/Detail/2026-11-20-1700-Lights-On-Presented-by-Frost-Bank",
+   "source": "City of Bryan",
+   "posted": "2026-11-01T23:33Z",
+   "firstSeen": "2026-11-01T23:33Z",
+   "expires": "2026-11-20",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-20",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "City of Bryan",
+    "item": "冬の街あかりを点灯するイベント",
+    "when": "11/20(金) 17時",
+    "cond": "家族向け",
+    "what": "ライトアップ祭",
+    "where": "Bryan市内"
+   },
+   "ja": "冬の街あかりを点灯するイベント",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-20"
   }
  ]
 }
