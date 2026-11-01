@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01T10:51Z",
- "count": 1342,
+ "updated": "2026-11-01T11:47Z",
+ "count": 1343,
  "stats": {
   "h2s": {
    "read": 100,
@@ -8,7 +8,7 @@
   },
   "h2s-free": {
    "read": 100,
-   "added": 21
+   "added": 20
   },
   "doc": {
    "read": 15,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 6
   },
   "tfg": {
    "read": 40,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 21,
+   "gemini": 20,
    "geminiEvent": 0,
-   "mymemory": 8,
-   "geminiToday": 12,
+   "mymemory": 9,
+   "geminiToday": 13,
    "model": "gemini-flash-latest"
   }
  },
@@ -3387,6 +3387,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-01T11:47Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "sum": {
+    "item": "ハロウィン特典や各種割引",
+    "when": "10/31",
+    "what": "ハロウィン割引",
+    "where": "各店舗"
+   },
+   "ja": "ハロウィン特典や各種割引",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -10951,6 +10989,45 @@
     "item": "Sam's Clubでファミリーパジャマをマッチングするメンバーを$ 7からマーク！",
     "when": "",
     "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "05f0c4cdc0e7",
+   "title": "Fight Hunger with Trunk or Treat So Kids Can Eat",
+   "link": "https://wtaw.com/fight-hunger-with-trunk-or-treat-so-kids-can-eat/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-10-29T14:38Z",
+   "firstSeen": "2026-11-01T11:47Z",
+   "expires": null,
+   "thumb": "https://wtaw.com/wp-content/uploads/2026/07/City-of-Bryan-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "freebie": null,
+   "ja": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+    "when": "",
+    "cond": ""
    },
    "date": null
   },
@@ -36784,45 +36861,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "fb82147d284e",
-   "title": "It’s MrBeast Day at Lowe’s – FREE Swarms for Rewards Members (Get There Early!)",
-   "link": "https://hip2save.com/deals/lowes-kids-workshop/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-10-24T11:15Z",
-   "firstSeen": "2026-10-28T12:52Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mr-beast-at-lowes.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": null
-   },
-   "ja": "MrBeast Dayの無料Swarms（リワード会員向け）",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Lowe's",
-    "item": "MrBeast Dayの無料Swarms（リワード会員向け）",
-    "when": "",
-    "cond": "リワード会員・先着",
-    "what": "無料おもちゃ",
-    "where": "Lowe's"
-   },
-   "date": null
   },
   {
    "id": "e8b3bb06a5ac",
