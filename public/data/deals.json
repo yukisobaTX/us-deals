@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-01T05:56Z",
- "count": 1345,
+ "updated": "2026-11-01T07:15Z",
+ "count": 1344,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 5
   },
   "h2s-free": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 6
+   "added": 5
   },
   "tfg": {
    "read": 40,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,12 +55,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
-   "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 3,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "gemini": 22,
+   "geminiEvent": 1,
+   "mymemory": 8,
+   "geminiToday": 5,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -1049,13 +1048,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "先着12,500名様限定！山露無料！",
-   "jaVia": "mymemory",
+   "ja": "マウンテンデュー",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "先着12,500名様限定！山露無料！",
+    "store": "Mountain Dew",
+    "item": "マウンテンデュー",
     "when": "",
-    "cond": "先着12,500名"
+    "cond": "先着12,500名",
+    "what": "無料炭酸飲料",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -3386,44 +3387,6 @@
     "where": "Atom Tickets"
    },
    "date": null
-  },
-  {
-   "id": "ac09530d20f9",
-   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
-   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-30T20:46Z",
-   "firstSeen": "2026-11-01T05:56Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31",
-    "roundup": true
-   },
-   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
-    "when": "10/31(土)",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -11020,15 +10983,17 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
-   "jaVia": "mymemory",
+   "ja": "ハロウィンイベント「Trunk or Treat So Kids Can Eat」",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
-    "when": "",
-    "cond": ""
+    "store": "Bryan High",
+    "item": "ハロウィンイベント「Trunk or Treat So Kids Can Eat」",
+    "when": "10/31(土) 10〜13時",
+    "cond": "缶詰5個・子供向け",
+    "what": "ハロウィン祭",
+    "where": "Bryan High"
    },
-   "date": null
+   "date": "2026-10-31"
   },
   {
    "id": "7f10f4144491",
