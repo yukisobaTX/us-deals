@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-01T01:35Z",
- "count": 1437,
+ "updated": "2026-11-01T02:59Z",
+ "count": 1438,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 25,
+   "read": 0,
    "added": 0
   },
   "mnn": {
@@ -57,13 +57,49 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 13,
+   "mymemory": 14,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: The read operation timed out"
+ ],
  "items": [
+  {
+   "id": "cfc06a9d6968",
+   "title": "Insulated Lunch Bag Just $4.95 on Amazon (Reg. $16)",
+   "link": "https://hip2save.com/deals/amazon-lunch-bag/",
+   "source": "Hip2Save",
+   "posted": "2026-11-01T01:45Z",
+   "firstSeen": "2026-11-01T02:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lifewit-Cooler.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 69,
+   "price": 4.95,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "断熱ランチバッグAmazonでたったの$ 4.95 （登録価格$ 16 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "断熱ランチバッグAmazonでたったの$ 4.95 （登録価格$ 16 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "582d08e72d91",
    "title": "365 by Whole Foods Organic Flour 5lb Bag Just $5.50 Shipped on Amazon",
