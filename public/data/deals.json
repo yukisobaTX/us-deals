@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01T07:15Z",
- "count": 1344,
+ "updated": "2026-11-01T08:10Z",
+ "count": 1343,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 6
   },
   "tfg": {
    "read": 40,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 22,
-   "geminiEvent": 1,
+   "gemini": 21,
+   "geminiEvent": 0,
    "mymemory": 8,
-   "geminiToday": 5,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
@@ -3387,6 +3387,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-01T08:10Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "sum": {
+    "item": "ハロウィンの無料特典・割引",
+    "when": "10/31",
+    "what": "無料特典・割引",
+    "where": "各種店舗"
+   },
+   "ja": "ハロウィンの無料特典・割引",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -10953,47 +10991,6 @@
     "cond": "会員限定"
    },
    "date": null
-  },
-  {
-   "id": "05f0c4cdc0e7",
-   "title": "Fight Hunger with Trunk or Treat So Kids Can Eat",
-   "link": "https://wtaw.com/fight-hunger-with-trunk-or-treat-so-kids-can-eat/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-10-29T14:38Z",
-   "firstSeen": "2026-11-01T05:56Z",
-   "expires": null,
-   "thumb": "https://wtaw.com/wp-content/uploads/2026/07/City-of-Bryan-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "freebie": null,
-   "ja": "ハロウィンイベント「Trunk or Treat So Kids Can Eat」",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "Bryan High",
-    "item": "ハロウィンイベント「Trunk or Treat So Kids Can Eat」",
-    "when": "10/31(土) 10〜13時",
-    "cond": "缶詰5個・子供向け",
-    "what": "ハロウィン祭",
-    "where": "Bryan High"
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "7f10f4144491",
@@ -36864,47 +36861,6 @@
     "where": "Lowe's"
    },
    "date": null
-  },
-  {
-   "id": "8bc419cf6e6c",
-   "title": "Guide to the 2026 Texas City Music Festival | Free Live Music & Local Fun",
-   "link": "https://www.houstononthecheap.com/texas-city-music-festival-2026/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-24T08:00Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Texas-City-Music-Festival.jpg",
-   "noAlert": true,
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "Texas City Music Festival(無料ライブ)",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "Nessler Park",
-    "item": "Texas City Music Festival(無料ライブ)",
-    "when": "",
-    "cond": "無料",
-    "what": "無料音楽フェス",
-    "where": "Texas City"
-   },
-   "date": null,
-   "outing": [
-    "エンタメ"
-   ]
   },
   {
    "id": "e8b3bb06a5ac",
