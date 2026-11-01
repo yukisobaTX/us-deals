@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01T08:58Z",
- "count": 1343,
+ "updated": "2026-11-01T09:55Z",
+ "count": 1344,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 6
   },
   "tfg": {
    "read": 40,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,11 +55,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 20,
-   "geminiEvent": 0,
-   "mymemory": 9,
-   "geminiToday": 9,
-   "model": "gemini-flash-latest"
+   "gemini": 0,
+   "geminiEvent": 1,
+   "mymemory": 25,
+   "geminiToday": 11,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
@@ -3387,6 +3388,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-01T09:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -10983,15 +11022,17 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
-   "jaVia": "mymemory",
+   "ja": "食糧支援「Trunk or Treat」",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
-    "when": "",
-    "cond": ""
+    "store": "Bryan High School",
+    "item": "食糧支援「Trunk or Treat」",
+    "when": "10/31(土) 10〜13時",
+    "cond": "缶詰5個の寄付・家族向け",
+    "what": "ハロウィン行事",
+    "where": "Bryan High"
    },
-   "date": null
+   "date": "2026-10-31"
   },
   {
    "id": "7f10f4144491",
