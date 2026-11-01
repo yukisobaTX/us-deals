@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-01T23:18Z",
+ "updated": "2026-11-01T23:45Z",
  "count": 1441,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 4
   },
   "tfg": {
    "read": 40,
@@ -64,6 +64,246 @@
  },
  "errors": [],
  "items": [
+  {
+   "id": "ba5a70b67e6a",
+   "title": "Walgreens: Free 8×10 Photo Print With Promo Code XLFREE",
+   "link": "https://www.doctorofcredit.com/walgreens-free-8x10-photo-print-with-promo-code-eightdec/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-01T23:35Z",
+   "firstSeen": "2026-11-01T23:45Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2020/05/walgreens.png",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free",
+    "coupon"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "Walgreens ：プロモーションコードXLFREE付き無料8 × 10フォトプリント",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walgreens",
+    "item": "Walgreens ：プロモーションコードXLFREE付き無料8 × 10フォトプリント",
+    "when": "",
+    "cond": "コード入力"
+   },
+   "date": null
+  },
+  {
+   "id": "58b12e46b401",
+   "title": "Music Play at St. Andrew's Episcopal Church",
+   "link": "https://www.destinationbryan.com/events/music-play-st-andrews-church/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-01T23:33Z",
+   "firstSeen": "2026-11-01T23:33Z",
+   "expires": "2026-11-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "St. Andrew's Episcopal Church",
+    "item": "子ども向けの音楽あそび会",
+    "when": "11/6(金)",
+    "cond": "子供向け",
+    "what": "音楽あそび",
+    "where": "セント・アンドリュース教会"
+   },
+   "ja": "子ども向けの音楽あそび会",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-06",
+   "freebie": null
+  },
+  {
+   "id": "74f8cf90347a",
+   "title": "The Farmers' Market in Brazos County",
+   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-01T23:33Z",
+   "firstSeen": "2026-11-01T23:33Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Midtown Park",
+    "item": "毎週土曜の地元農産物マーケット",
+    "when": "11/7(土)〜毎週土曜",
+    "what": "農産物マーケット",
+    "where": "ミッドタウン公園"
+   },
+   "ja": "毎週土曜の地元農産物マーケット",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07",
+   "freebie": null
+  },
+  {
+   "id": "5dd5cac6d1b7",
+   "title": "Paint-a-Palooza at Great Escapes RV Park",
+   "link": "https://www.destinationbryan.com/events/paint-a-palooza-26/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-01T23:33Z",
+   "firstSeen": "2026-11-01T23:33Z",
+   "expires": "2026-11-08",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-08",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Great Escapes RV Park",
+    "item": "屋外で絵を描いて楽しむイベント",
+    "when": "11/8(日)",
+    "cond": "子供向け",
+    "what": "ペイントイベント",
+    "where": "Great Escapes …"
+   },
+   "ja": "屋外で絵を描いて楽しむイベント",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外"
+   ],
+   "family": true,
+   "date": "2026-11-08",
+   "freebie": null
+  },
+  {
+   "id": "74bb372cab83",
+   "title": "Lights On presented by Frost Bank",
+   "link": "https://events.bryantx.gov/default/Detail/2026-11-20-1700-Lights-On-Presented-by-Frost-Bank",
+   "source": "City of Bryan",
+   "posted": "2026-11-01T23:33Z",
+   "firstSeen": "2026-11-01T23:33Z",
+   "expires": "2026-11-20",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-20",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "City of Bryan",
+    "item": "冬の街あかりを点灯するイベント",
+    "when": "11/20(金) 17時",
+    "cond": "家族向け",
+    "what": "ライトアップ祭",
+    "where": "Bryan市内"
+   },
+   "ja": "冬の街あかりを点灯するイベント",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-20",
+   "freebie": null
+  },
+  {
+   "id": "5188604e70a4",
+   "title": "Men’s Flannel Shirt Hoodies Just $9.xx on Amazon (Reg $20) -Many Colors!",
+   "link": "https://thefreebieguy.com/geek-lighting-flannel/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-01T23:28Z",
+   "firstSeen": "2026-11-01T23:45Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Geek-Lighting-Mens-Flannel-Shirt-Hoodie-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "メンズフランネルシャツパーカーAmazonでわずか$ 9.xx （登録価格$ 20 ） -多くの色！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "メンズフランネルシャツパーカーAmazonでわずか$ 9.xx （登録価格$ 20 ） -多くの色！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "0b7f5aded3eb",
    "title": "Wet n wild Color Icon Cream Eyeliner Eyeshadow Multi-Sticks Only $1.xx on Amazon!",
@@ -674,13 +914,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Vacplusトイレボウルクリーナータブレット12パックのみ$ 3.82 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Vacplusトイレボウルクリーナータブレット12パックのみ$ 3.82 Amazonで発送",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "5f6049dbed9e"
   },
   {
@@ -707,13 +949,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでハンバーガーラッピングペーパーセット$ 9.xxのみ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでハンバーガーラッピングペーパーセット$ 9.xxのみ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "de083f30075c",
@@ -739,13 +983,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "サムズクラブの生涯保管小屋は、おそらく$ 294.81 （登録価格$ 899 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "サムズクラブの生涯保管小屋は、おそらく$ 294.81 （登録価格$ 899 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "358988c532f2",
@@ -771,13 +1017,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アマゾンで$ 15のみのモロッコカノイル5ピースサンプルセット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アマゾンで$ 15のみのモロッコカノイル5ピースサンプルセット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d0abdd3d185e",
@@ -6713,44 +6961,6 @@
     "where": "Atom Tickets"
    },
    "date": null
-  },
-  {
-   "id": "ac09530d20f9",
-   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
-   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-30T20:46Z",
-   "firstSeen": "2026-11-01T23:18Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31",
-    "roundup": true
-   },
-   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
-    "when": "10/31(土)",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -25883,7 +26093,7 @@
     "エンタメ"
    ],
    "family": true,
-   "date": "2026-11-01",
+   "date": "2026-11-08",
    "freebie": null
   },
   {
@@ -26849,7 +27059,7 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -26892,7 +27102,7 @@
     "公園・屋外",
     "スポーツ"
    ],
-   "date": "2026-10-30",
+   "date": "2026-11-06",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -37232,43 +37442,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "5acfe9708ba4",
-   "title": "Buy One Get TWO FREE Pillows & Sheets at JCPenney + 10% Off",
-   "link": "https://thefreebieguy.com/buy-one-get-two-free-pillows-at-jcpenney/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-24T23:28Z",
-   "firstSeen": "2026-10-24T23:38Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/jcpenney-store-front-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 10,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "JCPenney",
-    "item": "枕・シーツ1点購入で2点無料+10%OFF",
-    "when": "",
-    "cond": "1個購入",
-    "what": "BOGO寝具",
-    "where": "JCPenney"
-   },
-   "ja": "枕・シーツ1点購入で2点無料+10%OFF",
-   "jaVia": "gemini",
    "date": null
   },
   {
@@ -49175,170 +49348,6 @@
    "date": "2026-11-07",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "58b12e46b401",
-   "title": "Music Play at St. Andrew's Episcopal Church",
-   "link": "https://www.destinationbryan.com/events/music-play-st-andrews-church/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-01T23:33Z",
-   "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "St. Andrew's Episcopal Church",
-    "item": "子ども向けの音楽あそび会",
-    "when": "11/6(金)",
-    "cond": "子供向け",
-    "what": "音楽あそび",
-    "where": "セント・アンドリュース教会"
-   },
-   "ja": "子ども向けの音楽あそび会",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-06"
-  },
-  {
-   "id": "74f8cf90347a",
-   "title": "The Farmers' Market in Brazos County",
-   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-01T23:33Z",
-   "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-07",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Midtown Park",
-    "item": "毎週土曜の地元農産物マーケット",
-    "when": "11/7(土)〜毎週土曜",
-    "what": "農産物マーケット",
-    "where": "ミッドタウン公園"
-   },
-   "ja": "毎週土曜の地元農産物マーケット",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-07"
-  },
-  {
-   "id": "5dd5cac6d1b7",
-   "title": "Paint-a-Palooza at Great Escapes RV Park",
-   "link": "https://www.destinationbryan.com/events/paint-a-palooza-26/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-01T23:33Z",
-   "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-08",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-08",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Great Escapes RV Park",
-    "item": "屋外で絵を描いて楽しむイベント",
-    "when": "11/8(日)",
-    "cond": "子供向け",
-    "what": "ペイントイベント",
-    "where": "Great Escapes …"
-   },
-   "ja": "屋外で絵を描いて楽しむイベント",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外"
-   ],
-   "family": true,
-   "date": "2026-11-08"
-  },
-  {
-   "id": "74bb372cab83",
-   "title": "Lights On presented by Frost Bank",
-   "link": "https://events.bryantx.gov/default/Detail/2026-11-20-1700-Lights-On-Presented-by-Frost-Bank",
-   "source": "City of Bryan",
-   "posted": "2026-11-01T23:33Z",
-   "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-20",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-20",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Holiday Events"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "City of Bryan",
-    "item": "冬の街あかりを点灯するイベント",
-    "when": "11/20(金) 17時",
-    "cond": "家族向け",
-    "what": "ライトアップ祭",
-    "where": "Bryan市内"
-   },
-   "ja": "冬の街あかりを点灯するイベント",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-20"
   }
  ]
 }
