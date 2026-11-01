@@ -167,13 +167,18 @@ if not f.outing_ng("Nation's first detransition clinic now open as result of Tex
 # 朝のメール:HS は載せない(10/28 本人指定)
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 import daily_digest as _dd, datetime as _dt
-_t = _dt.datetime.now(_dd.CT).date().isoformat()
+_t = _dd.target_day().isoformat()   # 基準日 = 明日(前日 18 時の送信。10/31)
 _base = {"posted": "2026-10-26T00:00Z", "firstSeen": "2099-01-01T00:00Z", "stores": [], "cats": [], "types": [], "link": "https://example.com/"}
 _items = [{**_base, "id": "c", "title": "Kids Pumpkin Patch", "region": "College Station", "family": True, "date": _t, "sum": {"what": "CS家族"}},
           {**_base, "id": "h", "title": "Kids Pumpkin Patch", "region": "Houston", "family": True, "date": _t, "sum": {"what": "HOU家族"}},
           {**_base, "id": "hf", "title": "Free Donut", "region": "Houston", "freebie": {"kind": "store"}, "date": _t, "sum": {"what": "HOU無料"}},
           {**_base, "id": "f", "title": "Free Donut", "freebie": {"kind": "store"}, "date": _t, "sum": {"what": "全国無料"}}]
+_today = _dt.datetime.now(_dd.CT).date().isoformat()
+_items.append({**_base, "id": "ft", "title": "Free Cookie", "freebie": {"kind": "store"}, "date": _today, "sum": {"what": "今日の無料"}})
 _title, _body, _ = _dd.build(_items, "2000-01-01T00:00Z", "")
+if "今日" in _body or "今日" in _title or not _title.startswith("お得ノート"):   # 今日の分は載せない(10/31 本人指定)
+    bad += 1
+    print("NG digest today removed", _title)
 if not ("CS家族" in _body and "全国無料" in _body and "HOU" not in _body and "## 🏙 HS" not in _body and "HS" not in _title):
     bad += 1
     print("NG digest houston removed", _title)

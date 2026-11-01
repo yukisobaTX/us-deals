@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""毎朝のまとめを Gmail で1通だけ送る(送れないときだけ GitHub Issue)。
+"""前日の夕方 18 時ごろに、翌日分のまとめを Gmail で1通だけ送る(送れないときだけ GitHub Issue)。
 
-- 2026-10-26 から通知は朝の1通だけ(即時通知 freebie_alert.py は廃止)。
-- 今日・明日の無料情報(店頭・クーポン・飲食 BOGO)は「店舗名:もらえるもの:日時:条件」とリンクで詳しく。
-  日付なしの新着も「今すぐ使える」としてここに入れる。
-- 明後日〜2週間先の無料情報と大型セールの新着は、日付と内容の短文だけ。詳細はサイトで見る。
+- 2026-10-31 本人指定:朝 7:15 の送信をやめ、前日 18 時に「明日の予定」として送る(翌日の予定を立てやすいように)。
+  「今日」の欄はなくし、基準日 = 実行日の翌日(target_day)。明日の無料・家族・地元・今後・コラボはすべて基準日から数える。
+- 明日の無料情報(店頭・クーポン・飲食 BOGO)は「日付：何が；どこで」とリンク。日付なしの新着も「随時」としてここに入れる。
+- 明後日〜2週間先の無料情報と大型セールの新着は短文だけ。詳細はサイトで見る。
 - 前の Issue は閉じない(閉じると完了通知メールが別に届くため)。
-- 夏時間・冬時間の両方に対応するため、cron は2つ(12:08・13:08 UTC)で起動し、
-  米国中部時間で 7 時台のときだけ送る(--force で時刻を無視)。
+- 夏時間・冬時間の両方に対応するため、cron は2つ(22:53・23:53 UTC)で起動し、
+  米国中部時間で 17〜18 時台のときだけ送る(1日1通。--force で時刻を無視)。
 
 環境変数:GITHUB_TOKEN、GITHUB_REPOSITORY、SITE_URL(任意)
 """
@@ -39,6 +39,12 @@ MAX_FAMILY_HOU = 4
 MAX_HOU_FREE = 5
 MAX_COLLAB = 6     # 🧸 キャラコラボ(新着)の上限(本人指定 10/27)
 LAST = {}          # 直近の build() で選んだ記事(プッシュ通知用)
+SEND_HOURS = (17, 18)   # 送信する CT の時間帯(前日 18 時ごろ。本人指定 10/31)
+
+
+def target_day(now=None):
+    """メールの基準日 = 実行日の翌日(前日の夕方に翌日分を送るため)。"""
+    return (now or dt.datetime.now(CT)).date() + dt.timedelta(days=1)
 TYPE_JA = {"free": "無料", "bogo": "BOGO", "coupon": "クーポン", "gc": "ギフトカード", "sale": "セール"}
 
 
@@ -116,7 +122,8 @@ def line(x, today, tomorrow, head=None):
     d = x.get("date")
     if not head and long_running(x):
         head = f"〜{md(x['expires'])}"
-    when = head or ("今日" if d == today else "明日" if d == tomorrow else md(d) if d else "随時")
+    # today = 基準日(明日)。「今日」の表記は使わない(10/31 本人指定)
+    when = head or ("明日" if d == today else md(d) if d else "随時")
     icon = "".join(KIND_ICON[k] for k in (x.get("outing") or [])[:1])
     what = clip(sm.get("what") or sm.get("item") or x.get("ja") or x["title"], 10)
     where = sm.get("where") or sm.get("store") or "・".join(n for n in x.get("stores", [])[:1] if n != "レストラン全般")
@@ -151,9 +158,8 @@ def plan_line(e, today):
     end = f"{md(e['end'])}" if e.get("end") else ""
     if s > today:
         when = f"{md(e['start'])}〜{end}" if end else f"{md(e['start'])}〜"
-        when = ("明日から " if (s - today).days == 1 else "") + when
     else:
-        when = "今日から" if s == today else f"{end}まで"
+        when = "明日から" if s == today else f"{end}まで"
     url = (e.get("sources") or [{}])[0].get("url", "")
     what = clip(e.get("what") or e.get("title", ""), 10)
     status = "" if e.get("status") in ("公式", "開催中") else "(未公式)"
@@ -225,8 +231,9 @@ def is_pure_free(x):
 
 
 def build(items, since, site):
-    """朝の1通。今日・明日の無料情報は詳しく、それ以降は日付と内容の短文だけ(詳細はサイト)。"""
-    today = dt.datetime.now(CT).date()
+    """前日 18 時の1通。基準日(明日)の無料情報、それ以降は短文(詳細はサイト)。
+    以下の today / t_iso は「基準日 = 明日」を指す(今日の分は載せない。10/31 本人指定)。"""
+    today = target_day()
     t_iso = today.isoformat()
     tomorrow = (today + dt.timedelta(days=1)).isoformat()
     horizon = (today + dt.timedelta(days=HORIZON_DAYS)).isoformat()
@@ -243,7 +250,7 @@ def build(items, since, site):
     fam_hou = by_date([x for x in fam if x["region"] == "Houston"])[:MAX_FAMILY_HOU]
     fam_ids = {x["id"] for x in fam_cs + fam_hou}
     loc = [x for x in items if x.get("region") and not x.get("dup") and x["id"] not in fam_ids
-           and (x.get("date") in (t_iso, tomorrow)
+           and (x.get("date") == t_iso
                 or (x["firstSeen"] > since and (x.get("date") or "9999") >= t_iso))]
     loc_cs = by_date([x for x in loc if x["region"] == "College Station"])[:MAX_LOCAL_CS]
     loc_hou = by_date([x for x in loc if x["region"] == "Houston"])[:MAX_LOCAL_HOU]
@@ -252,13 +259,13 @@ def build(items, since, site):
     # ヒューストンの無料情報は前半(カレッジステーション・全国)から外し、後半のヒューストン欄へ(本人指定 10/27)
     hou_fbs = [x for x in fbs if x.get("region") == "Houston"]
     fbs = [x for x in fbs if x.get("region") != "Houston"]
-    near = [x for x in fbs if x.get("date") in (t_iso, tomorrow)
+    near = [x for x in fbs if x.get("date") == t_iso
             or (not x.get("date") and x["firstSeen"] > since)]
     near = by_date([x for x in near if is_pure_free(x) and is_goods(x)])
-    # ポータルのプッシュ通知は「当日のみ」(本人指定 10/27):日付が今日のもの+日付なしの新着(今すぐ使える)
+    # ポータルのプッシュ通知:明日の無料(日付が明日のもの+日付なしの新着)
     LAST["today"] = [x for x in near if x.get("date") in (t_iso, None, "")]
-    # この先:明後日〜2週間先の無料情報(短文のみ。毎朝の予定表として繰り返し載せる)
-    later = by_date([x for x in fbs if x.get("date") and tomorrow < x["date"] <= horizon and is_goods(x)])[:MAX_LATER]
+    # この先:明後日〜2週間先の無料情報(短文のみ。毎回の予定表として繰り返し載せる)
+    later = by_date([x for x in fbs if x.get("date") and t_iso < x["date"] <= horizon and is_goods(x)])[:MAX_LATER]
     hou_free = by_date([x for x in hou_fbs if is_goods(x) and (
         (x.get("date") and t_iso <= x["date"] <= horizon) or (not x.get("date") and x["firstSeen"] > since))])[:MAX_HOU_FREE]
     # 大型セール:前回のまとめ以降の記事を、セールごとに最大3件(短文のみ)
@@ -281,15 +288,15 @@ def build(items, since, site):
     n = len(near) + len(later) + len(ev_lines) + len(fam_cs) + len(loc_cs) + len(collab) + len(plan) + n_hou
     ln = lambda x: line(x, t_iso, tomorrow)
     # 件名:カレッジステーション(と全国)の件数を先に、ヒューストンは最後にまとめて
-    parts = [f"今日・明日{len(near)}", *([f"家族{len(fam_cs)}"] if fam_cs else []),
+    parts = [f"明日{len(near)}", *([f"家族{len(fam_cs)}"] if fam_cs else []),
              *([f"地元{len(loc_cs)}"] if loc_cs else []), *([f"今後{len(later)}"] if later else []), *([f"コラボ{len(collab) + len(plan)}"] if collab or plan else []),
              *([f"HS{n_hou}"] if n_hou else [])]
-    title = f"お得ノート {today.month}/{today.day}:" + "/".join(parts)
-    lines = [f"{MENTION} おはようございます。「日付：何が；どこで」で並べています(何がをタップで記事)。",
-             *([f"一覧: {site}"] if site else []), "", "## 🎁 今日・明日(無料の食べ物・もらえる物、BOGO)"]
+    title = f"お得ノート {md(t_iso)}の予定:" + "/".join(parts)
+    lines = [f"{MENTION} こんばんは。明日 {md(t_iso)} からの予定です。「日付：何が；どこで」で並べています(何がをタップで記事)。",
+             *([f"一覧: {site}"] if site else []), "", f"## 🎁 明日 {md(t_iso)}(無料の食べ物・もらえる物、BOGO)"]
     lines += [ln(x) for x in near] or ["- 該当なし"]
     if fam_cs:
-        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(CS周辺・1週間。🌳公園 🦒動物 🎪エンタメ ⚽スポーツ 🧒子供)",
+        lines += ["", "## 👨‍👩‍👧 家族のお出かけ(CS周辺・明日から1週間。🌳公園 🦒動物 🎪エンタメ ⚽スポーツ 🧒子供)",
                   *[ln(x) for x in fam_cs]]
     if loc_cs:
         lines += ["", "## 📍 地元(CS周辺)", *[ln(x) for x in loc_cs]]
@@ -326,7 +333,7 @@ def push_text(items, today):
         rows.append(f"・{what}" + (f"；{where}" if where else ""))
     if len(items) > 4:
         rows.append(f"ほか{len(items) - 4}件")
-    return f"🎁 今日の無料 {today.month}/{today.day}({len(items)}件)", "\n".join(rows)
+    return f"🎁 明日の無料 {md(today.isoformat())}({len(items)}件)", "\n".join(rows)
 
 
 def main():
@@ -341,8 +348,8 @@ def main():
         os.environ["MAIL_TO"] = ""   # 追加の宛先には送らない
 
     now_ct = dt.datetime.now(CT)
-    if not a.force and now_ct.hour != 7:
-        print(f"skip: CT {now_ct:%H:%M}(7時台だけ送る)")
+    if not a.force and now_ct.hour not in SEND_HOURS:
+        print(f"skip: CT {now_ct:%H:%M}(17〜18時台だけ送る)")
         return
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
     if not a.force and state.get("lastDate") == now_ct.date().isoformat():
@@ -372,10 +379,10 @@ def main():
         ok = mailer.send_mail("[テスト] " + title, body.replace(MENTION + " ", ""))
         print("テスト送信:" + ("送信しました(GMAIL_USER のみ)" if ok else "失敗"))
         return 0 if ok else 1
-    # ポータル(iPhone)へのプッシュ:当日の無料・BOGO があるときだけ。メール(家族あて)とは別に送る
+    # ポータル(iPhone)へのプッシュ:明日の無料・BOGO があるときだけ。メール(家族あて)とは別に送る
     if LAST.get("today"):
         import portal_push
-        portal_push.push(*push_text(LAST["today"], now_ct.date()), tag="deals")
+        portal_push.push(*push_text(LAST["today"], target_day(now_ct)), tag="deals")
     if mailer.send_mail(title, body.replace(MENTION + " ", "")):
         created = {"number": None}
     else:
