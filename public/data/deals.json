@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-01T18:57Z",
- "count": 1398,
+ "updated": "2026-11-01T19:49Z",
+ "count": 1410,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 11
+   "added": 8
   },
   "h2s-free": {
    "read": 100,
@@ -12,23 +12,23 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
-   "read": 20,
-   "added": 4
+   "read": 0,
+   "added": 0
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 6
   },
   "tfg": {
    "read": 40,
-   "added": 7
+   "added": 6
   },
   "mws": {
    "read": 20,
-   "added": 3
+   "added": 2
   },
   "wtaw": {
    "read": 20,
@@ -62,8 +62,341 @@
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
+ ],
  "items": [
+  {
+   "id": "c7807e35c2aa",
+   "title": "Candle Warmer Lamp Only $11.99 on Amazon (Easy Gift Idea!)",
+   "link": "https://hip2save.com/deals/candle-warmer-lamp/",
+   "source": "Hip2Save",
+   "posted": "2026-11-01T19:45Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/candle-lamp-amazon-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでわずか$ 11.99のキャンドルウォーマーランプ（簡単なギフトのアイデア！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでわずか$ 11.99のキャンドルウォーマーランプ（簡単なギフトのアイデア！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3b4e334556e5",
+   "title": "Crayola Light Up Tracing Pad Only $11.xx on Amazon (Reg. $24) – 12 Colored Pencils + 20 Sheets Included!",
+   "link": "https://thefreebieguy.com/crayola-light-up-tracing-pad/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-01T19:34Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Crayola-Light-Up-Tracing-Pad-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 54,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CrayolaライトアップトレーシングパッドAmazonで$ 11.xxのみ（登録価格$ 24 ） –カラーペン12本+ 20枚入り！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "CrayolaライトアップトレーシングパッドAmazonで$ 11.xxのみ（登録価格$ 24 ） –カラーペン12本+ 20枚入り！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "619092b0189b",
+   "title": "Stayfree Maxi Pads 66-Count Only $5.xx on Amazon! (Reg. $13)",
+   "link": "https://thefreebieguy.com/stayfree-maxi-pads/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-01T19:31Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Stayfree-Maxi-Pads-66-Count-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Stayfree Maxi Pads 66 - Amazonでわずか$ 5.xx ！ (Reg. $ 13)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Stayfree Maxi Pads 66 - Amazonでわずか$ 5.xx ！ (Reg. $ 13)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "446a77e604f8",
+   "title": "NEW Fireside Bullseye Bag Charm Just $10 at Target – Perfect Stocking Stuffer!",
+   "link": "https://thefreebieguy.com/bullseye-bag-charm/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-01T19:29Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Fireside-Bullseye-Bag-Charm-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "新登場のFiresideブルズアイバッグチャームはわずか$ 10でターゲット–完璧なストッキングスタッファー！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "新登場のFiresideブルズアイバッグチャームはわずか$ 10でターゲット–完璧なストッキングスタッファー！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "fbc8b9040094",
+   "title": "66-Foot LED Christmas String Lights Just $9.99 on Amazon (Reg. $20)",
+   "link": "https://hip2save.com/deals/led-christmas-string-lights/",
+   "source": "Hip2Save",
+   "posted": "2026-11-01T19:20Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/BOSSERN-66-Foot-LED-Christmas-String-Lights.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 9.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "66フィートLEDクリスマスストリングライトAmazonでわずか$ 9.99 （登録価格$ 20 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "66フィートLEDクリスマスストリングライトAmazonでわずか$ 9.99 （登録価格$ 20 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c12f70051dae",
+   "title": "Mrs. Meyer’s Clean Day Lavender Dish Soap Only $2.xx on Amazon (Reg. $6)",
+   "link": "https://thefreebieguy.com/mrs-meyers-clean-day-soap/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-01T19:20Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Mrs.-Meyers-Clean-Day-Lavender-Dish-Soap-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "47b0db742c3b",
+   "title": "Target’s 20% Military Discount Returns November 5th (Here’s How to Save!)",
+   "link": "https://hip2save.com/deals/target-military-discount/",
+   "source": "Hip2Save",
+   "posted": "2026-11-01T19:10Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Target-Military-Family-discount.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "956513039a29",
+   "title": "Score 4 iPhone Fast Charging USB C Chargers for just $9.xx on Amazon! (Reg $20)",
+   "link": "https://thefreebieguy.com/novobit-iphone-fast-charging-usb-c-charger/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-01T19:09Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/iPhone-Charger-Fast-Charging-USB-C-Charger_20261101_140550_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "363bca01bdd0",
+   "title": "Christmas Light Projector Only $18 Shipped for Amazon Prime Members (Reg. $39)",
+   "link": "https://hip2save.com/deals/amazon-christmas-light-projector/",
+   "source": "Hip2Save",
+   "posted": "2026-11-01T19:05Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/christmas-light-projector.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 54,
+   "price": 18.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "89e8605c4123",
+   "title": "Floral Electric Hand Warmers Rechargeable 2 Pack Only $8.xx on Amazon (Reg. $25)",
+   "link": "https://thefreebieguy.com/bearwind-electric-hand-warmers-rechargeable-2-pack/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-01T19:04Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Bearwind-Electric-Hand-Warmers-Rechargeable-2-Packs-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 8.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "ca4cbd587b38",
+   "date": null
+  },
   {
    "id": "9ea197fb9966",
    "title": "Amazon Basics 32oz Liquid Hand Soap 2-Pack Only $3.xx (Reg. $6)",
@@ -130,8 +463,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "32da7e576a87",
-   "date": null
+   "date": null,
+   "dup": "32da7e576a87"
   },
   {
    "id": "3e19e94234c1",
@@ -1963,6 +2296,39 @@
    },
    "ja": "選べるギフト(日用品等)",
    "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "d674896cff6d",
+   "title": "FREE 8×10 Walgreens Photo Print (with free in-store pickup!)",
+   "link": "https://moneysavingmom.com/free-walgreens-photo-print-with-free-in-store-pickup/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-01T11:04Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Screenshot-2025-11-03-at-7.16.27 PM-630x844.jpg",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "24fbd62f70f5",
    "date": null
   },
   {
@@ -5288,6 +5654,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-01T19:49Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -44616,7 +45020,8 @@
     "item": "フィッシングルアーアドベントカレンダーAmazonでたったの$ 10.65 （登録価格$ 22 ）",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/fishing-advent-calendar.jpg?resize=306,182"
   },
   {
    "id": "c8c35ef0ef79",
