@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T08:10Z",
+ "updated": "2026-11-01T08:58Z",
  "count": 1343,
  "stats": {
   "h2s": {
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 6
+   "added": 5
   },
   "tfg": {
    "read": 40,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 21,
+   "gemini": 20,
    "geminiEvent": 0,
-   "mymemory": 8,
-   "geminiToday": 7,
+   "mymemory": 9,
+   "geminiToday": 9,
    "model": "gemini-flash-latest"
   }
  },
@@ -3387,44 +3387,6 @@
     "where": "Atom Tickets"
    },
    "date": null
-  },
-  {
-   "id": "ac09530d20f9",
-   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
-   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-30T20:46Z",
-   "firstSeen": "2026-11-01T08:10Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31",
-    "roundup": true
-   },
-   "sum": {
-    "item": "ハロウィンの無料特典・割引",
-    "when": "10/31",
-    "what": "無料特典・割引",
-    "where": "各種店舗"
-   },
-   "ja": "ハロウィンの無料特典・割引",
-   "jaVia": "gemini",
-   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -10989,6 +10951,45 @@
     "item": "Sam's Clubでファミリーパジャマをマッチングするメンバーを$ 7からマーク！",
     "when": "",
     "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "05f0c4cdc0e7",
+   "title": "Fight Hunger with Trunk or Treat So Kids Can Eat",
+   "link": "https://wtaw.com/fight-hunger-with-trunk-or-treat-so-kids-can-eat/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-10-29T14:38Z",
+   "firstSeen": "2026-11-01T08:58Z",
+   "expires": null,
+   "thumb": "https://wtaw.com/wp-content/uploads/2026/07/City-of-Bryan-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "freebie": null,
+   "ja": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+    "when": "",
+    "cond": ""
    },
    "date": null
   },
