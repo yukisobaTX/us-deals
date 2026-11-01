@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01T04:02Z",
- "count": 1438,
+ "updated": "2026-11-01T05:00Z",
+ "count": 1342,
  "stats": {
   "h2s": {
    "read": 100,
@@ -58,8 +58,9 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 13,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "geminiToday": 1,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -1742,74 +1743,6 @@
    "date": null
   },
   {
-   "id": "bb1086febb75",
-   "title": "Walmart’s NEW Christmas Icon Glasses + Price Drops on Halloween Styles!",
-   "link": "https://hip2save.com/deals/walmart-icon-glasses/",
-   "source": "Hip2Save",
-   "posted": "2026-10-31T15:20Z",
-   "firstSeen": "2026-10-31T15:47Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Christmas-Tree-Icon-Glasses-from-Walmart.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートの新しいクリスマスアイコン眼鏡とハロウィンスタイルの価格が下がります！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートの新しいクリスマスアイコン眼鏡とハロウィンスタイルの価格が下がります！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
-   "id": "a695599816b3",
-   "title": "*RARE* Ninja Crispi Pro 6-in-1 Countertop Glass Air Fryer only $219.98 shipped (Reg. $300)! {Today Only}",
-   "link": "https://moneysavingmom.com/ninja-crispi-pro-countertop-glass-air-fryer-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-31T15:15Z",
-   "firstSeen": "2026-10-31T15:47Z",
-   "expires": "2026-10-31",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Ninja-Crispi-Pro-6-in-1-Countertop-Glass-Air-Fryer.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 27,
-   "price": 219.98,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "*レア* Ninja Crispi Pro 6 - in -1カウンタートップガラスエアフライヤーのみ$ 219.98発送（登録価格$ 300 ） ！ {本日のみ}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "*レア* Ninja Crispi Pro 6 - in -1カウンタートップガラスエアフライヤーのみ$ 219.98発送（登録価格$ 300 ） ！ {本日のみ}",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "df7e41b66693",
    "title": "Bose Noise-Canceling Headphones Just $169 Shipped on Walmart.com (Reg. $349)",
    "link": "https://hip2save.com/deals/bose-headphones/",
@@ -1876,40 +1809,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "7328fe6cc960",
-   "title": "Halloween Clothing Clearance at Walmart – Prices Start as Low as $3.xx!",
-   "link": "https://thefreebieguy.com/walmart-halloween-clothing-clearance/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-31T15:01Z",
-   "firstSeen": "2026-10-31T15:47Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Halloween-Clothing-Clearance-840x630.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートでのハロウィーンの服のクリアランス–価格は$ 3.xxから！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートでのハロウィーンの服のクリアランス–価格は$ 3.xxから！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "ba345f5a3dab",
@@ -2463,47 +2362,6 @@
    "date": null
   },
   {
-   "id": "b51c17749f44",
-   "title": "Burger King Deals | BOGO Free Whopper Jr. Sandwiches on Halloween",
-   "link": "https://thefreebieguy.com/burger-king-deals-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-31T12:26Z",
-   "firstSeen": "2026-10-31T12:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Burger-King-Store-840x630.png",
-   "hot": true,
-   "stores": [
-    "Burger King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "bogo": true
-   },
-   "sum": {
-    "store": "Burger King",
-    "item": "ワッパージュニア1個無料",
-    "when": "10/31(土)",
-    "cond": "1個購入",
-    "what": "BOGOバーガー",
-    "where": "Burger King"
-   },
-   "ja": "ワッパージュニア1個無料",
-   "jaVia": "gemini",
-   "date": "2026-10-31"
-  },
-  {
    "id": "c18de803707c",
    "title": "HydroJug Sport 40oz Insulated Stainless Steel Water Bottle Just $29.97 on Amazon (Reg. $40)",
    "link": "https://hip2save.com/deals/hydrojug-tumbler/",
@@ -2606,122 +2464,6 @@
    "date": null
   },
   {
-   "id": "4b6177b4666a",
-   "title": "QDOBA Deals | Free Entree for Halloween (W/ Purchase of Entree & Drink)",
-   "link": "https://thefreebieguy.com/qdoba-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-31T12:00Z",
-   "firstSeen": "2026-10-31T12:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/QDOBA-Free-Entree-with-purchase-of-Entree-and-Drink-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Qdoba"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "QDOBA",
-    "item": "アントレ無料",
-    "when": "10/31(土)",
-    "cond": "アントレ＆飲料購入",
-    "what": "無料アントレ",
-    "where": "QDOBA"
-   },
-   "ja": "アントレ無料",
-   "jaVia": "gemini",
-   "date": "2026-10-31",
-   "dup": "a7bbda804156"
-  },
-  {
-   "id": "fb51494ff369",
-   "title": "Shake Shack Deals | FREE Sandwiches All Month Long!",
-   "link": "https://thefreebieguy.com/shake-shack-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-31T12:00Z",
-   "firstSeen": "2026-10-31T12:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Shake-Shack-Free-Sandwiches-in-October-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Shake Shack"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Shake Shack",
-    "item": "サンドイッチ無料",
-    "when": "〜10/31",
-    "what": "無料サンド",
-    "where": "Shake Shack"
-   },
-   "ja": "サンドイッチ無料",
-   "jaVia": "gemini",
-   "date": "2026-10-31"
-  },
-  {
-   "id": "a3236e272889",
-   "title": "Denny’s Deals | Kids Eat Free on Halloween + FREE Denny’s Triple Play Meal",
-   "link": "https://thefreebieguy.com/dennys-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-31T12:00Z",
-   "firstSeen": "2026-10-31T12:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Dennys-Building-840x630.png",
-   "hot": true,
-   "stores": [
-    "Denny's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Denny's",
-    "item": "キッズ食・ミール無料",
-    "when": "10/31(土)",
-    "what": "無料ミール",
-    "where": "Denny's"
-   },
-   "ja": "キッズ食・ミール無料",
-   "jaVia": "gemini",
-   "date": "2026-10-31"
-  },
-  {
    "id": "41c2763ebaec",
    "title": "Raising Cane’s Deals| Limited-Edition Cup Available Now!",
    "link": "https://thefreebieguy.com/raising-canes-deals-freebies/",
@@ -2754,123 +2496,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "454e7543059b",
-   "title": "Paris Baguette Deals: Score a Free Pastry w/ Drink Purchase on Halloween",
-   "link": "https://thefreebieguy.com/paris-baguette-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-31T12:00Z",
-   "firstSeen": "2026-10-31T12:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Paris-Baugette-Fall-Pumpkin-Menu-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Paris Baguette"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Paris Baguette",
-    "item": "ペストリー無料",
-    "when": "10/31(土)",
-    "cond": "ドリンク購入",
-    "what": "無料ペストリー",
-    "where": "Paris Baguette"
-   },
-   "ja": "ペストリー無料",
-   "jaVia": "gemini",
-   "date": "2026-10-31"
-  },
-  {
-   "id": "9e00e0872b49",
-   "title": "Whataburger Deals | BOGO Whatawings for Halloween",
-   "link": "https://thefreebieguy.com/whataburger-deals-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-31T12:00Z",
-   "firstSeen": "2026-10-31T13:00Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Whataburger-Free-Medium-Fries-with-Whatafresher-purchase-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Whataburger"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "bogo": true
-   },
-   "sum": {
-    "store": "Whataburger",
-    "item": "Whatawings 1品購入でもう1品無料",
-    "when": "10/31",
-    "what": "BOGOチキン",
-    "where": "Whataburger"
-   },
-   "ja": "Whatawings 1品購入でもう1品無料",
-   "jaVia": "gemini",
-   "date": "2026-10-31"
-  },
-  {
-   "id": "41d276829578",
-   "title": "Jim Henson's Fraggle Rock: Back to the Rock Live at OPAS (Matinee)",
-   "link": "https://www.destinationbryan.com/events/jim-hensons-fraggle-rock-back-to-the-rock-live-at-opas-matinee/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-31T11:42Z",
-   "firstSeen": "2026-10-31T11:42Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Rudder Theater",
-    "item": "Fraggle Rockの舞台（マチネ・子供向け）",
-    "when": "10/31(土) マチネ",
-    "cond": "子供向け",
-    "what": "Fraggle R…",
-    "where": "Rudder Theater…"
-   },
-   "ja": "Fraggle Rockの舞台（マチネ・子供向け）",
-   "jaVia": "claude-ev",
-   "date": "2026-10-31",
-   "freebie": null
   },
   {
    "id": "eea71aee0b88",
@@ -3060,40 +2685,6 @@
    "date": null
   },
   {
-   "id": "de3c83c3a239",
-   "title": "Chipotle Deals: $6 Boo-Rito is Back On Halloween!",
-   "link": "https://thefreebieguy.com/chipotle-rewards-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T23:00Z",
-   "firstSeen": "2026-10-30T23:48Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Chipotle-Store-840x630.png",
-   "hot": true,
-   "stores": [
-    "Chipotle"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "チポトレセール： $ 6ブーリトがハロウィーンに帰ってきました！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Chipotle",
-    "item": "チポトレセール： $ 6ブーリトがハロウィーンに帰ってきました！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "5b16ef7164d8",
    "title": "La Colombe Coffee Pods 20-Pack Only $9.xx on Amazon (Reg $20)",
    "link": "https://thefreebieguy.com/la-colombe-amazon/",
@@ -3126,40 +2717,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "801da1c7abe1",
-   "title": "7 Brew Deals | 4 Medium Drinks for $17 on 10/31!",
-   "link": "https://thefreebieguy.com/7-brew-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T23:00Z",
-   "firstSeen": "2026-10-30T23:48Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/7-Brew-Coffee-TFG-840x630.png",
-   "hot": true,
-   "stores": [
-    "7 Brew"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "7つのエールセール| 10月31日に17 $でミディアムドリンク4杯！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "7 Brew",
-    "item": "7つのエールセール| 10月31日に17 $でミディアムドリンク4杯！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "c606924a0fc6",
@@ -4143,43 +3700,6 @@
    "date": null
   },
   {
-   "id": "7482aaf40db5",
-   "title": "GameStop: Free Pokemon Trick Or Trade Pack (10/31/26)",
-   "link": "https://www.doctorofcredit.com/gamestop-free-pokemon-trick-or-trade-pack-10-31-26/",
-   "source": "Doctor of Credit",
-   "posted": "2026-10-30T19:56Z",
-   "firstSeen": "2026-10-30T20:53Z",
-   "expires": "2026-10-31",
-   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/pokemon.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31"
-   },
-   "ja": "GameStopの無料ポケモン「Trick or Trade」パック",
-   "jaVia": "claude",
-   "sum": {
-    "store": "GameStop",
-    "item": "GameStopの無料ポケモン「Trick or Trade」パック",
-    "when": "10/31(土)",
-    "cond": "店頭",
-    "what": "無料ポケモンパック",
-    "where": "GameStop"
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "3c2247522198",
    "title": "NEW Holiday Time Mug Sets w/ Metal Rack Just $12.xx at Walmart!",
    "link": "https://thefreebieguy.com/holiday-time-mug-set/",
@@ -4451,40 +3971,6 @@
    },
    "date": null,
    "dup": "47f2f3fe84f2"
-  },
-  {
-   "id": "ad77af48bb3d",
-   "title": "PEEPS Halloween Marshmallow Candy Bundle Only $4.xx (Reg $10)",
-   "link": "https://thefreebieguy.com/peeps-halloween-candy/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T18:57Z",
-   "firstSeen": "2026-10-30T18:58Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/PEEPS-Halloween-Bundle-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 60,
-   "price": 4.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "PEEPSハロウィンマシュマロキャンディーバンドル$ 4.xx （登録価格$ 10 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "PEEPSハロウィンマシュマロキャンディーバンドル$ 4.xx （登録価格$ 10 ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "437979e3ee75",
@@ -5039,40 +4525,6 @@
    "dup": "01fea48a80d2"
   },
   {
-   "id": "cb2f348738b6",
-   "title": "Women’s Halloween Slippers Only $8.xx at Walmart (Reg $26)",
-   "link": "https://thefreebieguy.com/halloween-slippers-deal-at-walmart/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T17:43Z",
-   "firstSeen": "2026-10-30T17:53Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/womens-halloween-slippers-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 69,
-   "price": 8.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートのレディースハロウィンスリッパは$ 8.xxのみ（登録価格$ 26 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートのレディースハロウィンスリッパは$ 8.xxのみ（登録価格$ 26 ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "d7533310efb4",
    "title": "Zarbee’s Baby Soothing Chest Rub Just $2.98 After Walmart Cash",
    "link": "https://hip2save.com/deals/zarbees-chest-rub/",
@@ -5346,75 +4798,6 @@
    "date": null
   },
   {
-   "id": "d0618b0f1de2",
-   "title": "Milk-Bone Halloween Dog Treats 25oz Only $4.49 on Amazon",
-   "link": "https://hip2save.com/deals/milk-bone-halloween-dog-treats/",
-   "source": "Hip2Save",
-   "posted": "2026-10-30T16:51Z",
-   "firstSeen": "2026-10-30T16:57Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/milk-bone-marosnacks-dog-treats.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ミルクボーンハロウィンドッグトリート25オンスのみ$ 4.49 Amazonで",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ミルクボーンハロウィンドッグトリート25オンスのみ$ 4.49 Amazonで",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "dup": "0f8b7ef715cc"
-  },
-  {
-   "id": "29a3e655702b",
-   "title": "Up to 50% Off Halloween Clearance From Lowes!",
-   "link": "https://thefreebieguy.com/lowes-halloween-decor/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T16:50Z",
-   "firstSeen": "2026-10-30T16:57Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/halloween-lowes-840x630.png",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ローからのハロウィンクリアランスが最大50%オフ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "ローからのハロウィンクリアランスが最大50%オフ！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "3d997bd9f49d",
    "title": "Takis Chips Variety 18-Pack Just $7.52 Shipped on Amazon",
    "link": "https://hip2save.com/deals/takis-chips/",
@@ -5587,45 +4970,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "a6fe5a07a4d5",
-   "title": "Kids Eat FREE at Red Lobster This Weekend",
-   "link": "https://hip2save.com/deals/red-lobster-specials/",
-   "source": "Hip2Save",
-   "posted": "2026-10-30T16:27Z",
-   "firstSeen": "2026-10-30T16:57Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Red-Lobster-Kids-Meals.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Red Lobster"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-31"
-   },
-   "ja": "Red Lobsterで週末の子供無料メニュー",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Red Lobster",
-    "item": "Red Lobsterで週末の子供無料メニュー",
-    "when": "10/31(土)〜週末",
-    "cond": "子供向け",
-    "what": "子供無料メニュー",
-    "where": "Red Lobster"
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "b89ac5e0437c",
@@ -7404,38 +6748,6 @@
    "dup": "9dd3e24ad4e1"
   },
   {
-   "id": "957b4eb98e42",
-   "title": "Join in for the Scary Creatures Scavenger Hunt at LEGO Stores Through Oct. 31!",
-   "link": "https://thefreebieguy.com/free-event-at-lego-stores/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T13:22Z",
-   "firstSeen": "2026-10-30T13:59Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/LEGO-Scavenger-hunt-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "10月31日まで、レゴストアで恐ろしい生き物のスカベンジャーハントに参加しましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "LEGO Stores Through Oct.",
-    "item": "10月31日まで、レゴストアで恐ろしい生き物のスカベンジャーハントに参加しましょう！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "9dcf207d2d92",
    "title": "Kohl’s Sephora Savings Event: Sephora Collection from $2.45",
    "link": "https://hip2save.com/deals/kohls-sephora/",
@@ -7706,40 +7018,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "0f8b7ef715cc",
-   "title": "Milk-Bone MaroSnacks Halloween Dog Treats Only $4.xx on Amazon (Reg. $8)",
-   "link": "https://thefreebieguy.com/milk-bone-marosnacks-small-dog-treats/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T12:52Z",
-   "firstSeen": "2026-10-30T13:09Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/milkbone-maro-snacks-halloween-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": 4.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Milk - Bone MaroSnacksハロウィーン犬のおやつはAmazonで$ 4.xxのみ（登録価格$ 8 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Milk - Bone MaroSnacksハロウィーン犬のおやつはAmazonで$ 4.xxのみ（登録価格$ 8 ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "f6ee3c12d454",
@@ -8447,40 +7725,6 @@
     "store": "Amazon",
     "item": "クエーカーオートミールスクエア朝食用シリアル（ファミリーサイズ）はわずか$ 2.74で発送！",
     "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "fb50d9860ee3",
-   "title": "Halloween Party Treats Made Easy! Sam’s Club Bakery Goodies from $8.92",
-   "link": "https://hip2save.com/deals/sams-club-bakery/",
-   "source": "Hip2Save",
-   "posted": "2026-10-30T04:00Z",
-   "firstSeen": "2026-10-30T04:59Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/sams-club-halloween-cut-out-cookies.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-31",
-   "ja": "ハロウィンパーティーのおやつが簡単に！サムズクラブのベーカリーグッズが$ 8.92から",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "ハロウィンパーティーのおやつが簡単に！サムズクラブのベーカリーグッズが$ 8.92から",
-    "when": "10/31(土)まで",
     "cond": ""
    }
   },
@@ -9450,44 +8694,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "a902e93b7652",
-   "title": "FREE Trick or Trade Pokémon BOOster Pack from Gamestop on October 31st",
-   "link": "https://hip2save.com/deals/gamestop-pokemon-event/",
-   "source": "Hip2Save",
-   "posted": "2026-10-29T20:40Z",
-   "firstSeen": "2026-10-29T20:56Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/gamestop-pokeween.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-31"
-   },
-   "ja": "ポケモンブースターパック",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "GameStop",
-    "item": "ポケモンブースターパック",
-    "when": "10/31",
-    "cond": "",
-    "what": "無料ポケカ",
-    "where": "GameStop"
-   },
-   "date": "2026-10-31",
-   "dup": "bc9d627571cc"
   },
   {
    "id": "7ddc415bd980",
@@ -10910,44 +10116,6 @@
    "date": null
   },
   {
-   "id": "833785d253d5",
-   "title": "Gamestop: Get a FREE Trick or Trade BOOster Pack on October 31st!",
-   "link": "https://moneysavingmom.com/gamestop-get-a-free-trick-or-trade-booster-pack-on-october-31st/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-29T16:39Z",
-   "firstSeen": "2026-10-29T17:05Z",
-   "expires": "2026-10-31",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-29-at-11.34.24-AM-630x604.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-31"
-   },
-   "ja": "ブースターパック",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "GameStop",
-    "item": "ブースターパック",
-    "when": "10/31",
-    "cond": "",
-    "what": "無料パック",
-    "where": "GameStop"
-   },
-   "date": "2026-10-31",
-   "dup": "bc9d627571cc"
-  },
-  {
    "id": "c5cc6928cd47",
    "title": "Dove Treats Exfoliating Mini Body Scrub 4 Pack Only $10.xx on Amazon!",
    "link": "https://thefreebieguy.com/dove-body-scrub-4-pack/",
@@ -11752,87 +10920,6 @@
    "date": null
   },
   {
-   "id": "05f0c4cdc0e7",
-   "title": "Fight Hunger with Trunk or Treat So Kids Can Eat",
-   "link": "https://wtaw.com/fight-hunger-with-trunk-or-treat-so-kids-can-eat/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-10-29T14:38Z",
-   "firstSeen": "2026-10-29T15:12Z",
-   "expires": "2026-10-31",
-   "thumb": "https://wtaw.com/wp-content/uploads/2026/07/City-of-Bryan-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "freebie": null,
-   "ja": "缶詰寄付のハロウィン「Trunk or Treat」",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "Bryan High School",
-    "item": "缶詰寄付のハロウィン「Trunk or Treat」",
-    "when": "10/31(土) 10〜13時",
-    "cond": "缶詰5個持参・家族向け",
-    "what": "ハロウィン祭",
-    "where": "Bryan高校"
-   },
-   "date": "2026-10-31",
-   "dup": "5eff440e9464"
-  },
-  {
-   "id": "87250b402c07",
-   "title": "FREE Flu Season Pouch Giveaway at Target on October 31",
-   "link": "https://thefreebieguy.com/free-target-event/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T14:37Z",
-   "firstSeen": "2026-10-29T20:56Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Target-Store-Front-840x630.png",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-31"
-   },
-   "ja": "10/31、Target で風邪シーズン用ポーチを無料配布",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Target",
-    "item": "10/31、Target で風邪シーズン用ポーチを無料配布",
-    "when": "10/31(土)",
-    "cond": "",
-    "what": "無料ポーチ",
-    "where": "Target"
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "7f10f4144491",
    "title": "Goldfish Baby Crackers Only $1.42 Shipped on Amazon",
    "link": "https://hip2save.com/deals/goldfish-crackers/",
@@ -12209,40 +11296,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "08bddfe47573",
-   "title": "Chipotle Discount | Boo-Rito for just $6 on October 31st!",
-   "link": "https://moneysavingmom.com/chipotle-rewards-coupons-discount-codes/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-29T14:02Z",
-   "firstSeen": "2026-10-29T14:15Z",
-   "expires": "2026-10-31",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Screenshot-2025-11-26-at-6.39.08 AM-630x501.jpg",
-   "hot": true,
-   "stores": [
-    "Chipotle"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "10月31日のChipotle割引| Boo - Ritoはわずか$ 6 ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Chipotle",
-    "item": "10月31日のChipotle割引| Boo - Ritoはわずか$ 6 ！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "958e7bee0381",
@@ -12624,43 +11677,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "bc9d627571cc",
-   "title": "Join in for Pokéween at GameStop! Score a FREE Trick or Trade BOOster Pack on 10/31",
-   "link": "https://thefreebieguy.com/gamestop-event/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T13:27Z",
-   "firstSeen": "2026-10-29T14:01Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/GameStop-Pokeween-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-31"
-   },
-   "ja": "10/31限定、Pokéween来店でブースターパック無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "GameStop",
-    "item": "10/31限定、Pokéween来店でブースターパック無料",
-    "when": "10/31(土)",
-    "cond": "来店",
-    "what": "無料ポケカ",
-    "where": "GameStop"
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "df988f23da04",
@@ -16457,40 +15473,6 @@
    "date": null
   },
   {
-   "id": "f20f3f43bdc2",
-   "title": "Target: Seasonal Care Event on October 31st!",
-   "link": "https://moneysavingmom.com/target-free-store-event/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-28T15:18Z",
-   "firstSeen": "2026-10-28T16:03Z",
-   "expires": "2026-10-31",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-at-10.15.06-AM.png",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-31",
-   "ja": "対象： 10月31日シーズンケアイベント開催！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "対象： 10月31日シーズンケアイベント開催！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "cb7c188fd75e",
    "title": "Michaels: FREE Hand-Stitched Card Event on November 1st!",
    "link": "https://moneysavingmom.com/michaels-free-events/",
@@ -17806,49 +16788,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "32d4aceeb0f9",
-   "title": "Community Yoga at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/yoga-at-lake-walk/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-28T11:44Z",
-   "firstSeen": "2026-10-28T11:44Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Outdoors"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "レイクウォークでの屋外ヨガ",
-    "when": "10/31(土)",
-    "cond": "大人向け",
-    "what": "屋外ヨガ",
-    "where": "Lake Walk"
-   },
-   "ja": "レイクウォークでの屋外ヨガ",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "スポーツ"
-   ],
-   "family": true,
-   "date": "2026-10-31",
-   "freebie": null
   },
   {
    "id": "c7d054b7c803",
@@ -19568,45 +18507,6 @@
    "date": null
   },
   {
-   "id": "4d5f66f8fc1e",
-   "title": "Target Is Giving Away FREE Pouch with Lysol Samples (October 31st from 12PM-4PM)",
-   "link": "https://hip2save.com/deals/target-store-event/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T20:50Z",
-   "firstSeen": "2026-10-28T04:57Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/target-Lysol-Event.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-31"
-   },
-   "ja": "Lysolサンプル入りポーチを無料配布",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Target",
-    "item": "Lysolサンプル入りポーチを無料配布",
-    "when": "10/31 12〜16時",
-    "cond": "",
-    "what": "無料ポーチ",
-    "where": "Target"
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "2becf7674599",
    "title": "Dainty 18K Gold Plated Initial Bracelet Only $3.xx on Amazon (Reg $10)",
    "link": "https://thefreebieguy.com/initial-bracelet/",
@@ -20018,80 +18918,6 @@
    "date": null
   },
   {
-   "id": "44499c4f829f",
-   "title": "50% Off My Texas House Halloween Decor at Walmart – Shop These Spooky Deals!",
-   "link": "https://thefreebieguy.com/my-texas-house-halloween-decor/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T19:50Z",
-   "firstSeen": "2026-10-27T19:51Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/My-Texas-House-Halloween-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートのテキサスハウスハロウィンデコレーションが50%オフ–これらの不気味なセールを購入しましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートのテキサスハウスハロウィンデコレーションが50%オフ–これらの不気味なセールを購入しましょう！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
-   "id": "ea18333a9c52",
-   "title": "Classic thrills, vintage chills: Catch our annual Halloween scare-a-thon on CSTV",
-   "link": "https://blog.cstx.gov/2026/10/27/classic-thrills-vintage-chills-catch-our-annual-halloween-scare-a-thon-on-cstv/",
-   "source": "カレッジステーション市",
-   "posted": "2026-10-27T19:46Z",
-   "firstSeen": "2026-10-27T19:51Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "freebie": null,
-   "ja": "ハロウィンの名作ホラー映画を連続放送",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "CSTV (カレッジステーション市)",
-    "item": "ハロウィンの名作ホラー映画を連続放送",
-    "when": "10/30(金)朝〜10/31(土)夜",
-    "cond": "無料",
-    "what": "ホラー映画一挙",
-    "where": "CSTV"
-   },
-   "date": "2026-10-30"
-  },
-  {
    "id": "a2ad08dd112d",
    "title": "These Sam’s Club Jingle Bells Sold Out Last Year – Snag Them Now!",
    "link": "https://hip2save.com/deals/members-mark-jingle-bell-set/",
@@ -20194,40 +19020,6 @@
    },
    "date": null,
    "dup": "acc6ad72e386"
-  },
-  {
-   "id": "b1ad5bbbbfd0",
-   "title": "Snag Sweet Instant Savings Deals on Halloween Treats at Sam’s Club",
-   "link": "https://hip2save.com/deals/sams-club-halloween-candy/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T19:35Z",
-   "firstSeen": "2026-10-27T19:51Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Mars-Halloween-Variety-Pack-Mini-Fun-Size-290-Count.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "サムズクラブでハロウィンのおやつをお得に手に入れよう",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "サムズクラブでハロウィンのおやつをお得に手に入れよう",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "b1ce3c264c3d",
@@ -20333,75 +19125,6 @@
    "date": null
   },
   {
-   "id": "1f92562f7c46",
-   "title": "Score 50¢ Sonic Corndogs on October 31st",
-   "link": "https://hip2save.com/deals/sonic-specials/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T19:20Z",
-   "firstSeen": "2026-10-27T19:51Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2020/05/sonic-corn-dogs.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Sonic"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "10月31日にSonic Corndogsを50 ¢獲得",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sonic",
-    "item": "10月31日にSonic Corndogsを50 ¢獲得",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
-   "id": "1c5bafea2357",
-   "title": "NEW Temptations Halloween Cat Treats from $2.49 on Target.com",
-   "link": "https://hip2save.com/deals/temptations-cat-treats/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T19:15Z",
-   "firstSeen": "2026-10-27T19:51Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/04/temptations-halloween-catnip-treats.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Target.comで$ 2.49からの新しいTemptationsハロウィン猫のおやつ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "Target.comで$ 2.49からの新しいTemptationsハロウィン猫のおやつ",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "dup": "374341e6f462"
-  },
-  {
    "id": "9e348f4018db",
    "title": "TRU Triple Buffet Server Just $33.99 at Kohl’s (Reg. $70)",
    "link": "https://thefreebieguy.com/tru-triple-buffet-server/",
@@ -20502,40 +19225,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "394dce9228e3",
-   "title": "Walmart Halloween Clearance! Cute Skeletons, Pumpkins & More",
-   "link": "https://thefreebieguy.com/walmart-halloween/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T18:49Z",
-   "firstSeen": "2026-10-27T18:57Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/skeleton-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートハロウィンクリアランス！かわいいスケルトン、カボチャなど",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートハロウィンクリアランス！かわいいスケルトン、カボチャなど",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "b43814aa58a2",
@@ -20639,38 +19328,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "1a93546e856d",
-   "title": "Halloween Candy Deals! Get Walmart Cash Back on Select Candy Assortments",
-   "link": "https://thefreebieguy.com/halloween-candy-walmart/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T18:36Z",
-   "firstSeen": "2026-10-27T18:57Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/HALLOWEEN-CANDY-WALMART-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "3959822843ba",
@@ -21096,40 +19753,6 @@
    "date": null
   },
   {
-   "id": "12a042663e3a",
-   "title": "Halloween Kids Books from $5.90 on Amazon (Reg. $13)",
-   "link": "https://hip2save.com/deals/halloween-kids-books/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T17:50Z",
-   "firstSeen": "2026-10-27T17:56Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/halloween-kids-book.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 55,
-   "price": 5.9,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazonで$ 5.90からハロウィンキッズブック（登録番号： $ 13 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonで$ 5.90からハロウィンキッズブック（登録番号： $ 13 ）",
-    "when": "10/31(土)まで",
-    "cond": "子ども向け"
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "bb08b75410c3",
    "title": "Chips Ahoy! Hot Cocoa Cookies Have Returned + Earn Walmart Cash",
    "link": "https://hip2save.com/deals/chips-ahoy-hot-cocoa/",
@@ -21482,40 +20105,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "bddb29b62e64",
-   "title": "Price Drop: Halloween Nutcracker w/ Lights Only $89 Shipped on Walmart.com (Reg. $189)",
-   "link": "https://hip2save.com/deals/halloween-nutcracker/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T17:11Z",
-   "firstSeen": "2026-10-27T17:56Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Way-to-Celebrate-DIY-Skeleton-Nutcracker-1.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 53,
-   "price": 89.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "価格ドロップ：ハロウィンくるみ割り人形（ライト付き） $ 89のみWalmart.comで発送（登録番号： $ 189 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "価格ドロップ：ハロウィンくるみ割り人形（ライト付き） $ 89のみWalmart.comで発送（登録番号： $ 189 ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "64cf8f78db61",
@@ -23334,38 +21923,6 @@
    "date": null
   },
   {
-   "id": "95df5b1005dd",
-   "title": "Sonic Deals, Coupons & Promo Codes | $0.50 Corn Dogs on October 31st!",
-   "link": "https://moneysavingmom.com/sonic-promo-codes-deals-specials/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T13:02Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": "2026-10-31",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Screenshot-2025-10-31-at-6.54.04 AM-630x844.jpg",
-   "hot": false,
-   "stores": [
-    "Sonic"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Sonic",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": "コード入力"
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "8b1f3dc257f2",
    "title": "Hisense 65″ Class QD5 Hi-QLED 4K UHD Smart Roku TV Only $329.xx on Best Buy (Reg $550)",
    "link": "https://thefreebieguy.com/hisense-65qd5sr-65-class-qd5-smart-roku-tv/",
@@ -23432,44 +21989,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "10ae23d89a65",
-   "title": "Krispy Kreme Halloween Dozen Just $13 (+ FREE Doughnut This Weekend!)",
-   "link": "https://hip2save.com/deals/krispy-kreme-coupon/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T12:50Z",
-   "firstSeen": "2026-10-27T13:01Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Krispy-Kreme-All-Jacked-Up-Dozen.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-31"
-   },
-   "sum": {
-    "store": "Krispy Kreme",
-    "item": "ハロウィン12個入$13。週末ドーナツ1個無料",
-    "when": "今週末",
-    "what": "無料ドーナツ",
-    "where": "Krispy Kreme"
-   },
-   "ja": "ハロウィン12個入$13。週末ドーナツ1個無料",
-   "jaVia": "claude",
-   "date": "2026-10-31"
   },
   {
    "id": "27395c088b48",
@@ -23881,130 +22400,6 @@
    "date": null
   },
   {
-   "id": "a509967cee06",
-   "title": "Little Kids Spooky Carnival at Clara B. Mounce Library",
-   "link": "https://www.destinationbryan.com/events/little-kids-spooky-carnival/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Clara B. Mounce Library",
-    "item": "幼児向けのスプーキー・カーニバル（図書館）",
-    "when": "10/31(土)",
-    "cond": "子供向け",
-    "what": "子供ハロウィン縁日",
-    "where": "Mounce Library"
-   },
-   "ja": "幼児向けのスプーキー・カーニバル（図書館）",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-10-31",
-   "freebie": null
-  },
-  {
-   "id": "3de604c17d5c",
-   "title": "Jim Henson's Fraggle Rock: Back to the Rock (OPAS)",
-   "link": "https://www.destinationbryan.com/events/jim-hensons-fraggle-rock-back-to-the-rock-live-at-opas/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-30",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Rudder Theater",
-    "item": "人形劇 Fraggle Rock のライブ公演(OPAS)",
-    "when": "10/30(金)・10/31(土)マチネ",
-    "cond": "家族向け・要チケット",
-    "what": "Fraggle R…",
-    "where": "Rudder Theater"
-   },
-   "ja": "人形劇 Fraggle Rock のライブ公演(OPAS)",
-   "jaVia": "claude-ev",
-   "date": "2026-10-30",
-   "freebie": null
-  },
-  {
-   "id": "74f8cf90347a",
-   "title": "The Farmers' Market in Brazos County",
-   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Midtown Park",
-    "item": "毎週土曜のブラゾス郡ファーマーズマーケット（屋外）",
-    "when": "毎週土曜",
-    "cond": "屋外マーケット",
-    "what": "週末の農産物市",
-    "where": "Midtown Park"
-   },
-   "ja": "毎週土曜のブラゾス郡ファーマーズマーケット（屋外）",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-10-31",
-   "freebie": null
-  },
-  {
    "id": "fadc4d000f54",
    "title": "Rountree Market at Midtown Park",
    "link": "https://www.destinationbryan.com/events/sunday-market-at-rountree/",
@@ -24080,41 +22475,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "1e986aba3944",
-   "title": "Up to 75% Off Halloween Decorations at Home Depot | Items Selling FAST!",
-   "link": "https://thefreebieguy.com/halloween-decorations-at-home-depot/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:28Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Halloween-Home-Depot-1-840x630.png",
-   "hot": true,
-   "stores": [
-    "Home Depot"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 75,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ホームデポのハロウィンデコレーションが最大75%オフ|アイテムが早く売れる！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Home Depot",
-    "item": "ホームデポのハロウィンデコレーションが最大75%オフ|アイテムが早く売れる！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "dup": "b434499f7c37"
   },
   {
    "id": "19a25cac7abb",
@@ -25051,90 +23411,6 @@
    "family": true
   },
   {
-   "id": "afeca8c625f8",
-   "title": "Pumpkin Patch at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/pumpkin-patch-at-lake-walk/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Outdoors"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "Lake Walkのパンプキン畑（屋外）",
-    "cond": "屋外・子供向け",
-    "what": "パンプキン畑",
-    "where": "Lake Walk",
-    "when": "10/31(土)"
-   },
-   "ja": "Lake Walkのパンプキン畑（屋外）",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外"
-   ],
-   "date": "2026-10-31",
-   "freebie": null,
-   "region": "College Station",
-   "family": true
-  },
-  {
-   "id": "3c2b2dca5a61",
-   "title": "Pumpkin Patch with Habitat for Humanity",
-   "link": "https://www.destinationbryan.com/events/pumpkin-patch-wtih-habitat/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Outdoors"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Habitat for Humanity",
-    "item": "Habitat for Humanityのパンプキン畑（屋外）",
-    "cond": "屋外・子供向け",
-    "what": "パンプキン畑",
-    "where": "Habitat for Hu…",
-    "when": "10/31(土)"
-   },
-   "ja": "Habitat for Humanityのパンプキン畑（屋外）",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外"
-   ],
-   "date": "2026-10-31",
-   "freebie": null,
-   "region": "College Station",
-   "family": true
-  },
-  {
    "id": "dd0b1bd4468a",
    "title": "Lake Walk Run Club",
    "link": "https://www.destinationbryan.com/events/lake-walk-run-club/",
@@ -25173,49 +23449,6 @@
     "スポーツ"
    ],
    "date": "2026-10-30",
-   "freebie": null,
-   "region": "College Station",
-   "family": true
-  },
-  {
-   "id": "5eff440e9464",
-   "title": "Trunk or Treat So Kids Can Eat",
-   "link": "https://events.bryantx.gov/default/Detail/2026-10-31-1000-Trunk-or-Treat-So-Kids-Can-Eat",
-   "source": "City of Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "localDate": "2026-10-31",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "City of Bryan"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Bryan High School",
-    "item": "Bryan High Schoolのトランクオアトリート（子供向けハロウィン）",
-    "when": "10/31(土) 10時",
-    "cond": "子供向け",
-    "what": "トランクオアトリート",
-    "where": "Bryan High Sch…"
-   },
-   "ja": "Bryan High Schoolのトランクオアトリート（子供向けハロウィン）",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "date": "2026-10-31",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -25391,40 +23624,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "ac4dfcb3f9bd",
-   "title": "Hyde & EEK Halloween Mugs as Low as $2.50 at Target",
-   "link": "https://thefreebieguy.com/target-hyde-eek-halloween-mugs/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T22:52Z",
-   "firstSeen": "2026-10-26T23:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/target-hyde-eek-halloween-mugs-840x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ターゲットでハイド＆ EEKハロウィンマグカップが$ 2.50",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ターゲットでハイド＆ EEKハロウィンマグカップが$ 2.50",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "6e1216bc9a32",
@@ -25942,40 +24141,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "20e243d32113",
-   "title": "Applebee’s Halloween Deal Offers 20 Boneless Wings for $12.99 in New Hallowings Bucket Through Oct. 31",
-   "link": "https://www.fastfoodpost.com/applebees-halloween-deal-offers-20-boneless-wings-for-12-99-in-new-hallowings-bucket/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-26T20:40Z",
-   "firstSeen": "2026-10-26T20:49Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Applebee's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Applebeeのハロウィンセールでは、10月31日までの新しいHallowings Bucketで骨なしの羽20枚が$ 12.99で提供されます",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Applebee's",
-    "item": "Applebeeのハロウィンセールでは、10月31日までの新しいHallowings Bucketで骨なしの羽20枚が$ 12.99で提供されます",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "e4e0b54a9f81",
@@ -26717,47 +24882,6 @@
    "date": "2026-11-17"
   },
   {
-   "id": "0941a59542ff",
-   "title": "Best Halloween Deals and Food Freebies For 2026 – 7 Brew, Krispy Kreme, and MORE!",
-   "link": "https://thefreebieguy.com/halloween-deals-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T18:55Z",
-   "firstSeen": "2026-10-26T19:01Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Halloween-Deals-Freebies-and-More-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme",
-    "7 Brew"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "ja": "ハロウィンの飲食無料・特典まとめ(7 Brew・Krispy Kreme等)",
-   "jaVia": "claude",
-   "sum": {
-    "store": "各チェーン店",
-    "item": "ハロウィンの飲食無料・特典まとめ(7 Brew・Krispy Kreme等)",
-    "when": "10/31(土)",
-    "cond": "",
-    "what": "ハロウィン特典集",
-    "where": "各チェーン店"
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "7ab86016194a",
    "title": "*NEW* Downy Laundry Scent Booster Beads Gift Set Only $15.97 on Walmart.com",
    "link": "https://hip2save.com/deals/downy-laundry-scent-booster-beads-gift-set/",
@@ -27273,77 +25397,6 @@
    },
    "date": null,
    "dup": "635aa2d02a79"
-  },
-  {
-   "id": "7810d8cd5838",
-   "title": "Free In-Store Trick-or-Treating + Crafts for Kids at Lakeshore Stores Through 10/31!",
-   "link": "https://thefreebieguy.com/lakeshore-free-events/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T18:03Z",
-   "firstSeen": "2026-10-26T18:08Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Lakeshore-Events-2026-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-10-31"
-   },
-   "ja": "子供向け店内トリック・オア・トリートと工作",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Lakeshore",
-    "item": "子供向け店内トリック・オア・トリートと工作",
-    "when": "〜10/31",
-    "cond": "子供向け",
-    "what": "店内お菓子配り",
-    "where": "Lakeshore"
-   },
-   "date": "2026-10-31"
-  },
-  {
-   "id": "e8dd2acfc639",
-   "title": "Dutch Bros Coffee Deals | Daily Offers through October 31st!",
-   "link": "https://thefreebieguy.com/dutch-bros-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T18:00Z",
-   "firstSeen": "2026-10-26T18:08Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Dutch-Bros-Coffee-840x630.jpg",
-   "hot": true,
-   "stores": [
-    "Dutch Bros"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Dutch Bros Coffee Deals | 10月31日までのデイリーオファー！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Dutch Bros",
-    "item": "Dutch Bros Coffee Deals | 10月31日までのデイリーオファー！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "0bf5e9aea416",
@@ -28999,40 +27052,6 @@
    "date": null
   },
   {
-   "id": "85c621d62b34",
-   "title": "Halloween Adult Fleece Onesie Only $9.xx on Amazon (Reg $27)",
-   "link": "https://thefreebieguy.com/naitoke-halloween-adult-fleece-onesie/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T14:48Z",
-   "firstSeen": "2026-10-26T15:11Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/NAITOKE-Halloween-Adult-Onesie-Fleece-Cosplay-Pajamas-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 67,
-   "price": 9.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ハロウィーン大人用フリースワンシーのみ$ 9.xx （登録価格$ 27 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ハロウィーン大人用フリースワンシーのみ$ 9.xx （登録価格$ 27 ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "e72f68457e7e",
    "title": "Arbys: FREE Regular or Spicy Chicken Cheesesteak with $10+ purchase!",
    "link": "https://moneysavingmom.com/arbys-free-regular-or-spicy-chicken-cheesesteak-with-10-purchase/",
@@ -30019,40 +28038,6 @@
    "date": null
   },
   {
-   "id": "597bd32db63c",
-   "title": "Save 50% on Halloween Outdoor Decor & Lights at Target",
-   "link": "https://thefreebieguy.com/target-halloween/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T13:07Z",
-   "firstSeen": "2026-10-26T13:31Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/halloween-target-840x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ターゲットでのハロウィーンのアウトドアデコレーションとライトが50%オフ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ターゲットでのハロウィーンのアウトドアデコレーションとライトが50%オフ",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "8d20de710285",
    "title": "Women’s Lace Up Ankle Snow Boots just $39.99 shipped!",
    "link": "https://moneysavingmom.com/womens-lace-up-ankle-snow-boots-deal/",
@@ -30778,40 +28763,6 @@
    }
   },
   {
-   "id": "6c5c274155a6",
-   "title": "The Viral Home Depot Halloween Buckets Are Just $1.88!",
-   "link": "https://thefreebieguy.com/home-depot-bucket/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T11:39Z",
-   "firstSeen": "2026-10-26T13:31Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Home-Depot-Halloween-Bucket-840x630.png",
-   "hot": false,
-   "stores": [
-    "Home Depot"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-10-31",
-   "ja": "ウィルスホームデポハロウィンバケットはわずか$ 1.88です！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Home Depot",
-    "item": "ウィルスホームデポハロウィンバケットはわずか$ 1.88です！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "4893fc5e730b",
    "title": "Walgreens Deals Under $2 This Week",
    "link": "https://moneysavingmom.com/walgreens-deals-under-two-dollars-this-week/",
@@ -31206,40 +29157,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "a3d56292d004",
-   "title": "7x16ft Halloween 2-Car Garage Door Cover Only $8.xx on Amazon (Reg $30)",
-   "link": "https://thefreebieguy.com/brightown-halloween-2-car-garage-door-cover/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T09:12Z",
-   "firstSeen": "2026-10-26T09:58Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Brightown-Halloween-2-Car-Garage-Door-Cover-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 73,
-   "price": 8.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "7 x 16フィートハロウィン2台車ガレージドアカバーAmazonで$ 8.xxのみ（登録価格$ 30 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "7 x 16フィートハロウィン2台車ガレージドアカバーAmazonで$ 8.xxのみ（登録価格$ 30 ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "738b3e53fcdb",
@@ -33027,40 +30944,6 @@
    }
   },
   {
-   "id": "bc166ac883d6",
-   "title": "50% Off Lowe’s Halloween Inflatables (Selling Out Fast!)",
-   "link": "https://hip2save.com/deals/lowes-halloween-inflatables/",
-   "source": "Hip2Save",
-   "posted": "2026-10-25T18:50Z",
-   "firstSeen": "2026-10-25T19:40Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Haunted-Living-3.5-Monster-Hand-Halloween-Inflatable.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Loweのハロウィン用インフレータブルが50%オフ（早く売り切れ！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "Loweのハロウィン用インフレータブルが50%オフ（早く売り切れ！ ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "c4213b81da08",
    "title": "Miss Vickie’s Kettle Cooked Jalapeno Potato Chips 28-Count Only $11.xx on Amazon (Reg $25)",
    "link": "https://thefreebieguy.com/miss-vickies-kettle-cooked-potato-chips-pack-of-28-on-amazon/",
@@ -33879,40 +31762,6 @@
    "date": null
   },
   {
-   "id": "174005cfdf31",
-   "title": "50% Off Halloween Candles at Target – Prices Start at $2.50!",
-   "link": "https://thefreebieguy.com/threshold-halloween-candles/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T17:23Z",
-   "firstSeen": "2026-10-25T17:42Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Threshold-Halloween-Candles-840x630.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ハロウィーンのロウソクがターゲットで50%オフ–価格は$ 2.50から！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ハロウィーンのロウソクがターゲットで50%オフ–価格は$ 2.50から！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "91e55615139f",
    "title": "Shark Matrix Plus Robot Vacuum & Mop Combo Only $229.xx on Amazon (Reg. $700)",
    "link": "https://thefreebieguy.com/shark-matrix-plus-robot-vacuum-mop-combo/",
@@ -34048,41 +31897,6 @@
    },
    "date": null,
    "dup": "25082076172b"
-  },
-  {
-   "id": "acfafbf068a8",
-   "title": "50% Off Target Halloween Candles & Holders",
-   "link": "https://hip2save.com/deals/target-halloween-candles/",
-   "source": "Hip2Save",
-   "posted": "2026-10-25T17:00Z",
-   "firstSeen": "2026-10-25T17:42Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Threshold-Halloween-candles-and-holders.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ターゲットハロウィンキャンドル＆ホルダーが50%オフ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ターゲットハロウィンキャンドル＆ホルダーが50%オフ",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "dup": "174005cfdf31"
   },
   {
    "id": "9fc0c64e28b2",
@@ -34563,40 +32377,6 @@
    "dup": "a7dcc41646c8"
   },
   {
-   "id": "374341e6f462",
-   "title": "Temptations Tasty Human Haunted House Halloween Cat Treats Only $1.xx at Target",
-   "link": "https://thefreebieguy.com/temptations-tasty-human-haunted-house-halloween-cat-treats/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T16:07Z",
-   "firstSeen": "2026-10-25T16:45Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Temptations-Tasty-Human-Haunted-House-Halloween-Cat-Treats--840x630.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Temptations Tasty Human Haunted Houseハロウィーン猫のおやつターゲットはわずか$ 1.xx",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "Temptations Tasty Human Haunted Houseハロウィーン猫のおやつターゲットはわずか$ 1.xx",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "68a1b8e18af3",
    "title": "Walgreens Acrylic Photo Blocks ONLY $1.99 w/ Free Same-Day Pickup",
    "link": "https://hip2save.com/deals/walgreens-acrylic-photo-block/",
@@ -34767,74 +32547,6 @@
    "date": null
   },
   {
-   "id": "706a81ea1eaf",
-   "title": "Gothic Bats Halloween Shower Curtain Only $5.xx on Amazon (Reg $19)!",
-   "link": "https://thefreebieguy.com/halloween-shower-curtain/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T15:16Z",
-   "firstSeen": "2026-10-25T15:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/bat-shower-curtain-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 74,
-   "price": 5.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ゴシックバットハロウィンシャワーカーテンのみ$ 5.xx （登録価格$ 19 ） ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ゴシックバットハロウィンシャワーカーテンのみ$ 5.xx （登録価格$ 19 ） ！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
-   "id": "e4874954ee3c",
-   "title": "Best Target Sales This Week | 50% Off Halloween Decor, Ride-On Toys & More!",
-   "link": "https://hip2save.com/deals/target-sales-this-week/",
-   "source": "Hip2Save",
-   "posted": "2026-10-25T15:13Z",
-   "firstSeen": "2026-10-25T15:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/09/Hyde-EEK-Boutique-Halloween-Throw-Blankets.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "今週のベストターゲットセール|ハロウィンデコレーション、ライドオンおもちゃなどが50%オフ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "今週のベストターゲットセール|ハロウィンデコレーション、ライドオンおもちゃなどが50%オフ！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "7fcef336d04e",
    "title": "Tootsie Roll Charms Mini Pops 400-Count Only $12.xx on Amazon (Reg. $25)",
    "link": "https://thefreebieguy.com/tootsie-roll-charms-mini-pops-lollipops/",
@@ -34940,40 +32652,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "d00b7dd1a9b7",
-   "title": "50% Off Target Halloween Decor = Inflatables, Skeletons, & More from $5!",
-   "link": "https://hip2save.com/deals/target-halloween-decorations/",
-   "source": "Hip2Save",
-   "posted": "2026-10-25T15:01Z",
-   "firstSeen": "2026-10-25T15:44Z",
-   "expires": "2026-10-31",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/skull-inflatable-target.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "対象のハロウィーンの装飾が50%オフ=インフレータブル、スケルトンなどが$ 5から！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "対象のハロウィーンの装飾が50%オフ=インフレータブル、スケルトンなどが$ 5から！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "54447179cf24",
@@ -37707,38 +35385,6 @@
    "eventNews": false
   },
   {
-   "id": "21a652f4fe85",
-   "title": "Last Chance! 30% Off Halloween Costumes & Accessories at Target | Kids Costumes from $10!",
-   "link": "https://thefreebieguy.com/target-halloween-costumes-accessories/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-24T16:17Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": "2026-10-31",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/TARGET-HALLOWEEN-COSTUMES-840x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 30,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Target",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": "子ども向け"
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "c54e4f339d2b",
    "title": "Kobalt 18-Piece Magnetic Screwdriver Set Only $19.xx at Lowe’s (Reg $33)",
    "link": "https://thefreebieguy.com/kobalt-magnetic-set/",
@@ -38313,40 +35959,6 @@
    "eventNews": false
   },
   {
-   "id": "4432ab3c8da9",
-   "title": "Reese’s Halloween Pumpkin Bowl Back in Stock & ON SALE!",
-   "link": "https://hip2save.com/deals/reeses-pumpkins/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T15:15Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "ja": "リースのハロウィンパンプキンボウルが再入荷＆セール中！",
-   "jaVia": "mymemory",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/reeses-pumpkin-bowl-and-candy-2.jpg?resize=306,182",
-   "sum": {
-    "store": "Amazon",
-    "item": "リースのハロウィンパンプキンボウルが再入荷＆セール中！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "472ea8f55bdb",
    "title": "Starbucks Refreshers Strawberry Acai Concentrate Only $6.99 on Amazon",
    "link": "https://hip2save.com/deals/starbucks-refreshers/",
@@ -38445,40 +36057,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "42ef24d952bb",
-   "title": "HUGE Walmart Halloween Decor Price Drops | Giant Skeleton Just $59 Shipped",
-   "link": "https://hip2save.com/deals/walmart-halloween-decorations/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T15:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "ja": "大幅なウォルマートハロウィンデコレーション価格下落|ジャイアントスケルトンわずか$ 59発送",
-   "jaVia": "mymemory",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/08/Way-To-Celebrate-Animated-Skeleton-Cat.jpg?resize=306,182",
-   "sum": {
-    "store": "Walmart",
-    "item": "大幅なウォルマートハロウィンデコレーション価格下落|ジャイアントスケルトンわずか$ 59発送",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "7d88769f650d",
@@ -38581,40 +36159,6 @@
    "eventNews": false
   },
   {
-   "id": "4c0288cdc269",
-   "title": "Walmart Halloween Mug 2-Packs Only $3.74 & Stacking 4-Packs Just $6.48!",
-   "link": "https://hip2save.com/deals/walmart-way-to-celebrate-halloween-mugs/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T14:38Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "ja": "ウォルマートハロウィンマグ2パックわずか$ 3.74 ＆スタッキング4パックわずか$ 6.48 ！",
-   "jaVia": "mymemory",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Way-to-Celebrate-Halloween-Ghost-Dog-Ceramic-Mug-2-Pack.jpg?resize=306,182",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートハロウィンマグ2パックわずか$ 3.74 ＆スタッキング4パックわずか$ 6.48 ！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "1f0f637b8b45",
    "title": "Lysol Toilet Cleaner Gel 2-Pack Just $3 Shipped on Amazon",
    "link": "https://hip2save.com/deals/lysol-toilet-bowl-cleaner/",
@@ -38713,40 +36257,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "77aa71090cb8",
-   "title": "Walmart Has Poncho-Style Halloween Costumes from $7.88",
-   "link": "https://hip2save.com/deals/walmart-halloween-costumes/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T14:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/walmart-poncho-halloween-costume.jpg?resize=306,182",
-   "ja": "ウォルマートのポンチョスタイルのハロウィーンコスチュームは$ 7.88から",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートのポンチョスタイルのハロウィーンコスチュームは$ 7.88から",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "2996550afe7a",
@@ -39205,40 +36715,6 @@
    },
    "date": "2026-11-11",
    "dup": "b702bfabfd8a"
-  },
-  {
-   "id": "8f0d6f9ab7e3",
-   "title": "Walmart’s Halloween Kitchen Finds Are SO Cute & On Sale (Ghost Glasses ONLY $5.74)",
-   "link": "https://hip2save.com/deals/halloween-kitchenware/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T11:49Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "おばけグラスが$5.74など",
-    "when": "",
-    "cond": ""
-   },
-   "ja": "おばけグラスが$5.74など",
-   "jaVia": "gemini",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/walmart-halloween-ghost-glass.png?resize=306,182",
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "3b2e11e8f2c0",
@@ -40707,39 +38183,6 @@
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Sams-Club-Holiday-Throws.jpg?resize=306,182"
   },
   {
-   "id": "f59303e227b1",
-   "title": "Halloween Mini Bubble Wands 30-Pack Only $4.49 on Amazon (Reg. $10)",
-   "link": "https://hip2save.com/deals/amazon-bubble-wands/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T18:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 55,
-   "price": 4.49,
-   "freebie": null,
-   "ja": "ハロウィンミニバブルワンド30本パックのみ$ 4.49 Amazon （登録価格$ 10 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ハロウィンミニバブルワンド30本パックのみ$ 4.49 Amazon （登録価格$ 10 ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "fd49744240c9",
    "title": "Pfaltzgraff Autumn Harvest Serving Dishes from $8.99 on Amazon",
    "link": "https://hip2save.com/deals/pfaltzgraff-autumn-harvest-dishes/",
@@ -40970,39 +38413,6 @@
     "cond": ""
    },
    "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "320471dd1d35",
-   "title": "Joyward Halloween Squishy Toys Only $2.99 + Free CVS Pickup",
-   "link": "https://hip2save.com/deals/cvs-joyward/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T17:15Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": true,
-   "stores": [
-    "CVS"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "ja": "Joyward Halloween Squishy Toys Only $ 2.99 +無料CVSピックアップ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "CVS",
-    "item": "Joyward Halloween Squishy Toys Only $ 2.99 +無料CVSピックアップ",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
    "event": null,
    "eventNews": false
   },
@@ -41664,46 +39074,6 @@
    },
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "ac09530d20f9",
-   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
-   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-23T13:36Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": "2026-10-31",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31",
-    "roundup": true
-   },
-   "ja": "10/31の無料特典・割引まとめ",
-   "jaVia": "claude",
-   "sum": {
-    "store": "各チェーン店",
-    "item": "10/31の無料特典・割引まとめ",
-    "when": "10/31(土)",
-    "cond": "",
-    "what": "10/31無料特典",
-    "where": "各チェーン店"
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "af00da3b1c70",
@@ -42412,40 +39782,6 @@
    "eventNews": true
   },
   {
-   "id": "70bc3103ec1f",
-   "title": "KISS Glow-in-the-Dark Halloween Nails Just $8.97 at Walmart! Skip the Salon!",
-   "link": "https://hip2save.com/deals/savings-walmart-kiss-nails/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T02:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": "2026-10-31",
-   "ja": "KISS Glow - in - the - Darkハロウィンネイルはウォルマートでたったの$ 8.97 ！サロンをスキップ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "KISS Glow - in - the - Darkハロウィンネイルはウォルマートでたったの$ 8.97 ！サロンをスキップ！",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Kiss-Haunt-Nails.jpg?resize=306,182"
-  },
-  {
    "id": "5581d08184ae",
    "title": "Rainbow Colored Pencils 12-Pack Only $2.74 Shipped on Amazon | Includes Toppers + Sharpener",
    "link": "https://hip2save.com/deals/rainbow-colored-pencils/",
@@ -42815,80 +40151,6 @@
    "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Kool-Aid-Ghoul-Aid-Zom-Berry-Drinks-1.jpg?resize=306,182"
   },
   {
-   "id": "b0edd5d7e9d4",
-   "title": "BOGO 50% Off Target’s Good & Gather Halloween Snacks",
-   "link": "https://hip2save.com/deals/target-good-gather-halloween-snacks/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T23:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "bogo"
-   ],
-   "pct": 50,
-   "price": null,
-   "freebie": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Good-Gather-Halloween-Snacks.jpg?resize=306,182",
-   "date": "2026-10-31",
-   "ja": "ターゲットのおいしいハロウィンスナックを50%オフでゲット",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ターゲットのおいしいハロウィンスナックを50%オフでゲット",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "6485203b7153",
-   "title": "Halloween Restaurant Deals 2026: Freebies, Jack-O-Lantern Pizzas & Spooky Treats",
-   "link": "https://momswhosave.com/halloween-restaurant-deals-freebies/",
-   "source": "Moms Who Save",
-   "posted": "2026-10-22T23:45Z",
-   "firstSeen": "2026-10-25T01:43Z",
-   "expires": "2026-10-31",
-   "thumb": "https://momswhosave.com/wp-content/uploads/2026/10/Halloween-Restaurant-Deals-–-1000×1500@2x-scaled.png",
-   "hot": false,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "ja": "ハロウィン限定メニューと無料品のまとめ",
-   "jaVia": "claude",
-   "sum": {
-    "store": "",
-    "item": "ハロウィン限定メニューと無料品のまとめ",
-    "when": "ハロウィン",
-    "cond": "",
-    "what": "ハロウィン特典",
-    "where": "各レストラン"
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "1f3bd7e1deb6",
    "title": "Pirate’s Booty Cheddar Puffs 24-Count Only $7 Shipped on Amazon",
    "link": "https://hip2save.com/deals/pirates-booty-cheddar-puffs/",
@@ -43016,39 +40278,6 @@
     "store": "Kohl's",
     "item": "ギフトの品揃えが一番近い！ Kohl's （ディズニー、ボタニカルなど）のレゴセットが史上最低価格！",
     "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "09ce7f863aad",
-   "title": "Bracelet Making Kits from $3.99 on Amazon (Halloween & Christmas Options!)",
-   "link": "https://hip2save.com/deals/bracelet-making-kit/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T22:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": "2026-10-31",
-   "ja": "Amazonで$ 3.99からのブレスレット作成キット（ハロウィーン＆クリスマスオプション！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonで$ 3.99からのブレスレット作成キット（ハロウィーン＆クリスマスオプション！ ）",
-    "when": "10/31(土)まで",
     "cond": ""
    },
    "event": null,
@@ -43185,40 +40414,6 @@
    },
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "bedfd347ab48",
-   "title": "Sam’s Club Halloween & Fall Coir Doormats ONLY $5.91 (Reg. $13)",
-   "link": "https://hip2save.com/deals/sams-club-doormats/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T21:45Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 55,
-   "price": 5.91,
-   "freebie": null,
-   "date": "2026-10-31",
-   "ja": "サムズクラブハロウィン＆秋のコイルドアマットは$ 5.91 （登録価格$ 13 ）のみ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "サムズクラブハロウィン＆秋のコイルドアマットは$ 5.91 （登録価格$ 13 ）のみ",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/members-mark-dog-coir-doormat-.jpg?resize=306,182"
   },
   {
    "id": "d44376144027",
@@ -43583,39 +40778,6 @@
    "event": null,
    "eventNews": false,
    "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Amazon-Grocery-Pancake-Syrup.jpg?resize=306,182"
-  },
-  {
-   "id": "b434499f7c37",
-   "title": "Up to 50% Off Home Depot Halloween Decorations + Free Shipping",
-   "link": "https://hip2save.com/deals/home-depot-halloween/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T19:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Home Depot"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "freebie": null,
-   "date": "2026-10-31",
-   "ja": "ホームデポハロウィンデコレーションが最大50%オフ+送料無料",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Home Depot",
-    "item": "ホームデポハロウィンデコレーションが最大50%オフ+送料無料",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "4cadf5e0ef78",
@@ -44048,39 +41210,6 @@
    "eventNews": false
   },
   {
-   "id": "5017110118d8",
-   "title": "Women’s Retro Jumpsuits Only $25.99 Shipped on Amazon (Fun Halloween Costume!)",
-   "link": "https://hip2save.com/deals/womens-tracksuits/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T16:55Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": "2026-10-31",
-   "ja": "レディースレトロジャンプスーツ$ 25.99のみAmazonで発送（楽しいハロウィンコスチューム！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "レディースレトロジャンプスーツ$ 25.99のみAmazonで発送（楽しいハロウィンコスチューム！ ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "d77bad896e59",
    "title": "SEVEN Pairs of Men’s Athletic Shorts Only $21.65 on Amazon (Just $3 Per Pair!)",
    "link": "https://hip2save.com/deals/boojo-mens-shorts/",
@@ -44309,46 +41438,6 @@
     "item": "懐かしい木、村の家など、最もかわいいクリスマスデコレーションでアルディが登場！",
     "when": "",
     "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "e9d554ffcf8b",
-   "title": "Best Halloween Restaurant Deals & Freebies",
-   "link": "https://hip2save.com/deals/halloween-restaurant/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T15:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Halloween.jpg?resize=306,182",
-   "date": "2026-10-31",
-   "ja": "ハロウィン限定の無料品・メニューまとめ",
-   "jaVia": "claude",
-   "sum": {
-    "store": "",
-    "item": "ハロウィン限定の無料品・メニューまとめ",
-    "when": "",
-    "cond": "",
-    "what": "ハロウィン特典",
-    "where": "各レストラン"
    },
    "event": null,
    "eventNews": false
@@ -44720,39 +41809,6 @@
    }
   },
   {
-   "id": "fea76c7bff6f",
-   "title": "Halloween Pop Fidget Toys 30-Pack Only $5.99 on Amazon (Reg. $10)",
-   "link": "https://hip2save.com/deals/fidget-toys/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T13:31Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 5.99,
-   "freebie": null,
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false,
-   "ja": "ハロウィンポップフィジェットおもちゃ30パックのみ$ 5.99アマゾン（登録価格$ 10 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ハロウィンポップフィジェットおもちゃ30パックのみ$ 5.99アマゾン（登録価格$ 10 ）",
-    "when": "10/31(土)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "5461e338b4fd",
    "title": "Hello Kitty Fan? Grab a FREE Mystery Toy with Any Burger King Kids Meal!",
    "link": "https://hip2save.com/deals/burger-king-kids-meals/",
@@ -44930,39 +41986,6 @@
     "cond": "$3(送料無料)",
     "what": "クラッカー$3",
     "where": "Amazon"
-   }
-  },
-  {
-   "id": "1331643bb52e",
-   "title": "Take Halloween Hairstyles to New Heights w/ göt2b (+ Here’s How to Save)",
-   "link": "https://hip2save.com/deals/savings-walgreens-got2b/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T03:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Walgreens"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false,
-   "ja": "Göt 2 bでハロウィーンのヘアスタイルを新たな高みへ（+節約方法はこちら）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walgreens",
-    "item": "Göt 2 bでハロウィーンのヘアスタイルを新たな高みへ（+節約方法はこちら）",
-    "when": "10/31(土)まで",
-    "cond": ""
    }
   },
   {
@@ -45399,39 +42422,6 @@
     "cond": ""
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Lysol-Laundry-Sanitizer.jpg?resize=306,182"
-  },
-  {
-   "id": "87dd219f1ba5",
-   "title": "Sam’s Club Halloween Decor – New Price Drops from ONLY $5.91",
-   "link": "https://hip2save.com/deals/sams-club-halloween-decor/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T00:35Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false,
-   "ja": "サムズクラブのハロウィーンの装飾–新しい価格がわずか$ 5.91から下がります",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "サムズクラブのハロウィーンの装飾–新しい価格がわずか$ 5.91から下がります",
-    "when": "10/31(土)まで",
-    "cond": ""
-   }
   },
   {
    "id": "bb6eb80d7706",
@@ -45967,38 +42957,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "4011c528498a",
-   "title": "This Week’s Kroger BOGO Deals = Savings on Halloween Candy, Soda 12-Packs & More",
-   "link": "https://hip2save.com/deals/kroger-bogo/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T20:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Kroger"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Kroger",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2020/10/kroger-milk-2.jpg?resize=306,182"
   },
   {
    "id": "8dfc17d74411",
@@ -46606,47 +43564,6 @@
    "date": null
   },
   {
-   "id": "8143652ad2d7",
-   "title": "Halloween fun meets Texas Arbor Day at Friday’s “Trunk or Tree-t” at Wolf Pen Creek",
-   "link": "https://blog.cstx.gov/2026/10/21/halloween-fun-meets-texas-arbor-day-at-fridays-trunk-or-tree-t-at-wolf-pen-creek/",
-   "source": "カレッジステーション市",
-   "posted": "2026-10-21T15:17Z",
-   "firstSeen": "2026-10-26T18:00Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "family": true,
-   "localDate": "2026-10-23",
-   "freebie": null,
-   "ja": "ハロウィン×植樹イベント「Trunk or Tree-t」",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "Wolf Pen Creek Festival Site",
-    "item": "ハロウィン×植樹イベント「Trunk or Tree-t」",
-    "when": "10/23(金) 17〜20時",
-    "cond": "無料・家族向け",
-    "what": "ハロウィン祭",
-    "where": "Wolf Pen Creek"
-   },
-   "date": "2026-10-23",
-   "outing": [
-    "エンタメ"
-   ]
-  },
-  {
    "id": "cf5735eb4f03",
    "title": "Shower Steamers 8-Pack Only $2.99 Shipped on Amazon",
    "link": "https://hip2save.com/deals/shower-steamers/",
@@ -47054,38 +43971,6 @@
    "event": null,
    "eventNews": false,
    "thumb": "https://hip2save.com/wp-content/uploads/2025/10/magic-cube.jpg?resize=306,182"
-  },
-  {
-   "id": "b88773325ef9",
-   "title": "Home Depot Restocked the Viral Halloween Bucket – Just $2.88 w/ Free Delivery",
-   "link": "https://hip2save.com/deals/home-depot-buckets/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T02:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Home Depot"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Home Depot",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Home-depot-Halloween-bucket-.jpg?resize=306,182"
   },
   {
    "id": "605dfa39698c",
@@ -47528,37 +44413,6 @@
    "eventNews": false
   },
   {
-   "id": "74bdf0489fd6",
-   "title": "Women’s Halloween Sweater Only $10.99 on Amazon (Lowest Price Ever!)",
-   "link": "https://hip2save.com/deals/xlievo-womens-halloween-sweater/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T23:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "ea376614f4e6",
    "title": "Price Drop: Polly Pocket Advent Calendar Just $19.99 on Amazon (Will Sell Out!)",
    "link": "https://hip2save.com/deals/polly-pocket-advent-calendar/",
@@ -47835,37 +44689,6 @@
     "cond": ""
    },
    "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "05f5597edf12",
-   "title": "Scent Theory Halloween Hand Sanitizer w/ Case Just $5 at Walmart (Touchland Vibes for Less)",
-   "link": "https://hip2save.com/deals/scent-theory-hand-sanitizer/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T20:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
    "event": null,
    "eventNews": false
   },
@@ -48213,37 +45036,6 @@
    "eventNews": false
   },
   {
-   "id": "e1e79958ba4b",
-   "title": "Women’s Embroidered Halloween Sweatshirt Only $13.99 on Amazon (Reg. $30)",
-   "link": "https://hip2save.com/deals/amazon-halloween-sweatshirt/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T18:45Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 53,
-   "price": 13.99,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "b702bfabfd8a",
    "title": "FREE Great Clips Haircuts for Veterans & Active Service Members on November 11th",
    "link": "https://hip2save.com/deals/great-clips-coupons/",
@@ -48305,68 +45097,6 @@
    "eventNews": false
   },
   {
-   "id": "8b94d1cae113",
-   "title": "The Big One Plush Throw Blankets Just $8.49 on Kohls.com (Disney, Halloween & Christmas Prints!)",
-   "link": "https://hip2save.com/deals/kohls-big-one-blanket/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T18:25Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Kohl's",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "d6506a841ba2",
-   "title": "Last Chance! EXTRA 33% Off Halloween Candy Bags on Kroger.com",
-   "link": "https://hip2save.com/deals/kroger-candy/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T18:21Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Kroger"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 33,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Kroger",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "9a0871f014a6",
    "title": "Lowe’s AA & AAA Battery 12-Packs Only $3.25 Shipped (Just 27¢ Each)",
    "link": "https://hip2save.com/deals/lowes-essentials-batteries/",
@@ -48397,38 +45127,6 @@
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/lowes-batteries-essenials-aa-and-aaa.jpg?resize=306,182",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "8229274ae140",
-   "title": "Chipotle Boorito Returns on Halloween | Wear a Costume for a $6 Entree!",
-   "link": "https://hip2save.com/deals/chipotle-boorito/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T17:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Chipotle"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Chipotle",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Boorito.jpg?resize=306,182"
   },
   {
    "id": "e9e49d56b41c",
@@ -48902,37 +45600,6 @@
    "eventNews": false
   },
   {
-   "id": "e2f6b2025529",
-   "title": "Highlights Halloween Hidden Pictures Books from $5 on Amazon",
-   "link": "https://hip2save.com/deals/highlights-hidden-pictures-halloween/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T13:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-10-31",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "b4fff10bd0b7",
    "title": "Planters Peanuts Canister Only $1.79 Shipped on Amazon",
    "link": "https://hip2save.com/deals/planters-peanuts/",
@@ -49122,38 +45789,6 @@
    "date": null
   },
   {
-   "id": "8d7f375ab68c",
-   "title": "KFC Offers 13 Days of Scary Good Deals This Halloween Season",
-   "link": "https://www.fastfoodpost.com/kfc-offers-13-days-of-scary-good-deals-this-halloween-season/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-19T16:53Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": "2026-10-31",
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "KFC"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "KFC",
-    "item": "",
-    "when": "10/31(土)まで",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "64d1c2bd54d4",
    "title": "Wendy’s Launches $7.99 Dave’s Single Combo Meal",
    "link": "https://www.fastfoodpost.com/wendys-launches-7-99-daves-single-combo-meal/",
@@ -49327,43 +45962,6 @@
    "date": "2026-11-07",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "33a1ccf3fb81",
-   "title": "Free PetSmart Halloween Events 2026: Trick-or-Treating, Free Tote Bag & Spooky Pets",
-   "link": "https://momswhosave.com/free-petsmart-halloween-events/",
-   "source": "Moms Who Save",
-   "posted": "2026-10-10T19:20Z",
-   "firstSeen": "2026-10-25T01:43Z",
-   "expires": "2026-10-31",
-   "thumb": "https://momswhosave.com/wp-content/uploads/2026/10/dog-halloween-costume-unsplash.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "トートバッグ＆お菓子",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "PetSmart",
-    "item": "トートバッグ＆お菓子",
-    "when": "",
-    "cond": "イベント参加",
-    "what": "無料トート＆イベ",
-    "where": "PetSmart"
-   },
-   "date": "2026-10-31"
   }
  ]
 }
