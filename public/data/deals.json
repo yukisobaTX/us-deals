@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-01T13:02Z",
- "count": 1348,
+ "updated": "2026-11-01T13:55Z",
+ "count": 1350,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 6
   },
   "h2s-free": {
    "read": 100,
-   "added": 21
+   "added": 22
   },
   "doc": {
    "read": 15,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,85 @@
    "added": 0
   },
   "ja": {
-   "gemini": 23,
+   "gemini": 22,
    "geminiEvent": 0,
-   "mymemory": 10,
-   "geminiToday": 14,
+   "mymemory": 8,
+   "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "95dca7b994b5",
+   "title": "Here’s How to Watch A Charlie Brown Thanksgiving for Free on November 14th & 15th",
+   "link": "https://hip2save.com/news/charlie-brown-thanksgiving/",
+   "source": "Hip2Save(無料)",
+   "posted": "2026-11-01T13:47Z",
+   "firstSeen": "2026-11-01T13:55Z",
+   "expires": "2026-11-14",
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Charlie-Brown-Thanksgiving-1.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-14"
+   },
+   "sum": {
+    "item": "感謝祭アニメ番組の視聴",
+    "when": "11/14〜11/15",
+    "what": "無料配信",
+    "where": "オンライン"
+   },
+   "ja": "感謝祭アニメ番組の視聴",
+   "jaVia": "gemini",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "f962530fc32a",
+   "title": "Today ONLY: 40% Off Matching Holiday Pajamas at Target",
+   "link": "https://hip2save.com/deals/target-daily-deals/",
+   "source": "Hip2Save",
+   "posted": "2026-11-01T13:37Z",
+   "firstSeen": "2026-11-01T13:55Z",
+   "expires": "2026-11-01",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/target-holiday-pjamas.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "本日限り： Targetでのホリデーパジャマのマッチングが40%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "本日限り： Targetでのホリデーパジャマのマッチングが40%オフ",
+    "when": "11/1(日)まで",
+    "cond": ""
+   },
+   "dup": "e831cef09815",
+   "date": "2026-11-01"
+  },
   {
    "id": "a891f9565deb",
    "title": "RUN! The Softest Blanket EVER is 50% Off + Ships FREE",
@@ -3599,6 +3669,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-01T13:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "sum": {
+    "item": "ハロウィンの無料特典・割引",
+    "when": "10/31",
+    "what": "特典まとめ",
+    "where": "各店舗"
+   },
+   "ja": "ハロウィンの無料特典・割引",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -36573,38 +36681,6 @@
     "item": "",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "4f47ef257ef1",
-   "title": "Sam’s Club Plus Members Now Get A FREE Walmart+ Membership {Link Your Accounts for a REFUND!}",
-   "link": "https://moneysavingmom.com/sams-club-plus-members-now-get-a-free-walmart-membership-link-your-accounts-for-a-refund/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-24T13:50Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Sams-club-630x337.jpg",
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": "会員限定"
    },
    "date": null
   },
