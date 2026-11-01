@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-01T05:00Z",
- "count": 1342,
+ "updated": "2026-11-01T05:56Z",
+ "count": 1345,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 6
   },
   "h2s-free": {
    "read": 100,
-   "added": 19
+   "added": 21
   },
   "doc": {
    "read": 15,
@@ -16,27 +16,27 @@
   },
   "ffp": {
    "read": 20,
-   "added": 2
+   "added": 4
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 6
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
-   "added": 1
+   "added": 3
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
-   "added": 0
+   "added": 1
   },
   "bcslib": {
    "read": 10,
@@ -57,14 +57,48 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 13,
-   "geminiToday": 1,
+   "mymemory": 25,
+   "geminiToday": 3,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "bb1086febb75",
+   "title": "Walmart’s Icon Glasses Are BACK for Christmas + More Styles on Sale!",
+   "link": "https://hip2save.com/deals/walmart-icon-glasses/",
+   "source": "Hip2Save",
+   "posted": "2026-11-01T02:30Z",
+   "firstSeen": "2026-11-01T05:56Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/christmas-icon-glass.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートのアイコン眼鏡がクリスマスに戻ってきました。その他のスタイルもセール中！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートのアイコン眼鏡がクリスマスに戻ってきました。その他のスタイルもセール中！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "cfc06a9d6968",
    "title": "Insulated Lunch Bag Just $4.95 on Amazon (Reg. $16)",
@@ -3352,6 +3386,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-01T05:56Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -10916,6 +10988,45 @@
     "item": "Sam's Clubでファミリーパジャマをマッチングするメンバーを$ 7からマーク！",
     "when": "",
     "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "05f0c4cdc0e7",
+   "title": "Fight Hunger with Trunk or Treat So Kids Can Eat",
+   "link": "https://wtaw.com/fight-hunger-with-trunk-or-treat-so-kids-can-eat/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-10-29T14:38Z",
+   "firstSeen": "2026-11-01T05:56Z",
+   "expires": null,
+   "thumb": "https://wtaw.com/wp-content/uploads/2026/07/City-of-Bryan-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "freebie": null,
+   "ja": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "トランクで飢餓と闘うか、子供が食べられるように扱うか",
+    "when": "",
+    "cond": ""
    },
    "date": null
   },
