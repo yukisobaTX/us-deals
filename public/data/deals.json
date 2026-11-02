@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-02T13:24Z",
- "count": 1451,
+ "updated": "2026-11-02T15:06Z",
+ "count": 1469,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 13
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 10
+   "added": 6
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 10
   },
   "mws": {
    "read": 20,
@@ -55,16 +55,675 @@
    "added": 0
   },
   "ja": {
-   "gemini": 17,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 21,
-   "geminiToday": 10,
+   "mymemory": 25,
+   "geminiToday": 11,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "636aef34f20c",
+   "title": "Doritos Snack Bags 10-Count Just $3.46 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/doritos/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T14:56Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Doritos.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Doritosスナックバッグ10個-わずか$ 3.46 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Doritosスナックバッグ10個-わずか$ 3.46 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "020fbbee5a2c",
+   "title": "Walmart+ Members Get First Dibs! Shop Early Black Friday Deals Starting 11/12",
+   "link": "https://hip2save.com/deals/walmart-early-black-friday-deals/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T14:49Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2019/03/walmart-boxes.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "ウォルマート+メンバーは最初のディブを獲得します！ 11月12日から始まるアーリーブラックフライデーのセールを購入する",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマート+メンバーは最初のディブを獲得します！ 11月12日から始まるアーリーブラックフライデーのセールを購入する",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "a852adf5de06",
+   "title": "Ace Hardware Black Friday 2026 AD Scan Released!",
+   "link": "https://thefreebieguy.com/ace-hardware-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T14:43Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Ace-Hardware-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "エースハードウェアブラックフライデー2026 ADスキャンがリリースされました！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "エースハードウェアブラックフライデー2026 ADスキャンがリリースされました！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2d174cd4ff66",
+   "title": "Gain Dryer Sheets 120 Count – Buy 4 for Just 13.xx on Amazon (Reg. $5 Each)",
+   "link": "https://thefreebieguy.com/gain-dryer-sheets-120-count/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T14:40Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Gain-Moonlight-Breeze-Dryer-Sheets-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "c6d6dd044a6e",
+   "date": null
+  },
+  {
+   "id": "ac55a45bb928",
+   "title": "Ring Battery Doorbell with Wide-Angle Video Only $39 at Lowes (Reg $100)",
+   "link": "https://thefreebieguy.com/ring-doorbell/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T14:32Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/ring-doorbell-lowes1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 61,
+   "price": 39.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1ecde3559502",
+   "title": "Hello Kitty Glass Tumbler Just $7.44 on Amazon (Reg. $19)",
+   "link": "https://hip2save.com/deals/hello-kitty-tumbler/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T14:30Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/07/Hello-kitty-glass-tumbler.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 61,
+   "price": 7.44,
+   "event": null,
+   "eventNews": false,
+   "collab": {
+    "chars": [
+     "サンリオ"
+    ],
+    "kind": "goods"
+   },
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "32672120e166",
+   "title": "Crayola Light Up Tracing Pad Just $11.99 on Amazon (Reg. $24)",
+   "link": "https://hip2save.com/deals/crayola-light-up-tracing-pad/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T14:15Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/11/Crayola-Light-Up-Tracing-Pad.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 11.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "3b4e334556e5",
+   "date": null
+  },
+  {
+   "id": "7b51408804f3",
+   "title": "HP 14″ Laptop Just $204.99 Shipped at Best Buy (Reg. $350)",
+   "link": "https://thefreebieguy.com/hp-14-laptop/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T14:13Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/HP-1422-Laptop-Intel-Celeron-4GB-Memory-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 204.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Best Buy",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7275ed175d53",
+   "title": "Knorr Pasta Side Dish 8-Pack Only $6.xx on Amazon ( Less than $1 Each)",
+   "link": "https://thefreebieguy.com/knorr-pasta-side-dish/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T14:09Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/knorr-cheesy-cheddar-pasta-side-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ad83855c9373",
+   "title": "Wireless Apple or Android CarPlay Adapter Only $12.99 on Amazon (Reg. $28)",
+   "link": "https://hip2save.com/deals/apple-carplay-adapter/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T14:00Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/amazon-carplay.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 54,
+   "price": 12.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "11396694ee53",
+   "title": "Disney 3D Buzz Lightyear Puzzle Only $9.74 on Amazon (Reg. $21)",
+   "link": "https://hip2save.com/deals/amazon-disney-3d-puzzle/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T13:55Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/toy-story-3d-puzzle-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 54,
+   "price": 9.74,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e5fa3a790b5a",
+   "title": "VTech Alphabet Train Just $32.99 on Target.com (Reg. $55)",
+   "link": "https://hip2save.com/deals/vtech-alphabet-train/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T13:45Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/VTech-Sit-to-Stand-Ultimate-Alphabet-Train.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 32.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e58bd14cfe8e",
+   "title": "Best Posts Last Week: 100% Off UberEats, $475 Citi Checking & 90k Southwest Offer",
+   "link": "https://www.doctorofcredit.com/best-posts-last-week-100-off-ubereats-475-citi-checking-90k-southwest-offer/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-02T13:45Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Uber Eats"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 0,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Uber Eats",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b6658d2d94b1",
+   "title": "Doritos Tortilla Chips Nacho Cheese 10-Pack Only $3.xx on Amazon (Reg $6)",
+   "link": "https://thefreebieguy.com/doritos-tortilla-chips-nacho-cheese/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T13:42Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2021/11/Doritos-Tortilla-Chips-Nacho-Cheese-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 3.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "66c1b1ebc076",
+   "date": null
+  },
+  {
+   "id": "a8bebfd6c631",
+   "title": "Annie’s Organic Cheesy Smiles Just $2.55 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/annies-snacks/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T13:40Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/Annies-Organic-Cheesy-Smiles.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "efd885df73f1",
+   "title": "$172 Worth of Shiseido Skincare Only $86 Shipped! + Free Gift w/ $85 Purchase!",
+   "link": "https://thefreebieguy.com/shiseido-macys/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T13:35Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/shiseido-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "$ 172相当の資生堂スキンケア$ 86のみ発送！さらに$ 85購入で無料ギフト！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "$ 172相当の資生堂スキンケア$ 86のみ発送！さらに$ 85購入で無料ギフト！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9648af739559",
+   "title": "Roborock Q7 L5 Robot Vacuum & Mop Combo w/8000Pa Suction Only $139.xx on Amazon (Reg $250)",
+   "link": "https://thefreebieguy.com/roborock-q7-l5-robot-vacuum-mop-combo/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T13:33Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/roborock-Q7-L5-Robot-Vacuum--840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 44,
+   "price": 139.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ded85d435d2c",
+   "title": "Women’s RFID Blocking Wallet Just $6.49 on Amazon",
+   "link": "https://hip2save.com/deals/rfid-blocking-wallet/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T13:31Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Amazon-small-wallet.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c7892a2bb97e",
+   "title": "Lowe’s Dog Toys Advent Calendar Only $24.xx on Lowe’s",
+   "link": "https://thefreebieguy.com/lowes-dog-toys-advent-calendar/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T13:27Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Lowes-Dog-Toys-Advent-Calendar-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0216226e9b16",
+   "title": "This Pass Pays for Itself w/ FREE Admission to Local Attractions for a Year!",
+   "link": "https://hip2save.com/deals/get-out-pass/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T13:25Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/GetOut.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "このパスは、地元のアトラクションへの1年間の無料入場料でお得です！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "このパスは、地元のアトラクションへの1年間の無料入場料でお得です！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "55f46d71a06a",
    "title": "Michaels: Up to 60% off Artificial Christmas Trees + Free Shipping!",
@@ -403,8 +1062,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "b88473bb10be",
-   "date": null
+   "date": null,
+   "dup": "b88473bb10be"
   },
   {
    "id": "f962530fc32a",
@@ -473,8 +1132,8 @@
     "when": "",
     "cond": "会員限定"
    },
-   "dup": "750c7793a2df",
-   "date": null
+   "date": null,
+   "dup": "750c7793a2df"
   },
   {
    "id": "eff0f69010d9",
@@ -7662,6 +8321,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-02T15:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -36748,45 +37445,6 @@
    "date": null
   },
   {
-   "id": "0ee91d3c2277",
-   "title": "Food Storage Bags Buy 1 Get 2 FREE at Walgreens!",
-   "link": "https://thefreebieguy.com/walgreens-food-storage-bags/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T15:06Z",
-   "firstSeen": "2026-10-25T15:44Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/walgreens-storage-bags-840x630.png",
-   "hot": true,
-   "stores": [
-    "Walgreens"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "保存袋1点購入で2点無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Walgreens",
-    "item": "保存袋1点購入で2点無料",
-    "when": "",
-    "cond": "1個購入で2個無料",
-    "what": "BOGO保存袋",
-    "where": "Walgreens"
-   },
-   "date": null
-  },
-  {
    "id": "6b5ea6376f42",
    "title": "Sam’s Club Candy Deals – Stock Up on Full-Size & Mini Variety Packs!",
    "link": "https://thefreebieguy.com/sams-club-candy-deals/",
@@ -36921,76 +37579,6 @@
    "sum": {
     "store": "Walmart",
     "item": "ソート＆スタイル27ガロン大型収納ビン4パックウォルマートで$ 32のみ",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "344f07e52687",
-   "title": "ULTA Early Black Friday Sale | 50% Off Gift Sets, BOGO 50% Off Wet Brush & More",
-   "link": "https://hip2save.com/deals/ulta-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-10-25T14:06Z",
-   "firstSeen": "2026-10-25T14:44Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Ulta-Black-Friday-Sign.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Ulta"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "bogo"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ギフトセット50%OFF等",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "ULTA",
-    "item": "ギフトセット50%OFF等",
-    "when": "",
-    "cond": "",
-    "what": "ブラックフライデー",
-    "where": "ULTA"
-   },
-   "date": null
-  },
-  {
-   "id": "86a4c2be1484",
-   "title": "CHI Original 1″ Ceramic Hair Straightener Only $39.xx on Amazon (Reg. $100)",
-   "link": "https://thefreebieguy.com/chi-tourmaline-ceramic-series/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T13:55Z",
-   "firstSeen": "2026-10-25T14:44Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/CHI-Original-1-Ceramic-Hair-Straightener-Flat-Iron-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 61,
-   "price": 39.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "CHI Original 1 \"セラミックヘアストレートナーAmazonで$ 39.xxのみ（登録価格$ 100 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "CHI Original 1 \"セラミックヘアストレートナーAmazonで$ 39.xxのみ（登録価格$ 100 ）",
     "when": "",
     "cond": ""
    },
