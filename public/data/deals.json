@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02T10:19Z",
- "count": 1435,
+ "updated": "2026-11-02T12:04Z",
+ "count": 1441,
  "stats": {
   "h2s": {
    "read": 100,
@@ -8,7 +8,7 @@
   },
   "h2s-free": {
    "read": 100,
-   "added": 22
+   "added": 21
   },
   "doc": {
    "read": 15,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 11
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 25,
+   "read": 0,
    "added": 0
   },
   "mnn": {
@@ -57,13 +57,185 @@
   "ja": {
    "gemini": 18,
    "geminiEvent": 0,
-   "mymemory": 10,
-   "geminiToday": 6,
+   "mymemory": 14,
+   "geminiToday": 8,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: HTTP Error 429: Too Many Requests"
+ ],
  "items": [
+  {
+   "id": "eff0f69010d9",
+   "title": "FREE Kindle Book with Amazon First Reads {Prime Member Exclusive!}",
+   "link": "https://moneysavingmom.com/two-free-kindle-books-with-amazon-first-reads-prime-member-exclusive/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T11:45Z",
+   "firstSeen": "2026-11-02T12:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Books-630x394.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon First Readsの無料Kindleブック{Prime Member Exclusive!}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon First Readsの無料Kindleブック{Prime Member Exclusive!}",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a12d9f4f76b7",
+   "title": "Custom Name Makeup Bag as low as $5.99!",
+   "link": "https://moneysavingmom.com/custom-name-makeup-bag-cute/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T11:35Z",
+   "firstSeen": "2026-11-02T12:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/07/Custom-Name-Makeup-Bag-630x571.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "カスタムネームメイクアップバッグは$ 5.99から！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "カスタムネームメイクアップバッグは$ 5.99から！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "318776993870",
+   "title": "Women’s Fall Dress only $21.94!",
+   "link": "https://moneysavingmom.com/womens-fall-dress-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T11:30Z",
+   "firstSeen": "2026-11-02T12:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-2.17.46 PM-630x887.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レディース秋のドレスはわずか$ 21.94 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディース秋のドレスはわずか$ 21.94 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b42798c780e0",
+   "title": "Target: 25% off Toy or Kids Book Circle Coupon",
+   "link": "https://moneysavingmom.com/target-25-off-toy-kids-book-or-activity-kit-coupon/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T11:23Z",
+   "firstSeen": "2026-11-02T12:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Screenshot-2025-10-14-at-2.23.54 PM-630x840.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "coupon"
+   ],
+   "pct": 25,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "対象：おもちゃまたはキッズブックサークルクーポン25%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "対象：おもちゃまたはキッズブックサークルクーポン25%オフ",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "ea84324469ae",
+   "title": "Huge Price Drops on Yeedi Robot Vacuums and Mops! {We LOVE Ours!}",
+   "link": "https://moneysavingmom.com/yeedi-robot-vacuum-and-mop-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T11:17Z",
+   "firstSeen": "2026-11-02T12:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/IMG_7706-Large-630x840.jpeg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Yeediロボットの掃除機とモップが大幅に値下げ！ {私たちは私たちのものが大好きです！}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Yeediロボットの掃除機とモップが大幅に値下げ！ {私たちは私たちのものが大好きです！}",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "e324c3057e87",
    "title": "Scotch Brand Precision Ultra Edge Scissors 3Pk Only $6 on Amazon",
@@ -7080,6 +7252,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-02T12:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "sum": {
+    "item": "ハロウィン関連の無料・割引特典",
+    "when": "10/31",
+    "what": "ハロウィン特典",
+    "where": "オンライン"
+   },
+   "ja": "ハロウィン関連の無料・割引特典",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
