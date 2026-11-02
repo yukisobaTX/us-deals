@@ -235,7 +235,7 @@
   const GIFT_GUIDE = [
     { store: 'H-E-B', text: '対象のギフトカード(Home Depot・Lowe\'s・Starbucks・Cinemark など)を $50〜$150 買うと、H-E-B ギフトカード $10〜$25 がもらえる(店頭のみ・期間限定)。$100 で $20 引きの回もある。' },
     { store: 'Kroger', text: '他社ギフトカードの購入で燃料ポイント 4倍(週末〜2週間ほど)。100 ポイント = Kroger のガソリン 1 ガロン 10¢ 引き。Visa/Mastercard の購入手数料が無料になる回もある。' },
-    { store: 'Costco・Sam\'s Club', text: '会員向けに、レストラン・映画・旅行などのギフトカードを額面より安く常時販売(例:$100 分を $80 前後)。Sam\'s は週末の特売で値引き幅が広がることがある。' }
+    { store: 'Costco', text: '会員向けに、レストラン・映画・旅行などのギフトカードを額面より安く常時販売(例:$100 分を $80 前後)。' }
   ];
   const GIFT_LINKS = [
     { name: 'Kroger ギフトカードの特典', url: 'https://giftcards.kroger.com/Promotions' },

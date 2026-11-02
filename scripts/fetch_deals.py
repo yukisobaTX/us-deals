@@ -600,6 +600,8 @@ GC_NG_RE = re.compile(r"\bwin\b|giveaway|sweepstakes|enter to|opinions?|survey|l
 
 def giftcard_info(title, stores):
     """ギフトカードを安く・ポイント付きで買える記事なら {"grocery": スーパーか} を返す。"""
+    if "Sam's Club" in stores:
+        return None   # Sam's Club のギフトカード情報は不要(2026-11-01 本人指定)
     if not GC_WORD_RE.search(title) or not GC_DEAL_RE.search(title) or GC_NG_RE.search(title) or ENDED_RE.search(title):
         return None
     return {"grocery": any(s in GROCERY_STORE for s in stores)}

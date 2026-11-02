@@ -110,11 +110,11 @@
 
 ## 💳 ギフトカードをお得に買う(2026-11-01 本人指定:特にスーパー・Kroger など)
 - 判定 fetch_deals.giftcard_info() → items[].gift = {"grocery": スーパーの店か}。毎回すべての記事にかけ直す。
-  - **ギフトカードを買うこと自体が得になる型だけ**(GC_DEAL_RE):Kroger の燃料ポイント4倍、「$100 分買うと H-E-B カード $20」、「$120 分を $99.99」「$100 を $85」、「20% Off」「$20 Off $100」、購入手数料なし、CVS ExtraBucks、Sam's の特売など。
+  - **ギフトカードを買うこと自体が得になる型だけ**(GC_DEAL_RE):Kroger の燃料ポイント4倍、「$100 分買うと H-E-B カード $20」、「$120 分を $99.99」「$100 を $85」、「20% Off」「$20 Off $100」、購入手数料なし、CVS ExtraBucks など。**Sam's Club の記事は対象外**(2026-11-01 本人指定:不要)。
   - 除外(GC_NG_RE):商品を買うとギフトカードが付く(「Free $20 Target Gift Card w/ $80 Diapers」)・懸賞・アンケート・購入上限のお知らせなど。
-  - grocery = config/stores.json の grocery の店(H-E-B・Kroger・Costco・Sam's Club・Walmart など)。
+  - grocery = config/stores.json の grocery の店(H-E-B・Kroger・Costco・Walmart など)。
 - 期限:見出しの「(10/21 – 11/3)」の数字の範囲も読む(NUM_RANGE_RE → 終わりの日)。
 - 夕方メール:「💳 ギフトカードをお得に(🛒スーパー)」欄(コラボの後)。前回以降の新着+**スーパーで3日以内に終わるもの**(GIFT_SOON_DAYS)、スーパーを先に最大5件(MAX_GIFT)。行は「〜11/3(火)：🛒何が；どこで」(期限なしは「新着」、基準日に終わるものは「明日まで」)。件名の末尾に「ギフトN」。
 - **要約(Claude の夕方の要約)**:what は得の中身を10字以内(例「燃料ポイント4倍」「$100で$20還元」「2割引」「手数料無料」)、where は買う店(例「Kroger」「H-E-B」)、item は「対象カード+特典」、when は期間(「〜11/3」)、cond は「店頭のみ」「上限5枚」「Visa/MC除く」など。
-- サイト:「💳 ギフトカード」タブ(コラボの隣、スーパーを先に)。上の枠にスーパーの定番の型(H-E-B のボーナスカード、Kroger の4倍燃料ポイント、Costco・Sam's の常時割引)と公式リンク(app.js の GIFT_GUIDE・GIFT_LINKS、手で編集)。カードに「💳 🛒スーパーのギフトカード」ラベル(.tag.gift)。
+- サイト:「💳 ギフトカード」タブ(コラボの隣、スーパーを先に)。上の枠にスーパーの定番の型(H-E-B のボーナスカード、Kroger の4倍燃料ポイント、Costco の常時割引)と公式リンク(app.js の GIFT_GUIDE・GIFT_LINKS、手で編集)。カードに「💳 🛒スーパーのギフトカード」ラベル(.tag.gift)。
 - 情報源:Doctor of Credit の通常のフィードに「Gift Card Deals」の記事が入る(Kroger・H-E-B の特典が多い)。/category/gift-cards/feed/ は 2019 年で止まっていて使えない。DoC は robots.txt の Crawl-delay 600 秒なので、DoC のフィードを2本に増やさない。

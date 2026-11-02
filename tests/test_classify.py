@@ -266,4 +266,5 @@ for _t, _want in _GC:
     assert bool(_g) == bool(_want), (_t, _g)
 assert f.giftcard_info(_GC[0][0], ["Kroger"])["grocery"] is True, "Kroger はスーパー扱い"
 assert f.guess_expiry(_GC[0][0], _P) == "2026-11-03", "数字の範囲 10/21 – 11/3 の終わりを期限に"
+assert f.giftcard_info("Sam’s Club Weekend Doorbuster Sale | HUGE Savings on Gift Cards", ["Sam's Club"]) is None, "Sam's は不要(11/1)"
 print("giftcard ok")
