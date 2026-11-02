@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-02T16:13Z",
- "count": 1485,
+ "updated": "2026-11-02T17:16Z",
+ "count": 1504,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 8
+   "added": 15
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 10
+   "added": 9
   },
   "tfg": {
    "read": 40,
-   "added": 10
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -58,13 +58,602 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 12,
+   "geminiToday": 13,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f0b998a11e93",
+   "title": "Disney Character Windbreaker Jackets from UNDER $8 on Walmart.com",
+   "link": "https://hip2save.com/deals/walmart-kids-jackets/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:12Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/minnie-mouse-windbreaker-walmart.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comで$ 8未満のディズニーキャラクターウインドブレーカージャケット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comで$ 8未満のディズニーキャラクターウインドブレーカージャケット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e26c3ddb1ac2",
+   "title": "Kids Story Projector Just $23.99 Shipped on Amazon | Fun Screen-Free Learning Toy",
+   "link": "https://hip2save.com/deals/story-projector-for-kids/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:10Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Kids-Projector-4.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "f65f67f6e5ab",
+   "title": "27-Gallon Storage Ottoman Bench Only $69.xx on Amazon (Reg. $100)",
+   "link": "https://thefreebieguy.com/songmics-home-storage-ottoman-bench/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T17:10Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/SONGMICS-HOME-27-Gallon-Storage-Ottoman-Bench-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 31,
+   "price": 69.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "52526b91a7b3",
+   "title": "Target’s Early Black Friday Sale Starts 11/5 | 40% Off Toys & Holiday Decor",
+   "link": "https://hip2save.com/deals/target-early-black-friday-savings/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:07Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/target-early-black-friday-deals.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "Targetのアーリーブラックフライデーセールは11月5日から|おもちゃとホリデーデコレーションが40%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Targetのアーリーブラックフライデーセールは11月5日から|おもちゃとホリデーデコレーションが40%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e558cbbfb26a",
+   "title": "NEW MGA Miniverse Make It Mini Advent Calendar on Target.com",
+   "link": "https://hip2save.com/deals/mini-brands-advent-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:05Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/miniverse-advent-calendar.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "daf96e42080b",
+   "title": "Election Day Freebies & Deals for November 3rd, 2026",
+   "link": "https://thefreebieguy.com/election-day-freebies-and-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T17:05Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/I-voted-sticker-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-03",
+    "roundup": true
+   },
+   "ja": "2026年11月3日の選挙日の景品とお得情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "2026年11月3日の選挙日の景品とお得情報",
+    "when": "11/3(火)",
+    "cond": ""
+   },
+   "date": "2026-11-03"
+  },
+  {
+   "id": "2581a9a14e47",
+   "title": "Lisen 3-in-1 Retractable Charging Cable only $5.99!",
+   "link": "https://moneysavingmom.com/lisen-retractable-charging-cable-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T17:04Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/08/Lisen-3-in-1-Retractable-Charging-Cable.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "262d5d4b6ed7",
+   "title": "Enter Target’s Drawing to Score Destined Rivals Pokémon Cards",
+   "link": "https://hip2save.com/deals/target-draw/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:00Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/pokemon-destined-rivals-target.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2c35e79b1567",
+   "title": "November Allure Beauty Box is Here! Score $234+ in Beauty Products + FREE Gifts",
+   "link": "https://thefreebieguy.com/allure-beauty-box/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T16:55Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/November-Allure-Beauty-Box-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "11月アリュール・ビューティーボックスが登場！美容製品で$ 234以上のスコア+無料ギフト",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "11月アリュール・ビューティーボックスが登場！美容製品で$ 234以上のスコア+無料ギフト",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e230d0070641",
+   "title": "*HOT* FREE $25 purchase at Nike after cash back!!",
+   "link": "https://moneysavingmom.com/hot-free-25-purchase-at-nike-after-cash-back/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T16:49Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-07-at-7.27.25-PM-630x640.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Nike",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d3c0517602c5",
+   "title": "Gua Sha & Jade Roller Set Just $3.99 on Amazon | Beauty Lovers Stocking Stuffer",
+   "link": "https://hip2save.com/product-reviews/gua-sha-skincare-tool/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T16:47Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/05/baimei-jade-roller-gua-sha-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f97b0e1911f6",
+   "title": "Score a Free Movie Ticket to see “Ramayana” at Fandango Theaters!",
+   "link": "https://thefreebieguy.com/score-a-free-movie-ticket-to-see-ramayana-at-fandango-theaters/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T16:46Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Ramayana-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "無料の映画チケットを獲得して、ファンダンゴ劇場で「ラーマーヤナ」を観よう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Fandango Theaters",
+    "item": "無料の映画チケットを獲得して、ファンダンゴ劇場で「ラーマーヤナ」を観よう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "88ad7c89830c",
+   "title": "Gold Bond Hand Cream Only $1.47 After Walmart Cash",
+   "link": "https://hip2save.com/deals/gold-bond-cream/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T16:42Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/Gold-Bond-Hand-Creams.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "ad1819b91b52",
+   "date": null
+  },
+  {
+   "id": "108fedfd9dcd",
+   "title": "Best Tuesday Restaurant Specials: Tacos, Pizza, Wings & More!",
+   "link": "https://hip2save.com/deals/tuesday-restaurant-specials/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T16:37Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Taco-bell-quesarito.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f59303e227b1",
+   "title": "Dinosaur Mini Bubble Wands 30-Pack Only $4.94 on Amazon (Fun Stocking Stuffer)",
+   "link": "https://hip2save.com/deals/amazon-bubble-wands/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T16:30Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Genuvi-Dinosaur-Mini-Bubble-Wands.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d15538389bfd",
+   "title": "My Texas House Outdoor Area Rug Just $39.97 Shipped on Walmart.com (Reg. $87)",
+   "link": "https://hip2save.com/deals/walmart-outdoor-rugs/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T16:25Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Outside-my-texas-house-rug.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 54,
+   "price": 39.97,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "412ba46c44f7",
+   "title": "Women’s Dresses as low as $4.85 at Walmart!",
+   "link": "https://moneysavingmom.com/walmart-dresses-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T16:21Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Scenario-Womens-Fit-and-Flare-Mini-Dress.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a96ddc4bcb2e",
+   "title": "Best Amazon Pet Deals – Save on Food, Treats, Toys, & More!",
+   "link": "https://thefreebieguy.com/best-amazon-pet-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T16:19Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/amazon-pet-deals-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "123a4812a2cb",
    "title": "Kohl’s Cares Holiday Plush & Book Sets Just $9.99 – Snoopy, The Grinch, Rudolph & More!",
@@ -94,6 +683,38 @@
    "sum": {
     "store": "Kohl's",
     "item": "Kohl's Caresホリデーぬいぐるみ＆ブックセットがたったの$ 9.99 –スヌーピー、グリンチ、ルドルフなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "871e131dc16c",
+   "title": "Retro Spirograph Jr. Toy Only $13 on Amazon (Regularly $25)",
+   "link": "https://hip2save.com/deals/spirograph-jr-toy/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T16:05Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/spirograph-jr-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
     "when": "",
     "cond": ""
    },
@@ -293,7 +914,39 @@
     "when": "",
     "cond": ""
    },
-   "dup": "46c36e5afcff",
+   "date": null,
+   "dup": "46c36e5afcff"
+  },
+  {
+   "id": "bf45eea48c9d",
+   "title": "RARE 50% Off Viral lola Blankets Black Friday Sale!",
+   "link": "https://thefreebieguy.com/lola-blankets/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T15:38Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Lola-blankets--840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レアなバイラルローラブランケット・ブラックフライデーセール！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "レアなバイラルローラブランケット・ブラックフライデーセール！",
+    "when": "",
+    "cond": ""
+   },
    "date": null
   },
   {
@@ -459,8 +1112,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ad1819b91b52",
-   "date": null
+   "date": null,
+   "dup": "ad1819b91b52"
   },
   {
    "id": "d49bd95ebc07",
@@ -492,8 +1145,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "9ea197fb9966",
-   "date": null
+   "date": null,
+   "dup": "9ea197fb9966"
   },
   {
    "id": "211b0597de10",
@@ -8916,6 +9569,44 @@
    "date": null
   },
   {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-02T17:16Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
+  },
+  {
    "id": "4fbc13288ea8",
    "title": "Physician’s Choice Women’s Probiotics 30-Count Only $8.54 Shipped on Amazon (Reg. $30)",
    "link": "https://hip2save.com/deals/physicians-choice/",
@@ -15640,43 +16331,6 @@
     "item": "Power Flash 24カウント単4電池Amazonでわずか$ 6.xx （登録価格$ 13 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "aff98f37b772",
-   "title": "RUN! FREE CeraVe Anti-Dandruff Hydrating Shampoo Samples!",
-   "link": "https://thefreebieguy.com/free-cerave-shampoo/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T16:48Z",
-   "firstSeen": "2026-10-29T17:05Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/CareVe-Anti-Dandruff-Sample-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "CeraVeのフケ予防保湿シャンプーの無料試供品",
-   "jaVia": "claude",
-   "sum": {
-    "store": "CeraVe",
-    "item": "CeraVeのフケ予防保湿シャンプーの無料試供品",
-    "when": "",
-    "cond": "数量限定",
-    "what": "無料サンプル",
-    "where": "オンライン"
    },
    "date": null
   },
@@ -37312,41 +37966,6 @@
    },
    "date": null,
    "dup": "25082076172b"
-  },
-  {
-   "id": "9fc0c64e28b2",
-   "title": "CVS Photo Deals: Buy 1 Get 1 FREE Posters & Enlargements + MORE Photo Deals!",
-   "link": "https://thefreebieguy.com/cvs-photo-deals-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T16:59Z",
-   "firstSeen": "2026-10-25T17:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/CVS-Weekly-Photo-Deals-840x630.png",
-   "hot": true,
-   "stores": [
-    "CVS"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "CVSフォトセール： 1枚購入すると、無料のポスターと拡大サイズが1枚もらえます。その他の写真セールもあります！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "CVS",
-    "item": "CVSフォトセール： 1枚購入すると、無料のポスターと拡大サイズが1枚もらえます。その他の写真セールもあります！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
   },
   {
    "id": "bd98445b2d63",
