@@ -1,6 +1,6 @@
 {
  "_note": "🧸 コラボ予定(ポケモン・サンリオ。本人指定 10/27)。手入力の予定(auto なし)と、fetch_deals.py が見出しの日付から自動で足す予定(auto: true)。status は 公式/報道(未公式)/開催中。終わった予定は自動で消える。",
- "updated": "2026-11-02T00:17Z",
+ "updated": "2026-11-02T00:25Z",
  "collabs": [
   {
    "id": "BK-sanrio-2026-10",
@@ -11,17 +11,21 @@
    "kind": "food",
    "title": "ハローキティ&フレンズのキッズミール(シークレット玩具6種+王冠、金色キティあり)",
    "what": "キッズミール玩具",
-   "start": "2026-10-22",
+   "start": "2026-10-20",
    "end": "2026-11-30",
    "status": "開催中",
-   "note": "10/22 に開始を確認(Hip2Save)。終了日は公式発表なし(事前リークでは 11/30 まで)。なくなり次第終了。",
+   "note": "10/19 に Burger King が公式発表、10/20 から全米で開始。終了日は公式発表なし(事前リークでは 11/30 まで)。なくなり次第終了。",
    "sources": [
     {
-     "name": "Hip2Save",
-     "url": "https://hip2save.com/deals/burger-king-kids-meals/"
+     "name": "Burger King 公式ニュース(10/19)",
+     "url": "https://news.bk.com/blog-posts/hello-kitty-r-and-friends-are-coming-to-burger-king-r"
     },
     {
-     "name": "Essential Japan(事前リーク)",
+     "name": "USA TODAY(10/19)",
+     "url": "https://www.usatoday.com/story/money/food/2026/10/19/burger-king-hello-kitty-kids-meal/92328566007/"
+    },
+    {
+     "name": "Essential Japan(事前リーク、11/30 まで)",
      "url": "https://essential-japan.com/news/burger-king-x-hello-kitty-and-friends-collab-leaks-ahead-of-october-us-launch/"
     }
    ]
@@ -37,16 +41,20 @@
    "what": "ハッピーセット",
    "start": "2026-11-10",
    "end": "2026-12-14",
-   "status": "報道(未公式)",
-   "note": "米国の日程は未発表。10/27 の PokeBeach(複数店舗で確認)では 11/10〜12/14。9月の報道では 11/5〜12/9 だったため、公式発表で変わる可能性あり。",
+   "status": "公式",
+   "note": "10/29 に McDonald's と The Pokémon Company が 11/10 開始を公式発表(箱はピカチュウ・ブラッキー・アチャモの3種)。終了 12/14 は報道(Vice・PokeBeach)で未公式。9月の報道の 11/5〜12/9 は古い日程。",
    "sources": [
     {
-     "name": "Pirates & Princesses(PokeBeach 経由、10/27)",
-     "url": "https://news.piratesandprincesses.net/p/pokemon-happy-meals-return-nov-10"
+     "name": "ポケモン公式(The Pokémon Company)",
+     "url": "https://www.pokemon.com/us/news/pokemon-happy-meals-are-coming-to-mcdonalds-in-an-exciting-new-way"
     },
     {
-     "name": "Sporked(9/29、11/5〜12/9 の報道)",
-     "url": "https://sporked.com/article/mcdonalds-new-pokemon-happy-meals-are-a-collectors-dream/"
+     "name": "USA TODAY(10/29、公式発表の報道)",
+     "url": "https://www.usatoday.com/story/money/food/2026/10/29/mcdonalds-pokmon-happy-meals/92456820007/"
+    },
+    {
+     "name": "Vice(終了 12/14 の報道)",
+     "url": "https://www.vice.com/en/article/mcdonalds-pokemon-cards-2026-set-list-happy-meal-release-dates/"
     }
    ]
   }
