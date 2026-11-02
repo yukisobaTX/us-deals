@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-02T23:24Z",
+ "updated": "2026-11-02T23:48Z",
  "count": 1574,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -40,7 +40,7 @@
   },
   "bcslib": {
    "read": 10,
-   "added": 1
+   "added": 0
   },
   "sporked": {
    "read": 12,
@@ -64,6 +64,161 @@
  },
  "errors": [],
  "items": [
+  {
+   "id": "a73adaeb23b0",
+   "title": "Shark VACMOP Reveal Cordless Vacuum & Spray Mop Only $79.xx on Amazon (Reg. $129)",
+   "link": "https://thefreebieguy.com/shark-vacmop-reveal-cordless-vacuum-spray-mop/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T23:34Z",
+   "firstSeen": "2026-11-02T23:48Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Shark-VACMOP-Reveal-Cordless-Vacuum-Spray-Mop-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 39,
+   "price": 79.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Shark VACMOP Revealコードレス掃除機＆スプレーモップAmazonで$ 79.xxのみ（登録価格$ 129 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Shark VACMOP Revealコードレス掃除機＆スプレーモップAmazonで$ 79.xxのみ（登録価格$ 129 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a1c5f713e3ad",
+   "title": "Model-Making Workshop at The George H.W. Bush Presidential Library & Museum",
+   "link": "https://www.destinationbryan.com/events/model-making-workshop-at-the-george-h-w-bush-presidential-library-museum/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-02T23:32Z",
+   "firstSeen": "2026-11-02T23:32Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "George H.W. Bush Presidential…",
+    "item": "ブッシュ大統領図書館の模型づくりワークショップ",
+    "when": "11/7(土)",
+    "cond": "工作",
+    "what": "模型づくり",
+    "where": "ブッシュ大統領図書館"
+   },
+   "ja": "ブッシュ大統領図書館の模型づくりワークショップ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07",
+   "freebie": null
+  },
+  {
+   "id": "c1ebd341410f",
+   "title": "Cards, Comics, & Collectibles Expo at The Brazos Center",
+   "link": "https://www.destinationbryan.com/events/tradingcardsmarketplace-com-cards-comics-collectibles-expo/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-02T23:32Z",
+   "firstSeen": "2026-11-02T23:32Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Brazos County Expo Complex",
+    "item": "トレカ・コミック・コレクターズ展示即売会",
+    "when": "11/7(土)",
+    "what": "カード・コミック展",
+    "where": "Brazos Center"
+   },
+   "ja": "トレカ・コミック・コレクターズ展示即売会",
+   "jaVia": "claude-ev",
+   "date": "2026-11-07",
+   "freebie": null
+  },
+  {
+   "id": "42c7a8dfa037",
+   "title": "First Saturday Art Market at Degallery",
+   "link": "https://www.destinationbryan.com/events/first-saturday-art-market-at-degallery-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-02T23:32Z",
+   "firstSeen": "2026-11-02T23:32Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Degallery",
+    "item": "Degallery の第1土曜アートマーケット",
+    "when": "11/7(土)",
+    "cond": "毎月第1土曜",
+    "what": "アートマーケット",
+    "where": "Degallery"
+   },
+   "ja": "Degallery の第1土曜アートマーケット",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07",
+   "freebie": null
+  },
   {
    "id": "f6ebaf82186b",
    "title": "CVS: Buy $100 Zillions Giftcards, Get $20 ExtraBucks (Stack For More Savings)",
@@ -2453,13 +2608,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "オーバーザドアバスケットボールデュアルフープはわずか$ 20.86 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "オーバーザドアバスケットボールデュアルフープはわずか$ 20.86 ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "dd7832e876ad",
@@ -2485,13 +2642,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "充電式ミニエアポンプAmazonで$ 12.95のみ（登録価格$ 24 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "充電式ミニエアポンプAmazonで$ 12.95のみ（登録価格$ 24 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "9fa58f09cff5"
   },
   {
@@ -2552,13 +2711,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キッズストーリープロジェクターたったの$ 23.99がAmazonで発売|楽しいスクリーンフリーの学習玩具",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "キッズストーリープロジェクターたったの$ 23.99がAmazonで発売|楽しいスクリーンフリーの学習玩具",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "f65f67f6e5ab",
@@ -2584,13 +2745,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "27ガロンストレージオスマンベンチのみ$ 69.xx Amazon （登録価格$ 100 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "27ガロンストレージオスマンベンチのみ$ 69.xx Amazon （登録価格$ 100 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "52526b91a7b3",
@@ -2652,13 +2815,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Target.comの新しいMGA Miniverse Make It Miniアドベントカレンダー",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Target.comの新しいMGA Miniverse Make It Miniアドベントカレンダー",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "daf96e42080b",
@@ -2722,13 +2887,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lisen 3 - in -1引き込み式充電ケーブルは$ 5.99のみ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Lisen 3 - in -1引き込み式充電ケーブルは$ 5.99のみ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "262d5d4b6ed7",
@@ -2754,13 +2921,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットのドローイングを入力して、運命のライバルポケモンカードを獲得しましょう",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのドローイングを入力して、運命のライバルポケモンカードを獲得しましょう",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2c35e79b1567",
@@ -2821,13 +2990,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "* HOT *キャッシュバック後、ナイキで25 $の無料購入！ ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Nike",
-    "item": "",
+    "item": "* HOT *キャッシュバック後、ナイキで25 $の無料購入！ ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d3c0517602c5",
@@ -32004,7 +32175,7 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -38055,40 +38226,6 @@
    },
    "date": null,
    "dup": "10b7d11723e1"
-  },
-  {
-   "id": "530a9b1fa6a6",
-   "title": "Scott ComfortPlus Toilet Paper 12 Triple Rolls Just $4.xx at Amazon",
-   "link": "https://thefreebieguy.com/scott-comfortplus-toilet-paper-12-double-rolls/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T23:30Z",
-   "firstSeen": "2026-10-25T23:39Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Scott-ComfortPlus-Toilet-Paper-12-Triple-Rolls-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "Scott ComfortPlusトイレットペーパー12トリプルロールわずか$ 4.xxアマゾン",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Scott ComfortPlusトイレットペーパー12トリプルロールわずか$ 4.xxアマゾン",
-    "when": "",
-    "cond": ""
-   }
   },
   {
    "id": "a8bafea0f3e5",
@@ -53819,124 +53956,6 @@
    "date": "2026-11-07",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "a1c5f713e3ad",
-   "title": "Model-Making Workshop at The George H.W. Bush Presidential Library & Museum",
-   "link": "https://www.destinationbryan.com/events/model-making-workshop-at-the-george-h-w-bush-presidential-library-museum/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-02T23:32Z",
-   "firstSeen": "2026-11-02T23:32Z",
-   "expires": "2026-11-07",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館の模型づくりワークショップ",
-    "when": "11/7(土)",
-    "cond": "工作",
-    "what": "模型づくり",
-    "where": "ブッシュ大統領図書館"
-   },
-   "ja": "ブッシュ大統領図書館の模型づくりワークショップ",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-07"
-  },
-  {
-   "id": "c1ebd341410f",
-   "title": "Cards, Comics, & Collectibles Expo at The Brazos Center",
-   "link": "https://www.destinationbryan.com/events/tradingcardsmarketplace-com-cards-comics-collectibles-expo/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-02T23:32Z",
-   "firstSeen": "2026-11-02T23:32Z",
-   "expires": "2026-11-07",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Brazos County Expo Complex",
-    "item": "トレカ・コミック・コレクターズ展示即売会",
-    "when": "11/7(土)",
-    "what": "カード・コミック展",
-    "where": "Brazos Center"
-   },
-   "ja": "トレカ・コミック・コレクターズ展示即売会",
-   "jaVia": "claude-ev",
-   "date": "2026-11-07"
-  },
-  {
-   "id": "42c7a8dfa037",
-   "title": "First Saturday Art Market at Degallery",
-   "link": "https://www.destinationbryan.com/events/first-saturday-art-market-at-degallery-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-02T23:32Z",
-   "firstSeen": "2026-11-02T23:32Z",
-   "expires": "2026-11-07",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Degallery",
-    "item": "Degallery の第1土曜アートマーケット",
-    "when": "11/7(土)",
-    "cond": "毎月第1土曜",
-    "what": "アートマーケット",
-    "where": "Degallery"
-   },
-   "ja": "Degallery の第1土曜アートマーケット",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-07"
   }
  ]
 }
