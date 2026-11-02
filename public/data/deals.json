@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02T01:22Z",
- "count": 1444,
+ "updated": "2026-11-02T03:01Z",
+ "count": 1445,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 5
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -602,9 +602,6 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "gift": {
-    "grocery": true
-   },
    "ja": "サムズクラブ割引ギフトカード|サウスウエスト航空、ディズニーなど",
    "jaVia": "mymemory",
    "sum": {
@@ -1774,13 +1771,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "フローラル電動ハンドウォーマー充電式2パックAmazonで$ 8.xxのみ（登録価格$ 25 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "フローラル電動ハンドウォーマー充電式2パックAmazonで$ 8.xxのみ（登録価格$ 25 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "ca4cbd587b38"
   },
   {
@@ -1944,13 +1943,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メソッド発泡ハンドウォッシュ6 ct Amazonで$ 10.xxのみ（登録$ 16 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "メソッド発泡ハンドウォッシュ6 ct Amazonで$ 10.xxのみ（登録$ 16 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "65e36d867b63",
@@ -1976,13 +1977,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Target.comの新世代クリスマスストッキングサプライズ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Target.comの新世代クリスマスストッキングサプライズ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "98ea319fca3b",
@@ -7080,6 +7083,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-02T03:01Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -40699,10 +40740,7 @@
    },
    "date": null,
    "event": null,
-   "eventNews": false,
-   "gift": {
-    "grocery": true
-   }
+   "eventNews": false
   },
   {
    "id": "7b2467a354a9",
