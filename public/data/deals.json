@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T08:31Z",
+ "updated": "2026-11-02T10:19Z",
  "count": 1435,
  "stats": {
   "h2s": {
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 6
+   "added": 5
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,49 @@
    "added": 0
   },
   "ja": {
-   "gemini": 24,
+   "gemini": 18,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 4,
+   "mymemory": 10,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "e324c3057e87",
+   "title": "Scotch Brand Precision Ultra Edge Scissors 3Pk Only $6 on Amazon",
+   "link": "https://thefreebieguy.com/scotch-brand-precision-ultra-edge-scissors-3-pack/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T10:13Z",
+   "firstSeen": "2026-11-02T10:19Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Scotch-Brand-Precision-Ultra-Edge-Scissors-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スコッチブランドのプレシジョンウルトラエッジはさみ3本セットがAmazonでわずか6ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "スコッチブランドのプレシジョンウルトラエッジはさみ3本セットがAmazonでわずか6ドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "ccf9f1518c9a",
    "title": "Powerade 20oz 8-Packs Only $4.xx on Amazon (Reg. $10)",
@@ -7046,44 +7080,6 @@
     "where": "Atom Tickets"
    },
    "date": null
-  },
-  {
-   "id": "ac09530d20f9",
-   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
-   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-30T20:46Z",
-   "firstSeen": "2026-11-02T08:31Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31",
-    "roundup": true
-   },
-   "sum": {
-    "item": "ハロウィン特典各種",
-    "when": "10/31",
-    "what": "無料特典",
-    "where": "全米"
-   },
-   "ja": "ハロウィン特典各種",
-   "jaVia": "gemini",
-   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
