@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02T05:14Z",
- "count": 1445,
+ "updated": "2026-11-02T06:19Z",
+ "count": 1434,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 4
   },
   "tfg": {
    "read": 40,
@@ -58,8 +58,9 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -2285,15 +2286,17 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "sum": {
-    "store": "Kroger",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
    "date": null,
    "gift": {
     "grocery": true
+   },
+   "ja": "Kroger ： $ 150 VISA/Mastercard Variable Load Giftcardを購入し、購入手数料を免除",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kroger",
+    "item": "Kroger ： $ 150 VISA/Mastercard Variable Load Giftcardを購入し、購入手数料を免除",
+    "when": "",
+    "cond": ""
    }
   },
   {
@@ -2329,40 +2332,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "48cee6ca2fd7",
-   "title": "Today ONLY: 40% Off Home Alone Matching Christmas Pajamas on Target.com",
-   "link": "https://hip2save.com/deals/target-home-alone-christmas-pajamas/",
-   "source": "Hip2Save",
-   "posted": "2026-11-01T17:35Z",
-   "firstSeen": "2026-11-01T17:44Z",
-   "expires": "2026-11-01",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/home-alone-pjs-at-targert.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "本日限り： Target.comでホームアローンマッチングクリスマスパジャマが40%オフ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "本日限り： Target.comでホームアローンマッチングクリスマスパジャマが40%オフ",
-    "when": "11/1(日)まで",
-    "cond": ""
-   },
-   "date": "2026-11-01"
   },
   {
    "id": "c1445e87a76d",
@@ -2458,13 +2427,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スターバックスとは？ウォルマートで10 $未満のこのかわいいガラスの動物のタンブラーを手に入れましょう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Starbucks",
-    "item": "",
+    "item": "スターバックスとは？ウォルマートで10 $未満のこのかわいいガラスの動物のタンブラーを手に入れましょう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f6e0237725bf",
@@ -2490,13 +2461,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "GO! OhO Open Ear BluetoothスマートメガネAmazonでわずか$ 9.xx （登録価格$ 49 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "GO! OhO Open Ear BluetoothスマートメガネAmazonでわずか$ 9.xx （登録価格$ 49 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b8df4b9fbb1f",
@@ -2522,13 +2495,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アマゾンのビーズ付きイニシャルネックレスのみ$ 3.99 （登録価格$ 10 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アマゾンのビーズ付きイニシャルネックレスのみ$ 3.99 （登録価格$ 10 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4e458748e5d2",
@@ -3426,41 +3401,6 @@
    "date": "2026-11-14"
   },
   {
-   "id": "f962530fc32a",
-   "title": "Today ONLY: 40% Off Matching Holiday Pajamas at Target",
-   "link": "https://hip2save.com/deals/target-daily-deals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-01T13:37Z",
-   "firstSeen": "2026-11-01T13:55Z",
-   "expires": "2026-11-01",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/target-holiday-pjamas.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "本日限り： Targetでのホリデーパジャマのマッチングが40%オフ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "本日限り： Targetでのホリデーパジャマのマッチングが40%オフ",
-    "when": "11/1(日)まで",
-    "cond": ""
-   },
-   "date": "2026-11-01",
-   "dup": "e831cef09815"
-  },
-  {
    "id": "a891f9565deb",
    "title": "RUN! The Softest Blanket EVER is 50% Off + Ships FREE",
    "link": "https://hip2save.com/deals/lola-blankets/",
@@ -3493,40 +3433,6 @@
    "ja": "ブランケット半額＆送料無料",
    "jaVia": "gemini",
    "date": null
-  },
-  {
-   "id": "e831cef09815",
-   "title": "*HOT* 40% off Matching Pajamas for the Family at Target {Today Only!}",
-   "link": "https://moneysavingmom.com/up-to-40-off-pajamas-for-the-family-at-target/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-01T12:36Z",
-   "firstSeen": "2026-11-01T13:02Z",
-   "expires": "2026-11-01",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Pajamas-1-630x650.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "* HOT *ターゲットでの家族向けパジャマのマッチングが40%オフ{本日限定！}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "* HOT *ターゲットでの家族向けパジャマのマッチングが40%オフ{本日限定！}",
-    "when": "11/1(日)まで",
-    "cond": ""
-   },
-   "date": "2026-11-01"
   },
   {
    "id": "ed1a25a8a9ce",
@@ -7097,44 +7003,6 @@
     "where": "Atom Tickets"
    },
    "date": null
-  },
-  {
-   "id": "ac09530d20f9",
-   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
-   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-30T20:46Z",
-   "firstSeen": "2026-11-02T05:14Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31",
-    "roundup": true
-   },
-   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
-    "when": "10/31(土)",
-    "cond": ""
-   },
-   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -18912,43 +18780,6 @@
    "date": null
   },
   {
-   "id": "2d98f19cf4d2",
-   "title": "Carl’s Jr. Halloween Deal Includes a Free Exor-Sip With El Diablo Burger Purchase Through November 1, 2026",
-   "link": "https://www.fastfoodpost.com/carls-jr-halloween-deal-free-exor-sip/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-28T16:00Z",
-   "firstSeen": "2026-10-28T16:03Z",
-   "expires": "2026-11-01",
-   "thumb": null,
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-01"
-   },
-   "ja": "ハロウィン限定、エルディアブロ購入でドリンク無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Carl's Jr.",
-    "item": "ハロウィン限定、エルディアブロ購入でドリンク無料",
-    "when": "〜11/1",
-    "cond": "エルディアブロ購入",
-    "what": "ドリンク無料",
-    "where": "Carl's Jr."
-   },
-   "date": "2026-11-01"
-  },
-  {
    "id": "fcffe930b227",
    "title": "365 by Whole Foods Market Spaghetti Pasta only $0.94 shipped or Organic Lasagne just $1.59 shipped!",
    "link": "https://moneysavingmom.com/365-by-whole-foods-market-pasta-deals/",
@@ -19297,45 +19128,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "cb7c188fd75e",
-   "title": "Michaels: FREE Hand-Stitched Card Event on November 1st!",
-   "link": "https://moneysavingmom.com/michaels-free-events/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-28T15:13Z",
-   "firstSeen": "2026-10-28T16:03Z",
-   "expires": "2026-11-01",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-at-10.09.54-AM.png",
-   "hot": true,
-   "stores": [
-    "Michaels"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-01"
-   },
-   "ja": "カード作りイベント",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Michaels",
-    "item": "カード作りイベント",
-    "when": "11/1",
-    "cond": "",
-    "what": "無料イベント",
-    "where": "Michaels"
-   },
-   "date": "2026-11-01"
   },
   {
    "id": "5b59bd13dd70",
@@ -31900,45 +31692,6 @@
    "date": null
   },
   {
-   "id": "8cebf8836663",
-   "title": "Michaels Has Free Craft Classes! Make Hand-Stitched Cards on November 1, 2026!",
-   "link": "https://thefreebieguy.com/michaels-free-craft-classes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T12:58Z",
-   "firstSeen": "2026-10-26T13:31Z",
-   "expires": "2026-11-01",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Michaels-Store-TFG-840x630.png",
-   "hot": true,
-   "stores": [
-    "Michaels"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-01"
-   },
-   "ja": "手縫いカードを作る無料クラス",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Michaels",
-    "item": "手縫いカードを作る無料クラス",
-    "when": "11/1(日)",
-    "cond": "要予約",
-    "what": "無料工作教室",
-    "where": "Michaels"
-   },
-   "date": "2026-11-01"
-  },
-  {
    "id": "2168b31efd94",
    "title": "Subway Coupon Code: Buy One, Get One Free Footlong Subs!",
    "link": "https://moneysavingmom.com/subway-coupons-specials-deals/",
@@ -32811,43 +32564,6 @@
    "date": null
   },
   {
-   "id": "d2df97a4cd6d",
-   "title": "Arby’s Specials & Coupons | Free Sandwich with $10 Purchase Through November 1",
-   "link": "https://thefreebieguy.com/arbys-specials-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T10:43Z",
-   "firstSeen": "2026-10-26T10:53Z",
-   "expires": "2026-11-01",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/kendall-arbys-store-and-bag-img-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-01"
-   },
-   "ja": "$10以上購入でサンドイッチ無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Arby's",
-    "item": "$10以上購入でサンドイッチ無料",
-    "when": "〜11/1",
-    "cond": "$10以上購入",
-    "what": "無料サンド",
-    "where": "Arby's"
-   },
-   "date": "2026-11-01"
-  },
-  {
    "id": "f75910f08837",
    "title": "Love’s Rewards Deals | Free Love’s Danish + More!",
    "link": "https://thefreebieguy.com/free-products-at-loves/",
@@ -33155,45 +32871,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "9d71465a6a31",
-   "title": "Fun, Free & Cheap Events | October 30 – November 1",
-   "link": "https://www.houstononthecheap.com/top-events-in-houston-october-30-november-1-2026/",
-   "source": "Houston on the Cheap",
-   "posted": "2026-10-26T08:09Z",
-   "firstSeen": "2026-10-26T08:58Z",
-   "expires": "2026-11-01",
-   "thumb": "https://www.houstononthecheap.com/wp-content/uploads/2026/10/Things-to-do-in-Houston-this-Weekend-–-October-30-November-1.jpg",
-   "noAlert": true,
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-30"
-   },
-   "date": "2026-10-30",
-   "ja": "今週末(10/30〜11/1)の無料・格安イベントまとめ",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "ヒューストン各地",
-    "item": "今週末(10/30〜11/1)の無料・格安イベントまとめ",
-    "when": "10/30〜11/1",
-    "cond": "無料・格安",
-    "what": "週末無料催し",
-    "where": "ヒューストン各地"
-   },
-   "localDate": "2026-10-30"
   },
   {
    "id": "f6c64d6a9c64",
@@ -43090,44 +42767,6 @@
    "dup": "c1b3dee0c3ee"
   },
   {
-   "id": "0ef8c88717bd",
-   "title": "Possible FREE Denny’s Triple Play Meal (Register Before 11/1!)",
-   "link": "https://hip2save.com/deals/dennys-coupon/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T11:41Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-11-01",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-01"
-   },
-   "ja": "条件達成でTriple Play朝食が無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Denny's",
-    "item": "条件達成でTriple Play朝食が無料",
-    "when": "〜11/1登録",
-    "cond": "要登録",
-    "what": "無料朝食(登録)",
-    "where": "Denny's"
-   },
-   "date": "2026-11-01",
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "eecaea4f3343",
    "title": "Snowflake 18-in-1 Multitool 2-Pack Just $5.57 on Amazon (Practical Stocking Stuffer)",
    "link": "https://hip2save.com/deals/snowflake-multitool/",
@@ -46953,45 +46592,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "a7bbda804156",
-   "title": "Get a FREE Entree w/ Purchase at QDOBA 10/31 and 11/1",
-   "link": "https://hip2save.com/deals/qdoba-coupons/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T16:38Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-11-01",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31"
-   },
-   "ja": "購入でアントレ1品無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "QDOBA",
-    "item": "購入でアントレ1品無料",
-    "when": "10/31〜11/1",
-    "cond": "購入が条件",
-    "what": "無料アントレ",
-    "where": "QDOBA"
-   },
-   "date": "2026-10-31",
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/qdoba-bogo-offer-entrees.jpg?resize=306,182"
   },
   {
    "id": "254da37a2b7c",
