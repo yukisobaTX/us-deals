@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-02T20:00Z",
- "count": 1539,
+ "updated": "2026-11-02T20:55Z",
+ "count": 1545,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 8
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,256 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
+   "mymemory": 24,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "3d42d8d49898",
+   "title": "LED Drawing Board w/ Light Effects Only $8.49 on Amazon (Reg. $17)",
+   "link": "https://hip2save.com/deals/amazon-led-drawing-board/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T20:40Z",
+   "firstSeen": "2026-11-02T20:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/led-drawing-board-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 8.49,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonで$ 8.49のみのライトエフェクト付きLED描画ボード（登録価格$ 17 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonで$ 8.49のみのライトエフェクト付きLED描画ボード（登録価格$ 17 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3c2f559f4a45",
+   "title": "How Texas Independence Park at Midtown will blend conservation, history and community fun",
+   "link": "https://blog.cstx.gov/2026/11/02/how-texas-independence-park-at-midtown-will-blend-conservation-history-and-community-fun/",
+   "source": "カレッジステーション市",
+   "posted": "2026-11-02T20:39Z",
+   "firstSeen": "2026-11-02T20:55Z",
+   "expires": null,
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "公園・屋外"
+   ],
+   "family": true,
+   "freebie": null,
+   "ja": "ミッドタウンのテキサス・インディペンデンス・パークで自然保護、歴史、コミュニティの楽しみをブレンドしよう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ミッドタウンのテキサス・インディペンデンス・パークで自然保護、歴史、コミュニティの楽しみをブレンドしよう",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6f061c6b5564",
+   "title": "Mini Keychain Digital Camera Only $19.99 on Target.com (Teen Gift Idea)",
+   "link": "https://hip2save.com/deals/heyday-mini-digital-camera/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T20:30Z",
+   "firstSeen": "2026-11-02T20:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Heyday-Mini-Keychain-Digital-Camera.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Target.comのミニキーチェーンデジタルカメラのみ$ 19.99 （ティーンギフトのアイデア）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Target.comのミニキーチェーンデジタルカメラのみ$ 19.99 （ティーンギフトのアイデア）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "7f9c35af7ca7",
+   "date": null
+  },
+  {
+   "id": "6e2d741035ca",
+   "title": "Magnetic Building Tiles Sets from $9.99 on Amazon",
+   "link": "https://hip2save.com/deals/coodoo-magnetic-tiles/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T20:20Z",
+   "firstSeen": "2026-11-02T20:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/coodoo-magnetic-building-tiles-set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンの磁気建築タイルセットは$ 9.99から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンの磁気建築タイルセットは$ 9.99から",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9af9554b1518",
+   "title": "Ace Hardware Black Friday Sale LIVE Now (+ Get Ready for Rare 50% Off Coupon & Flash Deals!)",
+   "link": "https://hip2save.com/deals/ace-hardware-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T20:10Z",
+   "firstSeen": "2026-11-02T20:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2017/11/ace-hardware.jpg?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "coupon"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ACEハードウェアブラックフライデーセールが開始されました（+レアな50 ％オフクーポンとフラッシュセールの準備をしましょう！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ACEハードウェアブラックフライデーセールが開始されました（+レアな50 ％オフクーポンとフラッシュセールの準備をしましょう！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0d0b1d486515",
+   "title": "Dolly on the Holly Dolly Parton Christmas Elf Collectible Now Available for Pre-Order!",
+   "link": "https://thefreebieguy.com/dolly-on-the-holly-dolly-parton-christmas-elf-collectible/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T20:05Z",
+   "firstSeen": "2026-11-02T20:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Dolly-on-the-Holly-Plush-Doll-Holiday-Dolly-Parton-Mantel-Collectible-Doll-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ドリー・オン・ザ・ホリー・ドリー・パートン・クリスマスエルフ・コレクションが予約注文可能になりました！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "ドリー・オン・ザ・ホリー・ドリー・パートン・クリスマスエルフ・コレクションが予約注文可能になりました！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3664204fa7f9",
+   "title": "House Slippers Only $9.xx on Amazon (Reg. $20)",
+   "link": "https://thefreebieguy.com/athmile-house-slippers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T20:02Z",
+   "firstSeen": "2026-11-02T20:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/athmile-slippers-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ハウススリッパAmazonで$ 9.xxのみ（登録価格$ 20 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ハウススリッパAmazonで$ 9.xxのみ（登録価格$ 20 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "be25212d949a",
    "title": "Free Country Kids Softshell Jackets Only $12.xx at Sam’s Club!",
@@ -311,8 +554,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "daf96e42080b",
-   "date": null
+   "date": null,
+   "dup": "daf96e42080b"
   },
   {
    "id": "d7bdfa2b8b93",
@@ -37625,41 +37868,6 @@
    "date": null
   },
   {
-   "id": "75d55aa9c99b",
-   "title": "BOGO Free Contigo Water Bottles & Tumblers on Amazon | TWO for $17.xx Shipped!",
-   "link": "https://thefreebieguy.com/contigo-water-bottle-amazon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T20:18Z",
-   "firstSeen": "2026-10-25T20:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Contigo-Water-Bottles-Tumblers-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazonで無料のContigoウォーターボトルとタンブラーを購入| 17.xx $で2本発送！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonで無料のContigoウォーターボトルとタンブラーを購入| 17.xx $で2本発送！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "402f40ebb3e3",
    "title": "Lysol Disinfecting Wipes 4-Pack Just $8.76 Shipped on Amazon (Reg. $15)",
    "link": "https://hip2save.com/deals/lysol-wipes/",
@@ -48481,7 +48689,8 @@
     "item": "Target's Thanksgiving Meal Deal: Feed 6 for $ 30 (お一人様わずか$ 5!)",
     "when": "",
     "cond": ""
-   }
+   },
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Target-Thanksgiving.jpg?resize=306,182"
   },
   {
    "id": "b464f0b89a2a",
