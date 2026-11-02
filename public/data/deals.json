@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-02T17:16Z",
- "count": 1504,
+ "updated": "2026-11-02T18:10Z",
+ "count": 1517,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 15
+   "added": 12
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 9
+   "added": 7
   },
   "tfg": {
    "read": 40,
-   "added": 7
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -58,13 +58,480 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 13,
+   "geminiToday": 14,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "99cad5cf5ef4",
+   "title": "CVS Has the Best Stocking Stuffers | Beauty Sets, Games & More!",
+   "link": "https://hip2save.com/deals/cvs-stocking-stuffers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T18:05Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Stocking-stuffer-kits-on-top-of-the-table.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "CVS"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CVSには最高のストッキングスタッファーがあります|ビューティーセット、ゲームなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "CVS",
+    "item": "CVSには最高のストッキングスタッファーがあります|ビューティーセット、ゲームなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "751f244ed53f",
+   "title": "Craftsman Shop Vac Just $59.98 Shipped on Lowes.com (Reg. $119)",
+   "link": "https://hip2save.com/deals/craftsman-shop-vacuum/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T18:00Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/craftsman-shop-vac-16-gallon-lowes.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 59.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Craftsman Shop Vacわずか$ 59.98 Lowes.comで発送（登録価格$ 119 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Craftsman Shop Vacわずか$ 59.98 Lowes.comで発送（登録価格$ 119 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "454e7543059b",
+   "title": "Paris Baguette Deals | Free Medium Hot or Iced Coffee w/ Any Purchase on 11/11!",
+   "link": "https://thefreebieguy.com/paris-baguette-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T18:00Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": "2026-11-11",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Paris-Baguette-Holiday-Lineup-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Paris Baguette"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-11"
+   },
+   "ja": "パリのバゲットセール| 11月11日の購入で、ミディアムホットまたはアイスコーヒーが無料！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Paris Baguette",
+    "item": "パリのバゲットセール| 11月11日の購入で、ミディアムホットまたはアイスコーヒーが無料！",
+    "when": "11/11(水)",
+    "cond": "購入時"
+   },
+   "date": "2026-11-11"
+  },
+  {
+   "id": "f58e1f3458db",
+   "title": "Quest Peanut Butter Cups 12-Pack Only $12.67 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/quest-peanut-butter-cups/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:50Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/04/quest-peanut-butter-3.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Questピーナッツバターカップ12パックのみ$ 12.67 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Questピーナッツバターカップ12パックのみ$ 12.67 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2c9d8cab574e",
+   "title": "Smoothie King Deals | FREE Dark Chocolate Peppermint D-Lite Smoothie!",
+   "link": "https://thefreebieguy.com/smoothie-king-deals-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T17:50Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Smoothie-King-840x630.png",
+   "hot": true,
+   "stores": [
+    "Smoothie King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "スムージーキングのお買い得情報|無料ダークチョコレートペパーミントD - Liteスムージー！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Smoothie King",
+    "item": "スムージーキングのお買い得情報|無料ダークチョコレートペパーミントD - Liteスムージー！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cf8660d19d03",
+   "title": "Melissa & Doug Christmas Wooden Cookie Play Set Only $14.xx on Amazon (Reg. $24)",
+   "link": "https://thefreebieguy.com/melissa-doug-christmas-wooden-cookie-play-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T17:49Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Melissa-Doug-Christmas-Wooden-Cookie-Play-Set-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 42,
+   "price": 14.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Melissa & Dougクリスマス木製クッキープレイセットのみ$ 14.xx Amazon (Reg. $ 24)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Melissa & Dougクリスマス木製クッキープレイセットのみ$ 14.xx Amazon (Reg. $ 24)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a7f178f29de4",
+   "title": "RARE Price Drop on Our Team’s Favorite Kodak Camera (Awesome Teen Gift!)",
+   "link": "https://hip2save.com/deals/kodak-pixpro-camera/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:45Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Kodak-PixPro-Compact-Digital-Camera.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "私たちのチームのお気に入りのコダックカメラのレアな価格下落（素晴らしいティーンギフト！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "私たちのチームのお気に入りのコダックカメラのレアな価格下落（素晴らしいティーンギフト！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6228cb8897cd",
+   "title": "Great Value 100% Pure Pumpkin (12 pack) only $11.40!",
+   "link": "https://moneysavingmom.com/great-value-pure-pumpkin-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T17:36Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/IMG_9141-630x473.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a95ff84049cf",
+   "title": "This 12-Day Christmas Countdown Punch Box at Target Keeps Selling Out!",
+   "link": "https://hip2save.com/deals/target-christmas-countdown-punch-box/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:35Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/target-punch-box-wondershop.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "311f4ad85e84",
+   "title": "Scotch Scissors 3-Pack Only $6 on Amazon",
+   "link": "https://hip2save.com/deals/amazon-scotch-scissors/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:30Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2021/09/Scotch-Precision-Ultra-Edge-Scissors.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0e49afbcb2d3",
+   "title": "Bisquick Mix 9-Pack Only $6 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/bisquick-mix/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:25Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Bisquick.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f933c774ae60",
+   "title": "Chicken Salad Chick | $5 Giving Card Returns ($75 in Rewards) + More!",
+   "link": "https://thefreebieguy.com/chicken-salad-chick-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T17:25Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Chicken-Salad-Chick-Restaurant-TFG-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "759513ba3f3e",
+   "title": "Over-the-Door Basketball Dual Hoop only $20.86!",
+   "link": "https://moneysavingmom.com/over-the-door-basketball-hoop-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T17:22Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/12/Over-the-Door-Basketball-Dual-Hoop.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "dd7832e876ad",
+   "title": "Rechargeable Mini Air Pump Only $12.95 on Amazon (Reg. $24)",
+   "link": "https://hip2save.com/deals/mini-air-pump/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T17:20Z",
+   "firstSeen": "2026-11-02T18:10Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/miniair-pump-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 46,
+   "price": 12.95,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "9fa58f09cff5",
+   "date": null
+  },
   {
    "id": "f0b998a11e93",
    "title": "Disney Character Windbreaker Jackets from UNDER $8 on Walmart.com",
@@ -236,7 +703,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-11-02T17:05Z",
    "firstSeen": "2026-11-02T17:16Z",
-   "expires": null,
+   "expires": "2026-11-03",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/I-voted-sticker-840x630.png",
    "hot": true,
    "stores": [],
@@ -491,8 +958,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ad1819b91b52",
-   "date": null
+   "date": null,
+   "dup": "ad1819b91b52"
   },
   {
    "id": "108fedfd9dcd",
@@ -9569,44 +10036,6 @@
    "date": null
   },
   {
-   "id": "ac09530d20f9",
-   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
-   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-30T20:46Z",
-   "firstSeen": "2026-11-02T17:16Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31",
-    "roundup": true
-   },
-   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
-    "when": "10/31(土)",
-    "cond": ""
-   },
-   "date": "2026-10-31"
-  },
-  {
    "id": "4fbc13288ea8",
    "title": "Physician’s Choice Women’s Probiotics 30-Count Only $8.54 Shipped on Amazon (Reg. $30)",
    "link": "https://hip2save.com/deals/physicians-choice/",
@@ -11469,7 +11898,7 @@
    "ja": "シャンプーの無料サンプル",
    "jaVia": "gemini",
    "date": null,
-   "dup": "aff98f37b772"
+   "dup": "4632ed98876c"
   },
   {
    "id": "6dffefeaec0d",
@@ -15397,8 +15826,7 @@
     "what": "無料サンプル",
     "where": "オンライン"
    },
-   "date": null,
-   "dup": "aff98f37b772"
+   "date": null
   },
   {
    "id": "a245f09c46ff",
