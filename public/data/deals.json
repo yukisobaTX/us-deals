@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-02T23:24Z",
- "count": 1571,
+ "count": 1574,
  "stats": {
   "h2s": {
    "read": 100,
@@ -234,13 +234,15 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "くるみ割り人形のストーリータイムと朗読イベント",
-   "jaVia": "mymemory",
+   "ja": "くるみ割り人形の読み聞かせ・朗読会",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "",
-    "item": "くるみ割り人形のストーリータイムと朗読イベント",
+    "store": "BCS図書館",
+    "item": "くるみ割り人形の読み聞かせ・朗読会",
     "when": "",
-    "cond": ""
+    "cond": "子供向け",
+    "what": "くるみ割り読み聞かせ",
+    "where": "CS図書館"
    },
    "date": null
   },
@@ -1023,13 +1025,15 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "ミッドタウンのテキサス・インディペンデンス・パークで自然保護、歴史、コミュニティの楽しみをブレンドしよう",
-   "jaVia": "mymemory",
+   "ja": "Midtown の Texas Independence Park 計画の紹介",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "",
-    "item": "ミッドタウンのテキサス・インディペンデンス・パークで自然保護、歴史、コミュニティの楽しみをブレンドしよう",
+    "store": "Texas Independence Park",
+    "item": "Midtown の Texas Independence Park 計画の紹介",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "新公園の計画",
+    "where": "Midtown"
    },
    "date": null
   },
@@ -2104,13 +2108,13 @@
     "kind": "store",
     "when": "2026-11-11"
    },
-   "ja": "中サイズコーヒー",
-   "jaVia": "gemini",
+   "ja": "Paris Baguette で何か買うとMサイズのコーヒー無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Paris Baguette",
-    "item": "中サイズコーヒー",
-    "when": "11/11",
-    "cond": "要購入",
+    "item": "Paris Baguette で何か買うとMサイズのコーヒー無料",
+    "when": "11/11(水)",
+    "cond": "購入が条件",
     "what": "無料コーヒー",
     "where": "Paris Baguette"
    },
@@ -2682,15 +2686,15 @@
     "when": "2026-11-03",
     "roundup": true
    },
-   "ja": "選挙日の無料特典・セール",
-   "jaVia": "gemini",
+   "ja": "11/3 選挙の日の無料・お得情報まとめ",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "選挙日の無料特典・セール",
-    "when": "11/3/2026",
+    "store": "各店",
+    "item": "11/3 選挙の日の無料・お得情報まとめ",
+    "when": "11/3(火)",
     "cond": "",
-    "what": "選挙日特典",
-    "where": "オンライン"
+    "what": "選挙日の無料",
+    "where": "全米各地"
    },
    "date": "2026-11-03"
   },
@@ -3411,14 +3415,14 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "熊のキーチェーン等",
-   "jaVia": "gemini",
+   "ja": "Target で無料のホリデーくまキーホルダー+ホグワーツ缶バッジ",
+   "jaVia": "claude",
    "sum": {
     "store": "Target",
-    "item": "熊のキーチェーン等",
-    "when": "11/7",
-    "cond": "",
-    "what": "無料グッズ",
+    "item": "Target で無料のホリデーくまキーホルダー+ホグワーツ缶バッジ",
+    "when": "11/7(土)",
+    "cond": "店頭",
+    "what": "無料キーホルダー",
     "where": "Target"
    },
    "date": "2026-11-07"
@@ -5204,13 +5208,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "子ども向けの音楽あそび会",
+    "item": "旧市街の教会で親子の音楽あそび",
     "when": "11/6(金)",
     "cond": "子供向け",
     "what": "音楽あそび",
-    "where": "セント・アンドリュース教会"
+    "where": "St. Andrew's教会"
    },
-   "ja": "子ども向けの音楽あそび会",
+   "ja": "旧市街の教会で親子の音楽あそび",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -5246,12 +5250,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "毎週土曜の地元農産物マーケット",
-    "when": "11/7(土)〜毎週土曜",
-    "what": "農産物マーケット",
-    "where": "ミッドタウン公園"
+    "item": "Midtown Park の毎週土曜のファーマーズマーケット",
+    "when": "11/7(土)",
+    "what": "ファーマーズマーケ…",
+    "where": "Midtown Park",
+    "cond": "毎週土曜"
    },
-   "ja": "毎週土曜の地元農産物マーケット",
+   "ja": "Midtown Park の毎週土曜のファーマーズマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -5329,14 +5334,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "City of Bryan",
-    "item": "冬の街あかりを点灯するイベント",
+    "store": "Historic Downtown Bryan",
+    "item": "ブライアン旧市街のホリデー点灯式「Lights On」",
     "when": "11/20(金) 17時",
     "cond": "家族向け",
-    "what": "ライトアップ祭",
-    "where": "Bryan市内"
+    "what": "点灯式",
+    "where": "ブライアン旧市街"
    },
-   "ja": "冬の街あかりを点灯するイベント",
+   "ja": "ブライアン旧市街のホリデー点灯式「Lights On」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -11188,12 +11193,12 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "湖畔の遊歩道で行われる屋外コンサート",
+    "item": "Lake Walk の屋外コンサート「Illuminate」",
     "when": "11/7(土)",
-    "what": "湖畔コンサート",
+    "what": "屋外コンサート",
     "where": "Lake Walk"
    },
-   "ja": "湖畔の遊歩道で行われる屋外コンサート",
+   "ja": "Lake Walk の屋外コンサート「Illuminate」",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -11230,13 +11235,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkの5Kラン（チャリティ）",
+    "item": "ダウン症協会のチャリティ5Kラン(Lake Walk)",
     "when": "11/7(土)",
-    "cond": "参加型",
+    "cond": "要申込",
     "what": "5Kラン大会",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walkの5Kラン（チャリティ）",
+   "ja": "ダウン症協会のチャリティ5Kラン(Lake Walk)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -15998,13 +16003,13 @@
    "eventNews": false,
    "sum": {
     "store": "Clara B. Mounce Library",
-    "item": "図書館の友による秋の古本セール",
+    "item": "図書館友の会の秋の古本セール",
     "when": "11/7(土)〜11/8(日)",
     "cond": "子供向けの本も(要確認)",
     "what": "古本セール",
     "where": "Mounce図書館"
    },
-   "ja": "図書館の友による秋の古本セール",
+   "ja": "図書館友の会の秋の古本セール",
    "jaVia": "claude-ev",
    "outing": [
     "子供向け"
@@ -16040,13 +16045,13 @@
    "eventNews": false,
    "sum": {
     "store": "Museum of the American G.I.",
-    "item": "博物館の体験型歴史イベント",
+    "item": "アメリカ兵博物館で戦車・軍用車が動く実演イベント",
     "when": "11/7(土)",
     "cond": "博物館",
-    "what": "歴史イベント",
-    "where": "アメリカ軍博物館"
+    "what": "軍用車の実演",
+    "where": "American G.I.博…"
    },
-   "ja": "博物館の体験型歴史イベント",
+   "ja": "アメリカ兵博物館で戦車・軍用車が動く実演イベント",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -21102,13 +21107,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "毎月第1金曜のダウンタウン路上ライブ・体験イベント",
-    "when": "11/6(金) 17時〜",
-    "what": "ファーストフライデー",
-    "where": "ヒストリックダウンタウン",
-    "cond": "家族向け・無料"
+    "item": "ブライアン旧市街の月例イベント。ライブ音楽・パフォーマンス・アート",
+    "when": "11/6(金) 夕方",
+    "what": "First Fri…",
+    "where": "ブライアン旧市街",
+    "cond": "毎月第1金曜"
    },
-   "ja": "毎月第1金曜のダウンタウン路上ライブ・体験イベント",
+   "ja": "ブライアン旧市街の月例イベント。ライブ音楽・パフォーマンス・アート",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -31020,13 +31025,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "毎週日曜のミッドタウン公園マーケット",
-    "when": "11/8(日)〜毎週日曜",
+    "item": "Midtown Park の日曜マーケット",
+    "when": "11/8(日)",
     "cond": "屋外マーケット",
     "what": "日曜マーケット",
-    "where": "ミッドタウン公園"
+    "where": "Midtown Park"
    },
-   "ja": "毎週日曜のミッドタウン公園マーケット",
+   "ja": "Midtown Park の日曜マーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -31972,7 +31977,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-02",
+   "localDate": "2026-11-03",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -31988,13 +31993,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "アメリカの歴史を紹介する博物館の展示",
+    "item": "ブッシュ大統領図書館・博物館でアメリカの歩みをたどる特別展",
     "when": "〜2027/5/16",
-    "what": "アメリカ展示",
+    "what": "アメリカ史の特別展",
     "where": "ブッシュ大統領図書館",
-    "cond": "展示・長期開催"
+    "cond": "博物館の展示"
    },
-   "ja": "アメリカの歴史を紹介する博物館の展示",
+   "ja": "ブッシュ大統領図書館・博物館でアメリカの歩みをたどる特別展",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -32030,13 +32035,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "湖畔の遊歩道でのランニング会",
+    "item": "Lake Walk のランニングクラブ",
     "when": "11/6(金)",
     "what": "ランニング会",
     "where": "Lake Walk",
     "cond": "無料"
    },
-   "ja": "湖畔の遊歩道でのランニング会",
+   "ja": "Lake Walk のランニングクラブ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -33463,14 +33468,14 @@
     "kind": "coupon",
     "when": "2026-11-17"
    },
-   "ja": "リユースカップ無料",
-   "jaVia": "gemini",
+   "ja": "Starbucks でホリデードリンク購入でリユースカップ無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Starbucks",
-    "item": "リユースカップ無料",
-    "when": "11/17",
+    "item": "Starbucks でホリデードリンク購入でリユースカップ無料",
+    "when": "11/17(火)",
     "cond": "ホリデードリンク購入",
-    "what": "無料カップ",
+    "what": "無料リユースカップ",
     "where": "Starbucks"
    },
    "date": "2026-11-17"
@@ -33808,14 +33813,14 @@
     "kind": "coupon",
     "when": "2026-11-17"
    },
-   "ja": "レッドカップ無料",
-   "jaVia": "gemini",
+   "ja": "Starbucks でホリデードリンク購入で限定レッドカップ無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Starbucks",
-    "item": "レッドカップ無料",
-    "when": "11/17",
-    "cond": "ホリデービバレッジ購入",
-    "what": "無料カップ",
+    "item": "Starbucks でホリデードリンク購入で限定レッドカップ無料",
+    "when": "11/17(火)",
+    "cond": "ホリデードリンク購入",
+    "what": "無料レッドカップ",
     "where": "Starbucks"
    },
    "date": "2026-11-17"
@@ -53814,6 +53819,124 @@
    "date": "2026-11-07",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "a1c5f713e3ad",
+   "title": "Model-Making Workshop at The George H.W. Bush Presidential Library & Museum",
+   "link": "https://www.destinationbryan.com/events/model-making-workshop-at-the-george-h-w-bush-presidential-library-museum/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-02T23:32Z",
+   "firstSeen": "2026-11-02T23:32Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "George H.W. Bush Presidential…",
+    "item": "ブッシュ大統領図書館の模型づくりワークショップ",
+    "when": "11/7(土)",
+    "cond": "工作",
+    "what": "模型づくり",
+    "where": "ブッシュ大統領図書館"
+   },
+   "ja": "ブッシュ大統領図書館の模型づくりワークショップ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07"
+  },
+  {
+   "id": "c1ebd341410f",
+   "title": "Cards, Comics, & Collectibles Expo at The Brazos Center",
+   "link": "https://www.destinationbryan.com/events/tradingcardsmarketplace-com-cards-comics-collectibles-expo/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-02T23:32Z",
+   "firstSeen": "2026-11-02T23:32Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Brazos County Expo Complex",
+    "item": "トレカ・コミック・コレクターズ展示即売会",
+    "when": "11/7(土)",
+    "what": "カード・コミック展",
+    "where": "Brazos Center"
+   },
+   "ja": "トレカ・コミック・コレクターズ展示即売会",
+   "jaVia": "claude-ev",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "42c7a8dfa037",
+   "title": "First Saturday Art Market at Degallery",
+   "link": "https://www.destinationbryan.com/events/first-saturday-art-market-at-degallery-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-02T23:32Z",
+   "firstSeen": "2026-11-02T23:32Z",
+   "expires": "2026-11-07",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Degallery",
+    "item": "Degallery の第1土曜アートマーケット",
+    "when": "11/7(土)",
+    "cond": "毎月第1土曜",
+    "what": "アートマーケット",
+    "where": "Degallery"
+   },
+   "ja": "Degallery の第1土曜アートマーケット",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07"
   }
  ]
 }
