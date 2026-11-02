@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-02T12:04Z",
- "count": 1441,
+ "updated": "2026-11-02T13:24Z",
+ "count": 1451,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 7
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 11
+   "added": 10
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 0,
+   "read": 25,
    "added": 0
   },
   "mnn": {
@@ -55,17 +55,427 @@
    "added": 0
   },
   "ja": {
-   "gemini": 18,
+   "gemini": 17,
    "geminiEvent": 0,
-   "mymemory": 14,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest"
+   "mymemory": 21,
+   "geminiToday": 10,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
- "errors": [
-  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "55f46d71a06a",
+   "title": "Michaels: Up to 60% off Artificial Christmas Trees + Free Shipping!",
+   "link": "https://moneysavingmom.com/michaels-50-off-artificial-christmas-trees/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T13:24Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-01-at-9.30.12-AM.png",
+   "hot": false,
+   "stores": [
+    "Michaels"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "マイケルズ：人工クリスマスツリーが最大60%オフ+送料無料！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Michaels",
+    "item": "マイケルズ：人工クリスマスツリーが最大60%オフ+送料無料！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0ae1f9c76e2c",
+   "title": "Bissell Little Green Portable Deep Carpet Cleaner Only $74.xx on Walmart (Reg $102)",
+   "link": "https://thefreebieguy.com/bissell-little-green-portable-carpet-cleaner/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T13:17Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/BISSELL-Little-Green-Portable-Deep-Cleaner-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 27,
+   "price": 74.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bissell Little Greenポータブルディープカーペットクリーナーウォルマートで$ 74.xxのみ（登録価格$ 102 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Bissell Little Greenポータブルディープカーペットクリーナーウォルマートで$ 74.xxのみ（登録価格$ 102 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "66c1b1ebc076",
+   "title": "Doritos Tortilla Chips, Nacho Cheese (10 Pack) only $3.46 shipped!",
+   "link": "https://moneysavingmom.com/doritos-tortilla-chips-nacho-cheese-10-pack-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T13:14Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Doritos-Tortilla-Chips-Nacho-Cheese-1oz-Bags-10-Pack-630x625.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ドリトス・トルティーヤチップス、ナチョチーズ（ 10パック） $ 3.46で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ドリトス・トルティーヤチップス、ナチョチーズ（ 10パック） $ 3.46で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "55bb37e452cb",
+   "title": "Men’s Thermal Compression Pants Only $8.44 Shipped for Amazon Prime Members",
+   "link": "https://hip2save.com/deals/compression-pants/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T13:11Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/Amazon-Mens-Compression-Pants.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "メンズサーマルコンプレッションパンツ$ 8.44のみAmazonプライム会員向け発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "メンズサーマルコンプレッションパンツ$ 8.44のみAmazonプライム会員向け発送",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "266a73c01323",
+   "title": "Sok It Cup Sleeve from $3.25 on Amazon (Reg $13)",
+   "link": "https://thefreebieguy.com/sok-it-cup-sleeve/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T13:00Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Sok-It-HotSok-Cup-Sleeve-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 75,
+   "price": 3.25,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonで$ 3.25からのSok Itカップスリーブ（登録番号$ 13 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonで$ 3.25からのSok Itカップスリーブ（登録番号$ 13 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "095eeaf67c11",
+   "title": "Lowe’s Rewards Members: Score the NEW MrBeast Advent Calendar Before It Sells Out!",
+   "link": "https://hip2save.com/deals/lowes-advent-calendars/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T12:59Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Lowes-x-MrBeast-Advent-Calendar.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ロウズ報酬メンバー：新登場のMrBeastアドベントカレンダーが売り切れる前にポイントを稼ぎましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "ロウズ報酬メンバー：新登場のMrBeastアドベントカレンダーが売り切れる前にポイントを稼ぎましょう！",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "4176b33dd391",
+   "title": "King Size Comforter Set Embroidery Floral 7 Pieces Bed in a Bag Only $24.xx on Amazon (Reg $60)",
+   "link": "https://thefreebieguy.com/maireve-king-size-comforter-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T12:31Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/MaiReve-King-Size-Comforter-Set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 24.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キングサイズ掛け布団セット刺繍花柄7ピースバッグ入りベッドのみ$ 24.xx Amazon (Reg $ 60)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "キングサイズ掛け布団セット刺繍花柄7ピースバッグ入りベッドのみ$ 24.xx Amazon (Reg $ 60)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "eee1a008983b",
+   "title": "*HOT* Cordless Vacuum Cleaner only $44.99 shipped!",
+   "link": "https://moneysavingmom.com/hot-cordless-vacuum-cleaner-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T12:24Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Vacuum-630x627.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT *コードレス掃除機はわずか$ 44.99で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "* HOT *コードレス掃除機はわずか$ 44.99で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3ff0bc0e8b4e",
+   "title": "*HOT* Buy One, Get One Free Beauty Minis at ULTA!",
+   "link": "https://moneysavingmom.com/hot-buy-one-get-one-free-beauty-minis-at-ulta/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T12:19Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/02/ULTA-minis-630x725.jpg",
+   "hot": true,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "** HOT * ULTAで1台購入すると、美容ミニが1台無料で手に入ります！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "** HOT * ULTAで1台購入すると、美容ミニが1台無料で手に入ります！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0a952644e4d0",
+   "title": "Grandma’s Cookies 30-Count Variety Pack Only $9.xx on Amazon (Reg. $28)",
+   "link": "https://thefreebieguy.com/grandmas-cookies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T12:19Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Grandmas-Cookies-30-Pack-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "おばあちゃんのクッキー30カウントバラエティパックAmazonで$ 9.xxのみ（登録価格$ 28 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "おばあちゃんのクッキー30カウントバラエティパックAmazonで$ 9.xxのみ（登録価格$ 28 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "b88473bb10be",
+   "date": null
+  },
+  {
+   "id": "f962530fc32a",
+   "title": "Protein Lovers! LMNT, Barebells, & Just Ingredients Are 25% OFF at Target TODAY ONLY",
+   "link": "https://hip2save.com/deals/target-daily-deals/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T12:17Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": "2026-11-02",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Target-Nutrition-Items.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 25,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "タンパク質愛好家！ LMNT、Barebells、Just Ingredientsが本日限りTargetで25 ％オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "タンパク質愛好家！ LMNT、Barebells、Just Ingredientsが本日限りTargetで25 ％オフ",
+    "when": "11/2(月)まで",
+    "cond": ""
+   },
+   "date": "2026-11-02"
+  },
+  {
+   "id": "4f47ef257ef1",
+   "title": "Sam’s Club Plus Members Now Get A FREE Walmart+ Membership {Link Your Accounts for a REFUND!}",
+   "link": "https://moneysavingmom.com/sams-club-plus-members-now-get-a-free-walmart-membership-link-your-accounts-for-a-refund/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T12:16Z",
+   "firstSeen": "2026-11-02T13:24Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Sams-club-630x337.jpg",
+   "hot": true,
+   "stores": [
+    "Walmart",
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "サムズクラブプラスメンバーは、ウォルマートとメンバーシップを無料で利用できるようになりました。{アカウントをリンクして払い戻しを受けましょう！}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Sam's Club",
+    "item": "サムズクラブプラスメンバーは、ウォルマートとメンバーシップを無料で利用できるようになりました。{アカウントをリンクして払い戻しを受けましょう！}",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "dup": "750c7793a2df",
+   "date": null
+  },
   {
    "id": "eff0f69010d9",
    "title": "FREE Kindle Book with Amazon First Reads {Prime Member Exclusive!}",
@@ -7252,44 +7662,6 @@
     "where": "Atom Tickets"
    },
    "date": null
-  },
-  {
-   "id": "ac09530d20f9",
-   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
-   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-30T20:46Z",
-   "firstSeen": "2026-11-02T12:04Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-10-31",
-    "roundup": true
-   },
-   "sum": {
-    "item": "ハロウィン関連の無料・割引特典",
-    "when": "10/31",
-    "what": "ハロウィン特典",
-    "where": "オンライン"
-   },
-   "ja": "ハロウィン関連の無料・割引特典",
-   "jaVia": "gemini",
-   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
@@ -36932,41 +37304,6 @@
    },
    "date": null,
    "dup": "3d4305358eaf"
-  },
-  {
-   "id": "eaa0ec7c5685",
-   "title": "Lysol Toilet Bowl Cleaner Gel 2-Pack Only $3.xx on Amazon (Reg. $6)",
-   "link": "https://thefreebieguy.com/lysol-toilet-bowl-cleaner-gel-2pk/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-25T12:32Z",
-   "firstSeen": "2026-10-25T12:53Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/09/Lysol-Toilet-Bowl-Cleaner-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 50,
-   "price": 3.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Lysolトイレボウルクリーナージェル2パックのみ$ 3.xx Amazon （登録価格$ 6 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Lysolトイレボウルクリーナージェル2パックのみ$ 3.xx Amazon （登録価格$ 6 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "dup": "1f0f637b8b45"
   },
   {
    "id": "e9f1f2b72949",
