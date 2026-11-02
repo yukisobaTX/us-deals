@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-02T06:19Z",
- "count": 1434,
+ "updated": "2026-11-02T08:31Z",
+ "count": 1435,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -16,11 +16,11 @@
   },
   "ffp": {
    "read": 20,
-   "added": 4
+   "added": 5
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 6
   },
   "tfg": {
    "read": 40,
@@ -55,12 +55,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 24,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "geminiToday": 4,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -196,13 +195,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Walgreens ：プロモーションコードXLFREE付き無料8 × 10フォトプリント",
-   "jaVia": "mymemory",
+   "ja": "8x10写真プリント無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walgreens",
-    "item": "Walgreens ：プロモーションコードXLFREE付き無料8 × 10フォトプリント",
+    "item": "8x10写真プリント無料",
     "when": "",
-    "cond": "コード入力"
+    "cond": "プロモコード利用",
+    "what": "無料写真",
+    "where": "Walgreens"
    },
    "date": null
   },
@@ -2252,13 +2253,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "無料の$ 20ターゲットギフトカードと$ 80のおむつ＆ワイプ購入| $ 80の価値のみ$ 60発送！",
-   "jaVia": "mymemory",
+   "ja": "$20ギフトカード",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "無料の$ 20ターゲットギフトカードと$ 80のおむつ＆ワイプ購入| $ 80の価値のみ$ 60発送！",
+    "item": "$20ギフトカード",
     "when": "",
-    "cond": ""
+    "cond": "$80以上購入",
+    "what": "$20ギフト",
+    "where": "Target"
    },
    "date": null
   },
@@ -2529,13 +2532,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon食料品乾燥ピントビーンズ76 ¢のみ発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon食料品乾燥ピントビーンズ76 ¢のみ発送",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3bec75d738e7",
@@ -2731,13 +2736,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ぬいぐるみバスタブ枕アマゾンでたったの$ 16.79 （登録価格$ 28 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ぬいぐるみバスタブ枕アマゾンでたったの$ 16.79 （登録価格$ 28 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "39901ef15da1",
@@ -2763,13 +2770,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSでクリスマスキャンディー$ 1で1個購入|ストッキング＆ギフトバスケットの買い置き",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSでクリスマスキャンディー$ 1で1個購入|ストッキング＆ギフトバスケットの買い置き",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "57c0f61e69ed",
@@ -2795,13 +2804,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Bluetoothサーマルプリンターわずか$ 23.99 Amazonで出荷",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Bluetoothサーマルプリンターわずか$ 23.99 Amazonで出荷",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "eab1929ffcb5",
@@ -2827,13 +2838,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ULTA Beautyで最大$ 20オフ–名声とフレグランスが含まれています！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Ulta",
-    "item": "",
+    "item": "ULTA Beautyで最大$ 20オフ–名声とフレグランスが含まれています！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f103e65984b3",
@@ -2859,13 +2872,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "新しいホリデー・ハイドロジャグがターゲットにたどり着きました！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "新しいホリデー・ハイドロジャグがターゲットにたどり着きました！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5319942bc3d2",
@@ -2925,13 +2940,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lowe's 2026クリスマスオーナメント9.98 $で特典会員様にお届け",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Lowe's 2026クリスマスオーナメント9.98 $で特典会員様にお届け",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "8aecb32a507e",
@@ -2957,13 +2974,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "プライムメンバー–今月の無料Kindleブックとボーナスのショートリードを獲得しましょう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "プライムメンバー–今月の無料Kindleブックとボーナスのショートリードを獲得しましょう！",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "3c5a3689735a",
@@ -2989,13 +3008,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットがかわいいブルズアイバッグのチャームを落としました（売り切れそう！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットがかわいいブルズアイバッグのチャームを落としました（売り切れそう！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b6658526bbf9",
@@ -3021,13 +3042,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Frito - Layチップ40パックわずか$ 15.72 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Frito - Layチップ40パックわずか$ 15.72 Amazonで発送",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ad1819b91b52",
@@ -3053,13 +3076,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ゴールドボンドハンドクリームのみ$ 1.xxウォルマートキャッシュ（登録$ 5 ）後！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ゴールドボンドハンドクリームのみ$ 1.xxウォルマートキャッシュ（登録$ 5 ）後！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e4874954ee3c",
@@ -3089,13 +3114,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "今週のベストターゲット販売|ベビーケア購入で20 $の無料ギフトカード",
-   "jaVia": "mymemory",
+   "ja": "$20ギフトカード",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "今週のベストターゲット販売|ベビーケア購入で20 $の無料ギフトカード",
+    "item": "$20ギフトカード",
     "when": "",
-    "cond": ""
+    "cond": "ベビー用品購入",
+    "what": "$20ギフト",
+    "where": "Target"
    },
    "date": null
   },
@@ -3124,13 +3151,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Purinaの無料SuperPetスマートIDタグ",
-   "jaVia": "mymemory",
+   "ja": "スマートIDタグ無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Purinaの無料SuperPetスマートIDタグ",
+    "store": "Purina",
+    "item": "スマートIDタグ無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料タグ",
+    "where": "Purina"
    },
    "date": null
   },
@@ -3260,13 +3289,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットで12パックソーダ3杯$ 16 – Dr Pepper、A&W、Canada Dryなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットで12パックソーダ3杯$ 16 – Dr Pepper、A&W、Canada Dryなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "300c4eb11d94",
@@ -3292,13 +3323,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウルタの25日間の美しさアドベントカレンダーたったの$ 130 （ $ 440相当！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Ulta",
-    "item": "",
+    "item": "ウルタの25日間の美しさアドベントカレンダーたったの$ 130 （ $ 440相当！ ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "a4addb28b107"
   },
   {
@@ -3325,13 +3358,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Huggiesシンプルクリーニング704 ctワイプAmazonで$ 11.xxのみ（登録価格$ 18 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Huggiesシンプルクリーニング704 ctワイプAmazonで$ 11.xxのみ（登録価格$ 18 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f6e4230412e3",
@@ -3357,13 +3392,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットサークル360メンバー：今すぐ毎月の無料プレゼントを受け取ろう（最大$ 18相当！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットサークル360メンバー：今すぐ毎月の無料プレゼントを受け取ろう（最大$ 18相当！ ）",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "95dca7b994b5",
@@ -3492,13 +3529,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*レア* Ninja Crispi Pro 6 - in -1カウンタートップガラス製エアフライヤーのみ$ 219.98発送（登録価格$ 300 ） ！ {拡張}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*レア* Ninja Crispi Pro 6 - in -1カウンタートップガラス製エアフライヤーのみ$ 219.98発送（登録価格$ 300 ） ！ {拡張}",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2c3c51a4c89c",
@@ -3634,13 +3673,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "無料の8 × 10 Walgreensフォトプリント（店内ピックアップ無料！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "無料の8 × 10 Walgreensフォトプリント（店内ピックアップ無料！ ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "24fbd62f70f5"
   },
   {
@@ -6138,13 +6179,15 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "11月7日にTargetの無料ホリデーおもちゃイベントが開催されます（ベアキーチェーン+おもちゃのデモ！ ）",
-   "jaVia": "mymemory",
+   "ja": "クマのキーホルダー等",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "11月7日にTargetの無料ホリデーおもちゃイベントが開催されます（ベアキーチェーン+おもちゃのデモ！ ）",
-    "when": "11/7(土)",
-    "cond": ""
+    "item": "クマのキーホルダー等",
+    "when": "11/7",
+    "cond": "",
+    "what": "無料おもちゃ",
+    "where": "Target"
    },
    "date": "2026-11-07"
   },
@@ -7003,6 +7046,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-02T08:31Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "sum": {
+    "item": "ハロウィン特典各種",
+    "when": "10/31",
+    "what": "無料特典",
+    "where": "全米"
+   },
+   "ja": "ハロウィン特典各種",
+   "jaVia": "gemini",
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
