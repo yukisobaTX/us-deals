@@ -5,7 +5,7 @@
 ## 送信は前日 18 時・「今日」欄なし(2026-10-31 本人指定)
 - 翌日の予定を立てやすいように、朝 7:15 の送信をやめ、**前日 17:53 CT 起動(18 時前後着)**で「明日の予定」として送る(digest.yml「Evening digest」、cron 22:53/23:53 UTC、スクリプトは CT 17〜18 時台だけ送る)。
 - **「今日」の欄はなし**。daily_digest.target_day() = 実行日の翌日を基準日にし、🎁明日 / 👨‍👩‍👧家族(明日から1週間)/ 📍地元 / 📅今後(明後日〜2週間)/ 🧸コラボ予定をすべて基準日から数える。件名は「お得ノート M/D(曜)の予定:明日N/家族N/地元N/今後N/コラボN」。
-- Claude の要約(scheduled task「お得ノート 朝の要約」の名前のまま)は **17:31 CT** に実行し、送信前に要約を入れる。ポータルのプッシュも同時刻に「明日の無料」。
+- Claude の夕方のタスク(scheduled task「お得ノート 夕方の要約・コラボ確認(翌日分)」trig_01NUWo6n92nDHWtur93gdWfg、Haiku)は **毎日 17:31 CT** に実行し、送信前に (C) 日曜だけコラボ予定の更新 → (A) お出かけイベントの取り込み → (B) 要約 を行う(2026-11-01 本人指定:コラボの週次チェックと1つにまとめた)。ポータルのプッシュも同時刻に「明日の無料」。
 - 以下の「毎朝」「朝のメール」「今日・明日」の記述は、この変更前の名残(仕組みは同じで、基準日だけ1日先)。
 
 ## 仕組み(すべて GitHub Actions・AI なし)
@@ -98,7 +98,7 @@
 - 店名・値引きの語がなくてもコラボなら載せる(classify が None のとき既定の分類を付ける)。
 - 情報源:既存の RSS に加え、collabOnly(コラボの見出しだけ拾う)の Sporked(robots.txt で /feed/atom/ だけ許可 → Atom)・The Impulsive Buy・My Nintendo News(usOnly=米国の店名か US/America の語がある見出しだけ。日本だけのコラボが多いため)。試して外したもの:PokeBeach(Actions から HTTP 500)、Essential Japan(RSS が出ない)。parse_rss は Atom にも、parse_date は ISO 形式にも対応。
 - **コラボ予定 public/data/collabs.json**(RSS の記事は21日で消えるので、予定は別に持つ):
-  - 手入力の予定(store・chars・title・what・start・end・status=公式/報道(未公式)/開催中・note・sources)。**毎週日曜 18:23 CT に Claude の定期実行(scheduled task「お得ノート ポケモン・サンリオ コラボ週次チェック」trig_01Xy7SyDPKdZ43voDfBaew5o)が検索して更新**(本人指定 10/27)。チャットで頼まれたときも Claude が調べて入れる(ダブルチェック:2つ以上の報道、日付が食い違えば新しい方+note に旧日程)。
+  - 手入力の予定(store・chars・title・what・start・end・status=公式/報道(未公式)/開催中・note・sources)。**毎週日曜 17:31 CT の Claude の夕方の要約(scheduled task「お得ノート 夕方の要約・コラボ確認(翌日分)」trig_01NUWo6n92nDHWtur93gdWfg)の (C) で検索して更新**(2026-11-01 本人指定で1つのタスクに統合。旧「コラボ週次チェック」trig_01Xy7SyDPKdZ43voDfBaew5o は停止)。チャットで頼まれたときも Claude が調べて入れる(ダブルチェック:2つ以上の報道、日付が食い違えば新しい方+note に旧日程)。
   - 自動:update_collab_calendar() が、飲食店のコラボ記事で見出しに開始日があれば auto: true で追加。手入力の予定と同じ店・キャラで開始日±21日なら、日付は変えず sources に出典だけ足す。終了日+3日(自動は開始日+14日)を過ぎたら消える。
   - 2026-10-27 時点:McDonald's ポケモン30周年ハッピーセット 11/10〜12/14(未公式。10/27 PokeBeach が店舗で確認。9月の報道は 11/5〜12/9)、Burger King ハローキティ&フレンズのキッズミール(10/22 開始確認、リークでは 11/30 まで)。
 - 朝のメール:「🧸 ポケモン・サンリオ コラボ」欄(今後・大型セールの後、HS の前)。
