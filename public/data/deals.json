@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01T23:45Z",
- "count": 1441,
+ "updated": "2026-11-02T00:17Z",
+ "count": 1444,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 5
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -64,6 +64,75 @@
  },
  "errors": [],
  "items": [
+  {
+   "id": "b7395a77b6f5",
+   "title": "Nespresso Vertuo Pop Coffee and Espresso Maker Only $84.xx at Walmart (Reg. $119) +$10 Coffee Voucher",
+   "link": "https://thefreebieguy.com/nespresso-vertuo-pop-coffee-and-espresso-maker/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-02T00:09Z",
+   "firstSeen": "2026-11-02T00:17Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Nespresso-Vertuo-Pop-Coffee-and-Espresso-Maker--840x630.jpg",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 92,
+   "price": 10.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ネスプレッソヴェルトゥオポップコーヒーとエスプレッソメーカーウォルマートで$ 84.xxのみ（登録価格$ 119 ）+ $ 10コーヒーバウチャー",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ネスプレッソヴェルトゥオポップコーヒーとエスプレッソメーカーウォルマートで$ 84.xxのみ（登録価格$ 119 ）+ $ 10コーヒーバウチャー",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "12a543f2acdc",
+   "title": "Night Lights 2-Pack Only $9.xx on Amazon (Reg. $26)",
+   "link": "https://thefreebieguy.com/l-lohas-led-night-lights-2-pack/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-01T23:46Z",
+   "firstSeen": "2026-11-02T00:17Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/L-LOHAS-LED-Night-Lights-2-pack-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ナイトライト2パックのみ$ 9.xx （ Amazon ） （登録価格$ 26 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ナイトライト2パックのみ$ 9.xx （ Amazon ） （登録価格$ 26 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "0b546dbc7cb8",
+   "date": null
+  },
   {
    "id": "ba5a70b67e6a",
    "title": "Walgreens: Free 8×10 Photo Print With Promo Code XLFREE",
@@ -1222,13 +1291,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "FJAU食品用暖房マットAmazonで$ 14.xxのみ（登録価格$ 36 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "FJAU食品用暖房マットAmazonで$ 14.xxのみ（登録価格$ 36 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "9815e630bd6e"
   },
   {
@@ -1255,13 +1326,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Chips Ahoy!オリジナルチョコレートチップクッキーAmazonで$ 2.xxのみ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Chips Ahoy!オリジナルチョコレートチップクッキーAmazonで$ 2.xxのみ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "153e3f919616",
@@ -1287,13 +1360,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Project CloudレディースプラットフォームスニーカーAmazonで$ 39のみ（登録価格$ 80 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Project CloudレディースプラットフォームスニーカーAmazonで$ 39のみ（登録価格$ 80 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "5593e0ef1183"
   },
   {
@@ -6961,6 +7036,44 @@
     "where": "Atom Tickets"
    },
    "date": null
+  },
+  {
+   "id": "ac09530d20f9",
+   "title": "October 31st: Best Freebies, Discounts, and Deals for 2026",
+   "link": "https://moneysavingmom.com/october-31st-best-freebies-discounts-and-deals-for-2026/",
+   "source": "Money Saving Mom",
+   "posted": "2026-10-30T20:46Z",
+   "firstSeen": "2026-11-02T00:17Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/pexels-shannon-deans-193601102-11436366-630x420.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-10-31",
+    "roundup": true
+   },
+   "ja": "10月31日： 2026年最高の景品、割引、お得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "10月31日： 2026年最高の景品、割引、お得な情報",
+    "when": "10/31(土)",
+    "cond": ""
+   },
+   "date": "2026-10-31"
   },
   {
    "id": "4fbc13288ea8",
