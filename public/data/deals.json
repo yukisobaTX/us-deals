@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-03T17:09Z",
- "count": 1622,
+ "updated": "2026-11-03T17:59Z",
+ "count": 1633,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 7
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 5
   },
   "tfg": {
    "read": 40,
-   "added": 9
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,433 @@
    "added": 0
   },
   "ja": {
-   "gemini": 16,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 16,
-   "geminiToday": 10,
-   "model": "gemini-flash-latest"
+   "mymemory": 25,
+   "geminiToday": 11,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "6e547d03bc3e",
+   "title": "Cat-Shaped Hand Towels Only $9.99 on Amazon (Hilarious Gift Idea!)",
+   "link": "https://hip2save.com/deals/cat-hand-towel/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T17:55Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/04/Cat-Shaped-Hand-Towel-on-a-stove-handle-being-touched-by-a-person.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンでたったの$ 9.99の猫型ハンドタオル（おもしろいギフトのアイデア！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンでたったの$ 9.99の猫型ハンドタオル（おもしろいギフトのアイデア！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "395d365191b3",
+   "title": "Free 2026 Feastivities Holiday Ornament from Purina!",
+   "link": "https://thefreebieguy.com/purina-freebie/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T17:49Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/2026-Purina-Ornament-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "プリーナから無料の2026年の祝祭ホリデーオーナメント！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "プリーナから無料の2026年の祝祭ホリデーオーナメント！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b5a3e0707e15",
+   "title": "NEW Hello Kitty & Friends Crocs Scuff Slippers Are IN STOCK at Famous Footwear!",
+   "link": "https://thefreebieguy.com/famous-footwear-hello-kitty-crocs/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T17:48Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/hello-kitty-crocs-slippers-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "collab": {
+    "chars": [
+     "サンリオ"
+    ],
+    "kind": "goods"
+   },
+   "freebie": null,
+   "ja": "新登場のHello Kitty & Friends Crocsスカッフスリッパが、Famous Footwearで入荷しました！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Famous Footwear",
+    "item": "新登場のHello Kitty & Friends Crocsスカッフスリッパが、Famous Footwearで入荷しました！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b0766638e2bc",
+   "title": "CRAFTSMAN Zippered Tool Bag Combo Only $14.99 on Amazon (Reg. $30)",
+   "link": "https://hip2save.com/deals/craftsman-tool-bag/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T17:45Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2021/11/craftsman-toolbag-combo-pack.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 14.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CRAFTSMANジッパー付きツールバッグコンボのみ$ 14.99 Amazon （登録価格$ 30 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "CRAFTSMANジッパー付きツールバッグコンボのみ$ 14.99 Amazon （登録価格$ 30 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3c7cc33c3d5c",
+   "title": "Apple AirPods 4 Only $89 Shipped on Walmart.com (Reg. $130)",
+   "link": "https://hip2save.com/deals/apple-airpods-4/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T17:40Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Apple-AirPods-4.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 32,
+   "price": 89.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Apple AirPods 4 $ 89のみWalmart.comで出荷（登録価格$ 130 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Apple AirPods 4 $ 89のみWalmart.comで出荷（登録価格$ 130 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "d0c5eb81f36d",
+   "date": null
+  },
+  {
+   "id": "ab1629ad6e85",
+   "title": "Brigette’s $3.34 CVS Shopping Trip ($14.66 Money Maker after Rewards) and $24.21 Walgreens Shopping Trip ($9.89 Money Maker after Rewards)!",
+   "link": "https://moneysavingmom.com/brigettes-3-34-cvs-shopping-trip-14-66-money-maker-after-rewards-and-24-21-walgreens-shopping-trip-9-89-money-maker-after-rewards/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T17:32Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/CVS-630x473.jpg",
+   "hot": false,
+   "stores": [
+    "CVS",
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Brigetteさんの$ 3.34 CVSショッピング旅行（報酬後は$ 14.66 Money Maker ）と$ 24.21 Walgreensショッピング旅行（報酬後は$ 9.89 Money Maker ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "CVS・Walgreens",
+    "item": "Brigetteさんの$ 3.34 CVSショッピング旅行（報酬後は$ 14.66 Money Maker ）と$ 24.21 Walgreensショッピング旅行（報酬後は$ 9.89 Money Maker ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f8dcb580de07",
+   "title": "JusArt Double Line Outline Markers (12 Pack) as low as $3.99 shipped, plus more!",
+   "link": "https://moneysavingmom.com/jusart-double-line-outline-markers-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T17:29Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/8101D9MyuoL._AC_SL1500_-630x618.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "JusArtダブルラインアウトラインマーカー（ 12パック）は$ 3.99で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "JusArtダブルラインアウトラインマーカー（ 12パック）は$ 3.99で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "99f02470e477",
+   "title": "NEW Harry Potter Collection at JCPenney (+ FREE Hogwarts Express Snow Globe on Black Friday!)",
+   "link": "https://hip2save.com/deals/jcpenney-harry-potter/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T17:28Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/jcpenney-harry-potter.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "JCPenneyの新しいハリーポッターコレクション（ブラックフライデーに無料のホグワーツ・エクスプレス・スノードーム！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "JCPenney",
+    "item": "JCPenneyの新しいハリーポッターコレクション（ブラックフライデーに無料のホグワーツ・エクスプレス・スノードーム！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "7cfd4cce2307",
+   "date": null
+  },
+  {
+   "id": "5f9c66b0248c",
+   "title": "Chef Boyardee 4-Pack Only $4.46 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/amazon-chef-boyardee/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T17:23Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Chef-Boyardee-Beef-Ravioli.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "シェフBoyardee 4パックのみ$ 4.46 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "シェフBoyardee 4パックのみ$ 4.46 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ca0bd98cdf7a",
+   "title": "Melissa & Doug Slice and Bake Wooden Christmas Cookie Play Food Set just $14.88!",
+   "link": "https://moneysavingmom.com/walmart-melissa-doug-slice-and-bake-wooden-christmas-cookie-play-food-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T17:19Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-11.14.36-AM-630x606.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Melissa & Doug Slice and Bake木製クリスマスクッキープレイフードセット$ 14.88 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Melissa & Doug Slice and Bake木製クリスマスクッキープレイフードセット$ 14.88 ！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "cf8660d19d03",
+   "date": null
+  },
+  {
+   "id": "17f61ff5ae1d",
+   "title": "Chefman CraftBrew Espresso Machine just $59.99 shipped (Reg. $100!)",
+   "link": "https://moneysavingmom.com/target-chefman-craftbrew-espresso-machine-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T17:13Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-11.00.08-AM-630x648.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 59.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Chefman CraftBrewエスプレッソマシン出荷わずか$ 59.99 （登録価格$ 100 ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Chefman CraftBrewエスプレッソマシン出荷わずか$ 59.99 （登録価格$ 100 ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "3db7dd299a89",
+   "date": null
+  },
+  {
+   "id": "99762af41ff8",
+   "title": "Hyper Tough Mini 2-Drawer Toolbox Just $20 on Walmart.com (Lots of Fun Colors!)",
+   "link": "https://hip2save.com/deals/walmart-hyper-tough-toolbox/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T17:10Z",
+   "firstSeen": "2026-11-03T17:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/hyper-tough-2-drawer-mini-toolbox.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "572bb1637235",
    "title": "Carote 12-Piece Knife Set From $15.xx at Walmart (Reg. $40)",
@@ -96,8 +514,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "fb9b907b0332",
-   "date": null
+   "date": null,
+   "dup": "fb9b907b0332"
   },
   {
    "id": "3b88ad09091f",
@@ -344,7 +762,7 @@
    "source": "Money Saving Mom",
    "posted": "2026-11-03T16:42Z",
    "firstSeen": "2026-11-03T17:09Z",
-   "expires": null,
+   "expires": "2026-11-30",
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2019/12/Hallmark-Free-Card-Friday-700x335.png",
    "hot": true,
    "stores": [],
@@ -380,7 +798,7 @@
    "source": "Money Saving Mom",
    "posted": "2026-11-03T16:40Z",
    "firstSeen": "2026-11-03T17:09Z",
-   "expires": null,
+   "expires": "2026-11-03",
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-10.34.37-AM-630x648.png",
    "hot": true,
    "stores": [
@@ -511,8 +929,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "39cb6906a06f",
-   "date": null
+   "date": null,
+   "dup": "39cb6906a06f"
   },
   {
    "id": "72ac4fde25b0",
@@ -26870,8 +27288,7 @@
     "what": "無料ポストカード",
     "where": "Photojoy"
    },
-   "date": null,
-   "dup": "10896ac451c3"
+   "date": null
   },
   {
    "id": "189032270753",
@@ -36891,43 +37308,6 @@
     "item": "ウォルマートパティオ家具セール| 50 $未満のセット！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "f33622589fbd",
-   "title": "*HOT* Factor Meal Discount: 50% off Your First Box + Free Greens!",
-   "link": "https://moneysavingmom.com/hot-factor-meal-discount-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-26T17:41Z",
-   "firstSeen": "2026-10-26T17:50Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/08/2.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "宅配食 初回50%オフ+野菜無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Factor",
-    "item": "宅配食 初回50%オフ+野菜無料",
-    "when": "",
-    "cond": "初回",
-    "what": "初回50%オフ",
-    "where": "Factor"
    },
    "date": null
   },
