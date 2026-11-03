@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T23:26Z",
- "count": 1688,
+ "updated": "2026-11-03T23:50Z",
+ "count": 1689,
  "stats": {
   "h2s": {
    "read": 100,
@@ -57,13 +57,88 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 17,
+   "mymemory": 15,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "012c7d1b0466",
+   "title": "Ocean Spray Craisins 48oz Bag Just $5 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/ocean-spray-craisins/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T23:35Z",
+   "firstSeen": "2026-11-03T23:50Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/craisins-ocean-spray.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Ocean Spray Craisins 48オンスバッグわずか$ 5 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Ocean Spray Craisins 48オンスバッグわずか$ 5 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4fe1a4d45d92",
+   "title": "First Friday",
+   "link": "https://events.bryantx.gov/default/Detail/2026-11-06-1700-First-Friday",
+   "source": "City of Bryan",
+   "posted": "2026-11-03T23:33Z",
+   "firstSeen": "2026-11-03T23:33Z",
+   "expires": "2026-11-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fairs & Festivals"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Historic Downtown Bryan",
+    "item": "ブライアン旧市街の月例の夜祭り(音楽・パフォーマンス・アート)",
+    "when": "11/6(金) 17時",
+    "what": "First Fri…",
+    "where": "Bryan旧市街"
+   },
+   "ja": "ブライアン旧市街の月例の夜祭り(音楽・パフォーマンス・アート)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-06",
+   "freebie": null
+  },
   {
    "id": "e2709dcc48a7",
    "title": "Emergen-C Immunity Support 30-Count Only $7.79 Shipped on Amazon",
@@ -37307,7 +37382,7 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-11-03",
+   "date": "2026-05-16",
    "freebie": null,
    "region": "College Station",
    "family": true
@@ -52373,7 +52448,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/diy-squishy-making-kit-amazon.png?resize=306,182"
   },
   {
    "id": "7fcb0a2b929c",
@@ -57862,46 +57938,6 @@
    "date": "2026-11-07",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "4fe1a4d45d92",
-   "title": "First Friday",
-   "link": "https://events.bryantx.gov/default/Detail/2026-11-06-1700-First-Friday",
-   "source": "City of Bryan",
-   "posted": "2026-11-03T23:33Z",
-   "firstSeen": "2026-11-03T23:33Z",
-   "expires": "2026-11-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fairs & Festivals"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Historic Downtown Bryan",
-    "item": "ブライアン旧市街の月例の夜祭り(音楽・パフォーマンス・アート)",
-    "when": "11/6(金) 17時",
-    "what": "First Fri…",
-    "where": "Bryan旧市街"
-   },
-   "ja": "ブライアン旧市街の月例の夜祭り(音楽・パフォーマンス・アート)",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-06"
   }
  ]
 }
