@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-03T20:59Z",
- "count": 1661,
+ "updated": "2026-11-03T21:57Z",
+ "count": 1674,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 8
   },
   "h2s-free": {
    "read": 100,
@@ -16,15 +16,15 @@
   },
   "ffp": {
    "read": 20,
-   "added": 4
+   "added": 6
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,459 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 14,
+   "mymemory": 24,
+   "geminiToday": 15,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0f893eb64f95",
+   "title": "Christmas Sweatshirts & Sweaters from $15.98 on Walmart.com",
+   "link": "https://hip2save.com/deals/walmart-christmas-sweatshirt/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T21:50Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/The-Grinch-Mens-Front-Back-Christmas-Crew-Fleece-Graphic-Sweatshirt.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comでクリスマスのスウェット＆セーターが$ 15.98から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comでクリスマスのスウェット＆セーターが$ 15.98から",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "546f71051baf",
+   "title": "Women’s Fuzzy Fleece Sherpa Jackets Only $25.xx on Amazon (Reg $68)",
+   "link": "https://thefreebieguy.com/btfbm-womens-jacket/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T21:44Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/womens-fuzzy-fleece-sherpa-jacket-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 63,
+   "price": 25.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レディースファジーフリースシェルパジャケット$ 25.xxのみAmazon （登録価格$ 68 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディースファジーフリースシェルパジャケット$ 25.xxのみAmazon （登録価格$ 68 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "45839a404bc5",
+   "title": "Taba Squishy Making Kit Only $25.xx on Amazon!",
+   "link": "https://thefreebieguy.com/dan-darci-taba-squishy-making-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T21:41Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Taba-Squishy-Making-Kit-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Taba Squishy Making Kit Amazonでたったの$ 25.xx ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Taba Squishy Making Kit Amazonでたったの$ 25.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "2edfb72b49dc",
+   "date": null
+  },
+  {
+   "id": "dd9932e2c55b",
+   "title": "New Christmas Brickcraft Sets from $4.97 on Walmart.com",
+   "link": "https://hip2save.com/deals/christmas-brickcraft/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T21:40Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/gingerbread-snowglobe-brickcraft.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart.comで$ 4.97からの新しいクリスマスブリッククラフトセット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart.comで$ 4.97からの新しいクリスマスブリッククラフトセット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "54c3b1f909cc",
+   "title": "My Little Golden Book About the ’80s Just $5.46 on Amazon",
+   "link": "https://hip2save.com/deals/my-little-golden-book-about-the-80s/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T21:35Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/The-80s-golden-book.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "80年代についての私の小さなゴールデンブックアマゾンでたったの$ 5.46",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "80年代についての私の小さなゴールデンブックアマゾンでたったの$ 5.46",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9b11781614c5",
+   "title": "Crayola Marker Airbrush Spray Art Kit JUST $11.xx on Amazon (Reg $22)",
+   "link": "https://thefreebieguy.com/crayola-marker-airbrush-spray-art-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T21:26Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/cayola-air-brush-toy-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CrayolaマーカーエアブラシスプレーアートキットAmazonでわずか$ 11.xx （登録価格$ 22 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "CrayolaマーカーエアブラシスプレーアートキットAmazonでわずか$ 11.xx （登録価格$ 22 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3d1d23eabdb5",
+   "title": "Yum! Hostess Snickerdoodle Twinkies Are Here!",
+   "link": "https://hip2save.com/deals/hostess-snickerdoodle-twinkies/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T21:25Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Hostess-Twinkies-Snickerdoodle-Flavored-Snack-Cakes-8-Count.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "おいしい！ホステスSnickerdoodle Twinkiesが登場！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "おいしい！ホステスSnickerdoodle Twinkiesが登場！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e8dd2acfc639",
+   "title": "Dutch Bros Coffee Deals | Play to Win Free Drinks + Score a Free Sticker on 11/4",
+   "link": "https://thefreebieguy.com/dutch-bros-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T21:25Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": "2026-11-04",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Dutch-Bros-Coffee-840x630.jpg",
+   "hot": true,
+   "stores": [
+    "Dutch Bros"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Dutch Bros",
+    "item": "",
+    "when": "11/4(水)まで",
+    "cond": ""
+   },
+   "date": "2026-11-04"
+  },
+  {
+   "id": "5a29e6444e3f",
+   "title": "Best Things to Buy on Black Friday (and What Not To)",
+   "link": "https://moneysavingmom.com/best-things-to-buy-on-black-friday-and-what-not-to/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T21:23Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Best-Things-to-Buy-Black-Friday-1.jpg",
+   "hot": false,
+   "stores": [
+    "Target",
+    "Amazon"
+   ],
+   "cats": [
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ブラックフライデーに買うべき最高のもの（そして買わないもの）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target・Amazon",
+    "item": "ブラックフライデーに買うべき最高のもの（そして買わないもの）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4829b10cf6d6",
+   "title": "Starbucks: Free Starbucks For A Year Promotion",
+   "link": "https://www.doctorofcredit.com/starbucks-free-starbucks-for-a-year-promotion/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-03T21:18Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/11/starbucks-free-starbucks-for-a-year-1024x515.png",
+   "hot": true,
+   "stores": [
+    "Starbucks"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "スターバックス： 1年間スターバックス無料プロモーション",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Starbucks",
+    "item": "スターバックス： 1年間スターバックス無料プロモーション",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "07e6b46ea81e",
+   "title": "Simple Mills Sweet Thins Honey Cinnamon Cookies only $3.51 shipped!",
+   "link": "https://moneysavingmom.com/simple-mills-sweet-thins-honey-cinnamon-cookies-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T21:17Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Simple-Mills-Sweet-Thins-Honey-Cinnamon-Cookies-630x811.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "eb23e96875ca",
+   "title": "FREE Sol de Janeiro Cheirosa 76 Hair & Body Mist with Purchase on Amazon!",
+   "link": "https://thefreebieguy.com/sol-de-janeiro-cheirosa-76-hair-body-mist/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T21:13Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/FREE-Sol-de-Janeiro-Cheirosa-76-Perfume--840x630.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "Amazonで購入すると、Sol de Janeiro Cheirosa 76ヘア＆ボディミストが無料！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonで購入すると、Sol de Janeiro Cheirosa 76ヘア＆ボディミストが無料！",
+    "when": "",
+    "cond": "購入時"
+   },
+   "date": null
+  },
+  {
+   "id": "ab610aae4332",
+   "title": "FIVE Ulta Beauty Minis Just $9 (Perfect Teen Stocking Stuffers!)",
+   "link": "https://hip2save.com/deals/ulta-beauty-sweet-and-shimmer/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T21:10Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/sweet-and-shimmer-body-glitter.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Ulta",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "c4d53d6d1967",
    "title": "Weighted Throw Blanket Only $37.xx on Amazon (Reg. $61)",
@@ -106,7 +551,7 @@
    "source": "Doctor of Credit",
    "posted": "2026-11-03T20:42Z",
    "firstSeen": "2026-11-03T20:59Z",
-   "expires": null,
+   "expires": "2026-11-03",
    "thumb": null,
    "hot": true,
    "stores": [
@@ -134,8 +579,8 @@
     "when": "11/3(火)",
     "cond": ""
    },
-   "dup": "2c9d8cab574e",
-   "date": "2026-11-03"
+   "date": "2026-11-03",
+   "dup": "2c9d8cab574e"
   },
   {
    "id": "a60ff86ad8be",
@@ -169,8 +614,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "77a772824770",
-   "date": null
+   "date": null,
+   "dup": "77a772824770"
   },
   {
    "id": "5a2bcf5a9830",
@@ -272,8 +717,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "45ee97fbedc3",
-   "date": null
+   "date": null,
+   "dup": "45ee97fbedc3"
   },
   {
    "id": "c1dcee3b3c61",
@@ -4204,6 +4649,38 @@
     "item": "ルナカイB 12ビタミン60 -カウントのみ$ 10 Amazonで発送（登録番号： $ 26 ）",
     "when": "",
     "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2bd9ae17d0ec",
+   "title": "BEST Amazon Fashion Promo Codes: Luxury Lookalikes from $4.99!",
+   "link": "https://hip2save.com/deals/amazon-fashion-promo-codes/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T01:40Z",
+   "firstSeen": "2026-11-03T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/cardigan.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "コード入力"
    },
    "date": null
   },
@@ -36836,40 +37313,6 @@
    "sum": {
     "store": "Target",
     "item": "新しい$ 5ターゲットクリスマスマグカップがちょうど落とされました。私たちはそれらすべてを望んでいます！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ba560b83458c",
-   "title": "SWCANDY Shower Steamers 8-Piece Set Just $2.xx on Amazon (Reg $10)",
-   "link": "https://thefreebieguy.com/swcandy-shower-steamers/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T21:41Z",
-   "firstSeen": "2026-10-26T21:46Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Swcandy-Steamers-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 80,
-   "price": 2.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "SWCANDYシャワースチーマー8ピースセットわずか$ 2.xx Amazon (Reg $ 10)",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "SWCANDYシャワースチーマー8ピースセットわずか$ 2.xx Amazon (Reg $ 10)",
     "when": "",
     "cond": ""
    },
