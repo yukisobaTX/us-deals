@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T19:08Z",
- "count": 1643,
+ "updated": "2026-11-03T20:02Z",
+ "count": 1656,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -58,13 +58,451 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 24,
-   "geminiToday": 12,
+   "geminiToday": 13,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "04cd9721baf3",
+   "title": "BOGO FREE Beauty Minis on Amazon – Includes Prestige Brands!",
+   "link": "https://thefreebieguy.com/bogo-amazon-beauty/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T19:54Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/amazon-bogo-minis-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonで無料の美容ミニを購入しよう–名声ブランドが含まれています！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonで無料の美容ミニを購入しよう–名声ブランドが含まれています！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8381e7081f77",
+   "title": "Foldable Storage Container 6-Pack Just $9.99 on Amazon (Reg. $33)",
+   "link": "https://hip2save.com/deals/foldable-storage-containers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T19:50Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/gray-storage-foldable-containers.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 9.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "折りたたみ式収納コンテナ6個パックAmazonでわずか$ 9.99 （登録価格$ 33 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "折りたたみ式収納コンテナ6個パックAmazonでわずか$ 9.99 （登録価格$ 33 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cd485ec6691c",
+   "title": "Taco Bell Deals | $3 Chalupa + Doritos Locos Tacos – Today Only!",
+   "link": "https://thefreebieguy.com/taco-bell-deals-coupons/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T19:50Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": "2026-11-03",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Taco-Bell-Three-Dollar-Chalupa-and-Doritos-Locos-Tacos-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "タコスベルのお買い得情報| $ 3 Chalupa + Doritos Locosタコス–本日限り！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Taco Bell",
+    "item": "タコスベルのお買い得情報| $ 3 Chalupa + Doritos Locosタコス–本日限り！",
+    "when": "11/3(火)まで",
+    "cond": ""
+   },
+   "date": "2026-11-03"
+  },
+  {
+   "id": "f90d6022e4c4",
+   "title": "Buy One, Get One Free Custom Photo Ornaments at Walgreens",
+   "link": "https://thefreebieguy.com/walgreens-photo-ornament/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T19:48Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Walgreens-Ornament-1024x538.png",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walgreensで1つ購入して、1つ無料のカスタムフォトオーナメントをゲットしよう",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walgreens",
+    "item": "Walgreensで1つ購入して、1つ無料のカスタムフォトオーナメントをゲットしよう",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "cb6f23cde30e",
+   "date": null
+  },
+  {
+   "id": "84ed1520753f",
+   "title": "O-Cedar RinseClean Microfiber Spin Mop & Bucket Set Only $39 at Walmart",
+   "link": "https://thefreebieguy.com/o-cedar-rinseclean-microfiber-spin-mop-bucket-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T19:46Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/o-cedar-pacs-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートのO - Cedar RinseCleanマイクロファイバースピンモップ＆バケツセットは$ 39のみ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートのO - Cedar RinseCleanマイクロファイバースピンモップ＆バケツセットは$ 39のみ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e3618f2d2d8d",
+   "title": "Sleep Number’s Black Friday Sale is LIVE | Save BIG on Their Most Popular Mattresses",
+   "link": "https://hip2save.com/deals/sleep-number/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T19:45Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Sleep-Number-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "Sleep Numberのブラックフライデーセールが開始|最も人気のあるマットレスをお得に購入",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Sleep Numberのブラックフライデーセールが開始|最も人気のあるマットレスをお得に購入",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b88406bf5b78",
+   "title": "Fisher-Price Little People Nativity Set Just $53.95 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/little-people-nativity-set/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T19:40Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/Fisher-Price-Little-People-Nativity-Playset.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "フィッシャープライスリトルピープルキリスト降誕セットたったの$ 53.95アマゾンで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "フィッシャープライスリトルピープルキリスト降誕セットたったの$ 53.95アマゾンで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7f6575669a54",
+   "title": "Popeyes Adds Cajun Onion Rings to Its Menu",
+   "link": "https://www.fastfoodpost.com/popeyes-adds-cajun-onion-rings-to-its-menu/",
+   "source": "Fast Food Post",
+   "posted": "2026-11-03T19:39Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Popeyes"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Popeyesがケイジャンオニオンリングをメニューに追加",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Popeyes",
+    "item": "Popeyesがケイジャンオニオンリングをメニューに追加",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c2d4e79c13cb",
+   "title": "BOGO Free Walgreens Wood Photo Ornaments + Free Pickup (Just $4.99 Each!)",
+   "link": "https://hip2save.com/deals/walgreens-wood-ornaments/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T19:35Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2019/03/wood-photo-ornaments.png?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0c25455e45e6",
+   "title": "Best Buy Pokemon Prismatic Evolutions Elite Trainer Box – Request Your FREE Invite to Buy!",
+   "link": "https://thefreebieguy.com/best-buy-pokemon-prismatic-evolutions-elite-trainer-box/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T19:27Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Pokemon-Trading-Card-Game-Scarlet-Violet-%E2%80%93-Prismatic-Evolutions-Elite-Trainer-Box-840x630.png",
+   "hot": true,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "Best Buy Pokemon Prismatic Evolutionsエリートトレーナーボックス–購入への無料招待をリクエストしてください！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Best Buy Pokemon Prismatic Evolutionsエリートトレーナーボックス–購入への無料招待をリクエストしてください！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "98bb5b61b7ff",
+   "title": "Bay Island Hot Cocoa Bear Gift Set Only $9.xx at Walmart!",
+   "link": "https://thefreebieguy.com/bay-island-hot-cocoa-bear-gift-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T19:23Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Bay-Island-Hot-Cocoa-Bear-Gift-Set-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5deb2364b6f8",
+   "title": "Light-Up Whale Sprinkler Bath Toy Just $7.99 on Amazon",
+   "link": "https://hip2save.com/deals/amazon-sprinkler-bath-toy/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T19:20Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/PARHILYAR-Whale-Sprinkler-Bath-Toy.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d8ed9fd57805",
+   "title": "Grace Karin Knit Cardigan Sweater as low as $8.99!",
+   "link": "https://moneysavingmom.com/grace-karin-knit-cardigan-sweater-cute/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T19:13Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Sweater-630x939.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "f452bec37ec8",
    "title": "Dawn Powerwash Dish Spray Refill Only $1.99 Shipped on Amazon (Reg. $4)",
@@ -97,8 +535,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "a3480ec13da5",
-   "date": null
+   "date": null,
+   "dup": "a3480ec13da5"
   },
   {
    "id": "06f60a207f3a",
@@ -133,6 +571,43 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "aa5f836c3854",
+   "title": "Free Holiday Events at IKEA on November 28th | Free Bag Charm, Cookie Decorating & More",
+   "link": "https://thefreebieguy.com/free-events-at-ikea/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T18:55Z",
+   "firstSeen": "2026-11-03T20:02Z",
+   "expires": "2026-11-28",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/IKEA-Event-840x630.png",
+   "hot": true,
+   "stores": [
+    "IKEA"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-28"
+   },
+   "ja": "11月28日にIKEAで開催される無料ホリデーイベント|無料バッグチャーム、クッキーデコレーションなど",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "IKEA",
+    "item": "11月28日にIKEAで開催される無料ホリデーイベント|無料バッグチャーム、クッキーデコレーションなど",
+    "when": "11/28(土)",
+    "cond": ""
+   },
+   "date": "2026-11-28"
   },
   {
    "id": "95027a865b98",
@@ -235,8 +710,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "9f2ffa5d5d1b",
-   "date": null
+   "date": null,
+   "dup": "9f2ffa5d5d1b"
   },
   {
    "id": "b9243b863213",
@@ -36577,46 +37052,6 @@
     "item": "誰が$ 30スターバックスのシッパーを必要としていますか？このコールズバージョンを$ 10未満で手に入れましょう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "4339e1536ff5",
-   "title": "Preorder the NEW Dog Man Book & Get a FREE $5 Target Gift Card",
-   "link": "https://hip2save.com/deals/dog-man-books/",
-   "source": "Hip2Save",
-   "posted": "2026-10-26T19:30Z",
-   "firstSeen": "2026-10-26T19:52Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/03/Dog-Man-A-Sprinkle-in-Time.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free",
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "Dog Man新刊の予約で$5ギフトカード",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Target",
-    "item": "Dog Man新刊の予約で$5ギフトカード",
-    "when": "",
-    "cond": "新刊の予約",
-    "what": "$5ギフト券",
-    "where": "Target"
    },
    "date": null
   },
