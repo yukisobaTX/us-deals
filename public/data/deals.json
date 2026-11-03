@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T07:27Z",
- "count": 1575,
+ "updated": "2026-11-03T09:04Z",
+ "count": 1577,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -55,16 +55,83 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 23,
    "geminiEvent": 0,
-   "mymemory": 21,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "mymemory": 8,
+   "geminiToday": 3,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "753f2cd90107",
+   "title": "Bella PRO SmartCrisp 8-qt. Touchscreen Air Fryer Only $54.xx Shipped (Reg. $130)",
+   "link": "https://thefreebieguy.com/bella-pro-smartcrisp-8-qt-touchscreen-air-fryer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T08:59Z",
+   "firstSeen": "2026-11-03T09:04Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/09/bella-PRO-SmartCrisp-8-qt.-Touchscreen-Air-Fryer-840x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 58,
+   "price": 54.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bella PRO SmartCrisp 8クォート タッチスクリーン式エアフライヤー 送料込み$54.xx（通常価格$130）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Bella PRO SmartCrisp 8クォート タッチスクリーン式エアフライヤー 送料込み$54.xx（通常価格$130）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5d1f91e396f9",
+   "title": "Lay’s Kettle Cooked Potato Chips 40Pk Only $11.xx on Amazon (Reg. $22)",
+   "link": "https://thefreebieguy.com/lays-chips-deal-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T08:51Z",
+   "firstSeen": "2026-11-03T09:04Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Lays-Kettle-Cooked-Potato-Chips-Variety-Pack-0.85-Ounce-Pack-of-40-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レイズ ケトルクックドポテトチップス 40個入りがAmazonでわずか11.xxドル（通常価格22ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レイズ ケトルクックドポテトチップス 40個入りがAmazonでわずか11.xxドル（通常価格22ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "320b77db5009",
    "title": "Lunakai B12 Vitamins 60-Count Only $10 Shipped on Amazon (Reg. $26)",
@@ -452,13 +519,15 @@
     "kind": "store",
     "when": "2026-11-27"
    },
-   "ja": "11月27日に無料のミニJCPenney Hogwartsエクスプレススノードーム！",
-   "jaVia": "mymemory",
+   "ja": "ミニスノードームが無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "11月27日に無料のミニJCPenney Hogwartsエクスプレススノードーム！",
-    "when": "11/27(金)",
-    "cond": ""
+    "store": "JCPenney",
+    "item": "ミニスノードームが無料",
+    "when": "11/27",
+    "cond": "",
+    "what": "スノードーム",
+    "where": "JCPenney"
    },
    "date": "2026-11-27"
   },
@@ -629,13 +698,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "本当に無料の食器洗い機ポッドのみ$ 5発送（登録$ 12 ）",
-   "jaVia": "mymemory",
+   "ja": "食洗機用タブレットが$5",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "本当に無料の食器洗い機ポッドのみ$ 5発送（登録$ 12 ）",
+    "store": "Truly Free",
+    "item": "食洗機用タブレットが$5",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "食洗機タブレット",
+    "where": "Truly Free"
    },
    "date": null
   },
@@ -699,13 +770,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "本当に無料の家庭用洗濯洗剤+詰め替えのみ$ 5発送（登録番号： $ 25 ）",
-   "jaVia": "mymemory",
+   "ja": "洗濯用洗剤+詰め替えが$5",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "本当に無料の家庭用洗濯洗剤+詰め替えのみ$ 5発送（登録番号： $ 25 ）",
+    "store": "Truly Free",
+    "item": "洗濯用洗剤+詰め替えが$5",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "洗濯用洗剤",
+    "where": "Truly Free"
    },
    "date": null
   },
@@ -1420,15 +1493,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ACEハードウェアブラックフライデーセールが開始されました（+レアな50 ％オフクーポンとフラッシュセールの準備をしましょう！ ）",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセール",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ACEハードウェアブラックフライデーセールが開始されました（+レアな50 ％オフクーポンとフラッシュセールの準備をしましょう！ ）",
-    "when": "",
-    "cond": ""
+    "store": "Ace Hardware",
+    "item": "ブラックフライデーセール",
+    "when": "11/02",
+    "cond": "",
+    "what": "BFセール",
+    "where": "Ace Hardware"
    },
-   "date": null
+   "date": "2026-11-02"
   },
   {
    "id": "0d0b1d486515",
@@ -1527,13 +1602,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "サムズクラブで無料のカントリーキッズソフトシェルジャケット$ 12.xxのみ！",
-   "jaVia": "mymemory",
+   "ja": "キッズジャケットが$12",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Sam's Club",
-    "item": "サムズクラブで無料のカントリーキッズソフトシェルジャケット$ 12.xxのみ！",
+    "store": "Free Country",
+    "item": "キッズジャケットが$12",
     "when": "",
-    "cond": "子ども向け"
+    "cond": "子ども向け",
+    "what": "キッズジャケット",
+    "where": "Sam’s Club"
    },
    "date": null
   },
@@ -1698,13 +1775,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ファンダンゴ：ラーマーヤナへの無料チケット（最大$ 15 ） ：レジェンドの台頭",
-   "jaVia": "mymemory",
+   "ja": "映画チケットが無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ファンダンゴ：ラーマーヤナへの無料チケット（最大$ 15 ） ：レジェンドの台頭",
+    "store": "Fandango",
+    "item": "映画チケットが無料",
     "when": "",
-    "cond": ""
+    "cond": "$15まで",
+    "what": "映画チケット",
+    "where": "Fandango"
    },
    "date": null
   },
@@ -1737,13 +1816,15 @@
     "when": null,
     "bogo": true
    },
-   "ja": "BOGO無料地下鉄フットロング（+ファンのお気に入りのメニューアイテムが戻ってきました！ ）",
-   "jaVia": "mymemory",
+   "ja": "フットロングがBOGO",
+   "jaVia": "gemini",
    "sum": {
     "store": "Subway",
-    "item": "BOGO無料地下鉄フットロング（+ファンのお気に入りのメニューアイテムが戻ってきました！ ）",
+    "item": "フットロングがBOGO",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BOGOサンド",
+    "where": "Subway"
    },
    "date": null
   },
@@ -1807,13 +1888,15 @@
     "when": null,
     "roundup": true
    },
-   "ja": "2026年選挙日の景品とお得な情報",
-   "jaVia": "mymemory",
+   "ja": "選挙日の無料特典とセール",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "2026年選挙日の景品とお得な情報",
-    "when": "",
-    "cond": ""
+    "item": "選挙日の無料特典とセール",
+    "when": "2026-11-02",
+    "cond": "",
+    "what": "選挙日特典",
+    "where": "全米"
    },
    "date": null,
    "dup": "daf96e42080b"
