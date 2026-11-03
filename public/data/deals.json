@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-03T16:03Z",
- "count": 1609,
+ "updated": "2026-11-03T17:09Z",
+ "count": 1622,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 5
+   "added": 6
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 4
   },
   "tfg": {
    "read": 40,
-   "added": 10
+   "added": 9
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,499 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
+   "gemini": 16,
    "geminiEvent": 0,
-   "mymemory": 14,
-   "geminiToday": 9,
+   "mymemory": 16,
+   "geminiToday": 10,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "572bb1637235",
+   "title": "Carote 12-Piece Knife Set From $15.xx at Walmart (Reg. $40)",
+   "link": "https://thefreebieguy.com/carote-12-piece-knife-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T17:03Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/07/carote-floral-knife-set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 15.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Carote 12ピースナイフセットウォルマートで$ 15.xxから（登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Carote 12ピースナイフセットウォルマートで$ 15.xxから（登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "fb9b907b0332",
+   "date": null
+  },
+  {
+   "id": "3b88ad09091f",
+   "title": "GO! Where’s Waldo Books from $5.75 on Amazon (Regularly $9)",
+   "link": "https://hip2save.com/deals/wheres-waldo-books/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T17:02Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/11/Wheres-waldo-book.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "GO ！ Amazonで$ 5.75からのWaldo Booksはどこですか（通常$ 9 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "GO ！ Amazonで$ 5.75からのWaldo Booksはどこですか（通常$ 9 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "722bcb471c8f",
+   "title": "Amazon Prime: Four Months Of Standard Audible for $.99/month + Bonus $20 Audible Credit (Ends December 28th)",
+   "link": "https://www.doctorofcredit.com/amazon-prime-free-four-months-of-standard-audible/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-03T17:00Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": "2026-12-28",
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/Screenshot-2026-10-21-at-10.07.57-AM-1024x342.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonプライム： 4か月分のスタンダードオーディブル月額$ 0.99 +ボーナス$ 20オーディブルクレジット（ 12月28日まで）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonプライム： 4か月分のスタンダードオーディブル月額$ 0.99 +ボーナス$ 20オーディブルクレジット（ 12月28日まで）",
+    "when": "12/28(月)まで",
+    "cond": ""
+   },
+   "date": "2026-12-28"
+  },
+  {
+   "id": "d8677622d6fe",
+   "title": "Tool Deals at Lowe’s: Kobalt 24-in-1 Ratcheting Screwdriver only $12.98, plus more!",
+   "link": "https://moneysavingmom.com/tool-deals-at-lowes/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T16:59Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Kobalt-24-in-1-Ratcheting-Screwdriver.jpg",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Lowe'sのツールセール： Kobalt 24 - in -1ラチェットドライバーわずか$ 12.98、その他多数！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Lowe'sのツールセール： Kobalt 24 - in -1ラチェットドライバーわずか$ 12.98、その他多数！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c546c4a3965a",
+   "title": "Gold Bond Friction Defense Stick Only $2.xx on Amazon (Reg. $6)",
+   "link": "https://thefreebieguy.com/gold-bond-friction-defense-stick/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T16:57Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Gold-Bond-Friction-Defense-Stick-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ゴールドボンドフリクションディフェンススティックAmazonで$ 2.xxのみ（登録番号： $ 6 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ゴールドボンドフリクションディフェンススティックAmazonで$ 2.xxのみ（登録番号： $ 6 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "00fc55d251df",
+   "title": "Amazon Grocery Canned Pumpkin Only $1.05 Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-pumpkin/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T16:54Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Amazon-Grocery-Pumpkin.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon食料品缶詰カボチャのみ$ 1.05発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon食料品缶詰カボチャのみ$ 1.05発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ae10bd2e71ce",
+   "title": "Disney VHS Boxed Reversible Pillowcase Only $9.xx at Walmart!",
+   "link": "https://thefreebieguy.com/disney-cinderella-vhs-boxed-reversible-pillowcase/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T16:52Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/disney-vhs-pillowcase-set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ディズニーVHSボックスリバーシブル枕カバーウォルマートでたったの$ 9.xx ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ディズニーVHSボックスリバーシブル枕カバーウォルマートでたったの$ 9.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "36afbb8c3afc",
+   "title": "$5 Off Amazon Grocery Promo Code = Stackable Savings on Soup!",
+   "link": "https://hip2save.com/deals/amazon-grocery-promo/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T16:47Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/Campbells-Condensed-Cream-of-Chicken-Soup-10.5oz-Can.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "coupon"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon食品・雑貨のプロモーションコードが$ 5割引=スープがたっぷりお得に！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon食品・雑貨のプロモーションコードが$ 5割引=スープがたっぷりお得に！",
+    "when": "",
+    "cond": "コード入力"
+   },
+   "date": null
+  },
+  {
+   "id": "abb71a95c9f1",
+   "title": "FREE Hallmark Card This Month!",
+   "link": "https://moneysavingmom.com/hallmark-free-card-friday-is-back/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T16:42Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2019/12/Hallmark-Free-Card-Friday-700x335.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Hallmark",
+    "item": "グリーティングカード無料",
+    "when": "〜11/30",
+    "what": "無料カード",
+    "where": "Hallmark"
+   },
+   "ja": "グリーティングカード無料",
+   "jaVia": "gemini",
+   "date": "2026-11-30"
+  },
+  {
+   "id": "a672f55ab4af",
+   "title": "Target: Get a FREE Good Warrior Meat Stick!",
+   "link": "https://moneysavingmom.com/target-get-a-free-good-warrior-meat-stick/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T16:40Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-10.34.37-AM-630x648.png",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Target",
+    "item": "ミートスティック無料",
+    "when": "11/3",
+    "what": "無料ミート",
+    "where": "Target"
+   },
+   "ja": "ミートスティック無料",
+   "jaVia": "gemini",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "9fe1af060c9a",
+   "title": "Amazon is Offering a $25 Thanksgiving Meal for 6 Live Now",
+   "link": "https://thefreebieguy.com/amazon-thanksgiving-meal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T16:32Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/AMAZON-THANKSGIVING-copy-2-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonは6人分の感謝祭の食事を$ 25で提供しています今すぐライブ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonは6人分の感謝祭の食事を$ 25で提供しています今すぐライブ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "39c2c6c21133",
+   "title": "Glitter Double Outline Paint Markers Only $3.99 on Amazon (Reg. $8)",
+   "link": "https://hip2save.com/deals/glitter-paint-pens/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T16:28Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/JusArt-Double-Outline-Glitter-Paint-Pen-Markers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 3.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "グリッターダブルアウトラインペイントマーカーAmazonで$ 3.99のみ（登録価格$ 8 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "グリッターダブルアウトラインペイントマーカーAmazonで$ 3.99のみ（登録価格$ 8 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1e485e511150",
+   "title": "Axe Gift Sets Only $7 After Walmart Cash (Reg $10+)",
+   "link": "https://thefreebieguy.com/axe-gift-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T16:26Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2024/12/axe-gift-sets-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 30,
+   "price": 7.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Axeギフトセットはウォルマートキャッシュ後$ 7のみ（登録価格$ 10以上）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Axeギフトセットはウォルマートキャッシュ後$ 7のみ（登録価格$ 10以上）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "39cb6906a06f",
+   "date": null
+  },
+  {
+   "id": "72ac4fde25b0",
+   "title": "Nike Run Swift 3 Women’s Running Shoes Only $46.75 at Kohl’s (Reg. $85)",
+   "link": "https://thefreebieguy.com/nike-run-swift-3-womens-running-shoes/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T16:20Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Nike-Run-Swift-3-Womens-Running-Shoes-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 46.75,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Nike Run Swift 3レディースランニングシューズのみ$ 46.75 Kohl's (Reg. $ 85)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Nike Run Swift 3レディースランニングシューズのみ$ 46.75 Kohl's (Reg. $ 85)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "77a772824770",
    "title": "GO! ULTA Daisy Delight Beauty Box From $24.xx!",
@@ -164,8 +648,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "a148f354b213",
-   "date": null
+   "date": null,
+   "dup": "a148f354b213"
   },
   {
    "id": "9f2ffa5d5d1b",
@@ -682,6 +1166,39 @@
    "date": null
   },
   {
+   "id": "869608fdd805",
+   "title": "BOGO Free Comfrt Hoodies & Sweatpants for the Whole Family – Prices from $17.50 (Reg. $70)",
+   "link": "https://thefreebieguy.com/comfrt-hoodies-sweatpants/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T14:31Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Comfrt-hoodies-and-sweatpants-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": 75,
+   "price": 17.5,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "家族全員のためのBOGO無料Comfrtパーカー＆スウェットパンツ– $ 17.50 （登録価格$ 70 ）から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "家族全員のためのBOGO無料Comfrtパーカー＆スウェットパンツ– $ 17.50 （登録価格$ 70 ）から",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "8e45077bbd13",
    "title": "Forget the Ugly Christmas Sweater, Dress Up as the Whole Tree Instead!",
    "link": "https://hip2save.com/deals/amazon-christmas-tree-outfit/",
@@ -1066,6 +1583,38 @@
    "ja": "サンドイッチBOGO",
    "jaVia": "gemini",
    "date": "2026-11-03"
+  },
+  {
+   "id": "f68d9902784c",
+   "title": "PetSmart Events: The November Birthday Bash is Coming + More!",
+   "link": "https://thefreebieguy.com/free-petsmart-events/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T13:51Z",
+   "firstSeen": "2026-11-03T17:09Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/PetSmart-Birthday-Bash-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ペットスマートイベント： 11月バースデーバッシュがやってくるぞ！その他もろもろ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ペットスマートイベント： 11月バースデーバッシュがやってくるぞ！その他もろもろ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "36f08510db19",
@@ -36555,43 +37104,6 @@
    "date": null
   },
   {
-   "id": "7d0eb39c925c",
-   "title": "Apply for The Injinji Wear Test Program! You Might Score FREE Socks!",
-   "link": "https://thefreebieguy.com/apply-for-the-injinji-wear-test-program-you-might-score-free-socks/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T16:57Z",
-   "firstSeen": "2026-10-26T17:50Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/injini-socks-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "モニター応募で靴下が無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Injinji",
-    "item": "モニター応募で靴下が無料",
-    "when": "",
-    "cond": "応募・抽選",
-    "what": "無料靴下(試用)",
-    "where": "Injinji"
-   },
-   "date": null
-  },
-  {
    "id": "610bd089a496",
    "title": "Icon Glasses from $3.99 at Target | Trendy Anthro Vibes for WAY Less",
    "link": "https://hip2save.com/deals/target-icon-glasses/",
@@ -37033,82 +37545,6 @@
     "item": "GO ！ TikTok Viral Loweのミニグリッターバケットが戻ってきました|彼らは再び売り切れます！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "10896ac451c3",
-   "title": "Send a Free Postcard with PhotoJoy!",
-   "link": "https://thefreebieguy.com/send-a-free-postcard-with-photojoy/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T16:09Z",
-   "firstSeen": "2026-10-26T16:57Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/PhotoJoy-Postcard-Offer-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "写真はがきを無料で送れる",
-   "jaVia": "claude",
-   "sum": {
-    "store": "PhotoJoy",
-    "item": "写真はがきを無料で送れる",
-    "when": "",
-    "cond": "アプリ",
-    "what": "無料はがき",
-    "where": "PhotoJoy"
-   },
-   "date": null
-  },
-  {
-   "id": "96ae7587a235",
-   "title": "Domino’s Giving Away 20,000 FREE Minecraft Games ($30 Value!) – No Purchase Needed!",
-   "link": "https://hip2save.com/deals/dominos-coupons/",
-   "source": "Hip2Save",
-   "posted": "2026-10-26T16:07Z",
-   "firstSeen": "2026-10-26T16:57Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Dominos-Minecraft-1.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "Minecraft 2万本を無料配布(購入不要)",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Domino's",
-    "item": "Minecraft 2万本を無料配布(購入不要)",
-    "when": "",
-    "cond": "購入不要",
-    "what": "マイクラ無料",
-    "where": "Domino's"
    },
    "date": null
   },
@@ -50748,7 +51184,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/aldi-disney.jpg?resize=306,182"
   },
   {
    "id": "6a4602794f13",
