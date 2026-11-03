@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-03T10:05Z",
- "count": 1575,
+ "updated": "2026-11-03T11:06Z",
+ "count": 1574,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 5
   },
   "h2s-free": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 3
   },
   "tfg": {
    "read": 40,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
+   "gemini": 16,
    "geminiEvent": 0,
-   "mymemory": 6,
-   "geminiToday": 4,
+   "mymemory": 7,
+   "geminiToday": 5,
    "model": "gemini-flash-latest"
   }
  },
@@ -1472,6 +1472,38 @@
    "date": null
   },
   {
+   "id": "9af9554b1518",
+   "title": "Ace Hardware Black Friday Sale LIVE Now (+ Get Ready for Rare 50% Off Coupon & Flash Deals!)",
+   "link": "https://hip2save.com/deals/ace-hardware-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-02T20:10Z",
+   "firstSeen": "2026-11-03T11:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2017/11/ace-hardware.jpg?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "coupon"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ACEハードウェアブラックフライデーセールが開始されました（+レアな50 ％オフクーポンとフラッシュセールの準備をしましょう！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ACEハードウェアブラックフライデーセールが開始されました（+レアな50 ％オフクーポンとフラッシュセールの準備をしましょう！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "0d0b1d486515",
    "title": "Dolly on the Holly Dolly Parton Christmas Elf Collectible Now Available for Pre-Order!",
    "link": "https://thefreebieguy.com/dolly-on-the-holly-dolly-parton-christmas-elf-collectible/",
@@ -1826,6 +1858,44 @@
     "when": "",
     "cond": ""
    },
+   "date": null
+  },
+  {
+   "id": "9ba863692733",
+   "title": "Election Day 2026 Freebies and Deals",
+   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-02T19:12Z",
+   "firstSeen": "2026-11-03T11:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "sum": {
+    "item": "選挙日特典・無料サービス",
+    "when": "2026-11-02",
+    "cond": "選挙日",
+    "what": "選挙日特典",
+    "where": "全米各地"
+   },
+   "ja": "選挙日特典・無料サービス",
+   "jaVia": "gemini",
+   "dup": "daf96e42080b",
    "date": null
   },
   {
@@ -37735,123 +37805,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "00bf1b579154",
-   "title": "KFC Deals | Score a Free Pot Pie w/ $10 Purchase",
-   "link": "https://thefreebieguy.com/kfc-coupons-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T10:51Z",
-   "firstSeen": "2026-10-26T10:53Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/KFC-Scary-Good-Deals-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "KFC"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "ポットパイ無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "KFC",
-    "item": "ポットパイ無料",
-    "when": "",
-    "cond": "$10以上購入",
-    "what": "無料パイ",
-    "where": "KFC"
-   },
-   "date": null
-  },
-  {
-   "id": "31e0a272a193",
-   "title": "Pizza Hut Deals | Order a $10.99 Large, Unlock a Free BOGO Medium & More!",
-   "link": "https://thefreebieguy.com/pizza-hut-deals-specials-coupon-codes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T10:49Z",
-   "firstSeen": "2026-10-26T10:53Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Pizza-Hut-Delicious-Looking-Pizzas-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Pizza Hut"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "bogo": true
-   },
-   "ja": "Lサイズ注文でMサイズが無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Pizza Hut",
-    "item": "Lサイズ注文でMサイズが無料",
-    "when": "",
-    "cond": "$10.99のL注文",
-    "what": "BOGOピザ",
-    "where": "Pizza Hut"
-   },
-   "date": null
-  },
-  {
-   "id": "f75910f08837",
-   "title": "Love’s Rewards Deals | Free Love’s Danish + More!",
-   "link": "https://thefreebieguy.com/free-products-at-loves/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T10:42Z",
-   "firstSeen": "2026-10-26T10:53Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Loves-Truck-Stop-Rewards-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "アプリ会員に無料デニッシュほか",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Love's",
-    "item": "アプリ会員に無料デニッシュほか",
-    "when": "",
-    "cond": "アプリ会員",
-    "what": "無料デニッシュ",
-    "where": "Love's"
-   },
-   "date": null
   },
   {
    "id": "f35f2d45e2a7",
