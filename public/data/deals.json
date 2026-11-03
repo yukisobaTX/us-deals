@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T17:59Z",
- "count": 1633,
+ "updated": "2026-11-03T19:08Z",
+ "count": 1643,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,495 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 11,
+   "mymemory": 24,
+   "geminiToday": 12,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f452bec37ec8",
+   "title": "Dawn Powerwash Dish Spray Refill Only $1.99 Shipped on Amazon (Reg. $4)",
+   "link": "https://hip2save.com/deals/dawn-powerwash-dish-spray/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T19:00Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Dawn-Powerwash-Dish-Spray-Refill-16oz.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 1.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Dawn Powerwashディッシュスプレー詰め替えのみ$ 1.99 Amazonで発送（登録価格$ 4 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Dawn Powerwashディッシュスプレー詰め替えのみ$ 1.99 Amazonで発送（登録価格$ 4 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "a3480ec13da5",
+   "date": null
+  },
+  {
+   "id": "06f60a207f3a",
+   "title": "AmEx Offers: Best Buy, Spend $250 & Get $25 Statement Credit",
+   "link": "https://www.doctorofcredit.com/amex-offers-best-buy-spend-250-get-25-statement-credit-3/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-03T19:00Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-12.46.37-PM-1024x191.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AmExオファー： Best Buy、$ 250のご利用、$ 25のステートメントクレジットを獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "AmExオファー： Best Buy、$ 250のご利用、$ 25のステートメントクレジットを獲得",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "95027a865b98",
+   "title": "Up to 70% Off Comfrt Early Black Friday Sale | Sweats & Hoodies from $19",
+   "link": "https://hip2save.com/deals/comfrt-clothing/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T18:50Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Comfrt-Hoodie.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Comfrtアーリーブラックフライデーセール最大70 ％オフ| $ 19からのスウェット＆パーカー",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Comfrtアーリーブラックフライデーセール最大70 ％オフ| $ 19からのスウェット＆パーカー",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6285012c8acf",
+   "title": "FREE 6-Month Trial of Amazon Prime for 18-24 Year Olds!",
+   "link": "https://moneysavingmom.com/free-amazon-prime-student-membership/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T18:49Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-23-at-11.16.27-AM-700x631.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "18 ～ 24歳向けのAmazonプライムの6か月間無料トライアル！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "18 ～ 24歳向けのAmazonプライムの6か月間無料トライアル！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4d4eb9d326d8",
+   "title": "Kraft Original Mac and Cheese only $0.66 shipped!",
+   "link": "https://moneysavingmom.com/kraft-original-macaroni-cheese-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T18:44Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/08/Kraft-Mac-and-Cheese-1.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "クラフトオリジナルマックとチーズはわずか$ 0.66で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "クラフトオリジナルマックとチーズはわずか$ 0.66で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "9f2ffa5d5d1b",
+   "date": null
+  },
+  {
+   "id": "b9243b863213",
+   "title": "Women’s Cowboy Boots Just $25 Shipped on Amazon (Reg. $64)",
+   "link": "https://hip2save.com/deals/amazon-dream-pairs-cowboy-boots/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T18:40Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/dreampairs-cowboy-boots.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 61,
+   "price": 25.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レディースカウボーイブーツたったの$ 25 Amazonで発送（登録価格$ 64 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディースカウボーイブーツたったの$ 25 Amazonで発送（登録価格$ 64 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "130814c4d1fe",
+   "title": "$5 Off $25 Amazon Grocery Deal – Just $18.xx for $26 Worth of Holiday Meal Essentials!",
+   "link": "https://thefreebieguy.com/amazon-groceries/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T18:33Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/grocery-deal-amazon-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "$ 5 OFF $ 25 Amazon Grocery Deal – 26ドル相当のホリデーミール必需品がたったの$ 18.xx ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "$ 5 OFF $ 25 Amazon Grocery Deal – 26ドル相当のホリデーミール必需品がたったの$ 18.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0993b35a53e7",
+   "title": "Get THREE High-Value Freebies Just for Buying Perfume at ULTA",
+   "link": "https://hip2save.com/deals/valentino-perfume/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T18:30Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/ysl-valentino-perfume.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "ja": "ULTAで香水を購入するだけで、高価値の景品を3つゲット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "ULTAで香水を購入するだけで、高価値の景品を3つゲット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "84d781f65819",
+   "title": "ORB Tabalicious Winter Wonders Squishy Toys Only $9.xx on Amazon",
+   "link": "https://thefreebieguy.com/orb-squishy-toys/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T18:24Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Orb-squishies-winter-wonders-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ORB Tabalicious Winter Wonders Squishy Toys Amazonで$ 9.xxのみ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ORB Tabalicious Winter Wonders Squishy Toys Amazonで$ 9.xxのみ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cb6f23cde30e",
+   "title": "Buy One, Get One Free Custom Wood Photo Ornaments at Walgreens + Free Same Day In-Store Pickup!",
+   "link": "https://moneysavingmom.com/walgreens-custom-photo-ornaments-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T18:23Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-3.33.57 PM-630x837.jpg",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c6814fe2d240",
+   "title": "Free Movie Ticket to See Everest: The Other Side in Fandango Theaters!",
+   "link": "https://thefreebieguy.com/free-movie-ticket-to-see-everest-the-other-side-in-fandango-theaters/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T18:21Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Everest-the-Other-Side-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "エベレスト：ファンダンゴ劇場の向こう側を見るための無料映画チケット！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "エベレスト：ファンダンゴ劇場の向こう側を見るための無料映画チケット！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "81e5fa2b3917",
+   "title": "*HOT* 6-Foot Christmas Snowman Inflatable only $26.69 (Reg. $60!)",
+   "link": "https://moneysavingmom.com/hot-6-foot-christmas-snowman-inflatable-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T18:18Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Inflatable-630x628.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 56,
+   "price": 26.69,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c2276e7e9c48",
+   "title": "Kohl’s Cares Plush & Books from $4.19 (Such Cute Christmas Gifts!)",
+   "link": "https://hip2save.com/deals/kohls-cares-plush-books/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T18:16Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Kohls-Cares-Plush-5.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "560cdc6ae80a",
+   "title": "Red Bull Advent Calendar Now Available (24 Cans, 11 Flavors!)",
+   "link": "https://hip2save.com/deals/red-bull-advent-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-11-03T18:07Z",
+   "firstSeen": "2026-11-03T19:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Red-Bull-Advent-Calendar-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Costco",
+    "Target",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart・Costco",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "6e547d03bc3e",
    "title": "Cat-Shaped Hand Towels Only $9.99 on Amazon (Hilarious Gift Idea!)",
@@ -238,8 +719,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "d0c5eb81f36d",
-   "date": null
+   "date": null,
+   "dup": "d0c5eb81f36d"
   },
   {
    "id": "ab1629ad6e85",
@@ -343,8 +824,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "7cfd4cce2307",
-   "date": null
+   "date": null,
+   "dup": "7cfd4cce2307"
   },
   {
    "id": "5f9c66b0248c",
@@ -412,8 +893,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "cf8660d19d03",
-   "date": null
+   "date": null,
+   "dup": "cf8660d19d03"
   },
   {
    "id": "17f61ff5ae1d",
@@ -447,8 +928,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "3db7dd299a89",
-   "date": null
+   "date": null,
+   "dup": "3db7dd299a89"
   },
   {
    "id": "99762af41ff8",
@@ -36413,77 +36894,6 @@
    "date": null
   },
   {
-   "id": "88caa87f7655",
-   "title": "*HOT* Free 30-Day Curology Skin Care Box + Limited Edition Custom Formula Bottle {Just Pay $5.45 shipping!}",
-   "link": "https://moneysavingmom.com/curology-custom-skincare-formula-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-26T18:59Z",
-   "firstSeen": "2026-10-26T19:01Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Curology-630x630.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "スキンケア30日分が無料(送料$5.45)",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Curology",
-    "item": "スキンケア30日分が無料(送料$5.45)",
-    "when": "",
-    "cond": "送料$5.45",
-    "what": "スキンケア試供",
-    "where": "Curology"
-   },
-   "date": null
-  },
-  {
-   "id": "c208a014d198",
-   "title": "Blink Mini 2K+ (Newest Model) Only $16.xx on Amazon (Reg $40)",
-   "link": "https://thefreebieguy.com/blink-security-camera/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T18:59Z",
-   "firstSeen": "2026-10-26T19:01Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/blink-camera-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 60,
-   "price": 16.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Blink Mini 2 K +（最新モデル） Amazonで$ 16.xxのみ（登録価格$ 40 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Blink Mini 2 K +（最新モデル） Amazonで$ 16.xxのみ（登録価格$ 40 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "2dfa431839bd",
    "title": "Free Starbucks Reusable Cup w/ ANY Holiday Drink Purchase (11/17 ONLY!)",
    "link": "https://hip2save.com/deals/starbucks-free-cup/",
@@ -36688,72 +37098,6 @@
    "sum": {
     "store": "Target",
     "item": "ダイエットコークファン！ Target.comでこの新しいリップスマッカーセットを$ 9.99で手に入れましょう",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "a90ec312371b",
-   "title": "Score a FREEBIE From Black and Mild!",
-   "link": "https://thefreebieguy.com/score-a-freebie-from-black-and-mild/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T18:45Z",
-   "firstSeen": "2026-10-26T18:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Artisan-Playing-Cards-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ブラックとマイルドから無料の賞品を獲得しましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ブラックとマイルドから無料の賞品を獲得しましょう！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "d2a2c9e2fc86",
-   "title": "Amazon Brand Happy Belly Chopped Walnuts Only $2.xx on Amazon (Reg. $6)",
-   "link": "https://thefreebieguy.com/amazon-brand-chopped-walnuts/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T18:41Z",
-   "firstSeen": "2026-10-26T18:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Amazon-Grocery-Chopped-Walnuts-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 67,
-   "price": 2.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazonブランドのハッピーベリーチョップドウォールナッツのみ$ 2.xx Amazon （登録価格$ 6 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonブランドのハッピーベリーチョップドウォールナッツのみ$ 2.xx Amazon （登録価格$ 6 ）",
     "when": "",
     "cond": ""
    },
