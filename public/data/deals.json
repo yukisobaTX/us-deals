@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T09:04Z",
- "count": 1577,
+ "updated": "2026-11-03T10:05Z",
+ "count": 1575,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 23,
+   "gemini": 15,
    "geminiEvent": 0,
-   "mymemory": 8,
-   "geminiToday": 3,
+   "mymemory": 6,
+   "geminiToday": 4,
    "model": "gemini-flash-latest"
   }
  },
@@ -1472,40 +1472,6 @@
    "date": null
   },
   {
-   "id": "9af9554b1518",
-   "title": "Ace Hardware Black Friday Sale LIVE Now (+ Get Ready for Rare 50% Off Coupon & Flash Deals!)",
-   "link": "https://hip2save.com/deals/ace-hardware-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-02T20:10Z",
-   "firstSeen": "2026-11-02T20:55Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2017/11/ace-hardware.jpg?resize=306,182",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "coupon"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ブラックフライデーセール",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Ace Hardware",
-    "item": "ブラックフライデーセール",
-    "when": "11/02",
-    "cond": "",
-    "what": "BFセール",
-    "where": "Ace Hardware"
-   },
-   "date": "2026-11-02"
-  },
-  {
    "id": "0d0b1d486515",
    "title": "Dolly on the Holly Dolly Parton Christmas Elf Collectible Now Available for Pre-Order!",
    "link": "https://thefreebieguy.com/dolly-on-the-holly-dolly-parton-christmas-elf-collectible/",
@@ -1861,45 +1827,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "9ba863692733",
-   "title": "Election Day 2026 Freebies and Deals",
-   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-02T19:12Z",
-   "firstSeen": "2026-11-02T20:00Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "ja": "選挙日の無料特典とセール",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "",
-    "item": "選挙日の無料特典とセール",
-    "when": "2026-11-02",
-    "cond": "",
-    "what": "選挙日特典",
-    "where": "全米"
-   },
-   "date": null,
-   "dup": "daf96e42080b"
   },
   {
    "id": "d7bdfa2b8b93",
