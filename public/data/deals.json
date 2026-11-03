@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-03T11:06Z",
+ "updated": "2026-11-03T11:58Z",
  "count": 1574,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 5
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,123 @@
    "added": 0
   },
   "ja": {
-   "gemini": 16,
+   "gemini": 17,
    "geminiEvent": 0,
-   "mymemory": 7,
-   "geminiToday": 5,
+   "mymemory": 8,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "393ddf10fac7",
+   "title": "On the Hunt for Needoh? Request an Invite for an Amazon Exclusive Dream Drop!",
+   "link": "https://thefreebieguy.com/needoh/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T11:45Z",
+   "firstSeen": "2026-11-03T11:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/NeeDoh-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ニーダーを探していますか？ Amazon限定ドリームドロップへの招待をリクエスト！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ニーダーを探していますか？ Amazon限定ドリームドロップへの招待をリクエスト！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "09244b7997ca",
+   "title": "Cheap Food Deals & Freebies For Tuesday! Smoothie King, Krispy Kreme, & More!",
+   "link": "https://thefreebieguy.com/cheap-tuesday-food-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T11:20Z",
+   "firstSeen": "2026-11-03T11:58Z",
+   "expires": "2026-11-03",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Tuesday-Food-Deals-840x630.png",
+   "hot": true,
+   "stores": [
+    "Krispy Kreme",
+    "Smoothie King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "sum": {
+    "store": "Smoothie King, Krispy Kreme",
+    "item": "お得なフードと無料特典",
+    "when": "2026-11-03",
+    "what": "無料フード",
+    "where": "各店舗"
+   },
+   "ja": "お得なフードと無料特典",
+   "jaVia": "gemini",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "fb92c61af4f0",
+   "title": "Adidas Men’s Ultraboost 5X Shoes Only $50 Shipped on eBay (Reg. $180)",
+   "link": "https://thefreebieguy.com/adidas-men-ultraboost-5x-shoes-at-ebay/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T11:18Z",
+   "firstSeen": "2026-11-03T11:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/09/adidas-men-Ultraboost-5X-Shoes-840x630.png",
+   "hot": true,
+   "stores": [
+    "eBay"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 72,
+   "price": 50.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アディダス メンズ ウルトラブースト 5X シューズがeBayで送料込み50ドルで販売中（通常価格180ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "eBay",
+    "item": "アディダス メンズ ウルトラブースト 5X シューズがeBayで送料込み50ドルで販売中（通常価格180ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "753f2cd90107",
    "title": "Bella PRO SmartCrisp 8-qt. Touchscreen Air Fryer Only $54.xx Shipped (Reg. $130)",
@@ -1493,13 +1601,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ACEハードウェアブラックフライデーセールが開始されました（+レアな50 ％オフクーポンとフラッシュセールの準備をしましょう！ ）",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセール開催中",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ACEハードウェアブラックフライデーセールが開始されました（+レアな50 ％オフクーポンとフラッシュセールの準備をしましょう！ ）",
-    "when": "",
-    "cond": ""
+    "store": "Ace Hardware",
+    "item": "ブラックフライデーセール開催中",
+    "when": "2026-11-02",
+    "cond": "",
+    "what": "50%OFF",
+    "where": "Ace Hardware"
    },
    "date": null
   },
@@ -1858,44 +1968,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "9ba863692733",
-   "title": "Election Day 2026 Freebies and Deals",
-   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-02T19:12Z",
-   "firstSeen": "2026-11-03T11:06Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "sum": {
-    "item": "選挙日特典・無料サービス",
-    "when": "2026-11-02",
-    "cond": "選挙日",
-    "what": "選挙日特典",
-    "where": "全米各地"
-   },
-   "ja": "選挙日特典・無料サービス",
-   "jaVia": "gemini",
-   "dup": "daf96e42080b",
    "date": null
   },
   {
@@ -37635,38 +37707,6 @@
    }
   },
   {
-   "id": "a3977bcabbc2",
-   "title": "Win a Radio City Rockettes Experience with Verizon Rewards This Week!",
-   "link": "https://thefreebieguy.com/possible-freebie-from-verizon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T11:50Z",
-   "firstSeen": "2026-10-26T13:31Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Verizon-Store-Front-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "今週はベライゾン報酬でラジオシティ・ロケット体験を勝ち取ろう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Verizon Rewards This Week",
-    "item": "今週はベライゾン報酬でラジオシティ・ロケット体験を勝ち取ろう！",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
    "id": "4893fc5e730b",
    "title": "Walgreens Deals Under $2 This Week",
    "link": "https://moneysavingmom.com/walgreens-deals-under-two-dollars-this-week/",
@@ -37734,43 +37774,6 @@
     "cond": ""
    },
    "dup": "4373355d7b6c"
-  },
-  {
-   "id": "0edef186b415",
-   "title": "Williams Sonoma Has FREE Cooking Classes Coming In November! Register Now!",
-   "link": "https://thefreebieguy.com/williams-sonoma-learning-events/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-26T11:24Z",
-   "firstSeen": "2026-10-26T13:31Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Williams-Sonoma-November-Classes-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "11月の無料料理教室(要予約)",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Williams Sonoma",
-    "item": "11月の無料料理教室(要予約)",
-    "when": "11月",
-    "cond": "要予約",
-    "what": "無料料理教室",
-    "where": "Williams Sonoma"
-   },
-   "date": null
   },
   {
    "id": "5b725132e70c",
