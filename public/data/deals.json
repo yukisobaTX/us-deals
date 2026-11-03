@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-03T05:06Z",
- "count": 1580,
+ "updated": "2026-11-03T06:05Z",
+ "count": 1575,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -57,9 +57,10 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "mymemory": 22,
+   "geminiToday": 1,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -3825,40 +3826,6 @@
    "date": "2026-11-07"
   },
   {
-   "id": "7a3b07f1f382",
-   "title": "Target Deal of the Day: 25% off select Vitamins & Nutrition items {TODAY ONLY!}",
-   "link": "https://moneysavingmom.com/target-deal-of-the-day-25-off-select-vitamins-nutrition-items-today-only/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-02T15:36Z",
-   "firstSeen": "2026-11-02T16:13Z",
-   "expires": "2026-11-02",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Untitled-design-630x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 25,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-02",
-   "ja": "本日のターゲットセール：特定のビタミン＆栄養アイテムが25%オフ{本日限定！}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "本日のターゲットセール：特定のビタミン＆栄養アイテムが25%オフ{本日限定！}",
-    "when": "11/2(月)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "a10023a8fee5",
    "title": "Up to 60% Off Select Ring Doorbells & Security Cams at Lowe’s – Prices From $24.xx!",
    "link": "https://thefreebieguy.com/ring-security-sale/",
@@ -4029,43 +3996,6 @@
     "where": "オンライン"
    },
    "date": null
-  },
-  {
-   "id": "97458316f435",
-   "title": "The Butterball Thanksgiving Giveaway! Score a FREE Butterball Buddy Today!",
-   "link": "https://thefreebieguy.com/the-butterball-thanksgiving-giveaway-score-a-free-butterball-buddy-today/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-02T15:15Z",
-   "firstSeen": "2026-11-02T16:13Z",
-   "expires": "2026-11-02",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Butterball-Buddy-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-02"
-   },
-   "ja": "バターボールの七面鳥",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Butterball",
-    "item": "バターボールの七面鳥",
-    "when": "11/2/2026",
-    "cond": "",
-    "what": "無料七面鳥",
-    "where": "Butterball"
-   },
-   "date": "2026-11-02"
   },
   {
    "id": "3242ddd8bb47",
@@ -4751,13 +4681,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Roborock Q 7 L 5ロボット掃除機＆モップコンボ8000 Paサクション付きAmazonで$ 139.xxのみ（登録$ 250 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Roborock Q 7 L 5ロボット掃除機＆モップコンボ8000 Paサクション付きAmazonで$ 139.xxのみ（登録$ 250 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ded85d435d2c",
@@ -4783,13 +4715,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでわずか$ 6.49のレディースRFIDブロックウォレット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでわずか$ 6.49のレディースRFIDブロックウォレット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c7892a2bb97e",
@@ -4815,13 +4749,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lowe's Dog ToysアドベントカレンダーLowe'sは$ 24.xxのみ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Lowe's Dog ToysアドベントカレンダーLowe'sは$ 24.xxのみ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0216226e9b16",
@@ -5200,40 +5136,6 @@
    },
    "date": null,
    "dup": "b88473bb10be"
-  },
-  {
-   "id": "f962530fc32a",
-   "title": "Protein Lovers! LMNT, Barebells, & Just Ingredients Are 25% OFF at Target TODAY ONLY",
-   "link": "https://hip2save.com/deals/target-daily-deals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-02T12:17Z",
-   "firstSeen": "2026-11-02T13:24Z",
-   "expires": "2026-11-02",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Target-Nutrition-Items.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 25,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "タンパク質愛好家！ LMNT、Barebells、Just Ingredientsが本日限りTargetで25 ％オフ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "タンパク質愛好家！ LMNT、Barebells、Just Ingredientsが本日限りTargetで25 ％オフ",
-    "when": "11/2(月)まで",
-    "cond": ""
-   },
-   "date": "2026-11-02"
   },
   {
    "id": "4f47ef257ef1",
@@ -11891,47 +11793,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "53446cacb0b8",
-   "title": "Cheap Food Deals for Monday – Subway BOGO Footlongs, TGI Friday’s 50¢ Wings & More!",
-   "link": "https://thefreebieguy.com/cheap-monday-food-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T22:35Z",
-   "firstSeen": "2026-10-30T22:50Z",
-   "expires": "2026-11-02",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Monday-Food-Deals-840x630.png",
-   "hot": true,
-   "stores": [
-    "Subway"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "bogo": true
-   },
-   "ja": "サンド1買1無料、チキン50¢等",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Subway",
-    "item": "サンド1買1無料、チキン50¢等",
-    "when": "11/2(月)",
-    "cond": "",
-    "what": "フード割引",
-    "where": "Subwayなど"
-   },
-   "date": "2026-11-02"
   },
   {
    "id": "95563cd7e729",
@@ -31579,40 +31440,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "cd485ec6691c",
-   "title": "Taco Bell Deals | $4 Meal Deals through November 2nd + $1 Meals Drop on Tuesdays!",
-   "link": "https://thefreebieguy.com/taco-bell-deals-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:19Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": "2026-11-02",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Taco-Bell-Paris-Hiltons-Meal-Deal-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Taco Bell"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "タコスベルのお得情報| 11月2日までの$ 4のお食事のお得情報と火曜日の$ 1のお食事ドロップ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Taco Bell",
-    "item": "タコスベルのお得情報| 11月2日までの$ 4のお食事のお得情報と火曜日の$ 1のお食事ドロップ！",
-    "when": "11/2(月)まで",
-    "cond": ""
-   },
-   "date": "2026-11-02"
   },
   {
    "id": "8a10dd252e10",
