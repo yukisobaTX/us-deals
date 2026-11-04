@@ -399,13 +399,15 @@
    "gift": {
     "grocery": true
    },
-   "ja": "Kroger/Harris Teeter ：サードパーティギフトカードの燃料ポイント4倍（ 11/7 ～ 11/8 ）",
-   "jaVia": "mymemory",
+   "ja": "他社ギフトカード購入で燃料ポイント4倍(Kroger/Harris Teete…",
+   "jaVia": "claude",
    "sum": {
     "store": "Kroger",
-    "item": "Kroger/Harris Teeter ：サードパーティギフトカードの燃料ポイント4倍（ 11/7 ～ 11/8 ）",
-    "when": "11/8(日)まで",
-    "cond": ""
+    "item": "他社ギフトカード購入で燃料ポイント4倍(Kroger/Harris Teete…",
+    "when": "11/7〜11/8",
+    "cond": "他社ギフトカード対象",
+    "what": "燃料ポイント4倍",
+    "where": "Kroger"
    },
    "date": "2026-11-08"
   },
@@ -916,13 +918,15 @@
     "kind": "coupon",
     "when": "2026-11-09"
    },
-   "ja": "アンおばさんのセール| 11月9日から無料のホリデーオーナメントが登場！",
-   "jaVia": "mymemory",
+   "ja": "Auntie Anne'sでホリデーオーナメントが無料でもらえる",
+   "jaVia": "claude",
    "sum": {
     "store": "Auntie Anne's",
-    "item": "アンおばさんのセール| 11月9日から無料のホリデーオーナメントが登場！",
-    "when": "11/9(月)",
-    "cond": ""
+    "item": "Auntie Anne'sでホリデーオーナメントが無料でもらえる",
+    "when": "11/9(月)〜",
+    "cond": "",
+    "what": "無料オーナメント",
+    "where": "Auntie Anne's"
    },
    "date": "2026-11-09"
   },
@@ -2750,14 +2754,14 @@
    },
    "sum": {
     "store": "Dunkin'",
-    "item": "ラテが無料",
-    "when": "11/10",
-    "cond": "要購入",
+    "item": "Dunkin'のクッキーバター・クラウドラテ(M)が無料になる可能性",
+    "when": "11/10(火)",
+    "cond": "要購入・未確定",
     "what": "無料ラテ",
     "where": "Dunkin'"
    },
-   "ja": "ラテが無料",
-   "jaVia": "gemini",
+   "ja": "Dunkin'のクッキーバター・クラウドラテ(M)が無料になる可能性",
+   "jaVia": "claude",
    "date": "2026-11-10"
   },
   {
@@ -4400,13 +4404,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "Historic Downtown Bryan",
-    "item": "ブライアン旧市街の月例の夜祭り(音楽・パフォーマンス・アート)",
+    "store": "Downtown Bryan",
+    "item": "ダウンタウン・ブライアンの毎月恒例の夜の街歩きイベント",
     "when": "11/6(金) 17時",
-    "what": "First Fri…",
-    "where": "Bryan旧市街"
+    "what": "ファーストフライデー",
+    "where": "Downtown Bryan",
+    "cond": "家族で参加可"
    },
-   "ja": "ブライアン旧市街の月例の夜祭り(音楽・パフォーマンス・アート)",
+   "ja": "ダウンタウン・ブライアンの毎月恒例の夜の街歩きイベント",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -14596,14 +14601,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "Historic Downtown Bryan",
-    "item": "ブライアン旧市街のホリデー点灯式「Lights On」",
+    "store": "Downtown Bryan",
+    "item": "ダウンタウン・ブライアンのホリデーライトアップ点灯イベント",
     "when": "11/20(金) 17時",
     "cond": "家族向け",
-    "what": "点灯式",
-    "where": "Bryan旧市街"
+    "what": "ライトアップ点灯式",
+    "where": "Downtown Bryan"
    },
-   "ja": "ブライアン旧市街のホリデー点灯式「Lights On」",
+   "ja": "ダウンタウン・ブライアンのホリデーライトアップ点灯イベント",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
