@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T21:58Z",
- "count": 1740,
+ "updated": "2026-11-04T22:58Z",
+ "count": 1744,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 5
+   "added": 7
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,292 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 23,
-   "geminiToday": 13,
+   "mymemory": 21,
+   "geminiToday": 14,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "6aade5b14b28",
+   "title": "TWO Large Boxes of Kellogg’s Frosted Mini-Wheats Just $4.47 Shipped on Amazon (Reg. $10)",
+   "link": "https://hip2save.com/deals/kelloggs-cereal/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T22:40Z",
+   "firstSeen": "2026-11-04T22:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Frosted-Mini-Wheats-Cereal.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 4.47,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ケロッグの曇らされたミニ小麦の大きな箱2箱が$ 4.47でAmazonで発送されました（登録番号： $ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ケロッグの曇らされたミニ小麦の大きな箱2箱が$ 4.47でAmazonで発送されました（登録番号： $ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2e52b67ef145",
+   "title": "These Luxe-Looking Walmart Slippers Start at Just $14.99",
+   "link": "https://hip2save.com/deals/walmart-joyspun-slippers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T22:30Z",
+   "firstSeen": "2026-11-04T22:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Walmart-Joyspun-slippers-3.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "このラグジュアリーなウォルマートのスリッパはわずか$ 14.99から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "このラグジュアリーなウォルマートのスリッパはわずか$ 14.99から",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "60feb2c37b59",
+   "title": "Women’s Seamless Bikini Hipster Underwear 6-Pack Just $6.99 on Amazon (Reg. $15)",
+   "link": "https://hip2save.com/deals/amazon-womens-underwear/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T22:20Z",
+   "firstSeen": "2026-11-04T22:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Amazon-underwear.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 6.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レディースシームレスビキニヒップスターアンダーウェア6枚パックAmazonでわずか$ 6.99 （登録価格$ 15 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディースシームレスビキニヒップスターアンダーウェア6枚パックAmazonでわずか$ 6.99 （登録価格$ 15 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "36e90dd427b4",
+   "title": "Starbucks Has a NEW Holiday Pup Cup! Plus, 20 More Places to Score Dog Treats (Many Free)!",
+   "link": "https://hip2save.com/deals/free-pup-cup-dog-treats/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T22:15Z",
+   "firstSeen": "2026-11-04T22:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Starbucks-Holiday-Puppicino.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Starbucks"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "スターバックスには新しいホリデーパップカップがあります！さらに、犬のおやつを獲得できる場所が20か所追加されました（多くは無料） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Starbucks",
+    "item": "スターバックスには新しいホリデーパップカップがあります！さらに、犬のおやつを獲得できる場所が20か所追加されました（多くは無料） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2cf1a0417fd8",
+   "title": "Stocking Stuffer Alert! Holiday Mini Tumblers Under $4 Each at Walmart!",
+   "link": "https://hip2save.com/deals/mini-tumblers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T22:10Z",
+   "firstSeen": "2026-11-04T22:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/Holiday-Mini-Tumblers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ストッキングスタッファーアラート！ウォルマートで各$ 4未満のホリデーミニタンブラー！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ストッキングスタッファーアラート！ウォルマートで各$ 4未満のホリデーミニタンブラー！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cf4f43b9aed3",
+   "title": "Little Tikes Cook ‘n Play Outdoor BBQ Only $48.99 at Walmart (Reg. $75)",
+   "link": "https://thefreebieguy.com/little-tikes-cook-n-play-outdoor-bbq/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T22:01Z",
+   "firstSeen": "2026-11-04T22:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/littletikesbbq-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 35,
+   "price": 48.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Little Tikes Cook ‘n Play屋外BBQウォルマートでたったの$ 48.99 （登録価格$ 75 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Little Tikes Cook ‘n Play屋外BBQウォルマートでたったの$ 48.99 （登録価格$ 75 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "415c0af16aa0",
+   "title": "Multi-Tool Keychains Just $4.99 on Amazon (Reg. $10)",
+   "link": "https://hip2save.com/deals/amazon-multi-tool/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T22:00Z",
+   "firstSeen": "2026-11-04T22:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/ZOOI-Carabiner-Multi-Tool.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 4.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "マルチツールキーチェーンAmazonでわずか$ 4.99 （登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "マルチツールキーチェーンAmazonでわずか$ 4.99 （登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8f2a6668e750",
+   "title": "Kroger / Harris Teeter: 4x Fuel Points On Third Party Giftcards (11/7-11/8)",
+   "link": "https://www.doctorofcredit.com/kroger-harris-teeter-stores-4x-fuel-points-on-select-gift-cards-includes-fixed-visa-mc-10-7-10-20/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-04T22:00Z",
+   "firstSeen": "2026-11-04T22:58Z",
+   "expires": "2026-11-08",
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Kroger"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "gift": {
+    "grocery": true
+   },
+   "ja": "Kroger/Harris Teeter ：サードパーティギフトカードの燃料ポイント4倍（ 11/7 ～ 11/8 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kroger",
+    "item": "Kroger/Harris Teeter ：サードパーティギフトカードの燃料ポイント4倍（ 11/7 ～ 11/8 ）",
+    "when": "11/8(日)まで",
+    "cond": ""
+   },
+   "date": "2026-11-08"
+  },
   {
    "id": "5af0b256c866",
    "title": "Amazon Grocery Canned Corn 4-Pack Only $2.24 Shipped",
@@ -131,8 +409,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "5af0b256c866",
-   "date": null
+   "date": null,
+   "dup": "5af0b256c866"
   },
   {
    "id": "d8225b2a6c03",
@@ -35535,40 +35813,6 @@
    "date": null
   },
   {
-   "id": "164b0d28e2d9",
-   "title": "Best Wednesday Food and Restaurant Deals | National First Responders Day, Dairy Queen, & More!",
-   "link": "https://thefreebieguy.com/cheap-wednesday-food-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T22:00Z",
-   "firstSeen": "2026-10-27T22:48Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Wednesday-Food-Deals-1-840x630.png",
-   "hot": true,
-   "stores": [
-    "Dairy Queen"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "最高の水曜日のフード＆レストランのお得情報|全米最初の対応者デー、乳製品クイーンなど！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Dairy Queen",
-    "item": "最高の水曜日のフード＆レストランのお得情報|全米最初の対応者デー、乳製品クイーンなど！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "2cbb3a26680f",
    "title": "Baseball Hats Are Back & Target Has the Cutest Ones!",
    "link": "https://hip2save.com/deals/target-hats/",
@@ -59573,99 +59817,6 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "ea376614f4e6",
-   "title": "Price Drop: Polly Pocket Advent Calendar Just $19.99 on Amazon (Will Sell Out!)",
-   "link": "https://hip2save.com/deals/polly-pocket-advent-calendar/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T22:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "55e48584ccc7",
-   "title": "LEGO Build IT! Pets Activity Set Just $7 on Amazon (Fun Stocking Stuffer)",
-   "link": "https://hip2save.com/deals/lego-build-it-pets/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T22:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "c83129d6e944",
-   "title": "WOW! Sportspower Wooden Playhouse Just $98 Shipped on Walmart.com (Reg. $300)",
-   "link": "https://hip2save.com/deals/sportspower-wooden-playhouse/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T22:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 67,
-   "price": 98.0,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
     "item": "",
     "when": "",
     "cond": ""
