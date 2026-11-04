@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T23:27Z",
+ "updated": "2026-11-04T23:53Z",
  "count": 1744,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -59,12 +59,81 @@
    "geminiEvent": 0,
    "mymemory": 15,
    "geminiToday": 15,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "c0577791279f",
+   "title": "Ekouaer Women’s Long Satin Silk Pajama Set Only $11.xx on Amazon (Reg $34)",
+   "link": "https://thefreebieguy.com/ekouaer-womens-long-satin-silk-pajama-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T23:50Z",
+   "firstSeen": "2026-11-04T23:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Ekouaer-pajamas-_20261104_184803_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Ekouaerレディースロングサテンシルクパジャマセットのみ$ 11.xx Amazon (Reg $ 34)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Ekouaerレディースロングサテンシルクパジャマセットのみ$ 11.xx Amazon (Reg $ 34)",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "4cb262fcd7e9",
+   "date": null
+  },
+  {
+   "id": "1fc457b3d4c3",
+   "title": "7-Eleven Deals | Free K Town Chicken Salad Sandwich + More!",
+   "link": "https://thefreebieguy.com/7-eleven-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T23:35Z",
+   "firstSeen": "2026-11-04T23:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Free-K-Town-Chicken-Salad-Sandwich-at-7-Eleven-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "セブンイレブンセール|無料のKタウンチキンサラダサンドなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "セブンイレブンセール|無料のKタウンチキンサラダサンドなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "78eae76a6a1e",
    "title": "Meijer: Free Box Of Cravings By Chrissy Pancake & Waffle Mixes After Aisle Rebate",
@@ -409,7 +478,7 @@
     "what": "燃料ポイント4倍",
     "where": "Kroger"
    },
-   "date": "2026-11-08"
+   "date": "2026-11-07"
   },
   {
    "id": "5af0b256c866",
@@ -898,7 +967,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-11-04T20:00Z",
    "firstSeen": "2026-11-04T20:08Z",
-   "expires": "2026-11-09",
+   "expires": null,
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Auntie-Annes-Free-Ornament-with-qualifying-purchase-thefreebieguy-840x630.png",
    "hot": true,
    "stores": [
@@ -33785,8 +33854,7 @@
     "what": "無料バーガー",
     "where": "Checkers & Rally’s"
    },
-   "date": null,
-   "dup": "928cbb19b542"
+   "date": null
   },
   {
    "id": "e20a3a82f076",
@@ -59765,68 +59833,6 @@
    "event": null,
    "eventNews": false,
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Birthday-cards.jpg?resize=306,182"
-  },
-  {
-   "id": "fbe539b4c23c",
-   "title": "Sharpie Pastel Markers 24-Pack Just $8 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/sharpie-markers/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T23:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "eef64c440f9a",
-   "title": "Lysol Air Sanitizer Spray 3-Pack Just $10 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/amazon-lysol-air-sanitizer/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T23:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "b702bfabfd8a",
