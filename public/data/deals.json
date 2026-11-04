@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T22:58Z",
+ "updated": "2026-11-04T23:27Z",
  "count": 1744,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,80 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 21,
-   "geminiToday": 14,
+   "mymemory": 15,
+   "geminiToday": 15,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "78eae76a6a1e",
+   "title": "Meijer: Free Box Of Cravings By Chrissy Pancake & Waffle Mixes After Aisle Rebate",
+   "link": "https://www.doctorofcredit.com/meijer-free-box-of-cravings-by-chrissy-pancake-waffle-mixes-after-aisle-rebate/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-04T23:19Z",
+   "firstSeen": "2026-11-04T23:27Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/11/freebies-meijer.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Meijer ： Aisleリベート後のChrissyパンケーキ＆ワッフルミックスによる渇望の無料ボックス",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Meijer ： Aisleリベート後のChrissyパンケーキ＆ワッフルミックスによる渇望の無料ボックス",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a5a69f1d81a8",
+   "title": "Rainbow Scratch Paper Bookmark Set Only $5.99 on Amazon (Reg. $10)",
+   "link": "https://hip2save.com/deals/amazon-scratch-art/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T23:00Z",
+   "firstSeen": "2026-11-04T23:27Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/rainbow-scratch-art-bookmarks.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 5.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レインボースクラッチペーパーブックマークセットのみ$ 5.99 Amazon （登録番号： $ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レインボースクラッチペーパーブックマークセットのみ$ 5.99 Amazon （登録番号： $ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "6aade5b14b28",
    "title": "TWO Large Boxes of Kellogg’s Frosted Mini-Wheats Just $4.47 Shipped on Amazon (Reg. $10)",
@@ -35572,43 +35638,6 @@
    "date": null
   },
   {
-   "id": "928cbb19b542",
-   "title": "Checkers & Rally’s Deals| FREE Big Buford & More!",
-   "link": "https://thefreebieguy.com/checkers-rallys-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T23:00Z",
-   "firstSeen": "2026-10-27T23:43Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Checkers-Rallys-BOGO-Classic-Burgers-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "Big Bufordバーガーなどが無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Checkers & Rally's",
-    "item": "Big Bufordバーガーなどが無料",
-    "when": "",
-    "cond": "",
-    "what": "無料バーガー",
-    "where": "Checkers"
-   },
-   "date": null
-  },
-  {
    "id": "c01d856673cc",
    "title": "Grace & Stella Lip Gloss Caramel Latte Only $8.xx on Amazon (Reg $14)",
    "link": "https://thefreebieguy.com/grace-stella-lip-gloss/",
@@ -59783,37 +59812,6 @@
    ],
    "pct": null,
    "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "a5862ce4eb67",
-   "title": "Step2 Spooky Spider & Pumpkin Planters Only $31.49 on Amazon (Reg. $45)",
-   "link": "https://hip2save.com/deals/step2-halloween-planters/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T23:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 30,
-   "price": 31.49,
    "freebie": null,
    "sum": {
     "store": "Amazon",
