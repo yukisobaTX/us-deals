@@ -54,5 +54,8 @@ jobs:
           git add public/data/
           git diff --cached --quiet && exit 0
           git commit -m "Digest $(date -u +%Y-%m-%d)"
-          git pull --rebase -X theirs origin main
-          git push
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            echo "push 失敗 ($i/3) → $((i*20))秒後に再試行"; sleep $((i*20))
+          done
+          exit 1
