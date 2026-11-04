@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04T09:10Z",
- "count": 1675,
+ "updated": "2026-11-04T12:00Z",
+ "count": 1676,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 3
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 4
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,161 @@
    "added": 0
   },
   "ja": {
-   "gemini": 25,
+   "gemini": 21,
    "geminiEvent": 0,
-   "mymemory": 10,
-   "geminiToday": 3,
+   "mymemory": 3,
+   "geminiToday": 4,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "77916bb6c3f6",
+   "title": "*HOT* Kid’s Magnetic Tiles Set (40 pieces) only $11.99!",
+   "link": "https://moneysavingmom.com/hot-kids-magnetic-tiles-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T11:51Z",
+   "firstSeen": "2026-11-04T12:00Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/07/Magnet-Tiles-630x790.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT *キッズマグネティックタイルセット（ 40枚）は$ 11.99のみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "* HOT *キッズマグネティックタイルセット（ 40枚）は$ 11.99のみ！",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "c219dc472f1b",
+   "title": "Walgreens: Set of 6 Customized 5″x7″ Premium Photo Cards Free With Promo Code BIGSIX",
+   "link": "https://www.doctorofcredit.com/walgreens-set-of-6-customized-5x7-premium-photo-cards-free-with-promo-code/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-04T11:30Z",
+   "firstSeen": "2026-11-04T12:00Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free",
+    "coupon"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Walgreens",
+    "item": "写真カード6枚セット",
+    "when": "〜11/4",
+    "cond": "プロモコード",
+    "what": "無料写真カード",
+    "where": "Walgreens"
+   },
+   "ja": "写真カード6枚セット",
+   "jaVia": "gemini",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "cc61d2381670",
+   "title": "Gold Bond Diabetic Dry Skin Relief Body Lotion Only $2.xx on Amazon (Reg. $5)",
+   "link": "https://thefreebieguy.com/gold-bond-diabetics-dry-skin-relief-body-lotion/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T11:09Z",
+   "firstSeen": "2026-11-04T12:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Gold-Bond-Diabetic-Body-Lotion-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Gold Bond Diabetic Dry Skin Reliefボディローションのみ$ 2.xx Amazon (Reg. $ 5)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Gold Bond Diabetic Dry Skin Reliefボディローションのみ$ 2.xx Amazon (Reg. $ 5)",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "fc305728e4a5",
+   "date": null
+  },
+  {
+   "id": "dbcb00f56494",
+   "title": "Fandango: Free Ticket ($15 Max) To Everest: The Other Side",
+   "link": "https://www.doctorofcredit.com/fandango-free-ticket-15-max-to-everest-the-other-side/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-04T09:26Z",
+   "firstSeen": "2026-11-04T12:00Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Fandango",
+    "item": "映画チケット($15まで)",
+    "when": "〜11/4",
+    "what": "無料映画",
+    "where": "Fandango"
+   },
+   "ja": "映画チケット($15まで)",
+   "jaVia": "gemini",
+   "dup": "c6814fe2d240",
+   "date": "2026-11-04"
+  },
   {
    "id": "2e85935b1288",
    "title": "Physician’s Choice Fiber Gummies 60-Count Just $7 Shipped on Amazon (Reg. $16)",
@@ -1174,6 +1320,45 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "e8245e9f6e15",
+   "title": "Smoothie King: Free 12 oz. Dark Chocolate Peppermint D-Lite [11/3 Only]",
+   "link": "https://www.doctorofcredit.com/smoothie-king-free-12-oz-dark-chocolate-peppermint-d-lite-11-3-only/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-03T20:42Z",
+   "firstSeen": "2026-11-04T12:00Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [
+    "Smoothie King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-03"
+   },
+   "sum": {
+    "store": "Smoothie King",
+    "item": "12ozスムージー",
+    "when": "11/3",
+    "what": "無料スムージー",
+    "where": "Smoothie King"
+   },
+   "ja": "12ozスムージー",
+   "jaVia": "gemini",
+   "dup": "2c9d8cab574e",
+   "date": "2026-11-03"
   },
   {
    "id": "a60ff86ad8be",
@@ -4583,44 +4768,6 @@
     "item": "",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "9ba863692733",
-   "title": "Election Day 2026 Freebies and Deals",
-   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-03T12:22Z",
-   "firstSeen": "2026-11-04T07:31Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "ja": "選挙日2026の無料特典と割引",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "",
-    "item": "選挙日2026の無料特典と割引",
-    "when": "2026-11-03",
-    "cond": "",
-    "what": "選挙特典まとめ",
-    "where": "全米"
    },
    "date": null
   },
@@ -35847,38 +35994,6 @@
    "date": null
   },
   {
-   "id": "61d49e599cf9",
-   "title": "Get Paid to Drive the PLANTERS NUTmobile & More!",
-   "link": "https://thefreebieguy.com/get-paid-to-drive-the-planters-nutmobile-more/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:54Z",
-   "firstSeen": "2026-10-27T12:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Get-Paid-to-Drive-the-PLANTERS-NUTmobile-and-More-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "プランターNUTmobileなどを運転するために報酬を受け取りましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "プランターNUTmobileなどを運転するために報酬を受け取りましょう！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "02302e816b3f",
    "title": "Toro Flex-Force String Trimmer & Leaf Blower Combo Kit Only $179 at Lowes (Reg $299)",
    "link": "https://thefreebieguy.com/toro-lowes/",
@@ -36261,43 +36376,6 @@
     "item": "Brigetteの$ 22.26 CVSショッピング旅行（報酬後$ 1.74マネーメーカー）と$ 39.04 Walgreensショッピング旅行（報酬後$ 11.63 ） ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "d5119d4e4f9a",
-   "title": "Free KONG Dog or Cat Toy!",
-   "link": "https://moneysavingmom.com/free-kong-dog-or-cat-toy/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T10:54Z",
-   "firstSeen": "2026-10-28T12:52Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/FREE-KONG-Toy-for-Cats-or-Dogs-630x382.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "KONGの犬か猫用おもちゃが無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "KONG",
-    "item": "KONGの犬か猫用おもちゃが無料",
-    "when": "",
-    "cond": "",
-    "what": "無料ペット玩具",
-    "where": "KONG"
    },
    "date": null
   },
@@ -57269,38 +57347,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "e2bcfd8c8b47",
-   "title": "Turn Any Gift Into a Burger with This Fun Wrapping Paper Set (Under $10 Shipped!)",
-   "link": "https://hip2save.com/deals/burger-wrapping-paper/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T11:26Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Burger-Wrapping-Paper-Set.jpg?resize=306,182"
   },
   {
    "id": "c0feef908921",
