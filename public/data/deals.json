@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T21:03Z",
- "count": 1737,
+ "updated": "2026-11-04T21:58Z",
+ "count": 1740,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 5
   },
   "h2s-free": {
    "read": 100,
@@ -12,19 +12,19 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
-   "added": 6
+   "added": 5
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 3
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,254 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 12,
+   "mymemory": 23,
+   "geminiToday": 13,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "5af0b256c866",
+   "title": "Amazon Grocery Canned Corn 4-Pack Only $2.24 Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-canned-vegetables/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T21:40Z",
+   "firstSeen": "2026-11-04T21:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Amazon-Grocery-Canned-Corn.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon食料品トウモロコシ缶詰4パックのみ$ 2.24発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon食料品トウモロコシ缶詰4パックのみ$ 2.24発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e51f28809dac",
+   "title": "Amazon Grocery Whole Kernel Canned Corn 4-Pack only $2.24 shipped!",
+   "link": "https://moneysavingmom.com/amazon-grocery-canned-vegetables-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T21:31Z",
+   "firstSeen": "2026-11-04T21:58Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Amazon-Grocery-Canned-Whole-Kernel-Corn-15.25-Oz-Pack-of-4.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Groceryホールカーネル缶詰トウモロコシ4パック$ 2.24のみ発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Groceryホールカーネル缶詰トウモロコシ4パック$ 2.24のみ発送！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "5af0b256c866",
+   "date": null
+  },
+  {
+   "id": "d8225b2a6c03",
+   "title": "Doughlicious Advent Calendar Back at Target on December 1st",
+   "link": "https://hip2save.com/deals/doughlicious-frozen-advent-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T21:30Z",
+   "firstSeen": "2026-11-04T21:58Z",
+   "expires": "2026-12-01",
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/doughlicious-advent-calendar-target.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Doughliciousアドベントカレンダー12月1日にターゲットに戻る",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Doughliciousアドベントカレンダー12月1日にターゲットに戻る",
+    "when": "12/1(火)まで",
+    "cond": ""
+   },
+   "date": "2026-12-01"
+  },
+  {
+   "id": "020a720689e8",
+   "title": "Kleenex Ultra Soft Facial Tissues, 12 boxes only $0.93 each shipped!",
+   "link": "https://moneysavingmom.com/kleenex-ultra-soft-facial-tissues-four-boxes-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T21:27Z",
+   "firstSeen": "2026-11-04T21:58Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/07/Kleenex-630x529.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kleenexウルトラソフトフェイシャルティッシュ、12箱各発送わずか$ 0.93 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Kleenexウルトラソフトフェイシャルティッシュ、12箱各発送わずか$ 0.93 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7631781ba63b",
+   "title": "15+ of the Best Gluten Free Gifts",
+   "link": "https://moneysavingmom.com/15-gluten-free-gifts-under-30/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T21:15Z",
+   "firstSeen": "2026-11-04T21:58Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2019/11/15-Unique-Gluten-Free-Gift-Ideas-1.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "グルテンフリーのベストギフト15個以上",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "グルテンフリーのベストギフト15個以上",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7478b049adb4",
+   "title": "Lowes Mini Tote Rack Just $9.98 (Cutest Small-Space Storage!)",
+   "link": "https://hip2save.com/deals/lowes-mini-tote-rack/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T21:10Z",
+   "firstSeen": "2026-11-04T21:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/lowes-mini-tote-rack.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Lowesミニトートラックわずか$ 9.98 （最もかわいいスモールスペースストレージ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Lowesミニトートラックわずか$ 9.98 （最もかわいいスモールスペースストレージ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9f1d0d999285",
+   "title": "*RUN* Stanley 1913 Rose Quartz Water Bottle Only $14.98 on Walmart.com (Reg. $45)",
+   "link": "https://hip2save.com/deals/stanley-water-bottle/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T21:05Z",
+   "firstSeen": "2026-11-04T21:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/08/stanley-1913-water-bottle.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 14.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "*ラン* Stanley 1913ローズクォーツウォーターボトルのみ$ 14.98 Walmart.com （登録番号： $ 45 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "*ラン* Stanley 1913ローズクォーツウォーターボトルのみ$ 14.98 Walmart.com （登録番号： $ 45 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "ed3f924d2896",
    "title": "Coffee Mug Warmer Only $6.49 on Amazon (Reg. $16)",
@@ -131,8 +371,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "83c9feccbc65",
-   "date": null
+   "date": null,
+   "dup": "83c9feccbc65"
   },
   {
    "id": "e465023a9359",
@@ -200,8 +440,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "2bec8dc433a0",
-   "date": null
+   "date": null,
+   "dup": "2bec8dc433a0"
   },
   {
    "id": "ce2134007cd1",
@@ -1920,13 +2160,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "2つのCharmin Ultra Soft Mega XL 12パックLowe'sで$ 32のみ（登録価格$ 50 ） ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "2つのCharmin Ultra Soft Mega XL 12パックLowe'sで$ 32のみ（登録価格$ 50 ） ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a56325dfdb27",
@@ -1952,13 +2194,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ジャック・イン・ザ・ボックス：タコス2つが$ 0.75 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Jack in the Box",
-    "item": "",
+    "item": "ジャック・イン・ザ・ボックス：タコス2つが$ 0.75 ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4ac2f8d0bcba",
@@ -3190,13 +3434,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "今週のターゲットセール： $ 1.49ゴールドボンドハンドクリーム、$ 1.99コルゲートアイテム、ペーパー製品など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "今週のターゲットセール： $ 1.49ゴールドボンドハンドクリーム、$ 1.99コルゲートアイテム、ペーパー製品など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ab48e0278298",
@@ -59420,131 +59666,6 @@
    "freebie": null,
    "sum": {
     "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "233926c50f36",
-   "title": "Cross Initial Necklaces Just $4 on Amazon | Easy Gift Idea!",
-   "link": "https://hip2save.com/deals/amazon-cross-necklace/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T21:55Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/M-MOOHAM-Cross-Necklace-1.jpg?resize=306,182"
-  },
-  {
-   "id": "f0f7bc807e3a",
-   "title": "Kids 40″ Saucer Swing Only $19.99 on Walmart.com (Reg. $50)",
-   "link": "https://hip2save.com/deals/saucer-swing/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T21:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 60,
-   "price": 19.99,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": "子ども向け"
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "2d8ae34ceec3",
-   "title": "NEW Red & Green Holiday Teeny Totes Just $1.98 at Lowe’s",
-   "link": "https://hip2save.com/deals/lowes-teeny-totes/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T21:45Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Lowe's",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "12c422f838df",
-   "title": "Up to 75% Off Kohl’s Tek Gear Clothing | Styles from $4.45",
-   "link": "https://hip2save.com/deals/kohls-tek-gear-clothing/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T21:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 75,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Kohl's",
     "item": "",
     "when": "",
     "cond": ""
