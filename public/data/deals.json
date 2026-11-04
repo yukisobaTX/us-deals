@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-04T12:00Z",
- "count": 1676,
+ "updated": "2026-11-04T13:21Z",
+ "count": 1687,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 5
   },
   "h2s-free": {
    "read": 100,
-   "added": 22
+   "added": 20
   },
   "doc": {
    "read": 15,
-   "added": 3
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 7
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,456 @@
    "added": 0
   },
   "ja": {
-   "gemini": 21,
+   "gemini": 19,
    "geminiEvent": 0,
-   "mymemory": 3,
-   "geminiToday": 4,
+   "mymemory": 5,
+   "geminiToday": 5,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "1a2dfc7fadc4",
+   "title": "Cetaphil Cleansing Bar Just 59¢ at CVS (Regularly $6)",
+   "link": "https://hip2save.com/deals/cetaphil-bar-soap/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T13:18Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2021/12/cetaphil-bars.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "CVS"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CetaphilクレンジングバーCVSでたったの59 ¢ （通常6 $ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "CVS",
+    "item": "CetaphilクレンジングバーCVSでたったの59 ¢ （通常6 $ ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "10030e313091",
+   "date": null
+  },
+  {
+   "id": "34d4168ba6fd",
+   "title": "Crock-Pot 4.5qt Manual Slow Cooker only $17.99, plus more {Today Only!}",
+   "link": "https://moneysavingmom.com/crock-pot-4-5qt-manual-slow-cooker-deal-2/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T13:18Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": "2026-11-04",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Crockpots-630x277.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "クロックポット4.5qt手動スロークッカーのみ$ 17.99、その他{本日限定！}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "クロックポット4.5qt手動スロークッカーのみ$ 17.99、その他{本日限定！}",
+    "when": "11/4(水)まで",
+    "cond": ""
+   },
+   "date": "2026-11-04"
+  },
+  {
+   "id": "5d9eb4f72b59",
+   "title": "Bluey Big Heeler 4WD and Family Toddler Toy Car Only $14.xx on Amazon (Reg $50)",
+   "link": "https://thefreebieguy.com/bluey-big-heeler-4wd/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T13:08Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/bluey-4wd-toy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 72,
+   "price": 14.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bluey Big Heeler 4 WDとファミリー幼児おもちゃ車のみ$ 14.xx Amazon （登録価格$ 50 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Bluey Big Heeler 4 WDとファミリー幼児おもちゃ車のみ$ 14.xx Amazon （登録価格$ 50 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "782782c16df7",
+   "title": "Ocean Spray Cranberry Sauce Can 4-Pack Just $4.76 Shipped on Amazon (Reg. $10)",
+   "link": "https://hip2save.com/deals/ocean-spray-cranberry-sauce/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T13:05Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/ocean-spray-cranberry-sauce.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 52,
+   "price": 4.76,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "オーシャンスプレークランベリーソース缶4パックわずか$ 4.76アマゾン発送（登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "オーシャンスプレークランベリーソース缶4パックわずか$ 4.76アマゾン発送（登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7430b0b5e42d",
+   "title": "2-Pack Kellogg’s Frosted Mini-Wheats Breakfast Cereal Only $4.xx on Amazon!",
+   "link": "https://thefreebieguy.com/kelloggs-frosted-mini-wheats-breakfast-cereal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T12:48Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Kelloggs-Frosted-Mini-Wheats-Breakfast-Cereal-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "2パックKellogg's Frosted Mini - Whats朝食シリアルアマゾンで$ 4.xxのみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "2パックKellogg's Frosted Mini - Whats朝食シリアルアマゾンで$ 4.xxのみ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "badbe9016541",
+   "title": "Walmart Drawing TODAY at 5PM EST — NeeDoh Toy & Pokemon Card Game For Grabs!",
+   "link": "https://thefreebieguy.com/walmart-drawing/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T12:44Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": "2026-11-04",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Pokemon-and-Nee-Doh-Drawing-Nov-4-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "11/4(水)まで 5PM",
+    "cond": ""
+   },
+   "date": "2026-11-04"
+  },
+  {
+   "id": "a3977bcabbc2",
+   "title": "Free Shackburger with Purchase from Shake Shack with Verizon Rewards!",
+   "link": "https://thefreebieguy.com/possible-freebie-from-verizon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T12:43Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Verizon-Store-Front-840x630.png",
+   "hot": true,
+   "stores": [
+    "Shake Shack"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Shake Shack",
+    "item": "シャックバーガー無料",
+    "when": "2026-11-04以降",
+    "cond": "Verizon会員限定",
+    "what": "無料バーガー",
+    "where": "Shake Shack"
+   },
+   "ja": "シャックバーガー無料",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "928a1cc7ddc5",
+   "title": "Campbell’s Condensed Cream of Mushroom Soup Just 39¢ on Amazon",
+   "link": "https://thefreebieguy.com/campbells-condensed-cream-of-mushroom-soup/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T12:32Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Campbells-Condensed-Cream-of-Mushroom-Soup-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "dced924eedcf",
+   "date": null
+  },
+  {
+   "id": "7988d51c71df",
+   "title": "Score 6 FREE Walgreens Photo Cards w/ Same Day Pickup",
+   "link": "https://hip2save.com/deals/walgreens-photo-cards/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T12:30Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/walgreens-photo-cards.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Walgreens",
+    "item": "フォトカード6枚無料",
+    "when": "2026-11-04",
+    "cond": "当日受取",
+    "what": "無料の写真",
+    "where": "Walgreens"
+   },
+   "ja": "フォトカード6枚無料",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "bac358ce8d51",
+   "title": "Ekouaer Women’s Fleece-Lined Thermal Set Only $7.xx on Amazon (Reg $20)",
+   "link": "https://thefreebieguy.com/ekouaer-womens-fleece-lined-thermal-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T12:24Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Ekouaer-Thermal-Underwear-set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": 7.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "85877b4c1e29",
+   "date": null
+  },
+  {
+   "id": "36cd5ccdef85",
+   "title": "Domino’s Deals | Win Digital Copies of Minecraft Dungeons 2 & More!",
+   "link": "https://thefreebieguy.com/dominos-coupons-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T12:22Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Dominos-x-Minecraft-Dungeons-2--840x630.png",
+   "hot": true,
+   "stores": [
+    "Domino's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Domino's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7d87c8d2e996",
+   "title": "Personalized Engraved Mini Portable Double-Sided Makeup Mirror only $9.99!",
+   "link": "https://moneysavingmom.com/personalized-engraved-mini-portable-double-sided-makeup-mirror-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T12:12Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Personalized-Engraved-mini-Portable-Double-Sided-Makeup-Mirror-630x610.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b0c4839c97aa",
+   "title": "Sirius XM Deal: 3 FREE Months of XM Radio {Car + App OR App Only!}",
+   "link": "https://moneysavingmom.com/hot-siriusxm-deal-free-in-car-satellite-radio-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T12:07Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/11/InCar-dash-finger-1929x1080-1-630x354.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": "アプリ"
+   },
+   "date": null
+  },
   {
    "id": "77916bb6c3f6",
    "title": "*HOT* Kid’s Magnetic Tiles Set (40 pieces) only $11.99!",
@@ -105,7 +546,7 @@
    "source": "Doctor of Credit",
    "posted": "2026-11-04T11:30Z",
    "firstSeen": "2026-11-04T12:00Z",
-   "expires": null,
+   "expires": "2026-11-04",
    "thumb": null,
    "hot": true,
    "stores": [
@@ -170,8 +611,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "fc305728e4a5",
-   "date": null
+   "date": null,
+   "dup": "fc305728e4a5"
   },
   {
    "id": "dbcb00f56494",
@@ -180,7 +621,7 @@
    "source": "Doctor of Credit",
    "posted": "2026-11-04T09:26Z",
    "firstSeen": "2026-11-04T12:00Z",
-   "expires": null,
+   "expires": "2026-11-04",
    "thumb": null,
    "hot": true,
    "stores": [],
@@ -207,8 +648,8 @@
    },
    "ja": "映画チケット($15まで)",
    "jaVia": "gemini",
-   "dup": "c6814fe2d240",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dup": "c6814fe2d240"
   },
   {
    "id": "2e85935b1288",
@@ -1320,45 +1761,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e8245e9f6e15",
-   "title": "Smoothie King: Free 12 oz. Dark Chocolate Peppermint D-Lite [11/3 Only]",
-   "link": "https://www.doctorofcredit.com/smoothie-king-free-12-oz-dark-chocolate-peppermint-d-lite-11-3-only/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-03T20:42Z",
-   "firstSeen": "2026-11-04T12:00Z",
-   "expires": null,
-   "thumb": null,
-   "hot": true,
-   "stores": [
-    "Smoothie King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-03"
-   },
-   "sum": {
-    "store": "Smoothie King",
-    "item": "12ozスムージー",
-    "when": "11/3",
-    "what": "無料スムージー",
-    "where": "Smoothie King"
-   },
-   "ja": "12ozスムージー",
-   "jaVia": "gemini",
-   "dup": "2c9d8cab574e",
-   "date": "2026-11-03"
   },
   {
    "id": "a60ff86ad8be",
@@ -4769,6 +5171,43 @@
     "when": "",
     "cond": ""
    },
+   "date": null
+  },
+  {
+   "id": "9ba863692733",
+   "title": "Election Day 2026 Freebies and Deals",
+   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T12:22Z",
+   "firstSeen": "2026-11-04T13:21Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "sum": {
+    "item": "選挙日特典・無料提供",
+    "when": "2026-11-03",
+    "cond": "選挙日",
+    "what": "選挙の特典",
+    "where": "各飲食店"
+   },
+   "ja": "選挙日特典・無料提供",
+   "jaVia": "gemini",
    "date": null
   },
   {
@@ -35520,41 +35959,6 @@
    "date": null
   },
   {
-   "id": "a61afc58448f",
-   "title": "Earn Prizes & Freebies with the Junior Ranger Challenge!",
-   "link": "https://thefreebieguy.com/earn-prizes-freebies-with-the-junior-ranger-challenge/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T13:12Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/The-Freebie-Guy-Junior-Ranger-Program-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "sum": {
-    "item": "ジュニアレンジャー挑戦で賞品・無料特典",
-    "what": "レンジャー特典",
-    "where": "国立公園"
-   },
-   "ja": "ジュニアレンジャー挑戦で賞品・無料特典",
-   "jaVia": "claude",
-   "date": null
-  },
-  {
    "id": "ef98677c68f9",
    "title": "Huge Price Drops on LEGO Botanical Collection and Flower Sets!",
    "link": "https://moneysavingmom.com/rare-deals-on-lego-botanical-collection-sets/",
@@ -57309,37 +57713,6 @@
    "freebie": null,
    "sum": {
     "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "b4fff10bd0b7",
-   "title": "Planters Peanuts Canister Only $1.79 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/planters-peanuts/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T12:26Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
     "item": "",
     "when": "",
     "cond": ""
