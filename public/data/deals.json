@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T19:12Z",
- "count": 1728,
+ "updated": "2026-11-04T20:08Z",
+ "count": 1735,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 5
+   "added": 6
   },
   "h2s-free": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 6
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -57,14 +57,395 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 10,
+   "mymemory": 24,
+   "geminiToday": 11,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "6a63c76801fc",
+   "title": "Auntie Anne’s Deals | Free Holiday Ornament beginning November 9th!",
+   "link": "https://thefreebieguy.com/auntie-annes-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T20:00Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Auntie-Annes-Free-Ornament-with-qualifying-purchase-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Auntie Anne's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-09"
+   },
+   "ja": "アンおばさんのセール| 11月9日から無料のホリデーオーナメントが登場！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Auntie Anne's",
+    "item": "アンおばさんのセール| 11月9日から無料のホリデーオーナメントが登場！",
+    "when": "11/9(月)",
+    "cond": ""
+   },
+   "date": "2026-11-09"
+  },
+  {
+   "id": "bc9d627571cc",
+   "title": "Hot Events at GameStop! Score Free Booster Packs, Promo Cards and MORE All Month Long!",
+   "link": "https://thefreebieguy.com/gamestop-event/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T19:46Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/GameStop-Events-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "GameStopでホットイベント！ 1か月間無料のブースターパック、プロモーションカードなどを獲得しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "GameStop",
+    "item": "GameStopでホットイベント！ 1か月間無料のブースターパック、プロモーションカードなどを獲得しましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6105a2bfaba8",
+   "title": "Car Carrier Truck Toy Just $14.49 on Amazon (Reg. $29)",
+   "link": "https://hip2save.com/deals/car-carrier-truck-toy/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T19:45Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/LASCOTON-Car-Carrier-Truck-Set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 14.49,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでわずか$ 14.49のカーキャリアトラックのおもちゃ（登録価格$ 29 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでわずか$ 14.49のカーキャリアトラックのおもちゃ（登録価格$ 29 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ab20da3fbce8",
+   "title": "Costco Adds GrubHub ($100 Giftcard For $79.99)",
+   "link": "https://www.doctorofcredit.com/costco-adds-grubhub-100-giftcard-for-79-99/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-04T19:41Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/11/grubhub-giftcard-deal-1024x313.png",
+   "hot": false,
+   "stores": [
+    "Costco"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "gift": {
+    "grocery": true
+   },
+   "ja": "コストコ、GrubHubを追加（ $ 79.99で$ 100ギフトカード）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Costco",
+    "item": "コストコ、GrubHubを追加（ $ 79.99で$ 100ギフトカード）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "af0fd1e6492d",
+   "title": "Papa Murphy’s Deals | 50% Off Any Pizza through November 9th!",
+   "link": "https://thefreebieguy.com/papa-murphys-pizza-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T19:35Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": "2026-11-09",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Papa-Murphys-Multiple-Food-Items-on-a-Table-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "パパ・マーフィーのセール| 11月9日までピザが50%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "パパ・マーフィーのセール| 11月9日までピザが50%オフ！",
+    "when": "11/9(月)まで",
+    "cond": ""
+   },
+   "dup": "a7fda671e9c0",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "b80984e62e18",
+   "title": "PacSun Early Black Friday Sales Have Started | $35 Comfy Sweats, $10 Tees & Bikini Tops, & More",
+   "link": "https://thefreebieguy.com/pacsun-black-friday-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T19:27Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/PacSun-Store-Image-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "PacSunアーリーブラックフライデーセールが始まりました| $ 35の快適なスウェット、$ 10のティー＆ビキニトップなど",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "PacSunアーリーブラックフライデーセールが始まりました| $ 35の快適なスウェット、$ 10のティー＆ビキニトップなど",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7f85d7665504",
+   "title": "RUN! The Little Debbie Christmas Tree Cake Blanket Is Back In Stock!",
+   "link": "https://hip2save.com/deals/little-debbie-christmas-tree-cake-blanket/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T19:26Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Little-Debbie-Christmas-Tree-Cakes-Blanket-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "走れ！リトルデビーのクリスマスツリーケーキブランケットが入荷しました！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "走れ！リトルデビーのクリスマスツリーケーキブランケットが入荷しました！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d60ee6ce4908",
+   "title": "*HOT* Auraglow Sensitive Teeth Whitening Strips, 28 count only $6.79 shipped, plus more!",
+   "link": "https://moneysavingmom.com/auraglow-teeth-whitening-kit-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T19:25Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/06/Strips-630x823.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT *オーラグロー感受性歯のホワイトニングストリップ、28カウントのみ$ 6.79発送、その他多数！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "* HOT *オーラグロー感受性歯のホワイトニングストリップ、28カウントのみ$ 6.79発送、その他多数！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "89c7c3b13be8",
+   "title": "Peanuts Kids Slippers ONLY $5 on Walmart.com (Reg. $15)",
+   "link": "https://hip2save.com/deals/peanuts-kids-slippers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T19:22Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Snoopy-by-Peanuts-Halloween-Kids-Slippers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ピーナッツキッズスリッパはWalmart.comで$ 5のみ（登録番号： $ 15 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ピーナッツキッズスリッパはWalmart.comで$ 5のみ（登録番号： $ 15 ）",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "4cb62efa0395",
+   "title": "IKEA Giving Away FREE Holiday Bag Charms & Photo Frames on 11/28 – Register NOW!",
+   "link": "https://hip2save.com/deals/ikea-holiday-event/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T19:19Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": "2026-11-28",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/IKEA-Bag-Charm.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "IKEA"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-28"
+   },
+   "ja": "11月28日、IKEA Giving Away無料ホリデーバッグチャーム＆フォトフレーム–今すぐ登録！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "IKEA",
+    "item": "11月28日、IKEA Giving Away無料ホリデーバッグチャーム＆フォトフレーム–今すぐ登録！",
+    "when": "11/28(土)",
+    "cond": "要登録"
+   },
+   "date": "2026-11-28"
+  },
+  {
+   "id": "4011c528498a",
+   "title": "BEST Kroger BOGO Deals | Save on Coca-Cola, Perdue Chicken, Peanut Butter, & More",
+   "link": "https://hip2save.com/deals/kroger-bogo/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T19:15Z",
+   "firstSeen": "2026-11-04T20:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2021/12/kroger-grocery-pickup-bags.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kroger"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "最高のKroger BOGOセール|コカコーラ、パーデューチキン、ピーナッツバターなどをお得に購入",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kroger",
+    "item": "最高のKroger BOGOセール|コカコーラ、パーデューチキン、ピーナッツバターなどをお得に購入",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "2bf6fc7bf7bc",
    "title": "Target’s Christmas Icon Cups & Figural Tumblers Are ONLY $5!",
@@ -4129,44 +4510,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e8245e9f6e15",
-   "title": "Smoothie King: Free 12 oz. Dark Chocolate Peppermint D-Lite [11/3 Only]",
-   "link": "https://www.doctorofcredit.com/smoothie-king-free-12-oz-dark-chocolate-peppermint-d-lite-11-3-only/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-03T20:42Z",
-   "firstSeen": "2026-11-04T19:12Z",
-   "expires": null,
-   "thumb": null,
-   "hot": true,
-   "stores": [
-    "Smoothie King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-03"
-   },
-   "ja": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Smoothie King",
-    "item": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
-    "when": "11/3(火)",
-    "cond": ""
-   },
-   "dup": "2c9d8cab574e",
-   "date": "2026-11-03"
   },
   {
    "id": "a60ff86ad8be",
@@ -54003,7 +54346,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/CINCOM-Leg-Massager.jpg?resize=306,182"
   },
   {
    "id": "c10fbc58e213",
@@ -59102,100 +59446,6 @@
    ],
    "pct": 53,
    "price": 9.49,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "33dcb689d09e",
-   "title": "Pop-Tarts 32-Count Variety Pack Just $7 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/pop-tarts/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T19:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "cce2121a1234",
-   "title": "Soda Can 12-Packs Just $5.52 Each Shipped on Amazon",
-   "link": "https://hip2save.com/deals/amazon-soda/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T19:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Dr-Pepper-Zero-Sugar.jpg?resize=306,182"
-  },
-  {
-   "id": "b70184920120",
-   "title": "PUR Gum 12-Pack Just $7.43 Shipped on Amazon – 62¢ per Pack!",
-   "link": "https://hip2save.com/deals/pur-gum/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T19:15Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
    "freebie": null,
    "sum": {
     "store": "Amazon",
