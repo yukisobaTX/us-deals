@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04T07:31Z",
- "count": 1676,
+ "updated": "2026-11-04T09:10Z",
+ "count": 1675,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 3
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,12 +55,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 25,
    "geminiEvent": 0,
-   "mymemory": 22,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "mymemory": 10,
+   "geminiToday": 3,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -370,13 +369,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "延長されました！無料のMTN DEW Baja Blastを獲得しましょう！今すぐセーブオファーを利用して、後で店内で引き換えましょう！",
-   "jaVia": "mymemory",
+   "ja": "MTN DEW Baja Blastが無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "延長されました！無料のMTN DEW Baja Blastを獲得しましょう！今すぐセーブオファーを利用して、後で店内で引き換えましょう！",
+    "item": "MTN DEW Baja Blastが無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料ドリンク",
+    "where": "店舗"
    },
    "date": null
   },
@@ -986,13 +987,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ブラックフライデーに買うべき最高のもの（そして買わないもの）",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーのおすすめ商品",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target・Amazon",
-    "item": "ブラックフライデーに買うべき最高のもの（そして買わないもの）",
+    "item": "ブラックフライデーのおすすめ商品",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "特売情報",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -1023,13 +1026,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "スターバックス： 1年間スターバックス無料プロモーション",
-   "jaVia": "mymemory",
+   "ja": "1年分のスターバックスが無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Starbucks",
-    "item": "スターバックス： 1年間スターバックス無料プロモーション",
+    "item": "1年分のスターバックスが無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料コーヒー",
+    "where": "Starbucks"
    },
    "date": null
   },
@@ -1092,13 +1097,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Amazonで購入すると、Sol de Janeiro Cheirosa 76ヘア＆ボディミストが無料！",
-   "jaVia": "mymemory",
+   "ja": "ヘア＆ボディミストが無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "Amazonで購入すると、Sol de Janeiro Cheirosa 76ヘア＆ボディミストが無料！",
+    "item": "ヘア＆ボディミストが無料",
     "when": "",
-    "cond": "購入時"
+    "cond": "要購入",
+    "what": "無料ミスト",
+    "where": "Amazon"
    },
    "date": null
   },
@@ -1167,44 +1174,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e8245e9f6e15",
-   "title": "Smoothie King: Free 12 oz. Dark Chocolate Peppermint D-Lite [11/3 Only]",
-   "link": "https://www.doctorofcredit.com/smoothie-king-free-12-oz-dark-chocolate-peppermint-d-lite-11-3-only/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-03T20:42Z",
-   "firstSeen": "2026-11-04T07:31Z",
-   "expires": null,
-   "thumb": null,
-   "hot": true,
-   "stores": [
-    "Smoothie King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-03"
-   },
-   "ja": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Smoothie King",
-    "item": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
-    "when": "11/3(火)",
-    "cond": ""
-   },
-   "dup": "2c9d8cab574e",
-   "date": "2026-11-03"
   },
   {
    "id": "a60ff86ad8be",
@@ -1672,13 +1641,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "Sleep Numberのブラックフライデーセールが開始|最も人気のあるマットレスをお得に購入",
-   "jaVia": "mymemory",
+   "ja": "マットレスの大幅割引",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Sleep Numberのブラックフライデーセールが開始|最も人気のあるマットレスをお得に購入",
+    "store": "Sleep Number",
+    "item": "マットレスの大幅割引",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "セール情報",
+    "where": "Sleep Number"
    },
    "date": null
   },
@@ -1812,13 +1783,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Best Buy Pokemon Prismatic Evolutionsエリートトレーナーボックス–購入への無料招待をリクエストしてください！",
-   "jaVia": "mymemory",
+   "ja": "ポケモンカードボックスの購入招待",
+   "jaVia": "gemini",
    "sum": {
     "store": "Best Buy",
-    "item": "Best Buy Pokemon Prismatic Evolutionsエリートトレーナーボックス–購入への無料招待をリクエストしてください！",
+    "item": "ポケモンカードボックスの購入招待",
     "when": "",
-    "cond": ""
+    "cond": "要リクエスト",
+    "what": "購入権招待",
+    "where": "Best Buy"
    },
    "date": null
   },
@@ -2014,13 +1987,15 @@
     "kind": "store",
     "when": "2026-11-28"
    },
-   "ja": "11月28日にIKEAで開催される無料ホリデーイベント|無料バッグチャーム、クッキーデコレーションなど",
-   "jaVia": "mymemory",
+   "ja": "バッグチャームやクッキー装飾",
+   "jaVia": "gemini",
    "sum": {
     "store": "IKEA",
-    "item": "11月28日にIKEAで開催される無料ホリデーイベント|無料バッグチャーム、クッキーデコレーションなど",
-    "when": "11/28(土)",
-    "cond": ""
+    "item": "バッグチャームやクッキー装飾",
+    "when": "11/28",
+    "cond": "",
+    "what": "ホリデーイベント",
+    "where": "IKEA"
    },
    "date": "2026-11-28"
   },
@@ -2046,13 +2021,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Comfrtアーリーブラックフライデーセール最大70 ％オフ| $ 19からのスウェット＆パーカー",
-   "jaVia": "mymemory",
+   "ja": "スウェットが最大70%オフ、$19〜",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Comfrtアーリーブラックフライデーセール最大70 ％オフ| $ 19からのスウェット＆パーカー",
+    "store": "Comfrt",
+    "item": "スウェットが最大70%オフ、$19〜",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "アパレルセール",
+    "where": "Comfrt"
    },
    "date": null
   },
@@ -2083,13 +2060,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "18 ～ 24歳向けのAmazonプライムの6か月間無料トライアル！",
-   "jaVia": "mymemory",
+   "ja": "Amazon Prime 6ヶ月無料体験",
+   "jaVia": "gemini",
    "sum": {
     "store": "Amazon",
-    "item": "18 ～ 24歳向けのAmazonプライムの6か月間無料トライアル！",
+    "item": "Amazon Prime 6ヶ月無料体験",
     "when": "",
-    "cond": ""
+    "cond": "18-24歳限定",
+    "what": "無料トライアル",
+    "where": "Amazon"
    },
    "date": null
   },
@@ -2224,13 +2203,15 @@
     "when": null,
     "roundup": true
    },
-   "ja": "ULTAで香水を購入するだけで、高価値の景品を3つゲット",
-   "jaVia": "mymemory",
+   "ja": "香水購入で高価な無料特典3点",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Ulta",
-    "item": "ULTAで香水を購入するだけで、高価値の景品を3つゲット",
+    "store": "ULTA",
+    "item": "香水購入で高価な無料特典3点",
     "when": "",
-    "cond": ""
+    "cond": "香水購入",
+    "what": "無料特典",
+    "where": "ULTA"
    },
    "date": null
   },
@@ -2325,13 +2306,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "エベレスト：ファンダンゴ劇場の向こう側を見るための無料映画チケット！",
-   "jaVia": "mymemory",
+   "ja": "映画のチケットが無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "エベレスト：ファンダンゴ劇場の向こう側を見るための無料映画チケット！",
+    "store": "Fandango",
+    "item": "映画のチケットが無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料映画",
+    "where": "Fandango映画館"
    },
    "date": null
   },
@@ -2495,13 +2478,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "プリーナから無料の2026年の祝祭ホリデーオーナメント！",
-   "jaVia": "mymemory",
+   "ja": "ホリデーオーナメントが無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "プリーナから無料の2026年の祝祭ホリデーオーナメント！",
+    "store": "Purina",
+    "item": "ホリデーオーナメントが無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料オーナメント",
+    "where": "Purina"
    },
    "date": null
   },
@@ -2706,13 +2691,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "JCPenneyの新しいハリーポッターコレクション（ブラックフライデーに無料のホグワーツ・エクスプレス・スノードーム！ ）",
-   "jaVia": "mymemory",
+   "ja": "ハリーポッターコレクション＆スノードーム",
+   "jaVia": "gemini",
    "sum": {
     "store": "JCPenney",
-    "item": "JCPenneyの新しいハリーポッターコレクション（ブラックフライデーに無料のホグワーツ・エクスプレス・スノードーム！ ）",
-    "when": "",
-    "cond": ""
+    "item": "ハリーポッターコレクション＆スノードーム",
+    "when": "ブラックフライデー",
+    "cond": "",
+    "what": "新商品・無料品",
+    "where": "JCPenney"
    },
    "date": null,
    "dup": "7cfd4cce2307"
@@ -3189,13 +3176,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "ターゲットに素敵な戦士の肉スティックを無料でプレゼント！",
-   "jaVia": "mymemory",
+   "ja": "ミートスティックが無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "ターゲットに素敵な戦士の肉スティックを無料でプレゼント！",
+    "item": "ミートスティックが無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料おやつ",
+    "where": "Target"
    },
    "date": null
   },
@@ -4623,13 +4612,15 @@
     "when": null,
     "roundup": true
    },
-   "ja": "2026年選挙日の景品とお得な情報",
-   "jaVia": "mymemory",
+   "ja": "選挙日2026の無料特典と割引",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "2026年選挙日の景品とお得な情報",
-    "when": "",
-    "cond": ""
+    "item": "選挙日2026の無料特典と割引",
+    "when": "2026-11-03",
+    "cond": "",
+    "what": "選挙特典まとめ",
+    "where": "全米"
    },
    "date": null
   },
