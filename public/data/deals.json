@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04T06:11Z",
- "count": 1672,
+ "updated": "2026-11-04T07:31Z",
+ "count": 1676,
  "stats": {
   "h2s": {
    "read": 100,
@@ -8,11 +8,11 @@
   },
   "h2s-free": {
    "read": 100,
-   "added": 20
+   "added": 22
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 5
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -57,8 +57,8 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 15,
-   "geminiToday": 1,
+   "mymemory": 22,
+   "geminiToday": 2,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
@@ -1169,6 +1169,44 @@
    "date": null
   },
   {
+   "id": "e8245e9f6e15",
+   "title": "Smoothie King: Free 12 oz. Dark Chocolate Peppermint D-Lite [11/3 Only]",
+   "link": "https://www.doctorofcredit.com/smoothie-king-free-12-oz-dark-chocolate-peppermint-d-lite-11-3-only/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-03T20:42Z",
+   "firstSeen": "2026-11-04T07:31Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [
+    "Smoothie King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-03"
+   },
+   "ja": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Smoothie King",
+    "item": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
+    "when": "11/3(火)",
+    "cond": ""
+   },
+   "dup": "2c9d8cab574e",
+   "date": "2026-11-03"
+  },
+  {
    "id": "a60ff86ad8be",
    "title": "ULTA Beauty Daisy Delight Beauty Box Just $29.99 ($133 Value) – Teen Gift Idea",
    "link": "https://hip2save.com/deals/ulta-beauty-box/",
@@ -1506,6 +1544,38 @@
    "sum": {
     "store": "Amazon",
     "item": "折りたたみ式収納コンテナ6個パックAmazonでわずか$ 9.99 （登録価格$ 33 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cd485ec6691c",
+   "title": "Taco Bell Deals | $5.99 Cravings Boxes Come with 2 Entrees, Side, & Drink!",
+   "link": "https://thefreebieguy.com/taco-bell-deals-coupons/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-03T19:50Z",
+   "firstSeen": "2026-11-04T07:31Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Taco-Bell-Mexican-Pizza-and-Spicy-Potato-Soft-Taco-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Taco Bell"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Taco Bell",
+    "item": "",
     "when": "",
     "cond": ""
    },
@@ -3093,6 +3163,43 @@
    "date": "2026-11-30"
   },
   {
+   "id": "a672f55ab4af",
+   "title": "FREE Good Warrior Meat Stick at Target!",
+   "link": "https://moneysavingmom.com/target-get-a-free-good-warrior-meat-stick/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T16:40Z",
+   "firstSeen": "2026-11-04T07:31Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-10.34.37-AM-630x648.png",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": null
+   },
+   "ja": "ターゲットに素敵な戦士の肉スティックを無料でプレゼント！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットに素敵な戦士の肉スティックを無料でプレゼント！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "9fe1af060c9a",
    "title": "Amazon is Offering a $25 Thanksgiving Meal for 6 Live Now",
    "link": "https://thefreebieguy.com/amazon-thanksgiving-meal/",
@@ -4485,6 +4592,42 @@
    "sum": {
     "store": "Amazon",
     "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9ba863692733",
+   "title": "Election Day 2026 Freebies and Deals",
+   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T12:22Z",
+   "firstSeen": "2026-11-04T07:31Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "ja": "2026年選挙日の景品とお得な情報",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "2026年選挙日の景品とお得な情報",
     "when": "",
     "cond": ""
    },
