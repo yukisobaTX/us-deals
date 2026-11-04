@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04T05:11Z",
- "count": 1689,
+ "updated": "2026-11-04T06:11Z",
+ "count": 1672,
  "stats": {
   "h2s": {
    "read": 100,
@@ -58,8 +58,9 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 15,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "geminiToday": 1,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -1168,44 +1169,6 @@
    "date": null
   },
   {
-   "id": "e8245e9f6e15",
-   "title": "Smoothie King: Free 12 oz. Dark Chocolate Peppermint D-Lite [11/3 Only]",
-   "link": "https://www.doctorofcredit.com/smoothie-king-free-12-oz-dark-chocolate-peppermint-d-lite-11-3-only/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-03T20:42Z",
-   "firstSeen": "2026-11-03T20:59Z",
-   "expires": "2026-11-03",
-   "thumb": null,
-   "hot": true,
-   "stores": [
-    "Smoothie King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-03"
-   },
-   "ja": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Smoothie King",
-    "item": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
-    "when": "11/3(火)",
-    "cond": ""
-   },
-   "date": "2026-11-03",
-   "dup": "2c9d8cab574e"
-  },
-  {
    "id": "a60ff86ad8be",
    "title": "ULTA Beauty Daisy Delight Beauty Box Just $29.99 ($133 Value) – Teen Gift Idea",
    "link": "https://hip2save.com/deals/ulta-beauty-box/",
@@ -1547,40 +1510,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "cd485ec6691c",
-   "title": "Taco Bell Deals | $3 Chalupa + Doritos Locos Tacos – Today Only!",
-   "link": "https://thefreebieguy.com/taco-bell-deals-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T19:50Z",
-   "firstSeen": "2026-11-03T20:02Z",
-   "expires": "2026-11-03",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Taco-Bell-Three-Dollar-Chalupa-and-Doritos-Locos-Tacos-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Taco Bell"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "タコスベルのお買い得情報| $ 3 Chalupa + Doritos Locosタコス–本日限り！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Taco Bell",
-    "item": "タコスベルのお買い得情報| $ 3 Chalupa + Doritos Locosタコス–本日限り！",
-    "when": "11/3(火)まで",
-    "cond": ""
-   },
-   "date": "2026-11-03"
   },
   {
    "id": "f90d6022e4c4",
@@ -3164,44 +3093,6 @@
    "date": "2026-11-30"
   },
   {
-   "id": "a672f55ab4af",
-   "title": "Target: Get a FREE Good Warrior Meat Stick!",
-   "link": "https://moneysavingmom.com/target-get-a-free-good-warrior-meat-stick/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-03T16:40Z",
-   "firstSeen": "2026-11-03T17:09Z",
-   "expires": "2026-11-03",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-10.34.37-AM-630x648.png",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Target",
-    "item": "ミートスティック無料",
-    "when": "11/3",
-    "what": "無料ミート",
-    "where": "Target"
-   },
-   "ja": "ミートスティック無料",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
-  },
-  {
    "id": "9fe1af060c9a",
    "title": "Amazon is Offering a $25 Thanksgiving Meal for 6 Live Now",
    "link": "https://thefreebieguy.com/amazon-thanksgiving-meal/",
@@ -3744,43 +3635,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "15c5c305639f",
-   "title": "T-Mobile Tuesdays for T-Mobile & Metro Customers – Score a FREE 2-in-1 Lantern Flashlight!",
-   "link": "https://thefreebieguy.com/t-mobile-tuesdays-deals-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T15:12Z",
-   "firstSeen": "2026-11-03T16:03Z",
-   "expires": "2026-11-03",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Kendall-Visa-Congrats-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "T-Mobile",
-    "item": "2-in-1ランタン",
-    "when": "2026-11-03",
-    "cond": "会員限定",
-    "what": "無料ランタン",
-    "where": "T-Mobile"
-   },
-   "ja": "2-in-1ランタン",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
   },
   {
    "id": "980f735923ad",
@@ -4335,46 +4189,6 @@
    "date": null
   },
   {
-   "id": "18e98c852a35",
-   "title": "Jimmy John’s Deals | BOGO Sandwiches Today Only",
-   "link": "https://thefreebieguy.com/jimmy-johns-deals-and-codes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T14:00Z",
-   "firstSeen": "2026-11-03T15:02Z",
-   "expires": "2026-11-03",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Kendall-Jimmy-Johns--840x630.jpg",
-   "hot": true,
-   "stores": [
-    "Jimmy John's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-03",
-    "bogo": true
-   },
-   "sum": {
-    "store": "Jimmy John’s",
-    "item": "サンドイッチBOGO",
-    "when": "11/3(火)",
-    "what": "BOGOサンド",
-    "where": "Jimmy John’s"
-   },
-   "ja": "サンドイッチBOGO",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
-  },
-  {
    "id": "f68d9902784c",
    "title": "PetSmart Events: The November Birthday Bash is Coming + More!",
    "link": "https://thefreebieguy.com/free-petsmart-events/",
@@ -4612,115 +4426,6 @@
    "date": null
   },
   {
-   "id": "787d2875809f",
-   "title": "Bose x Kendra Scott Ultra Open Earbuds only $179.99 shipped today (Reg. $350!)",
-   "link": "https://moneysavingmom.com/bose-x-kendra-scott-ultra-open-earbuds-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-03T12:58Z",
-   "firstSeen": "2026-11-03T13:19Z",
-   "expires": "2026-11-03",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Bose-x-Kendra-Scott-Ultra-Open-Earbuds--630x411.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 49,
-   "price": 179.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Target",
-    "item": "",
-    "when": "11/3(火)まで",
-    "cond": ""
-   },
-   "date": "2026-11-03"
-  },
-  {
-   "id": "b3d9d15819a4",
-   "title": "FREE Original Doughnut at Krispy Kreme Today!",
-   "link": "https://moneysavingmom.com/free-doughnut-at-krispy-kreme/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-03T12:54Z",
-   "firstSeen": "2026-11-03T13:19Z",
-   "expires": "2026-11-03",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-10-14-at-9.54.08-AM-edited.png",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-03"
-   },
-   "sum": {
-    "store": "Krispy Kreme",
-    "item": "オリジナルドーナツ無料",
-    "when": "11/3(火)",
-    "what": "無料ドーナツ",
-    "where": "Krispy Kreme"
-   },
-   "ja": "オリジナルドーナツ無料",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
-  },
-  {
-   "id": "a3977bcabbc2",
-   "title": "Free Chocolate Chip or Pink Sugar Cookie at Crumbl with Verizon Rewards!",
-   "link": "https://thefreebieguy.com/possible-freebie-from-verizon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T12:43Z",
-   "firstSeen": "2026-11-03T13:19Z",
-   "expires": "2026-11-03",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Verizon-Store-Front-840x630.png",
-   "hot": true,
-   "stores": [
-    "Crumbl"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Crumbl",
-    "item": "クッキー無料",
-    "when": "11/3(火)",
-    "cond": "Verizonリワード",
-    "what": "無料クッキー",
-    "where": "Crumbl"
-   },
-   "ja": "クッキー無料",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
-  },
-  {
    "id": "3685e4e9d70e",
    "title": "Lerat Rechargeable Hand Warmers 2-Pack Only $6.xx on Amazon (Reg. $17)",
    "link": "https://thefreebieguy.com/lerat-hand-warmers/",
@@ -4754,46 +4459,6 @@
    "dup": "ca4cbd587b38"
   },
   {
-   "id": "82b98d7d90ad",
-   "title": "FREE Smoothie King Dark Chocolate Peppermint Smoothie for Rewards Members (Today Only!)",
-   "link": "https://hip2save.com/deals/smoothie-king-coupons/",
-   "source": "Hip2Save",
-   "posted": "2026-11-03T12:30Z",
-   "firstSeen": "2026-11-03T13:19Z",
-   "expires": "2026-11-03",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/peppermint-smoothie-king.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Smoothie King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-03"
-   },
-   "sum": {
-    "store": "Smoothie King",
-    "item": "ミントチョコプロテインスムージー無料",
-    "when": "11/3(火)",
-    "cond": "会員限定",
-    "what": "無料スムージー",
-    "where": "Smoothie King"
-   },
-   "ja": "ミントチョコプロテインスムージー無料",
-   "jaVia": "gemini",
-   "date": "2026-11-03",
-   "dup": "2c9d8cab574e"
-  },
-  {
    "id": "50429d866344",
    "title": "Ekouaer 2-Piece Long Sleeve Ribbed Knit Loungewear Pajamas Set Only $11.xx on Amazon (Reg $30)",
    "link": "https://thefreebieguy.com/ekouaer-long-sleeve-ribbed-knit-loungewear-pajamas-set/",
@@ -4824,81 +4489,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "9ba863692733",
-   "title": "Election Day 2026 Freebies and Deals",
-   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-03T12:22Z",
-   "firstSeen": "2026-11-03T13:19Z",
-   "expires": "2026-11-03",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "sum": {
-    "item": "選挙日無料・割引特典",
-    "when": "11/3(火)",
-    "what": "選挙の無料特典",
-    "where": "各地の店舗"
-   },
-   "ja": "選挙日無料・割引特典",
-   "jaVia": "gemini",
-   "date": "2026-11-03",
-   "dup": "daf96e42080b"
-  },
-  {
-   "id": "10ae23d89a65",
-   "title": "Score a FREE Krispy Kreme Doughnut Today for Voting (+ New Holiday Collection)",
-   "link": "https://hip2save.com/deals/krispy-kreme-coupon/",
-   "source": "Hip2Save",
-   "posted": "2026-11-03T12:21Z",
-   "firstSeen": "2026-11-03T13:19Z",
-   "expires": "2026-11-03",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/07/Krispy-Kreme-Glazed-Doughnut.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-03"
-   },
-   "sum": {
-    "store": "Krispy Kreme",
-    "item": "投票でドーナツ無料",
-    "when": "11/3(火)",
-    "what": "無料ドーナツ",
-    "where": "Krispy Kreme"
-   },
-   "ja": "投票でドーナツ無料",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
   },
   {
    "id": "f962530fc32a",
@@ -5029,43 +4619,6 @@
    "date": null
   },
   {
-   "id": "ab7f072876dd",
-   "title": "T-Life (T-Mobile Tuesday): Free 7-Eleven & More",
-   "link": "https://www.doctorofcredit.com/t-life-t-mobile-tuesday-free-7-eleven-more/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-03T12:00Z",
-   "firstSeen": "2026-11-03T13:19Z",
-   "expires": "2026-11-03",
-   "thumb": null,
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "T-Mobile",
-    "item": "セブンイレブン等の無料特典",
-    "when": "11/3(火)",
-    "cond": "T-Life会員",
-    "what": "無料特典",
-    "where": "T-Mobile"
-   },
-   "ja": "セブンイレブン等の無料特典",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
-  },
-  {
    "id": "393ddf10fac7",
    "title": "On the Hunt for Needoh? Request an Invite for an Amazon Exclusive Dream Drop!",
    "link": "https://thefreebieguy.com/needoh/",
@@ -5098,46 +4651,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "09244b7997ca",
-   "title": "Cheap Food Deals & Freebies For Tuesday! Smoothie King, Krispy Kreme, & More!",
-   "link": "https://thefreebieguy.com/cheap-tuesday-food-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T11:20Z",
-   "firstSeen": "2026-11-03T11:58Z",
-   "expires": "2026-11-03",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Tuesday-Food-Deals-840x630.png",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme",
-    "Smoothie King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "sum": {
-    "store": "Smoothie King, Krispy Kreme",
-    "item": "お得なフードと無料特典",
-    "when": "2026-11-03",
-    "what": "無料フード",
-    "where": "各店舗"
-   },
-   "ja": "お得なフードと無料特典",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
   },
   {
    "id": "fb92c61af4f0",
@@ -5781,38 +5294,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "7bbce7642822",
-   "title": "Places You Can Score National Sandwich Day Deals on November 3, 2026!",
-   "link": "https://thefreebieguy.com/national-sandwich-day-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-02T23:00Z",
-   "firstSeen": "2026-11-02T23:24Z",
-   "expires": "2026-11-03",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/National-Sandwich-Day-Freebies-and-Deals-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "2026年11月3日のナショナルサンドイッチデーセールを獲得できる場所！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "2026年11月3日のナショナルサンドイッチデーセールを獲得できる場所！",
-    "when": "11/3(火)まで",
-    "cond": ""
-   },
-   "date": "2026-11-03"
   },
   {
    "id": "3b8d28b488bf",
@@ -7110,45 +6591,6 @@
    "date": null
   },
   {
-   "id": "0e9682b7c300",
-   "title": "Smoothie King: FREE Dark Chocolate Peppermint D-Lite Smoothie Tomorrow!",
-   "link": "https://moneysavingmom.com/smoothie-king-free-watermelon-x-treme-smoothie-today-only/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-02T18:48Z",
-   "firstSeen": "2026-11-02T19:10Z",
-   "expires": "2026-11-03",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/07/Screenshot-2024-07-03-at-1.38.28 PM-630x461.jpg",
-   "hot": true,
-   "stores": [
-    "Smoothie King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Smoothie King",
-    "item": "チョコマントスムージー",
-    "when": "11/3/2026",
-    "what": "無料スムージー",
-    "where": "Smoothie King"
-   },
-   "ja": "チョコマントスムージー",
-   "jaVia": "gemini",
-   "date": "2026-11-03",
-   "dup": "2c9d8cab574e"
-  },
-  {
    "id": "c463392d9615",
    "title": "*RUN* My Texas House Rattan Decorative Vase Just $6 on Walmart.com (Reg. $20)",
    "link": "https://hip2save.com/deals/walmart-vases/",
@@ -8212,44 +7654,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "daf96e42080b",
-   "title": "Election Day Freebies & Deals for November 3rd, 2026",
-   "link": "https://thefreebieguy.com/election-day-freebies-and-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-02T17:05Z",
-   "firstSeen": "2026-11-02T17:16Z",
-   "expires": "2026-11-03",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/I-voted-sticker-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-03",
-    "roundup": true
-   },
-   "ja": "11/3 選挙の日の無料・お得情報まとめ",
-   "jaVia": "claude",
-   "sum": {
-    "store": "各店",
-    "item": "11/3 選挙の日の無料・お得情報まとめ",
-    "when": "11/3(火)",
-    "cond": "",
-    "what": "選挙日の無料",
-    "where": "全米各地"
-   },
-   "date": "2026-11-03"
   },
   {
    "id": "2581a9a14e47",
@@ -54662,44 +54066,6 @@
     "cond": ""
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Prego-Pasta-Sauce.jpg?resize=306,182"
-  },
-  {
-   "id": "8f2a6668e750",
-   "title": "Kroger / Harris Teeter: 4x Fuel Points On Third Party Giftcards (10/21 – 11/3)",
-   "link": "https://www.doctorofcredit.com/kroger-harris-teeter-stores-4x-fuel-points-on-select-gift-cards-includes-fixed-visa-mc-10-7-10-20/",
-   "source": "Doctor of Credit",
-   "posted": "2026-10-21T23:45Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-11-03",
-   "hot": false,
-   "stores": [
-    "Kroger"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": "2026-11-03",
-   "event": null,
-   "eventNews": false,
-   "ja": "サードパーティ製ギフトカードで燃料ポイント4倍",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Kroger / Harris Teeter",
-    "item": "サードパーティ製ギフトカードで燃料ポイント4倍",
-    "when": "〜11/3(火)",
-    "cond": "サードパーティ製ギフトカード対象",
-    "what": "燃料ポイント4倍",
-    "where": "Kroger"
-   },
-   "gift": {
-    "grocery": true
-   }
   },
   {
    "id": "399798c8b550",
