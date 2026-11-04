@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-04T15:02Z",
- "count": 1706,
+ "updated": "2026-11-04T16:06Z",
+ "count": 1710,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 5
   },
   "h2s-free": {
    "read": 100,
-   "added": 20
+   "added": 18
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
-   "read": 20,
-   "added": 6
+   "read": 0,
+   "added": 0
   },
   "msm": {
    "read": 75,
@@ -24,11 +24,11 @@
   },
   "tfg": {
    "read": 40,
-   "added": 13
+   "added": 7
   },
   "mws": {
-   "read": 20,
-   "added": 2
+   "read": 0,
+   "added": 0
   },
   "wtaw": {
    "read": 20,
@@ -55,15 +55,395 @@
    "added": 0
   },
   "ja": {
-   "gemini": 18,
+   "gemini": 15,
    "geminiEvent": 0,
-   "mymemory": 19,
-   "geminiToday": 6,
+   "mymemory": 10,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden",
+  "Moms Who Save: https://momswhosave.com/feed/: The read operation timed out"
+ ],
  "items": [
+  {
+   "id": "6872860b9393",
+   "title": "40% Off Target Women’s Sweaters (Cardigans, Holiday Styles & More!)",
+   "link": "https://hip2save.com/deals/target-womens-sweaters/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T16:05Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/Target-Cable-Zip-Sweater.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットのレディースセーターが40%オフ（カーディガン、ホリデースタイルなど！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットのレディースセーターが40%オフ（カーディガン、ホリデースタイルなど！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "22f8d9b5e137",
+   "title": "Goldfish Pokémon Cheddar Cheese Crackers Only $1.xx on Amazon!",
+   "link": "https://thefreebieguy.com/goldfish-pokemon-cheddar-cheese-crackers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T16:01Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Kendall-Pokemon-Goldfish-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "金魚ポケモンチェダーチーズクラッカー$ 1.xx限定！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "金魚ポケモンチェダーチーズクラッカー$ 1.xx限定！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "646db1bd9429",
+   "title": "Ekouaer Women’s Long Sleeve Nightgowns Only $9.xx on Amazon (Reg $28)",
+   "link": "https://thefreebieguy.com/ekouaer-womens-long-sleeve-nightgowns/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T15:54Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Ekouaer-Womens-Long-Sleeve-Nightgowns-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Ekouaerレディース長袖ナイトガウンAmazonで$ 9.xxのみ（登録価格$ 28 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Ekouaerレディース長袖ナイトガウンAmazonで$ 9.xxのみ（登録価格$ 28 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "2fffba752c21",
+   "date": null
+  },
+  {
+   "id": "6fe34df20d1e",
+   "title": "Up to 70% OFF Christmas Trees at Michaels",
+   "link": "https://thefreebieguy.com/christmas-trees-sale-at-michaels/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T15:53Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/MICHAELS-CHRISTMAS-TREES-840x630.png",
+   "hot": true,
+   "stores": [
+    "Michaels"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "マイケルズのクリスマスツリーが最大70%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Michaels",
+    "item": "マイケルズのクリスマスツリーが最大70%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "55f46d71a06a",
+   "date": null
+  },
+  {
+   "id": "ddf37018964f",
+   "title": "Possible FREE Dunkin’ Medium Cookie Butter Cloud Latte w/ Purchase on 11/10",
+   "link": "https://hip2save.com/deals/dunkin-donuts-coupons/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T15:50Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": "2026-11-10",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/dunkin-Cookie-Butter-Cloud-Latte.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Dunkin'"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-10"
+   },
+   "sum": {
+    "store": "Dunkin'",
+    "item": "ラテが無料",
+    "when": "11/10",
+    "cond": "要購入",
+    "what": "無料ラテ",
+    "where": "Dunkin'"
+   },
+   "ja": "ラテが無料",
+   "jaVia": "gemini",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "a96e7b947208",
+   "title": "FOUR Gain Flings Laundry Detergent Pacs 60-Count for just $37.96 shipped + $15 Amazon Credit + $5 Rebate!",
+   "link": "https://moneysavingmom.com/gain-flings-laundry-detergent-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T15:50Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Gain-Flings-Deal.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "FOUR Gain Flingsランドリー洗剤パック60個-わずか$ 37.96で発送+ $ 15 Amazonクレジット+ $ 5リベート！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "FOUR Gain Flingsランドリー洗剤パック60個-わずか$ 37.96で発送+ $ 15 Amazonクレジット+ $ 5リベート！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "668f79a81cbb",
+   "title": "DEWALT Buy One, Get One FREE Tool Deal at Lowe’s!",
+   "link": "https://thefreebieguy.com/dewalt-tools/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T15:43Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/DEWALT-Batteries-and-tools-BOGO-840x630.png",
+   "hot": true,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "DEWALTロウズで1つ購入して、1つの無料ツールセールをゲット！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "DEWALTロウズで1つ購入して、1つの無料ツールセールをゲット！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "41991236de74",
+   "title": "Cozy Fleece Throw Blanket Just $7.xx on Amazon (Reg. $17) | Awesome Reviews!",
+   "link": "https://thefreebieguy.com/bedelite-throw-blanket/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T15:41Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Bedelite-Fleece-Throw-Blanket-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 59,
+   "price": 7.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでわずか$ 7.xxのコージーフリーススローブランケット（登録番号： $ 17 ）|素晴らしいレビュー！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでわずか$ 7.xxのコージーフリーススローブランケット（登録番号： $ 17 ）|素晴らしいレビュー！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f55c1b783c2e",
+   "title": "Ninja Air Fryer XL with MaxCrisp 6.5 Qt Only $99.xx on Amazon (Reg $180)",
+   "link": "https://thefreebieguy.com/ninja-air-fryer-xl/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T15:22Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Ninja-XL-Air-Fryer-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 99.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "MaxCrisp 6.5 Qt付きNinja Air Fryer XL Amazonで$ 99.xxのみ（登録価格$ 180 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "MaxCrisp 6.5 Qt付きNinja Air Fryer XL Amazonで$ 99.xxのみ（登録価格$ 180 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c9a1c800e645",
+   "title": "Old Navy Early Black Friday 2026 Deals Live Now | Deals From $1!",
+   "link": "https://thefreebieguy.com/old-navy-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T15:16Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Old-Navy-Storefront-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "オールドネイビー2026年アーリーブラックフライデーのセール開催中| $ 1からのセール！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "オールドネイビー2026年アーリーブラックフライデーのセール開催中| $ 1からのセール！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "25e0489d978a",
+   "title": "FREE Thanksgiving Turkey After Ibotta Cash Back (+ Get a FREE Stove Top Stuffing Mix this Week!)",
+   "link": "https://hip2save.com/deals/ibotta-free-thanksgiving-offer/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T15:10Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2019/12/target-butterball.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "イボッタキャッシュバック後の感謝祭の七面鳥無料（今週はコンロトップスタッフィングミックスを無料でゲット！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "イボッタキャッシュバック後の感謝祭の七面鳥無料（今週はコンロトップスタッフィングミックスを無料でゲット！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "83c9feccbc65",
    "title": "Shop-Vac 14-Gallon 5.5-HP Corded Wet/Dry Vacuum Only $54.xx at Lowes (Reg $140)",
@@ -411,7 +791,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-04T14:16Z",
    "firstSeen": "2026-11-04T15:02Z",
-   "expires": null,
+   "expires": "2026-11-04",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Dominos-Minecraft-1.jpg?resize=306,182",
    "hot": true,
    "stores": [
@@ -441,7 +821,7 @@
    },
    "ja": "Minecraftゲーム ($30相当)",
    "jaVia": "gemini",
-   "date": null
+   "date": "2026-11-04"
   },
   {
    "id": "aa60abcc282b",
@@ -718,8 +1098,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "dced924eedcf",
-   "date": null
+   "date": null,
+   "dup": "dced924eedcf"
   },
   {
    "id": "1a2dfc7fadc4",
@@ -2452,45 +2832,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e8245e9f6e15",
-   "title": "Smoothie King: Free 12 oz. Dark Chocolate Peppermint D-Lite [11/3 Only]",
-   "link": "https://www.doctorofcredit.com/smoothie-king-free-12-oz-dark-chocolate-peppermint-d-lite-11-3-only/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-03T20:42Z",
-   "firstSeen": "2026-11-04T15:02Z",
-   "expires": null,
-   "thumb": null,
-   "hot": true,
-   "stores": [
-    "Smoothie King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-03"
-   },
-   "sum": {
-    "store": "Smoothie King",
-    "item": "12 oz スムージー",
-    "when": "11/3",
-    "what": "無料スムージー",
-    "where": "Smoothie King"
-   },
-   "ja": "12 oz スムージー",
-   "jaVia": "gemini",
-   "dup": "2c9d8cab574e",
-   "date": "2026-11-03"
   },
   {
    "id": "a60ff86ad8be",
@@ -5902,6 +6243,42 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "9ba863692733",
+   "title": "Election Day 2026 Freebies and Deals",
+   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-03T12:22Z",
+   "firstSeen": "2026-11-04T16:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "roundup": true
+   },
+   "sum": {
+    "item": "選挙日の特典・割引",
+    "when": "11/3(火)",
+    "what": "選挙特典",
+    "where": "各地"
+   },
+   "ja": "選挙日の特典・割引",
+   "jaVia": "gemini",
+   "date": "2026-11-03"
   },
   {
    "id": "f962530fc32a",
@@ -35445,43 +35822,6 @@
    "date": null
   },
   {
-   "id": "299b10e9c37a",
-   "title": "Free nulo Culinary Harvest, Turkey & Herring Kibble Sample for Adult Dogs",
-   "link": "https://thefreebieguy.com/free-nulo-culinary-harvest-turkey-herring-kibble-sample-for-adult-dogs/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T15:50Z",
-   "firstSeen": "2026-10-27T15:57Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/nulo-oven-baked-dog-food-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "成犬用nuloフードの無料サンプル",
-   "jaVia": "claude",
-   "sum": {
-    "store": "nulo",
-    "item": "成犬用nuloフードの無料サンプル",
-    "when": "",
-    "cond": "",
-    "what": "犬用フード試供品",
-    "where": "オンライン"
-   },
-   "date": null
-  },
-  {
    "id": "21716616cca5",
    "title": "Target Just Dropped NEW Holiday Our Generation Dolls & They’re On Sale!",
    "link": "https://hip2save.com/deals/our-generation-dolls/",
@@ -58219,166 +58559,6 @@
    "eventNews": false
   },
   {
-   "id": "5e24a54754d6",
-   "title": "McDonald’s Announces $8 Quarter Pounder with Cheese Meal Deal",
-   "link": "https://www.fastfoodpost.com/mcdonalds-announces-8-quarter-pounder-with-cheese-meal-deal/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-20T16:05Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "McDonald's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "McDonald's",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "3377a255f081",
-   "title": "TWO Porch Goose Outfits Just $7.99 Shipped for Amazon Prime Members",
-   "link": "https://hip2save.com/deals/amazon-porch-goose-outfits/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T15:48Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Porch-Goose-Cousin-Eddie-Outfit.jpg?resize=306,182"
-  },
-  {
-   "id": "21b783a200da",
-   "title": "LEGO Advent Calendars from $25 on Amazon & Walmart.com",
-   "link": "https://hip2save.com/deals/lego-advent-calendars/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T15:38Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Walmart",
-    "Amazon"
-   ],
-   "cats": [
-    "grocery",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart・Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "b13326f8ffc1",
-   "title": "Whataburger Adds New Bacon Blaze Chicken Sandwich and Sleigh Berry Whatafresher",
-   "link": "https://www.fastfoodpost.com/whataburger-adds-new-bacon-blaze-chicken-sandwich-and-sleigh-berry-whatafresher/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-20T15:31Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Whataburger"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Whataburger",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "6d54c0195551",
-   "title": "MUK LUKS Holiday Slippers Only $12 on Walmart.com (Reg. $42)",
-   "link": "https://hip2save.com/deals/muk-luks-slippers/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T15:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 71,
-   "price": 12.0,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
    "id": "c0feef908921",
    "title": "FREE Pet Photos with Santa at Petco on December 12th",
    "link": "https://hip2save.com/deals/petco-santa-pictures/",
@@ -58480,43 +58660,6 @@
     "where": "Home Depot"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/08/home-depot-kids-workshops-1.jpg?resize=306,182",
-   "date": "2026-11-07",
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "316c6ef44127",
-   "title": "FREE Reindeer Plushie at Bass Pro & Cabela’s on 11/7 (+ Free Photos w/ Santa on 11/8!)",
-   "link": "https://hip2save.com/deals/cabelas-bass-pro-santa-photos/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-10-13T15:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-11-07",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-07"
-   },
-   "ja": "トナカイのぬいぐるみ無料(11/8はサンタ写真無料)",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Bass Pro Shops",
-    "item": "トナカイのぬいぐるみ無料(11/8はサンタ写真無料)",
-    "when": "11/7(土)",
-    "cond": "先着",
-    "what": "無料ぬいぐるみ",
-    "where": "Bass Pro/Cabel…"
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/bass-pro-shop-reindeer.jpg?resize=306,182",
    "date": "2026-11-07",
    "event": null,
    "eventNews": false
