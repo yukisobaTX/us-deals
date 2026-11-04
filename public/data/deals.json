@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T00:22Z",
- "count": 1689,
+ "updated": "2026-11-04T01:19Z",
+ "count": 1690,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -57,13 +57,47 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 14,
+   "mymemory": 15,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "a7bd64b085a9",
+   "title": "ULTA’s Sample Kits Always Sell Out & They Start at $17!",
+   "link": "https://hip2save.com/deals/ulta-sample-kits/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T00:40Z",
+   "firstSeen": "2026-11-04T01:19Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/ULTA-Viral-Fragrance-Favorites.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ULTAのサンプルキットは常に売り切れで、$ 17から始まります！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "ULTAのサンプルキットは常に売り切れで、$ 17から始まります！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "012c7d1b0466",
    "title": "Ocean Spray Craisins 48oz Bag Just $5 Shipped on Amazon",
