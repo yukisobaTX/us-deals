@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T16:06Z",
- "count": 1710,
+ "updated": "2026-11-04T17:08Z",
+ "count": 1720,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 5
+   "added": 7
   },
   "h2s-free": {
    "read": 100,
@@ -12,23 +12,23 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
-   "read": 0,
-   "added": 0
+   "read": 20,
+   "added": 6
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 9
   },
   "tfg": {
    "read": 40,
-   "added": 7
+   "added": 5
   },
   "mws": {
-   "read": 0,
-   "added": 0
+   "read": 20,
+   "added": 2
   },
   "wtaw": {
    "read": 20,
@@ -55,18 +55,593 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 10,
-   "geminiToday": 7,
-   "model": "gemini-flash-latest"
+   "mymemory": 25,
+   "geminiToday": 8,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
- "errors": [
-  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden",
-  "Moms Who Save: https://momswhosave.com/feed/: The read operation timed out"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "5516180de7b4",
+   "title": "FOUR Tide Detergents Just $38.75 Shipped After Rebate on Amazon (+ $15 Amazon Credit!)",
+   "link": "https://hip2save.com/deals/tide-detergents-on-sale/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T17:05Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/03/Tide-Original-Laundry-Detergent.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでリベート後に出荷されたわずか$ 38.75の4種類のタイド洗剤（+ $ 15 Amazonクレジット！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでリベート後に出荷されたわずか$ 38.75の4種類のタイド洗剤（+ $ 15 Amazonクレジット！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5c29425b7fb5",
+   "title": "Free Country Softshell Jackets from $12.98 on SamsClub.com",
+   "link": "https://hip2save.com/deals/free-country-jacket/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T17:01Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Free-Country-Mens-Softshell-Jackets.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "SamsClub.comで$ 12.98から無料のカントリーソフトシェルジャケット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "SamsClub.comで$ 12.98から無料のカントリーソフトシェルジャケット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "65e4e9f51074",
+   "title": "Neutrogena Oil Free Daily Acne Face Scrub, 4.2 oz just $4.55 shipped (Reg. $12)!",
+   "link": "https://moneysavingmom.com/neutrogena-oil-free-daily-acne-face-scrub-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T16:59Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Neutrogena-Oil-Free-Daily-Acne-Face-Scrub-4.2-oz.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 62,
+   "price": 4.55,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "ニュートロジーナオイルフリーデイリーアクネフェイススクラブ、4.2オンスわずか$ 4.55発送（登録価格$ 12 ） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ニュートロジーナオイルフリーデイリーアクネフェイススクラブ、4.2オンスわずか$ 4.55発送（登録価格$ 12 ） ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1f293c636c9b",
+   "title": "Send a Free Military Care Package to The Troops!",
+   "link": "https://thefreebieguy.com/send-a-free-military-care-package-to-the-troops/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T16:58Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Crown-Royal-Care-Package-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "軍隊に無料のミリタリーケアパッケージを送りましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "軍隊に無料のミリタリーケアパッケージを送りましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "927e3298719b",
+   "title": "Joyspun Women’s Slippers From $14.xx at Walmart | Big Brand Dupes for Less!",
+   "link": "https://thefreebieguy.com/womens-clog-slippers-deal-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T16:57Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/womens-joyspun-slippers-walmart-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Joyspunレディーススリッパウォルマートで$ 14.xxから|ビッグブランドデュペをお得に！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Joyspunレディーススリッパウォルマートで$ 14.xxから|ビッグブランドデュペをお得に！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "872ff1257dfe",
+   "title": "Fabric Storage Cubes 6-Pack Just $11.99 on Amazon (Reg. $24)",
+   "link": "https://hip2save.com/deals/amazon-fabric-storage-cubes/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T16:55Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Cupic-Cupid-Fabric-Storage-Cube-Bins.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 11.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ファブリックストレージキューブ6パックAmazonでわずか$ 11.99 （登録価格$ 24 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ファブリックストレージキューブ6パックAmazonでわずか$ 11.99 （登録価格$ 24 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3538acfed9a4",
+   "title": "Women’s Nightgowns 2-Pack Only $14.99 on Amazon (Reg. $29)",
+   "link": "https://hip2save.com/deals/ekouaer-womens-nightgowns/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T16:45Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/08/amazon-womens-nightgown.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 48,
+   "price": 14.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レディースナイトガウン2枚パックのみ$ 14.99 Amazon (Reg. $ 29)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディースナイトガウン2枚パックのみ$ 14.99 Amazon (Reg. $ 29)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "67c12bbfa7df",
+   "title": "Get a FREE Stove Top Stuffing Mix + $1.72 overage at Walmart!",
+   "link": "https://moneysavingmom.com/get-a-free-stove-top-stuffing-mix-1-72-overage-at-walmart/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T16:43Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-04-at-9.54.40-AM-630x607.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": null
+   },
+   "ja": "ウォルマートで無料のコンロトップスタッフィングミックスと$ 1.72のオーバーレージを手に入れましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートで無料のコンロトップスタッフィングミックスと$ 1.72のオーバーレージを手に入れましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e1994ffa3a5e",
+   "title": "FOUR Gain Flings 60-Count Only $4.xx Each on Amazon (Reg. $15)",
+   "link": "https://thefreebieguy.com/gain-flings-amazon-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T16:40Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/gain-flings-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 73,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8c45688759c8",
+   "title": "Hot Cocoa Bear Gift Set Just $9.87 on Walmart.com (Includes Glass Bear Tumbler)",
+   "link": "https://hip2save.com/deals/walmart-glass-bear-tumbler/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T16:37Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Bay-Island-Hot-Cocoa-Bear-Gift-Set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "98bb5b61b7ff",
+   "date": null
+  },
+  {
+   "id": "1826203a6e2d",
+   "title": "Glocusent 14 LED USB Rechargeable Book Light only $5.98 (reg. $13.69!)",
+   "link": "https://moneysavingmom.com/hot-glocusent-usb-rechargeable-book-light-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T16:37Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/04/71262m3BMfL._AC_SL1500_.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 56,
+   "price": 5.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "70ba4fb4a4cf",
+   "title": "Artificial Cedar Tree 2-Pack only $39.99 shipped (Reg. $70)!",
+   "link": "https://moneysavingmom.com/artificial-cedar-tree-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T16:34Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/09/Screenshot-2024-09-05-at-9.07.16 AM-630x581.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 39.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a79a6f4f333a",
+   "title": "Self-Warming Coffee Mug Just $28.84 on Walmart.com (Over $60 Less Than Ember!)",
+   "link": "https://hip2save.com/deals/mainstays-self-warming-coffee-mug/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T16:28Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/09/mainstays-coffee-mug-walmart.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9b5626bc7a39",
+   "title": "CVS: Cetaphil Cleansing Bar only $0.59 (Reg. $5.59!)",
+   "link": "https://moneysavingmom.com/cvs-cetaphil-cleansing-bar-only-0-59-reg-5-59/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T16:26Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-04-at-10.20.12-AM.png",
+   "hot": true,
+   "stores": [
+    "CVS"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 89,
+   "price": 0.59,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "CVS",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "10030e313091",
+   "date": null
+  },
+  {
+   "id": "5b40a2399c5a",
+   "title": "TWO Charmin Ultra Soft Mega XL 12-Packs Only $32 at Lowe’s (Reg $50)!",
+   "link": "https://thefreebieguy.com/charmin-ultra-soft-with-smooth-tear-mega-xl-9-pack-2-ply-toilet-paper/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T16:18Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/CHARMIN-ULTRA-SOFT-MEGA-XL-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 36,
+   "price": 32.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a56325dfdb27",
+   "title": "Jack in the Box: Two Tacos for $0.75!",
+   "link": "https://moneysavingmom.com/jack-in-the-box-free-food/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-04T16:15Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-01-at-6.26.36-AM.jpg",
+   "hot": true,
+   "stores": [
+    "Jack in the Box"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Jack in the Box",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4ac2f8d0bcba",
+   "title": "RUN! Free Balenciaga 100% Fragrance Sample!",
+   "link": "https://thefreebieguy.com/balenciaga-fragrance-sample/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-04T16:13Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Balenciaga-Fragrance-Sample-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "ラン！無料のバレンシアガ100 ％フレグランスサンプル！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ラン！無料のバレンシアガ100 ％フレグランスサンプル！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "6872860b9393",
    "title": "40% Off Target Women’s Sweaters (Cardigans, Holiday Styles & More!)",
@@ -167,8 +742,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "2fffba752c21",
-   "date": null
+   "date": null,
+   "dup": "2fffba752c21"
   },
   {
    "id": "6fe34df20d1e",
@@ -202,8 +777,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "55f46d71a06a",
-   "date": null
+   "date": null,
+   "dup": "55f46d71a06a"
   },
   {
    "id": "ddf37018964f",
@@ -2832,6 +3407,44 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "e8245e9f6e15",
+   "title": "Smoothie King: Free 12 oz. Dark Chocolate Peppermint D-Lite [11/3 Only]",
+   "link": "https://www.doctorofcredit.com/smoothie-king-free-12-oz-dark-chocolate-peppermint-d-lite-11-3-only/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-03T20:42Z",
+   "firstSeen": "2026-11-04T17:08Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [
+    "Smoothie King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-03"
+   },
+   "ja": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Smoothie King",
+    "item": "スムージーキング：無料12オンス。ダークチョコレートペパーミントD - Lite [11/3のみ]",
+    "when": "11/3(火)",
+    "cond": ""
+   },
+   "dup": "2c9d8cab574e",
+   "date": "2026-11-03"
   },
   {
    "id": "a60ff86ad8be",
@@ -6243,42 +6856,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "9ba863692733",
-   "title": "Election Day 2026 Freebies and Deals",
-   "link": "https://moneysavingmom.com/election-day-freebies-and-deals/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-03T12:22Z",
-   "firstSeen": "2026-11-04T16:06Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-29-at-9.13.26-PM-1.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "sum": {
-    "item": "選挙日の特典・割引",
-    "when": "11/3(火)",
-    "what": "選挙特典",
-    "where": "各地"
-   },
-   "ja": "選挙日の特典・割引",
-   "jaVia": "gemini",
-   "date": "2026-11-03"
   },
   {
    "id": "f962530fc32a",
@@ -29755,8 +30332,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "21b783a200da"
+   "date": null
   },
   {
    "id": "f508383d085b",
@@ -35411,43 +35987,6 @@
     "item": "PawzメンズJeff Comfort Clog Slippers Only 12.xx at Walmart (Reg $ 30)",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "6d3500cfc283",
-   "title": "Macy’s Perfume Sale | Save on Calvin Klein, Marc Jacobs & More (+ Free Gifts!)",
-   "link": "https://hip2save.com/deals/macys-perfume/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T17:06Z",
-   "firstSeen": "2026-10-27T17:56Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Calvin-Klein-Euphoria-Signature-Eau-de-Parfum-Spray-3.3oz.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "ブランド香水各種とおまけ",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Macy’s",
-    "item": "ブランド香水各種とおまけ",
-    "when": "",
-    "cond": "",
-    "what": "香水割引・おまけ",
-    "where": "Macy’s"
    },
    "date": null
   },
@@ -58367,192 +58906,6 @@
     "item": "",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "ce2f4e3d5b60",
-   "title": "Welch’s Fruit Snacks 50-Count Just $10.44 on Amazon (Reg. $20)",
-   "link": "https://hip2save.com/deals/amazon-welchs-fruit-snacks/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T17:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 48,
-   "price": 10.44,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "825092b4aeb6",
-   "title": "Cute Women’s Lace Tops from $6.99 on Amazon (Regularly $20)",
-   "link": "https://hip2save.com/deals/wiholl-womens-top/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T16:57Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "4f01fcd0e7c9",
-   "title": "DEWALT Folding Utility Knife Just $6.70 on Amazon (Reg. $10) | Easy Stocking Stuffer!",
-   "link": "https://hip2save.com/deals/amazon-dewalt-folding-utility-knife/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T16:53Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 33,
-   "price": 6.7,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "089c296ffaa6",
-   "title": "We Found the Viral No Boundaries Matching Sweat Sets at Walmart!",
-   "link": "https://hip2save.com/deals/no-boundaries-matching-sweats/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T16:45Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "75460aad2828",
-   "title": "Michaels Popular Hand-Painted Glass Christmas Ornaments Just $7.49",
-   "link": "https://hip2save.com/deals/michaels-christmas-ornaments/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T16:43Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Michaels"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Michaels",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "d7343750736e",
-   "title": "Chapstick Holiday 6-Pack Set Just $6 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/chapstick-stocking-stuffer/",
-   "source": "Hip2Save",
-   "posted": "2026-10-20T16:35Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
    },
    "date": null,
    "event": null,
