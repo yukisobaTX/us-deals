@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-05T09:15Z",
- "count": 1729,
+ "updated": "2026-11-05T10:23Z",
+ "count": 1730,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,48 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 3,
+   "mymemory": 15,
+   "geminiToday": 4,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0c479b1d6652",
+   "title": "Home Depot – Up to 68% off Select Power Tools Kits & Hand Tools",
+   "link": "https://thefreebieguy.com/home-depot-outdoor-power-equipment-tool-storage/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T10:15Z",
+   "firstSeen": "2026-11-05T10:23Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Home-depot-Storefront-840x630.png",
+   "hot": false,
+   "stores": [
+    "Home Depot"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ホームデポ–一部の電動工具キットとハンドツールが最大68%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Home Depot",
+    "item": "ホームデポ–一部の電動工具キットとハンドツールが最大68%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "c9f03ef66eb0",
    "title": "Clorox Toilet Bowl Brush & Plunger Combo Set Only $5.xx on Amazon (Reg $17)",
