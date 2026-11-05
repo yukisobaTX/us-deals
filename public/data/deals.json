@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-05T10:23Z",
- "count": 1730,
+ "updated": "2026-11-05T12:06Z",
+ "count": 1733,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 7
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,288 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 15,
-   "geminiToday": 4,
+   "mymemory": 19,
+   "geminiToday": 5,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "e831cef09815",
+   "title": "*HOT* 40% off Matching Pajamas for the Family at Target: $6 MicroFleece Holiday Pants, plus more!",
+   "link": "https://moneysavingmom.com/up-to-40-off-pajamas-for-the-family-at-target/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T12:05Z",
+   "firstSeen": "2026-11-05T12:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Pajamas-1-630x650.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT *ターゲットでの家族向けパジャマのマッチングが40%オフ： $ 6マイクロフリースホリデーパンツなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "* HOT *ターゲットでの家族向けパジャマのマッチングが40%オフ： $ 6マイクロフリースホリデーパンツなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c7ba192a57dc",
+   "title": "Save 40% off Women’s Denim at Target today only!",
+   "link": "https://moneysavingmom.com/target-denim-sale/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T11:56Z",
+   "firstSeen": "2026-11-05T12:06Z",
+   "expires": "2026-11-05",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/12/Target-Denim-sale.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "本日限り、Targetでレディースデニムが40%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "本日限り、Targetでレディースデニムが40%オフ！",
+    "when": "11/5(木)まで",
+    "cond": ""
+   },
+   "date": "2026-11-05"
+  },
+  {
+   "id": "f45a46e2f4b5",
+   "title": "Target Early Black Friday Deals Are Live!",
+   "link": "https://moneysavingmom.com/target-black-friday-deals-are-live-sale/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T11:49Z",
+   "firstSeen": "2026-11-05T12:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Screenshot-2025-11-28-at-6.58.13 AM-630x244.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットのアーリーブラックフライデーセールが登場！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットのアーリーブラックフライデーセールが登場！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e4e0b54a9f81",
+   "title": "It’s BACK!! Audible 3-Month Subscription only $0.99/month + FREE $20 Credit!",
+   "link": "https://moneysavingmom.com/audible-discount-and-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T11:33Z",
+   "firstSeen": "2026-11-05T12:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/07/Screenshot-2024-10-11-at-9.28.44 PM-630x418.jpg",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "戻ってきました！ ！ 3か月のサブスクリプションは月額わずか$ 0.99 +無料の$ 20クレジット！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "戻ってきました！ ！ 3か月のサブスクリプションは月額わずか$ 0.99 +無料の$ 20クレジット！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6f464a2c5890",
+   "title": "Spray ‘n Wash Max Laundry Stain Remover Spray Only $2.xx on Amazon (Reg $7)",
+   "link": "https://thefreebieguy.com/spray-n-wash-max-laundry-stain-remover-spray/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T11:33Z",
+   "firstSeen": "2026-11-05T12:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Spray-n-Wash-Max-Laundry-Stain-Remover-Spray-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "8facf537685d",
+   "date": null
+  },
+  {
+   "id": "833e40c5f186",
+   "title": "Krispy Kreme: Free Holiday Seasonal Doughnut with Purchase!",
+   "link": "https://moneysavingmom.com/krispy-kreme-rewards-members-free-dozen-original-glazed-doughnuts/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T11:31Z",
+   "firstSeen": "2026-11-05T12:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/doughnut-630x712.jpg",
+   "hot": true,
+   "stores": [
+    "Krispy Kreme"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "クリスピー・クリーム：購入でホリデーシーズンのドーナツが無料！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Krispy Kreme",
+    "item": "クリスピー・クリーム：購入でホリデーシーズンのドーナツが無料！",
+    "when": "",
+    "cond": "購入時"
+   },
+   "date": null
+  },
+  {
+   "id": "ff2c3d438838",
+   "title": "Target Early Black Friday Savings Live Now!",
+   "link": "https://thefreebieguy.com/target-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T11:23Z",
+   "firstSeen": "2026-11-05T12:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Target-Store-Front-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ブラックフライデーの早期割引を対象にライブ配信中！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ブラックフライデーの早期割引を対象にライブ配信中！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "f45a46e2f4b5",
+   "date": null
+  },
+  {
+   "id": "88caa87f7655",
+   "title": "Curology Skin Care Box + Consultation + Bag only $14.95 shipped!",
+   "link": "https://moneysavingmom.com/curology-custom-skincare-formula-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T11:22Z",
+   "firstSeen": "2026-11-05T12:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Curology-Bag-630x635.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "0c479b1d6652",
    "title": "Home Depot – Up to 68% off Select Power Tools Kits & Hand Tools",
@@ -34938,44 +35212,6 @@
    }
   },
   {
-   "id": "674fc8d6a95f",
-   "title": "Del Taco Deals | BOGO Free The Del Taco + More!",
-   "link": "https://thefreebieguy.com/del-taco-coupon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-28T11:25Z",
-   "firstSeen": "2026-10-28T11:55Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Del-Taco-Restaurant-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "bogo": true
-   },
-   "sum": {
-    "store": "Del Taco",
-    "item": "The Del Taco",
-    "cond": "1つ購入でもう1つ無料",
-    "what": "BOGOタコス",
-    "where": "Del Taco"
-   },
-   "ja": "The Del Taco",
-   "jaVia": "gemini",
-   "date": null
-  },
-  {
    "id": "451ce391f852",
    "title": "2-in-1 Professional Travel Steamer Only $17.xx on Amazon (Reg $59)",
    "link": "https://thefreebieguy.com/nexdoo-g9-professional-travel-steamer/",
@@ -35175,40 +35411,6 @@
    "sum": {
     "store": "Amazon",
     "item": "スイスミスホットココアミックスパケット（ 50カウント）わずか$ 5.68で発送！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "1209ac0db861",
-   "title": "Kindle Unlimited is now Kindle+ | Score a FREE 30-Day Trial!",
-   "link": "https://moneysavingmom.com/hot-kindle-unlimited-trial-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-28T10:49Z",
-   "firstSeen": "2026-10-28T10:58Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2020/02/Kindle-Unlimited-at-breakfast.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Kindle UnlimitedがKindle +になりました| 30日間の無料トライアルを獲得しましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Kindle UnlimitedがKindle +になりました| 30日間の無料トライアルを獲得しましょう！",
     "when": "",
     "cond": ""
    },
@@ -59315,99 +59517,6 @@
    "freebie": null,
    "sum": {
     "store": "Aldi",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "fd6ffdd2b567",
-   "title": "Cordless Hot Glue Gun w/ 20 Glue Sticks Only $12.99 on Amazon (Reg. $20)",
-   "link": "https://hip2save.com/deals/cordless-hot-glue-gun/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T12:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 35,
-   "price": 12.99,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "b88473bb10be",
-   "title": "Frito-Lay Chips 40-Count Variety Pack Just $11 Shipped on Amazon (Reg. $22)",
-   "link": "https://hip2save.com/deals/frito-lay-chips/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T11:43Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": 11.0,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "52aa2d3c0c5e",
-   "title": "Fruit Gushers Mini Pouches 3-Pack Just 80¢ Shipped on Amazon",
-   "link": "https://hip2save.com/deals/fruit-gushers/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T11:22Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
     "item": "",
     "when": "",
     "cond": ""
