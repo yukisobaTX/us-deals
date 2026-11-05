@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T05:12Z",
- "count": 1732,
+ "updated": "2026-11-05T06:15Z",
+ "count": 1724,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -57,9 +57,10 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 14,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "mymemory": 13,
+   "geminiToday": 1,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -3578,45 +3579,6 @@
    "date": null
   },
   {
-   "id": "96ae7587a235",
-   "title": "Domino’s Giving Away 20,000 FREE Minecraft Games ($30 Value!) – Last Day to Enter!",
-   "link": "https://hip2save.com/deals/dominos-coupons/",
-   "source": "Hip2Save",
-   "posted": "2026-11-04T14:16Z",
-   "firstSeen": "2026-11-04T15:02Z",
-   "expires": "2026-11-04",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Dominos-Minecraft-1.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Domino's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Domino’s",
-    "item": "Minecraftゲーム ($30相当)",
-    "when": "2026-11-04",
-    "cond": "先着2万名",
-    "what": "無料ゲーム",
-    "where": "Domino’s"
-   },
-   "ja": "Minecraftゲーム ($30相当)",
-   "jaVia": "gemini",
-   "date": "2026-11-04"
-  },
-  {
    "id": "aa60abcc282b",
    "title": "KFC Launches Avengers: Doomsday-Inspired Menu Featuring New Doom Burger with a Black Sesame Seed Bun, Doom Dripped Wings, and More",
    "link": "https://www.fastfoodpost.com/kfc-launches-avengers-doomsday-inspired-menu-featuring-new-doom-burger-with-a-black-sesame-seed-bun-doom-dripped-wings-and-more/",
@@ -3930,40 +3892,6 @@
    "dup": "10030e313091"
   },
   {
-   "id": "34d4168ba6fd",
-   "title": "Crock-Pot 4.5qt Manual Slow Cooker only $17.99, plus more {Today Only!}",
-   "link": "https://moneysavingmom.com/crock-pot-4-5qt-manual-slow-cooker-deal-2/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-04T13:18Z",
-   "firstSeen": "2026-11-04T13:21Z",
-   "expires": "2026-11-04",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Crockpots-630x277.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "クロックポット4.5qt手動スロークッカーのみ$ 17.99、その他{本日限定！}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "クロックポット4.5qt手動スロークッカーのみ$ 17.99、その他{本日限定！}",
-    "when": "11/4(水)まで",
-    "cond": ""
-   },
-   "date": "2026-11-04"
-  },
-  {
    "id": "5d9eb4f72b59",
    "title": "Bluey Big Heeler 4WD and Family Toddler Toy Car Only $14.xx on Amazon (Reg $50)",
    "link": "https://thefreebieguy.com/bluey-big-heeler-4wd/",
@@ -4134,77 +4062,6 @@
    "date": null
   },
   {
-   "id": "badbe9016541",
-   "title": "Walmart Drawing TODAY at 5PM EST — NeeDoh Toy & Pokemon Card Game For Grabs!",
-   "link": "https://thefreebieguy.com/walmart-drawing/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-04T12:44Z",
-   "firstSeen": "2026-11-04T13:21Z",
-   "expires": "2026-11-04",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Pokemon-and-Nee-Doh-Drawing-Nov-4-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "11/4(水)まで 5PM",
-    "cond": ""
-   },
-   "date": "2026-11-04"
-  },
-  {
-   "id": "a3977bcabbc2",
-   "title": "Free Shackburger with Purchase from Shake Shack with Verizon Rewards!",
-   "link": "https://thefreebieguy.com/possible-freebie-from-verizon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-04T12:43Z",
-   "firstSeen": "2026-11-04T13:21Z",
-   "expires": "2026-11-04",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Verizon-Store-Front-840x630.png",
-   "hot": true,
-   "stores": [
-    "Shake Shack"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Shake Shack",
-    "item": "シャックバーガー無料",
-    "when": "2026-11-04以降",
-    "cond": "Verizon会員限定",
-    "what": "無料バーガー",
-    "where": "Shake Shack"
-   },
-   "ja": "シャックバーガー無料",
-   "jaVia": "gemini",
-   "date": "2026-11-04"
-  },
-  {
    "id": "928a1cc7ddc5",
    "title": "Campbell’s Condensed Cream of Mushroom Soup Just 39¢ on Amazon",
    "link": "https://thefreebieguy.com/campbells-condensed-cream-of-mushroom-soup/",
@@ -4236,45 +4093,6 @@
    },
    "date": null,
    "dup": "dced924eedcf"
-  },
-  {
-   "id": "7988d51c71df",
-   "title": "Score 6 FREE Walgreens Photo Cards w/ Same Day Pickup",
-   "link": "https://hip2save.com/deals/walgreens-photo-cards/",
-   "source": "Hip2Save",
-   "posted": "2026-11-04T12:30Z",
-   "firstSeen": "2026-11-04T13:21Z",
-   "expires": "2026-11-04",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/walgreens-photo-cards.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Walgreens"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Walgreens",
-    "item": "フォトカード6枚無料",
-    "when": "2026-11-04",
-    "cond": "当日受取",
-    "what": "無料の写真",
-    "where": "Walgreens"
-   },
-   "ja": "フォトカード6枚無料",
-   "jaVia": "gemini",
-   "date": "2026-11-04"
   },
   {
    "id": "bac358ce8d51",
@@ -4438,46 +4256,6 @@
    "date": null
   },
   {
-   "id": "c219dc472f1b",
-   "title": "Walgreens: Set of 6 Customized 5″x7″ Premium Photo Cards Free With Promo Code BIGSIX",
-   "link": "https://www.doctorofcredit.com/walgreens-set-of-6-customized-5x7-premium-photo-cards-free-with-promo-code/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-04T11:30Z",
-   "firstSeen": "2026-11-04T12:00Z",
-   "expires": "2026-11-04",
-   "thumb": null,
-   "hot": true,
-   "stores": [
-    "Walgreens"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free",
-    "coupon"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Walgreens",
-    "item": "写真カード6枚セット",
-    "when": "〜11/4",
-    "cond": "プロモコード",
-    "what": "無料写真カード",
-    "where": "Walgreens"
-   },
-   "ja": "写真カード6枚セット",
-   "jaVia": "gemini",
-   "date": "2026-11-04"
-  },
-  {
    "id": "cc61d2381670",
    "title": "Gold Bond Diabetic Dry Skin Relief Body Lotion Only $2.xx on Amazon (Reg. $5)",
    "link": "https://thefreebieguy.com/gold-bond-diabetics-dry-skin-relief-body-lotion/",
@@ -4511,43 +4289,6 @@
    },
    "date": null,
    "dup": "fc305728e4a5"
-  },
-  {
-   "id": "dbcb00f56494",
-   "title": "Fandango: Free Ticket ($15 Max) To Everest: The Other Side",
-   "link": "https://www.doctorofcredit.com/fandango-free-ticket-15-max-to-everest-the-other-side/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-04T09:26Z",
-   "firstSeen": "2026-11-04T12:00Z",
-   "expires": "2026-11-04",
-   "thumb": null,
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Fandango",
-    "item": "映画チケット($15まで)",
-    "when": "〜11/4",
-    "what": "無料映画",
-    "where": "Fandango"
-   },
-   "ja": "映画チケット($15まで)",
-   "jaVia": "gemini",
-   "date": "2026-11-04",
-   "dup": "c6814fe2d240"
   },
   {
    "id": "2e85935b1288",
@@ -5414,38 +5155,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e8dd2acfc639",
-   "title": "Dutch Bros Coffee Deals | Play to Win Free Drinks + Score a Free Sticker on 11/4",
-   "link": "https://thefreebieguy.com/dutch-bros-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T21:25Z",
-   "firstSeen": "2026-11-03T21:57Z",
-   "expires": "2026-11-04",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Dutch-Bros-Coffee-840x630.jpg",
-   "hot": true,
-   "stores": [
-    "Dutch Bros"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Dutch Bros",
-    "item": "",
-    "when": "11/4(水)まで",
-    "cond": ""
-   },
-   "date": "2026-11-04"
   },
   {
    "id": "5a29e6444e3f",
