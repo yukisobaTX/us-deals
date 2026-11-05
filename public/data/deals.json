@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T07:39Z",
- "count": 1727,
+ "updated": "2026-11-05T09:15Z",
+ "count": 1729,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -58,13 +58,81 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 2,
+   "geminiToday": 3,
    "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "c9f03ef66eb0",
+   "title": "Clorox Toilet Bowl Brush & Plunger Combo Set Only $5.xx on Amazon (Reg $17)",
+   "link": "https://thefreebieguy.com/clorox-toilet-bowl-brush-plunger-combo-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T09:09Z",
+   "firstSeen": "2026-11-05T09:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/07/Clorox-brush-2-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Cloroxトイレボウルブラシ＆プランジャーコンボセットのみ$ 5.xx Amazon (Reg $ 17)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Cloroxトイレボウルブラシ＆プランジャーコンボセットのみ$ 5.xx Amazon (Reg $ 17)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "69eb92585bbf",
+   "title": "Armor All Ultra Shine Car Wash and Wax 64 fl oz Bottle Only $4.xx on Walmart",
+   "link": "https://thefreebieguy.com/armor-all-ultra-shine-car-wash-and-wax/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T08:18Z",
+   "firstSeen": "2026-11-05T09:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Armor-All-Ultra-Shine-Car-Wash-and-Wax-64-fl-oz-Bottle-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Armorオールウルトラシャインカーウォッシュ＆ワックス64液量オンスボトルのみ$ 4.xxウォルマート",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Armorオールウルトラシャインカーウォッシュ＆ワックス64液量オンスボトルのみ$ 4.xxウォルマート",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "64abf2ff5c82",
    "title": "Lunakai Sea Moss 60-Count Capsules Only $8.99 Shipped on Amazon (Reg. $26)",
@@ -5897,13 +5965,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "タコスベルのお得な情報| $ 5.99 Cravings Boxesには、アントレ2つ、サイド、ドリンクが付属しています！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Taco Bell",
-    "item": "",
+    "item": "タコスベルのお得な情報| $ 5.99 Cravings Boxesには、アントレ2つ、サイド、ドリンクが付属しています！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f90d6022e4c4",
@@ -6174,13 +6244,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートのベイアイランドホットココアベアギフトセットは$ 9.xxのみ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートのベイアイランドホットココアベアギフトセットは$ 9.xxのみ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5deb2364b6f8",
@@ -6206,13 +6278,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アマゾンでたったの$ 7.99のクジラ用ライトアップスプリンクラーバス用おもちゃ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アマゾンでたったの$ 7.99のクジラ用ライトアップスプリンクラーバス用おもちゃ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d8ed9fd57805",
@@ -6238,13 +6312,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "GRACE KARINニットカーディガンセーター$ 8.99 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "GRACE KARINニットカーディガンセーター$ 8.99 ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f452bec37ec8",
@@ -6628,13 +6704,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "1つ購入すると、Walgreensで1つの無料のカスタム木製フォトオーナメントと、当日の店内ピックアップが無料になります！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "1つ購入すると、Walgreensで1つの無料のカスタム木製フォトオーナメントと、当日の店内ピックアップが無料になります！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c6814fe2d240",
@@ -6697,13 +6775,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "* HOT * 6フィートのクリスマスの雪だるまインフレータブルのみ$ 26.69 （登録価格$ 60 ！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "* HOT * 6フィートのクリスマスの雪だるまインフレータブルのみ$ 26.69 （登録価格$ 60 ！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c2276e7e9c48",
@@ -6729,13 +6809,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kohl's Caresぬいぐるみ＆本が$ 4.19から（とてもかわいいクリスマスプレゼント！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Kohl's Caresぬいぐるみ＆本が$ 4.19から（とてもかわいいクリスマスプレゼント！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "560cdc6ae80a",
@@ -6766,13 +6848,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Red Bullアドベントカレンダーが利用可能になりました（ 24缶、11フレーバー！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Costco",
-    "item": "",
+    "item": "Red Bullアドベントカレンダーが利用可能になりました（ 24缶、11フレーバー！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6e547d03bc3e",
@@ -7187,13 +7271,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comでわずか$ 20のハイパータフミニ2引き出しツールボックス（たくさんの楽しい色！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comでわずか$ 20のハイパータフミニ2引き出しツールボックス（たくさんの楽しい色！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "572bb1637235",
