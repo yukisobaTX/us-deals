@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-05T21:00Z",
- "count": 1787,
+ "updated": "2026-11-05T21:57Z",
+ "count": 1793,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 2
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,258 @@
    "added": 0
   },
   "ja": {
-   "gemini": 23,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 12,
-   "model": "gemini-flash-latest"
+   "mymemory": 24,
+   "geminiToday": 13,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0a633cb58c1f",
+   "title": "Monopoly Deal NFL Edition Card Game Only $3.49 on Amazon (Play in Just 15 Minutes!)",
+   "link": "https://hip2save.com/deals/monopoly-deal-card-game/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T21:50Z",
+   "firstSeen": "2026-11-05T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/12/Monopoly-Deal-NFL-Edition.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AmazonのMonopoly Deal NFL Editionカードゲームのみ$ 3.49 （わずか15分でプレイ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "AmazonのMonopoly Deal NFL Editionカードゲームのみ$ 3.49 （わずか15分でプレイ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c5c3e1508518",
+   "title": "Disney Princess Dolls From $6.xx on Amazon (Reg. $12)",
+   "link": "https://thefreebieguy.com/disney-princess-dolls-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T21:37Z",
+   "firstSeen": "2026-11-05T21:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Disney-Princess-Dolls--840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ディズニープリンセスの人形Amazonで$ 6.xxから（登録価格$ 12 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ディズニープリンセスの人形Amazonで$ 6.xxから（登録価格$ 12 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9cef80083b3a",
+   "title": "Toilet Golf Games From $7.99 on Amazon | Perfect White Elephant Gift",
+   "link": "https://hip2save.com/deals/toilet-golf-game/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T21:30Z",
+   "firstSeen": "2026-11-05T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/toilet-golf-game-amazon-.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "トイレゴルフゲームAmazonで$ 7.99から|完璧なホワイトエレファントギフト",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "トイレゴルフゲームAmazonで$ 7.99から|完璧なホワイトエレファントギフト",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ee8b776a2061",
+   "title": "Mainstays Patio Heater Just $98.50 Shipped on Walmart.com (Reg. $197)",
+   "link": "https://hip2save.com/deals/patio-heater/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T21:20Z",
+   "firstSeen": "2026-11-05T21:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/03/Mainstays-Patio-Heater.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 98.5,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Mainstaysパティオヒーターたったの$ 98.50 Walmart.comで発送（登録価格$ 197 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Mainstaysパティオヒーターたったの$ 98.50 Walmart.comで発送（登録価格$ 197 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "859ba9bee9ca",
+   "date": null
+  },
+  {
+   "id": "912a1380a620",
+   "title": "Disney Pixar Toy Story Buzz Lightyear Action Figure Only $47.xx on Amazon (Reg. $80)",
+   "link": "https://thefreebieguy.com/disney-pixar-toy-story-buzz-lightyear-action-figure/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T21:15Z",
+   "firstSeen": "2026-11-05T21:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Mattel-Disney-Pixar-Toy-Story-Buzz-Lightyear-Action-Figure-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 47.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Disney Pixarトイ・ストーリーBuzz LightyearアクションフィギュアAmazonで$ 47.xxのみ（登録価格$ 80 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Disney Pixarトイ・ストーリーBuzz LightyearアクションフィギュアAmazonで$ 47.xxのみ（登録価格$ 80 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "11396694ee53",
+   "date": null
+  },
+  {
+   "id": "53085117cbcd",
+   "title": "Play-Doh Wok & Wonton Playset Just $5.xx on Amazon (Reg. $10)",
+   "link": "https://thefreebieguy.com/play-doh-wok-wonton-playset/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T21:09Z",
+   "firstSeen": "2026-11-05T21:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Play-Doh-Wonton-Playset-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Play - Doh Wok & WontonプレイセットAmazonでたったの$ 5.xx （登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Play - Doh Wok & WontonプレイセットAmazonでたったの$ 5.xx （登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "a6f6631b3cbd",
+   "date": null
+  },
+  {
+   "id": "db308b757686",
+   "title": "Kohl’s Early Access Black Friday Deals Start Friday, November 6th!",
+   "link": "https://moneysavingmom.com/kohls-black-friday-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T21:02Z",
+   "firstSeen": "2026-11-05T21:57Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/12/Kohls-and-Crystal.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "コールの先行アクセスブラックフライデーセールは11月6日（金）から始まります！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "コールの先行アクセスブラックフライデーセールは11月6日（金）から始まります！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "8a8d23c5c223",
+   "date": null
+  },
   {
    "id": "2f670f5ad950",
    "title": "Amazon Basics Sleeping Bag Just $2.99 Shipped for New Woot Customers",
@@ -96,8 +339,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "2d808b0f6723",
-   "date": null
+   "date": null,
+   "dup": "2d808b0f6723"
   },
   {
    "id": "c348876d88c2",
@@ -2914,13 +3157,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "イニシャルハートブレスレットはたったの$ 3.99 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "イニシャルハートブレスレットはたったの$ 3.99 ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b148e71ce8b6",
@@ -2946,13 +3191,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Voniko 24個パック単4電池たったの$ 6.xx （ Amazon ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Voniko 24個パック単4電池たったの$ 6.xx （ Amazon ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b4df3b349f71",
@@ -7470,45 +7717,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "96ae7587a235",
-   "title": "Domino’s Giving Away 20,000 FREE Minecraft Games ($30 Value!) – Last Day to Enter!",
-   "link": "https://hip2save.com/deals/dominos-coupons/",
-   "source": "Hip2Save",
-   "posted": "2026-11-04T14:16Z",
-   "firstSeen": "2026-11-05T07:39Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Dominos-Minecraft-1.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Domino's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "マイクラゲーム($30相当)",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Domino’s",
-    "item": "マイクラゲーム($30相当)",
-    "when": "〜11/4",
-    "cond": "抽選2万名・要応募",
-    "what": "無料ゲーム",
-    "where": "Domino’s"
-   },
-   "date": "2026-11-04"
   },
   {
    "id": "a0fc928e24e4",
@@ -37612,7 +37820,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "347026f5b38a"
+   "dup": "13c37bbf701e"
   },
   {
    "id": "9a19c65f025b",
