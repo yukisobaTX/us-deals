@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T12:06Z",
- "count": 1733,
+ "updated": "2026-11-05T13:27Z",
+ "count": 1743,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 7
+   "added": 8
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,491 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 19,
-   "geminiToday": 5,
+   "mymemory": 24,
+   "geminiToday": 6,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "80f37093f9be",
+   "title": "Target Early Black Friday Sale: 40% off Shoes for the Family!",
+   "link": "https://moneysavingmom.com/target-circle-20-off-sandals-for-the-family/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T13:25Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/11/Target-Shoes.jpg",
+   "hot": false,
+   "stores": [
+    "Target",
+    "Amazon"
+   ],
+   "cats": [
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲット早期ブラックフライデーセール：ファミリー用シューズが40%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target・Amazon",
+    "item": "ターゲット早期ブラックフライデーセール：ファミリー用シューズが40%オフ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9108ebab410c",
+   "title": "14K Gold Plated Initial Bracelet Only $3.99 on Amazon (Today Only!)",
+   "link": "https://hip2save.com/deals/initial-bracelet/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T13:15Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": "2026-11-05",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mooham-inital-bracelet-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "14 Kゴールドメッキイニシャルブレスレットのみ$ 3.99 Amazon （本日限定！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "14 Kゴールドメッキイニシャルブレスレットのみ$ 3.99 Amazon （本日限定！ ）",
+    "when": "11/5(木)まで",
+    "cond": ""
+   },
+   "dup": "2becf7674599",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "86707746fe37",
+   "title": "PicassoTiles Christmas Holidays Cottage Building Set only $10.18!",
+   "link": "https://moneysavingmom.com/picassotiles-christmas-holidays-cottage-building-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T13:15Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/PicassoTiles-Christmas-Holidays-Cottage-Building-Set-o-630x530.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "PicassoTilesクリスマスホリデーコテージビル$ 10.18のみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "PicassoTilesクリスマスホリデーコテージビル$ 10.18のみ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "37fbf6c33850",
+   "title": "PicassoTiles Magnetic Tile Christmas Holidays Cottage Building Set Only $10.xx on Amazon (Reg $50)",
+   "link": "https://thefreebieguy.com/picassotiles-magnetic-tile-building-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T13:00Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/PicassoTiles-Magnetic-Tile-Christmas-Holidays-Cottage-Building-Set-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 80,
+   "price": 10.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "PicassoTilesマグネティックタイルクリスマスホリデーコテージビルディングセットAmazonで$ 10.xxのみ（登録価格$ 50 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "PicassoTilesマグネティックタイルクリスマスホリデーコテージビルディングセットAmazonで$ 10.xxのみ（登録価格$ 50 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "86707746fe37",
+   "date": null
+  },
+  {
+   "id": "4fa54a7252a7",
+   "title": "NEW Amazon Prime Perk: Get $40 Off Uber Eats Orders (Hurry, Ends Soon!)",
+   "link": "https://hip2save.com/deals/amazon-uber-eats/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T12:58Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Uber-Eats-Chick-Fil-A.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon",
+    "Uber Eats"
+   ],
+   "cats": [
+    "food",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "新しいAmazonプライム特典： Uber Eatsでのご注文が$ 40オフになります（お急ぎください。まもなく終了します！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon・Uber Eats",
+    "item": "新しいAmazonプライム特典： Uber Eatsでのご注文が$ 40オフになります（お急ぎください。まもなく終了します！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "974fdb55dfc9",
+   "title": "Bedelite Fleece Throw Blanket as low as $7.97!",
+   "link": "https://moneysavingmom.com/fleece-throw-blanket-deal-cute/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T12:56Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/04/Fleece-Throw-Blanket-630x845.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bedelite Fleeceスローブランケットは$ 7.97 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Bedelite Fleeceスローブランケットは$ 7.97 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "43cfe1541e6c",
+   "title": "Spark & Wow Calm Down Threading Sensory Boards Only $2.xx on Amazon (Reg $18)",
+   "link": "https://thefreebieguy.com/spark-wow-calm-down-threading-boards/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T12:56Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/sensory-boards-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 89,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Spark & Wow Calm DownスレッドセンサボードAmazonで$ 2.xxのみ（登録価格$ 18 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Spark & Wow Calm DownスレッドセンサボードAmazonで$ 2.xxのみ（登録価格$ 18 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4a946fa281d2",
+   "title": "Ninja Foodi 6qt 2 Basket Air Fryer only $99.99 shipped, plus more!",
+   "link": "https://moneysavingmom.com/ninja-foodi-basket-air-fryer-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T12:43Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Screenshot-2025-11-06-at-9.12.49 AM-630x485.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Ninja Foodi 6 qt 2バスケットエアフライヤー$ 99.99のみ発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Ninja Foodi 6 qt 2バスケットエアフライヤー$ 99.99のみ発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "bab5f8f59849",
+   "title": "Christmas Flannel Sheet Set only $17.50, plus more!",
+   "link": "https://moneysavingmom.com/christmas-flannel-sheet-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T12:40Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Sheets-Sets-1-630x621.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "クリスマスフランネルシートセットは$ 17.50のみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "クリスマスフランネルシートセットは$ 17.50のみ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d872bd9e447b",
+   "title": "Corelle Vitrelle 6-Piece Soup/Cereal Bowl Set Only $17.xx on Amazon (Reg $25)",
+   "link": "https://thefreebieguy.com/corelle-vitrelle-6-piece-soup-cereal-bowl-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T12:24Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Corelle-Vitrelle-6-Piece-Soup-Cereal-Bowl-Set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 32,
+   "price": 17.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Corelle Vitrelle 6ピーススープ/シリアルボウルセットのみ$ 17.xxアマゾン（登録$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Corelle Vitrelle 6ピーススープ/シリアルボウルセットのみ$ 17.xxアマゾン（登録$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9f6ada0e87a1",
+   "title": "Whirlpool 3.1 cu ft Mini Refrigerator with Freezer only $129.99 shipped (Reg. $220)!",
+   "link": "https://moneysavingmom.com/whirlpool-mini-refrigerator-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T12:13Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/08/Whirlpool-3.1-cu-ft-Mini-Refrigerator-.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 41,
+   "price": 129.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c2101faacbe6",
+   "title": "BTFBM Women’s Jeans only $23.99 shipped {Crystal LOVES These!}",
+   "link": "https://moneysavingmom.com/btfbm-womens-jeans-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T12:11Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Jeans-630x810.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "416ffa643455",
+   "title": "Scooter’s Coffee Deals | Free Emotional Support Smiley Slap Bracelet, & More!",
+   "link": "https://thefreebieguy.com/scooters-coffee-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T12:10Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Scooters-Coffee-840x630.png",
+   "hot": true,
+   "stores": [
+    "Scooter's Coffee"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "スクーターのコーヒーセール|無料のエモーショナルサポートスマイリースラップブレスレットなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Scooter's Coffee",
+    "item": "スクーターのコーヒーセール|無料のエモーショナルサポートスマイリースラップブレスレットなど！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a3977bcabbc2",
+   "title": "10 Free Holiday Cards from Shutterfly (and free shipping) with Verizon Rewards!",
+   "link": "https://thefreebieguy.com/possible-freebie-from-verizon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T12:07Z",
+   "firstSeen": "2026-11-05T13:27Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Verizon-Store-Front-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Verizon Rewards",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "e831cef09815",
    "title": "*HOT* 40% off Matching Pajamas for the Family at Target: $6 MicroFleece Holiday Pants, plus more!",
@@ -234,8 +711,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "8facf537685d",
-   "date": null
+   "date": null,
+   "dup": "8facf537685d"
   },
   {
    "id": "833e40c5f186",
@@ -306,8 +783,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "f45a46e2f4b5",
-   "date": null
+   "date": null,
+   "dup": "f45a46e2f4b5"
   },
   {
    "id": "88caa87f7655",
@@ -14566,8 +15043,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "b88473bb10be"
+   "date": null
   },
   {
    "id": "4f47ef257ef1",
@@ -18182,40 +18658,6 @@
    "ja": "感謝祭アニメ番組を無料で視聴できる",
    "jaVia": "claude",
    "date": "2026-11-14"
-  },
-  {
-   "id": "a891f9565deb",
-   "title": "RUN! The Softest Blanket EVER is 50% Off + Ships FREE",
-   "link": "https://hip2save.com/deals/lola-blankets/",
-   "source": "Hip2Save",
-   "posted": "2026-11-01T12:45Z",
-   "firstSeen": "2026-11-01T13:02Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/lola-blanket.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "item": "ブランケット半額＆送料無料",
-    "what": "半額毛布",
-    "where": "オンライン"
-   },
-   "ja": "ブランケット半額＆送料無料",
-   "jaVia": "gemini",
-   "date": null
   },
   {
    "id": "ed1a25a8a9ce",
@@ -34933,39 +35375,6 @@
    "sum": {
     "store": "Amazon",
     "item": "Clabber Girlコーンスターチ2パックAmazonで$ 2.xxのみ！ (Reg. $ 10)",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "e316967bed3b",
-   "title": "Stock Up! BOGO Free Bath & Body Works Holiday Candles, Hand Soap & More",
-   "link": "https://hip2save.com/deals/bath-body-works-promo-code/",
-   "source": "Hip2Save",
-   "posted": "2026-10-28T12:11Z",
-   "firstSeen": "2026-10-28T12:13Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/bbw-holiday-candles.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "買いだめ！ BOGO無料バス＆ボディワークスホリデーキャンドル、ハンドソープなど",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "買いだめ！ BOGO無料バス＆ボディワークスホリデーキャンドル、ハンドソープなど",
     "when": "",
     "cond": ""
    },
@@ -59454,69 +59863,6 @@
    "freebie": null,
    "sum": {
     "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "0827bd5f723f",
-   "title": "Subway Welcomes Back the Fritos Chicken Enchilada Sub",
-   "link": "https://www.fastfoodpost.com/subway-welcomes-back-the-fritos-chicken-enchilada-sub/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-21T13:21Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Subway"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Subway",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "dce3b2002e7e",
-   "title": "Run to ALDI! $4.99 Holiday Glass Sippers Now Available",
-   "link": "https://hip2save.com/deals/aldi-glass-sippers/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T13:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Aldi"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Aldi",
     "item": "",
     "when": "",
     "cond": ""
