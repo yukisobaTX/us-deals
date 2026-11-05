@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T06:15Z",
- "count": 1724,
+ "updated": "2026-11-05T07:39Z",
+ "count": 1727,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -57,8 +57,8 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 13,
-   "geminiToday": 1,
+   "mymemory": 25,
+   "geminiToday": 2,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
@@ -162,6 +162,43 @@
    "sum": {
     "store": "Amazon",
     "item": "Little Golden Booksディズニープリンセス12点セットわずか$ 28アマゾン（登録価格$ 84 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7988d51c71df",
+   "title": "Score 6 FREE Walgreens Photo Cards w/ Same Day Pickup",
+   "link": "https://hip2save.com/deals/walgreens-photo-cards/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T00:40Z",
+   "firstSeen": "2026-11-05T07:39Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Walgreens-Photo-Cards.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "同日ピックアップ付きウォルグリーンフォトカードを6枚無料で獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walgreens",
+    "item": "同日ピックアップ付きウォルグリーンフォトカードを6枚無料で獲得",
     "when": "",
     "cond": ""
    },
@@ -3613,6 +3650,43 @@
    "date": null
   },
   {
+   "id": "96ae7587a235",
+   "title": "Domino’s Giving Away 20,000 FREE Minecraft Games ($30 Value!) – Last Day to Enter!",
+   "link": "https://hip2save.com/deals/dominos-coupons/",
+   "source": "Hip2Save",
+   "posted": "2026-11-04T14:16Z",
+   "firstSeen": "2026-11-05T07:39Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Dominos-Minecraft-1.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Domino's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "Domino's Giving Away 20,000無料Minecraftゲーム（ 30 $相当！ ）-応募締め切り日です！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Domino's",
+    "item": "Domino's Giving Away 20,000無料Minecraftゲーム（ 30 $相当！ ）-応募締め切り日です！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "a0fc928e24e4",
    "title": "ALDI Advent Calendars Just Dropped",
    "link": "https://thefreebieguy.com/aldi-advent-calendars/",
@@ -4085,13 +4159,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Campbell's Condensed Cream of Mushroom Soupアマゾンでたったの39 ¢",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Campbell's Condensed Cream of Mushroom Soupアマゾンでたったの39 ¢",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "dced924eedcf"
   },
   {
@@ -4118,13 +4194,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Ekouaerレディースフリース裏地サーマルセットのみ$ 7.xx Amazon （登録価格$ 20 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Ekouaerレディースフリース裏地サーマルセットのみ$ 7.xx Amazon （登録価格$ 20 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "85877b4c1e29"
   },
   {
@@ -4151,13 +4229,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ドミノのお買い得情報|マインクラフト・ダンジョン2などのデジタルコピーを勝ち取ろう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Domino's",
-    "item": "",
+    "item": "ドミノのお買い得情報|マインクラフト・ダンジョン2などのデジタルコピーを勝ち取ろう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7d87c8d2e996",
@@ -4183,13 +4263,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "パーソナライズされた刻印ミニポータブル両面メイクアップミラー$ 9.99のみ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "パーソナライズされた刻印ミニポータブル両面メイクアップミラー$ 9.99のみ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b0c4839c97aa",
@@ -4213,13 +4295,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sirius XMセール： XMラジオ3か月無料{車+アプリまたはアプリのみ！}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "Sirius XMセール： XMラジオ3か月無料{車+アプリまたはアプリのみ！}",
     "when": "",
     "cond": "アプリ"
-   },
-   "date": null
+   }
   },
   {
    "id": "77916bb6c3f6",
@@ -4252,6 +4336,44 @@
     "item": "* HOT *キッズマグネティックタイルセット（ 40枚）は$ 11.99のみ！",
     "when": "",
     "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "c219dc472f1b",
+   "title": "Walgreens: Set of 6 Customized 5″x7″ Premium Photo Cards Free With Promo Code BIGSIX",
+   "link": "https://www.doctorofcredit.com/walgreens-set-of-6-customized-5x7-premium-photo-cards-free-with-promo-code/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-04T11:30Z",
+   "firstSeen": "2026-11-05T07:39Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free",
+    "coupon"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walgreens",
+    "item": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料",
+    "when": "",
+    "cond": "コード入力"
    },
    "date": null
   },
@@ -5257,13 +5379,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Simple Mills Sweet Thinsはちみつシナモンクッキー$ 3.51のみ発送！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Simple Mills Sweet Thinsはちみつシナモンクッキー$ 3.51のみ発送！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "eb23e96875ca",
@@ -5328,13 +5452,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "5つのUlta Beauty Miniわずか$ 9 （完璧なティーンストッキングスタッファー！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Ulta",
-    "item": "",
+    "item": "5つのUlta Beauty Miniわずか$ 9 （完璧なティーンストッキングスタッファー！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c4d53d6d1967",
@@ -5703,13 +5829,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートクーポンセール：缶詰パンプキン1ドル、鳥の目野菜1ドル、グレイド1.27ドルなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートクーポンセール：缶詰パンプキン1ドル、鳥の目野菜1ドル、グレイド1.27ドルなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8381e7081f77",
