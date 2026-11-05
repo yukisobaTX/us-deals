@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-05T23:28Z",
- "count": 1797,
+ "count": 1799,
  "stats": {
   "h2s": {
    "read": 100,
@@ -2463,14 +2463,14 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "小型キャンドル無料",
-   "jaVia": "gemini",
+   "ja": "Yankee Candle 店頭で購入時に小サイズのキャンドル無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Yankee Candle",
-    "item": "小型キャンドル無料",
-    "when": "11/7-8",
-    "cond": "要購入・店頭",
-    "what": "無料キャンドル",
+    "item": "Yankee Candle 店頭で購入時に小サイズのキャンドル無料",
+    "when": "11/7(土)〜11/8(日)",
+    "cond": "店頭で購入時",
+    "what": "キャンドル無料",
     "where": "Yankee Candle"
    },
    "date": "2026-11-07"
@@ -13905,13 +13905,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館の模型づくりワークショップ",
+    "item": "ブッシュ大統領図書館・博物館の模型づくりワークショップ",
     "when": "11/7(土)",
     "cond": "工作",
     "what": "模型づくり教室",
-    "where": "Bush図書館博物館"
+    "where": "ブッシュ図書館博物館"
    },
-   "ja": "ブッシュ大統領図書館の模型づくりワークショップ",
+   "ja": "ブッシュ大統領図書館・博物館の模型づくりワークショップ",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -13947,12 +13947,12 @@
    "eventNews": false,
    "sum": {
     "store": "Brazos County Expo Complex",
-    "item": "トレカ・コミック・コレクターズグッズの展示即売会",
+    "item": "トレカ・コミック・コレクターズ商品の展示即売会",
     "when": "11/7(土)",
     "what": "カード・コミック展",
     "where": "Brazos Center"
    },
-   "ja": "トレカ・コミック・コレクターズグッズの展示即売会",
+   "ja": "トレカ・コミック・コレクターズ商品の展示即売会",
    "jaVia": "claude-ev",
    "date": "2026-11-07",
    "freebie": null
@@ -13983,14 +13983,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "Degallery",
-    "item": "Degalleryの第1土曜アートマーケット",
+    "store": "DeGallery",
+    "item": "毎月第1土曜のアートマーケット",
     "when": "11/7(土)",
     "cond": "毎月第1土曜",
     "what": "アートマーケット",
     "where": "Degallery"
    },
-   "ja": "Degalleryの第1土曜アートマーケット",
+   "ja": "毎月第1土曜のアートマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -19055,13 +19055,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "St. Andrew's教会の子供向け音楽あそびの会",
+    "item": "小さな子供向けの音楽遊びの会",
     "when": "11/6(金)",
     "cond": "子供向け",
-    "what": "音楽あそび",
+    "what": "子供の音楽遊び",
     "where": "St. Andrew's教会"
    },
-   "ja": "St. Andrew's教会の子供向け音楽あそびの会",
+   "ja": "小さな子供向けの音楽遊びの会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -19097,13 +19097,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Midtown Parkの毎週土曜のファーマーズマーケット",
-    "when": "11/7(土)",
-    "what": "ファーマーズマーケ…",
+    "item": "毎週土曜のファーマーズマーケット",
+    "when": "11/7(土) 朝",
+    "what": "ファーマーズ市",
     "where": "Midtown Park",
-    "cond": "毎週土曜"
+    "cond": "入場無料"
    },
-   "ja": "Midtown Parkの毎週土曜のファーマーズマーケット",
+   "ja": "毎週土曜のファーマーズマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -19181,14 +19181,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "Downtown Bryan",
-    "item": "ダウンタウン・ブライアンのホリデーライトアップ点灯イベント",
-    "when": "11/20(金) 17時",
-    "cond": "家族向け",
-    "what": "ライトアップ点灯式",
-    "where": "Downtown Bryan"
+    "store": "Historic Downtown Bryan",
+    "item": "ブライアン旧市街のホリデー点灯イベント「Lights On」",
+    "when": "11/20(金) 17時〜",
+    "cond": "家族で",
+    "what": "点灯式",
+    "where": "ブライアン旧市街"
    },
-   "ja": "ダウンタウン・ブライアンのホリデーライトアップ点灯イベント",
+   "ja": "ブライアン旧市街のホリデー点灯イベント「Lights On」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -24968,12 +24968,12 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkの野外コンサート「Illuminate」",
+    "item": "Lake Walk の屋外コンサート「Illuminate」",
     "when": "11/7(土)",
-    "what": "野外コンサート",
+    "what": "屋外コンサート",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walkの野外コンサート「Illuminate」",
+   "ja": "Lake Walk の屋外コンサート「Illuminate」",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -25010,13 +25010,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "ダウン症協会のチャリティ5Kラン(Lake Walk)",
+    "item": "ダウン症協会のチャリティ5Kラン",
     "when": "11/7(土)",
     "cond": "要申込",
     "what": "5Kラン大会",
     "where": "Lake Walk"
    },
-   "ja": "ダウン症協会のチャリティ5Kラン(Lake Walk)",
+   "ja": "ダウン症協会のチャリティ5Kラン",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -29738,7 +29738,7 @@
     "store": "Clara B. Mounce Library",
     "item": "図書館友の会の秋の古本セール(土日)",
     "when": "11/7(土)〜11/8(日)",
-    "cond": "子供向けの本も(要確認)",
+    "cond": "子供の本も",
     "what": "古本セール",
     "where": "Mounce図書館"
    },
@@ -29778,13 +29778,13 @@
    "eventNews": false,
    "sum": {
     "store": "Museum of the American G.I.",
-    "item": "American G.I.博物館の歴史再現・軍用車両の走行展示",
+    "item": "軍用車両が動く姿を見られる博物館の催し",
     "when": "11/7(土)",
-    "cond": "博物館",
-    "what": "軍用車の実演",
+    "cond": "入場料",
+    "what": "軍用車両の実演",
     "where": "American G.I.博…"
    },
-   "ja": "American G.I.博物館の歴史再現・軍用車両の走行展示",
+   "ja": "軍用車両が動く姿を見られる博物館の催し",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -34837,13 +34837,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ブライアン旧市街の月例イベント。ライブ音楽・パフォーマンス・アート",
-    "when": "11/6(金) 夕方",
-    "what": "First Fri…",
+    "item": "旧市街で音楽・パフォーマンス・アートの月例祭り",
+    "when": "11/6(金) 夕方〜",
+    "what": "ファーストフライデー",
     "where": "ブライアン旧市街",
-    "cond": "毎月第1金曜"
+    "cond": "入場無料"
    },
-   "ja": "ブライアン旧市街の月例イベント。ライブ音楽・パフォーマンス・アート",
+   "ja": "旧市街で音楽・パフォーマンス・アートの月例祭り",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -43571,13 +43571,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Midtown Parkの日曜マーケット(Rountree)",
+    "item": "Midtown Park の日曜マーケット",
     "when": "11/8(日)",
     "cond": "屋外マーケット",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "Midtown Parkの日曜マーケット(Rountree)",
+   "ja": "Midtown Park の日曜マーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -44452,7 +44452,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-04",
+   "localDate": "2026-11-06",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -44468,13 +44468,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館の米国の歩みを紹介する特別展(〜2027/5/16)",
-    "when": "〜5/16",
+    "item": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+    "when": "〜2027/5/16",
     "what": "博物館の特別展",
-    "where": "Bush図書館博物館",
-    "cond": "博物館の展示"
+    "where": "ブッシュ図書館博物館",
+    "cond": "入館料"
    },
-   "ja": "ブッシュ大統領図書館の米国の歩みを紹介する特別展(〜2027/5/16)",
+   "ja": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -44510,13 +44510,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkのランニングクラブ",
+    "item": "Lake Walk のランニングクラブ(毎週金曜)",
     "when": "11/6(金)",
     "what": "ランニング会",
     "where": "Lake Walk",
-    "cond": "無料"
+    "cond": "誰でも参加"
    },
-   "ja": "Lake Walkのランニングクラブ",
+   "ja": "Lake Walk のランニングクラブ(毎週金曜)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -61892,6 +61892,87 @@
    "date": "2026-11-11",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "664e7a8cfbaa",
+   "title": "Día de los Muertos in Historic Downtown Bryan",
+   "link": "https://www.destinationbryan.com/events/day-of-the-dead-celebration-in-historic-downtown-bryan-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-05T23:32Z",
+   "firstSeen": "2026-11-05T23:32Z",
+   "expires": "2026-11-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fairs & Festivals"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Historic Downtown Bryan",
+    "item": "旧市街で死者の日(Día de los Muertos)の祭り",
+    "when": "11/6(金)",
+    "cond": "家族で",
+    "what": "死者の日の祭り",
+    "where": "ブライアン旧市街"
+   },
+   "ja": "旧市街で死者の日(Día de los Muertos)の祭り",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-06"
+  },
+  {
+   "id": "ef4886775122",
+   "title": "Dragon Card Show at the Bryan Ballroom",
+   "link": "https://www.destinationbryan.com/events/dragon-card-show/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-05T23:32Z",
+   "firstSeen": "2026-11-05T23:32Z",
+   "expires": "2026-11-08",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-07",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Bryan Ballroom",
+    "item": "トレーディングカードの即売会(土日)",
+    "when": "11/7(土)〜11/8(日)",
+    "what": "カードショー",
+    "where": "Bryan Ballroom"
+   },
+   "ja": "トレーディングカードの即売会(土日)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-07"
   }
  ]
 }
