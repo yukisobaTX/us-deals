@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T20:04Z",
- "count": 1784,
+ "updated": "2026-11-05T21:00Z",
+ "count": 1787,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 2
   },
   "ffp": {
    "read": 20,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -55,16 +55,258 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 23,
    "geminiEvent": 0,
-   "mymemory": 24,
-   "geminiToday": 11,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "mymemory": 25,
+   "geminiToday": 12,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "2f670f5ad950",
+   "title": "Amazon Basics Sleeping Bag Just $2.99 Shipped for New Woot Customers",
+   "link": "https://hip2save.com/deals/amazon-basics-sleeping-bag/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T20:50Z",
+   "firstSeen": "2026-11-05T21:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/amazon-basics-adult-sleeping-bag.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Basics寝袋わずか$ 2.99 Wootの新規顧客向けに発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Basics寝袋わずか$ 2.99 Wootの新規顧客向けに発送",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "2d808b0f6723",
+   "date": null
+  },
+  {
+   "id": "c348876d88c2",
+   "title": "$5 Off $15 Paper Products on Amazon! $3.xx Kleenex Tissue + $3.xx Cottonelle Toilet Paper",
+   "link": "https://thefreebieguy.com/paper-products-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T20:39Z",
+   "firstSeen": "2026-11-05T21:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/5-off-15-Paper-products-featured-image-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonで15ドルの紙製品が5ドル割引！ 3.xxドルのKleenexティッシュ+ 3.xxドルのCottonelleトイレットペーパー",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonで15ドルの紙製品が5ドル割引！ 3.xxドルのKleenexティッシュ+ 3.xxドルのCottonelleトイレットペーパー",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "15127cfdc89b",
+   "title": "Wyndham Rewards: One Status Level Upgrade [3k Free Points For Diamond]",
+   "link": "https://www.doctorofcredit.com/wyndham-rewards-one-status-level-upgrade/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-05T20:29Z",
+   "firstSeen": "2026-11-05T21:00Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/11/wyndham-deal-1024x852.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Wyndham Rewards",
+    "item": "ステータス昇格・3千pt",
+    "cond": "会員限定",
+    "what": "会員昇格",
+    "where": "Wyndham"
+   },
+   "ja": "ステータス昇格・3千pt",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "38450e9b6530",
+   "title": "Wavytalk Professional Ionic Hair Dryer with Diffuser Only $19.xx on Amazon (Reg $50)",
+   "link": "https://thefreebieguy.com/wavytalk-professional-ionic-hair-dryer-with-diffuser-on-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T20:22Z",
+   "firstSeen": "2026-11-05T21:00Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/wavy-talk1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 19.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Wavytalkプロフェッショナルイオニックヘアドライヤーディフューザー付きAmazonで$ 19.xxのみ（登録価格$ 50 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Wavytalkプロフェッショナルイオニックヘアドライヤーディフューザー付きAmazonで$ 19.xxのみ（登録価格$ 50 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a6f6631b3cbd",
+   "title": "Play-Doh Wok & Wonton Playset Just $5.99 on Amazon or Target.com",
+   "link": "https://hip2save.com/deals/play-doh-wok-wonton-playset/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T20:20Z",
+   "firstSeen": "2026-11-05T21:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Play-Doh-Wok-Wonton-Playset.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target",
+    "Amazon"
+   ],
+   "cats": [
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AmazonまたはTarget.comのPlay - Doh Wok & Wontonプレイセットはたったの$ 5.99",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target・Amazon",
+    "item": "AmazonまたはTarget.comのPlay - Doh Wok & Wontonプレイセットはたったの$ 5.99",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f2682b0818fd",
+   "title": "Baby Sleep Soother Just $21.99 Shipped on Amazon (Regularly $40)",
+   "link": "https://hip2save.com/deals/baby-sleep-soother/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T20:10Z",
+   "firstSeen": "2026-11-05T21:00Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/GETSKY-Baby-Sleep-Soother.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ベビー・スリープ・ソーザーたったの$ 21.99がAmazonで発送（通常は$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ベビー・スリープ・ソーザーたったの$ 21.99がAmazonで発送（通常は$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b05e77215a00",
+   "title": "AmEx Offers: Amazon, Spend $150 and Get 1,200 Membership Rewards Points (Can Be Done 3x)",
+   "link": "https://www.doctorofcredit.com/amex-offers-amazon-spend-150-and-get-1200-membership-rewards-points-can-be-done-3x/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-05T20:09Z",
+   "firstSeen": "2026-11-05T21:00Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-4.30.10-PM-1024x186.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AmExオファー： Amazonで$ 150以上のご利用で1,200のメンバーシップリワードポイントを獲得（ 3回利用可能）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "AmExオファー： Amazonで$ 150以上のご利用で1,200のメンバーシップリワードポイントを獲得（ 3回利用可能）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "8a8d23c5c223",
    "title": "Kohl’s Early Black Friday Sale Starts at 1AM ET November 6th (Tonight!)",
@@ -89,15 +331,17 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "コールのアーリーブラックフライデーセールは11月6日午前1時（今夜！ ）から始まります",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセール品",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Kohl's",
-    "item": "コールのアーリーブラックフライデーセールは11月6日午前1時（今夜！ ）から始まります",
-    "when": "11/5(木)まで 1AM",
-    "cond": ""
+    "store": "Kohl’s",
+    "item": "ブラックフライデーセール品",
+    "when": "11/6 1時ET〜",
+    "cond": "",
+    "what": "セール開催",
+    "where": "Kohl’s"
    },
-   "date": "2026-11-05"
+   "date": "2026-11-06"
   },
   {
    "id": "e66dc6013496",
@@ -199,8 +443,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "2c95e1d10552",
-   "date": null
+   "date": null,
+   "dup": "2c95e1d10552"
   },
   {
    "id": "29bc1f8a0ffc",
@@ -363,13 +607,15 @@
     "kind": "store",
     "when": "2026-11-07"
    },
-   "ja": "11月7日と8日のバンク・オブ・アメリカのお客様のための無料ミュージアム入場",
-   "jaVia": "mymemory",
+   "ja": "対象美術館・博物館の入場料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "11月7日と8日のバンク・オブ・アメリカのお客様のための無料ミュージアム入場",
-    "when": "11/7(土)",
-    "cond": ""
+    "store": "Bank of America",
+    "item": "対象美術館・博物館の入場料",
+    "when": "11/7〜11/8",
+    "cond": "BofA顧客限定",
+    "what": "入場料無料",
+    "where": "対象美術館等"
    },
    "date": "2026-11-07"
   },
@@ -431,13 +677,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "重み付けアイマスクAmazonでわずか$ 5 （登録番号： $ 10 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "重み付けアイマスクAmazonでわずか$ 5 （登録番号： $ 10 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2c95e1d10552",
@@ -740,13 +988,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "可能な無料レアビューティーレアビギニングスオードパルファムサンプル",
-   "jaVia": "mymemory",
+   "ja": "香水サンプル",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "可能な無料レアビューティーレアビギニングスオードパルファムサンプル",
+    "store": "Rare Beauty",
+    "item": "香水サンプル",
     "when": "",
-    "cond": ""
+    "cond": "数量限定",
+    "what": "香水サンプル",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -841,13 +1091,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "バーベキューツールアドベントカレンダーのみ$ 25 Amazonで発送（登録価格$ 50 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "バーベキューツールアドベントカレンダーのみ$ 25 Amazonで発送（登録価格$ 50 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e757c8687cff",
@@ -1281,13 +1533,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メンズヒートベストわずか$ 52.99 Amazonで発送（登録価格$ 120 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "メンズヒートベストわずか$ 52.99 Amazonで発送（登録価格$ 120 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "76f0405c11f7",
@@ -1313,13 +1567,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディース2ピースラウンジセットのみ$ 16.99 Amazon (Reg. $ 40)",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディース2ピースラウンジセットのみ$ 16.99 Amazon (Reg. $ 40)",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "43d75d7709f9",
@@ -1345,13 +1601,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで刻印されたスターリングシルバーハグリングわずか$ 13.99 （登録番号： $ 40 ）|思いやりのあるギフトのアイデア",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで刻印されたスターリングシルバーハグリングわずか$ 13.99 （登録番号： $ 40 ）|思いやりのあるギフトのアイデア",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ec1380bbff00",
@@ -1377,13 +1635,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "66フィートボイスコントロールLEDクリスマスストリングライト$ 8.99 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "66フィートボイスコントロールLEDクリスマスストリングライト$ 8.99 ！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "fbc8b9040094"
   },
   {
@@ -1832,13 +2092,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲット–おもちゃが最大50%オフ！ポケモンやナーフなどをお得にゲット！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲット–おもちゃが最大50%オフ！ポケモンやナーフなどをお得にゲット！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d86b2ccb7b71",
@@ -1864,13 +2126,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで$ 5.99のみのステンレス鋼ストロー12個セット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで$ 5.99のみのステンレス鋼ストロー12個セット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7e0ec4f57e08",
@@ -2272,13 +2536,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ペット用毛布3枚パックAmazonで$ 9.99のみ（登録価格$ 20 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ペット用毛布3枚パックAmazonで$ 9.99のみ（登録価格$ 20 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "449f48861815",
@@ -2304,13 +2570,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ThermoMavenプロフェッショナルデジタル肉温度計Amazonで$ 6.xxのみ（登録価格$ 20 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ThermoMavenプロフェッショナルデジタル肉温度計Amazonで$ 6.xxのみ（登録価格$ 20 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "c8c35ef0ef79"
   },
   {
@@ -2337,13 +2605,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Step 2プレイ＆シェードプールのみ$ 48.49 Amazonで発送（登録番号： $ 105 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Step 2プレイ＆シェードプールのみ$ 48.49 Amazonで発送（登録番号： $ 105 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fc5a92795aa5",
@@ -2369,13 +2639,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットのおもちゃが* HOT * 40%オフ：プレイ・ドー、ナーフ、バービーなどのお買い得品！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのおもちゃが* HOT * 40%オフ：プレイ・ドー、ナーフ、バービーなどのお買い得品！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f38091411a45",
@@ -2401,13 +2673,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Degree Antiperspirantウォルマートキャッシュバック後わずか97 ¢ （ Reg $ 3.97 ） 2つまで！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Degree Antiperspirantウォルマートキャッシュバック後わずか97 ¢ （ Reg $ 3.97 ） 2つまで！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0fe57bb86f2e",
@@ -2433,13 +2707,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "巨大マグナタイル100枚セット$ 71.99でプライムメンバー向けに発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "巨大マグナタイル100枚セット$ 71.99でプライムメンバー向けに発送",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "7e45bcc0a4fc",
@@ -2504,13 +2780,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットでのパジャマのマッチングが40%オフ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットでのパジャマのマッチングが40%オフ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b895a80c7b83",
@@ -2536,13 +2814,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クリスマスツリーの首輪のみ$ 19.99 Amazonで発送（通常$ 50 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "クリスマスツリーの首輪のみ$ 19.99 Amazonで発送（通常$ 50 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "229b27745e07",
@@ -2568,13 +2848,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "イオニックヘアドライヤーはプライム送料無料で$ 19.99のみ{Crystal Loves This!}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "イオニックヘアドライヤーはプライム送料無料で$ 19.99のみ{Crystal Loves This!}",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b642adbd6327",
@@ -2598,13 +2880,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-11",
+   "ja": "2026年退役軍人の日の景品とお得情報",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "2026年退役軍人の日の景品とお得情報",
     "when": "11/11(水)まで",
     "cond": ""
-   },
-   "date": "2026-11-11"
+   }
   },
   {
    "id": "9641082113bc",
@@ -6109,13 +6393,15 @@
     "kind": "store",
     "when": null
    },
-   "ja": "ウォルマートで無料のコンロトップスタッフィングミックスと$ 1.72のオーバーレージを手に入れましょう！",
-   "jaVia": "mymemory",
+   "ja": "詰め物ミックス＋$1.72",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "ウォルマートで無料のコンロトップスタッフィングミックスと$ 1.72のオーバーレージを手に入れましょう！",
+    "item": "詰め物ミックス＋$1.72",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料食品",
+    "where": "Walmart"
    },
    "date": null
   },
@@ -6420,13 +6706,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ラン！無料のバレンシアガ100 ％フレグランスサンプル！",
-   "jaVia": "mymemory",
+   "ja": "香水サンプル",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ラン！無料のバレンシアガ100 ％フレグランスサンプル！",
+    "store": "Balenciaga",
+    "item": "香水サンプル",
     "when": "",
-    "cond": ""
+    "cond": "数量限定",
+    "what": "無料香水",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -6765,13 +7053,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "オールドネイビー2026年アーリーブラックフライデーのセール開催中| $ 1からのセール！",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデー品($1〜)",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "オールドネイビー2026年アーリーブラックフライデーのセール開催中| $ 1からのセール！",
+    "store": "Old Navy",
+    "item": "ブラックフライデー品($1〜)",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "$1〜セール",
+    "where": "Old Navy"
    },
    "date": null
   },
@@ -7208,15 +7498,17 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Domino's Giving Away 20,000無料Minecraftゲーム（ 30 $相当！ ）-応募締め切り日です！",
-   "jaVia": "mymemory",
+   "ja": "マイクラゲーム($30相当)",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Domino's",
-    "item": "Domino's Giving Away 20,000無料Minecraftゲーム（ 30 $相当！ ）-応募締め切り日です！",
-    "when": "",
-    "cond": ""
+    "store": "Domino’s",
+    "item": "マイクラゲーム($30相当)",
+    "when": "〜11/4",
+    "cond": "抽選2万名・要応募",
+    "what": "無料ゲーム",
+    "where": "Domino’s"
    },
-   "date": null
+   "date": "2026-11-04"
   },
   {
    "id": "a0fc928e24e4",
@@ -7899,13 +8191,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料",
-   "jaVia": "mymemory",
+   "ja": "5x7写真カード6枚セット",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walgreens",
-    "item": "Walgreens ：カスタマイズされた5インチx 7インチのプレミアムフォトカード6枚セットプロモーションコードBIGSIX付き無料",
+    "item": "5x7写真カード6枚セット",
     "when": "",
-    "cond": "コード入力"
+    "cond": "コード「BIGSIX」",
+    "what": "無料写真カード",
+    "where": "Walgreens"
    },
    "date": null
   },
@@ -61150,138 +61444,6 @@
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Barnes-and-noble-Christmas.jpg?resize=306,182",
    "date": "2026-11-13",
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "079ad0088f1b",
-   "title": "GO! Spice Up Your Pantry with Amazon Spices from Just 55¢ Shipped!",
-   "link": "https://hip2save.com/deals/amazon-spices/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T21:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "GO ！わずか55 ¢で出荷されたAmazon Spicesでパントリーにスパイスを添えましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "GO ！わずか55 ¢で出荷されたAmazon Spicesでパントリーにスパイスを添えましょう！",
-    "when": "",
-    "cond": ""
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Amazon-Grocery-Spices.jpg?resize=306,182"
-  },
-  {
-   "id": "e318e01c7474",
-   "title": "World’s Smallest Toys from $10 at Kohl’s (Perfect Stocking Stuffers!)",
-   "link": "https://hip2save.com/deals/worlds-smallest-toys/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T20:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "Kohl'sで10 $から世界最小のおもちゃ（完璧なストッキングスタッファー！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Kohl'sで10 $から世界最小のおもちゃ（完璧なストッキングスタッファー！ ）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "347026f5b38a",
-   "title": "Up to 55% Off LEGO on Amazon (Classic Creative Food Friends Set Just $6!)",
-   "link": "https://hip2save.com/deals/amazon-lego/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T20:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 55,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "Amazonで最大55 ％オフのレゴ（クラシッククリエイティブフードフレンドセットは$ 6 ！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonで最大55 ％オフのレゴ（クラシッククリエイティブフードフレンドセットは$ 6 ！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lego-City-Hot-RodSets.jpg?resize=306,182"
-  },
-  {
-   "id": "0e70dbdddc17",
-   "title": "Amazon Vitamin C Drops 140-Count Just $2.37 Shipped",
-   "link": "https://hip2save.com/deals/amazon-vitamin-c-drops/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T20:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
    "event": null,
    "eventNews": false
   },
