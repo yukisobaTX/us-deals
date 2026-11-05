@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T23:53Z",
- "count": 1744,
+ "updated": "2026-11-05T00:27Z",
+ "count": 1743,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 2
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,47 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 15,
+   "mymemory": 14,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "1a1108cc07a3",
+   "title": "Reese’s Peanut Butter Cups 25-Count Just $6 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/reeses-peanut-butter-cups/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T00:20Z",
+   "firstSeen": "2026-11-05T00:27Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/05/Reeses-Snack-Size-Cups-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Reese's Peanut Butter Cups 25カウントわずか$ 6 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Reese's Peanut Butter Cups 25カウントわずか$ 6 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "c0577791279f",
    "title": "Ekouaer Women’s Long Satin Silk Pajama Set Only $11.xx on Amazon (Reg $34)",
@@ -96,8 +130,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4cb262fcd7e9",
-   "date": null
+   "date": null,
+   "dup": "4cb262fcd7e9"
   },
   {
    "id": "1fc457b3d4c3",
@@ -59770,69 +59804,6 @@
    "date": null,
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "d6e64bebd907",
-   "title": "Disney Dash Popcorn Maker Only $11.89 on Kohls.com (Regularly $40)",
-   "link": "https://hip2save.com/deals/dash-popcorn-maker/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T00:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Kohl's",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "0e81eb589db6",
-   "title": "20 Assorted Birthday Cards Only $6.98 on Amazon (35¢ Each!)",
-   "link": "https://hip2save.com/deals/assorted-birthday-cards/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T00:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Birthday-cards.jpg?resize=306,182"
   },
   {
    "id": "b702bfabfd8a",
