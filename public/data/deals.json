@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-05T19:10Z",
- "count": 1777,
+ "updated": "2026-11-05T20:04Z",
+ "count": 1784,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 2
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 4
   },
   "tfg": {
    "read": 40,
@@ -57,14 +57,388 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 10,
+   "mymemory": 24,
+   "geminiToday": 11,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "8a8d23c5c223",
+   "title": "Kohl’s Early Black Friday Sale Starts at 1AM ET November 6th (Tonight!)",
+   "link": "https://hip2save.com/deals/kohls-early-black-friday-sale/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T20:00Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": "2026-11-05",
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/kohls-early-blackfriday-deals.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "コールのアーリーブラックフライデーセールは11月6日午前1時（今夜！ ）から始まります",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "コールのアーリーブラックフライデーセールは11月6日午前1時（今夜！ ）から始まります",
+    "when": "11/5(木)まで 1AM",
+    "cond": ""
+   },
+   "date": "2026-11-05"
+  },
+  {
+   "id": "e66dc6013496",
+   "title": "CVS Weekly Ad Preview (11/8/26 – 11/14/26) | We’ve Circled Our Faves!",
+   "link": "https://hip2save.com/deals/cvs-weekly-ad/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T19:50Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": "2026-11-14",
+   "thumb": "https://hip2save.com/wp-content/uploads/2020/07/CVS-Basket-Grocery.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "CVS"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CVSウィークリー広告プレビュー（ 11/8/26 - 11/14/26 ） |お気に入りを丸で囲みました！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "CVS",
+    "item": "CVSウィークリー広告プレビュー（ 11/8/26 - 11/14/26 ） |お気に入りを丸で囲みました！",
+    "when": "11/14(土)まで",
+    "cond": ""
+   },
+   "date": "2026-11-14"
+  },
+  {
+   "id": "b28f118126d7",
+   "title": "*HOT* Battery Powered Ride On Toys only $59.99 shipped, plus more!",
+   "link": "https://moneysavingmom.com/hot-battery-powered-ride-on-toys-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T19:50Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/03/Ride-On-Car-630x558.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "* HOT *バッテリー駆動のRide On Toysはたったの$ 59.99で発送！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "* HOT *バッテリー駆動のRide On Toysはたったの$ 59.99で発送！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b3dbf8e04861",
+   "title": "MGA’s Miniverse Make It Mini Sneakers 2pk Only $6.xx (Reg $21)",
+   "link": "https://thefreebieguy.com/mgas-miniverse-make-it-mini-sneakers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T19:45Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/MGAs-Miniverse-Make-It-Mini-Sneakers-2pk--840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "MGA's Miniverse Make Itミニスニーカー2本パックのみ$ 6.xx （登録価格$ 21 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "MGA's Miniverse Make Itミニスニーカー2本パックのみ$ 6.xx （登録価格$ 21 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "2c95e1d10552",
+   "date": null
+  },
+  {
+   "id": "29bc1f8a0ffc",
+   "title": "Wondershop 24″ Wreaths as low as $12 at Target!",
+   "link": "https://moneysavingmom.com/wondershop-wreaths-deal-at-target/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T19:42Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/11/Screenshot-2024-11-11-at-9.13.35 AM-630x305.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットでワンダーショップ24インチリースが最低$ 12 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットでワンダーショップ24インチリースが最低$ 12 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f0542a993a8a",
+   "title": "Resistance Exercise Kit Just $23.99 on Amazon (Reg. $40)",
+   "link": "https://hip2save.com/deals/resistance-exercise-kit/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T19:40Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/exercise-home-resistance-training-kit-2.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 23.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レジスタンスエクササイズキットAmazonでわずか$ 23.99 （登録価格$ 40 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レジスタンスエクササイズキットAmazonでわずか$ 23.99 （登録価格$ 40 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8574932e0f32",
+   "title": "Cloud Island Baby Zip-Up Sleep N’ Play 3-Pack only $9, plus more!",
+   "link": "https://moneysavingmom.com/cloud-island-baby-clothes-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-05T19:31Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/11/Cloud-Island-Baby-Zip-Up-Sleep-N-Play-3-Pack.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "クラウドアイランドベビージップアップスリープアンドプレイ3パックのみ$ 9、その他多数！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "クラウドアイランドベビージップアップスリープアンドプレイ3パックのみ$ 9、その他多数！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "04fc63f96e4a",
+   "title": "WOW! $191 Worth of Toys ONLY $48 Shipped for Amazon Prime Members",
+   "link": "https://hip2save.com/deals/woot-toys/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T19:30Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Barney-World-Preschool-Toy-Lights-Sounds-Treehouse-Playset-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "すごい！ $ 191相当のおもちゃのみ$ 48がAmazonプライムメンバー向けに出荷されました",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "すごい！ $ 191相当のおもちゃのみ$ 48がAmazonプライムメンバー向けに出荷されました",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "1d9efd8ac8cd",
+   "title": "Free Museum Admissions for Bank of America Customers on November 7th & 8th",
+   "link": "https://thefreebieguy.com/free-museum-admission-for-bank-of-america-customers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T19:28Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": "2026-11-07",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Museum-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-07"
+   },
+   "ja": "11月7日と8日のバンク・オブ・アメリカのお客様のための無料ミュージアム入場",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "11月7日と8日のバンク・オブ・アメリカのお客様のための無料ミュージアム入場",
+    "when": "11/7(土)",
+    "cond": ""
+   },
+   "date": "2026-11-07"
+  },
+  {
+   "id": "04bbf79800cf",
+   "title": "Airheads Winter Mini Candy Bars 28-Count Only $3 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/airheads-candy/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T19:20Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Airheads-Winter-Mini-Candy-Bars.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Airheadsウィンターミニキャンディーバー28個-わずか$ 3 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Airheadsウィンターミニキャンディーバー28個-わずか$ 3 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1d1f8059d14b",
+   "title": "Weighted Eye Mask Just $5 on Amazon (Reg. $10)",
+   "link": "https://hip2save.com/deals/weighted-eye-mask/",
+   "source": "Hip2Save",
+   "posted": "2026-11-05T19:15Z",
+   "firstSeen": "2026-11-05T20:04Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/12/AZANG-Weighted-Eye-Mask.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "2c95e1d10552",
    "title": "MGA’s Miniverse Make It Mini Sneakers 2-Pack Only $6.49 on Amazon (Reg. $21)",
@@ -131,8 +505,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "3f1569628f1e",
-   "date": null
+   "date": null,
+   "dup": "3f1569628f1e"
   },
   {
    "id": "c244a75145bf",
@@ -338,8 +712,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "b3c33771a765",
-   "date": null
+   "date": null,
+   "dup": "b3c33771a765"
   },
   {
    "id": "e37f17b537d3",
@@ -34564,40 +34938,6 @@
    "date": null
   },
   {
-   "id": "d43e562fb9b0",
-   "title": "McDonald’s Deals | New Disney Boo Buckets, New Drinks Coming 11/3, & More!",
-   "link": "https://thefreebieguy.com/mcdonalds-deals-coupon-codes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-28T19:50Z",
-   "firstSeen": "2026-10-28T19:57Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/McDonalds-Boo-Buckets-2026-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "McDonald's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "マクドナルドのお買い得情報|新しいディズニーブーバケツ、11月3日に登場する新しいドリンクなど！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "McDonald's",
-    "item": "マクドナルドのお買い得情報|新しいディズニーブーバケツ、11月3日に登場する新しいドリンクなど！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "45168bcaa82d",
    "title": "Kate Spade Crossbody and Shoulder Bags as low as $50.62 shipped (Reg. $280)!",
    "link": "https://moneysavingmom.com/kate-spade-crossbody-deals/",
@@ -34630,46 +34970,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "6b010bcd8b2a",
-   "title": "ARMANI Acqua di Gioia Eau de Parfum Only $60 Shipped on ULTA.com (Reg. $120) + Free Gift!",
-   "link": "https://hip2save.com/deals/armani-acqua-di-gioia-parfum/",
-   "source": "Hip2Save",
-   "posted": "2026-10-28T19:40Z",
-   "firstSeen": "2026-10-28T19:57Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/ARMANI-Acqua-di-Gioia-Eau-de-Parfum-1.7oz.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Ulta"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 50,
-   "price": 60.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "香水が$60＋無料ギフト",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "ULTA",
-    "item": "香水が$60＋無料ギフト",
-    "when": "",
-    "cond": "",
-    "what": "香水$60",
-    "where": "ULTA.com"
-   },
-   "date": null,
-   "dup": "dfbc48c5b04f"
   },
   {
    "id": "12a5851d7702",
@@ -36234,8 +36534,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "b15c61148bc6"
+   "date": null
   },
   {
    "id": "1adfff7608f2",
@@ -60978,68 +61277,6 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "8dfc17d74411",
-   "title": "Grinch-Inspired Christmas Tree Only $35.99 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/grinch-christmas-trees/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T19:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "b42c1e46b6dd",
-   "title": "Disney Frozen Ice Cream Ride-On Kart Just $138 Shipped on Walmart.com (Reg. $230)",
-   "link": "https://hip2save.com/deals/disney-ride-on-toy/",
-   "source": "Hip2Save",
-   "posted": "2026-10-21T19:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 138.0,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
     "item": "",
     "when": "",
     "cond": ""
