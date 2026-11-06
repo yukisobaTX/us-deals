@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:25Z",
+ "updated": "2026-11-06T03:01Z",
  "count": 1797,
  "stats": {
   "h2s": {
@@ -28,11 +28,11 @@
   },
   "mws": {
    "read": 20,
-   "added": 2
+   "added": 3
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -57,13 +57,189 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 21,
-   "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "mymemory": 22,
+   "geminiToday": 16,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "5f9652aca614",
+   "title": "Amazon Grocery 32oz Broth Just 95¢ Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-broth/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T03:00Z",
+   "firstSeen": "2026-11-06T03:01Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Amazon-Grocery-Chicken-Broth-Display.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Grocery 32 ozブロスわずか95 ¢発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Grocery 32 ozブロスわずか95 ¢発送",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "9a5c3e486446",
+   "date": null
+  },
+  {
+   "id": "215c92111231",
+   "title": "$300 Disney Email Delivery Gift Card Only $270 for Sam’s Club Plus Members",
+   "link": "https://thefreebieguy.com/disney-gift-card-deal-at-sams-club/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T02:57Z",
+   "firstSeen": "2026-11-06T03:01Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Kendall-Disney-Gift-Card-840x630.png",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "$ 300ディズニー電子メール配信ギフトカードSam's Club Plusメンバー限定$ 270",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "$ 300ディズニー電子メール配信ギフトカードSam's Club Plusメンバー限定$ 270",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "cbac37b7ea2f",
+   "title": "Kids Tape Measure w/ Protractor & Eraser Only $9.99 on Amazon | Just $4.99 Each!",
+   "link": "https://hip2save.com/deals/kids-tape-measure/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T01:40Z",
+   "firstSeen": "2026-11-06T03:01Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/play-party-kids-tape-measure.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キッズ用メジャー寸法（プロトラクター＆消しゴム付き） Amazonで$ 9.99のみ|各$ 4.99のみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "キッズ用メジャー寸法（プロトラクター＆消しゴム付き） Amazonで$ 9.99のみ|各$ 4.99のみ！",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "002ad9d3f1d2",
+   "title": "Silver Horse Ranch Therapeutic Riding Celebrates First Birthday",
+   "link": "https://wtaw.com/silver-horse-ranch-therapeutic-riding-celebrates-first-birthday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-06T01:38Z",
+   "firstSeen": "2026-11-06T03:01Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/05183801/Silver-Horse-Ranch-Birthday-Celebration-300x169.png",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "動物"
+   ],
+   "family": true,
+   "freebie": null,
+   "ja": "シルバーホースランチセラピーライディングが1歳の誕生日を祝う",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "シルバーホースランチセラピーライディングが1歳の誕生日を祝う",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "57bbca3898e7",
+   "title": "Bitzee Jurassic World Interactive Fossil Pod Only $18.xx on Amazon (Reg. $38)",
+   "link": "https://thefreebieguy.com/bitzee-jurassic-world-interactive-fossil-pod/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T01:33Z",
+   "firstSeen": "2026-11-06T03:01Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Bitzee-Jurassic-World-Interactive-Fossil-Pod-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 18.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bitzeeジュラシックワールドインタラクティブ化石ポッドAmazonで$ 18.xxのみ（登録価格$ 38 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Bitzeeジュラシックワールドインタラクティブ化石ポッドAmazonで$ 18.xxのみ（登録価格$ 38 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "75a01b61a0b6",
    "title": "Wireless Label Maker Only $7.59 on Amazon (Lowest Price Ever!)",
@@ -93,6 +269,40 @@
    "sum": {
     "store": "Amazon",
     "item": "Amazonでわずか$ 7.59のワイヤレスラベルメーカー（史上最低価格！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "fce750a38686",
+   "title": "Lenovo IdeaPad Slim 3 Laptop Only $349 Shipped (Reg. $630)",
+   "link": "https://thefreebieguy.com/lenovo-ideapad/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T01:10Z",
+   "firstSeen": "2026-11-06T03:01Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Lenovo-Chromebook-840x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 45,
+   "price": 349.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Lenovo IdeaPad Slim 3ノートパソコンのみ$ 349出荷済み（登録価格$ 630 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Lenovo IdeaPad Slim 3ノートパソコンのみ$ 349出荷済み（登録価格$ 630 ）",
     "when": "",
     "cond": ""
    },
@@ -232,8 +442,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ac8e34abe677",
-   "date": null
+   "date": null,
+   "dup": "ac8e34abe677"
   },
   {
    "id": "5b9d0565ca22",
@@ -1138,6 +1348,41 @@
    "sum": {
     "store": "Amazon",
     "item": "Amazonで15ドルの紙製品が5ドル割引！ 3.xxドルのKleenexティッシュ+ 3.xxドルのCottonelleトイレットペーパー",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9d926151484c",
+   "title": "Free LEGO Store Events in November: Reindeer Make & Take, Insider Perks & More",
+   "link": "https://momswhosave.com/free-lego-halloween-build-event-at-barnes-noble/",
+   "source": "Moms Who Save",
+   "posted": "2026-11-05T20:37Z",
+   "firstSeen": "2026-11-06T03:01Z",
+   "expires": null,
+   "thumb": "https://momswhosave.com/wp-content/uploads/2026/09/free-lego-events-scaled.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "11月の無料レゴストアイベント：トナカイのメイク＆テイク、インサイダー特典など",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "11月の無料レゴストアイベント：トナカイのメイク＆テイク、インサイダー特典など",
     "when": "",
     "cond": ""
    },
@@ -24977,8 +25222,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "144cdcb2b869"
+   "date": null
   },
   {
    "id": "48e524bf7a32",
@@ -61538,241 +61782,6 @@
    "sum": {
     "store": "Amazon",
     "item": "Chex OREO Muddy Buddiesのみ$ 2.77 Amazonで発送",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "58b587caf619",
-   "title": "Sam’s Club Black Friday Ad Preview Just Dropped (HOT Deals on Toys, Electronics & More!)",
-   "link": "https://hip2save.com/deals/sams-club-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T02:45Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": "black-friday",
-   "eventNews": true,
-   "ja": "ブラックフライデーセール",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Sam’s Club",
-    "item": "ブラックフライデーセール",
-    "when": "",
-    "cond": "",
-    "what": "BF広告公開",
-    "where": "Sam’s Club"
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Sams-Club-Black-Friday-Ad.jpg?resize=306,182"
-  },
-  {
-   "id": "5a93a9a1d7b0",
-   "title": "TWO Pumpkin Lanterns Just $9.99 on Amazon (Reg. $29)",
-   "link": "https://hip2save.com/deals/amazon-pumpkin-lanterns/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T02:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 66,
-   "price": 9.99,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "カボチャランタン2個Amazonでたったの$ 9.99 （登録価格$ 29 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "カボチャランタン2個Amazonでたったの$ 9.99 （登録価格$ 29 ）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "bd45ef6fd31c",
-   "title": "Score Up to $2.50 Walmart Cash on AXE Body Sprays & Deodorants",
-   "link": "https://hip2save.com/deals/savings-walmart-axe-deodorant/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T02:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "AXEボディスプレー＆デオドラントで最大$ 2.50ウォルマートキャッシュを獲得",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "AXEボディスプレー＆デオドラントで最大$ 2.50ウォルマートキャッシュを獲得",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "116298bf73d5",
-   "title": "Multitool Pen Only $4.99 on Amazon (Reg. $10) | Screwdriver, Stylus & More",
-   "link": "https://hip2save.com/deals/multitool-pen/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T02:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": 4.99,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "マルチツールペンAmazonで$ 4.99のみ（登録番号： $ 10 ）|ドライバー、スタイラスなど",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "マルチツールペンAmazonで$ 4.99のみ（登録番号： $ 10 ）|ドライバー、スタイラスなど",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "f2574d03b499",
-   "title": "Wyler’s Italian Ice Freezer Bars 96-Count Variety Pack Only $8.46 Shipped on Amazon (Reg. $12)",
-   "link": "https://hip2save.com/deals/wylers-italian-ice-freezer-bars/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T01:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 29,
-   "price": 8.46,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "ワイラーのイタリアンアイスフリーザーバー96カウントバラエティパック$ 8.46のみAmazonで発送（登録価格$ 12 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ワイラーのイタリアンアイスフリーザーバー96カウントバラエティパック$ 8.46のみAmazonで発送（登録価格$ 12 ）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "2eb6909cd56b",
-   "title": "EXTRA 50% Off Kohl’s Clearance = Clothing, Shoes & Accessories from $1!",
-   "link": "https://hip2save.com/deals/kohls-clearance/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T01:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "Kohl'sクリアランスがさらに50%オフ=衣類、シューズ、アクセサリーが$ 1から！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Kohl'sクリアランスがさらに50%オフ=衣類、シューズ、アクセサリーが$ 1から！",
-    "when": "",
-    "cond": ""
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/06/kohls-clearance-1.jpg?resize=306,182"
-  },
-  {
-   "id": "b406734ead27",
-   "title": "Brawny Paper Towels 6-Count Double Rolls Just $10 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/brawny-paper-towels/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T01:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "Brawnyペーパータオル6カウントダブルロールわずか$ 10 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Brawnyペーパータオル6カウントダブルロールわずか$ 10 Amazonで発送",
     "when": "",
     "cond": ""
    }
