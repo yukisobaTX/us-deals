@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-06T11:16Z",
- "count": 1793,
+ "updated": "2026-11-06T12:06Z",
+ "count": 1796,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 4
   },
   "tfg": {
    "read": 40,
@@ -55,15 +55,158 @@
    "added": 0
   },
   "ja": {
-   "gemini": 14,
+   "gemini": 16,
    "geminiEvent": 0,
    "mymemory": 6,
-   "geminiToday": 5,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "c818bb1316df",
+   "title": "The Big One Microfiber Pillows only $2.39! {Today only}",
+   "link": "https://moneysavingmom.com/the-big-one-microfiber-pillows-deal-at-kohls/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T12:00Z",
+   "firstSeen": "2026-11-06T12:06Z",
+   "expires": "2026-11-06",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.21.50-PM.png",
+   "hot": false,
+   "stores": [
+    "Kohl's",
+    "Amazon"
+   ],
+   "cats": [
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ビッグワンマイクロファイバーピローはたったの$ 2.39 ！ {本日のみ}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's・Amazon",
+    "item": "ビッグワンマイクロファイバーピローはたったの$ 2.39 ！ {本日のみ}",
+    "when": "11/6(金)まで",
+    "cond": ""
+   },
+   "date": "2026-11-06"
+  },
+  {
+   "id": "674fc8d6a95f",
+   "title": "Del Taco Deals | Free Nachos w/ Purchase All Weekend",
+   "link": "https://thefreebieguy.com/del-taco-coupon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T12:00Z",
+   "firstSeen": "2026-11-06T12:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Del-Taco-Restaurant-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Del Taco",
+    "item": "購入でナチョス無料",
+    "when": "11/6〜11/8",
+    "cond": "要購入",
+    "what": "無料ナチョス",
+    "where": "Del Taco"
+   },
+   "ja": "購入でナチョス無料",
+   "jaVia": "gemini",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "77aeaa934efd",
+   "title": "Buy One, Get Two Free Candles, Blankets, and Throws at JCPenney!",
+   "link": "https://moneysavingmom.com/buy-one-get-two-free-candles-blankets-and-throws-at-jcpenney/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T11:47Z",
+   "firstSeen": "2026-11-06T12:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/12/Throws-630x351.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "JCPenney",
+    "item": "キャンドルやブランケット等BOGO(1つ買うと2つ無料)",
+    "what": "2点無料",
+    "where": "JCPenney"
+   },
+   "ja": "キャンドルやブランケット等BOGO(1つ買うと2つ無料)",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "174e622587f9",
+   "title": "Maree Under Eye Balm only $7.99 shipped (Reg. $20!)",
+   "link": "https://moneysavingmom.com/maree-under-eye-balm-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T11:23Z",
+   "firstSeen": "2026-11-06T12:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/01/Maree-Under-Eye-Balm.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 7.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Mareeアンダーアイバーム$ 7.99のみ出荷（登録価格$ 20 ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Mareeアンダーアイバーム$ 7.99のみ出荷（登録価格$ 20 ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "ac8e34abe677",
+   "date": null
+  },
   {
    "id": "38b70860ce37",
    "title": "*HOT* The Big One Oversized Supersoft Plush Throws just $7.99!",
@@ -35340,43 +35483,6 @@
     "item": "Aquaphorリップリペア軟膏2パックのみ$ 4.xx Amazon （登録価格$ 10 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "511aa0086966",
-   "title": "Free Petco Events – Free Trick or Treating & More + Free Pics with Santa in December!",
-   "link": "https://thefreebieguy.com/free-petco-events/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T11:46Z",
-   "firstSeen": "2026-10-29T11:55Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/PETCO-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "ペット向け無料イベント・撮影",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Petco",
-    "item": "ペット向け無料イベント・撮影",
-    "when": "〜12月",
-    "cond": "",
-    "what": "無料写真撮影",
-    "where": "Petco"
    },
    "date": null
   },
