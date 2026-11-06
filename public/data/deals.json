@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T23:53Z",
+ "updated": "2026-11-06T00:25Z",
  "count": 1797,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -57,13 +57,46 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 17,
+   "mymemory": 0,
    "geminiToday": 15,
-   "model": "gemini-flash-latest"
+   "model": "gemini-flash-latest",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "5b9d0565ca22",
+   "title": "Portable Outdoor Baby High Chair with Canopy Only $42.xx on Amazon (Reg. $70)!",
+   "link": "https://thefreebieguy.com/baby-delight-portable-high-chair/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T00:10Z",
+   "firstSeen": "2026-11-06T00:25Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Baby-Delight-Portable-High-Chair-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 42.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "e73f3f591839",
    "title": "12 Boxes of Kleenex Tissues Only $11 Shipped on Amazon (Just 94¢ per Box!)",
@@ -61736,39 +61769,6 @@
     "cond": ""
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Lysol-Laundry-Sanitizer.jpg?resize=306,182"
-  },
-  {
-   "id": "bb6eb80d7706",
-   "title": "Duck Brand Duct Tape Only $3.50 on Amazon (Regularly $6)",
-   "link": "https://hip2save.com/deals/duck-duct-tape/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T00:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "アヒルブランドのダクトテープのみ$ 3.50アマゾン（通常$ 6 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "アヒルブランドのダクトテープのみ$ 3.50アマゾン（通常$ 6 ）",
-    "when": "",
-    "cond": ""
-   }
   },
   {
    "id": "25c933825f8f",
