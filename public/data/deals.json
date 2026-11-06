@@ -2697,14 +2697,15 @@
     "when": "2026-11-07"
    },
    "sum": {
-    "store": "Bass Pro & Cabela’s",
-    "item": "トナカイのぬいぐるみ無料",
-    "when": "11/7",
-    "what": "無料ぬいぐるみ",
-    "where": "Bass Pro等"
+    "store": "Bass Pro Shops / Cabela's",
+    "item": "Bass Pro・Cabela'sで無料トナカイぬいぐるみ(11/8はサンタ写…",
+    "when": "11/7(土)",
+    "what": "無料トナカイぬいぐ…",
+    "where": "Bass Pro・Cabel…",
+    "cond": "店頭・数量限定の可能性"
    },
-   "ja": "トナカイのぬいぐるみ無料",
-   "jaVia": "gemini",
+   "ja": "Bass Pro・Cabela'sで無料トナカイぬいぐるみ(11/8はサンタ写…",
+   "jaVia": "claude",
    "date": "2026-11-07"
   },
   {
@@ -4836,15 +4837,15 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "「Silver Horse Ranch」の1周年記念祭",
-   "jaVia": "gemini-ev",
+   "ja": "障害者乗馬の牧場Silver Horse Ranchが1周年",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "Silver Horse Ranch",
-    "item": "「Silver Horse Ranch」の1周年記念祭",
+    "item": "障害者乗馬の牧場Silver Horse Ranchが1周年",
     "when": "",
     "cond": "家族向け",
-    "what": "1周年記念祭",
-    "where": "Silver Horse牧場"
+    "what": "牧場の1周年祝い",
+    "where": "Silver Horse R…"
    },
    "date": null
   },
@@ -5679,15 +5680,15 @@
     "kind": "coupon",
     "when": "2026-11-12"
    },
-   "ja": "PCゲーム無料",
-   "jaVia": "gemini",
+   "ja": "Epic Games StoreでPCゲームを無料配布",
+   "jaVia": "claude",
    "sum": {
-    "store": "Epic Game Store",
-    "item": "PCゲーム無料",
+    "store": "Epic Games Store",
+    "item": "Epic Games StoreでPCゲームを無料配布",
     "when": "〜11/12",
-    "cond": "",
+    "cond": "アカウント必要",
     "what": "無料PCゲーム",
-    "where": "Epic Games"
+    "where": "Epic Games Sto…"
    },
    "date": "2026-11-12"
   },
@@ -19051,14 +19052,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館・博物館の模型づくりワークショップ",
+    "store": "George H.W. Bush Library & Mu…",
+    "item": "ブッシュ大統領図書館博物館の模型づくり教室",
     "when": "11/7(土)",
     "cond": "工作",
-    "what": "模型づくり教室",
+    "what": "模型づくり",
     "where": "ブッシュ図書館博物館"
    },
-   "ja": "ブッシュ大統領図書館・博物館の模型づくりワークショップ",
+   "ja": "ブッシュ大統領図書館博物館の模型づくり教室",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -19094,12 +19095,12 @@
    "eventNews": false,
    "sum": {
     "store": "Brazos County Expo Complex",
-    "item": "トレカ・コミック・コレクターズ商品の展示即売会",
+    "item": "トレカ・コミック・コレクターズ即売会",
     "when": "11/7(土)",
-    "what": "カード・コミック展",
+    "what": "カード・漫画展",
     "where": "Brazos Center"
    },
-   "ja": "トレカ・コミック・コレクターズ商品の展示即売会",
+   "ja": "トレカ・コミック・コレクターズ即売会",
    "jaVia": "claude-ev",
    "date": "2026-11-07",
    "freebie": null
@@ -19130,7 +19131,7 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "DeGallery",
+    "store": "Degallery",
     "item": "毎月第1土曜のアートマーケット",
     "when": "11/7(土)",
     "cond": "毎月第1土曜",
@@ -24182,11 +24183,11 @@
    "source": "Destination Bryan",
    "posted": "2026-11-01T23:33Z",
    "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-06",
+   "expires": "2026-11-13",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-06",
+   "localDate": "2026-11-13",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -24202,13 +24203,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "小さな子供向けの音楽遊びの会",
-    "when": "11/6(金)",
+    "item": "小さな子向けの音楽遊びの会",
+    "when": "11/13(金)",
     "cond": "子供向け",
-    "what": "子供の音楽遊び",
+    "what": "親子の音楽遊び",
     "where": "St. Andrew's教会"
    },
-   "ja": "小さな子供向けの音楽遊びの会",
+   "ja": "小さな子向けの音楽遊びの会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -24245,8 +24246,8 @@
    "sum": {
     "store": "Midtown Park",
     "item": "毎週土曜のファーマーズマーケット",
-    "when": "11/7(土) 朝",
-    "what": "ファーマーズ市",
+    "when": "毎週土曜",
+    "what": "朝市",
     "where": "Midtown Park",
     "cond": "入場無料"
    },
@@ -24329,13 +24330,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ブライアン旧市街のホリデー点灯イベント「Lights On」",
-    "when": "11/20(金) 17時〜",
-    "cond": "家族で",
+    "item": "ダウンタウンのホリデー点灯式「Lights On」",
+    "when": "11/20(金) 17時",
+    "cond": "無料",
     "what": "点灯式",
-    "where": "ブライアン旧市街"
+    "where": "ダウンタウンBryan"
    },
-   "ja": "ブライアン旧市街のホリデー点灯イベント「Lights On」",
+   "ja": "ダウンタウンのホリデー点灯式「Lights On」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -30114,12 +30115,12 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walk の屋外コンサート「Illuminate」",
+    "item": "Lake Walk の野外コンサート「Illuminate」",
     "when": "11/7(土)",
-    "what": "屋外コンサート",
+    "what": "野外コンサート",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walk の屋外コンサート「Illuminate」",
+   "ja": "Lake Walk の野外コンサート「Illuminate」",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -30156,13 +30157,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "ダウン症協会のチャリティ5Kラン",
+    "item": "ダウン症支援の5Kラン大会(Lake Walk)",
     "when": "11/7(土)",
-    "cond": "要申込",
+    "cond": "参加登録制",
     "what": "5Kラン大会",
     "where": "Lake Walk"
    },
-   "ja": "ダウン症協会のチャリティ5Kラン",
+   "ja": "ダウン症支援の5Kラン大会(Lake Walk)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -34843,13 +34844,13 @@
    "eventNews": false,
    "sum": {
     "store": "Clara B. Mounce Library",
-    "item": "図書館友の会の秋の古本セール(土日)",
+    "item": "図書館友の会の秋の古本セール(土・日)",
     "when": "11/7(土)〜11/8(日)",
     "cond": "子供の本も",
     "what": "古本セール",
-    "where": "Mounce図書館"
+    "where": "Clara B. Mounc…"
    },
-   "ja": "図書館友の会の秋の古本セール(土日)",
+   "ja": "図書館友の会の秋の古本セール(土・日)",
    "jaVia": "claude-ev",
    "outing": [
     "子供向け"
@@ -34885,13 +34886,13 @@
    "eventNews": false,
    "sum": {
     "store": "Museum of the American G.I.",
-    "item": "軍用車両が動く姿を見られる博物館の催し",
+    "item": "軍用車両が動く実演イベント(American G.I.博物館)",
     "when": "11/7(土)",
-    "cond": "入場料",
+    "cond": "入場料あり",
     "what": "軍用車両の実演",
     "where": "American G.I.博…"
    },
-   "ja": "軍用車両が動く姿を見られる博物館の催し",
+   "ja": "軍用車両が動く実演イベント(American G.I.博物館)",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -48873,14 +48874,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+    "store": "George H.W. Bush Library & Mu…",
+    "item": "アメリカの歩みをたどる特別展(〜2027/5/16)",
     "when": "〜2027/5/16",
-    "what": "博物館の特別展",
+    "what": "アメリカ史の特別展",
     "where": "ブッシュ図書館博物館",
-    "cond": "入館料"
+    "cond": "入館料あり"
    },
-   "ja": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+   "ja": "アメリカの歩みをたどる特別展(〜2027/5/16)",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
