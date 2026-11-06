@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T03:01Z",
- "count": 1797,
+ "updated": "2026-11-06T04:06Z",
+ "count": 1795,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,15 +24,15 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 0
   },
   "mws": {
    "read": 20,
-   "added": 3
+   "added": 2
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -56,15 +56,48 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 0,
-   "mymemory": 22,
-   "geminiToday": 16,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "geminiEvent": 1,
+   "mymemory": 16,
+   "geminiToday": 17,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "cf5735eb4f03",
+   "title": "EIGHT Shower Steamers Only $2.99 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/shower-steamers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T03:20Z",
+   "firstSeen": "2026-11-06T04:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/swcandy-shower-steamers-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "シャワースチーマー8台のみ$ 2.99 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "シャワースチーマー8台のみ$ 2.99 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "5f9652aca614",
    "title": "Amazon Grocery 32oz Broth Just 95¢ Shipped",
@@ -97,8 +130,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "9a5c3e486446",
-   "date": null
+   "date": null,
+   "dup": "9a5c3e486446"
   },
   {
    "id": "215c92111231",
@@ -196,13 +229,15 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "シルバーホースランチセラピーライディングが1歳の誕生日を祝う",
-   "jaVia": "mymemory",
+   "ja": "「Silver Horse Ranch」の1周年記念祭",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "シルバーホースランチセラピーライディングが1歳の誕生日を祝う",
+    "store": "Silver Horse Ranch",
+    "item": "「Silver Horse Ranch」の1周年記念祭",
     "when": "",
-    "cond": ""
+    "cond": "家族向け",
+    "what": "1周年記念祭",
+    "where": "Silver Horse牧場"
    },
    "date": null
   },
@@ -30939,8 +30974,7 @@
     "item": "Brawny Tear - A - Square 6ダブルロール3プライペーパータオルのみ$ 10.xx Amazonで",
     "when": "",
     "cond": ""
-   },
-   "dup": "b406734ead27"
+   }
   },
   {
    "id": "97a749e9ee37",
@@ -61680,108 +61714,6 @@
    "sum": {
     "store": "Amazon",
     "item": "最終日！アマゾンでわずか$ 9.99の猫型メイクバッグ（ Purr - fectギフトのアイデア！ ）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "16bf789f80d9",
-   "title": "Barnum’s Animals Crackers 10-Pack Only $3 Shipped on Amazon (Cheaper than Prime Day!)",
-   "link": "https://hip2save.com/deals/barnum-animal-crackers/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T03:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": "prime-day",
-   "eventNews": false,
-   "ja": "動物クラッカー10袋",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Amazon",
-    "item": "動物クラッカー10袋",
-    "when": "",
-    "cond": "$3(送料無料)",
-    "what": "クラッカー$3",
-    "where": "Amazon"
-   }
-  },
-  {
-   "id": "f9b20945a23d",
-   "title": "General Mills Snacks 20-Count Variety Pack Just $7.66 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/general-mills-snacks/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T03:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "General Mills Snacks 20カウントバラエティパックわずか$ 7.66 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "General Mills Snacks 20カウントバラエティパックわずか$ 7.66 Amazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/General-Mills-Classic-Mix.jpg?resize=306,182"
-  },
-  {
-   "id": "14b0b9bc2e77",
-   "title": "Chex OREO Muddy Buddies Only $2.77 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/amazon-chex-muddy-buddies/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T03:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "event": null,
-   "eventNews": false,
-   "ja": "Chex OREO Muddy Buddiesのみ$ 2.77 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Chex OREO Muddy Buddiesのみ$ 2.77 Amazonで発送",
     "when": "",
     "cond": ""
    }
