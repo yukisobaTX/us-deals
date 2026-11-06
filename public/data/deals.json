@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-06T05:11Z",
- "count": 1795,
+ "updated": "2026-11-06T06:12Z",
+ "count": 1790,
  "stats": {
   "h2s": {
    "read": 100,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 18,
    "geminiEvent": 0,
-   "mymemory": 15,
-   "geminiToday": 17,
+   "mymemory": 1,
+   "geminiToday": 1,
    "model": "gemini-flash-latest"
   }
  },
@@ -794,13 +794,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Dutch Bros Coffee Deals |ドリンク購入で無料ステッカーを獲得",
-   "jaVia": "mymemory",
+   "ja": "無料ステッカー",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Dutch Bros",
-    "item": "Dutch Bros Coffee Deals |ドリンク購入で無料ステッカーを獲得",
+    "store": "Dutch Bros Coffee",
+    "item": "無料ステッカー",
     "when": "",
-    "cond": ""
+    "cond": "ドリンク購入",
+    "what": "無料ステッカー",
+    "where": "Dutch Bros"
    },
    "date": null
   },
@@ -999,13 +1001,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "無料のクリスマス予算ブーストチートシート：クリスマス前に100〜300ドルを簡単に獲得できます！ ！",
-   "jaVia": "mymemory",
+   "ja": "クリスマス予算攻略シート",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "無料のクリスマス予算ブーストチートシート：クリスマス前に100〜300ドルを簡単に獲得できます！ ！",
+    "item": "クリスマス予算攻略シート",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料シート",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -1308,15 +1312,17 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "コールの先行アクセスブラックフライデーセールは11月6日（金）から始まります！",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデー早期セール",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Kohl's",
-    "item": "コールの先行アクセスブラックフライデーセールは11月6日（金）から始まります！",
-    "when": "",
-    "cond": ""
+    "store": "Kohl’s",
+    "item": "ブラックフライデー早期セール",
+    "when": "11/6(金)〜",
+    "cond": "",
+    "what": "早期BFセール",
+    "where": "Kohl’s"
    },
-   "date": null,
+   "date": "2026-11-06",
    "dup": "8a8d23c5c223"
   },
   {
@@ -1413,13 +1419,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "11月の無料レゴストアイベント：トナカイのメイク＆テイク、インサイダー特典など",
-   "jaVia": "mymemory",
+   "ja": "トナカイのレゴ組み立て体験",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "11月の無料レゴストアイベント：トナカイのメイク＆テイク、インサイダー特典など",
-    "when": "",
-    "cond": ""
+    "store": "LEGO Store",
+    "item": "トナカイのレゴ組み立て体験",
+    "when": "11月中",
+    "cond": "",
+    "what": "無料レゴ体験",
+    "where": "LEGO Store"
    },
    "date": null
   },
@@ -1596,42 +1604,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "8a8d23c5c223",
-   "title": "Kohl’s Early Black Friday Sale Starts at 1AM ET November 6th (Tonight!)",
-   "link": "https://hip2save.com/deals/kohls-early-black-friday-sale/",
-   "source": "Hip2Save",
-   "posted": "2026-11-05T20:00Z",
-   "firstSeen": "2026-11-05T20:04Z",
-   "expires": "2026-11-05",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/kohls-early-blackfriday-deals.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": true,
-   "freebie": null,
-   "ja": "ブラックフライデーセール品",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Kohl’s",
-    "item": "ブラックフライデーセール品",
-    "when": "11/6 1時ET〜",
-    "cond": "",
-    "what": "セール開催",
-    "where": "Kohl’s"
-   },
-   "date": "2026-11-06"
   },
   {
    "id": "e66dc6013496",
@@ -2289,39 +2261,6 @@
     "where": "オンライン"
    },
    "date": null
-  },
-  {
-   "id": "e316967bed3b",
-   "title": "Today Only – BOGO FREE Bath & Body Works Holiday Items!",
-   "link": "https://hip2save.com/deals/bath-body-works-promo-code/",
-   "source": "Hip2Save",
-   "posted": "2026-11-05T18:13Z",
-   "firstSeen": "2026-11-05T19:10Z",
-   "expires": "2026-11-05",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/bath-body-works-holiday-candles-2026.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "本日限り– BOGO FREE BATH & BODY WORKSホリデーアイテム！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "本日限り– BOGO FREE BATH & BODY WORKSホリデーアイテム！",
-    "when": "11/5(木)まで",
-    "cond": ""
-   },
-   "date": "2026-11-05"
   },
   {
    "id": "f3b55582007e",
@@ -4320,41 +4259,6 @@
    "date": null
   },
   {
-   "id": "9108ebab410c",
-   "title": "14K Gold Plated Initial Bracelet Only $3.99 on Amazon (Today Only!)",
-   "link": "https://hip2save.com/deals/initial-bracelet/",
-   "source": "Hip2Save",
-   "posted": "2026-11-05T13:15Z",
-   "firstSeen": "2026-11-05T13:27Z",
-   "expires": "2026-11-05",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/mooham-inital-bracelet-amazon.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "14 Kゴールドメッキイニシャルブレスレットのみ$ 3.99 Amazon （本日限定！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "14 Kゴールドメッキイニシャルブレスレットのみ$ 3.99 Amazon （本日限定！ ）",
-    "when": "11/5(木)まで",
-    "cond": ""
-   },
-   "date": "2026-11-05",
-   "dup": "2becf7674599"
-  },
-  {
    "id": "86707746fe37",
    "title": "PicassoTiles Christmas Holidays Cottage Building Set only $10.18!",
    "link": "https://moneysavingmom.com/picassotiles-christmas-holidays-cottage-building-set-deal/",
@@ -4801,40 +4705,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "c7ba192a57dc",
-   "title": "Save 40% off Women’s Denim at Target today only!",
-   "link": "https://moneysavingmom.com/target-denim-sale/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-05T11:56Z",
-   "firstSeen": "2026-11-05T12:06Z",
-   "expires": "2026-11-05",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/12/Target-Denim-sale.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "本日限り、Targetでレディースデニムが40%オフ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "本日限り、Targetでレディースデニムが40%オフ！",
-    "when": "11/5(木)まで",
-    "cond": ""
-   },
-   "date": "2026-11-05"
   },
   {
    "id": "f45a46e2f4b5",
@@ -26109,43 +25979,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "d27b573a3935",
-   "title": "Free “Sorry We’re Closed” PC Game on the Epic Game Store through 11/5!",
-   "link": "https://thefreebieguy.com/free-pc-game-on-epic-games/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T21:20Z",
-   "firstSeen": "2026-10-30T21:50Z",
-   "expires": "2026-11-05",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Epic-Games--840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-05"
-   },
-   "ja": "Epic Gamesの無料PCゲーム（11/5まで）",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Epic Games Store",
-    "item": "Epic Gamesの無料PCゲーム（11/5まで）",
-    "when": "〜11/5(木)",
-    "cond": "",
-    "what": "無料PCゲーム",
-    "where": "Epic Games"
-   },
-   "date": "2026-11-05"
   },
   {
    "id": "f0c9722c56a3",
