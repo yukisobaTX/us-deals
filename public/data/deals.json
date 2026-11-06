@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T21:52Z",
- "count": 1851,
+ "updated": "2026-11-06T22:53Z",
+ "count": 1852,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -57,14 +57,288 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 17,
+   "mymemory": 20,
    "geminiToday": 15,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "8d3aa2b0cd82",
+   "title": "RESTOCKED! Adorable Glow-in-the-Dark Cloud Squishy Toys on Amazon!",
+   "link": "https://thefreebieguy.com/cloud-squishy/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T22:48Z",
+   "firstSeen": "2026-11-06T22:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/cloud-squishy-toys-Amazon-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "入荷しました！ AmazonのかわいいGlow - in - the - Dark Cloud Squishy Toys ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "入荷しました！ AmazonのかわいいGlow - in - the - Dark Cloud Squishy Toys ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c4645c28009d",
+   "title": "Zarbee’s Soothing Saline Nasal Mist Only $2.xx on Amazon (Reg $7)",
+   "link": "https://thefreebieguy.com/zarbees-saline-nasal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T22:47Z",
+   "firstSeen": "2026-11-06T22:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Zarbees-Soothing-Saline-Nasal-Mist-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Zarbee's Soothing Saline Nasal Mist Amazonで$ 2.xxのみ（登録価格$ 7 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Zarbee's Soothing Saline Nasal Mist Amazonで$ 2.xxのみ（登録価格$ 7 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "82505436e12e",
+   "title": "The Big One Nesting Bowls Only $9 at Kohl’s (Reg. $23)",
+   "link": "https://thefreebieguy.com/the-big-one-nesting-bowls/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T22:22Z",
+   "firstSeen": "2026-11-06T22:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Nesting-bowls-Kohls-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 61,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "The Big One Nesting Bowls Kohl'sでたったの$ 9 （登録価格： $ 23 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "The Big One Nesting Bowls Kohl'sでたったの$ 9 （登録価格： $ 23 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "aab59dcccbdf",
+   "title": "Burger King Launches 10-Piece Chicken Nuggets Meal Deal for $3.99",
+   "link": "https://www.fastfoodpost.com/burger-king-launches-10-piece-chicken-nuggets-meal-deal-for-3-99/",
+   "source": "Fast Food Post",
+   "posted": "2026-11-06T22:20Z",
+   "firstSeen": "2026-11-06T22:53Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Burger King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "バーガーキング、チキンナゲット10個セットを$ 3.99で提供開始",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Burger King",
+    "item": "バーガーキング、チキンナゲット10個セットを$ 3.99で提供開始",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d4871cbb8d66",
+   "title": "Buy One, Get TWO Free JCPenney Throw Blankets",
+   "link": "https://hip2save.com/deals/jcpenney-throws-blankets/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T22:15Z",
+   "firstSeen": "2026-11-06T22:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/North-Pole-Trading-Co.-Holiday-Velvet-Plush-Throw.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "1つ購入して、2つの無料JCPenneyスローブランケットをゲット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "1つ購入して、2つの無料JCPenneyスローブランケットをゲット",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "77aeaa934efd",
+   "date": null
+  },
+  {
+   "id": "26ca9fd392f4",
+   "title": "Women’s RFID Wallet with Keychain from $5.xx on Amazon (Reg. $13)",
+   "link": "https://thefreebieguy.com/airkit-beaded-wristlet-wallet/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T22:03Z",
+   "firstSeen": "2026-11-06T22:53Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Airkit-Beaded-Wristlet-Wallet-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonの$ 5.xxからキーホルダー付きレディースRFIDウォレット（登録番号： $ 13 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonの$ 5.xxからキーホルダー付きレディースRFIDウォレット（登録番号： $ 13 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "ded85d435d2c",
+   "date": null
+  },
+  {
+   "id": "3f43250168ab",
+   "title": "Elf on the Shelf Advent Calendar Just $14.98 on SamsClub.com (Reg. $20)",
+   "link": "https://hip2save.com/deals/elf-on-the-shelf-advent-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T22:00Z",
+   "firstSeen": "2026-11-06T22:53Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/11/elf-on-the-shelf-advent-calendar.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 25,
+   "price": 14.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Elf on the ShelfアドベントカレンダーSamsClub.comでたったの$ 14.98 （登録番号： $ 20 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "Elf on the ShelfアドベントカレンダーSamsClub.comでたったの$ 14.98 （登録番号： $ 20 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cb9d75a02783",
+   "title": "Insignia 50″ LED 4K UHD Smart Fire TV only 149.99 shipped, plus more!",
+   "link": "https://moneysavingmom.com/insignia-50-led-4k-uhd-smart-fire-tv-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T21:59Z",
+   "firstSeen": "2026-11-06T22:53Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/TV-630x421.jpg",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Insignia 50インチLED 4 K UHDスマートファイアテレビ149.99のみ出荷、その他多数！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Insignia 50インチLED 4 K UHDスマートファイアテレビ149.99のみ出荷、その他多数！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "2beac0f46801",
    "title": "Project Cloud Women’s Tennis Shoes From $42.xx on Amazon (Reg. $100)",
@@ -35182,43 +35456,6 @@
    "date": null
   },
   {
-   "id": "d8eb1200a98b",
-   "title": "Krispy Kreme Deals | Free Original Glazed Doughnut, Jack’s Treat Dozen Pass, & More!",
-   "link": "https://thefreebieguy.com/krispy-kreme-coupons-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T22:45Z",
-   "firstSeen": "2026-10-30T07:13Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Krispy-Kreme-All-Jacked-Up-Dozen-thefreebieguy--840x630.png",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Krispy Kreme",
-    "item": "オリジナルグレーズドなどの無料特典",
-    "what": "無料ドーナツ",
-    "where": "Krispy Kreme"
-   },
-   "ja": "オリジナルグレーズドなどの無料特典",
-   "jaVia": "claude",
-   "date": null
-  },
-  {
    "id": "44e111484a8e",
    "title": "Annie’s Organic Granola Bars 12-Count Box Just $4.75 Shipped on Amazon (Reg. $9)",
    "link": "https://hip2save.com/deals/annies-granola-bars/",
@@ -63413,207 +63650,6 @@
    "sum": {
     "store": "Sam's Club",
     "item": "ラン！ Alani NuバラエティパックSam's Clubでたったの$ 16.58 （通常$ 23 ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "093018f44d0b",
-   "title": "Last Chance! EXTRA 40% Off adidas + FREE Shipping = Styles from $9 Shipped",
-   "link": "https://hip2save.com/deals/adidas-ebay/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T22:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "eBay"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "ラストチャンス！ adidasがさらに40 ％オフ+送料無料= $ 9からのスタイルが発送されます",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "eBay",
-    "item": "ラストチャンス！ adidasがさらに40 ％オフ+送料無料= $ 9からのスタイルが発送されます",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "4bbb651c2616",
-   "title": "Stock the Gift Closest! Lowest Prices Ever on LEGO Sets at Kohl’s (Disney, Botanicals, & More!)",
-   "link": "https://hip2save.com/deals/kohls-legos/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T22:33Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "ギフトの品揃えが一番近い！ Kohl's （ディズニー、ボタニカルなど）のレゴセットが史上最低価格！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "ギフトの品揃えが一番近い！ Kohl's （ディズニー、ボタニカルなど）のレゴセットが史上最低価格！",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Hei-Hei-Disney.jpg?resize=306,182"
-  },
-  {
-   "id": "475911ebc72d",
-   "title": "Cute Animal-Shaped Hand Warmer Sets from $7.79 on Amazon (Practical Stocking Stuffer!)",
-   "link": "https://hip2save.com/deals/amazon-hand-warmer/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T22:15Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "アマゾンで$ 7.79からのかわいい動物形のハンドウォーマーセット（実用的なストッキングスタッファー！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "アマゾンで$ 7.79からのかわいい動物形のハンドウォーマーセット（実用的なストッキングスタッファー！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/lanwans-Rechargeable-Dog-Hand-Warmers.jpg?resize=306,182"
-  },
-  {
-   "id": "2edfb72b49dc",
-   "title": "DIY Squishy Making Kit Only $16.99 on Amazon (Reg. $20)",
-   "link": "https://hip2save.com/deals/squishy-making-kit/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T22:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 15,
-   "price": 16.99,
-   "freebie": null,
-   "date": null,
-   "ja": "AmazonでDIY Squishy Making Kitのみ$ 16.99 （登録価格$ 20 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "AmazonでDIY Squishy Making Kitのみ$ 16.99 （登録価格$ 20 ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/diy-squishy-making-kit-amazon.png?resize=306,182"
-  },
-  {
-   "id": "7fcb0a2b929c",
-   "title": "Up to 80% Off Athletic Clothing + Free Shipping for Prime Members",
-   "link": "https://hip2save.com/deals/woot-athletic-clothing/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T22:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 80,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "アスレチックウェアが最大80%オフ+プライム会員は送料無料",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "アスレチックウェアが最大80%オフ+プライム会員は送料無料",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "816e0682b12f",
-   "title": "TWO Women’s Tees Only $5.49 on Amazon (Just $2.75 per Shirt)",
-   "link": "https://hip2save.com/deals/wailfrey-tops/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T21:55Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "レディースTシャツ2枚のみ$ 5.49 （シャツ1枚につき$ 2.75 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "レディースTシャツ2枚のみ$ 5.49 （シャツ1枚につき$ 2.75 ）",
     "when": "",
     "cond": ""
    },
