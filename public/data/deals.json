@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-06T17:57Z",
- "count": 1831,
+ "updated": "2026-11-06T19:06Z",
+ "count": 1844,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 8
+   "added": 13
   },
   "h2s-free": {
    "read": 100,
-   "added": 16
+   "added": 15
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 7
   },
   "mws": {
    "read": 20,
@@ -58,13 +58,651 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 11,
+   "geminiToday": 12,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "382e29569622",
+   "title": "Up to 50% Off Lowe’s Appliance Sale – Save on Washers, Dryers, Ranges & More!",
+   "link": "https://hip2save.com/deals/lowes-appliance-sale/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T19:02Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/lowes-appliances2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Lowe'sアプライアンスセールが最大50%オフ–洗濯機、乾燥機、レンジなどがお得に！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "Lowe'sアプライアンスセールが最大50%オフ–洗濯機、乾燥機、レンジなどがお得に！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "188ddbe61d63",
+   "title": "Gold Initial Necklace Just $3.xx on Amazon (Reg $10)",
+   "link": "https://thefreebieguy.com/initial-necklace/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T18:58Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/gold-initial-necklace-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 3.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ゴールドイニシャルネックレスAmazonでたったの$ 3.xx （登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ゴールドイニシャルネックレスAmazonでたったの$ 3.xx （登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "b8df4b9fbb1f",
+   "date": null
+  },
+  {
+   "id": "f30e01bd3989",
+   "title": "Team & Reader Fave Jelly Bras UNDER $10 on Amazon",
+   "link": "https://hip2save.com/deals/amazon-jelly-bra/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:53Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Oeak-Jelly-Bra-in-pink.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "チーム＆リーダーお気に入りジェリーブラ$ 10以下Amazon",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "チーム＆リーダーお気に入りジェリーブラ$ 10以下Amazon",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "fb799f13f04e",
+   "title": "High Speed Ionic Hair Dryer with Diffuser & Concentrator Just $17.xx on Amazon (Reg. $35)",
+   "link": "https://thefreebieguy.com/sunhanny-high-speed-ionic-hair-dryer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T18:49Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Sunhanny-High-Speed-Ionic-Hair-Dryer-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 51,
+   "price": 17.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ディフューザー＆コンセントレーター付き高速イオンヘアドライヤーAmazonでわずか$ 17.xx （登録価格$ 35 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ディフューザー＆コンセントレーター付き高速イオンヘアドライヤーAmazonでわずか$ 17.xx （登録価格$ 35 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "bd460777f9b8",
+   "date": null
+  },
+  {
+   "id": "5cad8f8d62ab",
+   "title": "Cat-Shaped Makeup Bag Only $9.95 on Amazon (Purr-fect Gift Idea!)",
+   "link": "https://hip2save.com/deals/cat-shaped-makeup-bag/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:47Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Openhahaha-Cat-Shaped-Drawstring-Makeup-Bag.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンでたったの$ 9.95の猫型メイクバッグ（ Purr - fectギフトのアイデア！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンでたったの$ 9.95の猫型メイクバッグ（ Purr - fectギフトのアイデア！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "56c0b2ca2a40",
+   "title": "Rubbermaid EasyStore Nesting 26-Piece Food Storage Container Set Only $9.99 at Kohl’s (Reg. $25)",
+   "link": "https://thefreebieguy.com/rubbermaid-easystore-nesting-26-piece-food-storage-container-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T18:46Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Rubbermaid-EasyStore-Nesting-26-Piece-Food-Storage-Container-Set--840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 9.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Rubbermaid EasyStore Nesting 26ピースフードストレージコンテナセットのみ$ 9.99 at Kohl's (Reg. $ 25)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Rubbermaid EasyStore Nesting 26ピースフードストレージコンテナセットのみ$ 9.99 at Kohl's (Reg. $ 25)",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9b5cfd0b205d",
+   "title": "HOT Lowe’s Lighting Sale: Fixtures from $19 Shipped!",
+   "link": "https://hip2save.com/deals/lowes-lighting-sale/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:45Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/kichler-Flush-Mount-Light.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ホットロウの照明セール： 19 $からの備品が出荷されました！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "ホットロウの照明セール： 19 $からの備品が出荷されました！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "dafd3759d1b2",
+   "title": "Fishing Lure Advent Calendar Only $9.xx on Amazon – Perfect Gift For Avid Fishers!",
+   "link": "https://thefreebieguy.com/fishing-lure-advent-calendar/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T18:45Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/fishing-lure-advent-calendar-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンのフィッシングルアーアドベントカレンダーは$ 9.xxのみ–熱心な釣り人にぴったりのギフト！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンのフィッシングルアーアドベントカレンダーは$ 9.xxのみ–熱心な釣り人にぴったりのギフト！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "15e08b65603e",
+   "title": "10 Random Walmart Things Our Team Grabbed Today",
+   "link": "https://hip2save.com/deals/best-things-to-buy-at-walmart/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:39Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": "2026-11-06",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Walmart-boxes-stacked-with-christmas-tree-planter.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "11/6(金)まで",
+    "cond": ""
+   },
+   "date": "2026-11-06"
+  },
+  {
+   "id": "1603e095cdd3",
+   "title": "Magnetic Building Blocks 100-Piece Set Just $11.49 on Amazon (Reg. $23)",
+   "link": "https://hip2save.com/deals/magnetic-blocks-building-sets/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:30Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/idoot-Magnetic-Building-Blocks-Set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 11.49,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "123a837a8210",
+   "title": "Capital One Offers: Amazon, Trader Joe’s – Get $5 Back on $20 Spend",
+   "link": "https://www.doctorofcredit.com/capital-one-offers-amazon-trader-joes-get-5-back-on-20-spend/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-06T18:30Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Trader Joe's",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Trader Joe's・Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7588b734fded",
+   "title": "Academy Black Friday Sale Starts 11/26 (Browse The Ad Now!)",
+   "link": "https://hip2save.com/deals/academy-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:28Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Academy-Sports-4.jpg?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "アカデミーブラックフライデーセールは11月26日から始まります（今すぐ広告を閲覧！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "アカデミーブラックフライデーセールは11月26日から始まります（今すぐ広告を閲覧！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6569ef14c52c",
+   "title": "Kohl’s Early Black Friday LEGO Deals! Up to 40% Off – Sets as Low as $5.99",
+   "link": "https://thefreebieguy.com/kohls-lego-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T18:27Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Kohls-Legos-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コールのアーリー・ブラックフライデー・レゴセール！最大40 ％オフ–最低$ 5.99に設定",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "コールのアーリー・ブラックフライデー・レゴセール！最大40 ％オフ–最低$ 5.99に設定",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "53127ef0a253",
+   "title": "Ionic Hair Dryer Just $19.99 on Amazon (Reg. $50)",
+   "link": "https://hip2save.com/deals/wavytalk-hair-dryer/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:20Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/WavyTalk-Ionic-Hair-Dryer.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 19.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "38450e9b6530",
+   "date": null
+  },
+  {
+   "id": "8465d167024f",
+   "title": "TWO Sterilite Large Wheeled Totes Just $35 Shipped on Walmart.com",
+   "link": "https://hip2save.com/deals/walmart-sterilite-storage/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:18Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/sterilite-wheeled-tote1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e4278de3f28b",
+   "title": "Layer Up for Less! ANRABESS Women’s Tops from $5.99 on Amazon",
+   "link": "https://hip2save.com/deals/amazon-anrabess-long-sleeved-shirt/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:15Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/annrabess-boatneck-top.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8416f285f902",
+   "title": "FREE Scotch Tape After Staples Rewards (Up to $40 Worth!)",
+   "link": "https://hip2save.com/deals/staples-scotch-tape/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T18:03Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Scotch-Magic-Invisible-Clear-Tape-Refill-6-Pack.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "ステープル報酬後の無料スコッチテープ（最大$ 40相当！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ステープル報酬後の無料スコッチテープ（最大$ 40相当！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8e88b3aa547b",
+   "title": "Kohl’s Early Black Friday Toy Sale – Up to 50% OFF Top Toys!",
+   "link": "https://thefreebieguy.com/kohls-toys/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T18:03Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/toy-sale-kohls-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コールのアーリーブラックフライデーおもちゃセール–人気のおもちゃが最大50%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "コールのアーリーブラックフライデーおもちゃセール–人気のおもちゃが最大50%オフ！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "52526b91a7b3",
+   "date": null
+  },
+  {
+   "id": "8778ca2cd588",
+   "title": "Save up to 40% off Christmas Trees at Target!",
+   "link": "https://moneysavingmom.com/target-christmas-tree-deals/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T18:00Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/11/Wondershop-Pre-lit-Alberta-Spruce-6.5ft.-Artificial-Christmas-Tree-.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "ed6db04def75",
+   "date": null
+  },
   {
    "id": "9f6c4d90c674",
    "title": "Cuddl Duds Cozy Soft Printed Throw Blanket only $15.99!",
@@ -140,7 +778,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-06T17:50Z",
    "firstSeen": "2026-11-06T17:57Z",
-   "expires": null,
+   "expires": "2026-12-12",
    "thumb": "https://hip2save.com/wp-content/uploads/2021/11/charlie-brown-christmas-1.jpg?resize=306,182",
    "hot": true,
    "stores": [],
@@ -271,6 +909,44 @@
    "date": null
   },
   {
+   "id": "10ae23d89a65",
+   "title": "FREE Krispy Kreme Seasonal Doughnut w/ Purchase + $2 Glazed Dozen w/ Purchase",
+   "link": "https://hip2save.com/deals/krispy-kreme-coupon/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T17:35Z",
+   "firstSeen": "2026-11-06T19:06Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/krispy-kreme-seasonal-donuts.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Krispy Kreme"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "クリスピー・クリームの季節のドーナツ（お買い上げで無料） ＋グレーズド・ダズン（お買い上げで$ 2 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Krispy Kreme",
+    "item": "クリスピー・クリームの季節のドーナツ（お買い上げで無料） ＋グレーズド・ダズン（お買い上げで$ 2 ）",
+    "when": "",
+    "cond": "購入時"
+   },
+   "dup": "833e40c5f186",
+   "date": null
+  },
+  {
    "id": "ed6db04def75",
    "title": "Up to 40% Off Wondershop Christmas Trees at Target",
    "link": "https://thefreebieguy.com/wondershop-christmas-trees/",
@@ -377,7 +1053,7 @@
    "source": "Money Saving Mom",
    "posted": "2026-11-06T17:18Z",
    "firstSeen": "2026-11-06T17:57Z",
-   "expires": null,
+   "expires": "2026-11-07",
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/08/Screenshot-2026-11-06-at-11.12.51-AM.png",
    "hot": true,
    "stores": [],
@@ -403,8 +1079,8 @@
     "when": "11/7(土)",
     "cond": "購入時"
    },
-   "dup": "fc65a4375da2",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dup": "fc65a4375da2"
   },
   {
    "id": "98784d1adc08",
@@ -503,8 +1179,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "6e46e971779b",
-   "date": null
+   "date": null,
+   "dup": "6e46e971779b"
   },
   {
    "id": "f20f3f43bdc2",
@@ -11776,7 +12452,7 @@
     "when": "",
     "cond": ""
    },
-   "dup": "85877b4c1e29"
+   "dup": "885c07cf94b2"
   },
   {
    "id": "36cd5ccdef85",
@@ -61370,8 +62046,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "c1b3dee0c3ee"
+   "date": null
   },
   {
    "id": "eecaea4f3343",
@@ -62679,171 +63354,6 @@
    "eventNews": false
   },
   {
-   "id": "10037d6d53d3",
-   "title": "Amazon Grocery Original Pancake Syrup (Pack of 3) only $3.60 shipped!",
-   "link": "https://moneysavingmom.com/amazon-grocery-original-pancake-syrup-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-22T18:40Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Amazon-Grocery-Original-Pancake-Syrup12-Fl-Oz-Pack-of-3-1.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "dup": "f7144496b620"
-  },
-  {
-   "id": "16ac871dbb0c",
-   "title": "We Spotted This Fun Grinch Jewelry Advent Calendar on Walmart.com",
-   "link": "https://hip2save.com/deals/grinch-jewelry-advent-calendar/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T18:39Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "Walmart.comでこの楽しいグリンチジュエリーアドベントカレンダーを見つけました",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Walmart.comでこの楽しいグリンチジュエリーアドベントカレンダーを見つけました",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "3f01f516753b",
-   "title": "Join Costco & Get a $40 Digital Costco Shop Card (+ Up to $60 Cash Back!)",
-   "link": "https://hip2save.com/deals/costco-membership/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T18:24Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Costco"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "コストコに参加して、$ 40のデジタルコストコショップカードを手に入れましょう（+最大$ 60のキャッシュバック！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Costco",
-    "item": "コストコに参加して、$ 40のデジタルコストコショップカードを手に入れましょう（+最大$ 60のキャッシュバック！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2019/09/Man-holding-Costco-membership-card.jpg?resize=306,182"
-  },
-  {
-   "id": "ac23f577c7a2",
-   "title": "Wool-Lined Touch Screen Gloves Just $5.99 on Amazon",
-   "link": "https://hip2save.com/deals/amazon-wool-lined-gloves/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T18:17Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "アマゾンでわずか$ 5.99のウール裏地付きタッチスクリーン手袋",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "アマゾンでわずか$ 5.99のウール裏地付きタッチスクリーン手袋",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "45df83f8fb71",
-   "title": "Dove Holiday Treats Body Wash just $2.96 (Reg. $8), plus more!",
-   "link": "https://moneysavingmom.com/dove-holiday-treats-body-wash-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-22T18:14Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Dove-Limited-Edition-Holiday-Treats-Body-Wash-Cinnamon-Pumpkin-Pie-20-oz.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 63,
-   "price": 2.96,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "dd5d4d6d6e74",
    "title": "Veterans Day 2026 Offers: FREE Meals, Haircuts & More",
    "link": "https://hip2save.com/deals/veterans-day-free-meals-offers/",
@@ -63017,73 +63527,6 @@
     "cond": "会員限定"
    },
    "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Great-Clips.jpg?resize=306,182",
-   "date": "2026-11-11",
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "c0feef908921",
-   "title": "FREE Pet Photos with Santa at Petco on December 12th",
-   "link": "https://hip2save.com/deals/petco-santa-pictures/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-10-15T19:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-12-12",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-12-12"
-   },
-   "ja": "サンタとのペット写真撮影",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Petco",
-    "item": "サンタとのペット写真撮影",
-    "when": "12/12",
-    "cond": "",
-    "what": "無料ペット写真",
-    "where": "Petco"
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2023/12/petco-pics-with-santa.jpg?resize=306,182",
-   "date": "2026-12-12",
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "75335f8a9ac9",
-   "title": "FREE Sport Clips Haircuts for Veterans and Service Members on 11/11",
-   "link": "https://hip2save.com/deals/sport-clips/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-10-15T18:55Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": "2026-11-11",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "sum": {
-    "store": "",
-    "item": "",
-    "when": "11/11(水)まで",
-    "cond": "会員限定"
-   },
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/sports-clips.jpg?resize=306,182",
    "date": "2026-11-11",
    "event": null,
    "eventNews": false
