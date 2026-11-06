@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T06:12Z",
- "count": 1790,
+ "updated": "2026-11-06T07:30Z",
+ "count": 1791,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -55,11 +55,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 18,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 1,
-   "geminiToday": 1,
-   "model": "gemini-flash-latest"
+   "mymemory": 19,
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
   }
  },
  "errors": [],
@@ -1048,6 +1049,41 @@
    "date": null
   },
   {
+   "id": "d27b573a3935",
+   "title": "Free PC Games on the Epic Game Store through 11/12!",
+   "link": "https://thefreebieguy.com/free-pc-game-on-epic-games/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-05T22:00Z",
+   "firstSeen": "2026-11-06T07:30Z",
+   "expires": "2026-11-12",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Epic-Games--840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-12"
+   },
+   "ja": "11月12日までEpicゲームストアで無料のPCゲームをプレイしよう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "11月12日までEpicゲームストアで無料のPCゲームをプレイしよう！",
+    "when": "11/12(木)",
+    "cond": ""
+   },
+   "date": "2026-11-12"
+  },
+  {
    "id": "0a633cb58c1f",
    "title": "Monopoly Deal NFL Edition Card Game Only $3.49 on Amazon (Play in Just 15 Minutes!)",
    "link": "https://hip2save.com/deals/monopoly-deal-card-game/",
@@ -1322,8 +1358,7 @@
     "what": "早期BFセール",
     "where": "Kohl’s"
    },
-   "date": "2026-11-06",
-   "dup": "8a8d23c5c223"
+   "date": "2026-11-06"
   },
   {
    "id": "2f670f5ad950",
