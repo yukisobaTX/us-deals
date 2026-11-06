@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T22:53Z",
- "count": 1852,
+ "updated": "2026-11-06T23:23Z",
+ "count": 1857,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -16,15 +16,15 @@
   },
   "ffp": {
    "read": 20,
-   "added": 6
+   "added": 5
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -57,13 +57,149 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 20,
+   "mymemory": 16,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "b51c17749f44",
+   "title": "Burger King Deals | $3.99 Meal (10 Nuggets, Small Drink & Fries) through 11/15!",
+   "link": "https://thefreebieguy.com/burger-king-deals-coupons/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T23:20Z",
+   "firstSeen": "2026-11-06T23:23Z",
+   "expires": "2026-11-15",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Limited-time-Cheap-Meal-at-Burger-King-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Burger King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "バーガーキングのお得情報| 11月15日まで$ 3.99のお食事（ナゲット10個、スモールドリンク、フライドポテト） ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Burger King",
+    "item": "バーガーキングのお得情報| 11月15日まで$ 3.99のお食事（ナゲット10個、スモールドリンク、フライドポテト） ！",
+    "when": "11/15(日)まで",
+    "cond": ""
+   },
+   "date": "2026-11-15"
+  },
+  {
+   "id": "b3d711cea32e",
+   "title": "40% Off Auden Women’s Pajama Sets at Target–from $12 (Reg $20)",
+   "link": "https://thefreebieguy.com/auden-pajama-set/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T23:11Z",
+   "firstSeen": "2026-11-06T23:23Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Auden-pajamas-40-off-Target-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 12.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Audenレディースパジャマセットがターゲットで40 ％オフ- $ 12から（登録価格$ 20 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Audenレディースパジャマセットがターゲットで40 ％オフ- $ 12から（登録価格$ 20 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "521282bf2b3c",
+   "title": "Sephora Savings Event | Stacking w/ Kohl’s Early Black Friday Deals for Hot Beauty Deals!",
+   "link": "https://thefreebieguy.com/sephora-savings-event/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T23:09Z",
+   "firstSeen": "2026-11-06T23:23Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Sephora-TFG-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "セフォラお得イベント|コールの早期ブラックフライデーセールでホットビューティーセールを積み重ねよう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "セフォラお得イベント|コールの早期ブラックフライデーセールでホットビューティーセールを積み重ねよう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "151c1a0e4120",
+   "title": "Target Dropped NEW Grinch Pajamas & They’re 40% Off!",
+   "link": "https://hip2save.com/deals/grinch-target/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T23:00Z",
+   "firstSeen": "2026-11-06T23:23Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/target-matching-fam-pjs.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットが新しいグリンチパジャマをドロップし、40%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットが新しいグリンチパジャマをドロップし、40%オフ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "8d3aa2b0cd82",
    "title": "RESTOCKED! Adorable Glow-in-the-Dark Cloud Squishy Toys on Amazon!",
@@ -233,8 +369,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "77aeaa934efd",
-   "date": null
+   "date": null,
+   "dup": "77aeaa934efd"
   },
   {
    "id": "26ca9fd392f4",
@@ -268,8 +404,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ded85d435d2c",
-   "date": null
+   "date": null,
+   "dup": "ded85d435d2c"
   },
   {
    "id": "3f43250168ab",
@@ -677,6 +813,38 @@
    "sum": {
     "store": "Amazon",
     "item": "Amazonのこのポータブル5000 Aジャンプスターター（登録$ 100 ）はたったの29.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "475911ebc72d",
+   "title": "Cute Animal-Shaped Hand Warmer Sets from $7.99 on Amazon (Practical Stocking Stuffer!)",
+   "link": "https://hip2save.com/deals/amazon-hand-warmer/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T20:45Z",
+   "firstSeen": "2026-11-06T23:23Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/lanwans-Rechargeable-Dog-Hand-Warmers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
     "when": "",
     "cond": ""
    },
@@ -2020,6 +2188,38 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "4bbb651c2616",
+   "title": "40% Off LEGO Sale + $15 Kohl’s Cash = Sets from $5.99 (Today Only)",
+   "link": "https://hip2save.com/deals/kohls-legos/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T17:42Z",
+   "firstSeen": "2026-11-06T23:23Z",
+   "expires": "2026-11-06",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Hei-Hei-Disney.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "11/6(金)まで",
+    "cond": ""
+   },
+   "date": "2026-11-06"
   },
   {
    "id": "e6abcebfdf8f",
@@ -14540,8 +14740,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "2edfb72b49dc"
+   "date": null
   },
   {
    "id": "dd9932e2c55b",
@@ -35383,41 +35582,6 @@
     "cond": "",
     "what": "BF買い方ガイド",
     "where": "オンライン"
-   },
-   "date": null
-  },
-  {
-   "id": "266a4871b5bd",
-   "title": "Best Cheap Friday Food and Restaurant Deals – Krispy Kreme, KFC, & More!",
-   "link": "https://thefreebieguy.com/cheap-friday-food-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T23:00Z",
-   "firstSeen": "2026-10-29T23:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Friday-Food-Deals-840x630.png",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme",
-    "KFC"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "クリスピー・クリーム、ケンタッキーフライデーフード＆レストランのお買い得情報など！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Krispy Kreme・KFC",
-    "item": "クリスピー・クリーム、ケンタッキーフライデーフード＆レストランのお買い得情報など！",
-    "when": "",
-    "cond": ""
    },
    "date": null
   },
