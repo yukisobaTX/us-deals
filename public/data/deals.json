@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T14:59Z",
- "count": 1808,
+ "updated": "2026-11-06T15:59Z",
+ "count": 1816,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 8
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 4
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 10
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,571 @@
    "added": 0
   },
   "ja": {
-   "gemini": 14,
+   "gemini": 20,
    "geminiEvent": 0,
-   "mymemory": 17,
-   "geminiToday": 8,
+   "mymemory": 15,
+   "geminiToday": 9,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "5952c543eac0",
+   "title": "PicassoTiles Gingerbread House Just $26.68 Shipped on BestBuy.com (Reg. $50)",
+   "link": "https://hip2save.com/deals/picasso-tiles-gingerbread-house/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T15:56Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/picasso-tile-gingerbread-house.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 47,
+   "price": 26.68,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "PicassoTilesジンジャーブレッドハウスたったの$ 26.68 BestBuy.comで発送（登録価格$ 50 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "PicassoTilesジンジャーブレッドハウスたったの$ 26.68 BestBuy.comで発送（登録価格$ 50 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "083619bc2f9f",
+   "title": "Women’s Slip Shorts 3-Pack Just $8.75 on Amazon (Reg. $18)",
+   "link": "https://hip2save.com/deals/womens-slip-shorts/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T15:50Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/REAMPHY-Womens-Slip-Shorts.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 51,
+   "price": 8.75,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レディーススリップショートパンツ3枚パックアマゾンでわずか$ 8.75 （登録価格$ 18 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディーススリップショートパンツ3枚パックアマゾンでわずか$ 8.75 （登録価格$ 18 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "58a9a8dcb7c8",
+   "title": "Christmas Bracelet Making Kit 3000-Pieces Only $5.xx on Amazon (Reg. $10)",
+   "link": "https://thefreebieguy.com/gionlion-christmas-bracelet-making-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T15:47Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Gionlion-Christmas-Bracelet-Making-Kit-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "クリスマスブレスレット作成キット3000個- Amazonで$ 5.xxのみ（登録価格$ 10 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "クリスマスブレスレット作成キット3000個- Amazonで$ 5.xxのみ（登録価格$ 10 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "09ce7f863aad",
+   "date": null
+  },
+  {
+   "id": "d37ffa8f1a7e",
+   "title": "Folgers Instant Coffee Only $4.49 Shipped on Amazon (Reg. $9)",
+   "link": "https://hip2save.com/deals/folgers-instant-coffee/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T15:45Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/04/Folgers-Instant-Coffee.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 4.49,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Folgersインスタントコーヒーのみ$ 4.49 Amazonで出荷（登録価格$ 9 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Folgersインスタントコーヒーのみ$ 4.49 Amazonで出荷（登録価格$ 9 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "244a8a303180",
+   "title": "Best Buy: Nautica Portable Bluetooth Speaker only $14.99 shipped (Reg. $50!)",
+   "link": "https://moneysavingmom.com/best-buy-nautica-portable-bluetooth-speaker-only-14-99-shipped-reg-50/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T15:45Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-06-at-9.37.35-AM-630x609.png",
+   "hot": true,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": 14.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Best Buy ： NauticaポータブルBluetoothスピーカー$ 14.99のみ出荷（登録価格$ 50 ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Best Buy",
+    "item": "Best Buy ： NauticaポータブルBluetoothスピーカー$ 14.99のみ出荷（登録価格$ 50 ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6b498282285b",
+   "title": "2026 Black Friday Freebies in November – FREE Events, Samples & MORE!",
+   "link": "https://thefreebieguy.com/black-friday-freebies-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T15:43Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Black-Friday1-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "item": "ブラックフライデー無料特典",
+    "when": "11月中",
+    "what": "無料特典",
+    "where": "各店舗"
+   },
+   "ja": "ブラックフライデー無料特典",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "f8311a4bca97",
+   "title": "Macy’s Early Black Friday Savings Live Now! Save on Toys, Shoes, Apparel & More",
+   "link": "https://thefreebieguy.com/macys-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T15:33Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Kendall-Macys-1024x576.jpg",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "メイシーズのアーリーブラックフライデー割引が登場！おもちゃ、シューズ、アパレルなどをお得に",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "メイシーズのアーリーブラックフライデー割引が登場！おもちゃ、シューズ、アパレルなどをお得に",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7af495044da0",
+   "title": "Amazon Grocery Pumpkin Purée Just $1.xx!",
+   "link": "https://thefreebieguy.com/amazon-grocery-pumpkin-puree/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T15:30Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Amazon-Grocery-Pumpkin-Puree--840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Grocery Pumpkin Puréeたったの$ 1.xx ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Grocery Pumpkin Puréeたったの$ 1.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "00fc55d251df",
+   "date": null
+  },
+  {
+   "id": "67559b30d454",
+   "title": "Free Hometown Heroes Event at Tractor Supply Co on November 7",
+   "link": "https://thefreebieguy.com/free-event-at-tractor-supply-co/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T15:27Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": "2026-11-07",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Tractor-Supply-Co-Touch-a-Truck-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-07"
+   },
+   "sum": {
+    "store": "Tractor Supply Co",
+    "item": "イベント無料参加",
+    "when": "11/7",
+    "what": "無料イベント",
+    "where": "Tractor Supply"
+   },
+   "ja": "イベント無料参加",
+   "jaVia": "gemini",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "ba560b83458c",
+   "title": "SWCANDY Shower Steamers 8-Piece Set Just $2.xx on Amazon (Reg $10)",
+   "link": "https://thefreebieguy.com/swcandy-shower-steamers/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T15:24Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/SW-Candy-Shower-Steamers-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 80,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "SWCANDYシャワースチーマー8ピースセットわずか$ 2.xx Amazon (Reg $ 10)",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "SWCANDYシャワースチーマー8ピースセットわずか$ 2.xx Amazon (Reg $ 10)",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "7cb5d6e1ba2b",
+   "date": null
+  },
+  {
+   "id": "e2bcfd8c8b47",
+   "title": "Bun-believable! Burger Wrapping Paper Set Just $9.99 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/burger-wrapping-paper/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T15:20Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Burger-Wrapping-Paper-Set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "信じられない！ハンバーガー包装紙セットわずか$ 9.99 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "信じられない！ハンバーガー包装紙セットわずか$ 9.99 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "19c57082a8fa",
+   "title": "Freddy’s Launches Everyday Value Menu with Items Starting at $2.99 Each",
+   "link": "https://www.fastfoodpost.com/freddys-launches-everyday-value-menu/",
+   "source": "Fast Food Post",
+   "posted": "2026-11-06T15:18Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Freddy's"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Freddy'sは、各$ 2.99からのアイテムを含む毎日のお得なメニューを発売します",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Freddy's",
+    "item": "Freddy'sは、各$ 2.99からのアイテムを含む毎日のお得なメニューを発売します",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "646d5b47930b",
+   "title": "Book Lovers, This One’s for You! Audible Just 99¢/Month + FREE $20 Credit",
+   "link": "https://hip2save.com/deals/free-audible-books/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T15:14Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/04/Let-Them-Audible-Book-e1745425556442.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Audible",
+    "item": "$0.99/月＋$20クレジット",
+    "when": "11/6",
+    "what": "$20特典",
+    "where": "Audible"
+   },
+   "ja": "$0.99/月＋$20クレジット",
+   "jaVia": "gemini",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "a20d719a0dcc",
+   "title": "Buy One, Get TWO FREE Blankets & Throws at JCPenney – Prices Start as Low as $16",
+   "link": "https://thefreebieguy.com/buy-one-get-two-free-blankets-throws/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T15:06Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Blankets-Throws-840x630.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "JCPenney",
+    "item": "ブランケット3点購入で2点無料",
+    "when": "11/6",
+    "cond": "3点購入",
+    "what": "2点無料",
+    "where": "JCPenney"
+   },
+   "ja": "ブランケット3点購入で2点無料",
+   "jaVia": "gemini",
+   "dup": "77aeaa934efd",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "6b38f93ff6dd",
+   "title": "Shark StainForce Cordless Spot, Stain, & Odor Portable Cleaning System Only $108 on Walmart (Reg $159)",
+   "link": "https://thefreebieguy.com/shark-stainforce-cordless-portable-cleaning-system/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T15:00Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Shark-StainForce-Cordless-Portable-Cleaning-System-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 32,
+   "price": 108.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Shark StainForceコードレススポット、シミ、臭いポータブルクリーニングシステムウォルマートで$ 108のみ（登録$ 159 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Shark StainForceコードレススポット、シミ、臭いポータブルクリーニングシステムウォルマートで$ 108のみ（登録$ 159 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c989a6787d92",
+   "title": "Dash Pro Shaved Ice Machine Only $31.xx on Amazon (Reg $100)",
+   "link": "https://thefreebieguy.com/dash-pro-shaved-ice-machine/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T14:59Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/dash-shaved-ice-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 69,
+   "price": 31.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Dash Proかき氷機Amazonで$ 31.xxのみ（登録価格$ 100 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Dash Proかき氷機Amazonで$ 31.xxのみ（登録価格$ 100 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "8a8d23c5c223",
    "title": "Kohl’s Early Black Friday Sale is LIVE + Get $15 Kohl’s Cash for Every $50 Spent Today Only",
@@ -88,13 +644,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "Kohlのアーリーブラックフライデーセールが開始されました+本日のみ$ 50を使用するごとに$ 15のKohl's Cashを獲得",
-   "jaVia": "mymemory",
+   "ja": "$50ごとに$15キャッシュ還元",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Kohl's",
-    "item": "Kohlのアーリーブラックフライデーセールが開始されました+本日のみ$ 50を使用するごとに$ 15のKohl's Cashを獲得",
-    "when": "11/6(金)まで",
-    "cond": ""
+    "store": "Kohl’s",
+    "item": "$50ごとに$15キャッシュ還元",
+    "when": "11/6",
+    "cond": "$50以上購入",
+    "what": "$15還元",
+    "where": "Kohl’s"
    },
    "date": "2026-11-06"
   },
@@ -540,8 +1098,8 @@
     "when": "",
     "cond": "会員限定"
    },
-   "dup": "899ec52e364d",
-   "date": null
+   "date": null,
+   "dup": "899ec52e364d"
   },
   {
    "id": "0ee901f64efe",
@@ -1406,6 +1964,43 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "68bd47210f9e",
+   "title": "JCPenney’s Really Big Deal: Buy 1, Get 2 FREE Throw Blankets (From $7 Each!)",
+   "link": "https://hip2save.com/deals/jcpenney-holiday-sale/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T00:55Z",
+   "firstSeen": "2026-11-06T15:59Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/jcpenney-throw-blankets.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "JCPenney",
+    "item": "ブランケット3点購入で2点無料",
+    "when": "11/5",
+    "cond": "3点購入",
+    "what": "2点無料",
+    "where": "JCPenney"
+   },
+   "ja": "ブランケット3点購入で2点無料",
+   "jaVia": "gemini",
+   "date": "2026-11-05"
   },
   {
    "id": "acc90f7ccf33",
@@ -5877,8 +6472,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "8facf537685d"
+   "date": null
   },
   {
    "id": "833e40c5f186",
@@ -34466,114 +35060,6 @@
    "date": null
   },
   {
-   "id": "de4b3c9f5ec1",
-   "title": "FREE $10 MyLowe’s Money for First Responders at Lowe’s",
-   "link": "https://thefreebieguy.com/first-responder-appreciation-at-lowes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T15:38Z",
-   "firstSeen": "2026-10-29T16:07Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/First-Responder-Appreciation-at-Lowes-840x630.jpg",
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Lowe'sの救急隊員に$ 10のMyLowe's Moneyを無料で提供",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "Lowe'sの救急隊員に$ 10のMyLowe's Moneyを無料で提供",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "55c5b9086b85",
-   "title": "*HOT* 100 Free Photo Prints at Shutterfly!",
-   "link": "https://moneysavingmom.com/hot-100-free-photo-prints-at-shutterfly/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-29T15:36Z",
-   "firstSeen": "2026-10-29T16:07Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2012/06/photos1.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "写真プリント100枚が無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Shutterfly",
-    "item": "写真プリント100枚が無料",
-    "when": "",
-    "cond": "",
-    "what": "無料写真印刷",
-    "where": "Shutterfly"
-   },
-   "date": null
-  },
-  {
-   "id": "02e7661ba917",
-   "title": "Before You Donate That Old Jewelry, Try This FREE 60-Second Trick!",
-   "link": "https://hip2save.com/deals/unvault-app/",
-   "source": "Hip2Save",
-   "posted": "2026-10-29T15:36Z",
-   "firstSeen": "2026-10-29T17:58Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/06/coastal-jewelry-1.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "古いジュエリーの査定に使える無料の裏技アプリ",
-   "jaVia": "claude",
-   "sum": {
-    "store": "",
-    "item": "古いジュエリーの査定に使える無料の裏技アプリ",
-    "when": "",
-    "cond": "",
-    "what": "無料の裏技",
-    "where": "オンライン"
-   },
-   "date": null
-  },
-  {
    "id": "90e8059fae9a",
    "title": "Lunakai Saffron Supplements, 60 count only $12.93 shipped, plus more!",
    "link": "https://moneysavingmom.com/saffron-supplements-deal/",
@@ -34708,43 +35194,6 @@
     "cond": "",
     "what": "BFセール",
     "where": "Lowe's"
-   },
-   "date": null
-  },
-  {
-   "id": "ef467311a537",
-   "title": "101 FREE Prints at Shutterfly + 5 FREE Photo Gifts!",
-   "link": "https://thefreebieguy.com/shutterfly-prints/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T15:09Z",
-   "firstSeen": "2026-10-29T15:12Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/SHUTTERFLY-PRINTS-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "写真101枚の無料プリント＋フォトギフト5点",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Shutterfly",
-    "item": "写真101枚の無料プリント＋フォトギフト5点",
-    "when": "",
-    "cond": "",
-    "what": "無料プリント",
-    "where": "Shutterfly"
    },
    "date": null
   },
@@ -61915,172 +62364,6 @@
    "event": null,
    "eventNews": false,
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/aldi-disney.jpg?resize=306,182"
-  },
-  {
-   "id": "6a4602794f13",
-   "title": "Ring Pop 18-Count Variety Pack Just $14.55 Shipped (Easy Stocking Stuffers!)",
-   "link": "https://hip2save.com/deals/ring-pop/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T15:27Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "リングポップ18カウントバラエティパックわずか$ 14.55発送（簡単ストッキングスタッファー！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "リングポップ18カウントバラエティパックわずか$ 14.55発送（簡単ストッキングスタッファー！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/ring-pop-party-pack.png?resize=306,182"
-  },
-  {
-   "id": "9bc69774ce03",
-   "title": "Oversized Waterproof Pet Blankets Just $19.98 on SamsClub.com (Great for Couches or Beds!)",
-   "link": "https://hip2save.com/deals/sams-club-members-mark-waterproof-pet-blanket/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T15:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "SamsClub.comでわずか$ 19.98の特大防水ペットブランケット（ソファやベッドに最適！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "SamsClub.comでわずか$ 19.98の特大防水ペットブランケット（ソファやベッドに最適！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Members-Mark-Waterproof-Pet-Throw-Blanket.jpg?resize=306,182"
-  },
-  {
-   "id": "8e34b992a9ef",
-   "title": "Pizza Hut Brings Back Cheesy Bites Stuffed Crust Pizza",
-   "link": "https://www.fastfoodpost.com/pizza-hut-brings-back-cheesy-bites-stuffed-crust-pizza/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-22T15:15Z",
-   "firstSeen": "2026-10-24T22:48Z",
-   "expires": null,
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Pizza Hut"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Pizza Hut",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "5ceab356467c",
-   "title": "wet n wild Multi-Stick Only $1.84 Shipped on Amazon (Teen Stocking Stuffer!)",
-   "link": "https://hip2save.com/deals/wet-n-wild-cosmetics/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T15:08Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "wet n wildマルチスティックのみ$ 1.84 Amazonで発送（ティーンストッキングスタッファー！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "wet n wildマルチスティックのみ$ 1.84 Amazonで発送（ティーンストッキングスタッファー！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "b4cdda57d504",
-   "title": "Amazon Saltine Crackers Just $1.51 Shipped",
-   "link": "https://hip2save.com/deals/saltine-crackers/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T15:03Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "Amazon Saltine Crackersわずか$ 1.51出荷",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazon Saltine Crackersわずか$ 1.51出荷",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "58ddc5baf6af",
