@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-06T17:04Z",
- "count": 1824,
+ "updated": "2026-11-06T17:57Z",
+ "count": 1831,
  "stats": {
   "h2s": {
    "read": 100,
@@ -8,11 +8,11 @@
   },
   "h2s-free": {
    "read": 100,
-   "added": 17
+   "added": 16
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 4
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,457 @@
    "added": 0
   },
   "ja": {
-   "gemini": 21,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 3,
-   "geminiToday": 10,
-   "model": "gemini-flash-latest"
+   "mymemory": 25,
+   "geminiToday": 11,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "9f6c4d90c674",
+   "title": "Cuddl Duds Cozy Soft Printed Throw Blanket only $15.99!",
+   "link": "https://moneysavingmom.com/cuddl-duds-cozy-soft-printed-throw-blanket-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T17:54Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Screenshot-2025-11-08-at-7.13.00 AM-630x632.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Cuddl Dudsコージーソフトプリントスローブランケットわずか$ 15.99 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Cuddl Dudsコージーソフトプリントスローブランケットわずか$ 15.99 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d8bf7dd0336e",
+   "title": "Holiday Doormats only $9.99 at Kohl’s!",
+   "link": "https://moneysavingmom.com/fall-doormats-deal-shipped-at-kohls/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T17:51Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Doormats-630x629.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohl'sのホリデードアマットはたったの$ 9.99 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohl'sのホリデードアマットはたったの$ 9.99 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3423e5d3d120",
+   "title": "Here’s How to Watch A Charlie Brown Christmas for FREE December 12th & 13th",
+   "link": "https://hip2save.com/tips/charlie-brown-christmas/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T17:50Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2021/11/charlie-brown-christmas-1.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-12-12"
+   },
+   "ja": "12月12日と13日のチャーリーブラウンのクリスマスを無料で視聴する方法は次のとおりです",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "12月12日と13日のチャーリーブラウンのクリスマスを無料で視聴する方法は次のとおりです",
+    "when": "12/12(土)",
+    "cond": ""
+   },
+   "date": "2026-12-12"
+  },
+  {
+   "id": "ffd3065ed475",
+   "title": "Women’s 2 Piece Pajama Sets as low as $10.79 shipped (Reg. $27!)",
+   "link": "https://moneysavingmom.com/womens-2-piece-pajama-sets-as-low-as-10-79-shipped-reg-27/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T17:49Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-06-at-11.42.03-AM-630x675.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 10.79,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レディース2ピースパジャマセット$ 10.79で発送（定価$ 27 ！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "レディース2ピースパジャマセット$ 10.79で発送（定価$ 27 ！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1bad5ab5e3cb",
+   "title": "Burger King Mini Advent Calendar Drops November 16 – Here’s How to Get One!",
+   "link": "https://hip2save.com/deals/burger-king-advent-calendar/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T17:45Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Burger-King-Advent-Calendar.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Burger King"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "バーガーキングミニアドベントカレンダーが11月16日に登場–入手方法はこちら！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Burger King",
+    "item": "バーガーキングミニアドベントカレンダーが11月16日に登場–入手方法はこちら！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e6abcebfdf8f",
+   "title": "Fisher-Price Little People Farm Set Just $34.98 on SamsClub.com (Reg. $50)",
+   "link": "https://hip2save.com/deals/fisher-price-little-people-horse-stable-goat-yard-playset/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T17:37Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/fisher-price-little-people-barn-and-goat-yard.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 30,
+   "price": 34.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "SamsClub.comのフィッシャープライスリトルピープルファームセットはわずか$ 34.98 （登録価格$ 50 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "SamsClub.comのフィッシャープライスリトルピープルファームセットはわずか$ 34.98 （登録価格$ 50 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ed6db04def75",
+   "title": "Up to 40% Off Wondershop Christmas Trees at Target",
+   "link": "https://thefreebieguy.com/wondershop-christmas-trees/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T17:31Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Wondershop-Christmas-trees-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットのクリスマスツリーが最大40%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットのクリスマスツリーが最大40%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "48cee6ca2fd7",
+   "title": "40% Off Home Alone Matching Christmas Pajamas on Target.com + More!",
+   "link": "https://hip2save.com/deals/target-home-alone-christmas-pajamas/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T17:30Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Home-Alone-Pajamas.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Target.comのホームアローンマッチングクリスマスパジャマなどが40%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Target.comのホームアローンマッチングクリスマスパジャマなどが40%オフ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b4551b069d35",
+   "title": "Today ONLY: Women’s Sweaters from $9.59 on Kohls.com (Reg. $30)",
+   "link": "https://hip2save.com/deals/kohls-sweaters-for-women/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T17:25Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": "2026-11-06",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Juniors-SO-Essential-Crew-Sweaters.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 68,
+   "price": 9.59,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "11/6(金)まで",
+    "cond": ""
+   },
+   "date": "2026-11-06"
+  },
+  {
+   "id": "33bc52b97572",
+   "title": "FREE Small Yankee Candle with Purchase Nov. 7-8th!",
+   "link": "https://moneysavingmom.com/free-large-yankee-candle-with-purchase-on-august-15th/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-06T17:18Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/08/Screenshot-2026-11-06-at-11.12.51-AM.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-07"
+   },
+   "ja": "11月7日～ 8日に購入すると、小さなヤンキーロウソクが無料！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "11月7日～ 8日に購入すると、小さなヤンキーロウソクが無料！",
+    "when": "11/7(土)",
+    "cond": "購入時"
+   },
+   "dup": "fc65a4375da2",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "98784d1adc08",
+   "title": "Score 200 Free Dell Rewards Points Every Friday!",
+   "link": "https://thefreebieguy.com/free-dell-rewards/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T17:15Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": "2026-11-06",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Dell-Logo-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "毎週金曜日に200デル報酬ポイントを無料で獲得しましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "毎週金曜日に200デル報酬ポイントを無料で獲得しましょう！",
+    "when": "11/6(金)まで",
+    "cond": ""
+   },
+   "date": "2026-11-06"
+  },
+  {
+   "id": "1e92b85f97bf",
+   "title": "FREE QVC Shipping on Any Order (Including Black Friday Sale Items!)",
+   "link": "https://hip2save.com/deals/qvc-free-shipping/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T17:10Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/qvc-boxes.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "どの注文でも無料のQVC配送（ブラックフライデーのセールアイテムを含む！ ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "どの注文でも無料のQVC配送（ブラックフライデーのセールアイテムを含む！ ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "fa1df4f19416",
+   "title": "Up to 50% Off Games & Puzzles at Kohl’s – Prices from $4.xx (Reg. $10+)",
+   "link": "https://thefreebieguy.com/kohls-games-puzzles-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-06T17:05Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/games-and-puzzles-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "6e46e971779b",
+   "date": null
+  },
   {
    "id": "f20f3f43bdc2",
    "title": "Target: FREE Holiday Toy Event on November 7th!",
@@ -100,8 +542,8 @@
    },
    "ja": "ホリデートイイベント無料参加",
    "jaVia": "gemini",
-   "dup": "4d5f66f8fc1e",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dup": "4d5f66f8fc1e"
   },
   {
    "id": "b6c0728986f0",
@@ -135,8 +577,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "cf8660d19d03",
-   "date": null
+   "date": null,
+   "dup": "cf8660d19d03"
   },
   {
    "id": "e0b6345d08d7",
@@ -506,7 +948,42 @@
     "when": "",
     "cond": ""
    },
-   "dup": "020a720689e8",
+   "date": null,
+   "dup": "020a720689e8"
+  },
+  {
+   "id": "68bd47210f9e",
+   "title": "JCPenney’s Really Big Deal: Buy 1, Get 2 FREE Throw Blankets",
+   "link": "https://hip2save.com/deals/jcpenney-holiday-sale/",
+   "source": "Hip2Save",
+   "posted": "2026-11-06T16:09Z",
+   "firstSeen": "2026-11-06T17:57Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/jcpenney-throw-blankets.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "JCPenneyの本当に大きな取引： 1つ購入して2つ無料のスローブランケットをゲット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "JCPenneyの本当に大きな取引： 1つ購入して2つ無料のスローブランケットをゲット",
+    "when": "",
+    "cond": ""
+   },
    "date": null
   },
   {
@@ -543,8 +1020,8 @@
    },
    "ja": "ホリデー工作イベント無料",
    "jaVia": "gemini",
-   "dup": "25c933825f8f",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "dup": "25c933825f8f"
   },
   {
    "id": "7b7843a4bcae",
@@ -576,8 +1053,8 @@
     "when": "11/6(金)まで",
     "cond": ""
    },
-   "dup": "a1d3a10301c1",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "dup": "a1d3a10301c1"
   },
   {
    "id": "5952c543eac0",
@@ -16056,46 +16533,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "10ae23d89a65",
-   "title": "FREE Krispy Kreme Seasonal Doughnut For Rewards Members + $2 Glazed Dozen w/ Purchase",
-   "link": "https://hip2save.com/deals/krispy-kreme-coupon/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-11-03T12:21Z",
-   "firstSeen": "2026-11-06T17:04Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/krispy-kreme-seasonal-donuts.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Krispy Kreme",
-    "item": "季節のドーナツ無料、$2ダース",
-    "when": "11/3",
-    "cond": "会員限定 / 要購入",
-    "what": "無料ドーナツ",
-    "where": "Krispy Kreme"
-   },
-   "ja": "季節のドーナツ無料、$2ダース",
-   "jaVia": "gemini",
-   "dup": "833e40c5f186",
-   "date": "2026-11-03"
   },
   {
    "id": "f962530fc32a",
@@ -34882,43 +35319,6 @@
    "dup": "b3f04d63ef95"
   },
   {
-   "id": "825e72710922",
-   "title": "Get 101 FREE Photo Prints on Shutterfly.com | Just Pay Shipping",
-   "link": "https://hip2save.com/deals/shutterfly-promo-codes/",
-   "source": "Hip2Save",
-   "posted": "2026-10-29T17:45Z",
-   "firstSeen": "2026-10-29T17:58Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2020/11/Shutterfly-prints.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "写真プリント101枚",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Shutterfly",
-    "item": "写真プリント101枚",
-    "when": "",
-    "cond": "要送料",
-    "what": "無料写真印刷",
-    "where": "Shutterfly"
-   },
-   "date": null
-  },
-  {
    "id": "4ace821c5c44",
    "title": "Black Friday 2026 Sales Schedule",
    "link": "https://thefreebieguy.com/black-friday-sales-schedule/",
@@ -35017,45 +35417,6 @@
     "item": "レディースフリース裏地パンツAmazonでたったの$ 19.99 (Reg. $ 40)",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "7e7b3d0506ea",
-   "title": "Buy DEWALT Batteries & Get Up to 3 FREE Tools on Lowes.com (Over $700 Value!)",
-   "link": "https://hip2save.com/deals/lowes-dewalt/",
-   "source": "Hip2Save",
-   "posted": "2026-10-29T17:25Z",
-   "firstSeen": "2026-10-29T17:58Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/dewalt-battery-2-pack-wth-charger-lowes.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "最大3個の工具",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Lowe's",
-    "item": "最大3個の工具",
-    "when": "",
-    "cond": "DEWALT電池購入",
-    "what": "工具無料",
-    "where": "Lowe's"
    },
    "date": null
   },
@@ -61719,7 +62080,8 @@
     "cond": ""
    },
    "event": null,
-   "eventNews": false
+   "eventNews": false,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Hei-Hei-Disney.jpg?resize=306,182"
   },
   {
    "id": "475911ebc72d",
@@ -62510,140 +62872,6 @@
     "store": "",
     "item": "2026年退役軍人の日オファー：無料の食事、ヘアカットなど",
     "when": "11/11(水)まで",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "b4c6e5152bbe",
-   "title": "Ensure Max Protein Shakes 12-Pack Just $14.80 Shipped on Amazon (Reg. $27)",
-   "link": "https://hip2save.com/deals/ensure-shakes/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T17:48Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 45,
-   "price": 14.8,
-   "freebie": null,
-   "date": null,
-   "ja": "最大プロテインシェイク12パックのみ$ 14.80がAmazonで出荷されることを確認してください（登録価格$ 27 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "最大プロテインシェイク12パックのみ$ 14.80がAmazonで出荷されることを確認してください（登録価格$ 27 ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "81c607648950",
-   "title": "Don’t Miss These Fun Grinchy Finds We Spotted on Amazon",
-   "link": "https://hip2save.com/deals/amazon-grinch-finds/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T17:32Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "Amazonで見つけたGrinchyの楽しい発見をお見逃しなく",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonで見つけたGrinchyの楽しい発見をお見逃しなく",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/grinch-blanket-amazon.jpg?resize=306,182"
-  },
-  {
-   "id": "c1b3dee0c3ee",
-   "title": "Mrs. Meyer’s Hand Soap Only $2.99 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/mrs-meyers-hand-soap/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T17:20Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "Mrs. Meyer'sハンドソープ$ 2.99のみAmazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Mrs. Meyer'sハンドソープ$ 2.99のみAmazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Mrs.-Meyers-Hand-Soap.jpg?resize=306,182"
-  },
-  {
-   "id": "85877b4c1e29",
-   "title": "Women’s Fleece-Lined Thermal Underwear Set Only $9.99 on Amazon (Reg. $20)",
-   "link": "https://hip2save.com/deals/womens-thermal-underwear/",
-   "source": "Hip2Save",
-   "posted": "2026-10-22T17:15Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": 9.99,
-   "freebie": null,
-   "date": null,
-   "ja": "レディースフリース裏地のサーマルアンダーウェアセットのみ$ 9.99 Amazon (Reg. $ 20)",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "レディースフリース裏地のサーマルアンダーウェアセットのみ$ 9.99 Amazon (Reg. $ 20)",
-    "when": "",
     "cond": ""
    },
    "event": null,
