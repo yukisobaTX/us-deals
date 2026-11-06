@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T07:30Z",
+ "updated": "2026-11-06T09:09Z",
  "count": 1791,
  "stats": {
   "h2s": {
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,12 +55,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 15,
    "geminiEvent": 0,
-   "mymemory": 19,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+   "mymemory": 4,
+   "geminiToday": 3,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -1073,13 +1072,15 @@
     "kind": "coupon",
     "when": "2026-11-12"
    },
-   "ja": "11月12日までEpicゲームストアで無料のPCゲームをプレイしよう！",
-   "jaVia": "mymemory",
+   "ja": "PCゲーム無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "11月12日までEpicゲームストアで無料のPCゲームをプレイしよう！",
-    "when": "11/12(木)",
-    "cond": ""
+    "store": "Epic Game Store",
+    "item": "PCゲーム無料",
+    "when": "〜11/12",
+    "cond": "",
+    "what": "無料PCゲーム",
+    "where": "Epic Games"
    },
    "date": "2026-11-12"
   },
