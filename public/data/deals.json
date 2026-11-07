@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07T00:22Z",
- "count": 1856,
+ "updated": "2026-11-07T01:15Z",
+ "count": 1853,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,11 +24,11 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
-   "added": 2
+   "added": 3
   },
   "wtaw": {
    "read": 20,
@@ -57,13 +57,47 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 14,
+   "mymemory": 13,
    "geminiToday": 15,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "ccc88c85755b",
+   "title": "Digital Picture Frame Only $39.85 Shipped on Amazon (Reg. $70)",
+   "link": "https://hip2save.com/deals/digital-picture-frame/",
+   "source": "Hip2Save",
+   "posted": "2026-11-07T00:40Z",
+   "firstSeen": "2026-11-07T01:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Pastigio-Frameo-Digital-Picture-Frame.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 39.85,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "デジタル写真フレームのみ$ 39.85 Amazonで出荷（登録番号$ 70 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "デジタル写真フレームのみ$ 39.85 Amazonで出荷（登録番号$ 70 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "575de9835972",
    "title": "Electric Paint Sprayer Just $19.99 Shipped on Amazon (Reg. $60)",
@@ -130,8 +164,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "d53e33421d6d",
-   "date": null
+   "date": null,
+   "dup": "d53e33421d6d"
   },
   {
    "id": "e98f8076f008",
@@ -2325,6 +2359,38 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "e0e1c8b73212",
+   "title": "Where Veterans Eat Free on Veterans Day 2026, Plus Coffee, Treats, & Discounts",
+   "link": "https://momswhosave.com/veterans-day-restaurant-freebies/",
+   "source": "Moms Who Save",
+   "posted": "2026-11-06T17:44Z",
+   "firstSeen": "2026-11-07T01:15Z",
+   "expires": "2026-11-11",
+   "thumb": "https://momswhosave.com/wp-content/uploads/2026/11/veterans-day-freebies.jpg",
+   "hot": true,
+   "stores": [
+    "レストラン全般"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "11/11(水)まで",
+    "cond": ""
+   },
+   "date": "2026-11-11"
   },
   {
    "id": "4bbb651c2616",
@@ -35482,43 +35548,6 @@
    }
   },
   {
-   "id": "1b48b04bea01",
-   "title": "Enterprise ‘Plus Your Points’ Promotion 2026 (Free Points)",
-   "link": "https://www.doctorofcredit.com/enterprise-plus-your-points-promotion-2023-free-points/",
-   "source": "Doctor of Credit",
-   "posted": "2026-10-30T01:00Z",
-   "firstSeen": "2026-10-30T01:15Z",
-   "expires": null,
-   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2024/12/enterprise-1024x342.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "Enterpriseのボーナスポイント企画(無料ポイント)",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Enterprise",
-    "item": "Enterpriseのボーナスポイント企画(無料ポイント)",
-    "when": "",
-    "cond": "",
-    "what": "無料ポイント",
-    "where": "Enterprise"
-   },
-   "date": null
-  },
-  {
    "id": "a4af332d0a55",
    "title": "Cottonelle Ultra Soft Toilet Paper 32 Family Mega Rolls as low as $22.xx on Amazon (Reg. $35)",
    "link": "https://thefreebieguy.com/cottonelle-toilet-paper-32-family-rolls/",
@@ -53975,8 +54004,7 @@
     "item": "Kool - Aid Ghoul - Aid 10パックAmazonでたったの$ 2.xx",
     "when": "",
     "cond": ""
-   },
-   "dup": "8af63fe63055"
+   }
   },
   {
    "id": "978e86e9b7f1",
@@ -63649,140 +63677,6 @@
    "sum": {
     "store": "Walmart",
     "item": "ウォルマートのキルト加工ポーチ＆スクランチーに新しいホリデープリント（楽しいストッキングスタッファー！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "95c0409dcd4c",
-   "title": "Target’s Viral Pumpkin Jar Candles from $3.50!",
-   "link": "https://hip2save.com/deals/target-pumpkin-candles/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T01:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "ターゲットのウイルスパンプキンジャーキャンドルが$ 3.50から！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ターゲットのウイルスパンプキンジャーキャンドルが$ 3.50から！",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/target-threshold-small-pumpkin-candle.jpg?resize=306,182"
-  },
-  {
-   "id": "25028e662487",
-   "title": "Lay’s Kettle Chips 40-Count Variety Pack Only $11.52 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/lays-kettle-chips-variety-pack/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T01:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "Lay's Kettle Chips 40カウントバラエティパック$ 11.52のみAmazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Lay's Kettle Chips 40カウントバラエティパック$ 11.52のみAmazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lays-Kettle-Chips.jpg?resize=306,182"
-  },
-  {
-   "id": "8984dad7d3a2",
-   "title": "Popular Dr. Seuss Books from $2.63 on Amazon",
-   "link": "https://hip2save.com/deals/dr-seuss-books/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T00:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "Amazonで$ 2.63から人気のDr. Seuss Books",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonで$ 2.63から人気のDr. Seuss Books",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "c71ea418d612",
-   "title": "Stack Amazon Savings on Gain’s Grinch Scents & Smell Like Whoville!",
-   "link": "https://hip2save.com/deals/grinch-gain-scent-booster-beads/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T00:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "Gain's Grinchの香りとWhovilleのような匂いでAmazon割引を積み重ねましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Gain's Grinchの香りとWhovilleのような匂いでAmazon割引を積み重ねましょう！",
     "when": "",
     "cond": ""
    },
