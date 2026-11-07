@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T01:15Z",
- "count": 1853,
+ "updated": "2026-11-07T07:16Z",
+ "count": 1826,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -24,11 +24,11 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 2
   },
   "mws": {
    "read": 20,
-   "added": 3
+   "added": 2
   },
   "wtaw": {
    "read": 20,
@@ -55,15 +55,122 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 25,
    "geminiEvent": 0,
-   "mymemory": 13,
-   "geminiToday": 15,
+   "mymemory": 7,
+   "geminiToday": 1,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "3f0bd94f9cac",
+   "title": "These Bombas-Inspired Socks Are Only $13.99 for 6 Pairs on Amazon",
+   "link": "https://hip2save.com/deals/cs-celersport-socks/",
+   "source": "Hip2Save",
+   "posted": "2026-11-07T02:40Z",
+   "firstSeen": "2026-11-07T07:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/CS-CelerSport-Socks.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "これらのBombasにインスパイアされたソックスは、Amazonで6ペアでわずか$ 13.99です",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "これらのBombasにインスパイアされたソックスは、Amazonで6ペアでわずか$ 13.99です",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0945f87c812e",
+   "title": "Better Homes & Gardens Towel Set Just $27 at Walmart (Reg $39)",
+   "link": "https://thefreebieguy.com/better-homes-gardens-towel-sets/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-07T02:33Z",
+   "firstSeen": "2026-11-07T07:16Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Better-Homes-Gardens-Towels-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 31,
+   "price": 27.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Better Homes & Gardensタオルセットウォルマートでたったの$ 27 （登録価格$ 39 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Better Homes & Gardensタオルセットウォルマートでたったの$ 27 （登録価格$ 39 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e4dafd6efa82",
+   "title": "New Perk Alert! Sam’s Club Plus Now Includes FREE Walmart+!",
+   "link": "https://hip2save.com/deals/sams-club-plus-membership/",
+   "source": "Hip2Save",
+   "posted": "2026-11-07T01:50Z",
+   "firstSeen": "2026-11-07T07:16Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/07/walmart-plus-bags.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walmart",
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Sam’s Club",
+    "item": "Walmart+が無料",
+    "cond": "Plus会員",
+    "what": "無料サービス",
+    "where": "Sam’s Club"
+   },
+   "ja": "Walmart+が無料",
+   "jaVia": "gemini",
+   "date": null
+  },
   {
    "id": "ccc88c85755b",
    "title": "Digital Picture Frame Only $39.85 Shipped on Amazon (Reg. $70)",
@@ -127,6 +234,40 @@
    "sum": {
     "store": "Amazon",
     "item": "電動塗料スプレーヤーわずか$ 19.99 Amazonで発送（登録価格$ 60 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0fd1a921d07c",
+   "title": "CRAFTSMAN 20V Max 6 -Tool Power Tool Combo Kit Just $199 at Lowe’s (Reg $350)",
+   "link": "https://thefreebieguy.com/craftsman-bundle/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-07T00:15Z",
+   "firstSeen": "2026-11-07T07:16Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Craftsman-6-Piece-Tool-Set-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 43,
+   "price": 199.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CRAFTSMAN 20 V Max 6 -ツール電動工具コンボキットLowe'sでたったの$ 199 （登録価格$ 350 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Lowe's",
+    "item": "CRAFTSMAN 20 V Max 6 -ツール電動工具コンボキットLowe'sでたったの$ 199 （登録価格$ 350 ）",
     "when": "",
     "cond": ""
    },
@@ -327,13 +468,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "セフォラお得イベント|コールの早期ブラックフライデーセールでホットビューティーセールを積み重ねよう！",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデー特価",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Kohl's",
-    "item": "セフォラお得イベント|コールの早期ブラックフライデーセールでホットビューティーセールを積み重ねよう！",
+    "store": "Sephora",
+    "item": "ブラックフライデー特価",
     "when": "",
-    "cond": ""
+    "cond": "Kohl's併用",
+    "what": "BFセール",
+    "where": "Sephora"
    },
    "date": null
   },
@@ -532,13 +675,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "1つ購入して、2つの無料JCPenneyスローブランケットをゲット",
-   "jaVia": "mymemory",
+   "ja": "ひざ掛けBOGO",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "1つ購入して、2つの無料JCPenneyスローブランケットをゲット",
+    "store": "JCPenney",
+    "item": "ひざ掛けBOGO",
     "when": "",
-    "cond": ""
+    "cond": "1点購入で2点無料",
+    "what": "ブランケット",
+    "where": "JCPenney"
    },
    "date": null,
    "dup": "77aeaa934efd"
@@ -878,13 +1023,15 @@
     "kind": "store",
     "when": "2026-12-03"
    },
-   "ja": "12月3日に無料のパネラスノーマンカップを獲得する方法（数量限定）",
-   "jaVia": "mymemory",
+   "ja": "スノーマンカップ無料",
+   "jaVia": "gemini",
    "sum": {
     "store": "Panera",
-    "item": "12月3日に無料のパネラスノーマンカップを獲得する方法（数量限定）",
-    "when": "12/3(木)",
-    "cond": ""
+    "item": "スノーマンカップ無料",
+    "when": "12/3",
+    "cond": "数量限定",
+    "what": "無料カップ",
+    "where": "Panera"
    },
    "date": "2026-12-03"
   },
@@ -1082,13 +1229,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "最高のブラックフライデーフォトクリスマスカードセール| 39 ¢からのパーソナライズされたデザインが発送されました！",
-   "jaVia": "mymemory",
+   "ja": "クリスマスカード39¢〜",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart・Costco",
-    "item": "最高のブラックフライデーフォトクリスマスカードセール| 39 ¢からのパーソナライズされたデザインが発送されました！",
+    "item": "クリスマスカード39¢〜",
     "when": "",
-    "cond": ""
+    "cond": "送料無料",
+    "what": "フォトカード",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -1152,13 +1301,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ロバックスを守れ！代わりにこれらの無料の11月のロブロックスアイテムを獲得しよう",
-   "jaVia": "mymemory",
+   "ja": "ロバックス不要の無料アイテム",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ロバックスを守れ！代わりにこれらの無料の11月のロブロックスアイテムを獲得しよう",
-    "when": "",
-    "cond": ""
+    "store": "Roblox",
+    "item": "ロバックス不要の無料アイテム",
+    "when": "11月",
+    "cond": "",
+    "what": "無料アイテム",
+    "where": "Roblox"
    },
    "date": null
   },
@@ -1812,40 +1963,6 @@
    "date": null
   },
   {
-   "id": "15e08b65603e",
-   "title": "10 Random Walmart Things Our Team Grabbed Today",
-   "link": "https://hip2save.com/deals/best-things-to-buy-at-walmart/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T18:39Z",
-   "firstSeen": "2026-11-06T19:06Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Walmart-boxes-stacked-with-christmas-tree-planter.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-06",
-   "ja": "私たちのチームが今日つかんだ10のランダムなウォルマートのもの",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "私たちのチームが今日つかんだ10のランダムなウォルマートのもの",
-    "when": "11/6(金)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "1603e095cdd3",
    "title": "Magnetic Building Blocks 100-Piece Set Just $11.49 on Amazon (Reg. $23)",
    "link": "https://hip2save.com/deals/magnetic-blocks-building-sets/",
@@ -1937,15 +2054,17 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "アカデミーブラックフライデーセールは11月26日から始まります（今すぐ広告を閲覧！ ）",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセール",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "アカデミーブラックフライデーセールは11月26日から始まります（今すぐ広告を閲覧！ ）",
-    "when": "",
-    "cond": ""
+    "store": "Academy",
+    "item": "ブラックフライデーセール",
+    "when": "11/26開始",
+    "cond": "",
+    "what": "BFセール",
+    "where": "Academy"
    },
-   "date": null
+   "date": "2026-11-26"
   },
   {
    "id": "6569ef14c52c",
@@ -1971,13 +2090,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "コールのアーリー・ブラックフライデー・レゴセール！最大40 ％オフ–最低$ 5.99に設定",
-   "jaVia": "mymemory",
+   "ja": "LEGOが最大40%OFF",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Kohl's",
-    "item": "コールのアーリー・ブラックフライデー・レゴセール！最大40 ％オフ–最低$ 5.99に設定",
+    "store": "Kohl’s",
+    "item": "LEGOが最大40%OFF",
     "when": "",
-    "cond": ""
+    "cond": "$5.99から",
+    "what": "LEGOセール",
+    "where": "Kohl’s"
    },
    "date": null
   },
@@ -2109,13 +2230,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ステープル報酬後の無料スコッチテープ（最大$ 40相当！ ）",
-   "jaVia": "mymemory",
+   "ja": "スコッチテープ無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ステープル報酬後の無料スコッチテープ（最大$ 40相当！ ）",
+    "store": "Staples",
+    "item": "スコッチテープ無料",
     "when": "",
-    "cond": ""
+    "cond": "Staples Rewards",
+    "what": "無料テープ",
+    "where": "Staples"
    },
    "date": null
   },
@@ -2143,13 +2266,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "コールのアーリーブラックフライデーおもちゃセール–人気のおもちゃが最大50%オフ！",
-   "jaVia": "mymemory",
+   "ja": "おもちゃが最大50%OFF",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Kohl's",
-    "item": "コールのアーリーブラックフライデーおもちゃセール–人気のおもちゃが最大50%オフ！",
+    "store": "Kohl’s",
+    "item": "おもちゃが最大50%OFF",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "おもちゃセール",
+    "where": "Kohl’s"
    },
    "date": null,
    "dup": "52526b91a7b3"
@@ -2282,13 +2407,15 @@
     "kind": "coupon",
     "when": "2026-12-12"
    },
-   "ja": "12月12日と13日のチャーリーブラウンのクリスマスを無料で視聴する方法は次のとおりです",
-   "jaVia": "mymemory",
+   "ja": "チャーリーブラウン無料視聴",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "12月12日と13日のチャーリーブラウンのクリスマスを無料で視聴する方法は次のとおりです",
-    "when": "12/12(土)",
-    "cond": ""
+    "item": "チャーリーブラウン無料視聴",
+    "when": "12/12〜13",
+    "cond": "",
+    "what": "無料配信",
+    "where": "オンライン"
    },
    "date": "2026-12-12"
   },
@@ -2393,38 +2520,6 @@
    "date": "2026-11-11"
   },
   {
-   "id": "4bbb651c2616",
-   "title": "40% Off LEGO Sale + $15 Kohl’s Cash = Sets from $5.99 (Today Only)",
-   "link": "https://hip2save.com/deals/kohls-legos/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T17:42Z",
-   "firstSeen": "2026-11-06T23:23Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Hei-Hei-Disney.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Kohl's",
-    "item": "",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
-  },
-  {
    "id": "e6abcebfdf8f",
    "title": "Fisher-Price Little People Farm Set Just $34.98 on SamsClub.com (Reg. $50)",
    "link": "https://hip2save.com/deals/fisher-price-little-people-horse-stable-goat-yard-playset/",
@@ -2485,13 +2580,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "クリスピー・クリームの季節のドーナツ（お買い上げで無料） ＋グレーズド・ダズン（お買い上げで$ 2 ）",
-   "jaVia": "mymemory",
+   "ja": "ドーナツ無料＆$2箱",
+   "jaVia": "gemini",
    "sum": {
     "store": "Krispy Kreme",
-    "item": "クリスピー・クリームの季節のドーナツ（お買い上げで無料） ＋グレーズド・ダズン（お買い上げで$ 2 ）",
+    "item": "ドーナツ無料＆$2箱",
     "when": "",
-    "cond": "購入時"
+    "cond": "要購入",
+    "what": "無料ドーナツ",
+    "where": "Krispy Kreme"
    },
    "date": null,
    "dup": "833e40c5f186"
@@ -2565,40 +2662,6 @@
    "date": null
   },
   {
-   "id": "b4551b069d35",
-   "title": "Today ONLY: Women’s Sweaters from $9.59 on Kohls.com (Reg. $30)",
-   "link": "https://hip2save.com/deals/kohls-sweaters-for-women/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T17:25Z",
-   "firstSeen": "2026-11-06T17:57Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Juniors-SO-Essential-Crew-Sweaters.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 68,
-   "price": 9.59,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-06",
-   "ja": "本日限定： Kohls.comで$ 9.59からのレディースセーター（登録番号： $ 30 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "本日限定： Kohls.comで$ 9.59からのレディースセーター（登録番号： $ 30 ）",
-    "when": "11/6(金)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "33bc52b97572",
    "title": "FREE Small Yankee Candle with Purchase Nov. 7-8th!",
    "link": "https://moneysavingmom.com/free-large-yankee-candle-with-purchase-on-august-15th/",
@@ -2623,51 +2686,18 @@
     "kind": "coupon",
     "when": "2026-11-07"
    },
-   "ja": "11月7日～ 8日に購入すると、小さなヤンキーロウソクが無料！",
-   "jaVia": "mymemory",
+   "ja": "小型キャンドルが無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "11月7日～ 8日に購入すると、小さなヤンキーロウソクが無料！",
-    "when": "11/7(土)",
-    "cond": "購入時"
+    "store": "Yankee Candle",
+    "item": "小型キャンドルが無料",
+    "when": "11/7-8",
+    "cond": "要購入",
+    "what": "無料キャンドル",
+    "where": "Yankee Candle"
    },
    "date": "2026-11-07",
    "dup": "fc65a4375da2"
-  },
-  {
-   "id": "98784d1adc08",
-   "title": "Score 200 Free Dell Rewards Points Every Friday!",
-   "link": "https://thefreebieguy.com/free-dell-rewards/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-06T17:15Z",
-   "firstSeen": "2026-11-06T17:57Z",
-   "expires": "2026-11-06",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Dell-Logo-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "毎週金曜日に200デル報酬ポイントを無料で獲得しましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "毎週金曜日に200デル報酬ポイントを無料で獲得しましょう！",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
   },
   {
    "id": "1e92b85f97bf",
@@ -2691,13 +2721,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "どの注文でも無料のQVC配送（ブラックフライデーのセールアイテムを含む！ ）",
-   "jaVia": "mymemory",
+   "ja": "全品送料無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "どの注文でも無料のQVC配送（ブラックフライデーのセールアイテムを含む！ ）",
+    "store": "QVC",
+    "item": "全品送料無料",
     "when": "",
-    "cond": ""
+    "cond": "BF商品含む",
+    "what": "送料無料",
+    "where": "QVC"
    },
    "date": null
   },
@@ -2830,13 +2862,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "メイシーズブラックフライデーセール開催中|掛け布団、キッチン用品などがお得",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセール",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "メイシーズブラックフライデーセール開催中|掛け布団、キッチン用品などがお得",
+    "store": "Macy’s",
+    "item": "ブラックフライデーセール",
     "when": "",
-    "cond": ""
+    "cond": "開催中",
+    "what": "BFセール",
+    "where": "Macy’s"
    },
    "date": null
   },
@@ -3205,13 +3239,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "JCPenneyの本当に大きな取引： 1つ購入して2つ無料のスローブランケットをゲット",
-   "jaVia": "mymemory",
+   "ja": "ひざ掛けが1点購入で2点無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "JCPenneyの本当に大きな取引： 1つ購入して2つ無料のスローブランケットをゲット",
+    "store": "JCPenney",
+    "item": "ひざ掛けが1点購入で2点無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "ブランケット",
+    "where": "JCPenney"
    },
    "date": null
   },
@@ -3251,39 +3287,6 @@
    "jaVia": "gemini",
    "date": "2026-11-13",
    "dup": "25c933825f8f"
-  },
-  {
-   "id": "7b7843a4bcae",
-   "title": "Kohl’s Big One Bath Towels Just $2.39 – Today Only!",
-   "link": "https://hip2save.com/deals/kohls-big-one-towels/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T16:00Z",
-   "firstSeen": "2026-11-06T17:04Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/kohls-big-ones-towels.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Kohl's",
-    "item": "",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06",
-   "dup": "a1d3a10301c1"
   },
   {
    "id": "5952c543eac0",
@@ -3700,82 +3703,6 @@
    "date": null
   },
   {
-   "id": "646d5b47930b",
-   "title": "Book Lovers, This One’s for You! Audible Just 99¢/Month + FREE $20 Credit",
-   "link": "https://hip2save.com/deals/free-audible-books/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T15:14Z",
-   "firstSeen": "2026-11-06T15:59Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/04/Let-Them-Audible-Book-e1745425556442.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Audible",
-    "item": "$0.99/月＋$20クレジット",
-    "when": "11/6",
-    "what": "$20特典",
-    "where": "Audible"
-   },
-   "ja": "$0.99/月＋$20クレジット",
-   "jaVia": "gemini",
-   "date": "2026-11-06"
-  },
-  {
-   "id": "a20d719a0dcc",
-   "title": "Buy One, Get TWO FREE Blankets & Throws at JCPenney – Prices Start as Low as $16",
-   "link": "https://thefreebieguy.com/buy-one-get-two-free-blankets-throws/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-06T15:06Z",
-   "firstSeen": "2026-11-06T15:59Z",
-   "expires": "2026-11-06",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Blankets-Throws-840x630.jpg",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "JCPenney",
-    "item": "ブランケット3点購入で2点無料",
-    "when": "11/6",
-    "cond": "3点購入",
-    "what": "2点無料",
-    "where": "JCPenney"
-   },
-   "ja": "ブランケット3点購入で2点無料",
-   "jaVia": "gemini",
-   "date": "2026-11-06",
-   "dup": "77aeaa934efd"
-  },
-  {
    "id": "6b38f93ff6dd",
    "title": "Shark StainForce Cordless Spot, Stain, & Odor Portable Cleaning System Only $108 on Walmart (Reg $159)",
    "link": "https://thefreebieguy.com/shark-stainforce-cordless-portable-cleaning-system/",
@@ -3842,76 +3769,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "8a8d23c5c223",
-   "title": "Kohl’s Early Black Friday Sale is LIVE + Get $15 Kohl’s Cash for Every $50 Spent Today Only",
-   "link": "https://hip2save.com/deals/kohls-early-black-friday-sale/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T14:52Z",
-   "firstSeen": "2026-11-06T14:59Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Kohls-Cash.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": true,
-   "freebie": null,
-   "ja": "$50ごとに$15キャッシュ還元",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Kohl’s",
-    "item": "$50ごとに$15キャッシュ還元",
-    "when": "11/6",
-    "cond": "$50以上購入",
-    "what": "$15還元",
-    "where": "Kohl’s"
-   },
-   "date": "2026-11-06"
-  },
-  {
-   "id": "6f4a4de9d824",
-   "title": "Save Up to 60% Off Women’s Sweaters at Kohl’s! {Today Only}",
-   "link": "https://moneysavingmom.com/womens-sweater-deals-at-kohls/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-06T14:51Z",
-   "firstSeen": "2026-11-06T14:59Z",
-   "expires": "2026-11-06",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Kohls-Womens-Sweaters.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 60,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Kohl'sのレディースセーターが最大60%オフ！ {本日のみ}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Kohl'sのレディースセーターが最大60%オフ！ {本日のみ}",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
   },
   {
    "id": "0e1b989ca924",
@@ -4050,74 +3907,6 @@
    "date": null
   },
   {
-   "id": "6e46e971779b",
-   "title": "Save 50% off Board and Card Games at Kohl’s: Prices from $4.99! {Today Only}",
-   "link": "https://moneysavingmom.com/board-and-card-games-deals-at-kohls/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-06T14:26Z",
-   "firstSeen": "2026-11-06T14:59Z",
-   "expires": "2026-11-06",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/11/Kohls-Board-Games-1-630x473.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Kohl'sのボードゲームとカードゲームが50%オフ：価格は$ 4.99から！ {本日のみ}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Kohl'sのボードゲームとカードゲームが50%オフ：価格は$ 4.99から！ {本日のみ}",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
-  },
-  {
-   "id": "5ec08f3520ab",
-   "title": "Kohl’s Boots from $7.99 (Reg. $20) – Today ONLY!",
-   "link": "https://hip2save.com/deals/kohls-boots/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T14:21Z",
-   "firstSeen": "2026-11-06T14:59Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/Kohls-Cozy-Boots.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 60,
-   "price": 7.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Kohl's Boots $ 7.99 (Reg. $ 20 )～本日限定！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Kohl's Boots $ 7.99 (Reg. $ 20 )～本日限定！",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
-  },
-  {
    "id": "fa0ddfc7a274",
    "title": "HOT Tide Deals at Home Depot! Lower Prices Than Amazon!",
    "link": "https://thefreebieguy.com/tide-home-depot/",
@@ -4152,40 +3941,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "a1d3a10301c1",
-   "title": "The Big One Bath Towels only $2.39! {Today Only}",
-   "link": "https://moneysavingmom.com/the-big-one-bath-towels-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-06T14:02Z",
-   "firstSeen": "2026-11-06T14:59Z",
-   "expires": "2026-11-06",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/IMG_5135-630x840.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "The Big Oneバスタオルはたったの$ 2.39 ！ {本日のみ}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "The Big Oneバスタオルはたったの$ 2.39 ！ {本日のみ}",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
   },
   {
    "id": "7b93c2cd173d",
@@ -4563,40 +4318,6 @@
    "date": null
   },
   {
-   "id": "0417257432ba",
-   "title": "*HOT* Toniebox 2 Starter Sets as low as $86.99 shipped today  (Reg. $145+!)",
-   "link": "https://moneysavingmom.com/tonies-paw-patrol-bundle-starter-set-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-06T12:44Z",
-   "firstSeen": "2026-11-06T13:21Z",
-   "expires": "2026-11-06",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Tonies-630x547.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 86.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "* HOT * Toniebox 2スターターセット$ 86.99本日発送（登録価格$ 145 +！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "* HOT * Toniebox 2スターターセット$ 86.99本日発送（登録価格$ 145 +！）",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
-  },
-  {
    "id": "2830c60823d7",
    "title": "CVS Sneak Peek: 59¢ Cetaphil Bar, $1.49 Neutrogena Wipes + More!",
    "link": "https://hip2save.com/deals/upcoming-cvs-ad/",
@@ -4629,76 +4350,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "eb45a067edff",
-   "title": "*HOT* Boots for the Family as low as $7.99 at Kohl’s! {Today Only}",
-   "link": "https://moneysavingmom.com/womens-boots-deal-at-kohls/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-06T12:15Z",
-   "firstSeen": "2026-11-06T13:21Z",
-   "expires": "2026-11-06",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/01/Boots-at-Kohls.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "* HOT * Kohl'sのファミリー用ブーツは$ 7.99 ！ {本日のみ}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "* HOT * Kohl'sのファミリー用ブーツは$ 7.99 ！ {本日のみ}",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
-  },
-  {
-   "id": "c818bb1316df",
-   "title": "The Big One Microfiber Pillows only $2.39! {Today only}",
-   "link": "https://moneysavingmom.com/the-big-one-microfiber-pillows-deal-at-kohls/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-06T12:00Z",
-   "firstSeen": "2026-11-06T12:06Z",
-   "expires": "2026-11-06",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.21.50-PM.png",
-   "hot": false,
-   "stores": [
-    "Kohl's",
-    "Amazon"
-   ],
-   "cats": [
-    "home",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ビッグワンマイクロファイバーピローはたったの$ 2.39 ！ {本日のみ}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's・Amazon",
-    "item": "ビッグワンマイクロファイバーピローはたったの$ 2.39 ！ {本日のみ}",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
   },
   {
    "id": "674fc8d6a95f",
@@ -5392,48 +5043,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "664e7a8cfbaa",
-   "title": "Día de los Muertos in Historic Downtown Bryan",
-   "link": "https://www.destinationbryan.com/events/day-of-the-dead-celebration-in-historic-downtown-bryan-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-05T23:32Z",
-   "firstSeen": "2026-11-05T23:32Z",
-   "expires": "2026-11-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fairs & Festivals"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Historic Downtown Bryan",
-    "item": "旧市街で死者の日(Día de los Muertos)の祭り",
-    "when": "11/6(金)",
-    "cond": "家族で",
-    "what": "死者の日の祭り",
-    "where": "ブライアン旧市街"
-   },
-   "ja": "旧市街で死者の日(Día de los Muertos)の祭り",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-06",
-   "freebie": null
   },
   {
    "id": "ef4886775122",
@@ -7414,40 +7023,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "bb279f879499",
-   "title": "Where to Find All the National Nachos Day Deals on 11/6",
-   "link": "https://hip2save.com/deals/national-nachos-day/",
-   "source": "Hip2Save",
-   "posted": "2026-11-05T17:18Z",
-   "firstSeen": "2026-11-05T17:58Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2020/06/pulling-apart-skillet-nachos-.jpeg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "11月6日のナショナルナチョスデーのお得な情報はどこで手に入りますか？",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "11月6日のナショナルナチョスデーのお得な情報はどこで手に入りますか？",
-    "when": "11/6(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-06"
   },
   {
    "id": "68821745c1a3",
@@ -14320,48 +13895,6 @@
    "date": null
   },
   {
-   "id": "4fe1a4d45d92",
-   "title": "First Friday",
-   "link": "https://events.bryantx.gov/default/Detail/2026-11-06-1700-First-Friday",
-   "source": "City of Bryan",
-   "posted": "2026-11-03T23:33Z",
-   "firstSeen": "2026-11-03T23:33Z",
-   "expires": "2026-11-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fairs & Festivals"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Downtown Bryan",
-    "item": "ダウンタウン・ブライアンの毎月恒例の夜の街歩きイベント",
-    "when": "11/6(金) 17時",
-    "what": "ファーストフライデー",
-    "where": "Downtown Bryan",
-    "cond": "家族で参加可"
-   },
-   "ja": "ダウンタウン・ブライアンの毎月恒例の夜の街歩きイベント",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-06",
-   "freebie": null
-  },
-  {
    "id": "e2709dcc48a7",
    "title": "Emergen-C Immunity Support 30-Count Only $7.79 Shipped on Amazon",
    "link": "https://hip2save.com/deals/emergen-c/",
@@ -19025,7 +18558,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "a070989b39cc"
   },
   {
    "id": "320b77db5009",
@@ -32650,8 +32184,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "25028e662487"
+   "date": null
   },
   {
    "id": "e008358962c3",
@@ -39456,48 +38989,6 @@
    "date": null
   },
   {
-   "id": "5a2cbca55317",
-   "title": "First Friday in Historic Downtown Bryan",
-   "link": "https://www.destinationbryan.com/events/first-friday-event/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-29T11:43Z",
-   "firstSeen": "2026-10-29T11:43Z",
-   "expires": "2026-11-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Live Music"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Historic Downtown Bryan",
-    "item": "旧市街で音楽・パフォーマンス・アートの月例祭り",
-    "when": "11/6(金) 夕方〜",
-    "what": "ファーストフライデー",
-    "where": "ブライアン旧市街",
-    "cond": "入場無料"
-   },
-   "ja": "旧市街で音楽・パフォーマンス・アートの月例祭り",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-06",
-   "freebie": null
-  },
-  {
    "id": "fbf67cb8cf3b",
    "title": "Lowe’s Early Black Friday Savings Live Now!",
    "link": "https://thefreebieguy.com/lowes-black-friday/",
@@ -41089,40 +40580,6 @@
    "date": null
   },
   {
-   "id": "899ec52e364d",
-   "title": "The Target x Harry Potter Collection Coming Soon (Early Access for Circle 360 Members on 11/6!)",
-   "link": "https://hip2save.com/deals/target-harry-potter/",
-   "source": "Hip2Save",
-   "posted": "2026-10-28T17:23Z",
-   "firstSeen": "2026-10-28T17:57Z",
-   "expires": "2026-11-06",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/target-x-harry-potter.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ターゲット×ハリー・ポッターコレクションがまもなく登場（サークル360メンバー向け11月6日早期アクセス！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ターゲット×ハリー・ポッターコレクションがまもなく登場（サークル360メンバー向け11月6日早期アクセス！ ）",
-    "when": "11/6(金)まで",
-    "cond": "会員限定"
-   },
-   "date": "2026-11-06"
-  },
-  {
    "id": "e451b2b55324",
    "title": "*HOT* LEGO Christmas Table Decoration Set only $23.99 (Reg. $45!)",
    "link": "https://moneysavingmom.com/lego-christmas-building-set-deal/",
@@ -41432,50 +40889,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "4b9be71ecbe5",
-   "title": "Roar Under the Stars: Free 'Jurassic Park' Movie Night, Costume Contest at Wolf Pen Creek",
-   "link": "https://blog.cstx.gov/2026/10/28/roar-under-the-stars-free-jurassic-park-movie-night-costume-contest-at-wolf-pen-creek/",
-   "source": "カレッジステーション市",
-   "posted": "2026-10-28T16:21Z",
-   "firstSeen": "2026-10-28T17:02Z",
-   "expires": "2026-11-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Wolf Pen Creek",
-    "item": "『ジュラシック・パーク』野外上映と仮装コンテスト",
-    "when": "11/6(金) 17:00〜",
-    "cond": "無料",
-    "what": "野外映画上映",
-    "where": "Wolf Pen Creek"
-   },
-   "date": "2026-11-06",
-   "ja": "『ジュラシック・パーク』野外上映と仮装コンテスト",
-   "jaVia": "claude-ev"
   },
   {
    "id": "123707b7d7f1",
@@ -49050,49 +48463,6 @@
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
-   ],
-   "date": "2026-11-06",
-   "freebie": null,
-   "region": "College Station",
-   "family": true
-  },
-  {
-   "id": "dd0b1bd4468a",
-   "title": "Lake Walk Run Club",
-   "link": "https://www.destinationbryan.com/events/lake-walk-run-club/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T00:17Z",
-   "firstSeen": "2026-10-27T00:17Z",
-   "expires": "2026-11-06",
-   "thumb": null,
-   "noAlert": true,
-   "localDate": "2026-11-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fitness"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "Lake Walk のランニングクラブ(毎週金曜)",
-    "when": "11/6(金)",
-    "what": "ランニング会",
-    "where": "Lake Walk",
-    "cond": "誰でも参加"
-   },
-   "ja": "Lake Walk のランニングクラブ(毎週金曜)",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "スポーツ"
    ],
    "date": "2026-11-06",
    "freebie": null,
@@ -63375,313 +62745,6 @@
    "event": null,
    "eventNews": false,
    "thumb": "https://hip2save.com/wp-content/uploads/2025/12/snowflake-multitool-1.jpg?resize=306,182"
-  },
-  {
-   "id": "7f4e9d549677",
-   "title": "Leg Massager Only $39 Shipped on Amazon (Reg. $100)",
-   "link": "https://hip2save.com/deals/leg-massager/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T03:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 61,
-   "price": 39.0,
-   "freebie": null,
-   "date": null,
-   "ja": "レッグマッサージャーのみ$ 39 Amazonで発送（登録価格$ 100 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "レッグマッサージャーのみ$ 39 Amazonで発送（登録価格$ 100 ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/CINCOM-Leg-Massager.jpg?resize=306,182"
-  },
-  {
-   "id": "c10fbc58e213",
-   "title": "Costco Black Friday Deals Announced | Holiday Savings Starts 10/30",
-   "link": "https://hip2save.com/deals/costco-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T03:05Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Costco"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": "2026-10-30",
-   "ja": "ブラックフライデーセール",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Costco",
-    "item": "ブラックフライデーセール",
-    "when": "10/30〜",
-    "cond": "",
-    "what": "BFセール",
-    "where": "Costco"
-   },
-   "event": "black-friday",
-   "eventNews": true,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Costco-Black-Friday-3.jpg?resize=306,182"
-  },
-  {
-   "id": "d69b37d92b3e",
-   "title": "Rechargeable Book Light Only $5.99 on Amazon (Great Stocking Stuffer!)",
-   "link": "https://hip2save.com/deals/amazon-glocusent-book-light/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T03:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "充電式ブックライトのみ$ 5.99アマゾン（素晴らしいストッキングスタッファー！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "充電式ブックライトのみ$ 5.99アマゾン（素晴らしいストッキングスタッファー！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Glocusent-Rechargeable-Clip-On-Book.jpg?resize=306,182"
-  },
-  {
-   "id": "29bab0781aac",
-   "title": "LesserEvil Popcorn 24-Pack Only $8.38 on Amazon (35¢ per Bag!)",
-   "link": "https://hip2save.com/deals/lesserevil-popcorn/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T02:45Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "LesserEvilポップコーン24パックのみ$ 8.38 （バッグあたり35 ¢ ！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "LesserEvilポップコーン24パックのみ$ 8.38 （バッグあたり35 ¢ ！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/LesserEvil-Himalayan-Salt-Organic-Popcorn-.46oz-Bags-24-Pack.jpg?resize=306,182"
-  },
-  {
-   "id": "60dbd18a6c5f",
-   "title": "Mark Your Calendars! Target Just Dropped 2026 Black Friday Dates + Daily Deals Returning",
-   "link": "https://hip2save.com/deals/target-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T02:40Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "BFセール＆日替わり特価",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Target",
-    "item": "BFセール＆日替わり特価",
-    "when": "",
-    "cond": "",
-    "what": "BFセール情報",
-    "where": "Target"
-   },
-   "event": "black-friday",
-   "eventNews": true
-  },
-  {
-   "id": "5581d08184ae",
-   "title": "Rainbow Colored Pencils 12-Pack Only $2.74 Shipped on Amazon | Includes Toppers + Sharpener",
-   "link": "https://hip2save.com/deals/rainbow-colored-pencils/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T02:10Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "レインボーカラー鉛筆12本パックのみ$ 2.74 Amazonで発送|トッパー+シャープナー付属",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "レインボーカラー鉛筆12本パックのみ$ 2.74 Amazonで発送|トッパー+シャープナー付属",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "7f96dd4aad5c",
-   "title": "Rhinestone Bedazzling 50,000-Piece Kit Just $4.99 on Amazon (Includes Glue, Tweezers, & More)",
-   "link": "https://hip2save.com/deals/amazon-rhinestone-bedazzling-kit/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T02:00Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "Rhinestone Bedazzling 50,000ピースキットアマゾンでわずか$ 4.99 （接着剤、ピンセットなどが含まれています）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Rhinestone Bedazzling 50,000ピースキットアマゾンでわずか$ 4.99 （接着剤、ピンセットなどが含まれています）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/HRLbrc-Bedazzling-Kit.jpg?resize=306,182"
-  },
-  {
-   "id": "1ec49cb4aeae",
-   "title": "WOW! Up to 75% Off Nike Socks Multipacks on Kohls.com",
-   "link": "https://hip2save.com/deals/kohls-nike-socks/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T01:50Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 75,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "すごい！ Kohls.comでナイキソックスマルチパックが最大75%オフ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "すごい！ Kohls.comでナイキソックスマルチパックが最大75%オフ",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/nike-socks2323232.jpg?resize=306,182"
-  },
-  {
-   "id": "7c2bdd281a91",
-   "title": "Walmart’s Quilted Pouch & Scrunchies Have NEW Holiday Prints (Fun Stocking Stuffer!)",
-   "link": "https://hip2save.com/deals/walmart-no-boundaries-quilted-bags/",
-   "source": "Hip2Save",
-   "posted": "2026-10-23T01:30Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "freebie": null,
-   "date": null,
-   "ja": "ウォルマートのキルト加工ポーチ＆スクランチーに新しいホリデープリント（楽しいストッキングスタッファー！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートのキルト加工ポーチ＆スクランチーに新しいホリデープリント（楽しいストッキングスタッファー！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "event": null,
-   "eventNews": false
   },
   {
    "id": "dd5d4d6d6e74",
