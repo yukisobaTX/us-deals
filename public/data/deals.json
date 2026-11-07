@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-07T22:46Z",
- "count": 1817,
+ "count": 1821,
  "stats": {
   "h2s": {
    "read": 100,
@@ -786,13 +786,14 @@
     "when": null
    },
    "sum": {
-    "item": "無料・格安の七面鳥",
-    "when": "2026年",
-    "what": "七面鳥お得情報",
-    "where": "各スーパー"
+    "item": "2026年の無料・格安の感謝祭用七面鳥まとめ",
+    "when": "感謝祭前",
+    "what": "無料七面鳥",
+    "where": "各地",
+    "cond": "店舗ごとの購入条件あり"
    },
-   "ja": "無料・格安の七面鳥",
-   "jaVia": "gemini",
+   "ja": "2026年の無料・格安の感謝祭用七面鳥まとめ",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1197,12 +1198,12 @@
    },
    "sum": {
     "store": "Amazon",
-    "item": "食洗機洗剤47個が約$10",
-    "what": "食洗機洗剤特価",
+    "item": "Cascade Free & Clear 47個が約$10(通常$20)",
+    "what": "食洗機洗剤半額",
     "where": "Amazon"
    },
-   "ja": "食洗機洗剤47個が約$10",
-   "jaVia": "gemini",
+   "ja": "Cascade Free & Clear 47個が約$10(通常$20)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1850,15 +1851,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "小型家電や衣料品など大幅値引",
-   "jaVia": "gemini",
+   "ja": "Kohl'sの早期ブラックフライデー日替わりセール",
+   "jaVia": "claude",
    "sum": {
-    "store": "Kohl’s",
-    "item": "小型家電や衣料品など大幅値引",
+    "store": "Kohl's",
+    "item": "Kohl'sの早期ブラックフライデー日替わりセール",
     "when": "",
-    "cond": "",
-    "what": "セール特価",
-    "where": "Kohl’s"
+    "cond": "小型家電・タオル・衣料など",
+    "what": "早期BFセール",
+    "where": "Kohl's"
    },
    "date": null
   },
@@ -2168,14 +2169,15 @@
     "when": null
    },
    "sum": {
-    "store": "Target",
-    "item": "キーチェーン、ぬいぐるみ等",
-    "when": "週末",
-    "what": "無料グッズ",
-    "where": "Targetなど"
+    "store": "Target・Bass Pro",
+    "item": "週末の無料・お得まとめ(Targetキーチェーン、Bass Proぬいぐるみ等)",
+    "when": "11/7〜11/8(週末)",
+    "what": "週末の無料品",
+    "where": "Target・Bass Pro",
+    "cond": "店頭"
    },
-   "ja": "キーチェーン、ぬいぐるみ等",
-   "jaVia": "gemini",
+   "ja": "週末の無料・お得まとめ(Targetキーチェーン、Bass Proぬいぐるみ等)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -2594,12 +2596,13 @@
    },
    "sum": {
     "store": "Audible",
-    "item": "月額99¢＋$20分クレジット",
-    "what": "Audible月99¢",
-    "where": "オンライン"
+    "item": "Audibleが月99¢＋$20分のクレジット付き",
+    "what": "月99¢+$20分",
+    "where": "Audible",
+    "cond": "対象者のみ"
    },
-   "ja": "月額99¢＋$20分クレジット",
-   "jaVia": "gemini",
+   "ja": "Audibleが月99¢＋$20分のクレジット付き",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -2699,14 +2702,14 @@
     "when": null
    },
    "sum": {
-    "store": "Sam’s Club",
-    "item": "Walmart+が無料",
+    "store": "Sam's Club",
+    "item": "Sam's Club Plus会員にWalmart+が無料で付帯",
     "cond": "Plus会員",
-    "what": "無料サービス",
-    "where": "Sam’s Club"
+    "what": "Walmart+無料",
+    "where": "Sam's Club"
    },
-   "ja": "Walmart+が無料",
-   "jaVia": "gemini",
+   "ja": "Sam's Club Plus会員にWalmart+が無料で付帯",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -7688,7 +7691,7 @@
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-07",
+   "localDate": "2026-11-08",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -7704,12 +7707,12 @@
    "eventNews": false,
    "sum": {
     "store": "Bryan Ballroom",
-    "item": "トレーディングカードの即売会(土日)",
-    "when": "11/7(土)〜11/8(日)",
+    "item": "トレカの展示即売会「Dragon Card Show」",
+    "when": "11/8(日)",
     "what": "カードショー",
     "where": "Bryan Ballroom"
    },
-   "ja": "トレーディングカードの即売会(土日)",
+   "ja": "トレカの展示即売会「Dragon Card Show」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -26574,13 +26577,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "小さな子向けの音楽遊びの会",
+    "item": "教会での音楽あそびの会",
     "when": "11/13(金)",
     "cond": "子供向け",
-    "what": "親子の音楽遊び",
+    "what": "音楽あそび",
     "where": "St. Andrew's教会"
    },
-   "ja": "小さな子向けの音楽遊びの会",
+   "ja": "教会での音楽あそびの会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -26596,11 +26599,11 @@
    "source": "Destination Bryan",
    "posted": "2026-11-01T23:33Z",
    "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-07",
+   "expires": "2026-11-14",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-07",
+   "localDate": "2026-11-14",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -26616,13 +26619,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "毎週土曜のファーマーズマーケット",
-    "when": "毎週土曜",
-    "what": "朝市",
+    "item": "ブラゾス郡のファーマーズマーケット(毎週土曜)",
+    "when": "11/14(土)",
+    "what": "ファーマーズ市",
     "where": "Midtown Park",
-    "cond": "入場無料"
+    "cond": "毎週土曜"
    },
-   "ja": "毎週土曜のファーマーズマーケット",
+   "ja": "ブラゾス郡のファーマーズマーケット(毎週土曜)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -26659,13 +26662,13 @@
    "eventNews": false,
    "sum": {
     "store": "Great Escapes RV Park",
-    "item": "屋外で絵を描いて楽しむイベント",
+    "item": "RVパークでのペイント・イベント「Paint-a-Palooza」",
     "when": "11/8(日)",
     "cond": "子供向け",
-    "what": "ペイントイベント",
+    "what": "お絵かき催し",
     "where": "Great Escapes …"
    },
-   "ja": "屋外で絵を描いて楽しむイベント",
+   "ja": "RVパークでのペイント・イベント「Paint-a-Palooza」",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外"
@@ -26701,13 +26704,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ダウンタウンのホリデー点灯式「Lights On」",
+    "item": "ブライアン中心街のホリデー点灯式「Lights On」",
     "when": "11/20(金) 17時",
     "cond": "無料",
     "what": "点灯式",
-    "where": "ダウンタウンBryan"
+    "where": "ブライアン中心街"
    },
-   "ja": "ダウンタウンのホリデー点灯式「Lights On」",
+   "ja": "ブライアン中心街のホリデー点灯式「Lights On」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -49508,13 +49511,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Midtown Park の日曜マーケット",
+    "item": "ミッドタウン公園の日曜マーケット",
     "when": "11/8(日)",
-    "cond": "屋外マーケット",
+    "cond": "毎週日曜",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "Midtown Park の日曜マーケット",
+   "ja": "ミッドタウン公園の日曜マーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -50387,7 +50390,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-06",
+   "localDate": "2026-11-08",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -50402,14 +50405,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "George H.W. Bush Library & Mu…",
-    "item": "アメリカの歩みをたどる特別展(〜2027/5/16)",
-    "when": "〜2027/5/16",
-    "what": "アメリカ史の特別展",
-    "where": "ブッシュ図書館博物館",
+    "store": "George H.W. Bush Presidential…",
+    "item": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+    "when": "11/8(日)〜2027/5/16",
+    "what": "米国史の特別展",
+    "where": "ブッシュ大統領図書館",
     "cond": "入館料あり"
    },
-   "ja": "アメリカの歩みをたどる特別展(〜2027/5/16)",
+   "ja": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -62643,6 +62646,168 @@
    "date": "2026-11-11",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "b11b62a9c25f",
+   "title": "Fall Book Sale at Clara B. Mounce Library (Sunday)",
+   "link": "https://www.destinationbryan.com/events/bryan-college-station-friends-of-the-library-fall-book-sale-sunday/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-07T23:32Z",
+   "firstSeen": "2026-11-07T23:32Z",
+   "expires": "2026-11-08",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-08",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Clara B. Mounce Library",
+    "item": "図書館友の会の秋の古本セール(日曜)",
+    "when": "11/8(日)",
+    "cond": "子供の本も",
+    "what": "古本セール",
+    "where": "Clara B. Mounc…"
+   },
+   "ja": "図書館友の会の秋の古本セール(日曜)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-11-08"
+  },
+  {
+   "id": "dd0b1bd4468a",
+   "title": "Lake Walk Run Club",
+   "link": "https://www.destinationbryan.com/events/lake-walk-run-club/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-07T23:32Z",
+   "firstSeen": "2026-11-07T23:32Z",
+   "expires": "2026-11-13",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-13",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fitness"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "レイクウォークのランニングクラブ",
+    "when": "11/13(金)",
+    "what": "ランニング会",
+    "where": "Lake Walk"
+   },
+   "ja": "レイクウォークのランニングクラブ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-11-13"
+  },
+  {
+   "id": "1a73599356fa",
+   "title": "Football Extravaganza Sundays at Aggieland Safari",
+   "link": "https://www.destinationbryan.com/events/aggieland-safari-football-extravaganza-sundays/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-07T23:32Z",
+   "firstSeen": "2026-11-07T23:32Z",
+   "expires": "2026-11-15",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-15",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Aggieland Safari",
+    "item": "Aggieland Safari の日曜特別企画",
+    "when": "11/15(日)",
+    "what": "サファリの日曜企画",
+    "where": "Aggieland Safa…"
+   },
+   "ja": "Aggieland Safari の日曜特別企画",
+   "jaVia": "claude-ev",
+   "outing": [
+    "動物"
+   ],
+   "family": true,
+   "date": "2026-11-15"
+  },
+  {
+   "id": "03d46ebd934d",
+   "title": "Festival of Trees at The Kimbell",
+   "link": "https://www.destinationbryan.com/events/festival-of-trees/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-07T23:32Z",
+   "firstSeen": "2026-11-07T23:32Z",
+   "expires": "2026-12-04",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-16",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "The Kimbell Cultural Event Ce…",
+    "item": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
+    "when": "11/16(月)〜12/4(金)",
+    "what": "ツリーの展示",
+    "where": "The Kimbell"
+   },
+   "ja": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-16"
   }
  ]
 }
