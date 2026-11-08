@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-08T02:31Z",
- "count": 1823,
+ "updated": "2026-11-08T02:45Z",
+ "count": 1822,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -57,8 +57,8 @@
   "ja": {
    "gemini": 12,
    "geminiEvent": 0,
-   "mymemory": 1,
-   "geminiToday": 6,
+   "mymemory": 0,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
@@ -4829,8 +4829,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "bd460777f9b8"
+   "date": null
   },
   {
    "id": "5cad8f8d62ab",
@@ -62650,40 +62649,6 @@
    "sum": {
     "store": "Amazon",
     "item": "レディースウールブレンドソックス5パックのみ$ 4.99 Amazon",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "event": null,
-   "eventNews": false
-  },
-  {
-   "id": "e57662a97b11",
-   "title": "WOW! Large Fall Wreaths from $14.91 on Sam’s Club (Reg. $50)",
-   "link": "https://hip2save.com/deals/sams-club-wreath/",
-   "source": "Hip2Save",
-   "posted": "2026-10-24T02:45Z",
-   "firstSeen": "2026-10-24T17:49Z",
-   "expires": null,
-   "hot": true,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 70,
-   "price": 14.91,
-   "freebie": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Large-fall-wreath-with-cinnamon-sticks.jpg?resize=306,182",
-   "ja": "うわー！サムズクラブで$ 14.91からの大きな秋のリース（登録価格$ 50 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "うわー！サムズクラブで$ 14.91からの大きな秋のリース（登録価格$ 50 ）",
     "when": "",
     "cond": ""
    },
