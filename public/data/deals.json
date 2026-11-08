@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-08T21:12Z",
- "count": 1775,
+ "count": 1776,
  "stats": {
   "h2s": {
    "read": 100,
@@ -552,12 +552,16 @@
     "grocery": false
    },
    "sum": {
-    "store": "Target・Home Depot",
-    "item": "",
-    "when": "11/14(土)まで",
-    "cond": ""
+    "store": "Target.com",
+    "item": "Target.com で対象ギフトカード$100購入で$10還元",
+    "when": "11/8〜11/14",
+    "cond": "Starbucks・Apple・Uber等が対象",
+    "what": "$100で$10還元",
+    "where": "Target.com"
    },
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "ja": "Target.com で対象ギフトカード$100購入で$10還元",
+   "jaVia": "claude"
   },
   {
    "id": "53105def781a",
@@ -1284,13 +1288,13 @@
    },
    "sum": {
     "store": "Spectrum / Amazon",
-    "item": "Amazon Prime会員権",
+    "item": "Spectrum 利用者は Amazon Prime(年$139相当)が無料",
     "cond": "Spectrum利用者限定",
     "what": "Prime無料",
     "where": "オンライン"
    },
-   "ja": "Amazon Prime会員権",
-   "jaVia": "gemini",
+   "ja": "Spectrum 利用者は Amazon Prime(年$139相当)が無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1739,12 +1743,13 @@
    },
    "sum": {
     "store": "Cabela's / Bass Pro Shops",
-    "item": "サンタとの写真＆動画撮影",
+    "item": "Cabela's・Bass Pro Shops でサンタと無料の写真・動画撮影",
     "what": "無料サンタ写真",
-    "where": "Cabela'sなど"
+    "where": "Cabela's・Bass …",
+    "cond": "店頭"
    },
-   "ja": "サンタとの写真＆動画撮影",
-   "jaVia": "gemini",
+   "ja": "Cabela's・Bass Pro Shops でサンタと無料の写真・動画撮影",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1883,12 +1888,13 @@
    },
    "sum": {
     "store": "Dairy Queen",
-    "item": "ミニブリザードなど",
-    "what": "無料ブリザード",
-    "where": "Dairy Queen"
+    "item": "DQのお得まとめ(無料ミニブリザード・ホリデー新作など)",
+    "what": "無料ミニブリザード",
+    "where": "Dairy Queen",
+    "cond": "詳細は記事"
    },
-   "ja": "ミニブリザードなど",
-   "jaVia": "gemini",
+   "ja": "DQのお得まとめ(無料ミニブリザード・ホリデー新作など)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -2097,12 +2103,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "レイクウォークのランニングクラブ",
+    "item": "Lake Walk の湖畔を走るランニングクラブ",
     "when": "11/13(金)",
     "what": "ランニング会",
-    "where": "Lake Walk"
+    "where": "Lake Walk",
+    "cond": "誰でも参加可"
    },
-   "ja": "レイクウォークのランニングクラブ",
+   "ja": "Lake Walk の湖畔を走るランニングクラブ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -2139,12 +2146,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Safari",
-    "item": "Aggieland Safari の日曜特別企画",
+    "item": "Aggieland Safari の日曜の特別企画",
     "when": "11/15(日)",
-    "what": "サファリの日曜企画",
-    "where": "Aggieland Safa…"
+    "what": "サファリの日曜催し",
+    "where": "Aggieland Safa…",
+    "cond": "サファリ入場料"
    },
-   "ja": "Aggieland Safari の日曜特別企画",
+   "ja": "Aggieland Safari の日曜の特別企画",
    "jaVia": "claude-ev",
    "outing": [
     "動物"
@@ -2180,12 +2188,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Event Ce…",
-    "item": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
-    "when": "11/16(月)〜12/4(金)",
-    "what": "ツリーの展示",
-    "where": "The Kimbell"
+    "item": "The Kimbell に飾り付けたクリスマスツリーが並ぶ",
+    "when": "11/16〜12/4",
+    "what": "ツリーの祭典",
+    "where": "The Kimbell",
+    "cond": "家族で"
    },
-   "ja": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
+   "ja": "The Kimbell に飾り付けたクリスマスツリーが並ぶ",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -28329,13 +28338,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "教会での音楽あそびの会",
+    "item": "ダウンタウンの教会で子供向けの音楽遊び",
     "when": "11/13(金)",
     "cond": "子供向け",
-    "what": "音楽あそび",
+    "what": "親子の音楽遊び",
     "where": "St. Andrew's教会"
    },
-   "ja": "教会での音楽あそびの会",
+   "ja": "ダウンタウンの教会で子供向けの音楽遊び",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -28371,13 +28380,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "ブラゾス郡のファーマーズマーケット(毎週土曜)",
-    "when": "11/14(土)",
-    "what": "ファーマーズ市",
+    "item": "Midtown Park の土曜ファーマーズマーケット",
+    "when": "11/14(土)・毎週土曜",
+    "what": "ファーマーズマーケ…",
     "where": "Midtown Park",
-    "cond": "毎週土曜"
+    "cond": "入場無料"
    },
-   "ja": "ブラゾス郡のファーマーズマーケット(毎週土曜)",
+   "ja": "Midtown Park の土曜ファーマーズマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -28456,13 +28465,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ブライアン中心街のホリデー点灯式「Lights On」",
+    "item": "ブライアン市ダウンタウンのホリデー点灯イベント Lights On",
     "when": "11/20(金) 17時",
-    "cond": "無料",
+    "cond": "家族で",
     "what": "点灯式",
-    "where": "ブライアン中心街"
+    "where": "ダウンタウンBryan"
    },
-   "ja": "ブライアン中心街のホリデー点灯式「Lights On」",
+   "ja": "ブライアン市ダウンタウンのホリデー点灯イベント Lights On",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -50835,11 +50844,11 @@
    "source": "Destination Bryan",
    "posted": "2026-10-27T11:44Z",
    "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-11-08",
+   "expires": "2026-11-15",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-08",
+   "localDate": "2026-11-15",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -50855,13 +50864,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "ミッドタウン公園の日曜マーケット",
-    "when": "11/8(日)",
-    "cond": "毎週日曜",
+    "item": "Midtown Park の日曜マーケット(Rountree Market)",
+    "when": "11/15(日)",
+    "cond": "入場無料",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "ミッドタウン公園の日曜マーケット",
+   "ja": "Midtown Park の日曜マーケット(Rountree Market)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -51733,7 +51742,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-08",
+   "localDate": "2026-11-09",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -51749,13 +51758,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
-    "when": "11/8(日)〜2027/5/16",
-    "what": "米国史の特別展",
-    "where": "ブッシュ大統領図書館",
-    "cond": "入館料あり"
+    "item": "ブッシュ大統領図書館博物館の企画展「E Pluribus Unum」",
+    "when": "〜2027/5/16",
+    "what": "アメリカ史の展示",
+    "where": "Bush図書館博物館",
+    "cond": "博物館の展示"
    },
-   "ja": "ブッシュ大統領図書館・博物館の特別展「E Pluribus Unum」",
+   "ja": "ブッシュ大統領図書館博物館の企画展「E Pluribus Unum」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -61151,6 +61160,48 @@
    "date": "2026-11-11",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "32d4aceeb0f9",
+   "title": "Community Yoga at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/yoga-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-08T23:32Z",
+   "firstSeen": "2026-11-08T23:32Z",
+   "expires": "2026-11-14",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-14",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fitness"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "Lake Walk の屋外コミュニティヨガ",
+    "when": "11/14(土)",
+    "cond": "屋外",
+    "what": "湖畔ヨガ",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walk の屋外コミュニティヨガ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-11-14"
   }
  ]
 }
