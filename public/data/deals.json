@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-09T03:02Z",
- "count": 1775,
+ "updated": "2026-11-09T08:00Z",
+ "count": 1760,
  "stats": {
   "h2s": {
    "read": 100,
@@ -55,11 +55,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 13,
-   "geminiEvent": 1,
-   "mymemory": 0,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest"
+   "gemini": 0,
+   "geminiEvent": 0,
+   "mymemory": 13,
+   "geminiToday": 1,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
@@ -71,7 +72,7 @@
    "source": "Bryan+College Station 図書館",
    "posted": "2026-11-09T01:28Z",
    "firstSeen": "2026-11-09T02:05Z",
-   "expires": "2026-11-15",
+   "expires": null,
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -2273,75 +2274,6 @@
    "date": null
   },
   {
-   "id": "77d49c73548b",
-   "title": "Nike 6-Pack Crew Socks as low as $12, plus more {Today Only!}",
-   "link": "https://moneysavingmom.com/nike-crew-socks-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-08T14:15Z",
-   "firstSeen": "2026-11-08T17:05Z",
-   "expires": "2026-11-08",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Nike-Everyday-Cushioned-Training-Crew-Socks.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ナイキ6パッククルーソックスは$ 12以下、さらに{本日限定！}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "ナイキ6パッククルーソックスは$ 12以下、さらに{本日限定！}",
-    "when": "11/8(日)まで",
-    "cond": ""
-   },
-   "date": "2026-11-08"
-  },
-  {
-   "id": "0e3c7f2bb5ff",
-   "title": "*HOT* 40% off Melissa & Doug Toys at Target {Today Only!}",
-   "link": "https://moneysavingmom.com/hot-40-off-melissa-doug-toys-at-target-today-only/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-08T14:13Z",
-   "firstSeen": "2026-11-08T17:05Z",
-   "expires": "2026-11-08",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Toys-630x626.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "* HOT *ターゲットでメリッサとダグのおもちゃが40%オフ{本日限定！}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "* HOT *ターゲットでメリッサとダグのおもちゃが40%オフ{本日限定！}",
-    "when": "11/8(日)まで",
-    "cond": ""
-   },
-   "date": "2026-11-08",
-   "dup": "9225848778c8"
-  },
-  {
    "id": "a63e133616e4",
    "title": "Save 30% off Threshold and Casaluna Bedding at Target!",
    "link": "https://moneysavingmom.com/threshold-and-casaluna-bedding-deals-at-target/",
@@ -2550,77 +2482,6 @@
    "date": null
   },
   {
-   "id": "db2ef11e31a7",
-   "title": "Women’s Cozy Boots and Mini Boots only $11.99! {Ends Tonight}",
-   "link": "https://moneysavingmom.com/so-paulina-womens-faux-fur-winter-boots-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-08T12:02Z",
-   "firstSeen": "2026-11-09T00:56Z",
-   "expires": "2026-11-08",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/IMG_5178-630x840.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Kohl's",
-    "item": "",
-    "when": "11/8(日)まで",
-    "cond": ""
-   },
-   "date": "2026-11-08"
-  },
-  {
-   "id": "fb51494ff369",
-   "title": "Shake Shack Deals | FREE Chicken Sandwich or Lettuce Wrap w/ $10 Purchase Every Sunday",
-   "link": "https://thefreebieguy.com/shake-shack-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-08T12:00Z",
-   "firstSeen": "2026-11-08T17:05Z",
-   "expires": "2026-11-08",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Shake-Shack-Free-Sandwiches-in-October-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Shake Shack"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Shake Shack",
-    "item": "チキンサンドまたはレタスラップ",
-    "when": "毎週日曜日",
-    "cond": "$10以上購入",
-    "what": "無料サンド",
-    "where": "Shake Shack"
-   },
-   "ja": "チキンサンドまたはレタスラップ",
-   "jaVia": "gemini",
-   "date": "2026-11-08"
-  },
-  {
    "id": "0ea5c3ffc9a1",
    "title": "Dairy Queen Deals | Free Mini Blizzard, Holiday Cookie Swap BLIZZARD Collection, & More!",
    "link": "https://thefreebieguy.com/dairy-queen-deals/",
@@ -2827,48 +2688,6 @@
    "ja": "車＆アプリ3ヶ月無料トライアル",
    "jaVia": "gemini",
    "date": null
-  },
-  {
-   "id": "b11b62a9c25f",
-   "title": "Fall Book Sale at Clara B. Mounce Library (Sunday)",
-   "link": "https://www.destinationbryan.com/events/bryan-college-station-friends-of-the-library-fall-book-sale-sunday/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-07T23:32Z",
-   "firstSeen": "2026-11-07T23:32Z",
-   "expires": "2026-11-08",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-08",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Clara B. Mounce Library",
-    "item": "図書館友の会の秋の古本セール(日曜)",
-    "when": "11/8(日)",
-    "cond": "子供の本も",
-    "what": "古本セール",
-    "where": "Clara B. Mounc…"
-   },
-   "ja": "図書館友の会の秋の古本セール(日曜)",
-   "jaVia": "claude-ev",
-   "outing": [
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-11-08",
-   "freebie": null
   },
   {
    "id": "dd0b1bd4468a",
@@ -4897,45 +4716,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "635e87ff69f9",
-   "title": "Top Weekend Freebies & Deals – Target Free Keychain & Button + Bass Pro Free Plush, & More",
-   "link": "https://thefreebieguy.com/top-weekend-freebies-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T13:00Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": "2026-11-08",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2023/08/Top-Weekend-Freebies-Food-Deals-840x630.png",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Target・Bass Pro",
-    "item": "週末の無料・お得まとめ(Targetキーチェーン、Bass Proぬいぐるみ等)",
-    "when": "11/7〜11/8(週末)",
-    "what": "週末の無料品",
-    "where": "Target・Bass Pro",
-    "cond": "店頭"
-   },
-   "ja": "週末の無料・お得まとめ(Targetキーチェーン、Bass Proぬいぐるみ等)",
-   "jaVia": "claude",
-   "date": "2026-11-07"
   },
   {
    "id": "7c9bff9bc65a",
@@ -8089,44 +7869,6 @@
    "date": null
   },
   {
-   "id": "33bc52b97572",
-   "title": "FREE Small Yankee Candle with Purchase Nov. 7-8th!",
-   "link": "https://moneysavingmom.com/free-large-yankee-candle-with-purchase-on-august-15th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-06T17:18Z",
-   "firstSeen": "2026-11-08T17:05Z",
-   "expires": "2026-11-08",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/08/Screenshot-2026-11-06-at-11.12.51-AM.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-07"
-   },
-   "sum": {
-    "store": "Yankee Candle",
-    "item": "スモールキャンドル",
-    "when": "11/7〜11/8",
-    "cond": "商品購入",
-    "what": "無料キャンドル",
-    "where": "Yankee Candle"
-   },
-   "ja": "スモールキャンドル",
-   "jaVia": "gemini",
-   "date": "2026-11-07",
-   "dup": "fc65a4375da2"
-  },
-  {
    "id": "1e92b85f97bf",
    "title": "FREE QVC Shipping on Any Order (Including Black Friday Sale Items!)",
    "link": "https://hip2save.com/deals/qvc-free-shipping/",
@@ -9755,43 +9497,6 @@
    "date": null
   },
   {
-   "id": "674fc8d6a95f",
-   "title": "Del Taco Deals | Free Nachos w/ Purchase All Weekend",
-   "link": "https://thefreebieguy.com/del-taco-coupon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-06T12:00Z",
-   "firstSeen": "2026-11-06T12:06Z",
-   "expires": "2026-11-08",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Del-Taco-Restaurant-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Del Taco",
-    "item": "購入でナチョス無料",
-    "when": "11/6〜11/8",
-    "cond": "要購入",
-    "what": "無料ナチョス",
-    "where": "Del Taco"
-   },
-   "ja": "購入でナチョス無料",
-   "jaVia": "gemini",
-   "date": "2026-11-06"
-  },
-  {
    "id": "c818bb1316df",
    "title": "The Big One Microfiber Pillows only $2.79!",
    "link": "https://moneysavingmom.com/the-big-one-microfiber-pillows-deal-at-kohls/",
@@ -10479,47 +10184,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "ef4886775122",
-   "title": "Dragon Card Show at the Bryan Ballroom",
-   "link": "https://www.destinationbryan.com/events/dragon-card-show/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-05T23:32Z",
-   "firstSeen": "2026-11-05T23:32Z",
-   "expires": "2026-11-08",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-08",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Bryan Ballroom",
-    "item": "トレカの展示即売会「Dragon Card Show」",
-    "when": "11/8(日)",
-    "what": "カードショー",
-    "where": "Bryan Ballroom"
-   },
-   "ja": "トレカの展示即売会「Dragon Card Show」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-08",
-   "freebie": null
   },
   {
    "id": "657733dfc777",
@@ -12832,43 +12496,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "fc65a4375da2",
-   "title": "FREE Small Yankee Candle w/ Purchase In-Store | November 7-8 Only",
-   "link": "https://thefreebieguy.com/free-yankee-candle/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-05T15:57Z",
-   "firstSeen": "2026-11-05T16:18Z",
-   "expires": "2026-11-08",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Free-Yankee-Candle-Promotion-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-07"
-   },
-   "ja": "Yankee Candle 店頭で購入時に小サイズのキャンドル無料",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Yankee Candle",
-    "item": "Yankee Candle 店頭で購入時に小サイズのキャンドル無料",
-    "when": "11/7(土)〜11/8(日)",
-    "cond": "店頭で購入時",
-    "what": "キャンドル無料",
-    "where": "Yankee Candle"
-   },
-   "date": "2026-11-07"
   },
   {
    "id": "c465c484a081",
@@ -15424,45 +15051,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "8f2a6668e750",
-   "title": "Kroger / Harris Teeter: 4x Fuel Points On Third Party Giftcards (11/7-11/8)",
-   "link": "https://www.doctorofcredit.com/kroger-harris-teeter-stores-4x-fuel-points-on-select-gift-cards-includes-fixed-visa-mc-10-7-10-20/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-04T22:00Z",
-   "firstSeen": "2026-11-04T22:58Z",
-   "expires": "2026-11-08",
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Kroger"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "gift": {
-    "grocery": true
-   },
-   "ja": "他社ギフトカード購入で燃料ポイント4倍(Kroger/Harris Teete…",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Kroger",
-    "item": "他社ギフトカード購入で燃料ポイント4倍(Kroger/Harris Teete…",
-    "when": "11/7〜11/8",
-    "cond": "他社ギフトカード対象",
-    "what": "燃料ポイント4倍",
-    "where": "Kroger"
-   },
-   "date": "2026-11-07"
   },
   {
    "id": "5af0b256c866",
@@ -29190,48 +28778,6 @@
    "freebie": null
   },
   {
-   "id": "5dd5cac6d1b7",
-   "title": "Paint-a-Palooza at Great Escapes RV Park",
-   "link": "https://www.destinationbryan.com/events/paint-a-palooza-26/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-01T23:33Z",
-   "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-08",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-08",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Great Escapes RV Park",
-    "item": "RVパークでのペイント・イベント「Paint-a-Palooza」",
-    "when": "11/8(日)",
-    "cond": "子供向け",
-    "what": "お絵かき催し",
-    "where": "Great Escapes …"
-   },
-   "ja": "RVパークでのペイント・イベント「Paint-a-Palooza」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外"
-   ],
-   "family": true,
-   "date": "2026-11-08",
-   "freebie": null
-  },
-  {
    "id": "74bb372cab83",
    "title": "Lights On presented by Frost Bank",
    "link": "https://events.bryantx.gov/default/Detail/2026-11-20-1700-Lights-On-Presented-by-Frost-Bank",
@@ -38729,48 +38275,6 @@
    "date": null
   },
   {
-   "id": "d025729bc21e",
-   "title": "Fall Book Sale at Clara B. Mounce Library",
-   "link": "https://www.destinationbryan.com/events/bryan-college-station-friends-of-the-library-fall-book-sale-saturday/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-30T11:43Z",
-   "firstSeen": "2026-10-30T11:43Z",
-   "expires": "2026-11-08",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-07",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Clara B. Mounce Library",
-    "item": "図書館友の会の秋の古本セール(土・日)",
-    "when": "11/7(土)〜11/8(日)",
-    "cond": "子供の本も",
-    "what": "古本セール",
-    "where": "Clara B. Mounc…"
-   },
-   "ja": "図書館友の会の秋の古本セール(土・日)",
-   "jaVia": "claude-ev",
-   "outing": [
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-11-07",
-   "freebie": null
-  },
-  {
    "id": "901bc809055a",
    "title": "Restocked! Jumbo Strawberry Squishy Only $5.xx on Amazon",
    "link": "https://thefreebieguy.com/sunny-days-strawberry-squishy/",
@@ -41159,47 +40663,6 @@
    },
    "date": null,
    "dup": "5a9f11bee4e8"
-  },
-  {
-   "id": "56efa0daaff1",
-   "title": "Find your next great read at the Friends of the Library Book Sale Nov. 6-8",
-   "link": "https://blog.cstx.gov/2026/10/29/find-your-next-great-read-at-the-friends-of-the-library-book-sale-nov-6-8/",
-   "source": "カレッジステーション市",
-   "posted": "2026-10-29T16:24Z",
-   "firstSeen": "2026-10-29T17:05Z",
-   "expires": "2026-11-08",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "子供向け"
-   ],
-   "family": true,
-   "localDate": "2026-11-06",
-   "freebie": null,
-   "ja": "CS図書館の友の会・古本セール",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "CS Library",
-    "item": "CS図書館の友の会・古本セール",
-    "when": "11/6(金)〜11/8(日)",
-    "cond": "",
-    "what": "図書館の古本セール",
-    "where": "CS図書館"
-   },
-   "date": "2026-11-06"
   },
   {
    "id": "f91ccaae5cc4",
@@ -60919,40 +60382,6 @@
    "sum": {
     "store": "Amazon",
     "item": "2つのリッツフレッシュスタックバラエティ6 - Amazonでわずか$ 5.xx |おいしい！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "dfa30d09ad47",
-   "title": "Gift Guide: 20 Great Gift Ideas for Fashionistas",
-   "link": "https://momswhosave.com/gift-guide-20-great-gift-ideas-for-fashionistas/",
-   "source": "Moms Who Save",
-   "posted": "2026-10-25T07:41Z",
-   "firstSeen": "2026-10-26T03:50Z",
-   "expires": null,
-   "thumb": "https://momswhosave.com/wp-content/uploads/2019/12/Fashionista-Gift-Guide.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ギフトガイド：ファッショニスタのための20の素晴らしいギフトのアイデア",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ギフトガイド：ファッショニスタのための20の素晴らしいギフトのアイデア",
     "when": "",
     "cond": ""
    },
