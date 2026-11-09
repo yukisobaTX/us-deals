@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-09T02:05Z",
- "count": 1776,
+ "updated": "2026-11-09T03:02Z",
+ "count": 1775,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
-   "added": 15
+   "added": 14
   },
   "doc": {
    "read": 15,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -40,7 +40,7 @@
   },
   "bcslib": {
    "read": 10,
-   "added": 1
+   "added": 0
   },
   "sporked": {
    "read": 12,
@@ -56,9 +56,9 @@
   },
   "ja": {
    "gemini": 13,
-   "geminiEvent": 0,
-   "mymemory": 2,
-   "geminiToday": 6,
+   "geminiEvent": 1,
+   "mymemory": 0,
+   "geminiToday": 8,
    "model": "gemini-flash-latest"
   }
  },
@@ -71,7 +71,7 @@
    "source": "Bryan+College Station 図書館",
    "posted": "2026-11-09T01:28Z",
    "firstSeen": "2026-11-09T02:05Z",
-   "expires": null,
+   "expires": "2026-11-15",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -93,13 +93,15 @@
    "family": true,
    "localDate": "2026-11-15",
    "freebie": null,
-   "ja": "ファミリー向けの新機能： Kanopy Kidsが11月15日に登場！",
-   "jaVia": "mymemory",
+   "ja": "子供向け動画配信「Kanopy Kids」開始",
+   "jaVia": "gemini-ev",
    "sum": {
     "store": "",
-    "item": "ファミリー向けの新機能： Kanopy Kidsが11月15日に登場！",
-    "when": "11/15(日)",
-    "cond": ""
+    "item": "子供向け動画配信「Kanopy Kids」開始",
+    "when": "11/15〜",
+    "cond": "無料(図書カード要)・2〜8歳向け",
+    "what": "動画配信開始",
+    "where": "オンライン"
    },
    "date": "2026-11-15"
   },
@@ -60951,40 +60953,6 @@
    "sum": {
     "store": "Amazon",
     "item": "ギフトガイド：ファッショニスタのための20の素晴らしいギフトのアイデア",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "2850fbebbd8f",
-   "title": "Disney Movie Throw Blanket w/ VHS Gift Box Just $19.98 on SamsClub.com (May Sell Out)",
-   "link": "https://hip2save.com/deals/disney-throw-blanket/",
-   "source": "Hip2Save",
-   "posted": "2026-10-25T02:10Z",
-   "firstSeen": "2026-10-25T02:46Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Toy-Story-VHS-Blanket.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "SamsClub.comでわずか$ 19.98のVHSギフトボックス付きディズニー映画スローブランケット（売り切れの可能性あり）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "SamsClub.comでわずか$ 19.98のVHSギフトボックス付きディズニー映画スローブランケット（売り切れの可能性あり）",
     "when": "",
     "cond": ""
    },
