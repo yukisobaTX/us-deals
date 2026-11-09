@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-09T00:56Z",
- "count": 1773,
+ "updated": "2026-11-09T02:05Z",
+ "count": 1776,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 7
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -20,15 +20,15 @@
   },
   "msm": {
    "read": 75,
-   "added": 8
+   "added": 7
   },
   "tfg": {
    "read": 40,
-   "added": 10
+   "added": 1
   },
   "mws": {
    "read": 20,
-   "added": 2
+   "added": 1
   },
   "wtaw": {
    "read": 20,
@@ -40,7 +40,7 @@
   },
   "bcslib": {
    "read": 10,
-   "added": 0
+   "added": 1
   },
   "sporked": {
    "read": 12,
@@ -57,13 +57,86 @@
   "ja": {
    "gemini": 13,
    "geminiEvent": 0,
-   "mymemory": 12,
-   "geminiToday": 4,
+   "mymemory": 2,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "e3fc568e669b",
+   "title": "New for Families: Kanopy Kids Launches November 15!",
+   "link": "https://www.bcslibrary.org/new-for-families-kanopy-kids-launches-november-15/",
+   "source": "Bryan+College Station 図書館",
+   "posted": "2026-11-09T01:28Z",
+   "firstSeen": "2026-11-09T02:05Z",
+   "expires": null,
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "子供向け"
+   ],
+   "family": true,
+   "localDate": "2026-11-15",
+   "freebie": null,
+   "ja": "ファミリー向けの新機能： Kanopy Kidsが11月15日に登場！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ファミリー向けの新機能： Kanopy Kidsが11月15日に登場！",
+    "when": "11/15(日)",
+    "cond": ""
+   },
+   "date": "2026-11-15"
+  },
+  {
+   "id": "69e599c1649c",
+   "title": "Mini Sticker Printer only $8.xx on Amazon!",
+   "link": "https://thefreebieguy.com/mini-sticker-printer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-09T01:06Z",
+   "firstSeen": "2026-11-09T02:05Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Printer-_20261108_195648_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ミニステッカープリンターはAmazonで$ 8.xxのみ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ミニステッカープリンターはAmazonで$ 8.xxのみ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "431bbf819012",
    "title": "Operation Scooby-Doo Game Just $19.xx on Amazon (Reg $40)",
@@ -96,8 +169,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "84dff8544212",
-   "date": null
+   "date": null,
+   "dup": "84dff8544212"
   },
   {
    "id": "493c24f83cfb",
@@ -131,8 +204,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ccc88c85755b",
-   "date": null
+   "date": null,
+   "dup": "ccc88c85755b"
   },
   {
    "id": "75b9e2772fd3",
@@ -349,8 +422,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4f5e01156d4c",
-   "date": null
+   "date": null,
+   "dup": "4f5e01156d4c"
   },
   {
    "id": "ff0f57df4996",
@@ -452,8 +525,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "dafd3759d1b2",
-   "date": null
+   "date": null,
+   "dup": "dafd3759d1b2"
   },
   {
    "id": "b464f0b89a2a",
@@ -651,7 +724,39 @@
     "when": "",
     "cond": ""
    },
-   "dup": "53105def781a",
+   "date": null,
+   "dup": "53105def781a"
+  },
+  {
+   "id": "b3003bffb8a8",
+   "title": "Score OVER $200 Worth of Men’s Amazon Clothing for Just $25.95 Shipped",
+   "link": "https://hip2save.com/deals/woot-clothing/",
+   "source": "Hip2Save",
+   "posted": "2026-11-08T21:30Z",
+   "firstSeen": "2026-11-09T02:05Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/amazon-essentials-mens-clothing.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
    "date": null
   },
   {
@@ -2649,8 +2754,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "769a8ab69446",
-   "date": null
+   "date": null,
+   "dup": "769a8ab69446"
   },
   {
    "id": "7f96dd4aad5c",
@@ -33089,8 +33194,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "81b189d8cd80"
+   "date": null
   },
   {
    "id": "674d4cc5a765",
@@ -39105,8 +39209,7 @@
     "item": "Cottonelleウルトラソフトトイレットペーパー32ファミリーメガロールAmazonで$ 22.xx （登録番号： $ 35 ）",
     "when": "",
     "cond": ""
-   },
-   "dup": "a4daabafc846"
+   }
   },
   {
    "id": "8df80526f3e9",
@@ -60511,8 +60614,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "303f53bc00bc"
+   "date": null
   },
   {
    "id": "1118da938978",
