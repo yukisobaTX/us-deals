@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-09T18:50Z",
- "count": 1759,
+ "count": 1761,
  "stats": {
   "h2s": {
    "read": 100,
@@ -159,13 +159,15 @@
     "when": null,
     "bogo": true
    },
-   "ja": "受信トレイでBOGO Free Nothing Bundt Cakesのプロモーションコードを確認してください",
-   "jaVia": "mymemory",
+   "ja": "Nothing Bundt Cakes のBOGOコードがメールに届くかも",
+   "jaVia": "claude",
    "sum": {
     "store": "Nothing Bundt Cakes",
-    "item": "受信トレイでBOGO Free Nothing Bundt Cakesのプロモーションコードを確認してください",
+    "item": "Nothing Bundt Cakes のBOGOコードがメールに届くかも",
     "when": "",
-    "cond": "コード入力"
+    "cond": "受信メールのコード",
+    "what": "BOGOケーキ",
+    "where": "Nothing Bundt …"
    },
    "date": null
   },
@@ -258,13 +260,15 @@
     "kind": "store",
     "when": "2026-11-13"
    },
-   "ja": "無料のああスナップ！ 11月13日から始まるピクルス–最初の5,000個！",
-   "jaVia": "mymemory",
+   "ja": "OH SNAP! ピクルスが先着5,000名に無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "無料のああスナップ！ 11月13日から始まるピクルス–最初の5,000個！",
-    "when": "11/13(金)",
-    "cond": "先着5,000名"
+    "store": "OH SNAP!",
+    "item": "OH SNAP! ピクルスが先着5,000名に無料",
+    "when": "11/13(金)〜",
+    "cond": "先着5,000名",
+    "what": "無料ピクルス",
+    "where": "OH SNAP!"
    },
    "date": "2026-11-13"
   },
@@ -325,13 +329,15 @@
     "kind": "coupon",
     "when": "2026-11-13"
    },
-   "ja": "11月13日のBoxLunchで購入したKyogreプロモーションポケモンカードが無料！",
-   "jaVia": "mymemory",
+   "ja": "BoxLunch で購入するとカイオーガのポケモンカード無料",
+   "jaVia": "claude",
    "sum": {
     "store": "BoxLunch",
-    "item": "11月13日のBoxLunchで購入したKyogreプロモーションポケモンカードが無料！",
+    "item": "BoxLunch で購入するとカイオーガのポケモンカード無料",
     "when": "11/13(金)",
-    "cond": "購入時"
+    "cond": "購入時",
+    "what": "カイオーガカード",
+    "where": "BoxLunch"
    },
    "date": "2026-11-13"
   },
@@ -426,13 +432,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Charminトイレットペーパー備蓄セール：基本的に30ロールが無料で手に入ります！",
-   "jaVia": "mymemory",
+   "ja": "Charmin トイレットペーパーのまとめ買い(実質30ロール無料)",
+   "jaVia": "claude",
    "sum": {
     "store": "Amazon",
-    "item": "Charminトイレットペーパー備蓄セール：基本的に30ロールが無料で手に入ります！",
+    "item": "Charmin トイレットペーパーのまとめ買い(実質30ロール無料)",
     "when": "",
-    "cond": ""
+    "cond": "まとめ買い",
+    "what": "Charmin30…",
+    "where": "Amazon"
    },
    "date": null
   },
@@ -532,13 +540,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Arm & HammerのSimply Cool 3パックを無料で手に入れよう！",
-   "jaVia": "mymemory",
+   "ja": "Arm & Hammer Simply Cool 3個入りの無料お試し",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "Arm & HammerのSimply Cool 3パックを無料で手に入れよう！",
+    "store": "Arm & Hammer",
+    "item": "Arm & Hammer Simply Cool 3個入りの無料お試し",
     "when": "",
-    "cond": ""
+    "cond": "応募制",
+    "what": "無料お試し",
+    "where": "Arm & Hammer"
    },
    "date": null
   },
@@ -603,13 +613,15 @@
     "when": "2026-11-13",
     "bogo": true
    },
-   "ja": "復活！ 11月13日に無料チポトレをプレゼント（タトゥーを見せるだけ！ ）",
-   "jaVia": "mymemory",
+   "ja": "Chipotle でタトゥーを見せるとBOGO無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Chipotle",
-    "item": "復活！ 11月13日に無料チポトレをプレゼント（タトゥーを見せるだけ！ ）",
+    "item": "Chipotle でタトゥーを見せるとBOGO無料",
     "when": "11/13(金)",
-    "cond": ""
+    "cond": "タトゥー提示",
+    "what": "BOGOメイン",
+    "where": "Chipotle"
    },
    "date": "2026-11-13"
   },
@@ -764,13 +776,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "グレートウルフロッジ・アーリーブラックフライデーセール：料金は$ 89から！",
-   "jaVia": "mymemory",
+   "ja": "Great Wolf Lodge の早期ブラックフライデーセール($89〜)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "グレートウルフロッジ・アーリーブラックフライデーセール：料金は$ 89から！",
+    "store": "Great Wolf Lodge",
+    "item": "Great Wolf Lodge の早期ブラックフライデーセール($89〜)",
     "when": "",
-    "cond": ""
+    "cond": "宿泊料金",
+    "what": "$89〜宿泊",
+    "where": "Great Wolf Lod…"
    },
    "date": null
   },
@@ -867,13 +881,15 @@
     "when": "2026-11-13",
     "bogo": true
    },
-   "ja": "チポトレのお買い得情報| 11月13日に初参加！",
-   "jaVia": "mymemory",
+   "ja": "Chipotle でメイン料理が1つ買うと1つ無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Chipotle",
-    "item": "チポトレのお買い得情報| 11月13日に初参加！",
+    "item": "Chipotle でメイン料理が1つ買うと1つ無料",
     "when": "11/13(金)",
-    "cond": ""
+    "cond": "",
+    "what": "BOGOメイン",
+    "where": "Chipotle"
    },
    "date": "2026-11-13"
   },
@@ -1162,13 +1178,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "サムズクラブのカウントダウンからブラックフライデーセールが11月15日に開始（今すぐお得に購入！ ）",
-   "jaVia": "mymemory",
+   "ja": "Sam's Club ブラックフライデーのカウントダウンセール",
+   "jaVia": "claude",
    "sum": {
     "store": "Sam's Club",
-    "item": "サムズクラブのカウントダウンからブラックフライデーセールが11月15日に開始（今すぐお得に購入！ ）",
-    "when": "",
-    "cond": ""
+    "item": "Sam's Club ブラックフライデーのカウントダウンセール",
+    "when": "11/15〜",
+    "cond": "今も即時割引あり",
+    "what": "BF先行セール",
+    "where": "Sam's Club"
    },
    "date": null
   },
@@ -1323,13 +1341,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "Kohl'sブラックフライデーセール予告|寝具、おもちゃ、装飾などが最大70%オフ",
-   "jaVia": "mymemory",
+   "ja": "Kohl's ブラックフライデー予告(寝具・おもちゃ等最大70%オフ)",
+   "jaVia": "claude",
    "sum": {
     "store": "Kohl's",
-    "item": "Kohl'sブラックフライデーセール予告|寝具、おもちゃ、装飾などが最大70%オフ",
+    "item": "Kohl's ブラックフライデー予告(寝具・おもちゃ等最大70%オフ)",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "最大70%オフ",
+    "where": "Kohl's"
    },
    "date": null
   },
@@ -2144,13 +2164,15 @@
     "kind": "coupon",
     "when": "2026-11-16"
    },
-   "ja": "バターボール感謝祭プレゼント！ 11月16日に無料のバターボールバディを獲得しましょう！",
-   "jaVia": "mymemory",
+   "ja": "Butterball 感謝祭プレゼントで「Butterball Buddy」無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "バターボール感謝祭プレゼント！ 11月16日に無料のバターボールバディを獲得しましょう！",
+    "store": "Butterball",
+    "item": "Butterball 感謝祭プレゼントで「Butterball Buddy」無料",
     "when": "11/16(月)",
-    "cond": ""
+    "cond": "",
+    "what": "無料ぬいぐるみ",
+    "where": "Butterball"
    },
    "date": "2026-11-16"
   },
@@ -2411,11 +2433,15 @@
    "freebie": null,
    "sum": {
     "store": "McDonald's",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "item": "McDonald's×ポケモンの限定ハッピーセット発売",
+    "when": "11/10(火)",
+    "cond": "ハッピーセット購入",
+    "what": "ハッピーセット",
+    "where": "McDonald's"
    },
-   "date": null
+   "date": null,
+   "ja": "McDonald's×ポケモンの限定ハッピーセット発売",
+   "jaVia": "claude"
   },
   {
    "id": "27ab82abbb99",
@@ -2511,13 +2537,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "お子様がサンタクロースと呼べる：無料です！",
-   "jaVia": "mymemory",
+   "ja": "子供がサンタクロースと無料で電話できるサービス",
+   "jaVia": "claude",
    "sum": {
     "store": "",
-    "item": "お子様がサンタクロースと呼べる：無料です！",
+    "item": "子供がサンタクロースと無料で電話できるサービス",
     "when": "",
-    "cond": "子ども向け"
+    "cond": "子供向け・無料",
+    "what": "サンタと電話",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -2551,13 +2579,13 @@
    "localDate": "2026-11-15",
    "freebie": null,
    "ja": "子供向け動画配信「Kanopy Kids」開始",
-   "jaVia": "gemini-ev",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "",
+    "store": "Kanopy",
     "item": "子供向け動画配信「Kanopy Kids」開始",
     "when": "11/15〜",
     "cond": "無料(図書カード要)・2〜8歳向け",
-    "what": "動画配信開始",
+    "what": "子供動画配信",
     "where": "オンライン"
    },
    "date": "2026-11-15"
@@ -2802,7 +2830,7 @@
     "item": "Lake Walk の屋外コミュニティヨガ",
     "when": "11/14(土)",
     "cond": "屋外",
-    "what": "湖畔ヨガ",
+    "what": "屋外ヨガ",
     "where": "Lake Walk"
    },
    "ja": "Lake Walk の屋外コミュニティヨガ",
@@ -5172,13 +5200,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walk の湖畔を走るランニングクラブ",
+    "item": "Lake Walk のランニングクラブ(毎週金曜)",
     "when": "11/13(金)",
     "what": "ランニング会",
     "where": "Lake Walk",
     "cond": "誰でも参加可"
    },
-   "ja": "Lake Walk の湖畔を走るランニングクラブ",
+   "ja": "Lake Walk のランニングクラブ(毎週金曜)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -5215,13 +5243,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Safari",
-    "item": "Aggieland Safari の日曜の特別企画",
+    "item": "Aggieland Safari の日曜イベント(フットボール企画)",
     "when": "11/15(日)",
-    "what": "サファリの日曜催し",
+    "what": "サファリの日曜企画",
     "where": "Aggieland Safa…",
-    "cond": "サファリ入場料"
+    "cond": "入園料要"
    },
-   "ja": "Aggieland Safari の日曜の特別企画",
+   "ja": "Aggieland Safari の日曜イベント(フットボール企画)",
    "jaVia": "claude-ev",
    "outing": [
     "動物"
@@ -5257,13 +5285,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Event Ce…",
-    "item": "The Kimbell に飾り付けたクリスマスツリーが並ぶ",
+    "item": "The Kimbell のクリスマスツリー展示「Festival of Tre…",
     "when": "11/16〜12/4",
-    "what": "ツリーの祭典",
+    "what": "ツリー展示",
     "where": "The Kimbell",
     "cond": "家族で"
    },
-   "ja": "The Kimbell に飾り付けたクリスマスツリーが並ぶ",
+   "ja": "The Kimbell のクリスマスツリー展示「Festival of Tre…",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -31175,13 +31203,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "ダウンタウンの教会で子供向けの音楽遊び",
+    "item": "St. Andrew's 教会の子供向け音楽遊び",
     "when": "11/13(金)",
     "cond": "子供向け",
-    "what": "親子の音楽遊び",
+    "what": "子供の音楽遊び",
     "where": "St. Andrew's教会"
    },
-   "ja": "ダウンタウンの教会で子供向けの音楽遊び",
+   "ja": "St. Andrew's 教会の子供向け音楽遊び",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -31217,13 +31245,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Midtown Park の土曜ファーマーズマーケット",
-    "when": "11/14(土)・毎週土曜",
-    "what": "ファーマーズマーケ…",
+    "item": "Midtown Park のファーマーズマーケット(毎週土曜)",
+    "when": "11/14(土)",
+    "what": "ファーマーズ市",
     "where": "Midtown Park",
-    "cond": "入場無料"
+    "cond": "毎週土曜"
    },
-   "ja": "Midtown Park の土曜ファーマーズマーケット",
+   "ja": "Midtown Park のファーマーズマーケット(毎週土曜)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -54089,7 +54117,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-09",
+   "localDate": "2026-11-10",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -54105,13 +54133,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館博物館の企画展「E Pluribus Unum」",
+    "item": "ブッシュ大統領図書館の米国史特別展「E Pluribus Unum」",
     "when": "〜2027/5/16",
-    "what": "アメリカ史の展示",
-    "where": "Bush図書館博物館",
+    "what": "博物館の特別展",
+    "where": "ブッシュ図書館博物館",
     "cond": "博物館の展示"
    },
-   "ja": "ブッシュ大統領図書館博物館の企画展「E Pluribus Unum」",
+   "ja": "ブッシュ大統領図書館の米国史特別展「E Pluribus Unum」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -60468,6 +60496,84 @@
    "date": "2026-11-11",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "2f0c5e2e4154",
+   "title": "Arsenic and Old Lace at Brazos Valley Troupe (Matinee)",
+   "link": "https://www.destinationbryan.com/events/arsenic-and-old-lace-at-brazos-valley-troupe/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-09T23:32Z",
+   "firstSeen": "2026-11-09T23:32Z",
+   "expires": "2026-11-15",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-15",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Brazos Valley Troupe",
+    "item": "地元劇団の喜劇「毒薬と老嬢」昼公演",
+    "when": "11/15(日) 昼",
+    "cond": "有料",
+    "what": "喜劇の昼公演",
+    "where": "Brazos Valley …"
+   },
+   "ja": "地元劇団の喜劇「毒薬と老嬢」昼公演",
+   "jaVia": "claude-ev",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "bfa755d60ce5",
+   "title": "Lights On! In Historic Downtown Bryan",
+   "link": "https://www.destinationbryan.com/events/lights-on-in-historic-downtown-bryan/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-09T23:32Z",
+   "firstSeen": "2026-11-09T23:32Z",
+   "expires": "2026-11-20",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-20",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Historic Downtown Bryan",
+    "item": "ダウンタウン Bryan のホリデー点灯イベント「Lights On!」",
+    "when": "11/20(金) 17時〜",
+    "cond": "家族向け",
+    "what": "点灯式",
+    "where": "ダウンタウンBryan"
+   },
+   "ja": "ダウンタウン Bryan のホリデー点灯イベント「Lights On!」",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-20"
   }
  ]
 }
