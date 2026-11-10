@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-10T23:25Z",
- "count": 1715,
+ "count": 1717,
  "stats": {
   "h2s": {
    "read": 100,
@@ -358,13 +358,14 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ブラックフライデー作戦帳をゲット！ （無料ダウンロード）",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデー攻略ガイドの無料ダウンロード",
+   "jaVia": "claude",
    "sum": {
     "store": "",
-    "item": "ブラックフライデー作戦帳をゲット！ （無料ダウンロード）",
+    "item": "ブラックフライデー攻略ガイドの無料ダウンロード",
     "when": "",
-    "cond": ""
+    "cond": "ダウンロード",
+    "what": "BF攻略本無料"
    },
    "date": null
   },
@@ -630,13 +631,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "ファイブ・ビロー・ブラックフライデーセール！ 11月14日からドアバスターズ（ NeeDohカレンダーを含む）",
-   "jaVia": "mymemory",
+   "ja": "Five Below のブラックフライデー目玉商品(NeeDoh カレンダー等)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "ファイブ・ビロー・ブラックフライデーセール！ 11月14日からドアバスターズ（ NeeDohカレンダーを含む）",
-    "when": "",
-    "cond": ""
+    "store": "Five Below",
+    "item": "Five Below のブラックフライデー目玉商品(NeeDoh カレンダー等)",
+    "when": "11/14〜",
+    "cond": "店頭・数量限定",
+    "what": "BF目玉セール",
+    "where": "Five Below"
    },
    "date": null
   },
@@ -734,13 +737,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "マイケルズがブラックフライデーに無料でアドベントカレンダーをプレゼント（+ 10,000 $獲得可能！ ）",
-   "jaVia": "mymemory",
+   "ja": "Michaels がブラックフライデーにアドベントカレンダーを無料配布",
+   "jaVia": "claude",
    "sum": {
     "store": "Michaels",
-    "item": "マイケルズがブラックフライデーに無料でアドベントカレンダーをプレゼント（+ 10,000 $獲得可能！ ）",
-    "when": "",
-    "cond": ""
+    "item": "Michaels がブラックフライデーにアドベントカレンダーを無料配布",
+    "when": "11/27(金)",
+    "cond": "店頭・数量限定",
+    "what": "無料アドベント暦",
+    "where": "Michaels"
    },
    "date": null
   },
@@ -807,13 +812,14 @@
    },
    "sum": {
     "store": "Instacart",
-    "item": "七面鳥（ターキー）",
+    "item": "Instacart の無料七面鳥キャンペーン",
     "when": "11/18〜",
-    "what": "無料七面鳥",
-    "where": "Instacart"
+    "what": "無料ターキー",
+    "where": "Instacart",
+    "cond": "先着・条件あり"
    },
-   "ja": "七面鳥（ターキー）",
-   "jaVia": "gemini",
+   "ja": "Instacart の無料七面鳥キャンペーン",
+   "jaVia": "claude",
    "date": "2026-11-18"
   },
   {
@@ -1046,13 +1052,13 @@
    },
    "sum": {
     "store": "Amazon",
-    "item": "$200ギフトカード",
-    "cond": "クレカ審査承認",
-    "what": "無料ギフト券",
+    "item": "Amazon Visa カード承認で $200 ギフトカード",
+    "cond": "カード審査通過",
+    "what": "$200カード付与",
     "where": "Amazon"
    },
-   "ja": "$200ギフトカード",
-   "jaVia": "gemini",
+   "ja": "Amazon Visa カード承認で $200 ギフトカード",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1278,14 +1284,14 @@
    },
    "sum": {
     "store": "Instacart",
-    "item": "七面鳥（最大$40相当）",
+    "item": "Instacart が最大$40相当の七面鳥を5万羽無料配布",
     "when": "11/18〜",
-    "cond": "先着5万名",
-    "what": "無料七面鳥",
+    "cond": "先着5万・条件あり",
+    "what": "無料ターキー",
     "where": "Instacart"
    },
-   "ja": "七面鳥（最大$40相当）",
-   "jaVia": "gemini",
+   "ja": "Instacart が最大$40相当の七面鳥を5万羽無料配布",
+   "jaVia": "claude",
    "date": "2026-11-18"
   },
   {
@@ -1639,14 +1645,15 @@
     "when": "2026-11-13"
    },
    "sum": {
-    "store": "LEGO",
-    "item": "レゴのトナカイ無料組み立て",
-    "when": "11/13",
-    "what": "無料レゴ",
-    "where": "LEGO Store"
+    "store": "LEGO Store",
+    "item": "LEGO ストアで無料のトナカイ作り",
+    "when": "11/13(金)",
+    "what": "レゴ工作無料",
+    "where": "LEGO Store",
+    "cond": "店頭・子供向け"
    },
-   "ja": "レゴのトナカイ無料組み立て",
-   "jaVia": "gemini",
+   "ja": "LEGO ストアで無料のトナカイ作り",
+   "jaVia": "claude",
    "date": "2026-11-13"
   },
   {
@@ -3350,11 +3357,14 @@
    },
    "sum": {
     "store": "",
-    "item": "",
+    "item": "クリスマス向け割引ギフトカードまとめ",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "割引ギフトカード"
    },
-   "date": null
+   "date": null,
+   "ja": "クリスマス向け割引ギフトカードまとめ",
+   "jaVia": "claude"
   },
   {
    "id": "784b934c471a",
@@ -3582,12 +3592,13 @@
    },
    "sum": {
     "store": "Walmart",
-    "item": "$31相当が$8.98＆送料無料",
-    "what": "ビューティーBOX",
-    "where": "Walmart"
+    "item": "Walmart の $31 相当ビューティーボックスが $8.98・送料無料",
+    "what": "$8.98美容箱",
+    "where": "Walmart",
+    "cond": "オンライン"
    },
-   "ja": "$31相当が$8.98＆送料無料",
-   "jaVia": "gemini",
+   "ja": "Walmart の $31 相当ビューティーボックスが $8.98・送料無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -3985,12 +3996,13 @@
    },
    "sum": {
     "store": "Dairy Queen",
-    "item": "アイス小$1＋ブリザード無料",
-    "what": "無料アイス",
-    "where": "Dairy Queen"
+    "item": "Dairy Queen の $1 ディップコーンと無料ブリザード",
+    "what": "$1コーン",
+    "where": "Dairy Queen",
+    "cond": "アプリ特典"
    },
-   "ja": "アイス小$1＋ブリザード無料",
-   "jaVia": "gemini",
+   "ja": "Dairy Queen の $1 ディップコーンと無料ブリザード",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -4317,13 +4329,13 @@
    },
    "sum": {
     "store": "Estée Lauder",
-    "item": "香水サンプルが無料",
-    "cond": "抽選・可能性あり",
-    "what": "無料サンプル",
-    "where": "オンライン"
+    "item": "Estée Lauder「Glimmer」香水の無料サンプル(当たれば)",
+    "cond": "申込制・在庫次第",
+    "what": "香水サンプル",
+    "where": "Estée Lauder"
    },
-   "ja": "香水サンプルが無料",
-   "jaVia": "gemini",
+   "ja": "Estée Lauder「Glimmer」香水の無料サンプル(当たれば)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -4391,13 +4403,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ダウンタウン Bryan のホリデー点灯イベント「Lights On!」",
-    "when": "11/20(金) 17時〜",
-    "cond": "家族向け",
+    "item": "ダウンタウン・ブライアンのクリスマス点灯式",
+    "when": "11/20(金) 17時",
+    "cond": "入場無料",
     "what": "点灯式",
     "where": "ダウンタウンBryan"
    },
-   "ja": "ダウンタウン Bryan のホリデー点灯イベント「Lights On!」",
+   "ja": "ダウンタウン・ブライアンのクリスマス点灯式",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -4468,15 +4480,15 @@
    "family": true,
    "localDate": "2026-12-05",
    "freebie": null,
-   "ja": "ホリデー家族ランイベント「Jingle Bell Fun Run」",
-   "jaVia": "gemini-ev",
+   "ja": "CS の冬祭り開幕イベント「Jingle Bell Fun Run」",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "Post Oak Mall to Stephen C. Beachy Central Park",
-    "item": "ホリデー家族ランイベント「Jingle Bell Fun Run」",
-    "when": "12/5(土) 15:30〜",
-    "cond": "家族向け",
-    "what": "クリスマスラン",
-    "where": "カレッジステーション"
+    "store": "College Station",
+    "item": "CS の冬祭り開幕イベント「Jingle Bell Fun Run」",
+    "when": "12/5(土)",
+    "cond": "家族で参加可",
+    "what": "ジングルラン",
+    "where": "CS"
    },
    "date": "2026-12-05"
   },
@@ -4968,13 +4980,14 @@
    },
    "sum": {
     "store": "Apple TV",
-    "item": "感謝祭アニメが無料",
-    "when": "11/14-15",
-    "what": "無料アニメ視聴",
-    "where": "Apple TV"
+    "item": "「チャーリー・ブラウンの感謝祭」を Apple TV で無料視聴",
+    "when": "11/14〜11/15",
+    "what": "スヌーピー無料",
+    "where": "Apple TV",
+    "cond": "配信"
    },
-   "ja": "感謝祭アニメが無料",
-   "jaVia": "gemini",
+   "ja": "「チャーリー・ブラウンの感謝祭」を Apple TV で無料視聴",
+   "jaVia": "claude",
    "date": "2026-11-14"
   },
   {
@@ -5231,14 +5244,14 @@
    },
    "sum": {
     "store": "Chipotle",
-    "item": "バッグ持参でメインBOGO",
-    "when": "11/13 15〜16時",
-    "cond": "要指定バッグ",
-    "what": "BOGOメイン",
+    "item": "Chipotle のタトゥー企画で主菜 BOGO",
+    "when": "11/13(金) 15〜16時",
+    "cond": "Chipotle袋のタトゥー提示",
+    "what": "BOGO主菜",
     "where": "Chipotle"
    },
-   "ja": "バッグ持参でメインBOGO",
-   "jaVia": "gemini",
+   "ja": "Chipotle のタトゥー企画で主菜 BOGO",
+   "jaVia": "claude",
    "date": "2026-11-13"
   },
   {
@@ -5778,14 +5791,14 @@
     "when": "2026-11-13",
     "bogo": true
    },
-   "ja": "メインBOGO",
-   "jaVia": "gemini",
+   "ja": "Chipotle の主菜1つ買うと1つ無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Chipotle",
-    "item": "メインBOGO",
-    "when": "11/13",
-    "cond": "",
-    "what": "BOGOメイン",
+    "item": "Chipotle の主菜1つ買うと1つ無料",
+    "when": "11/13(金)",
+    "cond": "条件は記事参照",
+    "what": "BOGO主菜",
     "where": "Chipotle"
    },
    "date": "2026-11-13"
@@ -8109,7 +8122,7 @@
     "store": "Lake Walk",
     "item": "Lake Walk の屋外コミュニティヨガ",
     "when": "11/14(土)",
-    "cond": "屋外",
+    "cond": "誰でも参加可",
     "what": "屋外ヨガ",
     "where": "Lake Walk"
    },
@@ -10523,13 +10536,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Safari",
-    "item": "Aggieland Safari の日曜イベント(フットボール企画)",
+    "item": "Aggieland Safari の日曜スペシャル企画",
     "when": "11/15(日)",
-    "what": "サファリの日曜企画",
+    "what": "サファリ日曜企画",
     "where": "Aggieland Safa…",
-    "cond": "入園料要"
+    "cond": "入園料"
    },
-   "ja": "Aggieland Safari の日曜イベント(フットボール企画)",
+   "ja": "Aggieland Safari の日曜スペシャル企画",
    "jaVia": "claude-ev",
    "outing": [
     "動物"
@@ -10565,13 +10578,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Event Ce…",
-    "item": "The Kimbell のクリスマスツリー展示「Festival of Tre…",
+    "item": "The Kimbell の飾りつけツリー展示「Festival of Tree…",
     "when": "11/16〜12/4",
-    "what": "ツリー展示",
+    "what": "ツリーの祭典",
     "where": "The Kimbell",
-    "cond": "家族で"
+    "cond": "家族向け"
    },
-   "ja": "The Kimbell のクリスマスツリー展示「Festival of Tre…",
+   "ja": "The Kimbell の飾りつけツリー展示「Festival of Tree…",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -35592,13 +35605,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "St. Andrew's 教会の子供向け音楽遊び",
+    "item": "St. Andrew's 教会の子供向け音楽あそび",
     "when": "11/13(金)",
     "cond": "子供向け",
-    "what": "子供の音楽遊び",
+    "what": "親子音楽あそび",
     "where": "St. Andrew's教会"
    },
-   "ja": "St. Andrew's 教会の子供向け音楽遊び",
+   "ja": "St. Andrew's 教会の子供向け音楽あそび",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -35638,7 +35651,7 @@
     "when": "11/14(土)",
     "what": "ファーマーズ市",
     "where": "Midtown Park",
-    "cond": "毎週土曜"
+    "cond": "入場無料"
    },
    "ja": "Midtown Park のファーマーズマーケット(毎週土曜)",
    "jaVia": "claude-ev",
@@ -57514,14 +57527,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "Midtown Park",
-    "item": "Midtown Park の日曜マーケット(Rountree Market)",
+    "store": "Rountree Market",
+    "item": "Midtown Park の日曜マーケット",
     "when": "11/15(日)",
     "cond": "入場無料",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "Midtown Park の日曜マーケット(Rountree Market)",
+   "ja": "Midtown Park の日曜マーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -58392,7 +58405,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-10",
+   "localDate": "2026-11-11",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -58407,14 +58420,14 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館の米国史特別展「E Pluribus Unum」",
+    "store": "George H.W. Bush Library and …",
+    "item": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
     "when": "〜2027/5/16",
-    "what": "博物館の特別展",
+    "what": "米国史の特別展",
     "where": "ブッシュ図書館博物館",
-    "cond": "博物館の展示"
+    "cond": "博物館の入館料"
    },
-   "ja": "ブッシュ大統領図書館の米国史特別展「E Pluribus Unum」",
+   "ja": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -58853,6 +58866,84 @@
    "date": "2026-11-11",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "5638d83b5a94",
+   "title": "Free Microchip & Rabies Vaccination Event",
+   "link": "https://events.bryantx.gov/default/Detail/2026-11-14-0800-Free-Microchip-amp-Rabies-Vaccination-Event",
+   "source": "City of Bryan",
+   "posted": "2026-11-10T23:32Z",
+   "firstSeen": "2026-11-10T23:32Z",
+   "expires": "2026-11-14",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-14",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "City of Bryan",
+    "item": "ブライアン市の犬猫マイクロチップ・狂犬病ワクチン無料会",
+    "when": "11/14(土) 8時",
+    "cond": "無料・要申込",
+    "what": "ペット無料接種",
+    "where": "ブライアン市"
+   },
+   "ja": "ブライアン市の犬猫マイクロチップ・狂犬病ワクチン無料会",
+   "jaVia": "claude-ev",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "a2953729094d",
+   "title": "Pack Fresh Card Show Vol. 5 at The Brazos Center",
+   "link": "https://www.destinationbryan.com/events/pack-fresh-card-show-vol-5/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-10T23:32Z",
+   "firstSeen": "2026-11-10T23:32Z",
+   "expires": "2026-11-22",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-21",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Brazos Center",
+    "item": "Brazos Center のトレカ展示即売会(2日間)",
+    "when": "11/21(土)〜11/22(日)",
+    "cond": "入場料",
+    "what": "カードショー",
+    "where": "Brazos Center"
+   },
+   "ja": "Brazos Center のトレカ展示即売会(2日間)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-21"
   }
  ]
 }
