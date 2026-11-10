@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-10T02:10Z",
- "count": 1753,
+ "updated": "2026-11-10T04:22Z",
+ "count": 1756,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 13
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 3
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 10
+   "added": 6
   },
   "tfg": {
    "read": 40,
-   "added": 15
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -36,7 +36,7 @@
   },
   "cstx": {
    "read": 5,
-   "added": 1
+   "added": 0
   },
   "bcslib": {
    "read": 10,
@@ -55,15 +55,83 @@
    "added": 0
   },
   "ja": {
-   "gemini": 23,
-   "geminiEvent": 0,
-   "mymemory": 4,
-   "geminiToday": 4,
+   "gemini": 12,
+   "geminiEvent": 1,
+   "mymemory": 2,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "e6f400b19ea8",
+   "title": "Price Drop: Benadryl Itch Relief Stick Just $1.32 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/benadryl-itch-relief-stick/",
+   "source": "Hip2Save",
+   "posted": "2026-11-10T03:10Z",
+   "firstSeen": "2026-11-10T04:22Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Benadryl-Itch-Relief-Stick.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "価格下落：ベナドリルかゆみ緩和スティックわずか$ 1.32 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "価格下落：ベナドリルかゆみ緩和スティックわずか$ 1.32 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "10b7d11723e1",
+   "title": "La Moderna Pasta Only 54¢ Shipped on Amazon",
+   "link": "https://hip2save.com/deals/la-moderna-pasta/",
+   "source": "Hip2Save",
+   "posted": "2026-11-10T02:10Z",
+   "firstSeen": "2026-11-10T04:22Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/La-Moderna-Pasta.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "La Moderna Pasta Amazonでたったの54 ¢で発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "La Moderna Pasta Amazonでたったの54 ¢で発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "9dde507d478b",
    "title": "Shevalues Women’s Fuzzy Slippers Just $12.xx on Amazon (Reg $25)",
@@ -96,7 +164,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "50ecf26f30d8"
   },
   {
    "id": "b5ca8f1ca770",
@@ -438,13 +507,15 @@
    "family": true,
    "localDate": "2026-12-05",
    "freebie": null,
-   "ja": "ジングルベルファンランは、12月5日にカレッジステーションの華やかなホリデーフェスティバルを開始します",
-   "jaVia": "mymemory",
+   "ja": "ホリデー家族ランイベント「Jingle Bell Fun Run」",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "ジングルベルファンランは、12月5日にカレッジステーションの華やかなホリデーフェスティバルを開始します",
-    "when": "12/5(土)",
-    "cond": ""
+    "store": "Post Oak Mall to Stephen C. Beachy Central Park",
+    "item": "ホリデー家族ランイベント「Jingle Bell Fun Run」",
+    "when": "12/5(土) 15:30〜",
+    "cond": "家族向け",
+    "what": "クリスマスラン",
+    "where": "カレッジステーション"
    },
    "date": "2026-12-05"
   },
@@ -510,8 +581,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4088d703885c",
-   "date": null
+   "date": null,
+   "dup": "4088d703885c"
   },
   {
    "id": "3d6313311d30",
@@ -543,7 +614,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ca881bb7bfe5",
    "date": null
   },
   {
@@ -608,8 +678,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "88d3dcfcb23f",
-   "date": null
+   "date": null,
+   "dup": "88d3dcfcb23f"
   },
   {
    "id": "1a294c45a0a8",
@@ -705,7 +775,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "c0d282a1febf",
    "date": null
   },
   {
@@ -738,8 +807,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4474d6d74326",
-   "date": null
+   "date": null,
+   "dup": "e6dcc4c84a71"
   },
   {
    "id": "cba48107a322",
@@ -803,7 +872,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "b0018bdd6797"
   },
   {
    "id": "3f6b5c24982a",
@@ -842,8 +912,8 @@
    },
    "ja": "ドリンクBOGO",
    "jaVia": "gemini",
-   "dup": "0f3cedc40a22",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "dup": "0f3cedc40a22"
   },
   {
    "id": "ca881bb7bfe5",
@@ -875,7 +945,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "3d6313311d30"
   },
   {
    "id": "bfc21fce63a5",
@@ -1216,7 +1287,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-11-09T19:26Z",
    "firstSeen": "2026-11-10T02:10Z",
-   "expires": null,
+   "expires": "2026-11-30",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Great-Wolf-Lodge-840x630.png",
    "hot": false,
    "stores": [],
@@ -1616,6 +1687,38 @@
    "date": null
   },
   {
+   "id": "e18440c48f34",
+   "title": "14K Gold Plated Bracelet Stack 7-Piece Set Only $4.99 on Amazon (Reg. $17)",
+   "link": "https://hip2save.com/deals/amazon-bracelet-stacks/",
+   "source": "Hip2Save",
+   "posted": "2026-11-09T18:05Z",
+   "firstSeen": "2026-11-10T04:22Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/M-MOOHAM-14K-Gold-Plated-Bracelets.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 4.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "b8e49f00915d",
    "title": "Happy National Fried Chicken Sandwich Day! Here Are the Best Deals…",
    "link": "https://hip2save.com/deals/national-fried-chicken-sandwich-day/",
@@ -1756,8 +1859,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "ca4cbd587b38"
+   "date": null
   },
   {
    "id": "ecd1a86432cc",
@@ -9633,7 +9735,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "ded85d435d2c"
+   "dup": "50ecf26f30d8"
   },
   {
    "id": "3f43250168ab",
@@ -19200,7 +19302,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "2bec8dc433a0"
+   "dup": "3696edc1dfa6"
   },
   {
    "id": "ce2134007cd1",
@@ -26907,7 +27009,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "ca4cbd587b38"
+   "dup": "5b71e9d2b9ef"
   },
   {
    "id": "a148f354b213",
@@ -26971,8 +27073,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "ca4cbd587b38"
+   "date": null
   },
   {
    "id": "50429d866344",
@@ -28589,7 +28690,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "50ecf26f30d8"
   },
   {
    "id": "be25212d949a",
@@ -32786,8 +32888,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "b48e9083d88d"
+   "date": null
   },
   {
    "id": "34c16c3ce35f",
@@ -33851,8 +33952,7 @@
     "item": "フローラル電動ハンドウォーマー充電式2パックAmazonで$ 8.xxのみ（登録価格$ 25 ）",
     "when": "",
     "cond": ""
-   },
-   "dup": "ca4cbd587b38"
+   }
   },
   {
    "id": "9ea197fb9966",
@@ -35631,8 +35731,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "ca4cbd587b38"
+   "date": null
   },
   {
    "id": "966fdd7e23f5",
@@ -37133,8 +37232,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "402f40ebb3e3"
+   "date": null
   },
   {
    "id": "f5437123432e",
@@ -37474,7 +37572,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "50ecf26f30d8"
   },
   {
    "id": "0a92b77f56f6",
@@ -41396,7 +41495,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "b5ddbe4303c8"
+   "dup": "e451b2b55324"
   },
   {
    "id": "751fc14fd52a",
@@ -42661,7 +42760,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "50ecf26f30d8"
   },
   {
    "id": "7ddc415bd980",
@@ -42832,7 +42932,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "50ecf26f30d8"
   },
   {
    "id": "d382558ea7ec",
@@ -47436,8 +47537,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "b5ddbe4303c8"
+   "date": null
   },
   {
    "id": "5672963e28ad",
@@ -49010,8 +49110,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "0936f4fb9599"
+   "date": null
   },
   {
    "id": "ff72ab6ec7d2",
@@ -51198,8 +51297,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "ca4cbd587b38"
+   "date": null
   },
   {
    "id": "69d6e0022308",
@@ -55008,8 +55106,7 @@
     "when": "",
     "cond": "子ども向け"
    },
-   "date": null,
-   "dup": "099c027c5566"
+   "date": null
   },
   {
    "id": "9080d6798e6c",
@@ -55871,8 +55968,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "2bec8dc433a0"
+   "date": null
   },
   {
    "id": "0d36f5990364",
@@ -57181,8 +57277,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "c28934b7bfa6"
+   "date": null
   },
   {
    "id": "2de388201b7c",
@@ -59101,8 +59196,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "396fafbb7fb4"
+   "date": null
   },
   {
    "id": "5c9728e28fe4",
@@ -59238,8 +59332,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "560b984d252a"
+   "date": null
   },
   {
    "id": "30a63b5f5d7e",
@@ -59273,8 +59366,7 @@
     "item": "Amazon Groceryオリジナルチーズクラッカーはたったの$ 1.84で発送！",
     "when": "",
     "cond": ""
-   },
-   "dup": "ab46afda7124"
+   }
   },
   {
    "id": "13d3c33b21ac",
