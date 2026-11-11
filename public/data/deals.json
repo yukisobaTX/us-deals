@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11T03:08Z",
- "count": 1714,
+ "updated": "2026-11-11T06:29Z",
+ "count": 1712,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
@@ -55,16 +55,117 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 12,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 5,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
+   "mymemory": 21,
+   "geminiToday": 1,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "a3b046311cb5",
+   "title": "Jet-Puffed Marshmallow Bits Shaker Only $1.70 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/jet-puffed-marshmallow-bits/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T04:50Z",
+   "firstSeen": "2026-11-11T06:29Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/Jet-Puffed-Bits-by-box.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ジェットパフマシュマロビットシェーカーのみ$ 1.70 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ジェットパフマシュマロビットシェーカーのみ$ 1.70 Amazonで発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0fbf7b4ca67a",
+   "title": "Amazon Grocery Stuffing Mix Only 63¢ Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-stuffing/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T04:30Z",
+   "firstSeen": "2026-11-11T06:29Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Amazon-Grocery-Stuffing-Mix.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Grocery Stuffing Mix 63 ¢のみ発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Grocery Stuffing Mix 63 ¢のみ発送",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a6f7da44c4b8",
+   "title": "Book Lovers Will LOVE This Unique Lamp for Just $13.99 on Amazon (Reg. $28)",
+   "link": "https://hip2save.com/deals/amazon-book-lamp/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T03:40Z",
+   "firstSeen": "2026-11-11T06:29Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/book-lamp-3.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 13.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アマゾンでわずか$ 13.99でこのユニークなランプを愛用しています（登録価格$ 28 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "アマゾンでわずか$ 13.99でこのユニークなランプを愛用しています（登録価格$ 28 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "345499dd6ebb",
    "title": "Portable Clothes Rack Just $27.52 Shipped w/ Amazon Prime (Reg. $46)",
@@ -353,40 +454,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "92ffbf63cd72",
-   "title": "TODAY Only! 50% Off Stanley 1913 Tumblers & Mugs at Target",
-   "link": "https://thefreebieguy.com/stanley-tumblers-target/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-10T22:54Z",
-   "firstSeen": "2026-11-10T23:25Z",
-   "expires": "2026-11-10",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Stanley-1913-Tumblers-Target-840x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "本日限り！ターゲットでスタンレー1913タンブラー＆マグカップが50%オフ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "本日限り！ターゲットでスタンレー1913タンブラー＆マグカップが50%オフ",
-    "when": "11/10(火)まで",
-    "cond": ""
-   },
-   "date": "2026-11-10"
   },
   {
    "id": "f0d11998943b",
@@ -1389,6 +1456,40 @@
     "when": "",
     "cond": ""
    }
+  },
+  {
+   "id": "06f77f25f98b",
+   "title": "Cuddl Duds Sheet Sets as low as $18.99 at Kohl’s!",
+   "link": "https://moneysavingmom.com/cuddl-duds-sheet-sets-kohls-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-10T19:40Z",
+   "firstSeen": "2026-11-11T06:29Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/03/Cuddl-Duds®-Microfiber-Sheet-Set-Pillowcases.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohl'sのCuddl Dudsシーツセットは$ 18.99 ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohl'sのCuddl Dudsシーツセットは$ 18.99 ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "e40ab6b7bfc7",
@@ -3545,13 +3646,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "EBayでのアディダスセールがさらに20 ％オフ| 8 $からの価格が発送されました！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "eBay",
-    "item": "",
+    "item": "EBayでのアディダスセールがさらに20 ％オフ| 8 $からの価格が発送されました！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e759f1b36a77",
@@ -3577,13 +3680,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "最新のドミノの気軽なプレゼントで、5,000枚以上のギフトカードを手に入れよう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Domino's",
-    "item": "",
+    "item": "最新のドミノの気軽なプレゼントで、5,000枚以上のギフトカードを手に入れよう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7401587ebda8",
@@ -3609,13 +3714,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レア$ 10オフ$ 25 Kohl's購入+スタッキングクーポン| $ 19スロークッカーなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "レア$ 10オフ$ 25 Kohl's購入+スタッキングクーポン| $ 19スロークッカーなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "29e0fe3b841d",
@@ -3714,13 +3821,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レゴのターゲットセールが最大40%オフ|フォートナイト、植物、アドベントカレンダーなど",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "レゴのターゲットセールが最大40%オフ|フォートナイト、植物、アドベントカレンダーなど",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a1d7cc039886",
@@ -3780,13 +3889,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "パパジョーンズがグランドパパピザと塩キャラメルブロンディをお持ち帰り",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Papa John's",
-    "item": "",
+    "item": "パパジョーンズがグランドパパピザと塩キャラメルブロンディをお持ち帰り",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b99029f58604",
@@ -3812,13 +3923,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メモリーフォームマットレストッパー$ 27.49からAmazonで発送（登録価格$ 50 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "メモリーフォームマットレストッパー$ 27.49からAmazonで発送（登録価格$ 50 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "15c5c305639f",
@@ -3844,13 +3957,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "T - MobileとMetroのお客様のためのT – Mobile Tuesdays - Tropical Smoothie Cafeで無料の賞品を手に入れましょう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Tropical Smoothie",
-    "item": "",
+    "item": "T - MobileとMetroのお客様のためのT – Mobile Tuesdays - Tropical Smoothie Cafeで無料の賞品を手に入れましょう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "03bff58d253f",
@@ -3949,13 +4064,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Squishmallowsオリジナルブルー10インチビンゴハグミーぬいぐるみのみ$ 4.xx Amazon （登録$ 16 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Squishmallowsオリジナルブルー10インチビンゴハグミーぬいぐるみのみ$ 4.xx Amazon （登録$ 16 ）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "4c8ab224142c"
   },
   {
@@ -3982,13 +4099,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スターバックスが新しいベアリスタミステリーカップをドロップしました！しかし、急いでください。彼らは売り切れます",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Starbucks",
-    "item": "",
+    "item": "スターバックスが新しいベアリスタミステリーカップをドロップしました！しかし、急いでください。彼らは売り切れます",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e3ba6d874055",
@@ -4014,45 +4133,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "$ 40のWondershopクリスマスデコレーション購入で$ 10オフ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "$ 40のWondershopクリスマスデコレーション購入で$ 10オフ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "bc258bf303c6",
-   "title": "HURRY! Enter Today to Win a HUGE Chipotle Bag!",
-   "link": "https://hip2save.com/deals/chipotle-family-meals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-10T13:02Z",
-   "firstSeen": "2026-11-10T17:53Z",
-   "expires": "2026-11-10",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Chipotle-Big-A__-Bag.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Chipotle"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Chipotle",
-    "item": "",
-    "when": "11/10(火)まで",
-    "cond": ""
-   },
-   "date": "2026-11-10"
+   }
   },
   {
    "id": "79c11c1c52ce",
@@ -4078,13 +4167,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Paint by Stickerキッズクリスマスブックのみ$ 3.xx on Amazon (Reg $ 11)",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Paint by Stickerキッズクリスマスブックのみ$ 3.xx on Amazon (Reg $ 11)",
     "when": "",
     "cond": "子ども向け"
    },
-   "date": null,
    "dup": "089039db299f"
   },
   {
@@ -4111,13 +4202,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "VertvieレディースワイヤレスジェリーブラジャーAmazonで$ 7.xxのみ（登録価格$ 29 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "VertvieレディースワイヤレスジェリーブラジャーAmazonで$ 7.xxのみ（登録価格$ 29 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a9b08fe95658",
@@ -4143,13 +4236,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディース秋のシフォン長袖ミニドレスがたったの$ 23.49 ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディース秋のシフォン長袖ミニドレスがたったの$ 23.49 ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "550cac08d36b",
@@ -4173,13 +4268,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "世界市場のゴールデンサンタースカベンジャーハントで最大$ 100を獲得しよう",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "世界市場のゴールデンサンタースカベンジャーハントで最大$ 100を獲得しよう",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1b735b191030",
@@ -4221,45 +4318,6 @@
    "date": null
   },
   {
-   "id": "09244b7997ca",
-   "title": "Cheap Food Deals & Freebies For Tuesday! Dunkin, Outback Steakhouse, & More!",
-   "link": "https://thefreebieguy.com/cheap-tuesday-food-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-10T12:14Z",
-   "firstSeen": "2026-11-10T17:53Z",
-   "expires": "2026-11-10",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Tuesday-Food-Deals-840x630.png",
-   "hot": true,
-   "stores": [
-    "Dunkin'",
-    "Outback"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "roundup": true
-   },
-   "sum": {
-    "item": "フード系のお得情報・無料特典",
-    "when": "今日",
-    "what": "無料フード",
-    "where": "Dunkin等"
-   },
-   "ja": "フード系のお得情報・無料特典",
-   "jaVia": "gemini",
-   "date": "2026-11-10"
-  },
-  {
    "id": "5f3fdac77812",
    "title": "11×14 Canvas Print JUST $9.99 on Walgreens.com w/ FREE Same-Day Pickup (Reg. $50)",
    "link": "https://hip2save.com/deals/walgreens-canvas-prints/",
@@ -4283,13 +4341,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "11 x 14キャンバスプリント、Walgreens.comでわずか$ 9.99、無料の当日ピックアップ（登録価格$ 50 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "11 x 14キャンバスプリント、Walgreens.comでわずか$ 9.99、無料の当日ピックアップ（登録価格$ 50 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "65131c5fa8b6",
@@ -4328,38 +4388,6 @@
    "ja": "Dairy Queen の $1 ディップコーンと無料ブリザード",
    "jaVia": "claude",
    "date": null
-  },
-  {
-   "id": "5bbc1f5a360a",
-   "title": "*HOT* 50% off Stanley Tumblers at Target: Prices as low as $17.50 {Today Only!}",
-   "link": "https://moneysavingmom.com/hot-stanley-tumblers-so-cute-at-target/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-10T11:55Z",
-   "firstSeen": "2026-11-10T17:53Z",
-   "expires": "2026-11-10",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/02/Stanley-Quencher.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Target",
-    "item": "",
-    "when": "11/10(火)まで",
-    "cond": ""
-   },
-   "date": "2026-11-10"
   },
   {
    "id": "e6f400b19ea8",
@@ -12986,45 +13014,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "109f0731231b",
-   "title": "Dunkin’ Donuts: FREE Medium Cookie Butter Cloud Latte on November 10th!",
-   "link": "https://moneysavingmom.com/dunkin-donuts-medium-coffee-only-one-today/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T12:20Z",
-   "firstSeen": "2026-11-07T18:48Z",
-   "expires": "2026-11-10",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Cookie-Butter-Cloud-Latte-2-630x504.png",
-   "hot": true,
-   "stores": [
-    "Dunkin'"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-10"
-   },
-   "sum": {
-    "store": "Dunkin’ Donuts",
-    "item": "Mサイズクッキーバターラテ",
-    "when": "11/10",
-    "what": "無料ラテ",
-    "where": "Dunkin’"
-   },
-   "ja": "Mサイズクッキーバターラテ",
-   "jaVia": "gemini",
-   "date": "2026-11-10",
-   "dup": "ddf37018964f"
   },
   {
    "id": "5ee77d7d0c81",
@@ -25457,45 +25446,6 @@
    },
    "date": null,
    "dup": "55f46d71a06a"
-  },
-  {
-   "id": "ddf37018964f",
-   "title": "Possible FREE Dunkin’ Medium Cookie Butter Cloud Latte w/ Purchase on 11/10",
-   "link": "https://hip2save.com/deals/dunkin-donuts-coupons/",
-   "source": "Hip2Save",
-   "posted": "2026-11-04T15:50Z",
-   "firstSeen": "2026-11-04T16:06Z",
-   "expires": "2026-11-10",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/dunkin-Cookie-Butter-Cloud-Latte.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Dunkin'"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-10"
-   },
-   "sum": {
-    "store": "Dunkin'",
-    "item": "Dunkin'のクッキーバター・クラウドラテ(M)が無料になる可能性",
-    "when": "11/10(火)",
-    "cond": "要購入・未確定",
-    "what": "無料ラテ",
-    "where": "Dunkin'"
-   },
-   "ja": "Dunkin'のクッキーバター・クラウドラテ(M)が無料になる可能性",
-   "jaVia": "claude",
-   "date": "2026-11-10"
   },
   {
    "id": "a96e7b947208",
