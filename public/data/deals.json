@@ -122,13 +122,15 @@
    "event": "cyber-monday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Amazonのサイバーマンデーセールについてわかっていること（あまり多くはありません）",
-   "jaVia": "mymemory",
+   "ja": "Amazon サイバーマンデーの判明情報まとめ",
+   "jaVia": "claude",
    "sum": {
     "store": "Amazon",
-    "item": "Amazonのサイバーマンデーセールについてわかっていること（あまり多くはありません）",
+    "item": "Amazon サイバーマンデーの判明情報まとめ",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "CM予告",
+    "where": "Amazon"
    },
    "date": null
   },
@@ -706,12 +708,12 @@
    },
    "sum": {
     "store": "Publix",
-    "item": "BOGO商品＆リコラ喉飴無料",
-    "what": "無料の飴",
+    "item": "Publix のBOGO特売＋Ricolaのど飴無料",
+    "what": "無料のど飴",
     "where": "Publix"
    },
-   "ja": "BOGO商品＆リコラ喉飴無料",
-   "jaVia": "gemini",
+   "ja": "Publix のBOGO特売＋Ricolaのど飴無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1062,12 +1064,13 @@
    "freebie": null,
    "sum": {
     "store": "Melissa & Doug",
-    "item": "おもちゃの大幅セール",
-    "what": "おもちゃセール",
-    "where": "オンライン"
+    "item": "Melissa & Doug の知育玩具 早めのBFセール",
+    "what": "玩具大幅セール",
+    "where": "Melissa & Doug",
+    "cond": "オンライン"
    },
-   "ja": "おもちゃの大幅セール",
-   "jaVia": "gemini",
+   "ja": "Melissa & Doug の知育玩具 早めのBFセール",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1193,13 +1196,13 @@
    "freebie": null,
    "sum": {
     "store": "Walmart",
-    "item": "ブラックフライデーセール & 限定おもちゃ",
-    "when": "11/11夜",
-    "what": "BFセール",
+    "item": "Walmart のBFセール開始＋NeeDoh限定品",
+    "when": "11/11夜〜",
+    "what": "BFセール開始",
     "where": "Walmart"
    },
-   "ja": "ブラックフライデーセール & 限定おもちゃ",
-   "jaVia": "gemini",
+   "ja": "Walmart のBFセール開始＋NeeDoh限定品",
+   "jaVia": "claude",
    "date": "2026-11-11"
   },
   {
@@ -1261,13 +1264,13 @@
    },
    "sum": {
     "store": "Grizzly",
-    "item": "延長コード無料",
+    "item": "Grizzly の延長コード無料(先着7,700名)",
     "cond": "先着7,700名",
-    "what": "無料コード",
+    "what": "延長コード無料",
     "where": "Grizzly"
    },
-   "ja": "延長コード無料",
-   "jaVia": "gemini",
+   "ja": "Grizzly の延長コード無料(先着7,700名)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1424,13 +1427,13 @@
     "when": null
    },
    "sum": {
-    "item": "ギフトカード、アドベントカレンダー等",
-    "when": "ブラックフライデー期",
-    "what": "無料アイテム",
-    "where": "オンライン"
+    "item": "BFの無料ギフトカード・アドベントカレンダーまとめ",
+    "when": "BF期間",
+    "what": "BF無料品まとめ",
+    "where": "各店"
    },
-   "ja": "ギフトカード、アドベントカレンダー等",
-   "jaVia": "gemini",
+   "ja": "BFの無料ギフトカード・アドベントカレンダーまとめ",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1463,14 +1466,14 @@
     "bogo": true
    },
    "sum": {
-    "store": "Jimmy John’s",
-    "item": "ピクルスウィッチBOGO",
-    "when": "11/14",
+    "store": "Jimmy John's",
+    "item": "Jimmy John's ピクルウィッチBOGO",
+    "when": "11/14(土)",
     "what": "BOGOサンド",
-    "where": "Jimmy John’s"
+    "where": "Jimmy John's"
    },
-   "ja": "ピクルスウィッチBOGO",
-   "jaVia": "gemini",
+   "ja": "Jimmy John's ピクルウィッチBOGO",
+   "jaVia": "claude",
    "date": "2026-11-14"
   },
   {
@@ -1827,12 +1830,13 @@
     "when": null
    },
    "sum": {
-    "item": "カスタムキャンバスプリント $20.99",
-    "what": "キャンバス写真",
-    "where": "オンライン"
+    "item": "16×20キャンバスプリント$20.99送料込み",
+    "what": "キャンバス$20.…",
+    "where": "オンライン",
+    "cond": "次回無料クーポン付"
    },
-   "ja": "カスタムキャンバスプリント $20.99",
-   "jaVia": "gemini",
+   "ja": "16×20キャンバスプリント$20.99送料込み",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -2022,13 +2026,14 @@
    "eventNews": false,
    "freebie": null,
    "sum": {
-    "store": "Macy’s",
-    "item": "スローブランケット $7.99〜",
-    "what": "ブランケット",
-    "where": "Macy's"
+    "store": "Macy's",
+    "item": "Macy's のブランケット$7.99〜(通常$30)",
+    "what": "毛布$7.99〜",
+    "where": "Macy's",
+    "cond": "BFセール"
    },
-   "ja": "スローブランケット $7.99〜",
-   "jaVia": "gemini",
+   "ja": "Macy's のブランケット$7.99〜(通常$30)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -2162,15 +2167,15 @@
     "when": "2026-11-15"
    },
    "sum": {
-    "store": "Wendy’s",
-    "item": "フロスティー無料",
-    "when": "11/15",
-    "cond": "要何らかの購入",
-    "what": "無料フロスティー",
+    "store": "Wendy's",
+    "item": "Wendy's 何か購入でフロスティ無料",
+    "when": "11/15(日)",
+    "cond": "要購入・1日限定",
+    "what": "無料フロスティ",
     "where": "Wendy's"
    },
-   "ja": "フロスティー無料",
-   "jaVia": "gemini",
+   "ja": "Wendy's 何か購入でフロスティ無料",
+   "jaVia": "claude",
    "date": "2026-11-15"
   },
   {
@@ -2442,15 +2447,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "犬用クリスマスカード無料",
-   "jaVia": "gemini",
+   "ja": "Grandma Lucy's 犬宛てクリスマスカード無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "Grandma Lucy’s",
-    "item": "犬用クリスマスカード無料",
+    "store": "Grandma Lucy's",
+    "item": "Grandma Lucy's 犬宛てクリスマスカード無料",
     "when": "",
     "cond": "要登録",
-    "what": "無料カード",
-    "where": "オンライン"
+    "what": "犬用カード無料",
+    "where": "Grandma Lucy's"
    },
    "date": null
   },
@@ -3522,14 +3527,14 @@
     "when": null,
     "bogo": true
    },
-   "ja": "ケサディーヤBOGO＆タコ無料",
-   "jaVia": "gemini",
+   "ja": "Del Taco ケサディーヤBOGO＋注文でタコ無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Del Taco",
-    "item": "ケサディーヤBOGO＆タコ無料",
+    "item": "Del Taco ケサディーヤBOGO＋注文でタコ無料",
     "when": "",
-    "cond": "要注文",
-    "what": "BOGOタコス",
+    "cond": "注文時",
+    "what": "BOGOケサディーヤ",
     "where": "Del Taco"
    },
    "date": null
@@ -3906,12 +3911,13 @@
    },
    "sum": {
     "store": "Whatnot",
-    "item": "$10〜$200クレジット",
+    "item": "Whatnot で$10〜$200のクレジット",
     "what": "無料クレジット",
-    "where": "Whatnot"
+    "where": "Whatnot",
+    "cond": "条件あり"
    },
-   "ja": "$10〜$200クレジット",
-   "jaVia": "gemini",
+   "ja": "Whatnot で$10〜$200のクレジット",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -3982,13 +3988,13 @@
    "eventNews": false,
    "sum": {
     "store": "Brazos Center",
-    "item": "Brazos Center のトレカ展示即売会(2日間)",
-    "when": "11/21(土)〜11/22(日)",
+    "item": "Brazos Center のトレカ展示即売会",
+    "when": "11/21(土)〜22(日)",
     "cond": "入場料",
     "what": "カードショー",
     "where": "Brazos Center"
    },
-   "ja": "Brazos Center のトレカ展示即売会(2日間)",
+   "ja": "Brazos Center のトレカ展示即売会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -8329,13 +8335,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ダウンタウン・ブライアンのクリスマス点灯式",
+    "item": "ダウンタウン Bryan の冬のライトアップ点灯式",
     "when": "11/20(金) 17時",
-    "cond": "入場無料",
+    "cond": "無料",
     "what": "点灯式",
     "where": "ダウンタウンBryan"
    },
-   "ja": "ダウンタウン・ブライアンのクリスマス点灯式",
+   "ja": "ダウンタウン Bryan の冬のライトアップ点灯式",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -12046,13 +12052,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walk の屋外コミュニティヨガ",
+    "item": "Lake Walk のコミュニティヨガ",
     "when": "11/14(土)",
     "cond": "誰でも参加可",
     "what": "屋外ヨガ",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walk の屋外コミュニティヨガ",
+   "ja": "Lake Walk のコミュニティヨガ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -14419,13 +14425,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walk のランニングクラブ(毎週金曜)",
+    "item": "Lake Walk のランニングクラブ",
     "when": "11/13(金)",
     "what": "ランニング会",
     "where": "Lake Walk",
     "cond": "誰でも参加可"
    },
-   "ja": "Lake Walk のランニングクラブ(毎週金曜)",
+   "ja": "Lake Walk のランニングクラブ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -14462,13 +14468,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Safari",
-    "item": "Aggieland Safari の日曜スペシャル企画",
+    "item": "Aggieland Safari の日曜フットボール企画",
     "when": "11/15(日)",
     "what": "サファリ日曜企画",
     "where": "Aggieland Safa…",
     "cond": "入園料"
    },
-   "ja": "Aggieland Safari の日曜スペシャル企画",
+   "ja": "Aggieland Safari の日曜フットボール企画",
    "jaVia": "claude-ev",
    "outing": [
     "動物"
@@ -14504,13 +14510,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Event Ce…",
-    "item": "The Kimbell の飾りつけツリー展示「Festival of Tree…",
+    "item": "The Kimbell のクリスマスツリー展示",
     "when": "11/16〜12/4",
-    "what": "ツリーの祭典",
+    "what": "ツリー展示",
     "where": "The Kimbell",
     "cond": "家族向け"
    },
-   "ja": "The Kimbell の飾りつけツリー展示「Festival of Tree…",
+   "ja": "The Kimbell のクリスマスツリー展示",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -38758,7 +38764,7 @@
     "item": "St. Andrew's 教会の子供向け音楽あそび",
     "when": "11/13(金)",
     "cond": "子供向け",
-    "what": "親子音楽あそび",
+    "what": "音楽あそび",
     "where": "St. Andrew's教会"
    },
    "ja": "St. Andrew's 教会の子供向け音楽あそび",
@@ -38797,13 +38803,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Midtown Park のファーマーズマーケット(毎週土曜)",
+    "item": "Midtown Park の土曜ファーマーズマーケット",
     "when": "11/14(土)",
-    "what": "ファーマーズ市",
+    "what": "ファーマーズマーケ…",
     "where": "Midtown Park",
-    "cond": "入場無料"
+    "cond": "毎週土曜"
    },
-   "ja": "Midtown Park のファーマーズマーケット(毎週土曜)",
+   "ja": "Midtown Park の土曜ファーマーズマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -56659,7 +56665,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-11",
+   "localDate": "2026-11-12",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -56674,10 +56680,10 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "George H.W. Bush Library and …",
+    "store": "George H.W. Bush Presidential…",
     "item": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
     "when": "〜2027/5/16",
-    "what": "米国史の特別展",
+    "what": "アメリカ史展示",
     "where": "ブッシュ図書館博物館",
     "cond": "博物館の入館料"
    },
