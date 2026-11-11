@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T02:18Z",
- "count": 1715,
+ "updated": "2026-11-11T03:08Z",
+ "count": 1714,
  "stats": {
   "h2s": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,11 +55,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 13,
+   "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 4,
-   "model": "gemini-flash-latest"
+   "geminiToday": 5,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
@@ -93,6 +94,40 @@
    "sum": {
     "store": "Amazon",
     "item": "ポータブル洋服ラックわずか$ 27.52 Amazonプライム付き発送（登録価格$ 46 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0665908572e1",
+   "title": "VitaUp Magnesium Sleep Support 2-Month Supply Only $13.46 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/vitaup-sleep-support/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T00:40Z",
+   "firstSeen": "2026-11-11T03:08Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/vitaup-magnesium.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "VitaUpマグネシウム睡眠サポート2ヶ月供給のみ$ 13.46 Amazonで発送",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "VitaUpマグネシウム睡眠サポート2ヶ月供給のみ$ 13.46 Amazonで発送",
     "when": "",
     "cond": ""
    },
@@ -164,8 +199,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "04bbf79800cf",
-   "date": null
+   "date": null,
+   "dup": "04bbf79800cf"
   },
   {
    "id": "0b575a6e0a5b",
@@ -2927,13 +2962,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで$ 10未満でNeeDoh Swirlを購入する招待をリクエストしてください！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで$ 10未満でNeeDoh Swirlを購入する招待をリクエストしてください！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ad5abe3d75c0",
@@ -3029,13 +3066,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*ホット* Rubbermaid Brilliance 20ピースガラス食品収納コンテナセット$ 34.39 （登録価格$ 70 ） ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "*ホット* Rubbermaid Brilliance 20ピースガラス食品収納コンテナセット$ 34.39 （登録価格$ 70 ） ！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "56c0b2ca2a40"
   },
   {
@@ -3062,13 +3101,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*ホット*ステッカーキッズブックによるクリスマスペイントわずか$ 3.44発送（登録価格$ 11 ！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*ホット*ステッカーキッズブックによるクリスマスペイントわずか$ 3.44発送（登録価格$ 11 ！ ）",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "92465986a80c",
@@ -3094,13 +3135,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonの充電式リーディングネックライトはわずか$ 9.99 （通常$ 20 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonの充電式リーディングネックライトはわずか$ 9.99 （通常$ 20 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6c699de7e45c",
@@ -3159,13 +3202,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヤングアダルト！ Amazonプライムで割引を利用して無料で試す方法をご紹介します！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ヤングアダルト！ Amazonプライムで割引を利用して無料で試す方法をご紹介します！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "633f472600fc",
@@ -3229,13 +3274,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ELYSOOホームセキュリティカメラシステムWi - Fi接続のみAmazonで$ 129.xx （登録価格$ 340 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ELYSOOホームセキュリティカメラシステムWi - Fi接続のみAmazonで$ 129.xx （登録価格$ 340 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "59b541e7c0e1",
@@ -3261,13 +3308,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "頑丈なプラスチックナイフ390 - Amazonでわずか$ 13.79 （登録番号： $ 23 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "頑丈なプラスチックナイフ390 - Amazonでわずか$ 13.79 （登録番号： $ 23 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f2508418b90e",
@@ -3293,13 +3342,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートのディズニーVHSボックス枕カバー（ディズニーファンへの素晴らしいギフト！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートのディズニーVHSボックス枕カバー（ディズニーファンへの素晴らしいギフト！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c52b78fc5c1d",
@@ -3358,13 +3409,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Dawn食器用石鹸補充ボトル$ 5以下各Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Dawn食器用石鹸補充ボトル$ 5以下各Amazonで発送",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "c548f6f130a7"
   },
   {
@@ -3391,13 +3444,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "* HOT * $ 10オフ$ 25 Kohl'sクーポン+積み重ね可能なプロモーションコードとKohl's Cash ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "* HOT * $ 10オフ$ 25 Kohl'sクーポン+積み重ね可能なプロモーションコードとKohl's Cash ！",
     "when": "",
     "cond": "コード入力"
-   },
-   "date": null
+   }
   },
   {
    "id": "957b4eb98e42",
@@ -3421,13 +3476,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-13",
+   "ja": "11月13日にレゴストアでレゴトナカイを作ろう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "LEGO Stores",
-    "item": "",
+    "item": "11月13日にレゴストアでレゴトナカイを作ろう！",
     "when": "11/13(金)まで",
     "cond": ""
    },
-   "date": "2026-11-13",
    "dup": "28b048d9a3cf"
   },
   {
@@ -3454,13 +3511,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonの$ 14からのセルフケアギフトボックス",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonの$ 14からのセルフケアギフトボックス",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2a8564f80699",
@@ -10659,7 +10718,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "769a8ab69446"
+   "dup": "e659eb81d4f9"
   },
   {
    "id": "7f96dd4aad5c",
@@ -58445,74 +58504,6 @@
    "sum": {
     "store": "Amazon",
     "item": "4ガード付きコードレスフルボディヘアトリマーAmazonでのみ$ 21.xx （登録価格$ 50 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "49c237870145",
-   "title": "Towel Warmer Only $46.99 Shipped on Amazon (Regularly $90)",
-   "link": "https://hip2save.com/deals/towel-warmer/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T02:40Z",
-   "firstSeen": "2026-10-27T02:47Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/keenray-towel-waqrmer.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "タオルウォーマーのみ$ 46.99 Amazonで発送（通常$ 90 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "タオルウォーマーのみ$ 46.99 Amazonで発送（通常$ 90 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8335094aaa94",
-   "title": "Foldable Dermaplane Razor 12-Pack Just $3.59 on Amazon",
-   "link": "https://hip2save.com/deals/amazon-dermaplane-razor/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T02:20Z",
-   "firstSeen": "2026-10-27T02:47Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/artech-face-razors.png?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "折りたたみ式Dermaplane Razor 12パックわずか$ 3.59 Amazon",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "折りたたみ式Dermaplane Razor 12パックわずか$ 3.59 Amazon",
     "when": "",
     "cond": ""
    },
