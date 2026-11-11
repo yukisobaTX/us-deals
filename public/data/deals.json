@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-11T06:29Z",
- "count": 1712,
+ "updated": "2026-11-11T15:15Z",
+ "count": 1688,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 14
   },
   "h2s-free": {
    "read": 100,
-   "added": 16
+   "added": 15
   },
   "doc": {
    "read": 15,
@@ -16,15 +16,15 @@
   },
   "ffp": {
    "read": 20,
-   "added": 5
+   "added": 4
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 10
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 18
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,1333 @@
    "added": 0
   },
   "ja": {
-   "gemini": 12,
+   "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 21,
-   "geminiToday": 1,
-   "model": "gemini-flash-latest"
+   "mymemory": 25,
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "cb7c188fd75e",
+   "title": "Michaels: 2 FREE Crafting Events on November 14-15th!",
+   "link": "https://moneysavingmom.com/michaels-free-events/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-11T15:16Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-14",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-11-at-9.06.26-AM.png",
+   "hot": true,
+   "stores": [
+    "Michaels"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-14"
+   },
+   "ja": "マイケルズ： 11月14日～ 15日にかけて2つの無料作成イベントが開催されます！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Michaels",
+    "item": "マイケルズ： 11月14日～ 15日にかけて2つの無料作成イベントが開催されます！",
+    "when": "11/14(土)",
+    "cond": ""
+   },
+   "date": "2026-11-14"
+  },
+  {
+   "id": "b4699f18111f",
+   "title": "CELSIUS Energy Drink 12-Pack Only $13.99 Shipped on Amazon (Reg. $25)",
+   "link": "https://hip2save.com/deals/celsius-drink/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T15:10Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Celsius-drinks-on-sale.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 44,
+   "price": 13.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "CELSIUSエナジードリンク12パックのみ$ 13.99 Amazonで発送（登録価格$ 25 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "CELSIUSエナジードリンク12パックのみ$ 13.99 Amazonで発送（登録価格$ 25 ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "b5ca8f1ca770",
+   "date": null
+  },
+  {
+   "id": "b92d76abc62e",
+   "title": "Up to 60% Off Christmas Inflatables, Decor & More on Amazon Haul",
+   "link": "https://hip2save.com/deals/amazon-haul-app/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T15:00Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/amazon-haul-7.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Haulのクリスマス用インフレータブル、デコレーションなどが最大60%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Haulのクリスマス用インフレータブル、デコレーションなどが最大60%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "85b6117a6b55",
+   "title": "Free Christmas Card from Grandma Lucy’s for Your Dog! Get on Grandma’s List!",
+   "link": "https://thefreebieguy.com/free-christmas-card-from-grandma-lucys-for-your-dog-get-on-grandmas-list/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T14:59Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Grandma-Lucys-Christmas-Cards-for-Dogs--840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "愛犬へのおばあちゃんルーシーの無料クリスマスカード！おばあちゃんのリストに載りましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "愛犬へのおばあちゃんルーシーの無料クリスマスカード！おばあちゃんのリストに載りましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a282d0054792",
+   "title": "Rare Buy One Get One FREE on Charlotte Tilbury Cosmetics – Includes Viral Beauty Wands & Magic Vanish Concealer!",
+   "link": "https://thefreebieguy.com/charlotte-tilbury-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T14:58Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/07/Charlotte-Tilbury-Sale--840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Charlotte Tilbury Cosmeticsのレア・バイワン・ゲット・フリー–バイラル・ビューティーワンドとマジック・ヴァニッシュ・コンシーラーが含まれています！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Charlotte Tilbury Cosmeticsのレア・バイワン・ゲット・フリー–バイラル・ビューティーワンドとマジック・ヴァニッシュ・コンシーラーが含まれています！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d60d595d6b43",
+   "title": "FREE Starbucks Coffee Today for Veterans, Military Members & Spouses!",
+   "link": "https://hip2save.com/deals/starbucks-veterans-day-deals/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T14:55Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-11",
+   "thumb": "https://hip2save.com/wp-content/uploads/2020/10/starbucks-military-veterans-day.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Starbucks"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "退役軍人、軍人、配偶者向けのスターバックスコーヒーを今すぐ無料で！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Starbucks",
+    "item": "退役軍人、軍人、配偶者向けのスターバックスコーヒーを今すぐ無料で！",
+    "when": "11/11(水)まで",
+    "cond": "会員限定"
+   },
+   "date": "2026-11-11"
+  },
+  {
+   "id": "260f344806fb",
+   "title": "The Big One Down Alternative Reversible Comforter Only $15.xx on Kohl’s (Reg $40)",
+   "link": "https://thefreebieguy.com/kohls-the-big-one-comforter-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T14:52Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2024/07/The-Big-One-Down-Alternative-Reversible-Comforter-840x630.png",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 62,
+   "price": 15.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "The Big Oneダウンオルタナティブリバーシブル掛け布団Kohl's (Reg $ 40)のみ$ 15.xx",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "The Big Oneダウンオルタナティブリバーシブル掛け布団Kohl's (Reg $ 40)のみ$ 15.xx",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "4fdf452bf5b2",
+   "date": null
+  },
+  {
+   "id": "310a46fd0490",
+   "title": "Men’s Toiletry Bag Just $7.50 on Amazon (Reg. $15)",
+   "link": "https://hip2save.com/deals/amazon-mens-toiletry-bag/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T14:45Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/HFLYJPYW-Mens-Toiletry-Bag.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 7.5,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c38cbb8b3443",
+   "title": "Huge Price Drop on Toys on Amazon! Prices From $1.xx!",
+   "link": "https://thefreebieguy.com/amazon-toy-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T14:44Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/amazon-toys-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cf142f0b0f6a",
+   "title": "OLLY Body Wash Just $5 Shipped on Amazon (Reg. $10)",
+   "link": "https://hip2save.com/deals/olly-body-wash/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T14:35Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/OLLY-Body-Wash.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "67d6f6ea8702",
+   "date": null
+  },
+  {
+   "id": "cb73c87e4797",
+   "title": "Lowe’s Squishy Bucket Toys 2-Pack Just $16.98 Shipped for Rewards Members",
+   "link": "https://hip2save.com/deals/lowes-squishy-toys/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T14:30Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Lowes-bucket-squishies.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "0f21acc3d78c",
+   "title": "Score 20% Off the Lowe’s 2026 Christmas Collection!",
+   "link": "https://thefreebieguy.com/lowes-christmas/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T14:30Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/07/Lowes-Christmas-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 20,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5e9a76044f17",
+   "title": "Paw Patrol Rewards Box Gift Pack Only $9.xx on Amazon (Reg. $27)",
+   "link": "https://thefreebieguy.com/paw-patrol-gift/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T14:30Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Paw-Patrol-Rewards-Box-Gift-Pack-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3b2e11e8f2c0",
+   "title": "Your Next Grocery Haul Could Come from Amazon (Here Are Our Favorite Finds!)",
+   "link": "https://hip2save.com/deals/amazon-groceries/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T14:15Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/05/Amazon-Grocery-Diced-Tomatoes.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f64f3e9a517e",
+   "title": "Scrubbing Bubbles Drop-Ins 5-Pack Only $4 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/scrubbing-bubbles-drop-ins/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T14:10Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/Scrubbing-Bubbles-Drop-Ins.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9a33d9beff1f",
+   "title": "Power Tool Organizer with Charging Station Just $24.99 Shipped on Amazon (Reg. $50)",
+   "link": "https://hip2save.com/deals/wall-mounted-storage-tool-organizer/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T14:05Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/wall-mounted-tool-rack-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 24.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4fdf452bf5b2",
+   "title": "The Big One Down Alternative Reversible Comforter as low as $15.99 at Kohl’s, plus more! {Today Only}",
+   "link": "https://moneysavingmom.com/the-big-one-down-alternative-reversible-comforters-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-11T14:00Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-11",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/The-Big-One-Down-Alternative-Reversible-Comforter.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "11/11(水)まで",
+    "cond": ""
+   },
+   "date": "2026-11-11"
+  },
+  {
+   "id": "f444907b9d0d",
+   "title": "Glow-in-the-Dark Christmas Tattoos 10-Sheet Set Just $2.99 on Amazon",
+   "link": "https://hip2save.com/deals/glow-in-the-dark-christmas-tattoos/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T13:55Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/glow-in-the-dark-christmas-tattooos.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "cde4ac78b6be",
+   "title": "Heart Initial Necklace only $3.99 {Frugal Gift Idea!}",
+   "link": "https://moneysavingmom.com/heart-initial-necklace-cute-frugal-gift-idea/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-11T13:51Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Necklace-630x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a353488433da",
+   "title": "Clear Gift Bags 12-Pack w/ Ribbon Just $10.49 on Amazon",
+   "link": "https://hip2save.com/deals/clear-gift-bags/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T13:50Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/LOKQING-Clear-Gift-Bags.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "badbe9016541",
+   "title": "Walmart Drawing on November 12th at 3PM EST — NeeDoh Toy & Pokemon Card Game For Grabs!",
+   "link": "https://thefreebieguy.com/walmart-drawing/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T13:48Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-12",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Pokemon-and-Needoh-drawing-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "11/12(木)まで 3PM",
+    "cond": ""
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "id": "7927b77501c0",
+   "title": "Women’s High Waisted Casual Wide Leg Jeans only $24.59 shipped!",
+   "link": "https://moneysavingmom.com/womens-high-waisted-casual-wide-leg-jeans-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-11T13:38Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/BTFBM-jeans-630x766.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "258c07848c08",
+   "title": "Curl Enhancing Coconut Oil Shampoo & Conditioner Set Just $14 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/luseta-curl-enhancing-shampoo-conditioner/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T13:35Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/03/Luseta-curl-enhancing-shamp-conditioner-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "bfbeed369641",
+   "title": "Free Haircuts for Veterans on November 11 at Great Clips + Save $2.00 Now!",
+   "link": "https://thefreebieguy.com/great-clips-coupons/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T13:32Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-11",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Great-Clips-1-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Great Clips",
+    "item": "",
+    "when": "11/11(水)まで",
+    "cond": ""
+   },
+   "dup": "b702bfabfd8a",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "2b4989e066ae",
+   "title": "Free Haircuts For Active Duty Service Members and Veterans on Veteran’s Day at SportsClips",
+   "link": "https://thefreebieguy.com/free-haircuts-for-active-duty-service-members-and-veterans-on-veterans-day/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T13:30Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2021/10/Free-Haircuts-For-Active-Duty-Service-Members-and-Veterans-on-Veterans-Day-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": null
+   },
+   "ja": "SportsClipsで退役軍人の日に現役軍人と退役軍人のための無料ヘアカット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "SportsClips",
+    "item": "SportsClipsで退役軍人の日に現役軍人と退役軍人のための無料ヘアカット",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "9c660220302c",
+   "title": "Propane Torch Just $19.79 Shipped on Amazon | Great for Cooking, Camping & More",
+   "link": "https://hip2save.com/deals/thermomaven-propane-torch/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T13:20Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/08/Thermomaven-Propane-Tourch.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c3d259bd6f05",
+   "title": "Steve Madden Early Black Friday Sale Happening Now",
+   "link": "https://thefreebieguy.com/steve-madden-black-friday-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T13:12Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Steve-Madden-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "スティーブ・マッデンのアーリーブラックフライデーセール開催中",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "スティーブ・マッデンのアーリーブラックフライデーセール開催中",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f9dd910bb566",
+   "title": "Up to 50% Off Walmart Bike Sale | Prices from $48 Shipped!",
+   "link": "https://thefreebieguy.com/walmart-bike-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T13:00Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/bikes-at-walmart-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "46d978d2f2c0",
+   "title": "*HOT* Bath & Body Works: Buy One, Get One Free All Candles Today!",
+   "link": "https://moneysavingmom.com/bath-body-works-buy-one-get-one-candles/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-11T12:42Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-11",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/12/Screenshot-2025-12-04-at-9.45.01 AM-630x732.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "",
+    "item": "",
+    "when": "11/11(水)まで",
+    "cond": ""
+   },
+   "date": "2026-11-11"
+  },
+  {
+   "id": "f9e9934b24c3",
+   "title": "Amazon Kids Christmas Books on Sale from as low as $2.xx!",
+   "link": "https://thefreebieguy.com/amazon-book-sale/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T12:40Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Kids-Christmas-Books-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "54d9ff9d6cff",
+   "title": "*HOT* CVS: 11×14 Canvas Photo only $9.99 + Free In-Store Pickup!",
+   "link": "https://moneysavingmom.com/cvs-11x14-canvas-photo-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-11T12:36Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2021/10/Screen-Shot-2022-04-04-at-7.20.10-AM.png",
+   "hot": true,
+   "stores": [
+    "CVS"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "CVS",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "1e0267875d92",
+   "title": "Magic Gel Water Elf Toy Kit Only $9.xx on Amazon (Reg. $20)",
+   "link": "https://thefreebieguy.com/magic-gel-water-elf-toy-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T12:36Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Magic-Water-Elf-Toy-Kit-for-Kids-with-20-Gels-and-24-Molds-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 9.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b472b22f9b46",
+   "title": "Michaels Black Friday Deals Are Coming! Up to 70% Off Christmas Trees, Decor, Craft Supplies & More!",
+   "link": "https://hip2save.com/deals/michaels-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T12:19Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Michaels-Black-Friday-Sale.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Michaels"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "マイケルズ・ブラックフライデー・セールがやってくる！クリスマスツリー、デコレーション、クラフト用品などが最大70%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Michaels",
+    "item": "マイケルズ・ブラックフライデー・セールがやってくる！クリスマスツリー、デコレーション、クラフト用品などが最大70%オフ！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "fd1b365112bb",
+   "title": "Apple AirTag 4-Pack only $69.99 shipped {Today Only!}",
+   "link": "https://moneysavingmom.com/apple-airtag-lowest-price/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-11T12:13Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-11",
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2022/11/Screen-Shot-2022-11-21-at-3.39.17-PM.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "11/11(水)まで",
+    "cond": ""
+   },
+   "date": "2026-11-11"
+  },
+  {
+   "id": "4f47ef257ef1",
+   "title": "Sam’s Club Plus Members Now Get A FREE Walmart+ Membership {Link Your Accounts for a REFUND!}",
+   "link": "https://moneysavingmom.com/sams-club-plus-members-now-get-a-free-walmart-membership-link-your-accounts-for-a-refund/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-11T12:03Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Sams-club-630x337.jpg",
+   "hot": true,
+   "stores": [
+    "Walmart",
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart・Sam's Club",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "dup": "750c7793a2df",
+   "date": null
+  },
+  {
+   "id": "ca0bfc614f85",
+   "title": "Red Robin Deals | Free Meal for Veterans & More!",
+   "link": "https://thefreebieguy.com/red-robin-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T11:20Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Red-Robin-Big-Yummm-Deals-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Red Robin"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Red Robin",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "674fc8d6a95f",
+   "title": "Del Taco Deals | BOGO Free Quesadillas + Free The Del Taco w/ Order!",
+   "link": "https://thefreebieguy.com/del-taco-coupon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T11:18Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Del-Taco-Restaurant-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "bogo": true
+   },
+   "ja": "デルタコのお買い得情報|ボゴ無料ケサディーヤ+注文でデルタコを無料！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "デルタコのお買い得情報|ボゴ無料ケサディーヤ+注文でデルタコを無料！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "801da1c7abe1",
+   "title": "7 Brew Deals | 50% off Drinks For Veterans – Today Only!",
+   "link": "https://thefreebieguy.com/7-brew-coupons/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T11:16Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-11",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/7-Brew-Coffee-TFG-840x630.png",
+   "hot": true,
+   "stores": [
+    "7 Brew"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "7 Brew",
+    "item": "",
+    "when": "11/11(水)まで",
+    "cond": ""
+   },
+   "date": "2026-11-11"
+  },
+  {
+   "id": "164b0d28e2d9",
+   "title": "Best Wednesday Food and Restaurant Deals | Dutch Bros Free Sticker, Subway BOGO Footlongs, & More!",
+   "link": "https://thefreebieguy.com/cheap-wednesday-food-deals/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T11:15Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": "2026-11-11",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Wednesday-Food-Deals-1-840x630.png",
+   "hot": true,
+   "stores": [
+    "Dutch Bros",
+    "Subway"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null,
+    "bogo": true
+   },
+   "ja": "最高の水曜日の食べ物とレストランのお得な情報|オランダの兄弟無料ステッカー、地下鉄BOGO Footlongsなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Dutch Bros・Subway",
+    "item": "最高の水曜日の食べ物とレストランのお得な情報|オランダの兄弟無料ステッカー、地下鉄BOGO Footlongsなど！",
+    "when": "11/11(水)まで",
+    "cond": ""
+   },
+   "date": "2026-11-11"
+  },
+  {
+   "id": "387be65e7069",
+   "title": "Best Buy – Bella Pro Series 12.6-Quart Digital Air Fryer Oven Only $69.xx (Reg. $170)",
+   "link": "https://thefreebieguy.com/best-buy-bella-pro-series-12-6-quart-digital-air-fryer-oven/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T10:41Z",
+   "firstSeen": "2026-11-11T15:15Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2024/08/best-buy-air-fryer-oven-840x630.png",
+   "hot": false,
+   "stores": [
+    "Best Buy"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 59,
+   "price": 69.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Best Buy",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "a3b046311cb5",
    "title": "Jet-Puffed Marshmallow Bits Shaker Only $1.70 Shipped on Amazon",
@@ -30537,76 +31855,6 @@
    "date": null
   },
   {
-   "id": "bc9c2596d838",
-   "title": "FREE 8×10 Photo Print at Walgreens + More Photo Deals!",
-   "link": "https://thefreebieguy.com/walgreens-free-photo-deals-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T14:39Z",
-   "firstSeen": "2026-11-03T15:02Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/The-Freebie-Guy-Free-Print-840x630.png",
-   "hot": true,
-   "stores": [
-    "Walgreens"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Walgreens",
-    "item": "8x10写真プリント無料",
-    "what": "無料写真プリント",
-    "where": "Walgreens"
-   },
-   "ja": "8x10写真プリント無料",
-   "jaVia": "gemini",
-   "date": null
-  },
-  {
-   "id": "869608fdd805",
-   "title": "BOGO Free Comfrt Hoodies & Sweatpants for the Whole Family – Prices from $17.50 (Reg. $70)",
-   "link": "https://thefreebieguy.com/comfrt-hoodies-sweatpants/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T14:31Z",
-   "firstSeen": "2026-11-03T17:09Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Comfrt-hoodies-and-sweatpants-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": 75,
-   "price": 17.5,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "家族全員のためのBOGO無料Comfrtパーカー＆スウェットパンツ– $ 17.50 （登録価格$ 70 ）から",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "家族全員のためのBOGO無料Comfrtパーカー＆スウェットパンツ– $ 17.50 （登録価格$ 70 ）から",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "8e45077bbd13",
    "title": "Forget the Ugly Christmas Sweater, Dress Up as the Whole Tree Instead!",
    "link": "https://hip2save.com/deals/amazon-christmas-tree-outfit/",
@@ -30845,44 +32093,6 @@
    "date": null
   },
   {
-   "id": "7dbe75dddf0c",
-   "title": "Ulta Beauty Freebie Stack! Get 4 FREE Gifts + 2 Fragrances for $63 Shipped!",
-   "link": "https://thefreebieguy.com/ulta-beauty-sale/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T14:13Z",
-   "firstSeen": "2026-11-03T15:02Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/ulta-sale-840x630.png",
-   "hot": true,
-   "stores": [
-    "Ulta"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Ulta Beauty",
-    "item": "ギフト4個無料＋香水2個",
-    "cond": "$63以上",
-    "what": "無料ギフト",
-    "where": "Ulta Beauty"
-   },
-   "ja": "ギフト4個無料＋香水2個",
-   "jaVia": "gemini",
-   "date": null
-  },
-  {
    "id": "f7a01da91bf7",
    "title": "Lindt LINDOR Assorted Chocolate Candy Truffles 2-Pack Only $17.xx on Amazon (Reg. $30)",
    "link": "https://thefreebieguy.com/lindt-lindor-assorted-chocolate-candy-truffles/",
@@ -30948,74 +32158,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "f68d9902784c",
-   "title": "PetSmart Events: The November Birthday Bash is Coming + More!",
-   "link": "https://thefreebieguy.com/free-petsmart-events/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T13:51Z",
-   "firstSeen": "2026-11-03T17:09Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/PetSmart-Birthday-Bash-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ペットスマートイベント： 11月バースデーバッシュがやってくるぞ！その他もろもろ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ペットスマートイベント： 11月バースデーバッシュがやってくるぞ！その他もろもろ！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "36f08510db19",
-   "title": "Join Hallmark’s Crown Rewards and Get a Free Greeting Card Every Month!",
-   "link": "https://thefreebieguy.com/join-hallmarks-crown-rewards-and-get-a-free-greeting-card-every-month/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-03T13:38Z",
-   "firstSeen": "2026-11-03T15:02Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Hallmark-Cards-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Hallmark",
-    "item": "毎月グリーティングカード無料",
-    "cond": "会員限定",
-    "what": "無料カード",
-    "where": "Hallmark"
-   },
-   "ja": "毎月グリーティングカード無料",
-   "jaVia": "gemini",
    "date": null
   },
   {
@@ -56368,74 +57510,6 @@
    "date": null
   },
   {
-   "id": "e98f5a6a8757",
-   "title": "Emergency Survival Kit Just $20 on Amazon (Includes Knife, Multitools, Headlamp, & More)",
-   "link": "https://hip2save.com/deals/survival-kit/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T15:14Z",
-   "firstSeen": "2026-10-27T15:57Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/XUANLAN-Emergency-Survival-Kit.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "アマゾンでわずか$ 20の緊急サバイバルキット（ナイフ、マルチツール、ヘッドランプなどが含まれています）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "アマゾンでわずか$ 20の緊急サバイバルキット（ナイフ、マルチツール、ヘッドランプなどが含まれています）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "38cf85a40cbf",
-   "title": "YTL Travel Makeup Bag Only $7.xx on Amazon (Reg $18)",
-   "link": "https://thefreebieguy.com/ytl-travel-makeup-bag/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T15:14Z",
-   "firstSeen": "2026-10-27T15:57Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/makeup-bag--840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 61,
-   "price": 7.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "YTLトラベルメイクアップバッグAmazonで$ 7.xxのみ（登録価格$ 18 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "YTLトラベルメイクアップバッグAmazonで$ 7.xxのみ（登録価格$ 18 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "d218356e72a6",
    "title": "NEW NeeDoh Sets Dropping 11/12 for Walmart’s Early Black Friday Deals",
    "link": "https://hip2save.com/deals/walmart-needoh/",
@@ -56470,1304 +57544,6 @@
     "where": "Walmart"
    },
    "date": "2026-11-12"
-  },
-  {
-   "id": "7b27637a788f",
-   "title": "Beauty Gift Sets from $8 on Walmart.com (Tons of Options!)",
-   "link": "https://hip2save.com/deals/walmart-gift-sets/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T15:00Z",
-   "firstSeen": "2026-10-27T15:57Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/01/Bath-Care-Gift-Set-w_-Woven-Tote-Bag.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Walmart.comで$ 8からの美容ギフトセット（たくさんのオプション！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Walmart.comで$ 8からの美容ギフトセット（たくさんのオプション！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "dup": "a41eed337c3a"
-  },
-  {
-   "id": "8508296188a4",
-   "title": "Our Generation K-Pop Dolls as Low as $17.99 at Target (Reg. $30)",
-   "link": "https://thefreebieguy.com/our-generation-dolls/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T14:58Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/our-generation-k-pop-dolls-840x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 17.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "私たちの世代のK - Pop人形は、ターゲットで$ 17.99 （登録価格$ 30 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "私たちの世代のK - Pop人形は、ターゲットで$ 17.99 （登録価格$ 30 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "c331c1ad5fdc",
-   "title": "Amazon Fire TV Stick 4K Select Only $19.xx on Amazon (Reg. $50)",
-   "link": "https://thefreebieguy.com/amazon-fire-tv-stick-4k/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T14:55Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/fire-stick--840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 62,
-   "price": 19.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazon Fire TV Stick 4 K Select Only $ 19.xx （ Amazon ） （登録価格$ 50 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazon Fire TV Stick 4 K Select Only $ 19.xx （ Amazon ） （登録価格$ 50 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "52e2285723f9",
-   "title": "Finish Ultimate Quantum Dishwasher Pods Just $11.69 Shipped on Amazon (Reg. $23)",
-   "link": "https://hip2save.com/deals/finish-dishwasher-detergent/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T14:54Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/finish-ultimate-quantum-dishwasher-pods.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 49,
-   "price": 11.69,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "究極の量子食器洗い機ポッドを仕上げるわずか$ 11.69 Amazonで出荷（登録番号： $ 23 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "究極の量子食器洗い機ポッドを仕上げるわずか$ 11.69 Amazonで出荷（登録番号： $ 23 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "566ba67bd971",
-   "title": "Rechargeable LED Beanie w/ Bluetooth Just $9.99 on Amazon (Listen to Music, Take Calls & More)",
-   "link": "https://hip2save.com/deals/led-beanie/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T14:47Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/amazon-zooi-beanie.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "アマゾンでわずか$ 9.99のBluetooth付き充電式LEDビーニー（音楽を聴いたり、電話をかけるなど）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "アマゾンでわずか$ 9.99のBluetooth付き充電式LEDビーニー（音楽を聴いたり、電話をかけるなど）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "fa0796f8a11e",
-   "title": "Provirtec Pet Air Purifier Only $85.xx on Amazon (Reg $140)",
-   "link": "https://thefreebieguy.com/provirtec-pet-air-purifier/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T14:43Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Provirtec-Pet-Air-Purifier-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 39,
-   "price": 85.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Provirtecペット用空気清浄機Amazonで$ 85.xxのみ（登録価格$ 140 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Provirtecペット用空気清浄機Amazonで$ 85.xxのみ（登録価格$ 140 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "74c4b6053971",
-   "title": "Old Spice Seasonal Body Wash Just $4.55 Shipped on Amazon (Reg. $8)",
-   "link": "https://hip2save.com/deals/old-spice-body-wash/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T14:41Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/Old-Spice-Body-Wash.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 43,
-   "price": 4.55,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "オールドスパイス季節のボディウォッシュわずか$ 4.55アマゾンで発送（登録価格$ 8 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "オールドスパイス季節のボディウォッシュわずか$ 4.55アマゾンで発送（登録価格$ 8 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ba0aa1cdc8ae",
-   "title": "Better Homes & Gardens 12-Piece Dinnerware Set Only $16.23 at Walmart (Reg. $25)",
-   "link": "https://thefreebieguy.com/better-homes-gardens-12-piece-dinnerware-set/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T14:38Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Better-Homes-Gardens-12-Piece-Dinnerware-Set-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 35,
-   "price": 16.23,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Better Homes & Gardens 12ピースディナーウェアセットウォルマートでわずか$ 16.23 （登録価格$ 25 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Better Homes & Gardens 12ピースディナーウェアセットウォルマートでわずか$ 16.23 （登録価格$ 25 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0bd893743b0e",
-   "title": "Travel Clothes Steamer Only $12.99 Shipped on Amazon (Reg. $38)",
-   "link": "https://hip2save.com/deals/nexdoo-travel-clothes-steamer/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T14:36Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Nexdoo-Travel-Clothes-Steamer.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 66,
-   "price": 12.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "トラベルクローズスチーマーのみ$ 12.99 Amazonで発送（登録価格$ 38 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "トラベルクローズスチーマーのみ$ 12.99 Amazonで発送（登録価格$ 38 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "13c37bbf701e",
-   "title": "LEGO Classic Creative Food Friends Set Just $6 on Amazon & Target.com",
-   "link": "https://hip2save.com/deals/lego-classic-creative-food-friends/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T14:22Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/LEGO-Classic-Creative-Food-Friends-Set-.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target",
-    "Amazon"
-   ],
-   "cats": [
-    "home",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "LEGOクラシッククリエイティブフードフレンドセットたったの$ 6 Amazon & Target.com",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target・Amazon",
-    "item": "LEGOクラシッククリエイティブフードフレンドセットたったの$ 6 Amazon & Target.com",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "42109eb6e997",
-   "title": "Deep Fried Turkey Gobbler and Deep Fried Turkey Club Sandwiches are Back at Arby’s",
-   "link": "https://www.fastfoodpost.com/arbys-welcomes-back-deep-fried-turkey-gobbler-and-deep-fried-turkey-club/",
-   "source": "Fast Food Post",
-   "posted": "2026-10-27T14:20Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Arby's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "揚げたて七面鳥ゴブラーと揚げたて七面鳥クラブサンドイッチがArby'sに戻ってきました",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Arby's",
-    "item": "揚げたて七面鳥ゴブラーと揚げたて七面鳥クラブサンドイッチがArby'sに戻ってきました",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "09136721844c",
-   "title": "SEHMUA Security Cameras Wireless Outdoor Kit Only $120.xx on Amazon (Reg $200)",
-   "link": "https://thefreebieguy.com/sehmua-security-cameras/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T14:13Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/SEHMUA-Security-Cameras-Wireless-Outdoor-Kit-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 120.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "SEHMUA防犯カメラワイヤレス屋外キットAmazonで$ 120.xxのみ（登録価格$ 200 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "SEHMUA防犯カメラワイヤレス屋外キットAmazonで$ 120.xxのみ（登録価格$ 200 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "9c903e0d5770",
-   "title": "Stick-On Window Camera Just $19.99 Shipped on Amazon (Regularly $40)",
-   "link": "https://hip2save.com/deals/window-camera/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T14:07Z",
-   "firstSeen": "2026-10-27T15:00Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/GUOANVISION-Window-Camera.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "スティックオンウィンドウカメラ$ 19.99のみAmazonで発送（通常$ 40 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "スティックオンウィンドウカメラ$ 19.99のみAmazonで発送（通常$ 40 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "43b1f7e63ef5",
-   "title": "Best Buy Black Friday 2026 is ALMOST HERE! Double Rewards + Holiday Price Match Guarantee is Back!",
-   "link": "https://thefreebieguy.com/best-buy-black-friday/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T13:57Z",
-   "firstSeen": "2026-10-27T14:02Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Best-Buy-Kendall--840x630.png",
-   "hot": false,
-   "stores": [
-    "Best Buy"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "BF前にポイント2倍と価格保証が復活",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Best Buy",
-    "item": "BF前にポイント2倍と価格保証が復活",
-    "when": "",
-    "cond": "",
-    "what": "ポイント2倍",
-    "where": "Best Buy"
-   },
-   "date": null
-  },
-  {
-   "id": "e6a64ce004de",
-   "title": "Mark Your Calendars! Tractor Supply Just Dropped 2026 Black Friday Dates",
-   "link": "https://hip2save.com/deals/tractor-supply-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T13:50Z",
-   "firstSeen": "2026-10-27T14:02Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/tractor-supply.jpg?resize=306,182",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": true,
-   "freebie": null,
-   "ja": "ブラックフライデー日程情報",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Tractor Supply",
-    "item": "ブラックフライデー日程情報",
-    "when": "",
-    "cond": "",
-    "what": "BF日程発表",
-    "where": "Tractor Supply"
-   },
-   "date": null
-  },
-  {
-   "id": "345e4f72e5bb",
-   "title": "Crest Kid’s Toothpaste Only $1.xx Each WYB 3 at Walmart!",
-   "link": "https://thefreebieguy.com/crest-kids-toothpaste/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T13:43Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/kids-crest-toothpaste-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Crest Kidの歯磨き粉はウォルマートで各WYB 3 $ 1.xxのみ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Crest Kidの歯磨き粉はウォルマートで各WYB 3 $ 1.xxのみ！",
-    "when": "",
-    "cond": "子ども向け"
-   },
-   "date": null
-  },
-  {
-   "id": "c30eef7ed9aa",
-   "title": "Great Value Strong Flex 33 Gallon Trash Bags 4-Pack Only $21 at Walmart (Reg $38)",
-   "link": "https://thefreebieguy.com/great-value-trash-bags/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T13:35Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/strong-flex-trash-bags-great-value-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 45,
-   "price": 21.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "お買い得ストロングフレックス33ガロンゴミ袋4個パックのみウォルマートで$ 21 （登録価格$ 38 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "お買い得ストロングフレックス33ガロンゴミ袋4個パックのみウォルマートで$ 21 （登録価格$ 38 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "4b93ff92788d",
-   "title": "Better Homes & Gardens 2-Piece Clear Ribbed Tritan Sipper Set Only $2 at Walmart!",
-   "link": "https://thefreebieguy.com/better-homes-gardens-tritan-sipper-set/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T13:35Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/walmart-sipper-set-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Better Homes & Gardens 2ピースクリアリブトリタンシッパーセットはウォルマートで$ 2のみ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Better Homes & Gardens 2ピースクリアリブトリタンシッパーセットはウォルマートで$ 2のみ！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "b9082f9d8931",
-   "title": "Drizzilicious Peppermint Mini Rice Cakes Family Size Bag ONLY $4.98 at Sam’s Club",
-   "link": "https://hip2save.com/deals/drizzilicious-rice-cakes/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T13:30Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Drizzilicious-Peppermint-Mini-Rice-Cakes.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "サムズクラブでわずか$ 4.98のドリジリシャスペパーミントミニライスケーキファミリーサイズバッグ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "サムズクラブでわずか$ 4.98のドリジリシャスペパーミントミニライスケーキファミリーサイズバッグ",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "355c8cac136c",
-   "title": "Best Buy Just Dropped Their 2026 Black Friday Schedule (Here’s What You Need to Know!)",
-   "link": "https://hip2save.com/deals/best-buy-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T13:22Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2023/10/best-buy-4.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Best Buy"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ブラックフライデー日程情報",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Best Buy",
-    "item": "ブラックフライデー日程情報",
-    "when": "",
-    "cond": "",
-    "what": "BF日程発表",
-    "where": "Best Buy"
-   },
-   "date": null
-  },
-  {
-   "id": "adefc69875cd",
-   "title": "7.5′ Pre-Lit Slim Christmas Tree Only $39.99 Shipped for Prime Members (Reg. $155)",
-   "link": "https://hip2save.com/deals/woot-christmas/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T13:15Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/woot-christmas-tree.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 74,
-   "price": 39.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "7.5 'プレライトスリムクリスマスツリーのみ$ 39.99プライムメンバー向けに発送（登録価格$ 155 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "7.5 'プレライトスリムクリスマスツリーのみ$ 39.99プライムメンバー向けに発送（登録価格$ 155 ）",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "date": null
-  },
-  {
-   "id": "ef98677c68f9",
-   "title": "Huge Price Drops on LEGO Botanical Collection and Flower Sets!",
-   "link": "https://moneysavingmom.com/rare-deals-on-lego-botanical-collection-sets/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T13:11Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/08/Screenshot-2025-12-11-at-9.13.04 AM-630x576.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart",
-    "Amazon"
-   ],
-   "cats": [
-    "grocery",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "レゴボタニカルコレクションとフラワーセットが大幅値下げ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart・Amazon",
-    "item": "レゴボタニカルコレクションとフラワーセットが大幅値下げ！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "cf389026a9b4",
-   "title": "Coslus Water Dental Flosser Pick Only $8.xx on Amazon (Reg. $43)",
-   "link": "https://thefreebieguy.com/coslus-flosser/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T13:11Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/COSLUS-Water-Dental-Flosser-Tooth-Pick-840x630.jpg",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 81,
-   "price": 8.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "249fe81f7c7f",
-   "title": "Palmolive Dish Soap Just $1.15 at CVS (Reg. $4) – All You Have to Do Is Clip a Coupon!",
-   "link": "https://hip2save.com/deals/palmolive-dish-soap/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T13:10Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Palmolive-soaps.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "CVS"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "coupon"
-   ],
-   "pct": 71,
-   "price": 1.15,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "CVS",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "a159e488c29b",
-   "title": "Pink Stork Women’s Health Probiotic, 50 Billion CFU, 30 count just $17.99, plus more!",
-   "link": "https://moneysavingmom.com/pink-stork-total-prenatal-vitamins-one-month-supply-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T13:06Z",
-   "firstSeen": "2026-10-27T13:52Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/02/Screenshot-2026-02-02-at-3.11.11 PM-630x597.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8b1f3dc257f2",
-   "title": "Hisense 65″ Class QD5 Hi-QLED 4K UHD Smart Roku TV Only $329.xx on Best Buy (Reg $550)",
-   "link": "https://thefreebieguy.com/hisense-65qd5sr-65-class-qd5-smart-roku-tv/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T12:59Z",
-   "firstSeen": "2026-10-27T13:01Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Hisense-65_-QD5-Hi-QLED-4K-UHD-Smart-Roku-TV-840x630.png",
-   "hot": false,
-   "stores": [
-    "Best Buy"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 329.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Hisense 65インチクラスQD 5 Hi - QLED 4 K UHDスマートRoku TV Best Buyで$ 329.xxのみ（登録価格$ 550 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Best Buy",
-    "item": "Hisense 65インチクラスQD 5 Hi - QLED 4 K UHDスマートRoku TV Best Buyで$ 329.xxのみ（登録価格$ 550 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "569f62f371f4",
-   "title": "ACOTAR Fans! Sam’s Club Just Dropped Collector’s Edition Throws & They’re Selling Out FAST!",
-   "link": "https://hip2save.com/deals/acotar-collectors-edition-throws/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T12:55Z",
-   "firstSeen": "2026-10-27T13:01Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Sarah-J.-Maas-ACOTAR-Collection-Chenille-Throws.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ACOTARファン！サムのクラブがコレクターズエディションのスローを落としたばかりで、すぐに売り切れてしまいました！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "ACOTARファン！サムのクラブがコレクターズエディションのスローを落としたばかりで、すぐに売り切れてしまいました！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "27395c088b48",
-   "title": "Nesugar Dual-Head Fabric Shaver and Lint Remover Only $12.xx on Amazon (Reg. $39)",
-   "link": "https://thefreebieguy.com/nesugar-dual-head-fabric-shaver-and-lint-remover/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T12:36Z",
-   "firstSeen": "2026-10-27T12:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Nesugar-Dual-Head-Fabric-Shaver-and-Lint-Remover-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 69,
-   "price": 12.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "NesugarデュアルヘッドファブリックシェーバーとリントリムーバーAmazonで$ 12.xxのみ（登録価格$ 39 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "NesugarデュアルヘッドファブリックシェーバーとリントリムーバーAmazonで$ 12.xxのみ（登録価格$ 39 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "a41eed337c3a",
-   "title": "Walmart Beauty Gift Sets Sale! Prices From $6!",
-   "link": "https://thefreebieguy.com/walmart-beauty-gift-sets/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T12:35Z",
-   "firstSeen": "2026-10-27T12:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/walmart-gift-sets-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートビューティーギフトセットセール！価格は$ 6から！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートビューティーギフトセットセール！価格は$ 6から！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "589d1337ebd7",
-   "title": "Sam’s, Costco & BJs Wholesale Memberships Are All on Sale Right Now!",
-   "link": "https://thefreebieguy.com/these-3-club-stores-have-a-big-deal-going-on-super-cheap-memberships/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T12:32Z",
-   "firstSeen": "2026-10-27T13:01Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Wholesale-Club-Memberships-840x630.png",
-   "hot": false,
-   "stores": [
-    "Costco",
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Sam's、Costco、BJ'sの卸売メンバーシップはすべて現在セール中です！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Costco・Sam's Club",
-    "item": "Sam's、Costco、BJ'sの卸売メンバーシップはすべて現在セール中です！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8543070c010f",
-   "title": "Woot! Amazon Devices Sale – Up to 60% Off + Extra 30% Off",
-   "link": "https://thefreebieguy.com/woot-amazon-devices-sale/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T12:28Z",
-   "firstSeen": "2026-10-27T12:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2022/04/Woot-Amazon-Devices-sale-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 60,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Woot! Amazonデバイスセール–最大60%オフ+さらに30%オフ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Woot! Amazonデバイスセール–最大60%オフ+さらに30%オフ",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "f707e1424351",
-   "title": "Pro Pots Football 1.5-Quart Slow Cooker Only $24.xx at Walmart (Reg. $50)",
-   "link": "https://thefreebieguy.com/pro-pots-football-slow-cooker/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T12:11Z",
-   "firstSeen": "2026-10-27T12:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/pro-pots-slow-cooker-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 52,
-   "price": 24.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "プロポッツフットボール1.5クォートスロークッカーウォルマートで$ 24.xxのみ（登録価格$ 50 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "プロポッツフットボール1.5クォートスロークッカーウォルマートで$ 24.xxのみ（登録価格$ 50 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "33cd51731b46",
-   "title": "36-Pack Pepsi or Mountain Dew Soda 12oz Cans Only $11.xx on Amazon (Reg $48)",
-   "link": "https://thefreebieguy.com/pepsi-or-mountain-dew-soda-12oz-cans/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T12:01Z",
-   "firstSeen": "2026-10-27T12:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Pepsi-or-Mountain-Dew-Soda-12oz-Cans-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 77,
-   "price": 11.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "36パックペプシまたはマウンテンデューソーダ12オンス缶Amazonで$ 11.xxのみ（登録価格$ 48 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "36パックペプシまたはマウンテンデューソーダ12オンス缶Amazonで$ 11.xxのみ（登録価格$ 48 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "976f8576fe13",
-   "title": "Women’s Cardigan Sweater only $13.49!",
-   "link": "https://moneysavingmom.com/womens-cardigan-sweater-deal-2/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T11:57Z",
-   "firstSeen": "2026-10-27T12:42Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Cardigan-630x857.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "レディースカーディガンセーターは$ 13.49のみ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "レディースカーディガンセーターは$ 13.49のみ！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "02302e816b3f",
-   "title": "Toro Flex-Force String Trimmer & Leaf Blower Combo Kit Only $179 at Lowes (Reg $299)",
-   "link": "https://thefreebieguy.com/toro-lowes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:50Z",
-   "firstSeen": "2026-10-27T12:42Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/lowes-toro-840x630.png",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 179.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Toro Flex - Forceストリングトリマー＆リーフブロワーコンボキットLowesで$ 179のみ（登録価格$ 299 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "Toro Flex - Forceストリングトリマー＆リーフブロワーコンボキットLowesで$ 179のみ（登録価格$ 299 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "d58dd0beb3b1",
-   "title": "Amazon Grocery Chopped Walnuts, 8 oz only $2.99 shipped!",
-   "link": "https://moneysavingmom.com/amazon-grocery-chopped-walnuts-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T11:48Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Amazon-Grocery-Chopped-Walnuts-630x687.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazon Groceryみじん切りクルミ、8オンスのみ$ 2.99で発送！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazon Groceryみじん切りクルミ、8オンスのみ$ 2.99で発送！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "f92aae4a0aba",
-   "title": "Kinder Bueno Snack Size 6.8oz Bag Only $4.97 on Amazon & Walmart.com",
-   "link": "https://hip2save.com/deals/kinder-bueno/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T11:45Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/Kinder-Halloween-Bueno-Snack-Size-6.8oz.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart",
-    "Amazon"
-   ],
-   "cats": [
-    "grocery",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Kinder Buenoスナックサイズ6.8オンスバッグのみ$ 4.97 Amazon & Walmart.com",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart・Amazon",
-    "item": "Kinder Buenoスナックサイズ6.8オンスバッグのみ$ 4.97 Amazon & Walmart.com",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "431b4c316050",
-   "title": "Nesugar G6 Pro Smart Handheld Travel Steamer Only $12.xx on Amazon (Reg $40)",
-   "link": "https://thefreebieguy.com/nesugar-g6-pro-smart-handheld-steamer/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:45Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Nesugar-G6-Pro-Smart-Handheld-Travel-Steamer-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 70,
-   "price": 12.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Nesugar G 6 ProスマートハンドヘルドトラベルスチーマーAmazonで$ 12.xxのみ（登録価格$ 40 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Nesugar G 6 ProスマートハンドヘルドトラベルスチーマーAmazonで$ 12.xxのみ（登録価格$ 40 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
   },
   {
    "id": "fadc4d000f54",
@@ -57811,653 +57587,6 @@
    "family": true,
    "date": "2026-11-15",
    "freebie": null
-  },
-  {
-   "id": "657c3de797f3",
-   "title": "SpongeBob Men’s 6-Pack Crew Socks Only $2.xx on Walmart (Reg $15)",
-   "link": "https://thefreebieguy.com/spongebob-mens-crew-socks/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:28Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/SpongeBob-Mens-6-Pack-Crew-Socks-840x630.png",
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 87,
-   "price": 2.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "スポンジボブメンズ6パッククルーソックスウォルマートで$ 2.xxのみ（登録価格$ 15 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "スポンジボブメンズ6パッククルーソックスウォルマートで$ 2.xxのみ（登録価格$ 15 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "19a25cac7abb",
-   "title": "Progresso Lasagna-Style Soup Just $1.58 on Amazon",
-   "link": "https://hip2save.com/deals/progresso-soup/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T11:25Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Progresso-Rich-Hearty-Lasagna-Style-Soup-w_-Italian-Sausage-18.5oz.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazonでたったの$ 1.58のプログレッソラザニア風スープ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonでたったの$ 1.58のプログレッソラザニア風スープ",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "3d066a00e652",
-   "title": "Who Knew Storage Could Be This Cute? Pink Lowe’s Finds From $1.98",
-   "link": "https://thefreebieguy.com/lowes-pink-finds/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:24Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Lowes-Pink-Takeover-840x630.png",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ストレージがこんなに可愛いなんて誰が知っていましたか？ Pink Lowe'sの商品が$ 1.98から",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "ストレージがこんなに可愛いなんて誰が知っていましたか？ Pink Lowe'sの商品が$ 1.98から",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8a10dd252e10",
-   "title": "60-Ct Salonpas Muscle Soreness Pain Relieving Patch Only $5.xx on Amazon (Reg $13)",
-   "link": "https://thefreebieguy.com/salonpas-muscle-soreness-pain-relieving-patch/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:15Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Salonpas-Pain-Relieving-Patch-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 62,
-   "price": 5.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "60 Ct Salonpas筋肉痛疼痛緩和パッチのみ$ 5.xxアマゾン（登録$ 13 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "60 Ct Salonpas筋肉痛疼痛緩和パッチのみ$ 5.xxアマゾン（登録$ 13 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "2f6a17e52d19",
-   "title": "Two Maybelline Color Sensational Cream Finish Lipstick Only $4.xx on Amazon (Reg $18)",
-   "link": "https://thefreebieguy.com/maybelline-lipstick/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T11:00Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Maybelline-Color-Sensational-Lipstick-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 78,
-   "price": 4.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "2つのメイベリンカラーセンセーショナルクリームフィニッシュリップスティックのみ$ 4.xxアマゾン（登録$ 18 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "2つのメイベリンカラーセンセーショナルクリームフィニッシュリップスティックのみ$ 4.xxアマゾン（登録$ 18 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "52aff01a2859",
-   "title": "Brigette’s $22.26 CVS Shopping Trip ($1.74 Money Maker after Rewards) and $39.04 Walgreens Shopping Trip ($11.63 after Rewards)!",
-   "link": "https://moneysavingmom.com/brigettes-22-26-cvs-shopping-trip-1-74-money-maker-after-rewards-and-39-04-walgreens-shopping-trip-11-63-after-rewards/",
-   "source": "Money Saving Mom",
-   "posted": "2026-10-27T10:59Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/CVS-2-630x473.jpg",
-   "hot": false,
-   "stores": [
-    "CVS",
-    "Walgreens"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Brigetteの$ 22.26 CVSショッピング旅行（報酬後$ 1.74マネーメーカー）と$ 39.04 Walgreensショッピング旅行（報酬後$ 11.63 ） ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "CVS・Walgreens",
-    "item": "Brigetteの$ 22.26 CVSショッピング旅行（報酬後$ 1.74マネーメーカー）と$ 39.04 Walgreensショッピング旅行（報酬後$ 11.63 ） ！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "15a49d6b348f",
-   "title": "Dollar General Penny List: Updated Weekly + Penny Shopping Guide ⭐",
-   "link": "https://thefreebieguy.com/dollar-general-penny-shopping-master-list/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T10:48Z",
-   "firstSeen": "2026-10-27T11:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Dollar-General-Penny-List-840x630.png",
-   "hot": false,
-   "stores": [
-    "Dollar General"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ドル一般ペニーリスト：更新されたウィークリー+ペニーショッピングガイド ⭐",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Dollar General",
-    "item": "ドル一般ペニーリスト：更新されたウィークリー+ペニーショッピングガイド ⭐",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0dfc2c3ff337",
-   "title": "Pirate’s Booty Aged White Cheddar Cheese Puffs 24 Pack Just $7.xx on Amazon",
-   "link": "https://thefreebieguy.com/pirates-booty-aged-white-cheddar-cheese-puffs/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T10:25Z",
-   "firstSeen": "2026-10-27T10:51Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/PIRATES-BOOTY-Aged-White-Cheddar-Cheese-Puffs-Bags-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Pirate's Booty - Aged White Cheddar Cheese Puffs 24パックたったの$ 7.xx （ Amazon ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Pirate's Booty - Aged White Cheddar Cheese Puffs 24パックたったの$ 7.xx （ Amazon ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "5d3cdbf27f65",
-   "title": "Ruffles Original Potato Chips 40-Pack Only $9.xx on Amazon (Reg. $19)",
-   "link": "https://thefreebieguy.com/ruffles-chips-amazon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T10:15Z",
-   "firstSeen": "2026-10-27T10:51Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Ruffles-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 53,
-   "price": 9.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "フリルオリジナルポテトチップス40パックAmazonで$ 9.xxのみ（登録価格$ 19 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "フリルオリジナルポテトチップス40パックAmazonで$ 9.xxのみ（登録価格$ 19 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "3995829631e5",
-   "title": "UGREEN 30W GaN II 3-Port USB-C Fast Charger Block Only $9.xx on Amazon (Reg $17)",
-   "link": "https://thefreebieguy.com/ugreen-30w-usb-c-fast-charger-block/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T10:08Z",
-   "firstSeen": "2026-10-27T10:51Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/UGREEN-3-Port-30W-USB-C-Charger-Block-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 47,
-   "price": 9.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "UGREEN 30 W GaN II 3ポートUSB - C高速充電器ブロックのみ$ 9.xx Amazon （登録$ 17 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "UGREEN 30 W GaN II 3ポートUSB - C高速充電器ブロックのみ$ 9.xx Amazon （登録$ 17 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "c76400157db9",
-   "title": "ARM & HAMMER Baking Soda Fridge-n-Freezer Odor Absorber 12-Pack Only $8.xx on Amazon",
-   "link": "https://thefreebieguy.com/arm-hammer-pure-baking-soda/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T09:58Z",
-   "firstSeen": "2026-10-27T10:51Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/ARM-HAMMER-Baking-Soda-Fridge-n-Freezer-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ARM & HAMMERベーキングソーダ冷蔵庫-冷凍庫臭気吸収剤12パックAmazonで$ 8.xxのみ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ARM & HAMMERベーキングソーダ冷蔵庫-冷凍庫臭気吸収剤12パックAmazonで$ 8.xxのみ",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ed74ccde94fa",
-   "title": "G Gradual Men’s 4-Way Stretch Tapered Jogger Sweatpants Only $14.xx on Amazon (Reg $30)",
-   "link": "https://thefreebieguy.com/g-gradual-jogger-sweatpants/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T09:47Z",
-   "firstSeen": "2026-10-27T09:53Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/G-Gradual-Mens-Sweatpants-with-3-Zipper-Pockets-Tapered-Joggers-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 53,
-   "price": 14.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "G Gradualメンズ4ウェイストレッチテーパージョガースウェットパンツAmazonで$ 14.xxのみ（登録価格$ 30 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "G Gradualメンズ4ウェイストレッチテーパージョガースウェットパンツAmazonで$ 14.xxのみ（登録価格$ 30 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8157e23bfdd3",
-   "title": "Adidas Men’s Defender Backpack Only $22 on eBay (Reg. $55)",
-   "link": "https://thefreebieguy.com/adidas-defender-backpack/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T09:30Z",
-   "firstSeen": "2026-10-27T09:53Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/adidas-men-Defender-Backpack-945x630.png",
-   "hot": false,
-   "stores": [
-    "eBay"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 60,
-   "price": 22.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "AdidasメンズディフェンダーバックパックeBayで$ 22のみ（登録価格$ 55 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "eBay",
-    "item": "AdidasメンズディフェンダーバックパックeBayで$ 22のみ（登録価格$ 55 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "42c2ba7fefed",
-   "title": "Convertible Boneless Loveseat Sofa Bed Only $138.xx on Amazon (Reg $220)",
-   "link": "https://thefreebieguy.com/tykacna-convertible-boneless-loveseat-sofa-bed/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T08:49Z",
-   "firstSeen": "2026-10-27T08:55Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Tykacna-Convertible-Boneless-Loveseat-Sofa-Bed-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 37,
-   "price": 138.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "骨なしラブシートソファベッド（コンバーチブルタイプ）がAmazonでわずか138.xxドル（通常価格220ドル）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "骨なしラブシートソファベッド（コンバーチブルタイプ）がAmazonでわずか138.xxドル（通常価格220ドル）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "29ed849d836a",
-   "title": "George Men’s Ribbed Fleece Lined Knit Beanie Just $1.xx at Walmart (Reg. $10)",
-   "link": "https://thefreebieguy.com/george-knit-beanie/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T08:15Z",
-   "firstSeen": "2026-10-27T08:55Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/George-Ribbed-Fleece-Lined-Knit-Beanie--945x630.png",
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 90,
-   "price": 1.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "Georgeメンズリブフリース裏地付きニットビーニーウォルマートでたったの$ 1.xx （登録価格$ 10 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Georgeメンズリブフリース裏地付きニットビーニーウォルマートでたったの$ 1.xx （登録価格$ 10 ）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "ea5d114908ef",
-   "title": "Bedsure GentleSoft 50″x60″ Reversible Sherpa Fleece Throw Blanket Only $10.xx on Amazon (Reg $35)",
-   "link": "https://thefreebieguy.com/bedsure-gentlesoft-reversible-sherpa-fleece-throw-blanket/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T08:05Z",
-   "firstSeen": "2026-10-27T08:55Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Bedsure-GentleSoft-Sherpa-Fleece-Throw-Blanket-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 71,
-   "price": 10.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "Bedsure GentleSoft 50インチx 60インチリバーシブルシェルパフリーススローブランケットAmazonで$ 10.xxのみ（登録$ 35 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Bedsure GentleSoft 50インチx 60インチリバーシブルシェルパフリーススローブランケットAmazonで$ 10.xxのみ（登録$ 35 ）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "707a36166fe5",
-   "title": "ARM & HAMMER Clean Scentsations In-Wash Scent Booster Just $1.xx After Walmart Cash",
-   "link": "https://thefreebieguy.com/arm-hammer-clean-scentsations-in-wash-scent-booster/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T07:49Z",
-   "firstSeen": "2026-10-27T07:57Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Arm-Hammer-In-Wash-Scent-Booster-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ARM & HAMMER クリーンセンセーションズ インウォッシュ セントブースター ウォルマートキャッシュ適用でわずか1.xxドル",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ARM & HAMMER クリーンセンセーションズ インウォッシュ セントブースター ウォルマートキャッシュ適用でわずか1.xxドル",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "63652c64739c",
-   "title": "8.9″ Kids Magnetic Drawing Board Only $10.xx on Amazon (Reg $28)",
-   "link": "https://thefreebieguy.com/smasiagon-kids-magnetic-drawing-board/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T07:27Z",
-   "firstSeen": "2026-10-27T07:57Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Smasiagon-Kids-Magnetic-Drawing-Board-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 64,
-   "price": 10.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "8.9インチの子供用マグネット式お絵かきボードがAmazonでわずか10ドル台（通常価格28ドル）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "8.9インチの子供用マグネット式お絵かきボードがAmazonでわずか10ドル台（通常価格28ドル）",
-    "when": "",
-    "cond": "子ども向け"
-   },
-   "date": null
-  },
-  {
-   "id": "9080d6798e6c",
-   "title": "Cordless Full Body Hair Trimmer with 4 Guards Only $21.xx on Amazon (Reg. $50)",
-   "link": "https://thefreebieguy.com/manspot-full-body-hair-trimmer/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T06:56Z",
-   "firstSeen": "2026-10-27T07:00Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/MANSPOT-Manscape-Groin-Body-Hair-Trimmer-for-Men-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 58,
-   "price": 21.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "4ガード付きコードレスフルボディヘアトリマーAmazonでのみ$ 21.xx （登録価格$ 50 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "4ガード付きコードレスフルボディヘアトリマーAmazonでのみ$ 21.xx （登録価格$ 50 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
   },
   {
    "id": "84995c4651df",
