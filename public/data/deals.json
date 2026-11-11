@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-10T23:25Z",
- "count": 1717,
+ "updated": "2026-11-11T02:18Z",
+ "count": 1715,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 22
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 6
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 18
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,236 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
+   "gemini": 13,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 3,
+   "geminiToday": 4,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "345499dd6ebb",
+   "title": "Portable Clothes Rack Just $27.52 Shipped w/ Amazon Prime (Reg. $46)",
+   "link": "https://hip2save.com/deals/amazon-portable-clothes-rack/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T02:00Z",
+   "firstSeen": "2026-11-11T02:18Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/amazon-clothing-rack-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 27.52,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ポータブル洋服ラックわずか$ 27.52 Amazonプライム付き発送（登録価格$ 46 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ポータブル洋服ラックわずか$ 27.52 Amazonプライム付き発送（登録価格$ 46 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "dfa78e5941eb",
+   "title": "Cuddl Duds Plush Heated Throw Blanket Only $28.xx at Kohl’s (Reg. $75)",
+   "link": "https://thefreebieguy.com/cuddl-duds-plush-heated-throw-blanket/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T00:36Z",
+   "firstSeen": "2026-11-11T02:18Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Cuddl-Duds-Plush-Heated-Throw-Blanket-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 63,
+   "price": 28.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Cuddl Dudsぬいぐるみ加熱スローブランケットKohl'sでたったの$ 28.xx （登録価格$ 75 ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Cuddl Dudsぬいぐるみ加熱スローブランケットKohl'sでたったの$ 28.xx （登録価格$ 75 ）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8a9635baa411",
+   "title": "Airheads Winter Mini Bars Only $3.xx on Amazon!",
+   "link": "https://thefreebieguy.com/airheads-candy-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-11T00:08Z",
+   "firstSeen": "2026-11-11T02:18Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Airheads-mini-bars-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Airheads WinterミニバーAmazonでたったの$ 3.xx ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Airheads WinterミニバーAmazonでたったの$ 3.xx ！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "04bbf79800cf",
+   "date": null
+  },
+  {
+   "id": "0b575a6e0a5b",
+   "title": "Free $10-$200 Whatnot Credit",
+   "link": "https://thefreebieguy.com/free-whatnot-credit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-10T23:41Z",
+   "firstSeen": "2026-11-11T02:18Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Whatnot-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Whatnot",
+    "item": "$10〜$200クレジット",
+    "what": "無料クレジット",
+    "where": "Whatnot"
+   },
+   "ja": "$10〜$200クレジット",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "5638d83b5a94",
+   "title": "Free Microchip & Rabies Vaccination Event",
+   "link": "https://events.bryantx.gov/default/Detail/2026-11-14-0800-Free-Microchip-amp-Rabies-Vaccination-Event",
+   "source": "City of Bryan",
+   "posted": "2026-11-10T23:32Z",
+   "firstSeen": "2026-11-10T23:32Z",
+   "expires": "2026-11-14",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-14",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "City of Bryan",
+    "item": "ブライアン市の犬猫マイクロチップ・狂犬病ワクチン無料会",
+    "when": "11/14(土) 8時",
+    "cond": "無料・要申込",
+    "what": "ペット無料接種",
+    "where": "ブライアン市"
+   },
+   "ja": "ブライアン市の犬猫マイクロチップ・狂犬病ワクチン無料会",
+   "jaVia": "claude-ev",
+   "date": "2026-11-14",
+   "freebie": {
+    "kind": "store",
+    "when": null
+   }
+  },
+  {
+   "id": "a2953729094d",
+   "title": "Pack Fresh Card Show Vol. 5 at The Brazos Center",
+   "link": "https://www.destinationbryan.com/events/pack-fresh-card-show-vol-5/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-10T23:32Z",
+   "firstSeen": "2026-11-10T23:32Z",
+   "expires": "2026-11-22",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-21",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Brazos Center",
+    "item": "Brazos Center のトレカ展示即売会(2日間)",
+    "when": "11/21(土)〜11/22(日)",
+    "cond": "入場料",
+    "what": "カードショー",
+    "where": "Brazos Center"
+   },
+   "ja": "Brazos Center のトレカ展示即売会(2日間)",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-21",
+   "freebie": null
+  },
   {
    "id": "acce3f83d88d",
    "title": "Initial Heart Necklaces Only $3.xx on Amazon (Reg. $15)!",
@@ -401,8 +622,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "9e348f4018db",
-   "date": null
+   "date": null,
+   "dup": "9e348f4018db"
   },
   {
    "id": "86a336afb857",
@@ -606,8 +827,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ea5d114908ef",
-   "date": null
+   "date": null,
+   "dup": "ea5d114908ef"
   },
   {
    "id": "df8f5cf64ba7",
@@ -641,7 +862,7 @@
     "what": "BF目玉セール",
     "where": "Five Below"
    },
-   "date": null
+   "date": "2026-11-14"
   },
   {
    "id": "df4149d5ed03",
@@ -675,8 +896,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "6228cb8897cd",
-   "date": null
+   "date": null,
+   "dup": "6228cb8897cd"
   },
   {
    "id": "07e711d08d3d",
@@ -710,8 +931,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "d8bb8ec53273",
-   "date": null
+   "date": null,
+   "dup": "d8bb8ec53273"
   },
   {
    "id": "9e9f2753a8d3",
@@ -720,7 +941,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-10T20:40Z",
    "firstSeen": "2026-11-10T23:25Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Michaels-Advent-Calendar-1.jpg?resize=306,182",
    "hot": true,
    "stores": [
@@ -747,7 +968,7 @@
     "what": "無料アドベント暦",
     "where": "Michaels"
    },
-   "date": null
+   "date": "2026-11-27"
   },
   {
    "id": "4482b3d6502a",
@@ -982,13 +1203,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Better Homes & Gardens 9 x 13ストーンウェアベーキングディッシュ$ 9.50、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Better Homes & Gardens 9 x 13ストーンウェアベーキングディッシュ$ 9.50、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "76a988e05273",
@@ -1014,13 +1237,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでわずか$ 22.49の50個以上のウイルススライムキット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでわずか$ 22.49の50個以上のウイルススライムキット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0b3d6cf76ee4",
@@ -1085,14 +1310,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Mrs. Meyer'sディッシュソープ3パックわずか$ 8.87 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Mrs. Meyer'sディッシュソープ3パックわずか$ 8.87 Amazonで発送",
     "when": "",
     "cond": ""
    },
-   "dup": "c12f70051dae",
-   "date": null
+   "dup": "c12f70051dae"
   },
   {
    "id": "e6ccb8ef5e28",
@@ -1118,13 +1345,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Farberwareディズニーキャストアイアンキャセロールパン蓋付きアマゾンで$ 39.xxのみ（登録価格$ 100 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Farberwareディズニーキャストアイアンキャセロールパン蓋付きアマゾンで$ 39.xxのみ（登録価格$ 100 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e40ab6b7bfc7",
@@ -1150,13 +1379,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kohl'sのレディースウィンターブーツは$ 15.xx （ 35ドル）から！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Kohl'sのレディースウィンターブーツは$ 15.xx （ 35ドル）から！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "77ab6a535db6",
@@ -1182,14 +1413,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "サムズクラブ感謝祭の食事はお一人様$ 10未満！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "サムズクラブ感謝祭の食事はお一人様$ 10未満！",
     "when": "",
     "cond": ""
    },
-   "dup": "66ae7f366a03",
-   "date": null
+   "dup": "66ae7f366a03"
   },
   {
    "id": "769add232d35",
@@ -1215,13 +1448,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "このゴージャスな9 × 13ベーキングディッシュは、Walmart.comでわずか$ 9.50です",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "このゴージャスな9 × 13ベーキングディッシュは、Walmart.comでわずか$ 9.50です",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5ea5431597c1",
@@ -1247,13 +1482,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "今週はアルディを見逃すな！クリスマスのホームグッズ、デコレーション、Squishy'sなどの準備をしましょう",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Aldi",
-    "item": "",
+    "item": "今週はアルディを見逃すな！クリスマスのホームグッズ、デコレーション、Squishy'sなどの準備をしましょう",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e42e79e78118",
@@ -1318,13 +1555,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "プログレッソピットマスタースープ3本わずか$ 4.60アマゾンで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "プログレッソピットマスタースープ3本わずか$ 4.60アマゾンで発送",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6873faa0f958",
@@ -1350,14 +1589,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Better Homes & Gardens職人の12ピースの石器ディナーウェアセットは$ 20のみ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Better Homes & Gardens職人の12ピースの石器ディナーウェアセットは$ 20のみ！",
     "when": "",
     "cond": ""
    },
-   "dup": "ba0aa1cdc8ae",
-   "date": null
+   "dup": "ba0aa1cdc8ae"
   },
   {
    "id": "b53350fb12a2",
@@ -1383,13 +1624,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スコットトイレットペーパーWalgreensでたったの$ 3.xx （登録価格$ 5 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "スコットトイレットペーパーWalgreensでたったの$ 3.xx （登録価格$ 5 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a3fb82cb6822",
@@ -1417,13 +1660,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "私たちのお気に入りのダウニーの止められない香りがシワスプレーに登場！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Target",
-    "item": "",
+    "item": "私たちのお気に入りのダウニーの止められない香りがシワスプレーに登場！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "78b89b5d8c87",
@@ -1449,13 +1694,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "シアサッカー3ピース掛け布団セットわずか$ 17.99アマゾンで発送（登録価格$ 46 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "シアサッカー3ピース掛け布団セットわずか$ 17.99アマゾンで発送（登録価格$ 46 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "399beed71c2d",
@@ -1481,13 +1728,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Fairlife Protein Shakes 12パックわずか$ 23.99 Amazonで発送（登録価格$ 42 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Fairlife Protein Shakes 12パックわずか$ 23.99 Amazonで発送（登録価格$ 42 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "aa6c7c70087a",
@@ -1513,13 +1762,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "新しいターゲットホリデープレイドショッピングバッグはわずか$ 3 （今月4,000以上購入！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "新しいターゲットホリデープレイドショッピングバッグはわずか$ 3 （今月4,000以上購入！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "80f668f40db8",
@@ -1545,13 +1796,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートには、わずか$ 7.75から始まる食事セットがあります（簡単な夕食のアイデア！ ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートには、わずか$ 7.75から始まる食事セットがあります（簡単な夕食のアイデア！ ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2fbc459251fb",
@@ -1577,13 +1830,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comのAppleシナモンパンケーキ＆ワッフルミックス4パックわずか$ 2.44",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comのAppleシナモンパンケーキ＆ワッフルミックス4パックわずか$ 2.44",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "392bbec2ac40",
@@ -2466,13 +2721,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lysol消毒用ウェットティッシュ3枚入りわずか$ 7.45 Amazonで発送",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Lysol消毒用ウェットティッシュ3枚入りわずか$ 7.45 Amazonで発送",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "ba345f5a3dab"
   },
   {
@@ -2499,13 +2756,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kensie 22インチハードサイドスピナーラゲージわずか$ 47.99 （登録価格$ 100 ） ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Kensie 22インチハードサイドスピナーラゲージわずか$ 47.99 （登録価格$ 100 ） ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "03f0110aa5bf",
@@ -2531,13 +2790,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートメンズグラフィックTシャツクリアランス= $ 3からの豊富なスタイル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートメンズグラフィックTシャツクリアランス= $ 3からの豊富なスタイル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7f60adeef6e9",
@@ -2598,13 +2859,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Bluey & Bingo SquishmallowsがAmazonで$ 4.49から（登録価格$ 16 ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Bluey & Bingo SquishmallowsがAmazonで$ 4.49から（登録価格$ 16 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c500f5042b6c",
@@ -2630,13 +2893,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "たったの$ 10でロウのトート4個！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "たったの$ 10でロウのトート4個！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7f69566ea1d7",
@@ -4137,8 +4402,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "50ecf26f30d8"
+   "date": null
   },
   {
    "id": "b5ca8f1ca770",
@@ -11766,7 +12030,8 @@
    },
    "ja": "Cascade Free & Clear 47個が約$10(通常$20)",
    "jaVia": "claude",
-   "date": null
+   "date": null,
+   "dup": "da624884fe1c"
   },
   {
    "id": "33ff9d11924a",
@@ -12284,8 +12549,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "3b8d28b488bf"
+   "date": null
   },
   {
    "id": "8a8d23c5c223",
@@ -13639,7 +13903,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "50ecf26f30d8"
+   "dup": "ded85d435d2c"
   },
   {
    "id": "3f43250168ab",
@@ -24680,7 +24944,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "646db1bd9429"
   },
   {
    "id": "67c12bbfa7df",
@@ -25097,8 +25362,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "2fffba752c21"
+   "date": null
   },
   {
    "id": "6fe34df20d1e",
@@ -32385,8 +32649,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "50ecf26f30d8"
+   "date": null
   },
   {
    "id": "49bf21f12a6a",
@@ -40626,8 +40889,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "50ecf26f30d8"
+   "date": null
   },
   {
    "id": "0a92b77f56f6",
@@ -45814,8 +46076,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "50ecf26f30d8"
+   "date": null
   },
   {
    "id": "7ddc415bd980",
@@ -45986,8 +46247,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "50ecf26f30d8"
+   "date": null
   },
   {
    "id": "d382558ea7ec",
@@ -55317,8 +55577,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "80ab636d6fc0"
+   "date": null
   },
   {
    "id": "402e41140d90",
@@ -58260,142 +58519,6 @@
    "date": null
   },
   {
-   "id": "0665908572e1",
-   "title": "VitaUp Magnesium Sleep Support 2-Month Supply Only $13.46 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/vitaup-sleep-support/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T01:50Z",
-   "firstSeen": "2026-10-27T01:53Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/vitaup-magnesium.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "VitaUpマグネシウム睡眠サポート2ヶ月供給のみ$ 13.46 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "VitaUpマグネシウム睡眠サポート2ヶ月供給のみ$ 13.46 Amazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ed6e98c8581c",
-   "title": "Sourdough Bread Baking Kit Just $16.99 on Amazon (Reg. $40)",
-   "link": "https://hip2save.com/deals/amazon-sourdough-jar-kit/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T01:30Z",
-   "firstSeen": "2026-10-27T01:53Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/GanizaSourdough-Bread-Baking-Kit.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 58,
-   "price": 16.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "サワードウブレッドベーキングキットAmazonでたったの$ 16.99 （登録価格$ 40 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "サワードウブレッドベーキングキットAmazonでたったの$ 16.99 （登録価格$ 40 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "769a8ab69446",
-   "title": "Join Costco and Receive a $45 Digital Costco Shop Card (Gold or Executive Membership)",
-   "link": "https://thefreebieguy.com/costco-membership-deal/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T00:41Z",
-   "firstSeen": "2026-10-27T01:02Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Costco-1-1-840x630.png",
-   "hot": false,
-   "stores": [
-    "Costco"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "コストコに参加して、$ 45のデジタルコストコショップカード（ゴールドまたはエグゼクティブメンバーシップ）を受け取りましょう",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Costco",
-    "item": "コストコに参加して、$ 45のデジタルコストコショップカード（ゴールドまたはエグゼクティブメンバーシップ）を受け取りましょう",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "efda33b24327",
-   "title": "Metal Kitchen Shears 3-Pack Only $9.99 Shipped for Amazon Prime Members (Reg. $15)",
-   "link": "https://hip2save.com/deals/metal-kitchen-shears/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T00:40Z",
-   "firstSeen": "2026-10-27T01:02Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/08/kitchen-shears.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 33,
-   "price": 9.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Metal Kitchen Shears 3パックのみ$ 9.99 Amazonプライムメンバー向け発送（登録価格$ 15 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Metal Kitchen Shears 3パックのみ$ 9.99 Amazonプライムメンバー向け発送（登録価格$ 15 ）",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "date": null
-  },
-  {
    "id": "84995c4651df",
    "title": "E Pluribus Unum: Celebrating the American Experience at George H.W. Bush Presidential Library and Museum",
    "link": "https://www.destinationbryan.com/events/e-pluribus-unum-at-george-bush-library-musuem/",
@@ -58432,78 +58555,10 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "freebie": null,
    "region": "College Station",
    "family": true
-  },
-  {
-   "id": "d6b012d1d37f",
-   "title": "Crock-Pot 7-qt. Countdown Cook & Carry Slow Cooker Only $59.99 Shipped at Kohl’s (Reg. $100)",
-   "link": "https://thefreebieguy.com/crock-pot-7-qt-countdown-cook-carry-slow-cooker/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T00:13Z",
-   "firstSeen": "2026-10-27T01:02Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/Crock-Pot-840x630.png",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 59.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Crock - Pot 7 - qt.カウントダウンクック＆キャリースロークッカーのみ$ 59.99 Kohl'sで発送（登録価格$ 100 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Crock - Pot 7 - qt.カウントダウンクック＆キャリースロークッカーのみ$ 59.99 Kohl'sで発送（登録価格$ 100 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "26ab2b189e99",
-   "title": "Lite-Brite Ultimate Classic Toy Only $9.xx (Reg. $17)",
-   "link": "https://thefreebieguy.com/lite-brite-classic/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-27T00:05Z",
-   "firstSeen": "2026-10-27T00:24Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Lite-Brite-Classic-Walmart-3-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 47,
-   "price": 9.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Lite - Brite Ultimate Classicおもちゃのみ$ 9.xx （登録価格$ 17 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Lite - Brite Ultimate Classicおもちゃのみ$ 9.xx （登録価格$ 17 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
   },
   {
    "id": "9638aec780b6",
@@ -58866,84 +58921,6 @@
    "date": "2026-11-11",
    "event": null,
    "eventNews": false
-  },
-  {
-   "id": "5638d83b5a94",
-   "title": "Free Microchip & Rabies Vaccination Event",
-   "link": "https://events.bryantx.gov/default/Detail/2026-11-14-0800-Free-Microchip-amp-Rabies-Vaccination-Event",
-   "source": "City of Bryan",
-   "posted": "2026-11-10T23:32Z",
-   "firstSeen": "2026-11-10T23:32Z",
-   "expires": "2026-11-14",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-14",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "City of Bryan",
-    "item": "ブライアン市の犬猫マイクロチップ・狂犬病ワクチン無料会",
-    "when": "11/14(土) 8時",
-    "cond": "無料・要申込",
-    "what": "ペット無料接種",
-    "where": "ブライアン市"
-   },
-   "ja": "ブライアン市の犬猫マイクロチップ・狂犬病ワクチン無料会",
-   "jaVia": "claude-ev",
-   "date": "2026-11-14"
-  },
-  {
-   "id": "a2953729094d",
-   "title": "Pack Fresh Card Show Vol. 5 at The Brazos Center",
-   "link": "https://www.destinationbryan.com/events/pack-fresh-card-show-vol-5/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-10T23:32Z",
-   "firstSeen": "2026-11-10T23:32Z",
-   "expires": "2026-11-22",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-21",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Brazos Center",
-    "item": "Brazos Center のトレカ展示即売会(2日間)",
-    "when": "11/21(土)〜11/22(日)",
-    "cond": "入場料",
-    "what": "カードショー",
-    "where": "Brazos Center"
-   },
-   "ja": "Brazos Center のトレカ展示即売会(2日間)",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-21"
   }
  ]
 }
