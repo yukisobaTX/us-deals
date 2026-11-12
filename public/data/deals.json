@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-12T03:02Z",
- "count": 1669,
+ "updated": "2026-11-12T03:26Z",
+ "count": 1671,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 8
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
-   "added": 15
+   "added": 14
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,16 +55,49 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
+   "gemini": 14,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 4,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The service is currently unavailable.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
+   "geminiToday": 5,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "18261661aaeb",
+   "title": "Orgain Protein Powder Tub Only $13.98 Shipped on Amazon (Reg. $24)",
+   "link": "https://hip2save.com/deals/orgain-protein-powder/",
+   "source": "Hip2Save",
+   "posted": "2026-11-12T03:10Z",
+   "firstSeen": "2026-11-12T03:26Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/orgain-protein-powder.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 42,
+   "price": 13.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Orgainプロテインパウダーの容器のみがAmazonで送料込み13.98ドル（通常価格24ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Orgainプロテインパウダーの容器のみがAmazonで送料込み13.98ドル（通常価格24ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "fece7b9f8d1b",
    "title": "Smoke Detector w/ 10-Year Battery Only $19.99 Shipped for Amazon Prime Members",
@@ -161,13 +194,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "UrthBoxスナックボックスが無料 | 送料のみご負担ください！",
-   "jaVia": "mymemory",
+   "ja": "スナックボックス（送料別）",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "UrthBoxスナックボックスが無料 | 送料のみご負担ください！",
+    "store": "UrthBox",
+    "item": "スナックボックス（送料別）",
     "when": "",
-    "cond": ""
+    "cond": "送料負担",
+    "what": "無料スナック",
+    "where": "UrthBox"
    },
    "date": null
   },
@@ -231,13 +266,15 @@
     "when": "2026-11-13",
     "roundup": true
    },
-   "ja": "13日の金曜日 | 11月13日の無料特典＆お得情報",
-   "jaVia": "mymemory",
+   "ja": "13日の金曜日 特典・セール",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "13日の金曜日 | 11月13日の無料特典＆お得情報",
-    "when": "11/13(金)",
-    "cond": ""
+    "item": "13日の金曜日 特典・セール",
+    "when": "2026-11-13",
+    "cond": "",
+    "what": "無料・割引",
+    "where": "各店舗"
    },
    "date": "2026-11-13"
   },
@@ -341,8 +378,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "449f48861815",
-   "date": null
+   "date": null,
+   "dup": "449f48861815"
   },
   {
    "id": "fd6aae784ff7",
@@ -403,13 +440,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "ウッドフォードリザーブから無料のパーソナライズラベルをプレゼント",
-   "jaVia": "mymemory",
+   "ja": "カスタムラベル",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ウッドフォードリザーブから無料のパーソナライズラベルをプレゼント",
+    "store": "Woodford Reserve",
+    "item": "カスタムラベル",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "無料ラベル",
+    "where": "Woodford Reserve"
    },
    "date": null
   },
@@ -442,6 +481,40 @@
    "sum": {
     "store": "Amazon",
     "item": "PefeiプロフェッショナルピンセットセットがAmazonでたったの$4.xx（通常価格$10）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b210e0f0da9b",
+   "title": "Amazon Cranberry Sauce Only $1.24 Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-cranberry-sauce/",
+   "source": "Hip2Save",
+   "posted": "2026-11-11T22:40Z",
+   "firstSeen": "2026-11-12T03:26Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/amazon-grocery-crandberry-sauce.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonのクランベリーソースが送料込みでわずか1.24ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonのクランベリーソースが送料込みでわずか1.24ドル",
     "when": "",
     "cond": ""
    },
@@ -643,13 +716,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "HEPA空気清浄機が送料込みでわずか$35.99（通常価格$81）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "HEPA空気清浄機が送料込みでわずか$35.99（通常価格$81）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8c0c2fd1af4a",
@@ -1186,13 +1261,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートが、入手困難なNeeDohのおもちゃやポケモンカードを手に入れるチャンスをお買い物客に提供！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートが、入手困難なNeeDohのおもちゃやポケモンカードを手に入れるチャンスをお買い物客に提供！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "551243d71a53",
@@ -1218,13 +1295,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "最高の既製感謝祭ディナーのテイクアウトメニュー16選（ストレスフリーな食事のために今すぐ注文！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "最高の既製感謝祭ディナーのテイクアウトメニュー16選（ストレスフリーな食事のために今すぐ注文！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "32b28a6def09",
@@ -1289,13 +1368,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "イニシャルトートバッグ3点セットがAmazonで送料込みでわずか$12.99（通常価格$36）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "イニシャルトートバッグ3点セットがAmazonで送料込みでわずか$12.99（通常価格$36）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6ea9ef090e5a",
@@ -1321,13 +1402,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "4-in-1マルチ充電ケーブル2本セットがAmazonでたったの$3.99",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "4-in-1マルチ充電ケーブル2本セットがAmazonでたったの$3.99",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "95563cd7e729"
   },
   {
@@ -1354,13 +1437,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*新着* Walmart.comでHi Peach Layneのコスメティックバッグが7.71ドルから（素敵なギフトのアイデア！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "*新着* Walmart.comでHi Peach Layneのコスメティックバッグが7.71ドルから（素敵なギフトのアイデア！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8e8e46ad7f03",
@@ -1386,13 +1471,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "プレイ・ドー42個セットがAmazonでたったの$11.99（楽しいクリスマスプレゼント）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "プレイ・ドー42個セットがAmazonでたったの$11.99（楽しいクリスマスプレゼント）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ff4c129f7b6c",
@@ -1451,13 +1538,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Music Unlimitedの3か月無料トライアル！（毎月無料のオーディオブック1冊を含む！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Music Unlimitedの3か月無料トライアル！（毎月無料のオーディオブック1冊を含む！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fbb7a5706161",
@@ -1483,13 +1572,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースパジャマセットがAmazonで13.99ドルから（通常価格30ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースパジャマセットがAmazonで13.99ドルから（通常価格30ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "894dde4c77d8",
@@ -1515,13 +1606,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Stelleスエードクロッグがなんと16.19ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Stelleスエードクロッグがなんと16.19ドルから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "eb5e6217b06e",
@@ -1547,13 +1640,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comで家具の新しいクリアランスセール | アクセントチェアが送料込みでわずか$86（通常価格$172）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comで家具の新しいクリアランスセール | アクセントチェアが送料込みでわずか$86（通常価格$172）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0179a9b4b073",
@@ -1579,13 +1674,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "コリンのウォーキングパッドをAmazonでさらに安く手に入れよう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "コリンのウォーキングパッドをAmazonでさらに安く手に入れよう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "06883a8dd2cd",
@@ -1646,13 +1743,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "今すぐターゲットで購入すべきおすすめアイテム（人気のホリデーアイテムをチェック！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "今すぐターゲットで購入すべきおすすめアイテム（人気のホリデーアイテムをチェック！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "259ea6c144c4",
@@ -1678,13 +1777,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メンズドレスショーツがAmazonでわずか$9.99（通常価格$27）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "メンズドレスショーツがAmazonでわずか$9.99（通常価格$27）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8523162afc33",
@@ -1710,13 +1811,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonの食料品、ブラウン・グレービーミックスが送料込みでわずか0.79ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonの食料品、ブラウン・グレービーミックスが送料込みでわずか0.79ドル！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "3753eba4fefe"
   },
   {
@@ -1778,13 +1881,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートの素敵な秋のキッチン用品がクリアランスセール中！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートの素敵な秋のキッチン用品がクリアランスセール中！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "92bd98de26a7",
@@ -1846,13 +1951,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "自転車用前後ライトセットがAmazonでわずか$6.98（通常価格$13）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "自転車用前後ライトセットがAmazonでわずか$6.98（通常価格$13）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f0a5e53314df",
@@ -1878,13 +1985,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Cuisinartグリドラ―パニーニプレスグリルがKohl'sでたったの$31.99（通常価格$110）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Cuisinartグリドラ―パニーニプレスグリルがKohl'sでたったの$31.99（通常価格$110）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "316f1d41b955",
@@ -1910,13 +2019,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Music Unlimitedが3か月間無料（無料のオーディオブックを含む）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Music Unlimitedが3か月間無料（無料のオーディオブックを含む）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "320471dd1d35",
@@ -1942,13 +2053,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSのクリスマスアイテムがわずか$2.99から！クリスマスソックス、オーナメント、くるみ割り人形など",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSのクリスマスアイテムがわずか$2.99から！クリスマスソックス、オーナメント、くるみ割り人形など",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "19408e3bd511",
@@ -2049,13 +2162,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "虹色ギフトバッグ25枚セットがAmazonでたったの$9.99（1枚あたりわずか40セント）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "虹色ギフトバッグ25枚セットがAmazonでたったの$9.99（1枚あたりわずか40セント）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "683d11358680",
@@ -2081,13 +2196,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スコット トイレットペーパー 36ロール入りトリプルロールがAmazonで送料込みわずか11ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "スコット トイレットペーパー 36ロール入りトリプルロールがAmazonで送料込みわずか11ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9e7770467104",
@@ -2113,13 +2230,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "シールで描く塗り絵ブックがAmazonで3ドルから（通常価格11ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "シールで描く塗り絵ブックがAmazonで3ドルから（通常価格11ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6c0337339f87",
@@ -3586,8 +3705,8 @@
     "when": "11/11(水)まで",
     "cond": "会員限定"
    },
-   "dup": "e2f5408693f6",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dup": "e2f5408693f6"
   },
   {
    "id": "7927b77501c0",
