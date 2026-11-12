@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-12T19:57Z",
- "count": 1675,
+ "count": 1679,
  "stats": {
   "h2s": {
    "read": 100,
@@ -1031,13 +1031,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "JCPenneyのブラックフライデーセールを今すぐチェック（さらに11月20日にホットなセールが登場！）",
-   "jaVia": "mymemory",
+   "ja": "JCPenneyのブラックフライデー先行セール(11/20に追加)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "JCPenneyのブラックフライデーセールを今すぐチェック（さらに11月20日にホットなセールが登場！）",
-    "when": "",
-    "cond": ""
+    "store": "JCPenney",
+    "item": "JCPenneyのブラックフライデー先行セール(11/20に追加)",
+    "when": "〜11/20に追加セール",
+    "cond": "",
+    "what": "BF先行セール",
+    "where": "JCPenney"
    },
    "date": null
   },
@@ -1422,13 +1424,15 @@
     "kind": "store",
     "when": "2026-11-13"
    },
-   "ja": "11 月 13 日にクリスピー・クリーム・ドーナツでドーナツを 1 個無料でゲットしましょう！",
-   "jaVia": "mymemory",
+   "ja": "Krispy Kremeでドーナツ1個無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Krispy Kreme",
-    "item": "11 月 13 日にクリスピー・クリーム・ドーナツでドーナツを 1 個無料でゲットしましょう！",
+    "item": "Krispy Kremeでドーナツ1個無料",
     "when": "11/13(金)",
-    "cond": ""
+    "cond": "",
+    "what": "無料ドーナツ",
+    "where": "Krispy Kreme"
    },
    "date": "2026-11-13"
   },
@@ -1653,13 +1657,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "バンク・オブ・アメリカがPreferred Rewards（10万ドル以上）のお客様にGHA DISCOVERYのチタニウムステータスを無料で提供",
-   "jaVia": "mymemory",
+   "ja": "BofA Preferred Rewards(10万ドル以上)にGHAチタニウ…",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "バンク・オブ・アメリカがPreferred Rewards（10万ドル以上）のお客様にGHA DISCOVERYのチタニウムステータスを無料で提供",
+    "store": "Bank of America",
+    "item": "BofA Preferred Rewards(10万ドル以上)にGHAチタニウ…",
     "when": "",
-    "cond": ""
+    "cond": "預入10万ドル以上",
+    "what": "GHA上級会員",
+    "where": "Bank of America"
    },
    "date": null
   },
@@ -2073,13 +2079,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ローラ・ゲラーのブラックフライデー先行セール＝メイクアップセットが最大75%オフ！",
-   "jaVia": "mymemory",
+   "ja": "Laura Gellerのメイクセットが最大75%オフ(BF先行)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "ローラ・ゲラーのブラックフライデー先行セール＝メイクアップセットが最大75%オフ！",
+    "store": "Laura Geller",
+    "item": "Laura Gellerのメイクセットが最大75%オフ(BF先行)",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "化粧品最大75%引",
+    "where": "Laura Geller"
    },
    "date": null
   },
@@ -2526,13 +2534,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "JCPenneyの2026年ブラックフライデー広告スキャンが公開されました + ハリー・ポッターのスノードームを無料でゲット",
-   "jaVia": "mymemory",
+   "ja": "JCPenneyのBF広告まとめ+ハリポタのスノードーム無料",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "JCPenneyの2026年ブラックフライデー広告スキャンが公開されました + ハリー・ポッターのスノードームを無料でゲット",
+    "store": "JCPenney",
+    "item": "JCPenneyのBF広告まとめ+ハリポタのスノードーム無料",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BF広告+無料品",
+    "where": "JCPenney"
    },
    "date": null
   },
@@ -2561,13 +2571,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "KickがGTA VIゲーム10,000本（80ドル相当）を無料でプレゼント！",
-   "jaVia": "mymemory",
+   "ja": "KickがGTA VIを1万本無料配布($80相当)",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "KickがGTA VIゲーム10,000本（80ドル相当）を無料でプレゼント！",
+    "store": "Kick",
+    "item": "KickがGTA VIを1万本無料配布($80相当)",
     "when": "",
-    "cond": ""
+    "cond": "先着1万本",
+    "what": "GTA6無料配布",
+    "where": "Kick"
    },
    "date": null
   },
@@ -2757,13 +2769,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "Academy Sports（アカデミー・スポーツ）2026年ブラックフライデー広告スキャンが公開されました！",
-   "jaVia": "mymemory",
+   "ja": "Academy Sportsの2026年ブラックフライデー広告まとめ",
+   "jaVia": "claude",
    "sum": {
-    "store": "Academy",
-    "item": "Academy Sports（アカデミー・スポーツ）2026年ブラックフライデー広告スキャンが公開されました！",
+    "store": "Academy Sports",
+    "item": "Academy Sportsの2026年ブラックフライデー広告まとめ",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BF広告公開",
+    "where": "Academy Sports"
    },
    "date": null
   },
@@ -4860,13 +4874,15 @@
    "gift": {
     "grocery": true
    },
-   "ja": "Kroger/Harris Teeter：サードパーティおよびVisa/MCの固定額ギフトカードで燃料ポイントが4倍（11月11日～12月1日）",
-   "jaVia": "mymemory",
+   "ja": "Kroger/Harris Teeterでギフトカード購入時に燃料ポイント4倍",
+   "jaVia": "claude",
    "sum": {
     "store": "Kroger",
-    "item": "Kroger/Harris Teeter：サードパーティおよびVisa/MCの固定額ギフトカードで燃料ポイントが4倍（11月11日～12月1日）",
-    "when": "12/1(火)まで",
-    "cond": ""
+    "item": "Kroger/Harris Teeterでギフトカード購入時に燃料ポイント4倍",
+    "when": "11/11〜12/1",
+    "cond": "他社・Visa/MC定額カード対象",
+    "what": "燃料ポイント4倍",
+    "where": "Kroger"
    },
    "date": "2026-12-01"
   },
@@ -4895,14 +4911,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "スナックボックス（送料別）",
-   "jaVia": "gemini",
+   "ja": "UrthBoxのスナックボックス無料(送料のみ)",
+   "jaVia": "claude",
    "sum": {
     "store": "UrthBox",
-    "item": "スナックボックス（送料別）",
+    "item": "UrthBoxのスナックボックス無料(送料のみ)",
     "when": "",
     "cond": "送料負担",
-    "what": "無料スナック",
+    "what": "無料スナック箱",
     "where": "UrthBox"
    },
    "date": null
@@ -5141,15 +5157,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "カスタムラベル",
-   "jaVia": "gemini",
+   "ja": "Woodford Reserveの名入れボトルラベルが無料",
+   "jaVia": "claude",
    "sum": {
     "store": "Woodford Reserve",
-    "item": "カスタムラベル",
+    "item": "Woodford Reserveの名入れボトルラベルが無料",
     "when": "",
     "cond": "",
     "what": "無料ラベル",
-    "where": "Woodford Reserve"
+    "where": "Woodford Reser…"
    },
    "date": null
   },
@@ -7104,14 +7120,14 @@
     "when": "2026-11-15"
    },
    "sum": {
-    "store": "Wendy’s",
-    "item": "フロスティー無料",
-    "when": "11/15",
+    "store": "Wendy's",
+    "item": "Wendy'sの無料フロスティーの日",
+    "when": "11/15(日)",
     "what": "無料フロスティー",
     "where": "Wendy's"
    },
-   "ja": "フロスティー無料",
-   "jaVia": "gemini",
+   "ja": "Wendy'sの無料フロスティーの日",
+   "jaVia": "claude",
    "date": "2026-11-15"
   },
   {
@@ -8979,13 +8995,13 @@
    "eventNews": false,
    "sum": {
     "store": "Brazos Center",
-    "item": "Brazos Center のトレカ展示即売会",
-    "when": "11/21(土)〜22(日)",
+    "item": "トレカの展示即売会「Pack Fresh Card Show」",
+    "when": "11/21(土)〜11/22(日)",
     "cond": "入場料",
     "what": "カードショー",
     "where": "Brazos Center"
    },
-   "ja": "Brazos Center のトレカ展示即売会",
+   "ja": "トレカの展示即売会「Pack Fresh Card Show」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -13290,13 +13306,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ダウンタウン Bryan の冬のライトアップ点灯式",
-    "when": "11/20(金) 17時",
-    "cond": "無料",
+    "item": "ダウンタウン Bryan のホリデー点灯イベント「Lights On!」",
+    "when": "11/20(金) 17時〜",
+    "cond": "入場無料",
     "what": "点灯式",
     "where": "ダウンタウンBryan"
    },
-   "ja": "ダウンタウン Bryan の冬のライトアップ点灯式",
+   "ja": "ダウンタウン Bryan のホリデー点灯イベント「Lights On!」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -16975,13 +16991,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walk のコミュニティヨガ",
+    "item": "Lake Walk の屋外コミュニティヨガ",
     "when": "11/14(土)",
     "cond": "誰でも参加可",
     "what": "屋外ヨガ",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walk のコミュニティヨガ",
+   "ja": "Lake Walk の屋外コミュニティヨガ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -19348,13 +19364,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walk のランニングクラブ",
+    "item": "Lake Walk のランニングクラブ(毎週金曜)",
     "when": "11/13(金)",
     "what": "ランニング会",
     "where": "Lake Walk",
     "cond": "誰でも参加可"
    },
-   "ja": "Lake Walk のランニングクラブ",
+   "ja": "Lake Walk のランニングクラブ(毎週金曜)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -19391,13 +19407,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Safari",
-    "item": "Aggieland Safari の日曜フットボール企画",
+    "item": "Aggieland Safari の日曜イベント(動物とふれあい)",
     "when": "11/15(日)",
     "what": "サファリ日曜企画",
     "where": "Aggieland Safa…",
-    "cond": "入園料"
+    "cond": "入園料が必要"
    },
-   "ja": "Aggieland Safari の日曜フットボール企画",
+   "ja": "Aggieland Safari の日曜イベント(動物とふれあい)",
    "jaVia": "claude-ev",
    "outing": [
     "動物"
@@ -19433,13 +19449,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Event Ce…",
-    "item": "The Kimbell のクリスマスツリー展示",
+    "item": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
     "when": "11/16〜12/4",
     "what": "ツリー展示",
     "where": "The Kimbell",
     "cond": "家族向け"
    },
-   "ja": "The Kimbell のクリスマスツリー展示",
+   "ja": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -38800,14 +38816,14 @@
     "kind": "store",
     "when": "2026-11-27"
    },
-   "ja": "ミニスノードームが無料",
-   "jaVia": "gemini",
+   "ja": "JCPenneyでホグワーツ特急のミニスノードーム無料",
+   "jaVia": "claude",
    "sum": {
     "store": "JCPenney",
-    "item": "ミニスノードームが無料",
-    "when": "11/27",
+    "item": "JCPenneyでホグワーツ特急のミニスノードーム無料",
+    "when": "11/27(金)",
     "cond": "",
-    "what": "スノードーム",
+    "what": "無料スノードーム",
     "where": "JCPenney"
    },
    "date": "2026-11-27"
@@ -42823,13 +42839,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "St. Andrew's 教会の子供向け音楽あそび",
+    "item": "小さな子供向けの音楽遊びの会",
     "when": "11/13(金)",
     "cond": "子供向け",
-    "what": "音楽あそび",
+    "what": "親子音楽遊び",
     "where": "St. Andrew's教会"
    },
-   "ja": "St. Andrew's 教会の子供向け音楽あそび",
+   "ja": "小さな子供向けの音楽遊びの会",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -42865,13 +42881,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Midtown Park の土曜ファーマーズマーケット",
+    "item": "Midtown Park のファーマーズマーケット(毎週土曜)",
     "when": "11/14(土)",
-    "what": "ファーマーズマーケ…",
+    "what": "ファーマーズ市",
     "where": "Midtown Park",
-    "cond": "毎週土曜"
+    "cond": "入場無料"
    },
-   "ja": "Midtown Park の土曜ファーマーズマーケット",
+   "ja": "Midtown Park のファーマーズマーケット(毎週土曜)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -57094,7 +57110,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-12",
+   "localDate": "2026-11-13",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -57112,9 +57128,9 @@
     "store": "George H.W. Bush Presidential…",
     "item": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
     "when": "〜2027/5/16",
-    "what": "アメリカ史展示",
+    "what": "米国史の特別展",
     "where": "ブッシュ図書館博物館",
-    "cond": "博物館の入館料"
+    "cond": "博物館の展示"
    },
    "ja": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
    "jaVia": "claude-ev",
@@ -57358,6 +57374,170 @@
    "date": "2026-11-13",
    "event": null,
    "eventNews": false
+  },
+  {
+   "id": "411ecf614340",
+   "title": "Nutcracker Read Aloud with Ballet Brazos at Clara B. Mounce Public Library",
+   "link": "https://www.destinationbryan.com/events/nutcracker-read-aloud-with-ballet-brazos-at-clara-b-mounce-public-library/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-12T23:32Z",
+   "firstSeen": "2026-11-12T23:32Z",
+   "expires": "2026-11-17",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-17",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Clara B. Mounce Public Library",
+    "item": "バレエ団と「くるみ割り人形」読み聞かせ",
+    "when": "11/17(火)",
+    "cond": "子供向け",
+    "what": "くるみ割り朗読",
+    "where": "Mounce図書館"
+   },
+   "ja": "バレエ団と「くるみ割り人形」読み聞かせ",
+   "jaVia": "claude-ev",
+   "outing": [
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-11-17"
+  },
+  {
+   "id": "e9ed8b8418bf",
+   "title": "Father Son Nerf War at First Baptist Church Bryan",
+   "link": "https://www.destinationbryan.com/events/father-son-nerf-war-at-first-baptist-church-bryan/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-12T23:32Z",
+   "firstSeen": "2026-11-12T23:32Z",
+   "expires": "2026-11-20",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-20",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Family-Friendly"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "First Baptist Church Bryan",
+    "item": "父と息子のナーフ銃バトル大会",
+    "when": "11/20(金)",
+    "cond": "父子向け",
+    "what": "親子ナーフ戦",
+    "where": "First Baptist …"
+   },
+   "ja": "父と息子のナーフ銃バトル大会",
+   "jaVia": "claude-ev",
+   "outing": [
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-11-20"
+  },
+  {
+   "id": "d325dd044943",
+   "title": "Holiday Treats & Trinkets Market at The Kimbell",
+   "link": "https://www.destinationbryan.com/events/holiday-treats-and-trinkets-market-at-the-kimbell/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-12T23:32Z",
+   "firstSeen": "2026-11-12T23:32Z",
+   "expires": "2026-11-20",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-20",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "The Kimbell Cultural Events C…",
+    "item": "お菓子と雑貨のホリデーマーケット",
+    "when": "11/20(金)",
+    "what": "ホリデー市",
+    "where": "The Kimbell"
+   },
+   "ja": "お菓子と雑貨のホリデーマーケット",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-20"
+  },
+  {
+   "id": "56513e9c8ffd",
+   "title": "Holiday Car Meet & Toy Drive at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/holiday-car-meet-toy-drive-at-lake-walk/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-12T23:32Z",
+   "firstSeen": "2026-11-12T23:32Z",
+   "expires": "2026-11-22",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-22",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk",
+    "item": "ホリデーのカーミートとおもちゃ寄付集め",
+    "when": "11/22(日)",
+    "cond": "おもちゃ寄付歓迎",
+    "what": "車展示とおもちゃ寄付",
+    "where": "Lake Walk"
+   },
+   "ja": "ホリデーのカーミートとおもちゃ寄付集め",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-22"
   }
  ]
 }
