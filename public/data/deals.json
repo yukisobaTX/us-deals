@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-13T01:07Z",
- "count": 1686,
+ "updated": "2026-11-13T02:58Z",
+ "count": 1690,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 14
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 2
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 8
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,254 @@
    "added": 0
   },
   "ja": {
-   "gemini": 20,
+   "gemini": 13,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 3,
+   "geminiToday": 4,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d69cebe5ad3a",
+   "title": "Amazon Grocery Chopped Walnuts Just $2.96 Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-nuts/",
+   "source": "Hip2Save",
+   "posted": "2026-11-13T02:30Z",
+   "firstSeen": "2026-11-13T02:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/Amazon-Grocery-Chopped-Walnuts.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Groceryの刻みクルミが送料込みでわずか2.96ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Groceryの刻みクルミが送料込みでわずか2.96ドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ab46afda7124",
+   "title": "Amazon Grocery Cheese Crackers Only $1.84 Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-crackers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-13T02:00Z",
+   "firstSeen": "2026-11-13T02:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/amazon-grocery-cheese-crackers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon食品・生鮮食品 チーズクラッカー 送料込みでわずか$1.84",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon食品・生鮮食品 チーズクラッカー 送料込みでわずか$1.84",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8335094aaa94",
+   "title": "Foldable Dermaplane Razor 12-Pack Just $3.59 on Amazon",
+   "link": "https://hip2save.com/deals/amazon-dermaplane-razor/",
+   "source": "Hip2Save",
+   "posted": "2026-11-13T01:40Z",
+   "firstSeen": "2026-11-13T02:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/artech-face-razors.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "折りたたみ式ダーマプレーンカミソリ12本セットがAmazonでたったの$3.59",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "折りたたみ式ダーマプレーンカミソリ12本セットがAmazonでたったの$3.59",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "91f2e6a3f59d",
+   "title": "Walmart Black Friday Sales Live for Plus Members",
+   "link": "https://thefreebieguy.com/walmart-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-13T01:32Z",
+   "firstSeen": "2026-11-13T02:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Walmart-Black-Friday-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートのブラックフライデーセールがプラスメンバー向けに開始",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートのブラックフライデーセールがプラスメンバー向けに開始",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "6ff7346e952d",
+   "title": "New Movies Added! Disney Classic VHS Boxed Silk Touch Throws Only $19.98 at Sam’s Club",
+   "link": "https://thefreebieguy.com/disney-classic-vhs-boxed-silk-touch-throws-at-sams-club/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-13T01:31Z",
+   "firstSeen": "2026-11-13T02:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Disney-Classic-VHS-Boxed-Silk-Touch-Throw-840x630.png",
+   "hot": false,
+   "stores": [
+    "Sam's Club"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "新しい映画が追加されました！ディズニーの名作VHSボックス入りシルクタッチブランケットがサムズクラブでたったの$19.98",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Sam's Club",
+    "item": "新しい映画が追加されました！ディズニーの名作VHSボックス入りシルクタッチブランケットがサムズクラブでたったの$19.98",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "de5945308b9f",
+   "title": "277-Piece First-Aid Kit Only $9.99 on Amazon (Reg. $20)",
+   "link": "https://hip2save.com/deals/first-aid-kit/",
+   "source": "Hip2Save",
+   "posted": "2026-11-13T01:20Z",
+   "firstSeen": "2026-11-13T02:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/03/first-aid-kit-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 9.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "277点セットの応急処置キットがAmazonでたったの$9.99（通常価格$20）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "277点セットの応急処置キットがAmazonでたったの$9.99（通常価格$20）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7ee0d9f90aad",
+   "title": "High-Waisted Leggings w/ Pockets Just $5.xx on Amazon (Reg $10)",
+   "link": "https://thefreebieguy.com/sinophant-leggings-pockets/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-13T01:18Z",
+   "firstSeen": "2026-11-13T02:58Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/sinophant-Leggings-pocket-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 5.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ハイウエストレギンス（ポケット付き）がAmazonでわずか$5.xx（通常価格$10）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ハイウエストレギンス（ポケット付き）がAmazonでわずか$5.xx（通常価格$10）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "685bd1d9a7d7",
+   "date": null
+  },
   {
    "id": "afec7244cbe3",
    "title": "Chase Offers: Get 10% Back at Lowe’s/Lowes.com ($50 Cashback Max)",
@@ -407,6 +646,40 @@
    "date": null
   },
   {
+   "id": "3631647ecff7",
+   "title": "Get 250 loads of nontoxic laundry wash for $39 (+ free wrinkle release!)",
+   "link": "https://moneysavingmom.com/get-250-loads-of-nontoxic-laundry-wash-for-39-free-wrinkle-release/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-12T22:03Z",
+   "firstSeen": "2026-11-13T02:58Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/IMG_3323-480x640-1.jpg",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "item": "洗剤250回分が$39他",
+    "what": "洗剤セット",
+    "where": "オンライン"
+   },
+   "ja": "洗剤250回分が$39他",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
    "id": "4bd962b52424",
    "title": "Skout Organic: Get 36 Snack Bars + 3 Boxes of Soft-Baked Cookies for as low as $41.99 shipped! (Gluten-free!)",
    "link": "https://moneysavingmom.com/skout-organic-get-36-snack-bars-3-boxes-of-soft-baked-cookies-for-as-low-as-41-99-shipped-gluten-free/",
@@ -612,8 +885,8 @@
    },
    "ja": "レゴ サンタのそり 組み立て無料",
    "jaVia": "gemini",
-   "dup": "9f6471a81afc",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "dup": "9f6471a81afc"
   },
   {
    "id": "db46b994e751",
@@ -717,8 +990,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "1e485e511150",
-   "date": null
+   "date": null,
+   "dup": "1e485e511150"
   },
   {
    "id": "a7caaf101eda",
@@ -820,8 +1093,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "9c75413d44a8",
-   "date": null
+   "date": null,
+   "dup": "9c75413d44a8"
   },
   {
    "id": "c1bbba55e897",
@@ -889,8 +1162,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "b7395a77b6f5",
-   "date": null
+   "date": null,
+   "dup": "b7395a77b6f5"
   },
   {
    "id": "1d96dda6f977",
@@ -963,8 +1236,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "dfa78e5941eb",
-   "date": null
+   "date": null,
+   "dup": "dfa78e5941eb"
   },
   {
    "id": "34715e0dade1",
@@ -1400,13 +1673,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートでMainstaysのキッズ用4マス仕切りプラスチック製弁当箱がたったの$7.82！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートでMainstaysのキッズ用4マス仕切りプラスチック製弁当箱がたったの$7.82！",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "cb11fec2b4a3",
@@ -1432,13 +1707,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Targetでキッズ用スノーギアが30%オフ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Targetでキッズ用スノーギアが30%オフ",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "aae70ed115d4",
@@ -1464,13 +1741,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "JLab Bluetoothスピーカーがウォルマートでたったの$9.88（通常価格 （通常価格25ドル！） – ティーン向けの素敵なクリスマスプレゼント",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "JLab Bluetoothスピーカーがウォルマートでたったの$9.88（通常価格 （通常価格25ドル！） – ティーン向けの素敵なクリスマスプレゼント",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "83cd7eeadac5",
@@ -1496,13 +1775,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "BlokeesトランスフォーマーのアクションフィギュアがWalmart.comでたったの5ドル（通常価格20ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "BlokeesトランスフォーマーのアクションフィギュアがWalmart.comでたったの5ドル（通常価格20ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9737a94aedf1",
@@ -1528,13 +1809,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-12",
+   "ja": "Sports Research クレアチン電解質 バラエティパック、16個入りが送料込みでわずか$13.82（通常価格$28）！{今夜終了}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Sports Research クレアチン電解質 バラエティパック、16個入りが送料込みでわずか$13.82（通常価格$28）！{今夜終了}",
     "when": "11/12(木)まで",
     "cond": ""
-   },
-   "date": "2026-11-12"
+   }
   },
   {
    "id": "1edcb3fbc577",
@@ -1560,13 +1843,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "おしゃべり恐竜ペンがAmazonで送料込みでたったの$22.99（通常価格 46ドル）| 800語以上を教えます！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "おしゃべり恐竜ペンがAmazonで送料込みでたったの$22.99（通常価格 46ドル）| 800語以上を教えます！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4578a31c8613",
@@ -1592,13 +1877,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* Caroteの7点セットカーボン スチール製ノンスティック ベーキングウェアセットがたったの$20！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "*大人気* Caroteの7点セットカーボン スチール製ノンスティック ベーキングウェアセットがたったの$20！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "49abc309b94e",
@@ -1624,13 +1911,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで子ども向けクリスマス絵本が2.49ドルから | トナカイのルドルフ、グリンチなど",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで子ども向けクリスマス絵本が2.49ドルから | トナカイのルドルフ、グリンチなど",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2becf7674599",
@@ -1656,13 +1945,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CUTEイニシャルブレスレットがAmazonでたったの$3.xx（通常価格 10ドル）| 素晴らしいギフトのアイデア！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "CUTEイニシャルブレスレットがAmazonでたったの$3.xx（通常価格 10ドル）| 素晴らしいギフトのアイデア！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "64286a308bc8",
@@ -1688,13 +1979,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Travelhouseハードシェル機内持ち込み用20インチスーツケースが送料込みでわずか$37.99（通常価格$75）など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Travelhouseハードシェル機内持ち込み用20インチスーツケースが送料込みでわずか$37.99（通常価格$75）など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9108ebab410c",
@@ -1720,13 +2013,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "重ね付けイニシャルブレスレットがAmazonでたったの$3.99（クリスマスプレゼントにぴったり）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "重ね付けイニシャルブレスレットがAmazonでたったの$3.99（クリスマスプレゼントにぴったり）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3d19c95193f4",
@@ -1752,13 +2047,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "フィッシャープライス リトルピープル トリップセットがWalmart.comでたったの$5",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "フィッシャープライス リトルピープル トリップセットがWalmart.comでたったの$5",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5c827e5e69fc",
@@ -1784,13 +2081,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "このおしゃれなカーゴパンツがWalmart.comでたったの14ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "このおしゃれなカーゴパンツがWalmart.comでたったの14ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8d3204d9e274",
@@ -1817,13 +2116,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart+メンバーは、年間わずか22ドル追加するだけでSam's Club Plusに登録できます！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Sam's Club",
-    "item": "",
+    "item": "Walmart+メンバーは、年間わずか22ドル追加するだけでSam's Club Plusに登録できます！",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "53a3f1674313",
@@ -1849,13 +2150,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "おいしい！Amazon Grocery Deluxeのピスタチオミックス16オンスがAmazonでたったの$6.xx",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "おいしい！Amazon Grocery Deluxeのピスタチオミックス16オンスがAmazonでたったの$6.xx",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "80e0de6b3202",
@@ -1881,13 +2184,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "SkinnyPop エルフ メープルシロップ ポップコーンがAmazonでたったの2.78ドル（バディ認定！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "SkinnyPop エルフ メープルシロップ ポップコーンがAmazonでたったの2.78ドル（バディ認定！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1639555e6d30",
@@ -1913,13 +2218,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "RazorのキッズキックスクーターがWalmart.comでたったの$18（通常価格$35）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "RazorのキッズキックスクーターがWalmart.comでたったの$18（通常価格$35）",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "371023efd55d",
@@ -1945,13 +2252,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハローキティのスクイーズマシュマロがWalmart.comでたったの$5",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ハローキティのスクイーズマシュマロがWalmart.comでたったの$5",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1cf8c5ca347d",
@@ -3927,8 +4236,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "0e6be98a0b0a",
-   "date": null
+   "date": null,
+   "dup": "0e6be98a0b0a"
   },
   {
    "id": "899a0205c23d",
@@ -26094,8 +26403,7 @@
    },
    "ja": "ホリデー工作イベント無料",
    "jaVia": "gemini",
-   "date": "2026-11-13",
-   "dup": "25c933825f8f"
+   "date": "2026-11-13"
   },
   {
    "id": "950c39b81c3e",
@@ -30323,8 +30631,7 @@
     "what": "無料サンド",
     "where": "7-Eleven"
    },
-   "date": null,
-   "dup": "1fc457b3d4c3"
+   "date": null
   },
   {
    "id": "5a8b159cb363",
@@ -57278,142 +57585,6 @@
    "sum": {
     "store": "Amazon",
     "item": "Little Peopleディズニークリスマストレインたったの$ 36.50アマゾンで発送（登録価格$ 45 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "d315e1a0ff86",
-   "title": "Amazon Pizza Sauce Just 88¢ Shipped",
-   "link": "https://hip2save.com/deals/amazon-pizza-sauce/",
-   "source": "Hip2Save",
-   "posted": "2026-10-29T02:20Z",
-   "firstSeen": "2026-10-29T02:59Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/amazon-saver-pizza-sauce.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "アマゾンピザソース88 ¢発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "アマゾンピザソース88 ¢発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "c8aa02e39901",
-   "title": "The Pink Step2 My First Christmas Tree Now Cheaper on Target.com",
-   "link": "https://hip2save.com/deals/step2-my-first-christmas-tree/",
-   "source": "Hip2Save",
-   "posted": "2026-10-29T02:00Z",
-   "firstSeen": "2026-10-29T02:06Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/pink-Step2-My-First-Christmas-Tree-1-e1792422404564.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "The Pink Step 2私の初めてのクリスマスツリーがTarget.comで安くなりました",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "The Pink Step 2私の初めてのクリスマスツリーがTarget.comで安くなりました",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "a294ecf89fcf",
-   "title": "Giveaway: Enter to Win a $75 Amazon Gift Card or $75 in PayPal Cash",
-   "link": "https://momswhosave.com/giveaway-enter-to-win-a-amazon-gift-card/",
-   "source": "Moms Who Save",
-   "posted": "2026-10-29T02:00Z",
-   "firstSeen": "2026-10-29T02:59Z",
-   "expires": null,
-   "thumb": "https://momswhosave.com/wp-content/uploads/2019/06/amazon-gift-card-5.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "プレゼント：応募して$ 75のAmazonギフトカードまたは$ 75のPayPalキャッシュを獲得",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "プレゼント：応募して$ 75のAmazonギフトカードまたは$ 75のPayPalキャッシュを獲得",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "59551dc99671",
-   "title": "GLP-1 Booster Supplement 1-Month Supply Just $20.74 Shipped on Amazon (Reg. $40)",
-   "link": "https://hip2save.com/deals/lunakai-pro-glp1-booster/",
-   "source": "Hip2Save",
-   "posted": "2026-10-29T01:50Z",
-   "firstSeen": "2026-10-29T02:06Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/Lunakai-PRO-GLP-1-Booster.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 48,
-   "price": 20.74,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "GLP -1ブースターサプリメント1ヶ月分わずか$ 20.74 Amazonで発送（登録価格$ 40 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "GLP -1ブースターサプリメント1ヶ月分わずか$ 20.74 Amazonで発送（登録価格$ 40 ）",
     "when": "",
     "cond": ""
    },
