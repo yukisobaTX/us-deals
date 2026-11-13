@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-13T03:38Z",
- "count": 1690,
+ "updated": "2026-11-13T08:01Z",
+ "count": 1685,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
-   "added": 19
+   "added": 20
   },
   "doc": {
    "read": 15,
@@ -55,15 +55,49 @@
    "added": 0
   },
   "ja": {
-   "gemini": 13,
+   "gemini": 12,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 5,
+   "geminiToday": 1,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f4632c4295be",
+   "title": "Turn Walgreens TilePix Into Gorgeous Christmas Decor (+ Get 70% Off!)",
+   "link": "https://hip2save.com/deals/walgreens-photo-tilepix/",
+   "source": "Hip2Save",
+   "posted": "2026-11-13T05:00Z",
+   "firstSeen": "2026-11-13T08:01Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/Tilepix-Gift-Idea.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "WalgreensのTilePixを素敵なクリスマスデコレーションに（さらに70%オフ！）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walgreens",
+    "item": "WalgreensのTilePixを素敵なクリスマスデコレーションに（さらに70%オフ！）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "ade2f3ea86cc",
    "title": "Beats Solo 4 Wireless Headphones Just $69 Shipped on Walmart.com (Reg. $200)",
@@ -96,8 +130,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "678f1df46783",
-   "date": null
+   "date": null,
+   "dup": "678f1df46783"
   },
   {
    "id": "b5ddbe4303c8",
@@ -232,42 +266,6 @@
     "item": "折りたたみ式ダーマプレーンカミソリ12本セットがAmazonでたったの$3.59",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "91f2e6a3f59d",
-   "title": "Walmart Black Friday Sales Live for Plus Members",
-   "link": "https://thefreebieguy.com/walmart-black-friday/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-13T01:32Z",
-   "firstSeen": "2026-11-13T02:58Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Walmart-Black-Friday-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ブラックフライデーセール開催",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Walmart",
-    "item": "ブラックフライデーセール開催",
-    "when": "2026-11-12",
-    "cond": "Plus会員限定",
-    "what": "BFセール",
-    "where": "Walmart"
    },
    "date": null
   },
@@ -1857,40 +1855,6 @@
    }
   },
   {
-   "id": "9737a94aedf1",
-   "title": "Sports Research Creatine Electrolytes Variety Pack, 16 Count only $13.82 shipped (Reg. $28)! {Ends Tonight}",
-   "link": "https://moneysavingmom.com/sports-research-creatine-electrolyte-variety-pack-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T19:17Z",
-   "firstSeen": "2026-11-12T19:57Z",
-   "expires": "2026-11-12",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Sports-Research®-Creatine-Electrolytes16-Sugar-Free-Flavored-Variety-Packs-1.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 51,
-   "price": 13.82,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-12",
-   "ja": "Sports Research クレアチン電解質 バラエティパック、16個入りが送料込みでわずか$13.82（通常価格$28）！{今夜終了}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Sports Research クレアチン電解質 バラエティパック、16個入りが送料込みでわずか$13.82（通常価格$28）！{今夜終了}",
-    "when": "11/12(木)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "1edcb3fbc577",
    "title": "Talking Dinosaur Pen Only $22.99 Shipped on Amazon (Reg. $46) | Teaches 800+ Words!",
    "link": "https://hip2save.com/deals/talking-dinosaur-pen/",
@@ -3331,13 +3295,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Music Unlimited 3か月無料トライアル＋無料オーディオブック（通常月額$13）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Music Unlimited 3か月無料トライアル＋無料オーディオブック（通常月額$13）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "be4826fbf454"
   },
   {
@@ -3364,13 +3330,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Scrubbing Bubbles 泡状漂白剤バスルームクリーナー、32オンス、送料込みでわずか$2.30！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Scrubbing Bubbles 泡状漂白剤バスルームクリーナー、32オンス、送料込みでわずか$2.30！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c49a3c0f5905",
@@ -3396,13 +3364,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ジャンボぬいぐるみ、Walmart.comでたったの$15（通常価格$30）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ジャンボぬいぐるみ、Walmart.comでたったの$15（通常価格$30）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ab9df8f0f3da",
@@ -3428,13 +3398,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スマートバードフィーダー（カメラ付き）がAmazonで送料込み29.99ドル（通常価格80ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "スマートバードフィーダー（カメラ付き）がAmazonで送料込み29.99ドル（通常価格80ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5e366ad8c13c",
@@ -3460,13 +3432,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ブルーライトカット眼鏡3個セットがAmazonでたったの$6.99（通常価格$14）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ブルーライトカット眼鏡3個セットがAmazonでたったの$6.99（通常価格$14）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0c040a487e2e",
@@ -3529,13 +3503,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "プレイボール100個がWalmart.comでたったの5ドル（通常価格20ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "プレイボール100個がWalmart.comでたったの5ドル（通常価格20ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "62ade5c3c402",
@@ -3561,13 +3537,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "特大サイズのぬいぐるみのようなブランケットがたったの$15！{素敵なギフトのアイデア}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "特大サイズのぬいぐるみのようなブランケットがたったの$15！{素敵なギフトのアイデア}",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "207ac8ed2046",
@@ -3593,13 +3571,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "コカ・コーラ ゼロシュガーまたはダイエットコーク 6缶パックがAmazonでたったの$3.xx（通常価格$5）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "コカ・コーラ ゼロシュガーまたはダイエットコーク 6缶パックがAmazonでたったの$3.xx（通常価格$5）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d076b92a7abd",
@@ -3659,13 +3639,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Prism 4-in-1アクティビティキットがWalmart.comでわずか$12（通常価格$24）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Prism 4-in-1アクティビティキットがWalmart.comでわずか$12（通常価格$24）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e7ec4995410a",
@@ -3691,13 +3673,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "リーバイスのレディース＆メンズジーンズがなんと17ドルから！その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "リーバイスのレディース＆メンズジーンズがなんと17ドルから！その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "18a9927c3d19",
@@ -3723,13 +3707,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "トラベルダッフルバッグがたったの$15.99（通常価格$33）！{Walmart+メンバー}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "トラベルダッフルバッグがたったの$15.99（通常価格$33）！{Walmart+メンバー}",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "15f748611a43",
@@ -3755,13 +3741,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ディズニーのスティッチまたはエンジェルのジャンボぬいぐるみがWalmart.comでたったの$20（通常価格$40）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ディズニーのスティッチまたはエンジェルのジャンボぬいぐるみがWalmart.comでたったの$20（通常価格$40）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "04e8eed1f006",
@@ -3787,13 +3775,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Ninjaプロフェッショナル1400ワットミキサーが送料込みでわずか$49（通常価格$89）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Ninjaプロフェッショナル1400ワットミキサーが送料込みでわずか$49（通常価格$89）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "84f73c5ed314",
@@ -3819,13 +3809,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "KitchenAid キッズ用おままごとミキサーが、ウォルマート+メンバーなら送料込みでわずか$13.94（通常価格$20）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "KitchenAid キッズ用おままごとミキサーが、ウォルマート+メンバーなら送料込みでわずか$13.94（通常価格$20）",
     "when": "",
     "cond": "会員限定・子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "85c441be3fde",
@@ -3851,13 +3843,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットでビューティーギフトセットを1つ購入すると、もう1つが50%オフ – 2日間限定！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットでビューティーギフトセットを1つ購入すると、もう1つが50%オフ – 2日間限定！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9ceaf0f2b8d5",
@@ -3883,13 +3877,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Elloガラス製保存容器30個セットがWalmart.comでわずか$25（通常価格$53）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Elloガラス製保存容器30個セットがWalmart.comでわずか$25（通常価格$53）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "5f5f12c6ea5f"
   },
   {
@@ -3916,13 +3912,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディース パッカブル ダウンジャケットがたったの$14.99（通常価格$60！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "レディース パッカブル ダウンジャケットがたったの$14.99（通常価格$60！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b93e46976eaf",
@@ -3948,13 +3946,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "この8.49ドルのAmazonタイツは透けているように見えますが、実は裏起毛です！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "この8.49ドルのAmazonタイツは透けているように見えますが、実は裏起毛です！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9c75413d44a8",
@@ -3980,13 +3980,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースキャラクターパジャマセットがたったの$10！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "レディースキャラクターパジャマセットがたったの$10！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1e6dda6f6ed8",
@@ -4012,13 +4014,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "T-fal キッチンソリューション セラミック21点セット が送料込みでわずか$49（通常価格$120）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "T-fal キッチンソリューション セラミック21点セット が送料込みでわずか$49（通常価格$120）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "dbdacaacdbc5",
@@ -4044,13 +4048,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハリー・ポッター版クルーゲームがAmazonでたったの$23.99（通常価格$38）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハリー・ポッター版クルーゲームがAmazonでたったの$23.99（通常価格$38）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f7b70980ccac",
@@ -4150,13 +4156,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディース長袖シャツ4枚セットがAmazonで送料込み19.97ドル（秋の重ね着に最適）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディース長袖シャツ4枚セットがAmazonで送料込み19.97ドル（秋の重ね着に最適）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "363a039b8b84",
@@ -4182,13 +4190,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートでクラシックなボードゲームがたったの5ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートでクラシックなボードゲームがたったの5ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9ef10e19834b",
@@ -4216,13 +4226,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "先月、2万人以上がこの話題の洗濯洗剤を購入しました（セール中です！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Amazon",
-    "item": "",
+    "item": "先月、2万人以上がこの話題の洗濯洗剤を購入しました（セール中です！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5dbbc17cae88",
@@ -9787,40 +9799,6 @@
     "store": "Amazon",
     "item": "リボン付きクリアギフトバッグ12枚セットがAmazonでたったの$10.49",
     "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "badbe9016541",
-   "title": "Walmart Drawing on November 12th at 3PM EST — NeeDoh Toy & Pokemon Card Game For Grabs!",
-   "link": "https://thefreebieguy.com/walmart-drawing/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-11T13:48Z",
-   "firstSeen": "2026-11-11T15:15Z",
-   "expires": "2026-11-12",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Pokemon-and-Needoh-drawing-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-12",
-   "ja": "ウォルマートの抽選は11月12日午後3時（東部標準時）です — NeeDohのおもちゃとポケモンカードゲームが当たります！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートの抽選は11月12日午後3時（東部標準時）です — NeeDohのおもちゃとポケモンカードゲームが当たります！",
-    "when": "11/12(木)まで 3PM",
     "cond": ""
    }
   },
@@ -28714,43 +28692,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "d27b573a3935",
-   "title": "Free PC Games on the Epic Game Store through 11/12!",
-   "link": "https://thefreebieguy.com/free-pc-game-on-epic-games/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-05T22:00Z",
-   "firstSeen": "2026-11-06T07:30Z",
-   "expires": "2026-11-12",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Epic-Games--840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-12"
-   },
-   "ja": "Epic Games StoreでPCゲームを無料配布",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Epic Games Store",
-    "item": "Epic Games StoreでPCゲームを無料配布",
-    "when": "〜11/12",
-    "cond": "アカウント必要",
-    "what": "無料PCゲーム",
-    "where": "Epic Games Sto…"
-   },
-   "date": "2026-11-12"
   },
   {
    "id": "0a633cb58c1f",
@@ -57608,40 +57549,6 @@
    "date": null
   },
   {
-   "id": "1463307e00f2",
-   "title": "Hanes Cool DRI Men’s Quarter-Zip Lightweight Pullover Only $5.xx at Walmart (Reg. $22)",
-   "link": "https://thefreebieguy.com/hanes-cool-dri-mens-quarter-zip-lightweight-pullover/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-29T07:29Z",
-   "firstSeen": "2026-10-29T08:13Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Hanes-Cool-DRI-Mens-Quarter-Zip-Pullover-Long-Sleeve-840x630.png",
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 77,
-   "price": 5.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Hanes Cool DRIメンズクォータージップ軽量プルオーバーウォルマートでたったの$ 5.xx （登録価格$ 22 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Hanes Cool DRIメンズクォータージップ軽量プルオーバーウォルマートでたったの$ 5.xx （登録価格$ 22 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "4f8cfbc686e0",
    "title": "Free Lowe’s Kids Workshops: Register Now for the Holiday Engine Build on November 14th",
    "link": "https://thefreebieguy.com/free-lowes-kids-workshop/",
@@ -57679,42 +57586,6 @@
     "where": "Lowe's"
    },
    "date": "2026-11-14"
-  },
-  {
-   "id": "d218356e72a6",
-   "title": "NEW NeeDoh Sets Dropping 11/12 for Walmart’s Early Black Friday Deals",
-   "link": "https://hip2save.com/deals/walmart-needoh/",
-   "source": "Hip2Save",
-   "posted": "2026-10-27T15:08Z",
-   "firstSeen": "2026-10-27T15:57Z",
-   "expires": "2026-11-12",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Blue-Needoh-Cube-in-Hand.png?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "11/12発売のNeeDoh新セット（Walmart先行BF）",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Walmart",
-    "item": "11/12発売のNeeDoh新セット（Walmart先行BF）",
-    "when": "11/12",
-    "cond": "",
-    "what": "NeeDoh新セット",
-    "where": "Walmart"
-   },
-   "date": "2026-11-12"
   },
   {
    "id": "fadc4d000f54",
