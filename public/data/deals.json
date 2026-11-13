@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-13T02:58Z",
+ "updated": "2026-11-13T03:38Z",
  "count": 1690,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -20,15 +20,15 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 0
   },
   "mws": {
    "read": 20,
-   "added": 2
+   "added": 3
   },
   "wtaw": {
    "read": 20,
@@ -58,12 +58,81 @@
    "gemini": 13,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 4,
+   "geminiToday": 5,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "ade2f3ea86cc",
+   "title": "Beats Solo 4 Wireless Headphones Just $69 Shipped on Walmart.com (Reg. $200)",
+   "link": "https://hip2save.com/deals/beats-solo-4-headphones/",
+   "source": "Hip2Save",
+   "posted": "2026-11-13T03:35Z",
+   "firstSeen": "2026-11-13T03:38Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/Beats-Solo-4-On-Ear-Wireless-Headphones-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 66,
+   "price": 69.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Beats Solo 4ワイヤレスヘッドホンがWalmart.comで送料込みわずか$69（通常価格$200）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Beats Solo 4ワイヤレスヘッドホンがWalmart.comで送料込みわずか$69（通常価格$200）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "678f1df46783",
+   "date": null
+  },
+  {
+   "id": "b5ddbe4303c8",
+   "title": "LEGO Christmas Sets Only $28 on Walmart.com – Will Sell Out!",
+   "link": "https://hip2save.com/deals/lego-christmas-sets/",
+   "source": "Hip2Save",
+   "posted": "2026-11-13T03:10Z",
+   "firstSeen": "2026-11-13T03:38Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/LEGO-Poinsettia.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "LEGOのクリスマスセットがWalmart.comでたったの$28 – すぐに売り切れに！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "LEGOのクリスマスセットがWalmart.comでたったの$28 – すぐに売り切れに！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "d69cebe5ad3a",
    "title": "Amazon Grocery Chopped Walnuts Just $2.96 Shipped",
@@ -190,13 +259,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ウォルマートのブラックフライデーセールがプラスメンバー向けに開始",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセール開催",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart",
-    "item": "ウォルマートのブラックフライデーセールがプラスメンバー向けに開始",
-    "when": "",
-    "cond": "会員限定"
+    "item": "ブラックフライデーセール開催",
+    "when": "2026-11-12",
+    "cond": "Plus会員限定",
+    "what": "BFセール",
+    "where": "Walmart"
    },
    "date": null
   },
@@ -300,8 +371,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "685bd1d9a7d7",
-   "date": null
+   "date": null,
+   "dup": "685bd1d9a7d7"
   },
   {
    "id": "afec7244cbe3",
@@ -2286,13 +2357,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハズブロのボードゲームがAmazonでたったの$5.xx（通常価格$15）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハズブロのボードゲームがAmazonでたったの$5.xx（通常価格$15）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "678f1df46783",
@@ -2320,13 +2393,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Beats Solo 4ヘッドホンがウォルマートとターゲットで送料込み69ドル（通常価格200ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Target",
-    "item": "",
+    "item": "Beats Solo 4ヘッドホンがウォルマートとターゲットで送料込み69ドル（通常価格200ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d7b08456449a",
@@ -2391,13 +2466,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-13",
+   "ja": "Paris Baguette：11 月 13 日は、ペストリーがたったの 0.13 ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Paris Baguette",
-    "item": "",
+    "item": "Paris Baguette：11 月 13 日は、ペストリーがたったの 0.13 ドル！",
     "when": "11/13(金)まで",
     "cond": ""
-   },
-   "date": "2026-11-13"
+   }
   },
   {
    "id": "0dcd7574845c",
@@ -2423,13 +2500,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ナーフ・マインクラフト・エリートダーツセットがWalmart.comでわずか20ドル（通常価格46ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ナーフ・マインクラフト・エリートダーツセットがWalmart.comでわずか20ドル（通常価格46ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e16e5edcb194",
@@ -2489,13 +2568,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "パワーホイール・モータートライクがWalmart.comで送料込みわずか48ドル（通常価格99ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "パワーホイール・モータートライクがWalmart.comで送料込みわずか48ドル（通常価格99ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "96e240373fd0",
@@ -2521,13 +2602,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Travelhouse 4点セットハードシェルラゲッジがWalmart.comで送料込みわずか$89.99（通常価格$178）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Travelhouse 4点セットハードシェルラゲッジがWalmart.comで送料込みわずか$89.99（通常価格$178）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4c79894939cf",
@@ -2553,13 +2636,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-14",
+   "ja": "11月14日、Lowe’sで開催されるDIY-Uキッズワークショップ（今すぐ登録！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "11月14日、Lowe’sで開催されるDIY-Uキッズワークショップ（今すぐ登録！）",
     "when": "11/14(土)まで",
     "cond": "要登録・子ども向け"
-   },
-   "date": "2026-11-14"
+   }
   },
   {
    "id": "4d619f35225b",
@@ -2585,13 +2670,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Celebrity PinkのレディースブーティーがWalmart.comでたったの$15（通常価格$40）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Celebrity PinkのレディースブーティーがWalmart.comでたったの$15（通常価格$40）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fd700e5095c1",
@@ -2617,13 +2704,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "セルラー式トレイルカメラがAmazonで送料込み29.99ドル（通常価格60ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "セルラー式トレイルカメラがAmazonで送料込み29.99ドル（通常価格60ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d6d43feb1bb1",
@@ -2649,13 +2738,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "VIZIO 50インチクラスQuantum 4Kスマートテレビが送料込みでわずか128ドル、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "VIZIO 50インチクラスQuantum 4Kスマートテレビが送料込みでわずか128ドル、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "13f33165e11d",
@@ -2681,13 +2772,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "編みバスケット4個セットがAmazonでわずか$12.99（通常価格$30）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "編みバスケット4個セットがAmazonでわずか$12.99（通常価格$30）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d7f74398c85f",
@@ -2713,13 +2806,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートのキッズキャラクターウェア | Tシャツ、パジャマ、パーカーなど5ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートのキッズキャラクターウェア | Tシャツ、パジャマ、パーカーなど5ドルから",
     "when": "",
     "cond": "子ども向け"
    },
-   "date": null,
    "dup": "716ac6aef9f7"
   },
   {
@@ -2746,13 +2841,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "コットンエル・トイレットペーパー、ファミリーメガロール40個が送料込みでわずか$27.99！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "コットンエル・トイレットペーパー、ファミリーメガロール40個が送料込みでわずか$27.99！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "a4af332d0a55"
   },
   {
@@ -2779,13 +2876,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースデニムオーバーオールがAmazonで25ドル（通常価格46ドル）送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースデニムオーバーオールがAmazonで25ドル（通常価格46ドル）送料無料",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "aba28969f52d"
   },
   {
@@ -2812,13 +2911,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ナーズのジューシーグミクラスター2袋がAmazonで送料込みわずか$5.55",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ナーズのジューシーグミクラスター2袋がAmazonで送料込みわずか$5.55",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7da4ff51c027",
@@ -2883,13 +2984,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "子供用デジタル顕微鏡がAmazonでわずか$12.49（通常価格$28）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "子供用デジタル顕微鏡がAmazonでわずか$12.49（通常価格$28）",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "1f652153fe7b",
@@ -2915,13 +3018,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Shark Matrixロボット掃除機がWalmart.comで送料込み149ドル（通常価格249ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Shark Matrixロボット掃除機がWalmart.comで送料込み149ドル（通常価格249ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9f6471a81afc",
@@ -2984,13 +3089,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ポータブルBluetoothスピーカーがWalmart.comでたったの$29.88（通常価格$100）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ポータブルBluetoothスピーカーがWalmart.comでたったの$29.88（通常価格$100）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "9ef28651ceba"
   },
   {
@@ -3017,13 +3124,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Shark FlexStyleがWalmart.comで送料込み199ドル（通常価格400ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Shark FlexStyleがWalmart.comで送料込み199ドル（通常価格400ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3105739112ac",
@@ -3049,13 +3158,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースのホリデーパジャマセットがWalmart.comでたったの$13.99（通常価格$20）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "レディースのホリデーパジャマセットがWalmart.comでたったの$13.99（通常価格$20）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "80e1965a7bbe",
@@ -3118,13 +3229,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "セキュリティのためにいくら支払いますか？新しいRing Rover Camをご紹介します！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "セキュリティのためにいくら支払いますか？新しいRing Rover Camをご紹介します！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "93916239bc16",
@@ -3150,13 +3263,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Hanesのメンズパーカー＆ジョガーパンツがWalmart.comでたったの$15（通常価格$28）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Hanesのメンズパーカー＆ジョガーパンツがWalmart.comでたったの$15（通常価格$28）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "12627fb6641c",
@@ -3182,13 +3297,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comでTinecoコードレスウェット＆ドライ掃除機＆モップが350ドルオフ＋送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comでTinecoコードレスウェット＆ドライ掃除機＆モップが350ドルオフ＋送料無料",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3444edb9cc3c",
@@ -32495,36 +32612,6 @@
    "date": null
   },
   {
-   "id": "25e0489d978a",
-   "title": "FREE Turkey, FREE Stuffing & More! Don’t Miss Ibotta’s Thanksgiving Deals",
-   "link": "https://hip2save.com/deals/ibotta-free-thanksgiving-offer/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-11-05T03:20Z",
-   "firstSeen": "2026-11-13T01:07Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2019/12/target-butterball.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "922b5cbe6cae",
    "title": "Bed Sheet Organizer Set Just $17.56 on Amazon (No More Messy Linen Closets!)",
    "link": "https://hip2save.com/deals/bed-sheet-organizers/",
@@ -56498,8 +56585,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "d315e1a0ff86"
+   "date": null
   },
   {
    "id": "e801a0ca9dad",
@@ -57485,8 +57571,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "c8aa02e39901"
+   "date": null
   },
   {
    "id": "3e28b7614576",
@@ -57551,40 +57636,6 @@
    "sum": {
     "store": "Walmart",
     "item": "Hanes Cool DRIメンズクォータージップ軽量プルオーバーウォルマートでたったの$ 5.xx （登録価格$ 22 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "25fa57ec7878",
-   "title": "Little People Disney Christmas Train Just $36.50 Shipped on Amazon (Reg. $45)",
-   "link": "https://hip2save.com/deals/little-people-musical-christmas-train/",
-   "source": "Hip2Save",
-   "posted": "2026-10-29T03:20Z",
-   "firstSeen": "2026-10-29T03:59Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2021/11/fisher-price-disney-little-ppl-musical-train.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 19,
-   "price": 36.5,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Little Peopleディズニークリスマストレインたったの$ 36.50アマゾンで発送（登録価格$ 45 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Little Peopleディズニークリスマストレインたったの$ 36.50アマゾンで発送（登録価格$ 45 ）",
     "when": "",
     "cond": ""
    },
