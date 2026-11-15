@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-14T22:27Z",
- "count": 1598,
+ "updated": "2026-11-15T02:12Z",
+ "count": 1600,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 13
+   "added": 5
   },
   "h2s-free": {
    "read": 100,
@@ -15,16 +15,16 @@
    "added": 0
   },
   "ffp": {
-   "read": 20,
-   "added": 4
+   "read": 0,
+   "added": 0
   },
   "msm": {
    "read": 75,
-   "added": 7
+   "added": 6
   },
   "tfg": {
    "read": 40,
-   "added": 8
+   "added": 5
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,342 @@
    "added": 0
   },
   "ja": {
-   "gemini": 23,
+   "gemini": 20,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 3,
-   "model": "gemini-flash-latest"
+   "mymemory": 0,
+   "geminiToday": 4,
+   "model": "gemini-flash-latest",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
+ ],
  "items": [
+  {
+   "id": "4c3a29265d8e",
+   "title": "$10 and UNDER Toys for Walmart Black Friday | $5 Games, Squishmallows & More",
+   "link": "https://thefreebieguy.com/10-and-under-toys-at-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-15T01:31Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2024/12/Walmart-Games-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "$10以下の玩具や$5ゲーム等",
+    "when": "2026-11-14",
+    "what": "特売トイ",
+    "where": "Walmart"
+   },
+   "ja": "$10以下の玩具や$5ゲーム等",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "fda50b063854",
+   "title": "Aquaphor Lip Repair Ointment 2 Pack Only $4.xx on Amazon (Reg $10)",
+   "link": "https://thefreebieguy.com/aquaphor-lip-repair/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-15T00:49Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/aquaphor-lip-repair--840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 60,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "0cc6649e98fc",
+   "date": null
+  },
+  {
+   "id": "cd026fcaf464",
+   "title": "Women’s Clothing From $1.xx at Walmart | Tees, Dresses & Jeans UNDER $10.xx!",
+   "link": "https://thefreebieguy.com/walmart-womens-clothing-clearance/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-15T00:39Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Womens-Clothing-at-Walmart-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7ce48c5ab576",
+   "title": "Your Laundry Just Got a Holiday Makeover! Gain Grinchmas Cheer Is on Sale at Amazon",
+   "link": "https://hip2save.com/deals/grinch-gain/",
+   "source": "Hip2Save",
+   "posted": "2026-11-15T00:30Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Gain-Grinchmas-Cheer.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a7957652ecd4",
+   "title": "Walmart’s Holiday Meals Are Back – Feed 10 for ONLY $25",
+   "link": "https://hip2save.com/deals/walmart-holiday-meal/",
+   "source": "Hip2Save",
+   "posted": "2026-11-15T00:00Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/walmart-holiday-meal-basket.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0cc6649e98fc",
+   "title": "Aquaphor Lip Repair 2-Pack Only $4.98 Shipped on Amazon (Easy Stocking Stuffers!)",
+   "link": "https://hip2save.com/deals/aquaphor-lip-repair/",
+   "source": "Hip2Save",
+   "posted": "2026-11-14T23:50Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/Aquaphor-Lip-Repair-Ointment.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b57ea97b1243",
+   "title": "NEW Grinch Little People Collector Set Available Now!",
+   "link": "https://hip2save.com/deals/grinch-little-people-set/",
+   "source": "Hip2Save",
+   "posted": "2026-11-14T23:20Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/grinch-little-people-preorder-amazon.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "264ba4eb070d",
+   "title": "Burberry Brit Perfume + Pouch Just $61.50 at ULTA Beauty",
+   "link": "https://thefreebieguy.com/burberry-perfume-ulta-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-14T23:04Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Burberry-Perfume-840x630.png",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Ulta",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d1cfb15dbbdd",
+   "title": "Microfiber Hair Towel 2-Pack Only $5.84 on Amazon",
+   "link": "https://hip2save.com/deals/microfiber-hair-towels/",
+   "source": "Hip2Save",
+   "posted": "2026-11-14T23:00Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Umisleep-Microfiber-Hair-Towel.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f0765cef0ed8",
+   "title": "Harry Potter x Care Bears as Low as $7.xx on Amazon (Reg. $13+)",
+   "link": "https://thefreebieguy.com/harry-potter-x-care-bear/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-14T22:46Z",
+   "firstSeen": "2026-11-15T02:12Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Harry-Potter-Care-Bears-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 46,
+   "price": 7.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "8456cb84e1d3",
    "title": "Amazon Fresh Apple Cider Vinegar Only $1 Shipped",
@@ -256,13 +583,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "コリンさんが愛用するクリーンなスキンケアブランドが、最高のブラックフライデーセールを開催中",
-   "jaVia": "mymemory",
+   "ja": "スキンケア製品が最安値セール",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "コリンさんが愛用するクリーンなスキンケアブランドが、最高のブラックフライデーセールを開催中",
-    "when": "",
-    "cond": ""
+    "store": "Collin",
+    "item": "スキンケア製品が最安値セール",
+    "when": "2026-11-14",
+    "cond": "",
+    "what": "BFセール",
+    "where": "Collin"
    },
    "date": null
   },
@@ -298,8 +627,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "6f464a2c5890",
-   "date": null
+   "date": null,
+   "dup": "6f464a2c5890"
   },
   {
    "id": "526ea1f2a9fe",
@@ -469,8 +798,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "12a543f2acdc",
-   "date": null
+   "date": null,
+   "dup": "12a543f2acdc"
   },
   {
    "id": "4cb980bf4586",
@@ -606,8 +935,8 @@
     "when": "11/14(土)まで",
     "cond": "子ども向け"
    },
-   "dup": "526ea1f2a9fe",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "dup": "526ea1f2a9fe"
   },
   {
    "id": "573074c6b07b",
@@ -667,13 +996,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ULTA早期ブラックフライデー週間セール – 人気のビューティーアイテムが最大50%オフ！",
-   "jaVia": "mymemory",
+   "ja": "美容アイテム最大50%OFF",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Ulta",
-    "item": "ULTA早期ブラックフライデー週間セール – 人気のビューティーアイテムが最大50%オフ！",
-    "when": "",
-    "cond": ""
+    "store": "ULTA",
+    "item": "美容アイテム最大50%OFF",
+    "when": "2026-11-14",
+    "cond": "",
+    "what": "最大50%OFF",
+    "where": "ULTA"
    },
    "date": null
   },
@@ -944,7 +1275,7 @@
    "source": "Money Saving Mom",
    "posted": "2026-11-14T17:00Z",
    "firstSeen": "2026-11-14T22:27Z",
-   "expires": null,
+   "expires": "2026-11-15",
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Black-Friday-630x362.jpg",
    "hot": false,
    "stores": [
@@ -2308,8 +2639,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4948d30296b5",
-   "date": null
+   "date": null,
+   "dup": "4948d30296b5"
   },
   {
    "id": "266ba125fd8d",
@@ -4284,8 +4615,7 @@
    },
    "ja": "セーター1着購入で2着無料",
    "jaVia": "gemini",
-   "date": null,
-   "dup": "d4871cbb8d66"
+   "date": null
   },
   {
    "id": "da1ec0c5342f",
@@ -14130,8 +14460,7 @@
     "item": "4-in-1マルチ充電ケーブル2本セットがAmazonでたったの$3.99",
     "when": "",
     "cond": ""
-   },
-   "dup": "95563cd7e729"
+   }
   },
   {
    "id": "dc5bcced57a6",
@@ -21415,8 +21744,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "322911c0e525"
+   "date": null
   },
   {
    "id": "2194293baf7c",
@@ -25193,8 +25521,7 @@
    },
    "ja": "毛布1枚購入で2枚無料（$16〜）",
    "jaVia": "gemini",
-   "date": null,
-   "dup": "d4871cbb8d66"
+   "date": null
   },
   {
    "id": "90648fc6287d",
@@ -28447,43 +28774,6 @@
    "date": null
   },
   {
-   "id": "8416f285f902",
-   "title": "Last Day to Score FREE Scotch Tape After Staples Rewards (Up to $40 Worth!)",
-   "link": "https://hip2save.com/deals/staples-scotch-tape/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-11-07T15:34Z",
-   "firstSeen": "2026-11-14T22:27Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Scotch-Tape-Dispenser.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Staples",
-    "item": "スコッチテープが実質無料",
-    "when": "11/07",
-    "cond": "要リワード",
-    "what": "実質無料",
-    "where": "Staples"
-   },
-   "ja": "スコッチテープが実質無料",
-   "jaVia": "gemini",
-   "date": "2026-11-07"
-  },
-  {
    "id": "ae10138ee1d8",
    "title": "Ozark Trail Portable Hard Arm Chair w/ Cup Holder Only $9.xx at Walmart (Reg 20)",
    "link": "https://thefreebieguy.com/ozark-trail-hard-arm-chair/",
@@ -29432,45 +29722,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "e4dafd6efa82",
-   "title": "New Perk Alert! Sam’s Club Plus Now Includes FREE Walmart+!",
-   "link": "https://hip2save.com/deals/sams-club-plus-membership/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T01:50Z",
-   "firstSeen": "2026-11-07T07:16Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/07/walmart-plus-bags.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Walmart",
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Sam's Club",
-    "item": "Sam's Club Plus会員にWalmart+が無料で付帯",
-    "cond": "Plus会員",
-    "what": "Walmart+無料",
-    "where": "Sam's Club"
-   },
-   "ja": "Sam's Club Plus会員にWalmart+が無料で付帯",
-   "jaVia": "claude",
    "date": null
   },
   {
@@ -54304,210 +54555,6 @@
    "sum": {
     "store": "Amazon",
     "item": "HydroJug Sport 40 oz断熱ステンレススチールウォーターボトルたったの$ 29.97 Amazon (Reg. $ 40)",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "52ebac9f2616",
-   "title": "Salonpas Patches 6-Count Box Only $3.58 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/salonpas-patch/",
-   "source": "Hip2Save",
-   "posted": "2026-10-31T00:30Z",
-   "firstSeen": "2026-10-31T01:13Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2019/10/Salonpas-CVS-2.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Salonpasパッチ6カウントボックスのみ$ 3.58 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Salonpasパッチ6カウントボックスのみ$ 3.58 Amazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ac8e34abe677",
-   "title": "MAREE Under Eye Balm Just $7.98 Shipped on Amazon (Reg. $20)",
-   "link": "https://hip2save.com/deals/amazon-maree-under-eye-balm/",
-   "source": "Hip2Save",
-   "posted": "2026-10-31T00:20Z",
-   "firstSeen": "2026-10-31T01:13Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/under-eye-balm.png?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 60,
-   "price": 7.98,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "MAREEアンダーアイバームわずか$ 7.98 Amazonで発送（登録価格$ 20 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "MAREEアンダーアイバームわずか$ 7.98 Amazonで発送（登録価格$ 20 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "aaf0c05d0483",
-   "title": "6Ct Salonpas Pain Relieving Patches Only $3.xx (Reg $7)",
-   "link": "https://thefreebieguy.com/salonpas-pain-relieving-patch/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T23:22Z",
-   "firstSeen": "2026-10-30T23:48Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/10/Salonpas-Pain-Relieving-Patches-6-Pack-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 57,
-   "price": 3.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "6 Ct Salonpas疼痛緩和パッチのみ$ 3.xx （登録価格$ 7 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "6 Ct Salonpas疼痛緩和パッチのみ$ 3.xx （登録価格$ 7 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "5b16ef7164d8",
-   "title": "La Colombe Coffee Pods 20-Pack Only $9.xx on Amazon (Reg $20)",
-   "link": "https://thefreebieguy.com/la-colombe-amazon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T23:00Z",
-   "firstSeen": "2026-10-30T23:48Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/La-Colombe-coffee-pods-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 55,
-   "price": 9.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "La Colombe Coffee Pods 20パックAmazonで$ 9.xxのみ（登録価格$ 20 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "La Colombe Coffee Pods 20パックAmazonで$ 9.xxのみ（登録価格$ 20 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "c606924a0fc6",
-   "title": "Purina Fancy Feast Seafood Classic Pate Variety Pack Only $20.xx on Amazon (Reg. $31)",
-   "link": "https://thefreebieguy.com/purina-fancy-feast-amazon-deal/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T22:51Z",
-   "firstSeen": "2026-10-30T23:48Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Fancy-Feast-Seafood-30-cans-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 35,
-   "price": 20.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Purina Fancy FeastシーフードクラシックパテバラエティパックAmazonでのみ$ 20.xx （登録価格$ 31 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Purina Fancy FeastシーフードクラシックパテバラエティパックAmazonでのみ$ 20.xx （登録価格$ 31 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "32da7e576a87",
-   "title": "Stainless-Steel Cutting Board Just $11.xx on Amazon (Reg $30)",
-   "link": "https://thefreebieguy.com/snowclad-cutting-board/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-30T22:38Z",
-   "firstSeen": "2026-10-30T22:50Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/SNOWCLAD-Stainless-Steel-Cutting-Board-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 63,
-   "price": 11.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ステンレス製まな板Amazonでわずか$ 11.xx （登録価格$ 30 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ステンレス製まな板Amazonでわずか$ 11.xx （登録価格$ 30 ）",
     "when": "",
     "cond": ""
    },
