@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-15T03:09Z",
- "count": 1602,
+ "updated": "2026-11-15T10:58Z",
+ "count": 1576,
  "stats": {
   "h2s": {
    "read": 100,
@@ -8,7 +8,7 @@
   },
   "h2s-free": {
    "read": 100,
-   "added": 22
+   "added": 23
   },
   "doc": {
    "read": 15,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 18,
+   "gemini": 19,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 6,
+   "geminiToday": 1,
    "model": "gemini-flash-latest"
   }
  },
@@ -97,41 +97,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "4c3a29265d8e",
-   "title": "$10 and UNDER Toys for Walmart Black Friday | $5 Games, Squishmallows & More",
-   "link": "https://thefreebieguy.com/10-and-under-toys-at-walmart/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-15T01:31Z",
-   "firstSeen": "2026-11-15T02:12Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2024/12/Walmart-Games-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "$10以下の玩具や$5ゲーム等",
-    "when": "2026-11-14",
-    "what": "特売トイ",
-    "where": "Walmart"
-   },
-   "ja": "$10以下の玩具や$5ゲーム等",
-   "jaVia": "gemini",
-   "date": "2026-11-14"
   },
   {
    "id": "fda50b063854",
@@ -611,40 +576,6 @@
    "date": null
   },
   {
-   "id": "cb3137088699",
-   "title": "The Clean Skincare Brand Collin Loves Is Having Its BEST Black Friday Sale",
-   "link": "https://hip2save.com/deals/verli-skincare/",
-   "source": "Hip2Save",
-   "posted": "2026-11-14T21:15Z",
-   "firstSeen": "2026-11-14T22:27Z",
-   "expires": "2026-11-14",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/image-15.png?resize=306,182",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "スキンケア製品が最安値セール",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Collin",
-    "item": "スキンケア製品が最安値セール",
-    "when": "2026-11-14",
-    "cond": "",
-    "what": "BFセール",
-    "where": "Collin"
-   },
-   "date": "2026-11-14"
-  },
-  {
    "id": "8facf537685d",
    "title": "Spray ‘n Wash Stain Remover Just $2.39 Shipped on Amazon",
    "link": "https://hip2save.com/deals/spray-n-wash/",
@@ -953,41 +884,6 @@
    "date": null
   },
   {
-   "id": "34641fece1ba",
-   "title": "Sale Ends TODAY! 40% Off Pillowfort Kids Rugs at Target–Prices from $18 (Reg. $30)",
-   "link": "https://thefreebieguy.com/target-pillowfort/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-14T18:47Z",
-   "firstSeen": "2026-11-14T22:27Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Pillowfort-kids-rugs-840x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 18.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "セールは本日終了！TargetのPillowfortキッズ用ラグが40%オフ。価格は18ドルから（通常価格30ドル）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "セールは本日終了！TargetのPillowfortキッズ用ラグが40%オフ。価格は18ドルから（通常価格30ドル）",
-    "when": "11/14(土)まで",
-    "cond": "子ども向け"
-   },
-   "date": "2026-11-14",
-   "dup": "526ea1f2a9fe"
-  },
-  {
    "id": "573074c6b07b",
    "title": "Tineco Wet Dry Vacuum Cleaner Just $217 Shipped on Amazon (Reg. $399)",
    "link": "https://hip2save.com/deals/amazon-tineco-floor-one-i6-vacuum/",
@@ -1020,76 +916,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e359af8cb198",
-   "title": "ULTA Early Black Friday Weekly Deals – Save Up to 50% on Beauty Favorites!",
-   "link": "https://thefreebieguy.com/ulta-black-friday/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-14T18:27Z",
-   "firstSeen": "2026-11-14T22:27Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/ULTA-Beauty-840x630.png",
-   "hot": false,
-   "stores": [
-    "Ulta"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "美容アイテム最大50%OFF",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "ULTA",
-    "item": "美容アイテム最大50%OFF",
-    "when": "2026-11-14",
-    "cond": "",
-    "what": "最大50%OFF",
-    "where": "ULTA"
-   },
-   "date": "2026-11-14"
-  },
-  {
-   "id": "d5d61758705b",
-   "title": "Sale Ends TODAY! Huge $10 off $40 Toy Sale (including NeeDoh) at Target!",
-   "link": "https://thefreebieguy.com/target-toy-sale-10-off-40/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-14T18:26Z",
-   "firstSeen": "2026-11-14T22:27Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/target-toys-10-off-40-sale-840x630.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "セールは本日終了！Targetで40ドルのおもちゃ（NeeDohを含む）が10ドルオフの大セール！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "セールは本日終了！Targetで40ドルのおもちゃ（NeeDohを含む）が10ドルオフの大セール！",
-    "when": "11/14(土)まで",
-    "cond": ""
-   },
-   "date": "2026-11-14"
   },
   {
    "id": "97074c627218",
@@ -2051,41 +1877,6 @@
    "date": null
   },
   {
-   "id": "41edf9116965",
-   "title": "BOGO 50% Off Target Beauty & Skincare Gift Sets – Today Only!",
-   "link": "https://hip2save.com/deals/target-beauty-gift-sets/",
-   "source": "Hip2Save",
-   "posted": "2026-11-14T14:55Z",
-   "firstSeen": "2026-11-14T18:07Z",
-   "expires": "2026-11-14",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/medicube-gifts-sets-2.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "bogo"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-14",
-   "ja": "Targetのビューティー＆スキンケアギフトセットが2点買うと50%オフ – 今日限り！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "Targetのビューティー＆スキンケアギフトセットが2点買うと50%オフ – 今日限り！",
-    "when": "11/14(土)まで",
-    "cond": ""
-   },
-   "dup": "85c441be3fde"
-  },
-  {
    "id": "218d3aa6c6f3",
    "title": "Amazon – Up to 65% off Barbie Dolls and Playsets",
    "link": "https://thefreebieguy.com/amazon-up-to-65-off-barbie-dolls-and-playsets/",
@@ -2186,38 +1977,6 @@
     "store": "Amazon",
     "item": "インタラクティブ描画ロボットがAmazonで送料込みわずか$29.99（通常価格$60）",
     "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "8c65020902da",
-   "title": "Where to Score the Best National Pickle Day Deals on November 14th!",
-   "link": "https://thefreebieguy.com/national-pickle-day-freebies-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-14T14:32Z",
-   "firstSeen": "2026-11-14T18:07Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/National-Pickle-Day-Deals-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-14",
-   "ja": "11月14日の「全米ピクルスデー」のお得な情報を入手できる場所！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "11月14日の「全米ピクルスデー」のお得な情報を入手できる場所！",
-    "when": "11/14(土)まで",
     "cond": ""
    }
   },
@@ -3626,44 +3385,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "87250b402c07",
-   "title": "Target Free Events: Get a FREE Hanes Gift Bag Set on November 14th",
-   "link": "https://thefreebieguy.com/free-target-event/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-13T20:28Z",
-   "firstSeen": "2026-11-14T02:43Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Target-Hanes-Dairy-Boy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "sum": {
-    "store": "Target",
-    "item": "Hanesギフトバッグセット",
-    "when": "11/14",
-    "what": "無料バッグセット",
-    "where": "Target"
-   },
-   "ja": "Hanesギフトバッグセット",
-   "jaVia": "gemini",
-   "date": "2026-11-14"
   },
   {
    "id": "bfd4f1846f0f",
@@ -5330,43 +5051,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "075efa9ab5db",
-   "title": "Macy’s: FREE LEGO Santa’s Sleigh Build Event on November 14th!",
-   "link": "https://moneysavingmom.com/macys-free-lego-santas-sleigh-build-event-on-november-14th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-13T16:36Z",
-   "firstSeen": "2026-11-13T22:40Z",
-   "expires": "2026-11-14",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-10.22.49-AM.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "sum": {
-    "store": "Macy's",
-    "item": "レゴ サンタのそり組立体験",
-    "when": "11/14",
-    "what": "レゴ体験",
-    "where": "Macy's"
-   },
-   "ja": "レゴ サンタのそり組立体験",
-   "jaVia": "gemini",
-   "date": "2026-11-14",
-   "dup": "9f6471a81afc"
   },
   {
    "id": "f449021b1130",
@@ -7891,43 +7575,6 @@
    "date": null
   },
   {
-   "id": "9eac9ef2ac96",
-   "title": "FREE LEGO Santa’s Sleigh Build at Macy’s on November 14th",
-   "link": "https://hip2save.com/deals/macys-store-event/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T21:45Z",
-   "firstSeen": "2026-11-13T01:07Z",
-   "expires": "2026-11-14",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/LEGO-Santa-Sleigh-Macys.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "sum": {
-    "store": "Macy's",
-    "item": "レゴ サンタのそり 組み立て無料",
-    "when": "11/14",
-    "what": "無料レゴ",
-    "where": "Macy's"
-   },
-   "ja": "レゴ サンタのそり 組み立て無料",
-   "jaVia": "gemini",
-   "date": "2026-11-14",
-   "dup": "9f6471a81afc"
-  },
-  {
    "id": "db46b994e751",
    "title": "Coke & Ford Men’s Hats Just $8 on Walmart.com (Regularly $20)",
    "link": "https://hip2save.com/deals/walmart-hats/",
@@ -9513,40 +9160,6 @@
    }
   },
   {
-   "id": "4c79894939cf",
-   "title": "DIY-U Kids’ Workshop at Lowe’s on November 14th (Register Now!)",
-   "link": "https://moneysavingmom.com/free-build-grow-event-at-lowes/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T18:00Z",
-   "firstSeen": "2026-11-12T19:57Z",
-   "expires": "2026-11-14",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-11-12-at-11.54.37-AM.png",
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-14",
-   "ja": "11月14日、Lowe’sで開催されるDIY-Uキッズワークショップ（今すぐ登録！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "11月14日、Lowe’sで開催されるDIY-Uキッズワークショップ（今すぐ登録！）",
-    "when": "11/14(土)まで",
-    "cond": "要登録・子ども向け"
-   }
-  },
-  {
    "id": "4d619f35225b",
    "title": "Celebrity Pink Women’s Booties Only $15 on Walmart.com (Reg. $40)",
    "link": "https://hip2save.com/deals/celebrity-pink-booties/",
@@ -9887,43 +9500,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "9f6471a81afc",
-   "title": "FREE LEGO Santa’s Sleigh Build at Macy’s Toys R Us Locations on Nov. 14!",
-   "link": "https://thefreebieguy.com/macys-events/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-12T17:28Z",
-   "firstSeen": "2026-11-12T19:57Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/LEGO-Santas-Sleigh-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-14"
-   },
-   "ja": "Macy's内のToys R Usで無料のレゴ「サンタのそり」作り",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Macy's Toys R Us",
-    "item": "Macy's内のToys R Usで無料のレゴ「サンタのそり」作り",
-    "when": "11/14(土)",
-    "cond": "子供向け・店頭",
-    "what": "無料レゴ工作",
-    "where": "Macy's Toys R …"
-   },
-   "date": "2026-11-14"
   },
   {
    "id": "c00b2b07cafb",
@@ -12596,13 +12172,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "My Life As人形がWalmart.comでわずか15ドル（通常価格30ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "My Life As人形がWalmart.comでわずか15ドル（通常価格30ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8de586acee35",
@@ -12628,13 +12206,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Mainstaysの特大ベッド用枕がWalmart.comでわずか$3（通常価格$5）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Mainstaysの特大ベッド用枕がWalmart.comでわずか$3（通常価格$5）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d84614489ea3",
@@ -12660,13 +12240,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*新着* StanleyタンブラーのキーホルダーオーナメントがTargetでたったの$12",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "*新着* StanleyタンブラーのキーホルダーオーナメントがTargetでたったの$12",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b447e1fbcc44",
@@ -12692,13 +12274,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comでカラフルなボウルセットがたったの$10（通常価格$30）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comでカラフルなボウルセットがたったの$10（通常価格$30）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "3f693ca4bccf"
   },
   {
@@ -12725,13 +12309,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "LEGOハリー・ポッター・ブックヌックセットがWalmart.comで送料込みでわずか$50（通常価格最大$80）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "LEGOハリー・ポッター・ブックヌックセットがWalmart.comで送料込みでわずか$50（通常価格最大$80）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c5a72c407200",
@@ -12757,13 +12343,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レゴ スター・ウォーズ ジンジャーブレッドAT-ATウォーカーセットがわずか$59.99（通常価格$72！）など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "レゴ スター・ウォーズ ジンジャーブレッドAT-ATウォーカーセットがわずか$59.99（通常価格$72！）など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f79cf5c1de26",
@@ -12789,13 +12377,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットのビューティーギフトセットがなんと4.49ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのビューティーギフトセットがなんと4.49ドルから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c141b861ac75",
@@ -12821,13 +12411,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* KitchenAid 5.5クォート ボウルリフト式スタンドミキサーが送料込みでわずか$299.99（通常価格$500！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "*大人気* KitchenAid 5.5クォート ボウルリフト式スタンドミキサーが送料込みでわずか$299.99（通常価格$500！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e4b377e6b3cf",
@@ -12853,13 +12445,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Beats Solo4ワイヤレスBluetoothヘッドホンが送料込みでわずか$69（通常価格$200！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Beats Solo4ワイヤレスBluetoothヘッドホンが送料込みでわずか$69（通常価格$200！）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "678f1df46783"
   },
   {
@@ -15269,46 +14863,6 @@
    "date": null
   },
   {
-   "id": "18e98c852a35",
-   "title": "Jimmy John’s Deals | BOGO Picklewiches on Nov. 14th!",
-   "link": "https://thefreebieguy.com/jimmy-johns-deals-and-codes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-11T17:20Z",
-   "firstSeen": "2026-11-11T22:02Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Kendall-Jimmy-Johns--840x630.jpg",
-   "hot": true,
-   "stores": [
-    "Jimmy John's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-14",
-    "bogo": true
-   },
-   "sum": {
-    "store": "Jimmy John's",
-    "item": "Jimmy John's ピクルウィッチBOGO",
-    "when": "11/14(土)",
-    "what": "BOGOサンド",
-    "where": "Jimmy John's"
-   },
-   "ja": "Jimmy John's ピクルウィッチBOGO",
-   "jaVia": "claude",
-   "date": "2026-11-14"
-  },
-  {
    "id": "896ac8f6e757",
    "title": "Iridescent Gift Bags 25-Pack Just $9.99 on Amazon (Only 40¢ Each)",
    "link": "https://hip2save.com/deals/iridescent-gift-bags/",
@@ -16007,44 +15561,6 @@
    "dup": "bcd25e07c906"
   },
   {
-   "id": "f20f3f43bdc2",
-   "title": "Target: FREE EOS Holiday Scents Event on November 14th!",
-   "link": "https://moneysavingmom.com/target-free-store-event/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-11T15:22Z",
-   "firstSeen": "2026-11-11T22:02Z",
-   "expires": "2026-11-14",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-11-at-9.18.25-AM.png",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "sum": {
-    "store": "Target",
-    "item": "EOSホリデー香りイベント",
-    "when": "11/14",
-    "what": "無料サンプル",
-    "where": "Target"
-   },
-   "ja": "EOSホリデー香りイベント",
-   "jaVia": "gemini",
-   "date": "2026-11-14"
-  },
-  {
    "id": "c4db8181f249",
    "title": "*HOT* Ring Battery Doorbell 2K only $39.99 shipped (Reg. $100), plus more!",
    "link": "https://moneysavingmom.com/hot-ring-battery-doorbell-deal/",
@@ -16077,45 +15593,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "cb7c188fd75e",
-   "title": "Michaels: 2 FREE Crafting Events on November 14-15th!",
-   "link": "https://moneysavingmom.com/michaels-free-events/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-11T15:16Z",
-   "firstSeen": "2026-11-11T15:15Z",
-   "expires": "2026-11-14",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-11-at-9.06.26-AM.png",
-   "hot": true,
-   "stores": [
-    "Michaels"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "ja": "手芸クラフトイベント2種",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Michaels",
-    "item": "手芸クラフトイベント2種",
-    "when": "11/14〜15",
-    "cond": "",
-    "what": "クラフト体験",
-    "where": "Michaels"
-   },
-   "date": "2026-11-14"
   },
   {
    "id": "b4699f18111f",
@@ -16893,13 +16370,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*注目* CVS：11×14インチのキャンバスフォトがわずか$9.99 + 店頭受け取り無料！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "*注目* CVS：11×14インチのキャンバスフォトがわずか$9.99 + 店頭受け取り無料！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1e0267875d92",
@@ -16925,13 +16404,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "マジックジェル・ウォーターエルフのおもちゃキットがAmazonでたったの$9.xx（通常価格$20）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "マジックジェル・ウォーターエルフのおもちゃキットがAmazonでたったの$9.xx（通常価格$20）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b472b22f9b46",
@@ -16994,13 +16475,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sam's Club Plusの会員は、Walmart+のメンバーシップが無料になりました{アカウントを連携して返金を受けましょう！】",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Sam's Club",
-    "item": "",
+    "item": "Sam's Club Plusの会員は、Walmart+のメンバーシップが無料になりました{アカウントを連携して返金を受けましょう！】",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "ca0bfc614f85",
@@ -17026,13 +16509,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レッドロビンのお得情報 | 退役軍人の方への無料のお食事など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Red Robin",
-    "item": "",
+    "item": "レッドロビンのお得情報 | 退役軍人の方への無料のお食事など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "674fc8d6a95f",
@@ -17097,13 +16582,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ベストバイ – Bella Proシリーズ12.6クォートデジタルエアフライヤーオーブンがたったの$69.xx（通常価格$170）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "ベストバイ – Bella Proシリーズ12.6クォートデジタルエアフライヤーオーブンがたったの$69.xx（通常価格$170）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a3b046311cb5",
@@ -17379,47 +16866,6 @@
    "ja": "Whatnot で$10〜$200のクレジット",
    "jaVia": "claude",
    "date": null
-  },
-  {
-   "id": "5638d83b5a94",
-   "title": "Free Microchip & Rabies Vaccination Event",
-   "link": "https://events.bryantx.gov/default/Detail/2026-11-14-0800-Free-Microchip-amp-Rabies-Vaccination-Event",
-   "source": "City of Bryan",
-   "posted": "2026-11-10T23:32Z",
-   "firstSeen": "2026-11-10T23:32Z",
-   "expires": "2026-11-14",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-14",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "City of Bryan",
-    "item": "ブライアン市の犬猫マイクロチップ・狂犬病ワクチン無料会",
-    "when": "11/14(土) 8時",
-    "cond": "無料・要申込",
-    "what": "ペット無料接種",
-    "where": "ブライアン市"
-   },
-   "ja": "ブライアン市の犬猫マイクロチップ・狂犬病ワクチン無料会",
-   "jaVia": "claude-ev",
-   "date": "2026-11-14",
-   "freebie": {
-    "kind": "store",
-    "when": null
-   }
   },
   {
    "id": "a2953729094d",
@@ -19800,43 +19246,6 @@
    "date": null
   },
   {
-   "id": "4667223aa5cd",
-   "title": "Apple TV: Watch A Charlie Brown Thanksgiving for FREE on November 14-15th!",
-   "link": "https://moneysavingmom.com/apple-tv-watch-a-charlie-brown-thanksgiving-for-free-on-november-14-15th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-10T16:13Z",
-   "firstSeen": "2026-11-10T17:53Z",
-   "expires": "2026-11-14",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.07.35-AM-630x526.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "sum": {
-    "store": "Apple TV",
-    "item": "感謝祭アニメの無料視聴",
-    "when": "11/14-15",
-    "what": "無料視聴",
-    "where": "Apple TV"
-   },
-   "ja": "感謝祭アニメの無料視聴",
-   "jaVia": "gemini",
-   "date": "2026-11-14",
-   "dup": "95dca7b994b5"
-  },
-  {
    "id": "402f40ebb3e3",
    "title": "Lysol Disinfecting Wipes 3-Pack Just $7.45 Shipped on Amazon",
    "link": "https://hip2save.com/deals/lysol-wipes/",
@@ -21481,13 +20890,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマート：10人分の感謝祭の食事を35ドル（コード適用後約25ドル）で",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマート：10人分の感謝祭の食事を35ドル（コード適用後約25ドル）で",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ea870e5b49af",
@@ -21513,13 +20924,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Tide 4-in-1 Ultra Oxi PODS 洗濯用洗剤パック 85個入りがAmazonで1個あたりわずか$11.xx（通常価格$27）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Tide 4-in-1 Ultra Oxi PODS 洗濯用洗剤パック 85個入りがAmazonで1個あたりわずか$11.xx（通常価格$27）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "898e35cb7559",
@@ -21543,13 +20956,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Momentの飲料製品を無料で試してみましょう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "Momentの飲料製品を無料で試してみましょう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "15f393622b70",
@@ -21691,13 +21106,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "おいしそう！Amazonでダンカン・ハインズのミックスとフロスティングがたったの1ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "おいしそう！Amazonでダンカン・ハインズのミックスとフロスティングがたったの1ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ddd9c18f57ea",
@@ -23611,45 +23028,6 @@
    "date": null
   },
   {
-   "id": "8cebf8836663",
-   "title": "Michaels Has Free Craft Classes! Make Air Dry Clay Figurines on November 14, 2026!",
-   "link": "https://thefreebieguy.com/michaels-free-craft-classes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-09T15:32Z",
-   "firstSeen": "2026-11-09T18:50Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Michaels-Store-TFG-840x630.png",
-   "hot": true,
-   "stores": [
-    "Michaels"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "ja": "粘土工作教室が無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Michaels",
-    "item": "粘土工作教室が無料",
-    "when": "11/14",
-    "cond": "",
-    "what": "無料工作教室",
-    "where": "Michaels"
-   },
-   "date": "2026-11-14"
-  },
-  {
    "id": "35d2d94ad091",
    "title": "Walgreens Photo Books starting at only $2.99 + Free In-Store Pickup!",
    "link": "https://moneysavingmom.com/walgreens-photo-books-only-2-99-free-in-store-pickup/",
@@ -25002,49 +24380,6 @@
    "date": null
   },
   {
-   "id": "32d4aceeb0f9",
-   "title": "Community Yoga at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/yoga-at-lake-walk/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-08T23:32Z",
-   "firstSeen": "2026-11-08T23:32Z",
-   "expires": "2026-11-14",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-14",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fitness"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "レイクウォークの屋外コミュニティヨガ",
-    "when": "11/14(土)",
-    "cond": "誰でも参加可",
-    "what": "屋外ヨガ",
-    "where": "Lake Walk"
-   },
-   "ja": "レイクウォークの屋外コミュニティヨガ",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "スポーツ"
-   ],
-   "family": true,
-   "date": "2026-11-14",
-   "freebie": null
-  },
-  {
    "id": "32a6a5deb46e",
    "title": "Viral Pop Tubes Sensory Toys 4-Pack Only $6.xx on Amazon (Reg. $12)",
    "link": "https://thefreebieguy.com/bunmo-pop-tubes/",
@@ -25934,48 +25269,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "f9686e181a33",
-   "title": "Target.com: Get $10 Back With $100 Giftcard Purchase – Starbucks, Apple, Uber, Phone Card, Home Depot, Google, Etc. (11/8-11/14)",
-   "link": "https://www.doctorofcredit.com/target-com-get-10-back-with-100-giftcard-purchase-apple-uber-phone-card-home-depot-google-etc-11-8-11-14/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-08T19:48Z",
-   "firstSeen": "2026-11-08T21:12Z",
-   "expires": "2026-11-14",
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Target",
-    "Home Depot",
-    "Starbucks"
-   ],
-   "cats": [
-    "home",
-    "food"
-   ],
-   "types": [
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "gift": {
-    "grocery": false
-   },
-   "sum": {
-    "store": "Target.com",
-    "item": "Target.com で対象ギフトカード$100購入で$10還元",
-    "when": "11/8〜11/14",
-    "cond": "Starbucks・Apple・Uber等が対象",
-    "what": "$100で$10還元",
-    "where": "Target.com"
-   },
-   "date": "2026-11-08",
-   "ja": "Target.com で対象ギフトカード$100購入で$10還元",
-   "jaVia": "claude"
   },
   {
    "id": "53105def781a",
@@ -28930,6 +28223,43 @@
    "date": null
   },
   {
+   "id": "8416f285f902",
+   "title": "Last Day to Score FREE Scotch Tape After Staples Rewards (Up to $40 Worth!)",
+   "link": "https://hip2save.com/deals/staples-scotch-tape/",
+   "source": "Hip2Save(無料)",
+   "posted": "2026-11-07T15:34Z",
+   "firstSeen": "2026-11-15T10:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Scotch-Tape-Dispenser.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Staples",
+    "item": "スコッチテープが無料($40まで)",
+    "when": "〜11/07",
+    "cond": "Staples Rewards",
+    "what": "無料テープ",
+    "where": "Staples"
+   },
+   "ja": "スコッチテープが無料($40まで)",
+   "jaVia": "gemini",
+   "date": "2026-11-07"
+  },
+  {
    "id": "ae10138ee1d8",
    "title": "Ozark Trail Portable Hard Arm Chair w/ Cup Holder Only $9.xx at Walmart (Reg 20)",
    "link": "https://thefreebieguy.com/ozark-trail-hard-arm-chair/",
@@ -29260,40 +28590,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "dd0173294b2e",
-   "title": "Target Weekly Ad Preview (11/8/26 – 11/14/26) | We’ve Circled Our Faves!",
-   "link": "https://hip2save.com/deals/target-weekly-ad/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T13:35Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": "2026-11-14",
-   "thumb": "https://hip2save.com/wp-content/uploads/2020/07/Target-carts.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ターゲットウィークリーアドプレビュー（ 11/8/26 – 11/14/26 ） |私たちのお気に入りを丸で囲みました！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ターゲットウィークリーアドプレビュー（ 11/8/26 – 11/14/26 ） |私たちのお気に入りを丸で囲みました！",
-    "when": "11/14(土)まで",
-    "cond": ""
-   },
-   "date": "2026-11-14"
   },
   {
    "id": "dbf21a177a24",
@@ -29740,44 +29036,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "646d5b47930b",
-   "title": "Book Lovers, This One’s for You! Audible Just 99¢/Month + FREE $20 Credit",
-   "link": "https://hip2save.com/deals/free-audible-books/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T04:00Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/04/Let-Them-Audible-Book-e1745425556442.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Audible",
-    "item": "Audibleが月99¢＋$20分のクレジット付き",
-    "what": "月99¢+$20分",
-    "where": "Audible",
-    "cond": "対象者のみ"
-   },
-   "ja": "Audibleが月99¢＋$20分のクレジット付き",
-   "jaVia": "claude",
    "date": null
   },
   {
@@ -35035,40 +34293,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e66dc6013496",
-   "title": "CVS Weekly Ad Preview (11/8/26 – 11/14/26) | We’ve Circled Our Faves!",
-   "link": "https://hip2save.com/deals/cvs-weekly-ad/",
-   "source": "Hip2Save",
-   "posted": "2026-11-05T19:50Z",
-   "firstSeen": "2026-11-05T20:04Z",
-   "expires": "2026-11-14",
-   "thumb": "https://hip2save.com/wp-content/uploads/2020/07/CVS-Basket-Grocery.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "CVS"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "CVSウィークリー広告プレビュー（ 11/8/26 - 11/14/26 ） |お気に入りを丸で囲みました！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "CVS",
-    "item": "CVSウィークリー広告プレビュー（ 11/8/26 - 11/14/26 ） |お気に入りを丸で囲みました！",
-    "when": "11/14(土)まで",
-    "cond": ""
-   },
-   "date": "2026-11-14"
   },
   {
    "id": "b28f118126d7",
@@ -49643,49 +48867,6 @@
    "freebie": null
   },
   {
-   "id": "74f8cf90347a",
-   "title": "The Farmers' Market in Brazos County",
-   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-01T23:33Z",
-   "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-14",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-14",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Midtown Park",
-    "item": "ミッドタウン公園の毎週土曜のファーマーズマーケット",
-    "when": "11/14(土)",
-    "what": "ファーマーズ市",
-    "where": "Midtown Park",
-    "cond": "毎週土曜"
-   },
-   "ja": "ミッドタウン公園の毎週土曜のファーマーズマーケット",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-14",
-   "freebie": null
-  },
-  {
    "id": "74bb372cab83",
    "title": "Lights On presented by Frost Bank",
    "link": "https://events.bryantx.gov/default/Detail/2026-11-20-1700-Lights-On-Presented-by-Frost-Bank",
@@ -52394,41 +51575,6 @@
    }
   },
   {
-   "id": "95dca7b994b5",
-   "title": "Here’s How to Watch A Charlie Brown Thanksgiving for Free on November 14th & 15th",
-   "link": "https://hip2save.com/news/charlie-brown-thanksgiving/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-11-01T13:47Z",
-   "firstSeen": "2026-11-01T13:55Z",
-   "expires": "2026-11-14",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Charlie-Brown-Thanksgiving-1.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "sum": {
-    "item": "感謝祭アニメ番組を無料で視聴できる",
-    "when": "11/14(土)〜11/15(日)",
-    "what": "無料配信",
-    "where": "オンライン"
-   },
-   "ja": "感謝祭アニメ番組を無料で視聴できる",
-   "jaVia": "claude",
-   "date": "2026-11-14"
-  },
-  {
    "id": "ed1a25a8a9ce",
    "title": "Lowe’s Exclusive Christmas Snow Globe & 2026 Ornament Available Now!",
    "link": "https://thefreebieguy.com/lowes-christmas-snow-globe-and-2026-ornament/",
@@ -54754,82 +53900,6 @@
     "where": "McDonald's"
    },
    "date": null
-  },
-  {
-   "id": "b89ac5e0437c",
-   "title": "JCPenney Kids Zone Event | Make a FREE 3D Turkey on November 14th",
-   "link": "https://hip2save.com/deals/free-jcpenney-kids-zone-event/",
-   "source": "Hip2Save",
-   "posted": "2026-10-30T16:25Z",
-   "firstSeen": "2026-10-30T16:57Z",
-   "expires": "2026-11-14",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/jcpenney-3D-Turkey.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "ja": "3Dターキー工作キット",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "JCPenney",
-    "item": "3Dターキー工作キット",
-    "when": "11/14",
-    "cond": "子ども限定",
-    "what": "無料工作",
-    "where": "JCPenney"
-   },
-   "date": "2026-11-14"
-  },
-  {
-   "id": "4f8cfbc686e0",
-   "title": "Free Lowe’s Kids Workshops: Register Now for the Holiday Engine Build on November 14th",
-   "link": "https://thefreebieguy.com/free-lowes-kids-workshop/",
-   "source": "The Freebie Guy",
-   "posted": "2026-10-28T19:00Z",
-   "firstSeen": "2026-10-28T19:02Z",
-   "expires": "2026-11-14",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Free-Lowes-Workshops-Holiday-Engine-Build-on-November-14th-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-14"
-   },
-   "ja": "子供向け工作イベント",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Lowe's",
-    "item": "子供向け工作イベント",
-    "when": "11/14",
-    "cond": "要予約",
-    "what": "子供向け工作",
-    "where": "Lowe's"
-   },
-   "date": "2026-11-14"
   },
   {
    "id": "fadc4d000f54",
