@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-15T02:12Z",
- "count": 1600,
+ "updated": "2026-11-15T02:42Z",
+ "count": 1603,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 5
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
-   "added": 22
+   "added": 23
   },
   "doc": {
    "read": 15,
    "added": 0
   },
   "ffp": {
-   "read": 0,
-   "added": 0
+   "read": 20,
+   "added": 4
   },
   "msm": {
    "read": 75,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -55,18 +55,49 @@
    "added": 0
   },
   "ja": {
-   "gemini": 20,
+   "gemini": 19,
    "geminiEvent": 0,
-   "mymemory": 0,
-   "geminiToday": 4,
-   "model": "gemini-flash-latest",
-   "mymemoryError": "HTTP Error 429: Too Many Requests"
+   "mymemory": 25,
+   "geminiToday": 5,
+   "model": "gemini-flash-latest"
   }
  },
- "errors": [
-  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "9dd966b56eb6",
+   "title": "Over 2 Years of Gain Flings Just $35 After Offers on Amazon ($108 Worth!)",
+   "link": "https://thefreebieguy.com/gain-flings-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-15T02:21Z",
+   "firstSeen": "2026-11-15T02:42Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Gain-Stock-up-Deal-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでオファー適用後わずか$35で2年分以上のゲイン・フリングス（通常価格$108相当！）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでオファー適用後わずか$35で2年分以上のゲイン・フリングス（通常価格$108相当！）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "4c3a29265d8e",
    "title": "$10 and UNDER Toys for Walmart Black Friday | $5 Games, Squishmallows & More",
@@ -74,7 +105,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-11-15T01:31Z",
    "firstSeen": "2026-11-15T02:12Z",
-   "expires": null,
+   "expires": "2026-11-14",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2024/12/Walmart-Games-840x630.png",
    "hot": false,
    "stores": [
@@ -100,7 +131,7 @@
    },
    "ja": "$10以下の玩具や$5ゲーム等",
    "jaVia": "gemini",
-   "date": null
+   "date": "2026-11-14"
   },
   {
    "id": "fda50b063854",
@@ -126,14 +157,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Aquaphorリップリペア軟膏2個セットがAmazonでたったの$4.xx（通常価格$10）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Aquaphorリップリペア軟膏2個セットがAmazonでたったの$4.xx（通常価格$10）",
     "when": "",
     "cond": ""
-   },
-   "dup": "0cc6649e98fc",
-   "date": null
+   }
   },
   {
    "id": "cd026fcaf464",
@@ -159,13 +191,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートでレディースウェアが$1.xxから | Tシャツ、ワンピース、ジーンズが$10.xx未満！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートでレディースウェアが$1.xxから | Tシャツ、ワンピース、ジーンズが$10.xx未満！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7ce48c5ab576",
@@ -191,13 +225,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "あなたの洗濯物がホリデー仕様になりました！ゲインのグリンチマス・チアがAmazonでセール中",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "あなたの洗濯物がホリデー仕様になりました！ゲインのグリンチマス・チアがAmazonでセール中",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a7957652ecd4",
@@ -223,13 +259,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートのホリデーミールが復活 – 10人前がたったの25ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートのホリデーミールが復活 – 10人前がたったの25ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0cc6649e98fc",
@@ -255,13 +293,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Aquaphor リップリペア 2個セット Amazonで送料込みわずか$4.98（クリスマスプレゼントに最適！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Aquaphor リップリペア 2個セット Amazonで送料込みわずか$4.98（クリスマスプレゼントに最適！）",
     "when": "",
     "cond": ""
    },
-   "date": null
+   "dup": "fda50b063854"
   },
   {
    "id": "b57ea97b1243",
@@ -287,13 +328,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "新登場のグリンチのリトルピープルコレクターセットが発売開始！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "新登場のグリンチのリトルピープルコレクターセットが発売開始！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "264ba4eb070d",
@@ -319,13 +362,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "バーバリーブリットの香水＋ポーチが、ULTA Beautyでたったの$61.50",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Ulta",
-    "item": "",
+    "item": "バーバリーブリットの香水＋ポーチが、ULTA Beautyでたったの$61.50",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d1cfb15dbbdd",
@@ -351,13 +396,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "マイクロファイバーヘアタオル2枚セットがAmazonでたったの$5.84",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "マイクロファイバーヘアタオル2枚セットがAmazonでたったの$5.84",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f0765cef0ed8",
@@ -383,13 +430,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハリー・ポッター x ケアベアがAmazonでわずか$7.xx（通常価格$13以上）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハリー・ポッター x ケアベアがAmazonでわずか$7.xx（通常価格$13以上）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8456cb84e1d3",
@@ -568,7 +617,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-14T21:15Z",
    "firstSeen": "2026-11-14T22:27Z",
-   "expires": null,
+   "expires": "2026-11-14",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/11/image-15.png?resize=306,182",
    "hot": false,
    "stores": [],
@@ -593,7 +642,7 @@
     "what": "BFセール",
     "where": "Collin"
    },
-   "date": null
+   "date": "2026-11-14"
   },
   {
    "id": "8facf537685d",
@@ -979,7 +1028,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-11-14T18:27Z",
    "firstSeen": "2026-11-14T22:27Z",
-   "expires": null,
+   "expires": "2026-11-14",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/ULTA-Beauty-840x630.png",
    "hot": false,
    "stores": [
@@ -1006,7 +1055,7 @@
     "what": "最大50%OFF",
     "where": "ULTA"
    },
-   "date": null
+   "date": "2026-11-14"
   },
   {
    "id": "d5d61758705b",
@@ -1134,13 +1183,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "SamsClub.comでキッズ用ぬいぐるみペットキャリーバックパックが29.98ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "SamsClub.comでキッズ用ぬいぐるみペットキャリーバックパックが29.98ドル",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "0072a766a603",
@@ -1166,13 +1217,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートの秋の紅葉バレルケーキは16.64ドルから（切るのがもったいないほどかわいい！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートの秋の紅葉バレルケーキは16.64ドルから（切るのがもったいないほどかわいい！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bfd6ff8f1476",
@@ -1198,13 +1251,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "さあ！Walmart.comでハリー・ポッターのクリスマス用クッションが15ドル未満",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "さあ！Walmart.comでハリー・ポッターのクリスマス用クッションが15ドル未満",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6d1d18bebba8",
@@ -1230,13 +1285,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハリー・ポッター x エルフ・オン・ザ・シェルフのアクセサリーが12.99ドルから | パジャマ、制服など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハリー・ポッター x エルフ・オン・ザ・シェルフのアクセサリーが12.99ドルから | パジャマ、制服など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3f85cb205f4d",
@@ -1260,13 +1317,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "快適なワークアウトトップス＆レギンスを1点購入すると、もう1点無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "快適なワークアウトトップス＆レギンスを1点購入すると、もう1点無料",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e74b8d361627",
@@ -1327,13 +1386,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Scunci by ConairのホリデーギフトセットがAmazonでたったの$5.xx！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Scunci by ConairのホリデーギフトセットがAmazonでたったの$5.xx！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fb1c878542d4",
@@ -1359,13 +1420,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "LISEN 84W 4ポート格納式カーチャージャーがAmazonでわずか$10.xx（通常価格$20）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "LISEN 84W 4ポート格納式カーチャージャーがAmazonでわずか$10.xx（通常価格$20）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "73a147c23957"
   },
   {
@@ -1392,13 +1455,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レゴ クリエイター 3-in-1観覧車組み立ておもちゃがAmazonで送料込み79.95ドル（通常価格100ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レゴ クリエイター 3-in-1観覧車組み立ておもちゃがAmazonで送料込み79.95ドル（通常価格100ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "86b990a4256b",
@@ -1424,13 +1489,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アマゾンでコレーン・フーヴァーの3冊セットが50%オフ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アマゾンでコレーン・フーヴァーの3冊セットが50%オフ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f09ae6791084",
@@ -1493,13 +1560,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Craftsman 7段引き出し付きキャスター付き作業台がLowes.comでわずか$299（通常価格$549）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Craftsman 7段引き出し付きキャスター付き作業台がLowes.comでわずか$299（通常価格$549）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "423f935fa316",
@@ -1525,13 +1594,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディース2点セットトレーニングウェアがAmazonでたったの$11.xx（通常価格$43）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディース2点セットトレーニングウェアがAmazonでたったの$11.xx（通常価格$43）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "76f0405c11f7"
   },
   {
@@ -1558,13 +1629,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "このオーナメントデコレーションキットで、クリスマスオーナメント9個を作ることができます。楽しい家族の伝統になります！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "このオーナメントデコレーションキットで、クリスマスオーナメント9個を作ることができます。楽しい家族の伝統になります！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "67876958fd68",
@@ -1590,13 +1663,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Target.comで、これらの素敵なコーヒーテーブル用ボードゲームを1つ買うと、もう1つが50%オフになります。",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Target.comで、これらの素敵なコーヒーテーブル用ボードゲームを1つ買うと、もう1つが50%オフになります。",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ca4cbd587b38",
@@ -1622,13 +1697,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "充電式ハンドウォーマー2個セットがプライム会員なら5.99ドルから（1個あたり3ドル）送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "充電式ハンドウォーマー2個セットがプライム会員なら5.99ドルから（1個あたり3ドル）送料無料",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "50de0e9a30bb",
@@ -1654,13 +1731,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハチドリのキャンドルウォーマーランプ（タイマー付き）がAmazonでわずか$13.xx（通常価格$31）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハチドリのキャンドルウォーマーランプ（タイマー付き）がAmazonでわずか$13.xx（通常価格$31）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "385fecc94457",
@@ -2641,6 +2720,39 @@
    },
    "date": null,
    "dup": "4948d30296b5"
+  },
+  {
+   "id": "ac8e34abe677",
+   "title": "MAREE Under Eye Balm Just $7.98 Shipped on Amazon (Reg. $20)",
+   "link": "https://hip2save.com/deals/amazon-maree-under-eye-balm/",
+   "source": "Hip2Save",
+   "posted": "2026-11-14T02:30Z",
+   "firstSeen": "2026-11-15T02:42Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/under-eye-balm.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 7.98,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "dfbe672528fb",
+   "date": null
   },
   {
    "id": "266ba125fd8d",
@@ -28774,6 +28886,43 @@
    "date": null
   },
   {
+   "id": "8416f285f902",
+   "title": "Last Day to Score FREE Scotch Tape After Staples Rewards (Up to $40 Worth!)",
+   "link": "https://hip2save.com/deals/staples-scotch-tape/",
+   "source": "Hip2Save(無料)",
+   "posted": "2026-11-07T15:34Z",
+   "firstSeen": "2026-11-15T02:42Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Scotch-Tape-Dispenser.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Staples",
+    "item": "スコッチテープ（最大$40分）",
+    "when": "〜11/7",
+    "cond": "会員・リワード還元",
+    "what": "実質無料テープ",
+    "where": "Staples"
+   },
+   "ja": "スコッチテープ（最大$40分）",
+   "jaVia": "gemini",
+   "date": "2026-11-07"
+  },
+  {
    "id": "ae10138ee1d8",
    "title": "Ozark Trail Portable Hard Arm Chair w/ Cup Holder Only $9.xx at Walmart (Reg 20)",
    "link": "https://thefreebieguy.com/ozark-trail-hard-arm-chair/",
@@ -33538,8 +33687,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "ac8e34abe677"
+   "date": null
   },
   {
    "id": "38b70860ce37",
@@ -34021,8 +34169,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "ac8e34abe677"
+   "date": null
   },
   {
    "id": "5b9d0565ca22",
@@ -50939,8 +51086,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "32da7e576a87"
+   "date": null
   },
   {
    "id": "3e19e94234c1",
