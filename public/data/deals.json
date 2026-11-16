@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-16T02:45Z",
- "count": 1567,
+ "updated": "2026-11-16T03:14Z",
+ "count": 1569,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,11 +12,11 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
-   "read": 0,
-   "added": 0
+   "read": 20,
+   "added": 4
   },
   "msm": {
    "read": 75,
@@ -55,18 +55,50 @@
    "added": 0
   },
   "ja": {
-   "gemini": 20,
+   "gemini": 21,
    "geminiEvent": 0,
-   "mymemory": 0,
-   "geminiToday": 5,
-   "model": "gemini-flash-latest",
-   "mymemoryError": "HTTP Error 429: Too Many Requests"
+   "mymemory": 25,
+   "geminiToday": 6,
+   "model": "gemini-flash-latest"
   }
  },
- "errors": [
-  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "6714b88d37fa",
+   "title": "SLH: Free Upgrade To CLUB 03 Tier",
+   "link": "https://www.doctorofcredit.com/slh-free-upgrade-to-club-03-tier/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-16T03:06Z",
+   "firstSeen": "2026-11-16T03:14Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/05/slh-deal-1024x420.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "SLH",
+    "item": "CLUB 03への無料アップグレード",
+    "what": "無料アプグレ",
+    "where": "SLH"
+   },
+   "ja": "CLUB 03への無料アップグレード",
+   "jaVia": "gemini",
+   "date": null
+  },
   {
    "id": "cb3137088699",
    "title": "The Clean Skincare Brand Collin Loves Is Having Its BEST Black Friday Sale",
@@ -2053,6 +2085,40 @@
    "ja": "早期ブラックフライデーセール",
    "jaVia": "gemini",
    "date": "2026-11-15"
+  },
+  {
+   "id": "57d21016c862",
+   "title": "*HOT* Lunakai Pro Magnesium Complex, 30-Day Supply only $10.38 shipped (Reg. $26)!",
+   "link": "https://moneysavingmom.com/lunakai-pro-magnesium-complex-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-15T14:00Z",
+   "firstSeen": "2026-11-16T03:14Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/Lunakai-USA-Made-7-in-1-Magnesium-Complex--630x851.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 60,
+   "price": 10.38,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "*大人気* Lunakai Proマグネシウム複合体、30日分が送料込みでわずか$10.38（通常価格$26）！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "*大人気* Lunakai Proマグネシウム複合体、30日分が送料込みでわずか$10.38（通常価格$26）！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
   },
   {
    "id": "dbec1d4c14ac",
@@ -23618,13 +23684,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "フィリップス製投光器2個セットがAmazonでわずか$19.xx（通常価格$62）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "フィリップス製投光器2個セットがAmazonでわずか$19.xx（通常価格$62）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ba9e08a283b5",
@@ -23650,13 +23718,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クイーンサイズ掛け布団セットがAmazonで送料込みわずか$28.79（通常価格$64）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "クイーンサイズ掛け布団セットがAmazonで送料込みわずか$28.79（通常価格$64）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2194293baf7c",
@@ -23682,13 +23752,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Olive Gardenのお得情報とオファー | 食べ放題のパスタ＋食べ放題のスープ、サラダ、ブレッドスティック！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Olive Garden",
-    "item": "",
+    "item": "Olive Gardenのお得情報とオファー | 食べ放題のパスタ＋食べ放題のスープ、サラダ、ブレッドスティック！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b0018bdd6797",
@@ -23714,13 +23786,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Muk Luksの快適なホリデースリッパがウォルマートでたったの$12（通常価格$42）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Muk Luksの快適なホリデースリッパがウォルマートでたったの$12（通常価格$42）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "85efae8ce1db",
@@ -23746,13 +23820,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "チャームブレスレットのアドベントカレンダーキットがAmazonでたったの$15.xx（通常価格$26）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "チャームブレスレットのアドベントカレンダーキットがAmazonでたったの$15.xx（通常価格$26）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "e6dcc4c84a71"
   },
   {
@@ -23779,13 +23855,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キャンプ用ランタンがAmazonでたったの9.99ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "キャンプ用ランタンがAmazonでたったの9.99ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c0d282a1febf",
@@ -23811,13 +23889,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "MUK LUKSレディース用快適ホリデー・クロッグスリッパがたったの$12！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "MUK LUKSレディース用快適ホリデー・クロッグスリッパがたったの$12！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "b0018bdd6797"
   },
   {
@@ -23844,13 +23924,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ダンカン・ハインズのファミリーサイズブラウニーミックス2箱が、Amazonで送料込みわずか2.64ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ダンカン・ハインズのファミリーサイズブラウニーミックス2箱が、Amazonで送料込みわずか2.64ドル",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "3d6313311d30"
   },
   {
@@ -23877,13 +23959,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "「エルフ・オン・ザ・シェルフ」って誰？ウォルマートには、Dolly on the Hollyとアクセサリーがあります！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "「エルフ・オン・ザ・シェルフ」って誰？ウォルマートには、Dolly on the Hollyとアクセサリーがあります！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0fad049a8b62",
@@ -23946,13 +24030,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "JoyroomのポータブルApple Watch充電器がAmazonでわずか$17.xx（通常価格$36）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "JoyroomのポータブルApple Watch充電器がAmazonでわずか$17.xx（通常価格$36）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "caf3f04f62fe",
@@ -23978,13 +24064,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*お得* Annie’sのシェル＆ホワイトチェダー・マカロニ＆チーズ（4個入り）が送料込みでわずか$3.60、その他も！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*お得* Annie’sのシェル＆ホワイトチェダー・マカロニ＆チーズ（4個入り）が送料込みでわずか$3.60、その他も！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2e59e1718e16",
@@ -24010,13 +24098,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アマゾンで「Clue Home Alone Edition」ボードゲームがわずか19.99ドル（通常価格30ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アマゾンで「Clue Home Alone Edition」ボードゲームがわずか19.99ドル（通常価格30ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b979a849691c",
@@ -24042,13 +24132,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートの受け取りサービス用プロモーションコード：食品・生鮮食品35ドル以上のご購入で10ドル割引",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートの受け取りサービス用プロモーションコード：食品・生鮮食品35ドル以上のご購入で10ドル割引",
     "when": "",
     "cond": "コード入力"
-   },
-   "date": null
+   }
   },
   {
    "id": "6ba55253aee6",
@@ -24074,13 +24166,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "フィッシャープライス ミュージカルレコードプレーヤーがたったの$20.22！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "フィッシャープライス ミュージカルレコードプレーヤーがたったの$20.22！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "dadc00e79753",
@@ -24106,13 +24200,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "子供用おもちゃのロケットランチャーがAmazonで送料込みわずか19.99ドル（通常価格40ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "子供用おもちゃのロケットランチャーがAmazonで送料込みわずか19.99ドル（通常価格40ドル）",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "902fdb0a527a",
@@ -24138,13 +24234,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマート：プロモーションコード「SAVE3X/FAST30/DOUBLE10/TRIPLE10」で35ドル以上のご注文が10ドルオフ（次回の配達/お持ち帰り注文3回分）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマート：プロモーションコード「SAVE3X/FAST30/DOUBLE10/TRIPLE10」で35ドル以上のご注文が10ドルオフ（次回の配達/お持ち帰り注文3回分）",
     "when": "",
     "cond": "コード入力"
-   },
-   "date": null
+   }
   },
   {
    "id": "3e7ae035ad4e",
@@ -24204,13 +24302,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "お揃いのウィークエンダーバッグ＆化粧ポーチセットがAmazonで送料込みわずか$21.99（通常価格$44）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "お揃いのウィークエンダーバッグ＆化粧ポーチセットがAmazonで送料込みわずか$21.99（通常価格$44）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b9ffa753f6a8",
@@ -24236,13 +24336,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "コードレスドリル＆142点セットがAmazonで送料込みわずか$39.89（通常価格$70）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "コードレスドリル＆142点セットがAmazonで送料込みわずか$39.89（通常価格$70）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e0a6f8b25c4b",
