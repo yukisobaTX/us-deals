@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-16T02:25Z",
- "count": 1568,
+ "updated": "2026-11-16T02:45Z",
+ "count": 1567,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -15,8 +15,8 @@
    "added": 0
   },
   "ffp": {
-   "read": 20,
-   "added": 4
+   "read": 0,
+   "added": 0
   },
   "msm": {
    "read": 75,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,14 +55,17 @@
    "added": 0
   },
   "ja": {
-   "gemini": 21,
+   "gemini": 20,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 4,
-   "model": "gemini-flash-latest"
+   "mymemory": 0,
+   "geminiToday": 5,
+   "model": "gemini-flash-latest",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
+ ],
  "items": [
   {
    "id": "cb3137088699",
@@ -86,13 +89,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "コリンが愛用するクリーンなスキンケアブランドが、最高のブラックフライデーセールを開催中",
-   "jaVia": "mymemory",
+   "ja": "スキンケア製品",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "コリンが愛用するクリーンなスキンケアブランドが、最高のブラックフライデーセールを開催中",
-    "when": "",
-    "cond": ""
+    "item": "スキンケア製品",
+    "when": "ブラックフライデー",
+    "cond": "",
+    "what": "コスメセール",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -53539,40 +53544,6 @@
    "sum": {
     "store": "Walmart",
     "item": "ウォルマートオファー後29 ¢で3つのチャップスティック（登録番号： $ 4 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "bb1086febb75",
-   "title": "Walmart’s Icon Glasses Are BACK for Christmas + More Styles on Sale!",
-   "link": "https://hip2save.com/deals/walmart-icon-glasses/",
-   "source": "Hip2Save",
-   "posted": "2026-11-01T02:30Z",
-   "firstSeen": "2026-11-01T05:56Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/christmas-icon-glass.png?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートのアイコン眼鏡がクリスマスに戻ってきました。その他のスタイルもセール中！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートのアイコン眼鏡がクリスマスに戻ってきました。その他のスタイルもセール中！",
     "when": "",
     "cond": ""
    },
