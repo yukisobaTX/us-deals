@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-15T22:51Z",
- "count": 1565,
+ "updated": "2026-11-16T02:25Z",
+ "count": 1568,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 21
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
-   "added": 23
+   "added": 22
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 3
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,115 @@
    "added": 0
   },
   "ja": {
-   "gemini": 24,
+   "gemini": 21,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 3,
+   "geminiToday": 4,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "cb3137088699",
+   "title": "The Clean Skincare Brand Collin Loves Is Having Its BEST Black Friday Sale",
+   "link": "https://hip2save.com/deals/verli-skincare/",
+   "source": "Hip2Save",
+   "posted": "2026-11-16T01:40Z",
+   "firstSeen": "2026-11-16T02:25Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/image-15.png?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コリンが愛用するクリーンなスキンケアブランドが、最高のブラックフライデーセールを開催中",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "コリンが愛用するクリーンなスキンケアブランドが、最高のブラックフライデーセールを開催中",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "307f7f4eb677",
+   "title": "Air Wick Essential Mist Oil Air Freshener Diffuser Device + Refill Only $2.xx on Amazon (Reg $12)",
+   "link": "https://thefreebieguy.com/air-wick-essential-mist-diffuser-device/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-16T00:44Z",
+   "firstSeen": "2026-11-16T02:25Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/air-wick-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 83,
+   "price": 2.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Air Wickエッセンシャルミストオイル芳香剤ディフューザー本体＋詰め替え用がAmazonでたったの$2.xx（通常価格$12）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Air Wickエッセンシャルミストオイル芳香剤ディフューザー本体＋詰め替え用がAmazonでたったの$2.xx（通常価格$12）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b4367ad85c3d",
+   "title": "FREE Golden Star Jasmine Rice After Walmart Cash!",
+   "link": "https://thefreebieguy.com/golden-star-rice/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-16T00:27Z",
+   "firstSeen": "2026-11-16T02:25Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/GoldenStar-Jasmine-Rice-840x630.png",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Walmart Cash適用後、Golden Starのジャスミンライスが無料に！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Walmart Cash適用後、Golden Starのジャスミンライスが無料に！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "07589a754e3b",
    "title": "Artificial Norfolk Pine Stem Set Only $13.99 on Amazon",
@@ -130,8 +230,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "683d11358680",
-   "date": null
+   "date": null,
+   "dup": "683d11358680"
   },
   {
    "id": "c755aa8ab7a3",
@@ -877,13 +977,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ナイキのブラックフライデー先行セール | ダンク、ジョーダン、エアフォース1などを大幅割引！",
-   "jaVia": "mymemory",
+   "ja": "DunkやJordanなど",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ナイキのブラックフライデー先行セール | ダンク、ジョーダン、エアフォース1などを大幅割引！",
+    "store": "Nike",
+    "item": "DunkやJordanなど",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "ナイキ靴セール",
+    "where": "Nike"
    },
    "date": null
   },
@@ -979,13 +1081,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キャンベルのチャンキースープ8パックがAmazonで送料込み11ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "キャンベルのチャンキースープ8パックがAmazonで送料込み11ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f6312d3acb8f",
@@ -1011,13 +1115,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットでキッズアウターウェアが40%オフ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットでキッズアウターウェアが40%オフ！",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "e950b476f3ce",
@@ -1389,6 +1495,40 @@
    "sum": {
     "store": "Amazon",
     "item": "スマートデジタルタッチスクリーンカレンダーがAmazonでわずか$39.xx（通常価格$100）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f973426cfa04",
+   "title": "Beautiful by Drew 10-Piece Bakeware Set $49 Shipped on Walmart.com (Reg. $94)",
+   "link": "https://hip2save.com/deals/beautiful-by-drew-baking-set/",
+   "source": "Hip2Save",
+   "posted": "2026-11-15T16:15Z",
+   "firstSeen": "2026-11-16T02:25Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/Beautiful-10-Piece-Ceramic-Stoneware-Bakeware-Set-with-Baking-Dishes.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 48,
+   "price": 49.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Beautiful by Drew 10点セットのベーキングウェア $49 Walmart.comで送料無料（通常価格$94）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "Beautiful by Drew 10点セットのベーキングウェア $49 Walmart.comで送料無料（通常価格$94）",
     "when": "",
     "cond": ""
    },
@@ -1864,13 +2004,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "イオン式ヘアドライヤーがたったの$19.99、プライム会員なら送料無料{クリスタルのお気に入り！】",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "イオン式ヘアドライヤーがたったの$19.99、プライム会員なら送料無料{クリスタルのお気に入り！】",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c10fbc58e213",
@@ -1931,13 +2073,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "お得価格！AmazonでTide PODS 42個入りが1個あたり$5.xxから（通常価格$13）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "お得価格！AmazonでTide PODS 42個入りが1個あたり$5.xxから（通常価格$13）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1956c4c121e5",
@@ -1963,13 +2107,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットの炭酸飲料12缶パックが40%オフセール！ | コカ・コーラ、ペプシなど",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットの炭酸飲料12缶パックが40%オフセール！ | コカ・コーラ、ペプシなど",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "48db1d27f6a2",
@@ -1995,13 +2141,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Best Buyでテレビの大セール – 送料込み69.99ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Best Buyでテレビの大セール – 送料込み69.99ドルから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "006691e456d2",
@@ -2027,13 +2175,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-15",
+   "ja": "本日限り：40%オフのミステリークーポン＆重ね使いできるプロモーションコード（＋Kohl'sキャッシュを獲得！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "本日限り：40%オフのミステリークーポン＆重ね使いできるプロモーションコード（＋Kohl'sキャッシュを獲得！）",
     "when": "11/15(日)まで",
     "cond": "コード入力"
-   },
-   "date": "2026-11-15"
+   }
   },
   {
    "id": "373c7b749ef3",
@@ -2059,9 +2209,45 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "最大20枚収納できるAmazonのレギンス収納アイテムがたったの9ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "最大20枚収納できるAmazonのレギンス収納アイテムがたったの9ドル！",
+    "when": "",
+    "cond": ""
+   }
+  },
+  {
+   "id": "17d26d54e5a2",
+   "title": "Target Deal of the Day: 40% Off PAW Patrol Toys!",
+   "link": "https://thefreebieguy.com/target-deal-of-the-day/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-15T13:11Z",
+   "firstSeen": "2026-11-16T02:25Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/PAW-Patrol-DOD-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットのお買い得情報：パウ・パトロールのおもちゃが40%オフ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットのお買い得情報：パウ・パトロールのおもちゃが40%オフ！",
     "when": "",
     "cond": ""
    },
@@ -2129,13 +2315,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ちょっと待ってください… Audibleが20ドルのボーナスと3か月間をわずか2.97ドルで提供している？！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ちょっと待ってください… Audibleが20ドルのボーナスと3か月間をわずか2.97ドルで提供している？！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9dd966b56eb6",
@@ -10738,13 +10926,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-21",
+   "ja": "ターゲットのEOSホリデーセントイベントが11月14日午後12時から4時まで開催されます（さらに11月21日にはレゴイベントも開催！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのEOSホリデーセントイベントが11月14日午後12時から4時まで開催されます（さらに11月21日にはレゴイベントも開催！）",
     "when": "11/21(土)まで 12-4PM",
     "cond": ""
-   },
-   "date": "2026-11-21"
+   }
   },
   {
    "id": "64286a308bc8",
@@ -21180,7 +21370,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "ae479182c14f"
+   "dup": "89e8605c4123"
   },
   {
    "id": "9d1e08f6b8e2",
@@ -23320,13 +23510,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "17オンスのOLLYボディウォッシュがAmazonでたったの$4.xx（通常価格$10）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "17オンスのOLLYボディウォッシュがAmazonでたったの$4.xx（通常価格$10）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fc963e38fb74",
@@ -23352,13 +23544,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "読者の皆様のお気に入り、ワイヤレス・ジェリーブラがAmazonでたったの$8.49（通常価格$24）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "読者の皆様のお気に入り、ワイヤレス・ジェリーブラがAmazonでたったの$8.49（通常価格$24）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "a9c9787e4860"
   },
   {
@@ -23385,13 +23579,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ダンカン・ハインズのファミリーサイズ・ブラウニーミックスがAmazonでたったの$1.xx！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ダンカン・ハインズのファミリーサイズ・ブラウニーミックスがAmazonでたったの$1.xx！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6d204191074d",
@@ -28765,41 +28961,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "5535d48ba290",
-   "title": "SIRIUS XM Deviceless: FREE 3-Month Car & App Trial",
-   "link": "https://thefreebieguy.com/sirius-xm-start-your-free-trial-now/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T23:46Z",
-   "firstSeen": "2026-11-08T01:54Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Sirius-XM-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "SiriusXM",
-    "item": "車＆アプリ3ヶ月無料トライアル",
-    "what": "無料体験",
-    "where": "SiriusXM"
-   },
-   "ja": "車＆アプリ3ヶ月無料トライアル",
-   "jaVia": "gemini",
    "date": null
   },
   {
@@ -45877,7 +46038,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "ae479182c14f"
+   "dup": "89e8605c4123"
   },
   {
    "id": "a148f354b213",
@@ -49468,8 +49629,7 @@
     "item": "Gain Dryer Sheets 120枚– Amazonでわずか13.xxで4枚購入（各5 $ ）",
     "when": "",
     "cond": ""
-   },
-   "dup": "c6d6dd044a6e"
+   }
   },
   {
    "id": "ac55a45bb928",
@@ -51501,8 +51661,7 @@
     "item": "FJAU食品用暖房マットAmazonで$ 14.xxのみ（登録価格$ 36 ）",
     "when": "",
     "cond": ""
-   },
-   "dup": "9815e630bd6e"
+   }
   },
   {
    "id": "153e3f919616",
@@ -53414,40 +53573,6 @@
    "sum": {
     "store": "Walmart",
     "item": "ウォルマートのアイコン眼鏡がクリスマスに戻ってきました。その他のスタイルもセール中！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "cfc06a9d6968",
-   "title": "Insulated Lunch Bag Just $4.95 on Amazon (Reg. $16)",
-   "link": "https://hip2save.com/deals/amazon-lunch-bag/",
-   "source": "Hip2Save",
-   "posted": "2026-11-01T01:45Z",
-   "firstSeen": "2026-11-01T02:59Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Lifewit-Cooler.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 69,
-   "price": 4.95,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "断熱ランチバッグAmazonでたったの$ 4.95 （登録価格$ 16 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "断熱ランチバッグAmazonでたったの$ 4.95 （登録価格$ 16 ）",
     "when": "",
     "cond": ""
    },
