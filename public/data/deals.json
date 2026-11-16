@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-16T03:14Z",
- "count": 1569,
+ "updated": "2026-11-16T11:27Z",
+ "count": 1557,
  "stats": {
   "h2s": {
    "read": 100,
@@ -12,15 +12,15 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
-   "read": 20,
-   "added": 4
+   "read": 0,
+   "added": 0
   },
   "msm": {
    "read": 75,
-   "added": 7
+   "added": 6
   },
   "tfg": {
    "read": 40,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -55,15 +55,52 @@
    "added": 0
   },
   "ja": {
-   "gemini": 21,
+   "gemini": 19,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 6,
+   "geminiToday": 2,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
+ ],
  "items": [
+  {
+   "id": "b433388922e7",
+   "title": "County Judge Duane Peters Retirement Celebration Today at Brazos Center",
+   "link": "https://wtaw.com/county-judge-duane-peters-retirement-celebration-today-at-brazos-center/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-16T07:00Z",
+   "firstSeen": "2026-11-16T11:27Z",
+   "expires": "2026-11-16",
+   "thumb": "https://wtaw.com/wp-content/uploads/2026/09/WTAWPeters-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "localDate": "2026-11-16",
+   "freebie": null,
+   "ja": "郡判事デュエイン・ピーターズ氏の退職祝賀会が本日、ブラゾスセンターで開催",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "郡判事デュエイン・ピーターズ氏の退職祝賀会が本日、ブラゾスセンターで開催",
+    "when": "11/16(月)",
+    "cond": ""
+   },
+   "date": "2026-11-16"
+  },
   {
    "id": "6714b88d37fa",
    "title": "SLH: Free Upgrade To CLUB 03 Tier",
@@ -2052,41 +2089,6 @@
    }
   },
   {
-   "id": "c10fbc58e213",
-   "title": "Last Chance: These Costco Early Black Friday Deals End TONIGHT",
-   "link": "https://hip2save.com/deals/costco-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-15T14:02Z",
-   "firstSeen": "2026-11-15T17:44Z",
-   "expires": "2026-11-15",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Costco-Black-Friday-3.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Costco"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Costco",
-    "item": "早期ブラックフライデーセール",
-    "when": "2026-11-15まで",
-    "what": "BFセール",
-    "where": "Costco"
-   },
-   "ja": "早期ブラックフライデーセール",
-   "jaVia": "gemini",
-   "date": "2026-11-15"
-  },
-  {
    "id": "57d21016c862",
    "title": "*HOT* Lunakai Pro Magnesium Complex, 30-Day Supply only $10.38 shipped (Reg. $26)!",
    "link": "https://moneysavingmom.com/lunakai-pro-magnesium-complex-deal/",
@@ -2220,40 +2222,6 @@
     "item": "Best Buyでテレビの大セール – 送料込み69.99ドルから！",
     "when": "",
     "cond": ""
-   }
-  },
-  {
-   "id": "006691e456d2",
-   "title": "Today ONLY: 40% Off Mystery Coupon & Stacking Promo Code (+ Earn Kohl’s Cash!)",
-   "link": "https://hip2save.com/deals/kohls-mystery-coupon/",
-   "source": "Hip2Save",
-   "posted": "2026-11-15T13:42Z",
-   "firstSeen": "2026-11-15T17:44Z",
-   "expires": "2026-11-15",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Kohls-Boxes.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "coupon"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-15",
-   "ja": "本日限り：40%オフのミステリークーポン＆重ね使いできるプロモーションコード（＋Kohl'sキャッシュを獲得！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "本日限り：40%オフのミステリークーポン＆重ね使いできるプロモーションコード（＋Kohl'sキャッシュを獲得！）",
-    "when": "11/15(日)まで",
-    "cond": "コード入力"
    }
   },
   {
@@ -3521,41 +3489,6 @@
    }
   },
   {
-   "id": "e74b8d361627",
-   "title": "Walmart Black Friday 2026 Event One Ends Sunday!",
-   "link": "https://moneysavingmom.com/walmart-week-is-coming/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-14T17:00Z",
-   "firstSeen": "2026-11-14T22:27Z",
-   "expires": "2026-11-15",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Black-Friday-630x362.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "BFイベント第1弾終了",
-    "when": "〜11/15(日)",
-    "what": "BFイベント",
-    "where": "Walmart"
-   },
-   "ja": "BFイベント第1弾終了",
-   "jaVia": "gemini",
-   "date": "2026-11-15"
-  },
-  {
    "id": "e06e6071990c",
    "title": "Scunci by Conair Holiday Gift Sets Only $5.xx on Amazon!",
    "link": "https://thefreebieguy.com/scunci-by-conair-gift-set/",
@@ -4487,45 +4420,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "af751bd3bbac",
-   "title": "FREE Chicken Shack, ShackBurger, or Chicken Bites with Purchase on Sundays at Shake Shack!",
-   "link": "https://moneysavingmom.com/free-chicken-shack-shackburger-or-chicken-bites-with-purchase-on-sundays-at-shake-shack/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-14T14:10Z",
-   "firstSeen": "2026-11-14T18:07Z",
-   "expires": "2026-11-15",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-12.09.36-PM.png",
-   "hot": true,
-   "stores": [
-    "Shake Shack"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "対象バーガー等が無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Shake Shack",
-    "item": "対象バーガー等が無料",
-    "when": "日曜日",
-    "cond": "要購入",
-    "what": "無料バーガー",
-    "where": "Shake Shack"
-   },
-   "date": "2026-11-15"
   },
   {
    "id": "b169a4f5e04d",
@@ -6101,47 +5995,6 @@
    "ja": "シャックバーガー1個購入で1個無料",
    "jaVia": "gemini",
    "date": "2026-11-30"
-  },
-  {
-   "id": "d2df97a4cd6d",
-   "title": "Arby’s Specials & Coupons | BOGO Free Sandwich through Nov. 15th!",
-   "link": "https://thefreebieguy.com/arbys-specials-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-13T19:44Z",
-   "firstSeen": "2026-11-13T22:40Z",
-   "expires": "2026-11-15",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/kendall-arbys-store-and-bag-img-840x630.png",
-   "hot": true,
-   "stores": [
-    "Arby's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-15",
-    "bogo": true
-   },
-   "sum": {
-    "store": "Arby's",
-    "item": "Arby'sでサンドイッチ1つ買うともう1つ無料",
-    "when": "〜11/15",
-    "cond": "クーポン",
-    "what": "BOGOサンド",
-    "where": "Arby's"
-   },
-   "ja": "Arby'sでサンドイッチ1つ買うともう1つ無料",
-   "jaVia": "claude",
-   "date": "2026-11-15"
   },
   {
    "id": "1764e6119a0a",
@@ -17535,44 +17388,6 @@
    }
   },
   {
-   "id": "bcd25e07c906",
-   "title": "Wendy’s: FREE Frosty Day is coming November 15th!",
-   "link": "https://moneysavingmom.com/wendys-free-frosty-day-is-coming-november-15th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-11T16:27Z",
-   "firstSeen": "2026-11-11T22:02Z",
-   "expires": "2026-11-15",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2023/10/Screenshot-2023-11-15-at-8.02.29-AM-630x639.jpg",
-   "hot": true,
-   "stores": [
-    "Wendy's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-15"
-   },
-   "sum": {
-    "store": "Wendy's",
-    "item": "Wendy'sの無料フロスティーの日",
-    "when": "11/15(日)",
-    "what": "無料フロスティー",
-    "where": "Wendy's"
-   },
-   "ja": "Wendy'sの無料フロスティーの日",
-   "jaVia": "claude",
-   "date": "2026-11-15"
-  },
-  {
    "id": "17d16b8ee5a8",
    "title": "Unlimited Custom 16×20 Canvas Prints Only $20.99 Shipped (+ Coupon for FREE Future Canvas!)",
    "link": "https://hip2save.com/deals/easy-canvas-prints/",
@@ -17919,46 +17734,6 @@
    "jaVia": "gemini",
    "date": "2026-11-17",
    "dup": "7d20fc1bc4a5"
-  },
-  {
-   "id": "a926279b1cee",
-   "title": "FREE Wendy’s Frosty with ANY Purchase on November 15th – One Day Only!",
-   "link": "https://hip2save.com/deals/wendys-frosty/",
-   "source": "Hip2Save",
-   "posted": "2026-11-11T15:42Z",
-   "firstSeen": "2026-11-11T22:02Z",
-   "expires": "2026-11-15",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/04/wendys-frosty-and-fries.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Wendy's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-15"
-   },
-   "sum": {
-    "store": "Wendy's",
-    "item": "Wendy's 何か購入でフロスティ無料",
-    "when": "11/15(日)",
-    "cond": "要購入・1日限定",
-    "what": "無料フロスティ",
-    "where": "Wendy's"
-   },
-   "ja": "Wendy's 何か購入でフロスティ無料",
-   "jaVia": "claude",
-   "date": "2026-11-15",
-   "dup": "bcd25e07c906"
   },
   {
    "id": "c4db8181f249",
@@ -23402,44 +23177,6 @@
    "date": null
   },
   {
-   "id": "2f0c5e2e4154",
-   "title": "Arsenic and Old Lace at Brazos Valley Troupe (Matinee)",
-   "link": "https://www.destinationbryan.com/events/arsenic-and-old-lace-at-brazos-valley-troupe/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-09T23:32Z",
-   "firstSeen": "2026-11-09T23:32Z",
-   "expires": "2026-11-15",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-15",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Brazos Valley Troupe",
-    "item": "地元劇団の喜劇「毒薬と老嬢」昼公演",
-    "when": "11/15(日) 昼",
-    "cond": "有料",
-    "what": "喜劇の昼公演",
-    "where": "Brazos Valley …"
-   },
-   "ja": "地元劇団の喜劇「毒薬と老嬢」昼公演",
-   "jaVia": "claude-ev",
-   "date": "2026-11-15",
-   "freebie": null
-  },
-  {
    "id": "bfa755d60ce5",
    "title": "Lights On! In Historic Downtown Bryan",
    "link": "https://www.destinationbryan.com/events/lights-on-in-historic-downtown-bryan/",
@@ -23970,43 +23707,6 @@
    }
   },
   {
-   "id": "0fad049a8b62",
-   "title": "Watch A Charlie Brown Thanksgiving Free on Nov. 14-15 on Apple TV",
-   "link": "https://thefreebieguy.com/watch-a-charlie-brown-thanksgiving-free-on-nov-14-15-on-apple-tv/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-09T20:09Z",
-   "firstSeen": "2026-11-10T02:10Z",
-   "expires": "2026-11-15",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Charlie-Brown-Thanksgiving-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-14"
-   },
-   "sum": {
-    "store": "Apple TV",
-    "item": "「チャーリー・ブラウンの感謝祭」を Apple TV で無料視聴",
-    "when": "11/14〜11/15",
-    "what": "スヌーピー無料",
-    "where": "Apple TV",
-    "cond": "配信"
-   },
-   "ja": "「チャーリー・ブラウンの感謝祭」を Apple TV で無料視聴",
-   "jaVia": "claude",
-   "date": "2026-11-14"
-  },
-  {
    "id": "c36645fc926b",
    "title": "Joyroom Portable Apple Watch Charger Only $17.xx on Amazon (Reg. $36)",
    "link": "https://thefreebieguy.com/joyroom-portable-charger-amazon/",
@@ -24370,13 +24070,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "旅行者向けの究極のギフトリスト（Amazonでほぼすべて30ドル未満！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "旅行者向けの究極のギフトリスト（Amazonでほぼすべて30ドル未満！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e6dcc4c84a71",
@@ -24402,13 +24104,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "『フレンズ』チャームブレスレットのアドベントカレンダーがAmazonでわずか15ドル（通常価格26ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "『フレンズ』チャームブレスレットのアドベントカレンダーがAmazonでわずか15ドル（通常価格26ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4dd12556a764",
@@ -24476,13 +24180,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "誰がノートパソコンを必要としているのでしょうか？このSamsung Galaxy A11+タブレットなら何でもできます（しかもWalmart.comで70ドルオフ！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "誰がノートパソコンを必要としているのでしょうか？このSamsung Galaxy A11+タブレットなら何でもできます（しかもWalmart.comで70ドルオフ！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6ceb480646a4",
@@ -24508,13 +24214,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Grocery 小麦粉 5ポンド入り袋が送料込みでわずか$1.66",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Grocery 小麦粉 5ポンド入り袋が送料込みでわずか$1.66",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "29d46f47d466",
@@ -24540,13 +24248,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Mainstays 40オンスタンブラーがWalmart.comで送料込みわずか$6（通常価格$12）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Mainstays 40オンスタンブラーがWalmart.comで送料込みわずか$6（通常価格$12）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e8da8df1fe19",
@@ -24572,13 +24282,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メンズRFIDブロックレザーウォレットがAmazonでたったの$4.99（通常価格$15）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "メンズRFIDブロックレザーウォレットがAmazonでたったの$4.99（通常価格$15）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e18440c48f34",
@@ -24604,13 +24316,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "14Kゴールドメッキブレスレット7本セットがAmazonでたったの$4.99（通常価格$17）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "14Kゴールドメッキブレスレット7本セットがAmazonでたったの$4.99（通常価格$17）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b8e49f00915d",
@@ -24636,13 +24350,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "全米フライドチキンサンドイッチの日おめでとうございます！こちらが一番お得な情報です…",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "全米フライドチキンサンドイッチの日おめでとうございます！こちらが一番お得な情報です…",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "cca83bea3063",
@@ -24707,13 +24423,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "充電式電気ハンドウォーマーがAmazonでたったの$7.xx（通常価格$15）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "充電式電気ハンドウォーマーがAmazonでたったの$7.xx（通常価格$15）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ecd1a86432cc",
@@ -24776,13 +24494,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "買い置きしましょう！Amazonの食料品、中力粉2ポンド入り袋がわずか92セント！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "買い置きしましょう！Amazonの食料品、中力粉2ポンド入り袋がわずか92セント！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "cfbc4a8e467a",
@@ -24808,13 +24528,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "オザークトレイル10リットルデイパックがわずか$4.97、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "オザークトレイル10リットルデイパックがわずか$4.97、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "dc9d8a06b2b1",
@@ -24840,13 +24562,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースウール混ソックス5足セットがAmazonでたったの$5",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースウール混ソックス5足セットがAmazonでたったの$5",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "8245d7be2612"
   },
   {
@@ -24873,13 +24597,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "粉砂糖、ライトブラウンシュガー、ダークブラウンシュガーの2ポンド入り袋がそれぞれ送料込みでたったの1.65ドル、その他にも！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "粉砂糖、ライトブラウンシュガー、ダークブラウンシュガーの2ポンド入り袋がそれぞれ送料込みでたったの1.65ドル、その他にも！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5752b38f6f75",
@@ -24905,13 +24631,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ファンコ・ビッティPOP！スター・ウォーズ・アドベントカレンダーがAmazonでたったの$24.49（通常価格$35）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ファンコ・ビッティPOP！スター・ウォーズ・アドベントカレンダーがAmazonでたったの$24.49（通常価格$35）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6bf0b7519dbb",
@@ -24971,13 +24699,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "菜切り包丁7インチ 肉切り包丁と野菜用包丁がたったの$23.xx（通常価格$40）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "菜切り包丁7インチ 肉切り包丁と野菜用包丁がたったの$23.xx（通常価格$40）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "023c53ff6845",
@@ -25003,13 +24733,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Groceryの薄力粉（5ポンド）が、送料込みで1個あたりわずか1.76ドルから。その他にもお得な商品多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Groceryの薄力粉（5ポンド）が、送料込みで1個あたりわずか1.76ドルから。その他にもお得な商品多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b6037b186464",
@@ -25035,13 +24767,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースの暖かいウール混ソックス（5足セット）がたったの$5.24！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースの暖かいウール混ソックス（5足セット）がたったの$5.24！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "8245d7be2612"
   },
   {
@@ -25068,13 +24802,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVS.comでKissまつげキット2個セットがたったの$29.78（通常価格$64）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVS.comでKissまつげキット2個セットがたったの$29.78（通常価格$64）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9b53820bc67b",
@@ -29114,48 +28850,6 @@
    "freebie": null
   },
   {
-   "id": "1a73599356fa",
-   "title": "Football Extravaganza Sundays at Aggieland Safari",
-   "link": "https://www.destinationbryan.com/events/aggieland-safari-football-extravaganza-sundays/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-07T23:32Z",
-   "firstSeen": "2026-11-07T23:32Z",
-   "expires": "2026-11-15",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-15",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Aggieland Safari",
-    "item": "アギーランド・サファリの日曜フットボール企画",
-    "when": "11/15(日)",
-    "what": "サファリの日曜催し",
-    "where": "Aggieland Safa…",
-    "cond": "入園料"
-   },
-   "ja": "アギーランド・サファリの日曜フットボール企画",
-   "jaVia": "claude-ev",
-   "outing": [
-    "動物"
-   ],
-   "family": true,
-   "date": "2026-11-15",
-   "freebie": null
-  },
-  {
    "id": "03d46ebd934d",
    "title": "Festival of Trees at The Kimbell",
    "link": "https://www.destinationbryan.com/events/festival-of-trees/",
@@ -31351,40 +31045,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "b51c17749f44",
-   "title": "Burger King Deals | $3.99 Meal (10 Nuggets, Small Drink & Fries) through 11/15!",
-   "link": "https://thefreebieguy.com/burger-king-deals-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-06T23:20Z",
-   "firstSeen": "2026-11-06T23:23Z",
-   "expires": "2026-11-15",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Limited-time-Cheap-Meal-at-Burger-King-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Burger King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "バーガーキングのお得情報| 11月15日まで$ 3.99のお食事（ナゲット10個、スモールドリンク、フライドポテト） ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Burger King",
-    "item": "バーガーキングのお得情報| 11月15日まで$ 3.99のお食事（ナゲット10個、スモールドリンク、フライドポテト） ！",
-    "when": "11/15(日)まで",
-    "cond": ""
-   },
-   "date": "2026-11-15"
   },
   {
    "id": "b3d711cea32e",
@@ -33740,42 +33400,6 @@
    },
    "date": null,
    "dup": "020a720689e8"
-  },
-  {
-   "id": "fdaebc68c6bc",
-   "title": "Free Holiday Build Event at Barnes & Noble November 13-15",
-   "link": "https://thefreebieguy.com/free-lego-build-event/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-06T16:08Z",
-   "firstSeen": "2026-11-06T17:04Z",
-   "expires": "2026-11-15",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Barnes-Noble-Make-it-Merry-Set-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-13"
-   },
-   "sum": {
-    "store": "Barnes & Noble",
-    "item": "ホリデー工作イベント無料",
-    "when": "11/13-11/15",
-    "what": "無料工作イベント",
-    "where": "Barnes & Noble"
-   },
-   "ja": "ホリデー工作イベント無料",
-   "jaVia": "gemini",
-   "date": "2026-11-13"
   },
   {
    "id": "950c39b81c3e",
@@ -53692,49 +53316,6 @@
     "where": "McDonald's"
    },
    "date": null
-  },
-  {
-   "id": "fadc4d000f54",
-   "title": "Rountree Market at Midtown Park",
-   "link": "https://www.destinationbryan.com/events/sunday-market-at-rountree/",
-   "source": "Destination Bryan",
-   "posted": "2026-10-27T11:44Z",
-   "firstSeen": "2026-10-27T11:44Z",
-   "expires": "2026-11-15",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-15",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Midtown Park",
-    "item": "ミッドタウン公園ラウンツリーの日曜マーケット",
-    "when": "11/15(日)",
-    "cond": "入場無料",
-    "what": "日曜マーケット",
-    "where": "Midtown Park"
-   },
-   "ja": "ミッドタウン公園ラウンツリーの日曜マーケット",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-15",
-   "freebie": null
   },
   {
    "id": "84995c4651df",
