@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-17T22:54Z",
- "count": 1587,
+ "count": 1591,
  "stats": {
   "h2s": {
    "read": 100,
@@ -90,13 +90,14 @@
     "when": null
    },
    "sum": {
-    "item": "香水サンプル無料",
-    "cond": "抽選/先着",
-    "what": "無料サンプル",
-    "where": "オンライン"
+    "item": "Balmain「Destin de Balmain」香水サンプル(当たれば)",
+    "cond": "申込制・在庫次第",
+    "what": "香水試供品",
+    "where": "オンライン",
+    "store": "Balmain"
    },
-   "ja": "香水サンプル無料",
-   "jaVia": "gemini",
+   "ja": "Balmain「Destin de Balmain」香水サンプル(当たれば)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -598,13 +599,13 @@
    "freebie": null,
    "sum": {
     "store": "AARP",
-    "item": "年会費$9（通常$20）",
-    "cond": "会員限定",
-    "what": "割引メンバーシップ",
+    "item": "AARPの年会費が$9(通常$20)のセール",
+    "cond": "新規・更新",
+    "what": "年会費$9",
     "where": "AARP"
    },
-   "ja": "年会費$9（通常$20）",
-   "jaVia": "gemini",
+   "ja": "AARPの年会費が$9(通常$20)のセール",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -952,13 +953,13 @@
    "freebie": null,
    "sum": {
     "store": "Kate Spade",
-    "item": "バッグ類75%以上OFF",
-    "cond": "Black Friday",
-    "what": "75%OFF",
+    "item": "Kate Spadeのブラックフライデー:人気バッグ75%以上OFF",
+    "cond": "ブラックフライデー",
+    "what": "バッグ75%超OFF",
     "where": "Kate Spade"
    },
-   "ja": "バッグ類75%以上OFF",
-   "jaVia": "gemini",
+   "ja": "Kate Spadeのブラックフライデー:人気バッグ75%以上OFF",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -991,13 +992,15 @@
    "family": true,
    "localDate": "2026-11-24",
    "freebie": null,
-   "ja": "テキサス州公園・野生生物局が11月24日にニジマスの放流を開始",
-   "jaVia": "mymemory",
+   "ja": "テキサス州公園野生生物局がニジマス放流を開始",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "",
-    "item": "テキサス州公園・野生生物局が11月24日にニジマスの放流を開始",
-    "when": "11/24(火)",
-    "cond": ""
+    "store": "Texas Parks & Wildlife",
+    "item": "テキサス州公園野生生物局がニジマス放流を開始",
+    "when": "11/24(火)〜",
+    "cond": "釣り",
+    "what": "ニジマス放流",
+    "where": "CS周辺の池"
    },
    "date": "2026-11-24"
   },
@@ -1543,13 +1546,13 @@
    },
    "sum": {
     "store": "Macy’s",
-    "item": "香水サンプルボックス無料",
-    "cond": "抽選/先着",
-    "what": "無料サンプル",
-    "where": "Macy’s"
+    "item": "Macy’sの香水サンプルボックス(当たれば)",
+    "cond": "申込制・在庫次第",
+    "what": "香水試供品箱",
+    "where": "オンライン"
    },
-   "ja": "香水サンプルボックス無料",
-   "jaVia": "gemini",
+   "ja": "Macy’sの香水サンプルボックス(当たれば)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1804,13 +1807,13 @@
    },
    "sum": {
     "store": "Amazon",
-    "item": "$5クレジット無料",
-    "cond": "コード不要",
-    "what": "無料クレジット",
+    "item": "Amazonの$5クレジットをもらう方法(コード不要)",
+    "cond": "対象者のみ",
+    "what": "$5クレジット",
     "where": "Amazon"
    },
-   "ja": "$5クレジット無料",
-   "jaVia": "gemini",
+   "ja": "Amazonの$5クレジットをもらう方法(コード不要)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -2526,12 +2529,13 @@
    },
    "sum": {
     "store": "Black and Mild",
-    "item": "Venmoで$5.00獲得",
-    "what": "$5キャッシュ",
-    "where": "Venmo"
+    "item": "Black and MildからVenmoで$5もらえる",
+    "what": "Venmo$5",
+    "where": "オンライン",
+    "cond": "成人向け"
    },
-   "ja": "Venmoで$5.00獲得",
-   "jaVia": "gemini",
+   "ja": "Black and MildからVenmoで$5もらえる",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -2590,13 +2594,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "ウェットティッシュはゴミ箱へ、油は缶へ：カレッジステーションで世界トイレの日を祝う",
-   "jaVia": "mymemory",
+   "ja": "CS市の世界トイレの日:流してはいけない物の呼びかけ",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "",
-    "item": "ウェットティッシュはゴミ箱へ、油は缶へ：カレッジステーションで世界トイレの日を祝う",
-    "when": "",
-    "cond": ""
+    "store": "City of College Station",
+    "item": "CS市の世界トイレの日:流してはいけない物の呼びかけ",
+    "when": "11/19(木)",
+    "cond": "お知らせ",
+    "what": "世界トイレの日",
+    "where": "CS"
    },
    "date": null
   },
@@ -2720,13 +2726,13 @@
    "freebie": null,
    "sum": {
     "store": "Carter’s",
-    "item": "全品50-60%OFF+追加30%OFF",
-    "cond": "Black Friday",
-    "what": "最大60%OFF",
+    "item": "Carter’sのBF:全品50〜60%OFF+さらに30%OFF",
+    "cond": "ブラックフライデー",
+    "what": "全品最大60%OFF",
     "where": "Carter’s"
    },
-   "ja": "全品50-60%OFF+追加30%OFF",
-   "jaVia": "gemini",
+   "ja": "Carter’sのBF:全品50〜60%OFF+さらに30%OFF",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -3175,13 +3181,13 @@
    "freebie": null,
    "sum": {
     "store": "Sam’s Club",
-    "item": "冬物衣料$10.48〜",
-    "cond": "Pre-Black Friday",
-    "what": "冬物衣料",
+    "item": "Sam’s Clubのプレ・ブラックフライデー:冬服$10.48〜",
+    "cond": "会員向け",
+    "what": "冬服$10.48〜",
     "where": "Sam’s Club"
    },
-   "ja": "冬物衣料$10.48〜",
-   "jaVia": "gemini",
+   "ja": "Sam’s Clubのプレ・ブラックフライデー:冬服$10.48〜",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -3703,14 +3709,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "フォトカード10枚無料（送料別）",
-   "jaVia": "gemini",
+   "ja": "Shutterflyの名入れフォトカード10枚無料(送料のみ)",
+   "jaVia": "claude",
    "sum": {
     "store": "Shutterfly",
-    "item": "フォトカード10枚無料（送料別）",
+    "item": "Shutterflyの名入れフォトカード10枚無料(送料のみ)",
     "when": "",
     "cond": "送料負担",
-    "what": "無料カード",
+    "what": "写真カード10枚",
     "where": "Shutterfly"
    },
    "date": null
@@ -3810,12 +3816,13 @@
    },
    "sum": {
     "store": "Shake Shack",
-    "item": "バーガーBOGO（1個買うと1個無料）",
-    "what": "無料バーガー",
-    "where": "Shake Shack"
+    "item": "Shake Shack:バーガー1個買うと1個無料",
+    "what": "バーガーBOGO",
+    "where": "Shake Shack",
+    "cond": "条件は記事参照"
    },
-   "ja": "バーガーBOGO（1個買うと1個無料）",
-   "jaVia": "gemini",
+   "ja": "Shake Shack:バーガー1個買うと1個無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -4090,14 +4097,14 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "2027年カレンダー無料",
-   "jaVia": "gemini",
+   "ja": "Snortの2027年カレンダーを無料で申込",
+   "jaVia": "claude",
    "sum": {
-    "store": "",
-    "item": "2027年カレンダー無料",
+    "store": "Snort",
+    "item": "Snortの2027年カレンダーを無料で申込",
     "when": "",
-    "cond": "",
-    "what": "無料カレンダー",
+    "cond": "申込制",
+    "what": "2027年カレンダー",
     "where": "オンライン"
    },
    "date": null
@@ -4500,12 +4507,13 @@
    },
    "sum": {
     "store": "Bonne Maman",
-    "item": "ジャムサンプル無料",
-    "what": "無料ジャム",
-    "where": "Bonne Maman"
+    "item": "Bonne Mamanのグレープジャム試供品(当たれば)",
+    "what": "ジャム試供品",
+    "where": "オンライン",
+    "cond": "申込制・在庫次第"
    },
-   "ja": "ジャムサンプル無料",
-   "jaVia": "gemini",
+   "ja": "Bonne Mamanのグレープジャム試供品(当たれば)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -4515,11 +4523,11 @@
    "source": "Destination Bryan",
    "posted": "2026-11-16T23:32Z",
    "firstSeen": "2026-11-16T23:32Z",
-   "expires": "2026-11-17",
+   "expires": "2026-11-18",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-17",
+   "localDate": "2026-11-18",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -4535,13 +4543,13 @@
    "eventNews": false,
    "sum": {
     "store": "Legends Event Center",
-    "item": "Legends Event Center のホリデーマーケット",
-    "when": "11/17(火)〜",
+    "item": "ホリデーの買い物マーケット「Merry & Bright」",
+    "when": "11/18(水)〜連日",
     "cond": "マーケット",
-    "what": "ホリデー市",
+    "what": "冬のマーケット",
     "where": "Legends Event …"
    },
-   "ja": "Legends Event Center のホリデーマーケット",
+   "ja": "ホリデーの買い物マーケット「Merry & Bright」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -4577,13 +4585,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Midtown Park の土曜ファーマーズマーケット",
-    "when": "11/21(土)",
+    "item": "毎週土曜のファーマーズマーケット",
+    "when": "毎週土曜 11/21(土)",
     "cond": "毎週土曜",
-    "what": "ファーマーズ市",
+    "what": "農家の市",
     "where": "Midtown Park"
    },
-   "ja": "Midtown Park の土曜ファーマーズマーケット",
+   "ja": "毎週土曜のファーマーズマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -4620,12 +4628,12 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walk のコミュニティヨガ",
+    "item": "湖畔の公園で地域のヨガ",
     "when": "11/21(土)",
     "what": "屋外ヨガ",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walk のコミュニティヨガ",
+   "ja": "湖畔の公園で地域のヨガ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -4662,12 +4670,12 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "Midtown Park の日曜マーケット",
+    "item": "公園の日曜マーケット「Rountree Market」",
     "when": "11/22(日)",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "Midtown Park の日曜マーケット",
+   "ja": "公園の日曜マーケット「Rountree Market」",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -17210,14 +17218,14 @@
    },
    "sum": {
     "store": "Target",
-    "item": "$100ギフトカード購入で$10無料",
+    "item": "Targetギフトカード$100購入で$10カード",
     "when": "〜",
-    "cond": "$100購入",
-    "what": "$10ギフト",
+    "cond": "条件は記事参照",
+    "what": "$100で$10還元",
     "where": "Target"
    },
-   "ja": "$100ギフトカード購入で$10無料",
-   "jaVia": "gemini",
+   "ja": "Targetギフトカード$100購入で$10カード",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -17738,13 +17746,13 @@
    "eventNews": false,
    "sum": {
     "store": "First Baptist Church Bryan",
-    "item": "父と息子のナーフ合戦(First Baptist Church)",
+    "item": "父と息子のナーフ銃バトル大会",
     "when": "11/20(金)",
     "cond": "父子向け",
-    "what": "父子ナーフ合戦",
-    "where": "First Baptist …"
+    "what": "親子ナーフ戦",
+    "where": "First Baptist教会"
    },
-   "ja": "父と息子のナーフ合戦(First Baptist Church)",
+   "ja": "父と息子のナーフ銃バトル大会",
    "jaVia": "claude-ev",
    "outing": [
     "子供向け"
@@ -17780,12 +17788,12 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Events C…",
-    "item": "The Kimbell のお菓子・雑貨ホリデーマーケット",
+    "item": "お菓子と雑貨のホリデーマーケット",
     "when": "11/20(金)",
     "what": "ホリデー市",
     "where": "The Kimbell"
    },
-   "ja": "The Kimbell のお菓子・雑貨ホリデーマーケット",
+   "ja": "お菓子と雑貨のホリデーマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -17821,13 +17829,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walk のホリデーカーミート&おもちゃ寄付",
+    "item": "クルマの展示会とおもちゃの寄付集め",
     "when": "11/22(日)",
     "cond": "おもちゃ寄付",
-    "what": "車の展示会",
+    "what": "車の集い",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walk のホリデーカーミート&おもちゃ寄付",
+   "ja": "クルマの展示会とおもちゃの寄付集め",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -27491,13 +27499,13 @@
    "eventNews": false,
    "sum": {
     "store": "Brazos Center",
-    "item": "Brazos Center のトレカショー「Pack Fresh」",
+    "item": "トレカの売買・交換イベント「Pack Fresh Card Show」",
     "when": "11/21(土)〜11/22(日)",
     "cond": "入場料",
     "what": "カードショー",
     "where": "Brazos Center"
    },
-   "ja": "Brazos Center のトレカショー「Pack Fresh」",
+   "ja": "トレカの売買・交換イベント「Pack Fresh Card Show」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -31624,13 +31632,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ダウンタウンBryanのホリデー点灯式「Lights On!」",
-    "when": "11/20(金) 17時",
-    "cond": "無料",
+    "item": "ダウンタウンのクリスマス点灯イベント「Lights On!」",
+    "when": "11/20(金) 17時〜",
+    "cond": "家族向け",
     "what": "点灯式",
-    "where": "ダウンタウンBryan"
+    "where": "ブライアン旧市街"
    },
-   "ja": "ダウンタウンBryanのホリデー点灯式「Lights On!」",
+   "ja": "ダウンタウンのクリスマス点灯イベント「Lights On!」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -36431,7 +36439,7 @@
     "store": "Lake Walk",
     "item": "Lake Walk のランニングクラブ",
     "when": "11/20(金)",
-    "what": "ランニング会",
+    "what": "ランクラブ",
     "where": "Lake Walk",
     "cond": "誰でも参加可"
    },
@@ -36456,7 +36464,7 @@
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-17",
+   "localDate": "2026-11-18",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -36472,13 +36480,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Event Ce…",
-    "item": "The Kimbell でクリスマスツリーの展示「Festival of Tr…",
-    "when": "〜12/4",
+    "item": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
+    "when": "〜12/4(金)",
     "what": "ツリー展示",
     "where": "The Kimbell",
-    "cond": "ダウンタウンBryan"
+    "cond": "家族向け"
    },
-   "ja": "The Kimbell でクリスマスツリーの展示「Festival of Tr…",
+   "ja": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -54211,13 +54219,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "幼児向けの音楽あそび(St. Andrew's 教会)",
+    "item": "子供向けの音楽遊び「Music Play」",
     "when": "11/20(金)",
     "cond": "子供向け",
-    "what": "音楽あそび",
+    "what": "子供の音楽遊び",
     "where": "St. Andrew's教会"
    },
-   "ja": "幼児向けの音楽あそび(St. Andrew's 教会)",
+   "ja": "子供向けの音楽遊び「Music Play」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -54320,7 +54328,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-17",
+   "localDate": "2026-11-18",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -54336,13 +54344,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
+    "item": "ブッシュ大統領図書館の特別展「E Pluribus Unum」",
     "when": "〜2027/5/16",
-    "what": "博物館の特別展",
-    "where": "Bush図書館博物館",
-    "cond": "展示"
+    "what": "アメリカ史展",
+    "where": "ブッシュ図書館博物館",
+    "cond": "博物館の展示"
    },
-   "ja": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
+   "ja": "ブッシュ大統領図書館の特別展「E Pluribus Unum」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -54351,6 +54359,164 @@
    "freebie": null,
    "region": "College Station",
    "family": true
+  },
+  {
+   "id": "e846931b91dc",
+   "title": "\"Remnants of 150 Years at Texas A&M University\" Exhibit at Cushing Library",
+   "link": "https://www.destinationbryan.com/events/a-legacy-built-of-brick-stone-remnants-of-150-years-at-texas-a-m-university/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-17T23:32Z",
+   "firstSeen": "2026-11-17T23:32Z",
+   "expires": "2026-11-18",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-18",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Cushing Library",
+    "item": "A&M大学150年の歴史を伝える建築資料の展示",
+    "when": "平日開催",
+    "cond": "展示",
+    "what": "A&M歴史展",
+    "where": "Cushing図書館"
+   },
+   "ja": "A&M大学150年の歴史を伝える建築資料の展示",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-18"
+  },
+  {
+   "id": "dafac0d7c769",
+   "title": "Christmas on Carter Creek at The Woman's Club of Bryan",
+   "link": "https://www.destinationbryan.com/events/christmas-on-carter-creek-preview-party-at-the-womans-club-of-bryan-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-17T23:32Z",
+   "firstSeen": "2026-11-17T23:32Z",
+   "expires": "2026-11-21",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-20",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "The Woman's Club of Bryan",
+    "item": "クリスマスの買い物市「Christmas on Carter Creek」",
+    "when": "11/20(金)〜11/21(土)",
+    "what": "クリスマス市",
+    "where": "Woman's Club"
+   },
+   "ja": "クリスマスの買い物市「Christmas on Carter Creek」",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-20"
+  },
+  {
+   "id": "c3e7c75a2954",
+   "title": "TAMUsic Fall Fest at The Kimbell",
+   "link": "https://www.destinationbryan.com/events/tamusic-fall-fest-at-the-kimbell/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-17T23:32Z",
+   "firstSeen": "2026-11-17T23:32Z",
+   "expires": "2026-11-20",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-20",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Live Music"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "The Kimbell Cultural Events C…",
+    "item": "A&M音楽団体の秋のコンサート「TAMUsic Fall Fest」",
+    "when": "11/20(金)",
+    "what": "秋の音楽祭",
+    "where": "The Kimbell"
+   },
+   "ja": "A&M音楽団体の秋のコンサート「TAMUsic Fall Fest」",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-20"
+  },
+  {
+   "id": "2f0c5e2e4154",
+   "title": "Arsenic and Old Lace at Brazos Valley Troupe (Matinee)",
+   "link": "https://www.destinationbryan.com/events/arsenic-and-old-lace-at-brazos-valley-troupe/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-17T23:32Z",
+   "firstSeen": "2026-11-17T23:32Z",
+   "expires": "2026-11-22",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-22",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Brazos Valley Troupe",
+    "item": "喜劇「毒薬と老嬢」の昼公演",
+    "when": "11/22(日) 昼",
+    "cond": "有料",
+    "what": "昼の演劇",
+    "where": "Brazos Valley …"
+   },
+   "ja": "喜劇「毒薬と老嬢」の昼公演",
+   "jaVia": "claude-ev",
+   "date": "2026-11-22"
   }
  ]
 }
