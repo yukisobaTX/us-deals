@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T04:31Z",
- "count": 1585,
+ "updated": "2026-11-17T04:48Z",
+ "count": 1586,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 6
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 19,
+   "gemini": 17,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 5,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
@@ -127,6 +127,40 @@
    "sum": {
     "store": "Amazon",
     "item": "スノーフレーク18-in-1マルチツール2個セットがAmazonでたったの$6.99（実用的なクリスマスプレゼント）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4409c823bbc1",
+   "title": "Zicam Cold-Shortening RapidMelts 18-Count Just $4 Shipped on Amazon (Reg. $11)",
+   "link": "https://hip2save.com/deals/zicam/",
+   "source": "Hip2Save",
+   "posted": "2026-11-17T01:40Z",
+   "firstSeen": "2026-11-17T04:48Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/09/zicam-orange-cream-rapidmelts.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 64,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Zicam風邪の症状緩和ラピッドメルト18錠入りがAmazonで送料込みでわずか4ドル（通常価格11ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Zicam風邪の症状緩和ラピッドメルト18錠入りがAmazonで送料込みでわずか4ドル（通常価格11ドル）",
     "when": "",
     "cond": ""
    },
@@ -460,13 +494,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "当社のカンニングペーパーでブラックフライデーを勝ち抜きましょう | すべてのお得な情報を一か所に！",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーのお得情報まとめ",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "当社のカンニングペーパーでブラックフライデーを勝ち抜きましょう | すべてのお得な情報を一か所に！",
+    "item": "ブラックフライデーのお得情報まとめ",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BF特設まとめ",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -1778,13 +1814,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*レア* Stanley Quencher 40オンスタンブラーが送料込みでわずか$22.50！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*レア* Stanley Quencher 40オンスタンブラーが送料込みでわずか$22.50！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b5b7f79d8b24",
@@ -1810,13 +1848,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "リストに載っている全員に贈れる、ウォルマートのクリスマスブーツに入れるプレゼントのアイデア100以上（ほとんどが5ドル未満！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "リストに載っている全員に贈れる、ウォルマートのクリスマスブーツに入れるプレゼントのアイデア100以上（ほとんどが5ドル未満！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f0a58457aeda",
@@ -1842,13 +1882,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonプライム会員なら、バンブー製まな板が送料込みでわずか$7.49（通常価格$25）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonプライム会員なら、バンブー製まな板が送料込みでわずか$7.49（通常価格$25）",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "e3cc1af69090",
@@ -1874,13 +1916,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* LEGOスピードチャンピオン2台セットが送料込みでわずか$26.99、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*大人気* LEGOスピードチャンピオン2台セットが送料込みでわずか$26.99、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "59398f50a606",
@@ -1945,13 +1989,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウェンディーズのペパーミントフロスティが復活！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Wendy's",
-    "item": "",
+    "item": "ウェンディーズのペパーミントフロスティが復活！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5457b3f41a3b",
@@ -1977,13 +2023,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ThayersのミルキーミニキットがCVSでたったの$0.99！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "ThayersのミルキーミニキットがCVSでたったの$0.99！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fd6bb5f593b6",
@@ -2009,13 +2057,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "BedsureフリースブランケットがAmazonでわずか$9.xx（通常価格$33）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "BedsureフリースブランケットがAmazonでわずか$9.xx（通常価格$33）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4f8cfbc686e0",
@@ -2080,13 +2130,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "肉の休ませ用バッグがAmazonでたったの8.99ドル（ホリデーシーズンの食事を温かく保ちましょう！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "肉の休ませ用バッグがAmazonでたったの8.99ドル（ホリデーシーズンの食事を温かく保ちましょう！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "323116fba64a",
@@ -2112,13 +2164,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマート：キャッシュバックでGolden Starのジャスミンライスを無料でゲット！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマート：キャッシュバックでGolden Starのジャスミンライスを無料でゲット！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "b4367ad85c3d"
   },
   {
@@ -2216,13 +2270,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "PlayMonster麻雀オールインワンゲームセットがAmazonでたったの$49.xx（通常価格$80）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "PlayMonster麻雀オールインワンゲームセットがAmazonでたったの$49.xx（通常価格$80）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "451ce391f852",
@@ -2248,13 +2304,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "2-in-1プロフェッショナルトラベルスチーマーがAmazonでたったの$26.xx（通常価格$50）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "2-in-1プロフェッショナルトラベルスチーマーがAmazonでたったの$26.xx（通常価格$50）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "344f07e52687",
@@ -2316,13 +2374,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Primal Hatch メガロドンサメの孵化する卵がAmazonでわずか$34.99（通常価格$50）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target・Amazon",
-    "item": "",
+    "item": "Primal Hatch メガロドンサメの孵化する卵がAmazonでわずか$34.99（通常価格$50）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7d69ff5e985b",
@@ -2348,13 +2408,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スイスミス ホットココアミックス パック（50個入り）が送料込みでわずか$5.68、その他にも！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "スイスミス ホットココアミックス パック（50個入り）が送料込みでわずか$5.68、その他にも！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e5e641b9789f",
@@ -2380,13 +2442,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートでリーバイスのレディースジーンズが17ドルから、メンズジーンズがなんと19ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートでリーバイスのレディースジーンズが17ドルから、メンズジーンズがなんと19ドルから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "de3c83c3a239",
@@ -2412,13 +2476,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-18",
+   "ja": "Chipotleのお得情報 | 11月18日午後12時（東部標準時）にChipotleの「Sneak It In」パーカーをゲットしましょう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Chipotle",
-    "item": "",
+    "item": "Chipotleのお得情報 | 11月18日午後12時（東部標準時）にChipotleの「Sneak It In」パーカーをゲットしましょう！",
     "when": "11/18(水)まで 12PM",
     "cond": ""
-   },
-   "date": "2026-11-18"
+   }
   },
   {
    "id": "1b9f3c7d360c",
@@ -2480,13 +2546,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アマゾンでヤッツー・ハローキティ＆フレンズゲームがたったの$12.97（通常価格$24）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アマゾンでヤッツー・ハローキティ＆フレンズゲームがたったの$12.97（通常価格$24）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "da799fea035d",
@@ -2512,13 +2580,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "新登場のウェンディーズのホリデーボックスには、サプライズのレトロなニット帽が入っています（4種類のスタイルを集めよう！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Wendy's",
-    "item": "",
+    "item": "新登場のウェンディーズのホリデーボックスには、サプライズのレトロなニット帽が入っています（4種類のスタイルを集めよう！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6541ed7a8a1e",
@@ -2544,13 +2614,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSのお得なセール–ビューティーギフトセット、ヘアケア製品などで最大15ドルのExtraCare Bucksを獲得しましょう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSのお得なセール–ビューティーギフトセット、ヘアケア製品などで最大15ドルのExtraCare Bucksを獲得しましょう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "563e7ab06a4f",
@@ -2576,13 +2648,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヴァセリン セラムバーストローションがAmazonで送料込みでわずか$3（通常価格$8）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ヴァセリン セラムバーストローションがAmazonで送料込みでわずか$3（通常価格$8）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0936f4fb9599",
@@ -2608,13 +2682,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "このデジタルカレンダーが190ドル以上お得に（Skylightのようなデザインがはるかに安く手に入ります！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "このデジタルカレンダーが190ドル以上お得に（Skylightのようなデザインがはるかに安く手に入ります！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f747791c1e2f",
@@ -2674,13 +2750,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-12-13",
+   "ja": "PetSmartイベント：無料のサンタとの写真撮影が12月12日～13日に復活＋その他！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "PetSmartイベント：無料のサンタとの写真撮影が12月12日～13日に復活＋その他！",
     "when": "12/13(日)まで",
     "cond": ""
    },
-   "date": "2026-12-13",
    "dup": "f747791c1e2f"
   },
   {
@@ -2709,13 +2787,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クリスマスプレゼントに最適！新しいヴァセリンリップバームのペパーミントバークなど、3.47ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Target",
-    "item": "",
+    "item": "クリスマスプレゼントに最適！新しいヴァセリンリップバームのペパーミントバークなど、3.47ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "346fa82ae9b3",
@@ -2741,13 +2821,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sports ResearchオーガニックココナッツMCTオイル16オンスが送料込みでわずか$10.23！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Sports ResearchオーガニックココナッツMCTオイル16オンスが送料込みでわずか$10.23！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "27334a428587",
@@ -2806,13 +2888,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ギフトカードのスノードームがAmazonでたったの11ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ギフトカードのスノードームがAmazonでたったの11ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e498835547d8",
@@ -7311,8 +7395,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "12a543f2acdc"
+   "date": null
   },
   {
    "id": "4cb980bf4586",
@@ -14258,7 +14341,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "b7395a77b6f5"
+   "dup": "9ba150cfe859"
   },
   {
    "id": "1d96dda6f977",
@@ -17491,8 +17574,7 @@
     "item": "Nespresso Vertuo Pop+ DeluxeコーヒーメーカーがWalmart.comで送料込みわずか$69（通常価格$119）",
     "when": "",
     "cond": ""
-   },
-   "dup": "b7395a77b6f5"
+   }
   },
   {
    "id": "cf92ed941473",
