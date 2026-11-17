@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17T04:48Z",
- "count": 1586,
+ "updated": "2026-11-17T05:15Z",
+ "count": 1587,
  "stats": {
   "h2s": {
    "read": 100,
@@ -28,7 +28,7 @@
   },
   "mws": {
    "read": 20,
-   "added": 3
+   "added": 2
   },
   "wtaw": {
    "read": 20,
@@ -55,15 +55,50 @@
    "added": 0
   },
   "ja": {
-   "gemini": 17,
+   "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 6,
-   "model": "gemini-flash-latest"
+   "geminiToday": 7,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d315e1a0ff86",
+   "title": "Amazon Pizza Sauce Just 88¢ Shipped",
+   "link": "https://hip2save.com/deals/amazon-pizza-sauce/",
+   "source": "Hip2Save",
+   "posted": "2026-11-17T04:50Z",
+   "firstSeen": "2026-11-17T05:15Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/amazon-saver-pizza-sauce.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonのピザソースが送料込みでわずか88セント",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonのピザソースが送料込みでわずか88セント",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "82979b92df29",
    "title": "GIANT Magic Puzzle Cube Only $17.99 Shipped on Amazon (Regularly $36)",
@@ -2922,13 +2957,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースイニシャルリングがAmazonでわずか$3.xx（通常価格$10）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースイニシャルリングがAmazonでわずか$3.xx（通常価格$10）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "19c8898e7f60"
   },
   {
@@ -2955,13 +2992,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*新登場* Haezeの高級フレグランス ボディ、ヘア＆リネンミストがターゲットでたったの$25",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "*新登場* Haezeの高級フレグランス ボディ、ヘア＆リネンミストがターゲットでたったの$25",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f5833f074694",
@@ -2987,13 +3026,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "新登場レッドブル・ウィンターエディション4缶パックがWalmart.comでたったの11.48ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "新登場レッドブル・ウィンターエディション4缶パックがWalmart.comでたったの11.48ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f790e32fb1d8",
@@ -3019,13 +3060,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSでOlive & Juneのホリデーネイルキットを7.49ドルからお買い求めください",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSでOlive & Juneのホリデーネイルキットを7.49ドルからお買い求めください",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e4164df9eb84",
@@ -3051,13 +3094,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レイズのバーベキューチップス40袋入りがAmazonで送料込みわずか$12.90（1袋あたり32セント）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レイズのバーベキューチップス40袋入りがAmazonで送料込みわずか$12.90（1袋あたり32セント）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bb0be4d0f409",
@@ -3115,13 +3160,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スヌーピーファン必見！ウォルマートで、とってもかわいいホリデーのお菓子作りギフトボックスがたったの24.99ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "スヌーピーファン必見！ウォルマートで、とってもかわいいホリデーのお菓子作りギフトボックスがたったの24.99ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "03dae18ccce8",
@@ -3147,13 +3194,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "IPLレーザー脱毛器がAmazonで送料込みわずか$28.99 | 痛みのない脱毛",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "IPLレーザー脱毛器がAmazonで送料込みわずか$28.99 | 痛みのない脱毛",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d62d8846758f",
@@ -3179,13 +3228,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kohl'sデイリーセール：Step2のおもちゃ、ホリデーシーズン用寝具などが最大60%オフ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Kohl'sデイリーセール：Step2のおもちゃ、ホリデーシーズン用寝具などが最大60%オフ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b51c17749f44",
