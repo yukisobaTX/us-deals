@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-18T03:54Z",
- "count": 1595,
+ "updated": "2026-11-18T04:25Z",
+ "count": 1596,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 9
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
-   "added": 24
+   "added": 23
   },
   "doc": {
    "read": 15,
@@ -20,15 +20,15 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 0
   },
   "mws": {
    "read": 20,
-   "added": 3
+   "added": 4
   },
   "wtaw": {
    "read": 20,
@@ -36,11 +36,11 @@
   },
   "cstx": {
    "read": 5,
-   "added": 1
+   "added": 0
   },
   "bcslib": {
    "read": 10,
-   "added": 0
+   "added": 1
   },
   "sporked": {
    "read": 12,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
-   "geminiEvent": 0,
+   "gemini": 17,
+   "geminiEvent": 1,
    "mymemory": 25,
-   "geminiToday": 5,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
@@ -126,15 +126,17 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "数十年の後も、ブリソンパークの篝火記念碑は、亡くなったアギーズに敬意を表し続けています。",
-   "jaVia": "mymemory",
+   "ja": "Bonfire記念碑の追悼に関する記事",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "数十年の後も、ブリソンパークの篝火記念碑は、亡くなったアギーズに敬意を表し続けています。",
-    "when": "",
-    "cond": ""
+    "store": "Brison Park",
+    "item": "Bonfire記念碑の追悼に関する記事",
+    "when": "11/18(水)",
+    "cond": "一般向け",
+    "what": "追悼記事",
+    "where": "Brison Park"
    },
-   "date": null
+   "date": "2026-11-18"
   },
   {
    "id": "57c0f61e69ed",
@@ -374,8 +376,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "54102c860089",
-   "date": null
+   "date": null,
+   "dup": "54102c860089"
   },
   {
    "id": "e846931b91dc",
@@ -571,8 +573,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4e9cd244a6a2",
-   "date": null
+   "date": null,
+   "dup": "4e9cd244a6a2"
   },
   {
    "id": "0d36be00efa3",
@@ -736,13 +738,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "*新着* Targetのブラックフライデー先行セール | Stanley、ブーツ、アウターなどが最大50%オフ",
-   "jaVia": "mymemory",
+   "ja": "Stanley等の防寒具が最大50%オフ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "*新着* Targetのブラックフライデー先行セール | Stanley、ブーツ、アウターなどが最大50%オフ",
-    "when": "",
-    "cond": ""
+    "item": "Stanley等の防寒具が最大50%オフ",
+    "when": "2026-11-17〜",
+    "cond": "",
+    "what": "最大50%オフ",
+    "where": "Target"
    },
    "date": null
   },
@@ -1491,13 +1495,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon：SMSで買い物して5ドル割引",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon：SMSで買い物して5ドル割引",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "519c552192a4",
@@ -1523,13 +1529,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "電気ひざ掛けがAmazonでたったの$25.xx（通常価格$50）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "電気ひざ掛けがAmazonでたったの$25.xx（通常価格$50）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6f11a3bd4ac8",
@@ -1555,13 +1563,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ゴミ袋ディスペンサー＆食器洗い機ホルダーがAmazonで送料込みわずか$23",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ゴミ袋ディスペンサー＆食器洗い機ホルダーがAmazonで送料込みわずか$23",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f789fd12a82b",
@@ -1662,13 +1672,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディース電気シェーバーがAmazonでわずか$14.99（通常価格$30）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディース電気シェーバーがAmazonでわずか$14.99（通常価格$30）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "34b08fd329ca",
@@ -1694,13 +1706,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ファービーミニのアドベントカレンダーがAmazonでわずか$13.99（通常価格$20）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ファービーミニのアドベントカレンダーがAmazonでわずか$13.99（通常価格$20）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9c83c9b0479b",
@@ -1726,13 +1740,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "話題のトレーダー・ジョーズの感謝祭用シーズニング入りケトルチップスが復活",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Trader Joe's",
-    "item": "",
+    "item": "話題のトレーダー・ジョーズの感謝祭用シーズニング入りケトルチップスが復活",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "72e43cb62a3c",
@@ -1792,13 +1808,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Wingstopが新しい「シズリン・四川」フレーバーを発表",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Wingstop",
-    "item": "",
+    "item": "Wingstopが新しい「シズリン・四川」フレーバーを発表",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "19a5a811c8e7",
@@ -1824,13 +1842,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*お買い得* JLab Pop PartyポータブルBluetoothスピーカーがたったの$9.88（通常価格$25！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "*お買い得* JLab Pop PartyポータブルBluetoothスピーカーがたったの$9.88（通常価格$25！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "27de03d881fe",
@@ -1856,13 +1876,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "「Elf on the Shelf」が飛べるようになりました！Amazonで11ドルでドローンをゲット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "「Elf on the Shelf」が飛べるようになりました！Amazonで11ドルでドローンをゲット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "cbf916f175fe",
@@ -1888,13 +1910,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "赤色光療法ラップがAmazonで送料込みわずか$14.99（通常価格$40）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "赤色光療法ラップがAmazonで送料込みわずか$14.99（通常価格$40）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "27c4882b1c32",
@@ -1920,13 +1944,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Puffs Plus Lotion Mega Cubes 4パックがAmazonで送料込みでわずか$5（通常価格$9）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Puffs Plus Lotion Mega Cubes 4パックがAmazonで送料込みでわずか$5（通常価格$9）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ffd9325cba6e",
@@ -1952,13 +1978,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ULTAからとっても可愛いミニトートキーチェーンが登場！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Ulta",
-    "item": "",
+    "item": "ULTAからとっても可愛いミニトートキーチェーンが登場！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3a6eec28ac57",
@@ -1984,13 +2012,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "グルテンフリーのベルヴィータ・シェル＆チーズがAmazonで送料込みわずか2.53ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "グルテンフリーのベルヴィータ・シェル＆チーズがAmazonで送料込みわずか2.53ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bf29b1b10d2b",
@@ -2016,13 +2046,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Outdoor Voicesのアパレルが最大85%オフ＋プライム会員は送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Outdoor Voicesのアパレルが最大85%オフ＋プライム会員は送料無料",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "d4ea9f7fece0",
@@ -2048,13 +2080,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "お子様用布製フラワーメーカーがAmazonでわずか$8.99（通常価格$30）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "お子様用布製フラワーメーカーがAmazonでわずか$8.99（通常価格$30）",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "05dae113c337",
@@ -2080,13 +2114,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Dollar Treeの1.25ドルのバス＆ビューティーアイテムは、高級感たっぷり！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Dollar Tree",
-    "item": "",
+    "item": "Dollar Treeの1.25ドルのバス＆ビューティーアイテムは、高級感たっぷり！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d9cc24de7246",
@@ -2112,13 +2148,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon：Citi Thank Youポイントを利用して40%オフ、最大50ドル割引",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon：Citi Thank Youポイントを利用して40%オフ、最大50ドル割引",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d876d9a5e1d6",
@@ -2144,13 +2182,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ファービーミニのアドベントカレンダーがAmazonでわずか$13.xx（通常価格$24）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ファービーミニのアドベントカレンダーがAmazonでわずか$13.xx（通常価格$24）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "34b08fd329ca"
   },
   {
@@ -2213,13 +2253,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クリスマスフィンガーライト36個セットがAmazonでたったの8ドル（通常価格16ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "クリスマスフィンガーライト36個セットがAmazonでたったの8ドル（通常価格16ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1885cd26f202",
@@ -2247,14 +2289,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Astercookの大型バンブーまな板が送料込みでわずか$7.49（通常価格$25）など！{プライム会員限定}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Amazon",
-    "item": "",
+    "item": "Astercookの大型バンブーまな板が送料込みでわずか$7.49（通常価格$25）など！{プライム会員限定}",
     "when": "",
     "cond": ""
    },
-   "dup": "f0a58457aeda",
-   "date": null
+   "dup": "f0a58457aeda"
   },
   {
    "id": "7666d69631c1",
@@ -2280,13 +2324,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートでToraniのダーティソーダ＆コーヒー好きのためのサンプルパック（楽しいクリスマスプレゼント！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートでToraniのダーティソーダ＆コーヒー好きのためのサンプルパック（楽しいクリスマスプレゼント！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "267065dec651",
@@ -2312,13 +2358,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Trader Joe's（トレーダージョーズ）の新作ホリデーアイテムが登場 | アドベントカレンダー、お菓子、ビューティー用品など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Trader Joe's",
-    "item": "",
+    "item": "Trader Joe's（トレーダージョーズ）の新作ホリデーアイテムが登場 | アドベントカレンダー、お菓子、ビューティー用品など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9a015ae85427",
@@ -2344,13 +2392,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メリノウールソックス（5足セット）がたったの11.99ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "メリノウールソックス（5足セット）がたったの11.99ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d72371499429",
@@ -4940,6 +4990,40 @@
    },
    "date": null,
    "dup": "944e5891023c"
+  },
+  {
+   "id": "8bae4fe40ac8",
+   "title": "Wayfair Early Black Friday Sale is on Now: Save up to 70%",
+   "link": "https://momswhosave.com/wayfair/",
+   "source": "Moms Who Save",
+   "posted": "2026-11-17T05:00Z",
+   "firstSeen": "2026-11-18T04:25Z",
+   "expires": null,
+   "thumb": "https://momswhosave.com/wp-content/uploads/2022/07/modern-living-room-unsplash-c.jpg",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Wayfair",
+    "item": "最大70%オフ",
+    "when": "2026-11-16〜",
+    "what": "最大70%オフ",
+    "where": "Wayfair"
+   },
+   "ja": "最大70%オフ",
+   "jaVia": "gemini",
+   "dup": "bc0264598fa2",
+   "date": null
   },
   {
    "id": "d315e1a0ff86",
@@ -52381,8 +52465,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "d0c5eb81f36d"
+   "date": null
   },
   {
    "id": "ab1629ad6e85",
