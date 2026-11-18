@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T04:25Z",
+ "updated": "2026-11-18T04:45Z",
  "count": 1596,
  "stats": {
   "h2s": {
@@ -15,7 +15,7 @@
    "added": 0
   },
   "ffp": {
-   "read": 20,
+   "read": 0,
    "added": 0
   },
   "msm": {
@@ -28,7 +28,7 @@
   },
   "mws": {
    "read": 20,
-   "added": 4
+   "added": 3
   },
   "wtaw": {
    "read": 20,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 25,
+   "read": 0,
    "added": 0
   },
   "mnn": {
@@ -55,14 +55,19 @@
    "added": 0
   },
   "ja": {
-   "gemini": 17,
-   "geminiEvent": 1,
-   "mymemory": 25,
-   "geminiToday": 7,
-   "model": "gemini-flash-latest"
+   "gemini": 15,
+   "geminiEvent": 0,
+   "mymemory": 0,
+   "geminiToday": 9,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden",
+  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: HTTP Error 429: Too Many Requests"
+ ],
  "items": [
   {
    "id": "b08ba7224332",
@@ -105,7 +110,7 @@
    "source": "カレッジステーション市",
    "posted": "2026-11-18T03:47Z",
    "firstSeen": "2026-11-18T03:54Z",
-   "expires": null,
+   "expires": "2026-11-18",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -5022,8 +5027,8 @@
    },
    "ja": "最大70%オフ",
    "jaVia": "gemini",
-   "dup": "bc0264598fa2",
-   "date": null
+   "date": null,
+   "dup": "bc0264598fa2"
   },
   {
    "id": "d315e1a0ff86",
