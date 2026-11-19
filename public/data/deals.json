@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T03:52Z",
+ "updated": "2026-11-19T04:34Z",
  "count": 1589,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 1
   },
   "ffp": {
    "read": 20,
@@ -55,16 +55,55 @@
    "added": 0
   },
   "ja": {
-   "gemini": 17,
+   "gemini": 16,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 8,
+   "geminiToday": 10,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "4b0bce75ba4c",
+   "title": "Dunkin: Free Hot Or Iced Coffee With Promo Code DUNKINRUNSONDOOM",
+   "link": "https://www.doctorofcredit.com/dunkin-free-hot-or-iced-coffee-with-promo-code-dunkinrunsondoom/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-19T04:11Z",
+   "firstSeen": "2026-11-19T04:34Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [
+    "Dunkin'"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free",
+    "coupon"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Dunkin'",
+    "item": "ホット/アイスコーヒー",
+    "cond": "コード入力",
+    "what": "無料コーヒー",
+    "where": "Dunkin'"
+   },
+   "ja": "ホット/アイスコーヒー",
+   "jaVia": "gemini",
+   "date": null
+  },
   {
    "id": "d3423e4a0c03",
    "title": "Wireless Label Maker Only $7.59 on Amazon | Compact & Easy to Use",
@@ -2800,13 +2839,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonプライム：AlexaのテキストメッセージでAmazonのご注文が5ドル割引に！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonプライム：AlexaのテキストメッセージでAmazonのご注文が5ドル割引に！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "210e19205cbe"
   },
   {
@@ -2867,13 +2908,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで食品・生鮮食品のご注文が5ドル割引に。最低注文額なし！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで食品・生鮮食品のご注文が5ドル割引に。最低注文額なし！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "7ba3b0ea481b"
   },
   {
@@ -2900,13 +2943,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "タコベルがネイキッド・チキン・チャルーパの復活と、新しいフラミンホット・アドオンを発表",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Taco Bell",
-    "item": "",
+    "item": "タコベルがネイキッド・チキン・チャルーパの復活と、新しいフラミンホット・アドオンを発表",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b04ac0cf42ca",
@@ -2932,13 +2977,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "GO! Amazon Fresh – Amazonの食品・生鮮食品のご注文が20ドル以上で10ドル割引！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "GO! Amazon Fresh – Amazonの食品・生鮮食品のご注文が20ドル以上で10ドル割引！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "7ba3b0ea481b"
   },
   {
@@ -2997,13 +3044,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "450ドル相当のKobaltツールが、Lowes.comでわずか149ドル（送料込み）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "450ドル相当のKobaltツールが、Lowes.comでわずか149ドル（送料込み）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "918997fd75e3",
@@ -3029,13 +3078,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "G12 Pro Max グローバル電圧対応衣類スチーマーがAmazonでわずか$69（通常価格$129）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "G12 Pro Max グローバル電圧対応衣類スチーマーがAmazonでわずか$69（通常価格$129）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e42e79e78118",
@@ -3101,13 +3152,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ティックタックのジャンボボックス（ミニボックス60個入り）がAmazonで送料込みわずか$22.99（1パックあたりわずか38セント！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ティックタックのジャンボボックス（ミニボックス60個入り）がAmazonで送料込みわずか$22.99（1パックあたりわずか38セント！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "badbe9016541",
@@ -3133,13 +3186,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-18",
+   "ja": "ウォルマート抽選会本日11月18日午後5時（東部標準時）—NeeDohトイズ、ポケモンカードゲーム、ミステリースクイッシュ・ダンプリング！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマート抽選会本日11月18日午後5時（東部標準時）—NeeDohトイズ、ポケモンカードゲーム、ミステリースクイッシュ・ダンプリング！",
     "when": "11/18(水)まで 5PM",
     "cond": ""
-   },
-   "date": "2026-11-18"
+   }
   },
   {
    "id": "285e19dc3126",
@@ -3165,13 +3220,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "買い置きしましょう！CVSでExtraBucksを利用すると、パンパースのウェットティッシュが1パックあたりわずか64セントに！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "買い置きしましょう！CVSでExtraBucksを利用すると、パンパースのウェットティッシュが1パックあたりわずか64セントに！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d5f33e7946d7",
@@ -3197,13 +3254,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*新着* ウォルマートのウィンタービューティーボックスが送料込みでわずか$8.98（$27相当）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "*新着* ウォルマートのウィンタービューティーボックスが送料込みでわずか$8.98（$27相当）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "597e08044088",
@@ -3229,13 +3288,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "バーナムのオリジナル・アニマルクラッカー10個入りがAmazonでたったの$2.xx（通常価格$6）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "バーナムのオリジナル・アニマルクラッカー10個入りがAmazonでたったの$2.xx（通常価格$6）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "842061336a1f",
@@ -3261,13 +3322,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ピザハットがホリデー・トリプル・トリート・ボックスのお得なキャンペーンを復活",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Pizza Hut",
-    "item": "",
+    "item": "ピザハットがホリデー・トリプル・トリート・ボックスのお得なキャンペーンを復活",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c1b96359f112",
@@ -3293,13 +3356,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "HORISUNのワイヤレスブラがAmazonでたったの$9.xx（通常価格$14以上）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "HORISUNのワイヤレスブラがAmazonでたったの$9.xx（通常価格$14以上）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4dd12556a764",
@@ -3325,13 +3390,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Nothing Bundt Cakesのバンドレットが、2個購入すると1個あたりわずか5ドル（グルテンフリーのオプションもあり！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Nothing Bundt Cakes",
-    "item": "",
+    "item": "Nothing Bundt Cakesのバンドレットが、2個購入すると1個あたりわずか5ドル（グルテンフリーのオプションもあり！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2b826d95671d",
@@ -3357,13 +3424,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Comfort Spacesのクールマックス・キングサイズ4点セット（吸湿速乾・冷却機能付きシーツ）がAmazonでわずか$10.xx（通常価格$18）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Comfort Spacesのクールマックス・キングサイズ4点セット（吸湿速乾・冷却機能付きシーツ）がAmazonでわずか$10.xx（通常価格$18）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c82e2a5a84e6",
@@ -3389,13 +3458,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでアスボーンのクリスマス本が最大55%オフ（手軽なギフトのアイデア！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでアスボーンのクリスマス本が最大55%オフ（手軽なギフトのアイデア！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f16dbf94a08e",
@@ -3421,13 +3492,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "フィニッシュ・クアンタム・インフィニティシャイン食洗機用タブレット70個入り3パックがたったの$30.xx（通常価格$54）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "フィニッシュ・クアンタム・インフィニティシャイン食洗機用タブレット70個入り3パックがたったの$30.xx（通常価格$54）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "66dc65403899",
@@ -3491,13 +3564,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "1.xxドル以下で手に入るAmazonの食料品40点以上！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "1.xxドル以下で手に入るAmazonの食料品40点以上！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a3977bcabbc2",
@@ -3664,13 +3739,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonの食品・生鮮食品コーナーでプレッツェルが送料込みでわずか1.53ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonの食品・生鮮食品コーナーでプレッツェルが送料込みでわずか1.53ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6893ad715173",
@@ -3730,13 +3807,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Holiday Living 3点セット シカの家族 ライト付き屋外用デコレーションが送料込みでわずか$79、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Holiday Living 3点セット シカの家族 ライト付き屋外用デコレーションが送料込みでわずか$79、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "550cac08d36b",
@@ -3760,13 +3839,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ワールドマーケットのゴールデンサンタスカベンジャーハントで最大100ドルを獲得しよう",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "ワールドマーケットのゴールデンサンタスカベンジャーハントで最大100ドルを獲得しよう",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fe223b1e6b30",
@@ -3827,13 +3908,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Nature Theoryデイリーフェイスモイスチャライザーが送料込みでわずか$13.98、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Nature Theoryデイリーフェイスモイスチャライザーが送料込みでわずか$13.98、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5702d5485353",
@@ -3859,13 +3942,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "赤色光ワイヤレスセラピーマスクがAmazonでたったの$39.xx（通常価格$150）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "赤色光ワイヤレスセラピーマスクがAmazonでたったの$39.xx（通常価格$150）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "2f37b25d22c0"
   },
   {
@@ -3931,13 +4016,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "バーナムのアニマルクラッカー10パックがAmazonで送料込みわずか$2.43",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "バーナムのアニマルクラッカー10パックがAmazonで送料込みわずか$2.43",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "164b0d28e2d9",
@@ -32090,38 +32177,6 @@
    "sum": {
     "store": "Amazon",
     "item": "Amazon Grocery Stuffing Mix 63 ¢のみ発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8de747bbcfa3",
-   "title": "Young Adults! Here’s How to Save on Amazon Prime AND Try it for Free!",
-   "link": "https://hip2save.com/deals/amazon-prime-student-discount/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-11-11T04:10Z",
-   "firstSeen": "2026-11-19T03:32Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/amazon-college.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
     "when": "",
     "cond": ""
    },
