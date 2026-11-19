@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-19T03:32Z",
- "count": 1587,
+ "updated": "2026-11-19T03:52Z",
+ "count": 1589,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 8
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
-   "added": 24
+   "added": 23
   },
   "doc": {
    "read": 15,
-   "added": 2
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 5
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 6
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,15 +55,50 @@
    "added": 0
   },
   "ja": {
-   "gemini": 23,
+   "gemini": 17,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 6,
-   "model": "gemini-flash-latest"
+   "geminiToday": 8,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d3423e4a0c03",
+   "title": "Wireless Label Maker Only $7.59 on Amazon | Compact & Easy to Use",
+   "link": "https://hip2save.com/deals/wireless-label-maker/",
+   "source": "Hip2Save",
+   "posted": "2026-11-19T03:50Z",
+   "firstSeen": "2026-11-19T03:52Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/03/niimbot-label-maker.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ワイヤレスラベルメーカーがAmazonでたったの$7.59 | コンパクトで使いやすい",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ワイヤレスラベルメーカーがAmazonでたったの$7.59 | コンパクトで使いやすい",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "8d20ffbc91b4",
    "title": "Amazon Grocery Au Gratin or Scalloped Potatoes Only $1 Shipped",
@@ -105,7 +140,7 @@
    "source": "WTAW(カレッジステーション)",
    "posted": "2026-11-19T02:58Z",
    "firstSeen": "2026-11-19T03:32Z",
-   "expires": null,
+   "expires": "2026-11-19",
    "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
    "noAlert": true,
    "region": "College Station",
@@ -155,13 +190,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "Comfrtのブラックフライデー先行セールが始まりました！話題のオーバーサイズパーカー＆スウェットパンツをお得にゲット",
-   "jaVia": "mymemory",
+   "ja": "パーカーやスウェットパンツ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Comfrtのブラックフライデー先行セールが始まりました！話題のオーバーサイズパーカー＆スウェットパンツをお得にゲット",
+    "store": "Comfrt",
+    "item": "パーカーやスウェットパンツ",
     "when": "",
-    "cond": ""
+    "cond": "アーリーBFセール",
+    "what": "アパレル割引",
+    "where": "Comfrt"
    },
    "date": null
   },
@@ -198,6 +235,40 @@
    },
    "ja": "ポケモン ミュウツープロモカード",
    "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "012c7d1b0466",
+   "title": "Ocean Spray Craisins 48oz Bag Just $5 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/ocean-spray-craisins/",
+   "source": "Hip2Save",
+   "posted": "2026-11-19T02:30Z",
+   "firstSeen": "2026-11-19T03:52Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/craisins-ocean-spray.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "オーシャン・スプレイのクレーズン（48オンス入り袋）がAmazonで送料込みわずか5ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "オーシャン・スプレイのクレーズン（48オンス入り袋）がAmazonで送料込みわずか5ドル",
+    "when": "",
+    "cond": ""
+   },
    "date": null
   },
   {
@@ -444,8 +515,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "402f40ebb3e3",
-   "date": null
+   "date": null,
+   "dup": "402f40ebb3e3"
   },
   {
    "id": "38b26710b84c",
@@ -544,13 +615,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "RebatesMeブラックフライデーゲーム – 30ドル以上のお買い物で追加のキャッシュバックを獲得し、ロックを解除しましょう",
-   "jaVia": "mymemory",
+   "ja": "追加キャッシュバック",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "RebatesMeブラックフライデーゲーム – 30ドル以上のお買い物で追加のキャッシュバックを獲得し、ロックを解除しましょう",
+    "store": "RebatesMe",
+    "item": "追加キャッシュバック",
     "when": "",
-    "cond": ""
+    "cond": "$30以上購入",
+    "what": "還元率アップ",
+    "where": "RebatesMe"
    },
    "date": null
   },
@@ -1431,13 +1504,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonのレディーストップスがわずか$4.99から（通常価格$8～$18）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonのレディーストップスがわずか$4.99から（通常価格$8～$18）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4d9d1b6ca72a",
@@ -1463,13 +1538,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヴィンテージガラス製コーヒーマグカップ4個セット（蓋＆スプーン付き）がAmazonでわずか$14（通常価格$24）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ヴィンテージガラス製コーヒーマグカップ4個セット（蓋＆スプーン付き）がAmazonでわずか$14（通常価格$24）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "18057b8f1464",
@@ -1495,13 +1572,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "シェイクシャックが、ホリデーシーズン定番のトリオメニューの一部として、フェレロ ロシェをトッピングした新作ヘーゼルナッツチョコレートシェイクを追加",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Shake Shack",
-    "item": "",
+    "item": "シェイクシャックが、ホリデーシーズン定番のトリオメニューの一部として、フェレロ ロシェをトッピングした新作ヘーゼルナッツチョコレートシェイクを追加",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f20f3f43bdc2",
@@ -1565,13 +1644,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-12-05",
+   "ja": "マイケルズ：12月5日にホリデースライダーカードのクラフトイベントを開催！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Michaels",
-    "item": "",
+    "item": "マイケルズ：12月5日にホリデースライダーカードのクラフトイベントを開催！",
     "when": "12/5(土)まで",
     "cond": ""
-   },
-   "date": "2026-12-05"
+   }
   },
   {
    "id": "7de32712242e",
@@ -1632,13 +1713,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Freshの食品・生鮮食品のご注文が10ドル割引（20ドル以上のご注文）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Freshの食品・生鮮食品のご注文が10ドル割引（20ドル以上のご注文）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4011c528498a",
@@ -1664,13 +1747,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Krogerのお得なBOGOセール | Doritos、Coca-Cola、スパイスなどがお得に",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kroger",
-    "item": "",
+    "item": "Krogerのお得なBOGOセール | Doritos、Coca-Cola、スパイスなどがお得に",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a6fe5a07a4d5",
@@ -1766,13 +1851,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "タッチランドのハンドサニタイザー3本セット＋ボディ＆ヘアミストが、送料込みでわずか27.80ドル（50ドル相当）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "タッチランドのハンドサニタイザー3本セット＋ボディ＆ヘアミストが、送料込みでわずか27.80ドル（50ドル相当）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bd85ad06d6c7",
@@ -1798,13 +1885,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonセーバーのマッシュルームスープのクリームが送料込みでわずか0.56ドル、その他にも！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonセーバーのマッシュルームスープのクリームが送料込みでわずか0.56ドル、その他にも！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "376bb0c92ab6",
@@ -1866,13 +1955,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "金属製キッチンはさみ3本セットがAmazonプライムで送料込み9.99ドルのみ | 1本あたりわずか3.33ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "金属製キッチンはさみ3本セットがAmazonプライムで送料込み9.99ドルのみ | 1本あたりわずか3.33ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "33dcb689d09e",
@@ -1898,13 +1989,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ポップタルト32個入りバラエティパックがAmazonで送料込みわずか6ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ポップタルト32個入りバラエティパックがAmazonで送料込みわずか6ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fc027b6543bd",
@@ -1930,13 +2023,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonオニオンスープ＆ディップシーズニングミックスが送料込みでわずか53セント",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonオニオンスープ＆ディップシーズニングミックスが送料込みでわずか53セント",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "32e1e467797b",
@@ -1965,13 +2060,15 @@
    "gift": {
     "grocery": false
    },
+   "date": null,
+   "ja": "Best Buy（店舗）：60ドルで100ドルのBest Buyギフトカード（11月27日のみ）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Best Buy（店舗）：60ドルで100ドルのBest Buyギフトカード（11月27日のみ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "22226543ddce",
@@ -2031,13 +2128,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "オレオのリーズ・ピーナッツバタークッキーがAmazonで送料込み3.37ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "オレオのリーズ・ピーナッツバタークッキーがAmazonで送料込み3.37ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0af7b9380928",
@@ -2210,13 +2309,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Ninja 8.5クォートPossibleCookerがBestBuy.comで送料込みわずか$99.99（通常価格$200）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Ninja 8.5クォートPossibleCookerがBestBuy.comで送料込みわずか$99.99（通常価格$200）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1638c5680a36",
@@ -2307,13 +2408,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースパジャマセット2着組が送料込みでわずか20ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースパジャマセット2着組が送料込みでわずか20ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "daaf9070df53",
@@ -2339,13 +2442,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "タッチランドのハンドサニタイザースプレー3本セット＋ボディ＆ヘアミストが、送料込みで27.80ドル（56ドルの価値）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "タッチランドのハンドサニタイザースプレー3本セット＋ボディ＆ヘアミストが、送料込みで27.80ドル（56ドルの価値）！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "c71f081a4ee5"
   },
   {
@@ -2372,13 +2477,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "サムズクラブでは、これらの人気LEGOセットが最安値で手に入ります | 楽しいギフトのアイデア",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "サムズクラブでは、これらの人気LEGOセットが最安値で手に入ります | 楽しいギフトのアイデア",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "237f4ba735cd",
@@ -2404,13 +2511,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Like Airのドリズルライスケーキ10個入りバラエティパックがAmazonで送料込みわずか$12（グルテンフリー！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Like Airのドリズルライスケーキ10個入りバラエティパックがAmazonで送料込みわずか$12（グルテンフリー！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7f3f254ae800",
@@ -2481,13 +2590,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-25",
+   "ja": "11月25日、ウォルマートとアマゾンでハーシーのチョコレートバーがわずか5セントに（数量限定！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Amazon",
-    "item": "",
+    "item": "11月25日、ウォルマートとアマゾンでハーシーのチョコレートバーがわずか5セントに（数量限定！）",
     "when": "11/25(水)まで",
     "cond": ""
-   },
-   "date": "2026-11-25"
+   }
   },
   {
    "id": "bc2c7f526832",
@@ -2513,13 +2624,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kleenexウルトラソフト・フェイシャルティッシュ8パックがAmazonでたったの$10.xx（通常価格$20） – 合計1,440枚のティッシュ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Kleenexウルトラソフト・フェイシャルティッシュ8パックがAmazonでたったの$10.xx（通常価格$20） – 合計1,440枚のティッシュ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f18ff552230f",
@@ -2545,13 +2658,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonのこのアンソロポロジー風クロップドパンツは、ホリデーシーズンにぴったり！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonのこのアンソロポロジー風クロップドパンツは、ホリデーシーズンにぴったり！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0be177098493",
@@ -2613,13 +2728,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "再入荷！Lowe'sのジャンボ餃子が送料込みでわずか12.98ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "再入荷！Lowe'sのジャンボ餃子が送料込みでわずか12.98ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f508383d085b",
@@ -2957,8 +3074,8 @@
    },
    "ja": "最大$40相当の七面鳥",
    "jaVia": "gemini",
-   "dup": "38b26710b84c",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "dup": "38b26710b84c"
   },
   {
    "id": "b64a5f5b3fb3",
@@ -6487,8 +6604,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "5af0b256c866",
-   "date": null
+   "date": null,
+   "dup": "5af0b256c866"
   },
   {
    "id": "822905440d26",
@@ -20366,8 +20483,7 @@
     "item": "キッズ用ウール混ソックス4足セットがAmazonでたったの$5.99",
     "when": "",
     "cond": "子ども向け"
-   },
-   "dup": "8245d7be2612"
+   }
   },
   {
    "id": "1f54066013d2",
@@ -37056,8 +37172,7 @@
     "item": "レディースウール混ソックス5足セットがAmazonでたったの$5",
     "when": "",
     "cond": ""
-   },
-   "dup": "8245d7be2612"
+   }
   },
   {
    "id": "f2b52c7a040f",
@@ -37262,7 +37377,7 @@
     "when": "",
     "cond": ""
    },
-   "dup": "8245d7be2612"
+   "dup": "dc9d8a06b2b1"
   },
   {
    "id": "473413245394",
