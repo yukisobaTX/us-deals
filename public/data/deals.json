@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-20T21:09Z",
- "count": 1632,
+ "count": 1635,
  "stats": {
   "h2s": {
    "read": 100,
@@ -565,13 +565,13 @@
    "freebie": null,
    "sum": {
     "store": "Bark",
-    "item": "キッズ用腕時計・スマホが割引",
-    "cond": "Black Friday",
-    "what": "BFセール",
+    "item": "子供向け安全スマートウォッチ・携帯のBF割引",
+    "cond": "ブラックフライデー",
+    "what": "子供用時計割引",
     "where": "Bark"
    },
-   "ja": "キッズ用腕時計・スマホが割引",
-   "jaVia": "gemini",
+   "ja": "子供向け安全スマートウォッチ・携帯のBF割引",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -633,13 +633,13 @@
    },
    "sum": {
     "store": "Swig",
-    "item": "ドリンク無料",
+    "item": "Swig 会員登録でドリンク1杯無料",
     "cond": "会員登録",
-    "what": "無料ドリンク",
+    "what": "ドリンク無料",
     "where": "Swig"
    },
-   "ja": "ドリンク無料",
-   "jaVia": "gemini",
+   "ja": "Swig 会員登録でドリンク1杯無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -730,13 +730,13 @@
    "freebie": null,
    "sum": {
     "store": "Apple",
-    "item": "最大$300ギフトカード",
-    "cond": "対象商品購入",
-    "what": "ギフトカード",
+    "item": "Apple のBFイベント:購入で最大$300ギフトカード",
+    "cond": "対象商品の購入",
+    "what": "最大$300GC",
     "where": "Apple"
    },
-   "ja": "最大$300ギフトカード",
-   "jaVia": "gemini",
+   "ja": "Apple のBFイベント:購入で最大$300ギフトカード",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -832,13 +832,13 @@
    },
    "sum": {
     "store": "QDOBA",
-    "item": "チップス＆ケソ無料",
-    "when": "11/24",
-    "what": "無料チップス",
+    "item": "QDOBA でチップス&ケソ無料",
+    "when": "11/24(火)",
+    "what": "チップス&ケソ",
     "where": "QDOBA"
    },
-   "ja": "チップス＆ケソ無料",
-   "jaVia": "gemini",
+   "ja": "QDOBA でチップス&ケソ無料",
+   "jaVia": "claude",
    "date": "2026-11-24"
   },
   {
@@ -899,13 +899,13 @@
    "freebie": null,
    "sum": {
     "store": "Walmart",
-    "item": "ブラックフライデーセール",
-    "when": "11/23",
-    "what": "BFセール",
+    "item": "Walmart のブラックフライデーセール 11/23 開始",
+    "when": "11/23(月)",
+    "what": "BFセール開始",
     "where": "Walmart"
    },
-   "ja": "ブラックフライデーセール",
-   "jaVia": "gemini",
+   "ja": "Walmart のブラックフライデーセール 11/23 開始",
+   "jaVia": "claude",
    "date": "2026-11-23"
   },
   {
@@ -970,14 +970,15 @@
     "bogo": true
    },
    "sum": {
-    "store": "Arby’s",
-    "item": "サンドイッチBOGO",
+    "store": "Arby's",
+    "item": "Arby's サンドイッチ BOGO",
     "when": "〜11/22",
-    "what": "BOGOサンド",
-    "where": "Arby’s"
+    "what": "サンド1つ無料",
+    "where": "Arby's",
+    "cond": "1つ購入"
    },
-   "ja": "サンドイッチBOGO",
-   "jaVia": "gemini",
+   "ja": "Arby's サンドイッチ BOGO",
+   "jaVia": "claude",
    "date": "2026-11-22"
   },
   {
@@ -1200,12 +1201,16 @@
     "grocery": true
    },
    "sum": {
-    "store": "Costco",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "store": "Costco.com",
+    "item": "inKind $100ギフトカードを$64.99",
+    "when": "11/26〜",
+    "cond": "上限5枚",
+    "what": "$100を$64.…",
+    "where": "Costco.com"
    },
-   "date": null
+   "date": null,
+   "ja": "inKind $100ギフトカードを$64.99",
+   "jaVia": "claude"
   },
   {
    "id": "b46c26ecc6cd",
@@ -1557,13 +1562,13 @@
    },
    "sum": {
     "store": "Michaels",
-    "item": "ポインセチア・カレンダー無料",
+    "item": "Michaels でポインセチア無料+アドベントカレンダー",
     "when": "〜11/22",
-    "what": "無料アイテム",
+    "what": "ポインセチア",
     "where": "Michaels"
    },
-   "ja": "ポインセチア・カレンダー無料",
-   "jaVia": "gemini",
+   "ja": "Michaels でポインセチア無料+アドベントカレンダー",
+   "jaVia": "claude",
    "date": "2026-11-22"
   },
   {
@@ -1858,15 +1863,15 @@
     "when": "2026-11-30"
    },
    "sum": {
-    "store": "Dunkin Donuts",
-    "item": "無料コーヒーコード",
-    "when": "11/30",
-    "cond": "先着100万名",
-    "what": "無料コーヒー",
-    "where": "Dunkin"
+    "store": "Dunkin'",
+    "item": "Dunkin' 無料コーヒーコード100万件",
+    "when": "11/30(月)",
+    "cond": "先着",
+    "what": "コーヒー無料",
+    "where": "Dunkin'"
    },
-   "ja": "無料コーヒーコード",
-   "jaVia": "gemini",
+   "ja": "Dunkin' 無料コーヒーコード100万件",
+   "jaVia": "claude",
    "date": "2026-11-30"
   },
   {
@@ -2094,13 +2099,14 @@
    },
    "sum": {
     "store": "Chipotle",
-    "item": "メインメニューBOGO",
-    "when": "11/25",
-    "what": "BOGO主食",
-    "where": "Chipotle"
+    "item": "Chipotle メイン料理 BOGO",
+    "when": "11/25(水)",
+    "what": "メイン1つ無料",
+    "where": "Chipotle",
+    "cond": "1つ購入"
    },
-   "ja": "メインメニューBOGO",
-   "jaVia": "gemini",
+   "ja": "Chipotle メイン料理 BOGO",
+   "jaVia": "claude",
    "date": "2026-11-25"
   },
   {
@@ -3055,15 +3061,15 @@
     "when": "2026-11-30"
    },
    "sum": {
-    "store": "Dunkin",
-    "item": "コーヒー100万杯無料",
-    "when": "2026-11-30",
+    "store": "Dunkin'",
+    "item": "Dunkin' 100万杯の無料コーヒー",
+    "when": "11/30(月)",
     "cond": "会員限定",
-    "what": "無料コーヒー",
-    "where": "Dunkin"
+    "what": "コーヒー無料",
+    "where": "Dunkin'"
    },
-   "ja": "コーヒー100万杯無料",
-   "jaVia": "gemini",
+   "ja": "Dunkin' 100万杯の無料コーヒー",
+   "jaVia": "claude",
    "date": "2026-11-30"
   },
   {
@@ -3726,15 +3732,15 @@
     "when": null
    },
    "sum": {
-    "store": "Twin Peaks (Bryan店)",
-    "item": "レストランで無料クリスマスツリー配布",
+    "store": "Twin Peaks",
+    "item": "Twin Peaks でクリスマスツリー無料配布",
     "when": "12/3(木)",
-    "cond": "無料",
-    "what": "ツリー配布",
-    "where": "Twin Peaks Bryan"
+    "cond": "数量限定",
+    "what": "ツリー無料",
+    "where": "Twin Peaks"
    },
-   "ja": "レストランで無料クリスマスツリー配布",
-   "jaVia": "gemini-ev",
+   "ja": "Twin Peaks でクリスマスツリー無料配布",
+   "jaVia": "claude-ev",
    "date": "2026-12-03"
   },
   {
@@ -4799,13 +4805,14 @@
    },
    "sum": {
     "store": "Lowe's",
-    "item": "ブラックフライデー限定バケツ",
-    "when": "11/27",
-    "what": "無料バケツ",
-    "where": "Lowe's"
+    "item": "Lowe's のブラックフライデー無料バケツ",
+    "when": "11/27(金)",
+    "what": "BFバケツ無料",
+    "where": "Lowe's",
+    "cond": "数量限定"
    },
-   "ja": "ブラックフライデー限定バケツ",
-   "jaVia": "gemini",
+   "ja": "Lowe's のブラックフライデー無料バケツ",
+   "jaVia": "claude",
    "date": "2026-11-27"
   },
   {
@@ -4837,12 +4844,13 @@
    },
    "sum": {
     "store": "Target",
-    "item": "Tide to Go シミ抜きペン",
-    "what": "無料シミ抜きペン",
-    "where": "Target"
+    "item": "Target で Tide to Go シミ取りペンが実質無料",
+    "what": "シミ取りペン",
+    "where": "Target",
+    "cond": "クーポン"
    },
-   "ja": "Tide to Go シミ抜きペン",
-   "jaVia": "gemini",
+   "ja": "Target で Tide to Go シミ取りペンが実質無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -5084,14 +5092,14 @@
    },
    "sum": {
     "store": "Chipotle",
-    "item": "アントレ1個買うと1個無料",
-    "when": "11/25",
-    "cond": "1個購入",
-    "what": "BOGOアントレ",
+    "item": "Chipotle メイン料理 BOGO",
+    "when": "11/25(水)",
+    "cond": "1つ購入",
+    "what": "メイン1つ無料",
     "where": "Chipotle"
    },
-   "ja": "アントレ1個買うと1個無料",
-   "jaVia": "gemini",
+   "ja": "Chipotle メイン料理 BOGO",
+   "jaVia": "claude",
    "date": "2026-11-25"
   },
   {
@@ -7274,12 +7282,13 @@
     "when": null
    },
    "sum": {
-    "item": "2027年壁掛けカレンダー",
-    "what": "無料カレンダー",
-    "where": "オンライン"
+    "item": "2027年「Roadsides in Bloom」カレンダー無料",
+    "what": "カレンダー無料",
+    "where": "オンライン",
+    "cond": "申込"
    },
-   "ja": "2027年壁掛けカレンダー",
-   "jaVia": "gemini",
+   "ja": "2027年「Roadsides in Bloom」カレンダー無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -7516,12 +7525,13 @@
    },
    "sum": {
     "store": "Maker's Mark",
-    "item": "名前入りホリデーボトルラベル",
-    "what": "無料ラベル",
-    "where": "オンライン"
+    "item": "Maker's Mark のホリデー名入れラベル無料",
+    "what": "ラベル無料",
+    "where": "Maker's Mark",
+    "cond": "成人向け"
    },
-   "ja": "名前入りホリデーボトルラベル",
-   "jaVia": "gemini",
+   "ja": "Maker's Mark のホリデー名入れラベル無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -7908,14 +7918,14 @@
    },
    "sum": {
     "store": "Smoothie King",
-    "item": "ペパーミントスムージーが無料",
-    "when": "12/1",
-    "cond": "条件なし",
-    "what": "無料スムージー",
+    "item": "Smoothie King ペパーミントスムージー無料",
+    "when": "12/1(火)",
+    "cond": "購入不要",
+    "what": "スムージー無料",
     "where": "Smoothie King"
    },
-   "ja": "ペパーミントスムージーが無料",
-   "jaVia": "gemini",
+   "ja": "Smoothie King ペパーミントスムージー無料",
+   "jaVia": "claude",
    "date": "2026-12-01"
   },
   {
@@ -8155,15 +8165,15 @@
     "when": "2026-11-23"
    },
    "sum": {
-    "store": "Jimmy John’s",
-    "item": "Dickieの服が無料",
-    "when": "11/23",
-    "cond": "対象セット購入",
-    "what": "無料アパレル",
-    "where": "Jimmy John’s"
+    "store": "Jimmy John's",
+    "item": "Jimmy John's 限定セット購入でディッキー無料",
+    "when": "11/23(月)",
+    "cond": "セット購入",
+    "what": "記念品無料",
+    "where": "Jimmy John's"
    },
-   "ja": "Dickieの服が無料",
-   "jaVia": "gemini",
+   "ja": "Jimmy John's 限定セット購入でディッキー無料",
+   "jaVia": "claude",
    "date": "2026-11-23"
   },
   {
@@ -9057,14 +9067,14 @@
    },
    "sum": {
     "store": "Amazon",
-    "item": "$200分のギフトカード",
+    "item": "Amazon Visa 承認で$200ギフトカード",
     "when": "即時",
-    "cond": "クレジットカード要審査",
-    "what": "200ドルギフト",
+    "cond": "カード申込・承認",
+    "what": "$200GC",
     "where": "Amazon"
    },
-   "ja": "$200分のギフトカード",
-   "jaVia": "gemini",
+   "ja": "Amazon Visa 承認で$200ギフトカード",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -9324,13 +9334,13 @@
    },
    "sum": {
     "store": "Dunkin'",
-    "item": "ホット/アイスコーヒー",
-    "cond": "コード入力",
-    "what": "無料コーヒー",
+    "item": "Dunkin' コード DUNKINRUNSONDOOM で無料コーヒー",
+    "cond": "プロモコード",
+    "what": "コーヒー無料",
     "where": "Dunkin'"
    },
-   "ja": "ホット/アイスコーヒー",
-   "jaVia": "gemini",
+   "ja": "Dunkin' コード DUNKINRUNSONDOOM で無料コーヒー",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -9674,13 +9684,13 @@
    },
    "sum": {
     "store": "Dunkin'",
-    "item": "コーヒー、ポイント4倍",
-    "cond": "先着100万名",
-    "what": "無料コーヒー",
+    "item": "Dunkin' 先着100万人に無料コーヒー+ポイント4倍",
+    "cond": "先着・会員",
+    "what": "コーヒー無料",
     "where": "Dunkin'"
    },
-   "ja": "コーヒー、ポイント4倍",
-   "jaVia": "gemini",
+   "ja": "Dunkin' 先着100万人に無料コーヒー+ポイント4倍",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -9813,13 +9823,14 @@
    },
    "sum": {
     "store": "Hyatt",
-    "item": "2027年会員特典アップデート",
+    "item": "Hyatt 2027年の会員特典の変更点",
     "cond": "会員",
-    "what": "特典改定",
-    "where": "Hyatt"
+    "what": "会員特典変更",
+    "where": "Hyatt",
+    "when": "2027年"
    },
-   "ja": "2027年会員特典アップデート",
-   "jaVia": "gemini",
+   "ja": "Hyatt 2027年の会員特典の変更点",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -10462,12 +10473,13 @@
    },
    "sum": {
     "store": "Bass Pro Shops",
-    "item": "写真撮影・サンタ帽カップ",
-    "what": "無料ギフト",
-    "where": "Bass Pro Shops"
+    "item": "Bass Pro Shops でサンタと無料写真+サンタ帽カップ",
+    "what": "サンタ写真無料",
+    "where": "Bass Pro Shops",
+    "cond": "店頭"
    },
-   "ja": "写真撮影・サンタ帽カップ",
-   "jaVia": "gemini",
+   "ja": "Bass Pro Shops でサンタと無料写真+サンタ帽カップ",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -10566,13 +10578,15 @@
     "grocery": false
    },
    "date": "2026-11-28",
-   "ja": "Target.com：Appleギフトカード100ドル分を購入すると、Targetギフトカード15ドル分のボーナスがもらえます（11月22日～11月28日）",
-   "jaVia": "mymemory",
+   "ja": "Apple $100GC購入で Target GC $15",
+   "jaVia": "claude",
    "sum": {
-    "store": "Target",
-    "item": "Target.com：Appleギフトカード100ドル分を購入すると、Targetギフトカード15ドル分のボーナスがもらえます（11月22日～11月28日）",
-    "when": "11/28(土)まで",
-    "cond": ""
+    "store": "Target.com",
+    "item": "Apple $100GC購入で Target GC $15",
+    "when": "11/22〜11/28",
+    "cond": "オンライン",
+    "what": "$100で$15還元",
+    "where": "Target.com"
    }
   },
   {
@@ -11150,14 +11164,14 @@
     "when": null
    },
    "sum": {
-    "store": "Red Cross",
-    "item": "無料ギフト",
-    "cond": "要献血",
-    "what": "無料ギフト",
-    "where": "Red Cross"
+    "store": "American Red Cross",
+    "item": "赤十字で献血すると無料ギフト",
+    "cond": "献血",
+    "what": "献血で記念品",
+    "where": "赤十字"
    },
-   "ja": "無料ギフト",
-   "jaVia": "gemini",
+   "ja": "赤十字で献血すると無料ギフト",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -11393,13 +11407,13 @@
     "when": null
    },
    "sum": {
-    "item": "ペット用落ち着きグッズ",
-    "cond": "要応募",
-    "what": "無料サンプル",
+    "item": "犬猫用リラックス用品の無料モニター応募",
+    "cond": "応募制",
+    "what": "ペット用品試供",
     "where": "オンライン"
    },
-   "ja": "ペット用落ち着きグッズ",
-   "jaVia": "gemini",
+   "ja": "犬猫用リラックス用品の無料モニター応募",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -12606,13 +12620,13 @@
    },
    "sum": {
     "store": "Walmart",
-    "item": "電解質飲料無料、激安菓子など",
-    "cond": "キャッシュバック利用",
-    "what": "無料商品等",
+    "item": "Walmart のキャッシュバック特典まとめ(ジャガイモ実質プラス等)",
+    "cond": "まとめ・アプリ還元",
+    "what": "キャッシュバック",
     "where": "Walmart"
    },
-   "ja": "電解質飲料無料、激安菓子など",
-   "jaVia": "gemini",
+   "ja": "Walmart のキャッシュバック特典まとめ(ジャガイモ実質プラス等)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -13286,14 +13300,14 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "Brison Parkのボンファイア慰霊碑紹介",
-   "jaVia": "gemini-ev",
+   "ja": "Brison Park のボンファイア慰霊碑の話題",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "Brison Park",
-    "item": "Brison Parkのボンファイア慰霊碑紹介",
+    "item": "Brison Park のボンファイア慰霊碑の話題",
     "when": "",
     "cond": "",
-    "what": "慰霊碑紹介",
+    "what": "焚き火慰霊碑",
     "where": "Brison Park"
    },
    "date": null
@@ -16529,13 +16543,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
-   "ja": "ウェットティッシュはゴミ箱へ、油は缶へ：カレッジステーションで世界トイレの日を祝う",
-   "jaVia": "mymemory",
+   "ja": "CS の世界トイレの日の呼びかけ(下水の注意)",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "",
-    "item": "ウェットティッシュはゴミ箱へ、油は缶へ：カレッジステーションで世界トイレの日を祝う",
+    "store": "College Station",
+    "item": "CS の世界トイレの日の呼びかけ(下水の注意)",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "世界トイレの日",
+    "where": "CS"
    },
    "date": null
   },
@@ -18433,13 +18449,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "毎週土曜のファーマーズマーケット",
-    "when": "毎週土曜 11/21(土)",
+    "item": "ブラゾス郡ファーマーズマーケット(毎週土曜)",
+    "when": "11/21(土)",
     "cond": "毎週土曜",
-    "what": "農家の市",
+    "what": "ファーマーズ市",
     "where": "Midtown Park"
    },
-   "ja": "毎週土曜のファーマーズマーケット",
+   "ja": "ブラゾス郡ファーマーズマーケット(毎週土曜)",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -18476,12 +18492,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "湖畔の公園で地域のヨガ",
+    "item": "Lake Walk の湖畔でみんなのヨガ",
     "when": "11/21(土)",
     "what": "屋外ヨガ",
-    "where": "Lake Walk"
+    "where": "Lake Walk",
+    "cond": "屋外"
    },
-   "ja": "湖畔の公園で地域のヨガ",
+   "ja": "Lake Walk の湖畔でみんなのヨガ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -18517,13 +18534,13 @@
    "event": null,
    "eventNews": false,
    "sum": {
-    "store": "Midtown Park",
-    "item": "公園の日曜マーケット「Rountree Market」",
+    "store": "Rountree Market",
+    "item": "Midtown Park の日曜マーケット",
     "when": "11/22(日)",
     "what": "日曜マーケット",
     "where": "Midtown Park"
    },
-   "ja": "公園の日曜マーケット「Rountree Market」",
+   "ja": "Midtown Park の日曜マーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -24639,12 +24656,13 @@
     "when": null
    },
    "sum": {
-    "item": "無料ギフトカードやカレンダー",
-    "what": "無料ギフト",
-    "where": "各種店舗"
+    "item": "ブラックフライデーの無料ギフトカード・アドベントカレンダーまとめ",
+    "what": "BF無料特典",
+    "where": "各店",
+    "cond": "まとめ"
    },
-   "ja": "無料ギフトカードやカレンダー",
-   "jaVia": "gemini",
+   "ja": "ブラックフライデーの無料ギフトカード・アドベントカレンダーまとめ",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -27298,7 +27316,7 @@
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-20",
+   "localDate": "2026-11-21",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -27314,12 +27332,12 @@
    "eventNews": false,
    "sum": {
     "store": "The Woman's Club of Bryan",
-    "item": "Woman's Club of Bryan のクリスマスマーケット",
-    "when": "11/20(金)〜11/21(土)",
+    "item": "クリスマスの買い物市「Christmas on Carter Creek」",
+    "when": "11/21(土)",
     "what": "クリスマス市",
     "where": "Woman's Club"
    },
-   "ja": "Woman's Club of Bryan のクリスマスマーケット",
+   "ja": "クリスマスの買い物市「Christmas on Carter Creek」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -31513,13 +31531,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "クルマの展示会とおもちゃの寄付集め",
+    "item": "ホリデーの車の展示会とおもちゃ寄付",
     "when": "11/22(日)",
     "cond": "おもちゃ寄付",
     "what": "車の集い",
     "where": "Lake Walk"
    },
-   "ja": "クルマの展示会とおもちゃの寄付集め",
+   "ja": "ホリデーの車の展示会とおもちゃ寄付",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -40106,13 +40124,13 @@
    "eventNews": false,
    "sum": {
     "store": "Brazos Center",
-    "item": "トレカの売買・交換イベント「Pack Fresh Card Show」",
+    "item": "トレカの展示即売会「Pack Fresh Card Show」",
     "when": "11/21(土)〜11/22(日)",
     "cond": "入場料",
     "what": "カードショー",
     "where": "Brazos Center"
    },
-   "ja": "トレカの売買・交換イベント「Pack Fresh Card Show」",
+   "ja": "トレカの展示即売会「Pack Fresh Card Show」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -48519,11 +48537,11 @@
    "source": "Destination Bryan",
    "posted": "2026-11-07T23:32Z",
    "firstSeen": "2026-11-07T23:32Z",
-   "expires": "2026-11-20",
+   "expires": "2026-11-27",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-20",
+   "localDate": "2026-11-27",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -48540,8 +48558,8 @@
    "sum": {
     "store": "Lake Walk",
     "item": "Lake Walk のランニングクラブ",
-    "when": "11/20(金)",
-    "what": "ランクラブ",
+    "when": "11/27(金)",
+    "what": "ラン会",
     "where": "Lake Walk",
     "cond": "誰でも参加可"
    },
@@ -48566,7 +48584,7 @@
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-18",
+   "localDate": "2026-11-21",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -48582,13 +48600,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Event Ce…",
-    "item": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
-    "when": "〜12/4(金)",
-    "what": "ツリー展示",
+    "item": "飾り付けたクリスマスツリーが並ぶ「Festival of Trees」",
+    "when": "〜12/4",
+    "what": "ツリーの祭典",
     "where": "The Kimbell",
     "cond": "家族向け"
    },
-   "ja": "飾り付けたクリスマスツリーの展示「Festival of Trees」",
+   "ja": "飾り付けたクリスマスツリーが並ぶ「Festival of Trees」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -55694,11 +55712,11 @@
    "source": "Destination Bryan",
    "posted": "2026-11-01T23:33Z",
    "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-20",
+   "expires": "2026-11-27",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-20",
+   "localDate": "2026-11-27",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -55714,13 +55732,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "子供向けの音楽遊び「Music Play」",
-    "when": "11/20(金)",
+    "item": "幼児向けの音楽あそび「Music Play」",
+    "when": "11/27(金)",
     "cond": "子供向け",
     "what": "子供の音楽遊び",
     "where": "St. Andrew's教会"
    },
-   "ja": "子供向けの音楽遊び「Music Play」",
+   "ja": "幼児向けの音楽あそび「Music Play」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -55823,7 +55841,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-18",
+   "localDate": "2026-11-21",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -55839,13 +55857,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館の特別展「E Pluribus Unum」",
+    "item": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
     "when": "〜2027/5/16",
-    "what": "アメリカ史展",
+    "what": "米国史の特別展",
     "where": "ブッシュ図書館博物館",
     "cond": "博物館の展示"
    },
-   "ja": "ブッシュ大統領図書館の特別展「E Pluribus Unum」",
+   "ja": "ブッシュ大統領図書館博物館の特別展「E Pluribus Unum」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -55854,6 +55872,128 @@
    "freebie": null,
    "region": "College Station",
    "family": true
+  },
+  {
+   "id": "e846931b91dc",
+   "title": "\"Remnants of 150 Years at Texas A&M University\" Exhibit at Cushing Library",
+   "link": "https://www.destinationbryan.com/events/a-legacy-built-of-brick-stone-remnants-of-150-years-at-texas-a-m-university/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-20T23:32Z",
+   "firstSeen": "2026-11-20T23:32Z",
+   "expires": "2026-11-23",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-23",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Cushing Library",
+    "item": "A&M 150年の建物の名残をたどる展示",
+    "when": "11/23(月)",
+    "cond": "展示",
+    "what": "A&M150年展",
+    "where": "Cushing Library"
+   },
+   "ja": "A&M 150年の建物の名残をたどる展示",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-23"
+  },
+  {
+   "id": "ae0d015ed0c7",
+   "title": "Out & About Holiday Market Hangout at Rountree Market",
+   "link": "https://www.destinationbryan.com/events/out-about-holiday-market-hangout/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-20T23:32Z",
+   "firstSeen": "2026-11-20T23:32Z",
+   "expires": "2026-11-29",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-29",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Rountree Market",
+    "item": "Rountree Market のホリデーマーケット",
+    "when": "11/29(日)",
+    "what": "ホリデー市",
+    "where": "Rountree Market"
+   },
+   "ja": "Rountree Market のホリデーマーケット",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-29"
+  },
+  {
+   "id": "1a73599356fa",
+   "title": "Football Extravaganza at Aggieland Safari",
+   "link": "https://www.destinationbryan.com/events/aggieland-safari-football-extravaganza-sundays/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-20T23:32Z",
+   "firstSeen": "2026-11-20T23:32Z",
+   "expires": "2026-11-29",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-29",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Aggieland Safari",
+    "item": "Aggieland Safari の日曜「Football Extravaga…",
+    "when": "11/29(日)",
+    "cond": "動物園",
+    "what": "サファリの催し",
+    "where": "Aggieland Safa…"
+   },
+   "ja": "Aggieland Safari の日曜「Football Extravaga…",
+   "jaVia": "claude-ev",
+   "outing": [
+    "動物"
+   ],
+   "family": true,
+   "date": "2026-11-29"
   }
  ]
 }
