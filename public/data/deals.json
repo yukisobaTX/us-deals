@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20T03:45Z",
- "count": 1643,
+ "updated": "2026-11-20T04:22Z",
+ "count": 1644,
  "stats": {
   "h2s": {
    "read": 100,
@@ -15,7 +15,7 @@
    "added": 0
   },
   "ffp": {
-   "read": 0,
+   "read": 20,
    "added": 0
   },
   "msm": {
@@ -55,17 +55,50 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
-   "geminiEvent": 1,
+   "gemini": 13,
+   "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest"
+   "geminiToday": 10,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
- "errors": [
-  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "b4cdda57d504",
+   "title": "Amazon Saltine Crackers Just $1.51 Shipped",
+   "link": "https://hip2save.com/deals/saltine-crackers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-20T04:00Z",
+   "firstSeen": "2026-11-20T04:22Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/06/Amazon-Saver-saltine-crackers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonの塩味クラッカーが送料込みでわずか1.51ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonの塩味クラッカーが送料込みでわずか1.51ドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "350d152f832a",
    "title": "Finish Jet-Dry Rinse Aid Only $2.74 Shipped on Amazon",
@@ -2462,13 +2495,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ダンカン・ハインズのケーキミックスがAmazonで送料込み1.17ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ダンカン・ハインズのケーキミックスがAmazonで送料込み1.17ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bbfee8c2ef40",
@@ -2494,13 +2529,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "American Girl人形とアクセサリーのお得なセール！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "American Girl人形とアクセサリーのお得なセール！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e3e5f5f05ebb",
@@ -2526,13 +2563,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "AmazonでJLabが最大50%オフ | ワイヤレスヘッドホン＆イヤホンセットが送料込みでわずか$45",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "AmazonでJLabが最大50%オフ | ワイヤレスヘッドホン＆イヤホンセットが送料込みでわずか$45",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "179e10a0e738",
@@ -2558,13 +2597,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ザ・ボディショップのアドベントカレンダーがAmazonで送料込みわずか83ドル（190ドル相当！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ザ・ボディショップのアドベントカレンダーがAmazonで送料込みわずか83ドル（190ドル相当！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0cbfbfebf145",
@@ -2625,13 +2666,15 @@
    "gift": {
     "grocery": false
    },
+   "date": null,
+   "ja": "Bestbuy.com：100ドルのAppleギフトカードを購入すると、15ドルのBest Buyギフトカードがボーナスとして進呈されます",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Bestbuy.com：100ドルのAppleギフトカードを購入すると、15ドルのBest Buyギフトカードがボーナスとして進呈されます",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4bcf98646d2c",
@@ -2657,13 +2700,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "The Body ShopのアドベントカレンダーギフトセットがAmazonでたったの$83.xx（通常価格$110）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "The Body ShopのアドベントカレンダーギフトセットがAmazonでたったの$83.xx（通常価格$110）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c0620f4d1344",
@@ -2689,13 +2734,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* クイジナート 3カップ ミニプレッププラス フードチョッパーが送料込みでわずか19.98ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*大人気* クイジナート 3カップ ミニプレッププラス フードチョッパーが送料込みでわずか19.98ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "59e959766cb2",
@@ -2721,13 +2768,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "70ドル相当のAmazon Essentialsの衣類が、プライム会員なら送料込みでわずか15ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "70ドル相当のAmazon Essentialsの衣類が、プライム会員なら送料込みでわずか15ドル",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "209885b92603",
@@ -2753,13 +2802,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "26インチのエクササイズボールがAmazonでわずか$7.64（通常価格$18）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "26インチのエクササイズボールがAmazonでわずか$7.64（通常価格$18）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d694dee2af72",
@@ -2819,13 +2870,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レッドライトセラピーマスクがAmazonで送料込み41.84ドル（通常価格93ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レッドライトセラピーマスクがAmazonで送料込み41.84ドル（通常価格93ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "43ed89eb022f",
@@ -2889,13 +2942,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "LuxeのビデアタッチメントがAmazonでわずか$29.97（通常価格$40）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "LuxeのビデアタッチメントがAmazonでわずか$29.97（通常価格$40）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "95df5b1005dd",
@@ -2921,13 +2976,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-19",
+   "ja": "ソニックのお得情報、クーポン、プロモーションコード | 今日はコーンドッグが 0.99 ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sonic",
-    "item": "",
+    "item": "ソニックのお得情報、クーポン、プロモーションコード | 今日はコーンドッグが 0.99 ドル！",
     "when": "11/19(木)まで",
     "cond": "コード入力"
-   },
-   "date": "2026-11-19"
+   }
   },
   {
    "id": "932c1f1cbb48",
@@ -2953,13 +3010,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットのレディースベーシックTシャツがわずか$4.80から | クローゼットをリフレッシュ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのレディースベーシックTシャツがわずか$4.80から | クローゼットをリフレッシュ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c01d856673cc",
@@ -3062,13 +3121,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Ninja SLUSHiフローズンドリンクマシンがBestBuy.comで送料込み149.99ドル（通常価格350ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Ninja SLUSHiフローズンドリンクマシンがBestBuy.comで送料込み149.99ドル（通常価格350ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "991dcbad9d35",
@@ -3094,13 +3155,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "COSRXのピンクペプチドコラーゲンアイパッチがAmazonで送料込みわずか$13（通常価格$23）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "COSRXのピンクペプチドコラーゲンアイパッチがAmazonで送料込みわずか$13（通常価格$23）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "837e80d44b8a",
@@ -3193,13 +3256,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ロボット掃除機＆モップが300ドル以上オフ＋Amazonで送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ロボット掃除機＆モップが300ドル以上オフ＋Amazonで送料無料",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "04bdc4258325",
@@ -3225,13 +3290,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "McCormick オールナチュラル ピュアバニラエクストラクトボトル（16オンス）が送料込みでわずか$15.92、さらにバニラビーンズのお得情報も！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "McCormick オールナチュラル ピュアバニラエクストラクトボトル（16オンス）が送料込みでわずか$15.92、さらにバニラビーンズのお得情報も！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3694b1b7c727",
@@ -3257,13 +3324,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CatriceのアンダーアイブライトナーがAmazonで送料込み4.56ドル（5つ星レビューが数千件）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "CatriceのアンダーアイブライトナーがAmazonで送料込み4.56ドル（5つ星レビューが数千件）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "995380636e80",
@@ -3289,13 +3358,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "AmazonでEmotional Support Pals x NFLセットがわずか13.59ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "AmazonでEmotional Support Pals x NFLセットがわずか13.59ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f7b9be33ae0b",
@@ -3321,13 +3392,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Groceryのトースター用ペストリー8個入りが、1個あたりわずか0.93ドル（送料込み）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Groceryのトースター用ペストリー8個入りが、1個あたりわずか0.93ドル（送料込み）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "78c62c44a50f",
@@ -3353,13 +3426,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* MaryRuth'sキッズマルチビタミングミ、2か月分が送料込みでわずか$11、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*大人気* MaryRuth'sキッズマルチビタミングミ、2か月分が送料込みでわずか$11、その他多数！",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "db6f6efbbe30",
@@ -3417,13 +3492,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "これは単なる炊飯器ではありません…8つの調理機能があり、Amazonで23ドル割引！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "これは単なる炊飯器ではありません…8つの調理機能があり、Amazonで23ドル割引！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e47561f2e6b4",
@@ -3449,13 +3526,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Raising Cane'sの「Elf on the Shelf」ぬいぐるみ犬が11月27日に登場（わずか10.99ドル！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Raising Cane's",
-    "item": "",
+    "item": "Raising Cane'sの「Elf on the Shelf」ぬいぐるみ犬が11月27日に登場（わずか10.99ドル！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "420daae428de",
