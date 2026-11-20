@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-20T03:20Z",
- "count": 1642,
+ "updated": "2026-11-20T03:45Z",
+ "count": 1643,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 9
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
-   "added": 22
+   "added": 21
   },
   "doc": {
    "read": 15,
    "added": 0
   },
   "ffp": {
-   "read": 20,
+   "read": 0,
    "added": 0
   },
   "msm": {
    "read": 75,
-   "added": 10
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 5
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 2
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,14 +55,16 @@
    "added": 0
   },
   "ja": {
-   "gemini": 16,
-   "geminiEvent": 2,
+   "gemini": 15,
+   "geminiEvent": 1,
    "mymemory": 25,
-   "geminiToday": 6,
+   "geminiToday": 8,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
+ ],
  "items": [
   {
    "id": "350d152f832a",
@@ -139,7 +141,7 @@
    "source": "WTAW(カレッジステーション)",
    "posted": "2026-11-20T02:18Z",
    "firstSeen": "2026-11-20T03:20Z",
-   "expires": null,
+   "expires": "2026-11-20",
    "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
    "noAlert": true,
    "region": "College Station",
@@ -161,16 +163,18 @@
    "family": true,
    "localDate": "2026-11-20",
    "freebie": null,
-   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-   "jaVia": "mymemory",
+   "ja": "街のイルミネーション点灯式「Lights On!」",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-    "when": "11/20(金)",
-    "cond": ""
+    "store": "Downtown Bryan",
+    "item": "街のイルミネーション点灯式「Lights On!」",
+    "when": "11/20(金) 18:00〜",
+    "cond": "無料・家族向け",
+    "what": "イルミ点灯式",
+    "where": "Downtown Bryan"
    },
-   "dup": "bfa755d60ce5",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "dup": "bfa755d60ce5"
   },
   {
    "id": "6a525a9b6aa3",
@@ -230,13 +234,15 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "Kohl'sの2026年ブラックフライデー広告スキャンが掲載されました",
-   "jaVia": "mymemory",
+   "ja": "BFセール広告チラシ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Kohl's",
-    "item": "Kohl'sの2026年ブラックフライデー広告スキャンが掲載されました",
+    "store": "Kohl’s",
+    "item": "BFセール広告チラシ",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "チラシ公開",
+    "where": "Kohl’s"
    },
    "date": null
   },
@@ -340,8 +346,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "244a8a303180",
-   "date": null
+   "date": null,
+   "dup": "244a8a303180"
   },
   {
    "id": "0e39e2e92b58",
@@ -372,6 +378,40 @@
    "sum": {
     "store": "Amazon",
     "item": "Lunakai更年期サポートグミがAmazonで送料込み12.96ドル（通常価格28ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ddf0bbe85506",
+   "title": "Moisturizing Gel Socks Just $6 Shipped on Amazon (Reg. $12)",
+   "link": "https://hip2save.com/deals/moisturizing-gel-socks/",
+   "source": "Hip2Save",
+   "posted": "2026-11-19T23:15Z",
+   "firstSeen": "2026-11-20T03:45Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/12/gel-socks.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 6.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "保湿ジェルソックスがAmazonで送料込みわずか$6（通常価格$12）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "保湿ジェルソックスがAmazonで送料込みわずか$6（通常価格$12）",
     "when": "",
     "cond": ""
    },
@@ -444,8 +484,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ad2467e9769e",
-   "date": null
+   "date": null,
+   "dup": "ad2467e9769e"
   },
   {
    "id": "f4664bbe91e5",
@@ -454,7 +494,7 @@
    "source": "WTAW(カレッジステーション)",
    "posted": "2026-11-19T22:56Z",
    "firstSeen": "2026-11-20T03:20Z",
-   "expires": null,
+   "expires": "2026-12-03",
    "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19161804/volunteers_640x360-300x169.jpg",
    "noAlert": true,
    "region": "College Station",
@@ -588,13 +628,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ブラックフライデーのお買い物におすすめの場所：2026年のお得なセール情報はこちら！",
-   "jaVia": "mymemory",
+   "ja": "BFセールのおすすめ情報",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart・Target",
-    "item": "ブラックフライデーのお買い物におすすめの場所：2026年のお得なセール情報はこちら！",
+    "item": "BFセールのおすすめ情報",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "BFお得情報",
+    "where": "各ショップ"
    },
    "date": null
   },
@@ -1216,8 +1258,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "3444edb9cc3c",
-   "date": null
+   "date": null,
+   "dup": "3444edb9cc3c"
   },
   {
    "id": "acce9d4a620a",
@@ -1481,13 +1523,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "OUAIファインヘア・バイオチン・シックニングシャンプーが送料込みでわずか$18.24（通常価格$32）など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "OUAIファインヘア・バイオチン・シックニングシャンプーが送料込みでわずか$18.24（通常価格$32）など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8b3a2314193b",
@@ -1588,13 +1632,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "リトルタイクス T-レックス コージークーペがAmazonで送料込み39.99ドル（通常価格65ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "リトルタイクス T-レックス コージークーペがAmazonで送料込み39.99ドル（通常価格65ドル）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "90648ae6bed3"
   },
   {
@@ -1623,13 +1669,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースアイレットパーカーがウォルマートでたったの$7.88、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Amazon",
-    "item": "",
+    "item": "レディースアイレットパーカーがウォルマートでたったの$7.88、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ae126a0586da",
@@ -1655,13 +1703,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでコカ・コーラ12缶パックが3セットで送料込みわずか$14.73",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでコカ・コーラ12缶パックが3セットで送料込みわずか$14.73",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "61e83bccc05b"
   },
   {
@@ -1688,13 +1738,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ブロードライヤーブラシセットがAmazonでたったの$29.xx（通常価格$80）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ブロードライヤーブラシセットがAmazonでたったの$29.xx（通常価格$80）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "abf5fef458b6",
@@ -1720,13 +1772,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートのキッズパジャマがたったの$6 | グリンチ、ブルーイ、ディズニーなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートのキッズパジャマがたったの$6 | グリンチ、ブルーイ、ディズニーなど！",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "d10a4076852c",
@@ -1752,13 +1806,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "The Only Beanのカリカリロースト枝豆バラエティパック3個セットが、送料込みでわずか9.68ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "The Only Beanのカリカリロースト枝豆バラエティパック3個セットが、送料込みでわずか9.68ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "de3c83c3a239",
@@ -1825,13 +1881,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "店頭で100ドルのLowe'sギフトカードを入手して、10ドルのMyLowe'sマネーを獲得しましょう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "店頭で100ドルのLowe'sギフトカードを入手して、10ドルのMyLowe'sマネーを獲得しましょう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "70ba4fb4a4cf",
@@ -1859,13 +1917,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "人工杉の木2本セットが送料込みでわずか$33.99（通常価格$70）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Amazon",
-    "item": "",
+    "item": "人工杉の木2本セットが送料込みでわずか$33.99（通常価格$70）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "76b907419ca4",
@@ -1891,13 +1951,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CrayolaライトアップがAmazonで3.xxドルから（通常価格11ドル）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "CrayolaライトアップがAmazonで3.xxドルから（通常価格11ドル）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "dd09c1af30b8",
@@ -1923,13 +1985,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "AmazonでRubbermaid Brilliance食品保存容器セットが最大50%オフ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "AmazonでRubbermaid Brilliance食品保存容器セットが最大50%オフ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f51418e0d61d",
@@ -1955,13 +2019,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lifelines香り付きラバジェルペンセット、5本セットがたったの$16.99、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Lifelines香り付きラバジェルペンセット、5本セットがたったの$16.99、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "140477167a96",
@@ -1987,13 +2053,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "タオルウォーマーがAmazonで送料込み52.99ドル（通常価格90ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "タオルウォーマーがAmazonで送料込み52.99ドル（通常価格90ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "91d3a001e31e",
@@ -2019,13 +2087,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "grace & stella使い捨てフェイスタオル60枚入りが送料込みでわずか$7.61、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "grace & stella使い捨てフェイスタオル60枚入りが送料込みでわずか$7.61、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "06a4797ca115",
@@ -2051,13 +2121,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Nex PlaygroundがAmazonで送料込みわずか209ドル（通常価格299ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Nex PlaygroundがAmazonで送料込みわずか209ドル（通常価格299ドル）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "e9a133a1699c"
   },
   {
@@ -2084,13 +2156,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ミセス・マイヤーズのクリーンデイ・オールパーパス・エブリデイクリーナーが、送料込みでわずか3.68ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ミセス・マイヤーズのクリーンデイ・オールパーパス・エブリデイクリーナーが、送料込みでわずか3.68ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "56e82ea605bb",
@@ -2116,13 +2190,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lanolipsホリデーリップバームデュオが、CVSリワード適用後わずか$2.99（通常価格 10ドル）| クリスマスプレゼントにぴったり！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "Lanolipsホリデーリップバームデュオが、CVSリワード適用後わずか$2.99（通常価格 10ドル）| クリスマスプレゼントにぴったり！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "63e81fdd08f2",
@@ -2148,13 +2224,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "PlayVibe 1500ピースパズルボード（引き出しとカバー付き）が送料込みでわずか$62.99！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "PlayVibe 1500ピースパズルボード（引き出しとカバー付き）が送料込みでわずか$62.99！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "dc682f52f8aa",
@@ -2180,13 +2258,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "COSRXのスネイルムチンパワーエッセンスがAmazonで送料込みわずか$12（通常価格$25）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "COSRXのスネイルムチンパワーエッセンスがAmazonで送料込みわずか$12（通常価格$25）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "060ad260b40d",
@@ -2214,13 +2294,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ダンキン・リフレッシャー シングル トゥーゴー！ドリンクミックス、40個入りが送料込みでわずか$7.50、その他にも多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Dunkin'・Amazon",
-    "item": "",
+    "item": "ダンキン・リフレッシャー シングル トゥーゴー！ドリンクミックス、40個入りが送料込みでわずか$7.50、その他にも多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b57c8190b8e2",
@@ -2246,13 +2328,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Keurig K-Mini MateシングルサーブK-CupポッドコーヒーメーカーがAmazonでわずか$49.xx（通常価格$90）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Keurig K-Mini MateシングルサーブK-CupポッドコーヒーメーカーがAmazonでわずか$49.xx（通常価格$90）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d69b37d92b3e",
@@ -2278,13 +2362,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "充電式クリップオン読書灯がAmazonでたったの$7.99（通常価格$26）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "充電式クリップオン読書灯がAmazonでたったの$7.99（通常価格$26）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "446475f494a2",
@@ -2342,13 +2428,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "誰もが気に入っている話題の3段式薬箱が、プライム会員なら送料込みでわずか$20.51",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "誰もが気に入っている話題の3段式薬箱が、プライム会員なら送料込みでわずか$20.51",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "854ba08feb85",
@@ -12343,7 +12431,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "5af0b256c866"
+   "dup": "7af495044da0"
   },
   {
    "id": "822905440d26",
