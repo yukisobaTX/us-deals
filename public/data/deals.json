@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T02:19Z",
+ "updated": "2026-11-21T03:33Z",
  "count": 1628,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 9
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -12,7 +12,7 @@
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 12
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -55,11 +55,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
-   "geminiEvent": 1,
+   "gemini": 14,
+   "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 6,
-   "model": "gemini-flash-latest"
+   "geminiToday": 8,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
  "errors": [],
@@ -86,13 +87,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ブラックフライデーのおすすめ動画配信サービスセール – Disney+、AppleTV、Starzなど！",
-   "jaVia": "mymemory",
+   "ja": "ストリーミング配信の割引",
+   "jaVia": "gemini",
    "sum": {
     "store": "",
-    "item": "ブラックフライデーのおすすめ動画配信サービスセール – Disney+、AppleTV、Starzなど！",
-    "when": "",
-    "cond": ""
+    "item": "ストリーミング配信の割引",
+    "when": "2026-11-20",
+    "cond": "Black Friday",
+    "what": "配信割引",
+    "where": "Disney+ほか"
    },
    "date": null
   },
@@ -196,7 +199,40 @@
     "when": "",
     "cond": ""
    },
-   "dup": "f452bec37ec8",
+   "date": null
+  },
+  {
+   "id": "49c5f5033af4",
+   "title": "Chick-fil-A Deals | New Sauce, Peppermint Flavor Returns, & More!",
+   "link": "https://thefreebieguy.com/chick-fil-a-deals-coupons-promotions/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-21T00:00Z",
+   "firstSeen": "2026-11-21T03:33Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Chick-Fil-A-Menu-Items-Coming-November-16th-thefreebieguy-840x630.png",
+   "hot": true,
+   "stores": [
+    "Chick-fil-A"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Chick-fil-A のお得情報 | 新しいソース、ペパーミントフレーバーの復活など！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Chick-fil-A",
+    "item": "Chick-fil-A のお得情報 | 新しいソース、ペパーミントフレーバーの復活など！",
+    "when": "",
+    "cond": ""
+   },
    "date": null
   },
   {
@@ -265,8 +301,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "188ddbe61d63",
-   "date": null
+   "date": null,
+   "dup": "188ddbe61d63"
   },
   {
    "id": "53f1b8a41ce3",
@@ -459,7 +495,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "2f3b0e2e1a95"
   },
   {
    "id": "6d1ad6612af0",
@@ -559,8 +596,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "7f1a5753f7bc",
-   "date": null
+   "date": null,
+   "dup": "7f1a5753f7bc"
   },
   {
    "id": "8fe5c4798310",
@@ -866,8 +903,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "7af495044da0",
-   "date": null
+   "date": null,
+   "dup": "7af495044da0"
   },
   {
    "id": "1c37ce4accf6",
@@ -932,6 +969,40 @@
    "sum": {
     "store": "Amazon",
     "item": "ダイエットペプシ12缶パックが3ケースで送料込みわずか$11.50、Amazonで",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "af9cf8662ce1",
+   "title": "Keychain Portable Charger with Built-in Cords only $19.99! {Great Teen Gift Idea}",
+   "link": "https://moneysavingmom.com/rorry-keychain-portable-charger-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-20T21:02Z",
+   "firstSeen": "2026-11-21T03:33Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/03/Rorry-Portable-Charger.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "キーチェーン ポータブル充電器（ケーブル内蔵）がたったの$19.99！{ティーン向けの素晴らしいギフトのアイデア}",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "キーチェーン ポータブル充電器（ケーブル内蔵）がたったの$19.99！{ティーン向けの素晴らしいギフトのアイデア}",
     "when": "",
     "cond": ""
    },
@@ -1642,13 +1713,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クロスネックレス3点セットがAmazonでたったの$4.99 | クリスマスプレゼントのアイデア",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "クロスネックレス3点セットがAmazonでたったの$4.99 | クリスマスプレゼントのアイデア",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a09a22ef5220",
@@ -1674,13 +1747,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "この3ドルのターゲット・ジェム・クリスマスオーナメントは、ギフトカードを贈るのに最適な方法です！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "この3ドルのターゲット・ジェム・クリスマスオーナメントは、ギフトカードを贈るのに最適な方法です！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4b6177b4666a",
@@ -1744,13 +1819,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "AmazonでSquishmallowsがわずか4ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "AmazonでSquishmallowsがわずか4ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "070fcb12bdd7",
@@ -1811,13 +1888,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "TargetでCat & Jackの衣類が40%オフ | スタイルはわずか$3.60から",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "TargetでCat & Jackの衣類が40%オフ | スタイルはわずか$3.60から",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d2df97a4cd6d",
@@ -1884,13 +1963,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Citiの特典：Best Buyで200ドル以上のご購入が10ドル割引（2回まで）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Citiの特典：Best Buyで200ドル以上のご購入が10ドル割引（2回まで）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6b0a50d63ef5",
@@ -1916,13 +1997,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "コードレス電動除雪スコップがプライム会員なら送料込みでわずか124.99ドル（通常価格230ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "コードレス電動除雪スコップがプライム会員なら送料込みでわずか124.99ドル（通常価格230ドル）",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "df22815b1dd1",
@@ -1948,13 +2031,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハンドタオルホルダー（トレイ付き）がAmazonでたったの$9.99（通常価格$26）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハンドタオルホルダー（トレイ付き）がAmazonでたったの$9.99（通常価格$26）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "00bf1b579154",
@@ -1980,13 +2065,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-29",
+   "ja": "KFC のお得情報 | 11 月 29 日まで、フレンズギビングの豪華なごちそうが 20 ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "KFC",
-    "item": "",
+    "item": "KFC のお得情報 | 11 月 29 日まで、フレンズギビングの豪華なごちそうが 20 ドル！",
     "when": "11/29(日)まで",
     "cond": ""
-   },
-   "date": "2026-11-29"
+   }
   },
   {
    "id": "15e08b65603e",
@@ -2012,13 +2099,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-20",
+   "ja": "当社のチームが本日見つけたウォルマートの10の商品（ランダム）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "当社のチームが本日見つけたウォルマートの10の商品（ランダム）",
     "when": "11/20(金)まで",
     "cond": ""
-   },
-   "date": "2026-11-20"
+   }
   },
   {
    "id": "24fc9965ca5f",
@@ -2044,13 +2133,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ボディウォッシュギフトセットが、ウォルマートキャッシュ適用後5ドルから（30ドル相当）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ボディウォッシュギフトセットが、ウォルマートキャッシュ適用後5ドルから（30ドル相当）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ba312b872e9b",
@@ -2115,13 +2206,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*レア* Summer Fridaysのリップバターバームが送料込みでわずか$18.24、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*レア* Summer Fridaysのリップバターバームが送料込みでわずか$18.24、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "10b61d820099",
@@ -2147,13 +2240,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Montana West X Wranglerの財布がAmazonでわずか$4.xx（通常価格$10）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Montana West X Wranglerの財布がAmazonでわずか$4.xx（通常価格$10）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f2eedc1eb5f8",
@@ -2179,13 +2274,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートでSamsung Galaxyデバイスが最大70ドルオフ | ギフトリストに載っている全員に、ウォッチ、タブレット、Budsをプレゼントしましょう",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートでSamsung Galaxyデバイスが最大70ドルオフ | ギフトリストに載っている全員に、ウォッチ、タブレット、Budsをプレゼントしましょう",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f67543bef713",
@@ -2211,13 +2308,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Toniebox 2 ブルーイバンドル（フィギュア3体＆Tonieplayゲーム付き）がAmazonでわずか$99.xx（通常価格$210）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Toniebox 2 ブルーイバンドル（フィギュア3体＆Tonieplayゲーム付き）がAmazonでわずか$99.xx（通常価格$210）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "228902ba78da",
@@ -2243,13 +2342,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "仕切り付きプレート100枚が、Amazonで送料込みわずか39.99ドル（1枚あたり40セント！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "仕切り付きプレート100枚が、Amazonで送料込みわずか39.99ドル（1枚あたり40セント！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "10e0a66cb761",
@@ -2275,13 +2376,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*お得* Kohl'sでOneida 72ピースカトラリーセットがたったの$34.38！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "*お得* Kohl'sでOneida 72ピースカトラリーセットがたったの$34.38！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "599ddfdbc1b8",
@@ -2307,13 +2410,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ステンレス製電気ケトルがAmazonでわずか$20.97（5つ星レビュー13,000件以上）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ステンレス製電気ケトルがAmazonでわずか$20.97（5つ星レビュー13,000件以上）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "db308b757686",
@@ -2374,13 +2479,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Cascade Platinum Plus食洗機用タブレット57個入りがAmazonで1個あたりわずか17.xx（通常価格$23）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Cascade Platinum Plus食洗機用タブレット57個入りがAmazonで1個あたりわずか17.xx（通常価格$23）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "da624884fe1c"
   },
   {
@@ -2407,13 +2514,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "AmazonでFoxyBaeヘアケア製品が最大50%オフ | ドライシャンプーが送料込みでわずか$11.62",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "AmazonでFoxyBaeヘアケア製品が最大50%オフ | ドライシャンプーが送料込みでわずか$11.62",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8ddba3a8e346",
@@ -2439,13 +2548,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "お得情報！DoorDashの食品・生鮮食品用プロモーションコードで最大60ドルお得に（感謝祭にぴったり！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "DoorDash",
-    "item": "",
+    "item": "お得情報！DoorDashの食品・生鮮食品用プロモーションコードで最大60ドルお得に（感謝祭にぴったり！）",
     "when": "",
     "cond": "コード入力"
-   },
-   "date": null
+   }
   },
   {
    "id": "9a384ab592eb",
@@ -2509,13 +2620,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Tineco Goコードレススティック掃除機がAmazonで送料込み159ドル（通常価格329ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Tineco Goコードレススティック掃除機がAmazonで送料込み159ドル（通常価格329ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bcf29f7daa50",
@@ -10387,6 +10500,41 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "1d7875526242",
+   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
+   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-19T02:58Z",
+   "firstSeen": "2026-11-21T03:33Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "localDate": "2026-11-19",
+   "freebie": null,
+   "ja": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に開催",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に開催",
+    "when": "11/19(木)",
+    "cond": ""
+   },
+   "date": "2026-11-19"
   },
   {
    "id": "95027a865b98",
@@ -27939,7 +28087,7 @@
     "when": "",
     "cond": ""
    },
-   "dup": "dfbe672528fb"
+   "dup": "174e622587f9"
   },
   {
    "id": "266ba125fd8d",
@@ -31322,8 +31470,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "af37b0834d24"
+   "date": null
   },
   {
    "id": "1362fec99df2",
@@ -31357,8 +31504,7 @@
     "item": "マグナ・タイル コンボ46ピース マグネット式組み立てセットがたったの$20（通常価格$40）！",
     "when": "",
     "cond": ""
-   },
-   "dup": "af37b0834d24"
+   }
   },
   {
    "id": "8c93589be03f",
@@ -42640,8 +42786,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "c5c3e1508518"
+   "date": null
   },
   {
    "id": "1a844e489c6e",
@@ -54179,8 +54324,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "7cb5d6e1ba2b"
+   "date": null
   },
   {
    "id": "e2bcfd8c8b47",
@@ -55095,108 +55239,6 @@
     "item": "Samsung Galaxy S 26 Ultra 256 GBロック解除スマートフォンのみ$ 949.xx Amazon （登録$ 1400 ）",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "cf5735eb4f03",
-   "title": "EIGHT Shower Steamers Only $2.99 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/shower-steamers/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T03:20Z",
-   "firstSeen": "2026-11-06T04:06Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/swcandy-shower-steamers-1.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "シャワースチーマー8台のみ$ 2.99 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "シャワースチーマー8台のみ$ 2.99 Amazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "5f9652aca614",
-   "title": "Amazon Grocery 32oz Broth Just 95¢ Shipped",
-   "link": "https://hip2save.com/deals/amazon-grocery-broth/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T03:00Z",
-   "firstSeen": "2026-11-06T03:01Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Amazon-Grocery-Chicken-Broth-Display.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazon Grocery 32 ozブロスわずか95 ¢発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazon Grocery 32 ozブロスわずか95 ¢発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "215c92111231",
-   "title": "$300 Disney Email Delivery Gift Card Only $270 for Sam’s Club Plus Members",
-   "link": "https://thefreebieguy.com/disney-gift-card-deal-at-sams-club/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-06T02:57Z",
-   "firstSeen": "2026-11-06T03:01Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Kendall-Disney-Gift-Card-840x630.png",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "$ 300ディズニー電子メール配信ギフトカードSam's Club Plusメンバー限定$ 270",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "$ 300ディズニー電子メール配信ギフトカードSam's Club Plusメンバー限定$ 270",
-    "when": "",
-    "cond": "会員限定"
    },
    "date": null
   },
