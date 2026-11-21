@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T04:19Z",
- "count": 1630,
+ "updated": "2026-11-21T11:09Z",
+ "count": 1613,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -19,7 +19,7 @@
    "added": 0
   },
   "msm": {
-   "read": 0,
+   "read": 75,
    "added": 0
   },
   "tfg": {
@@ -28,11 +28,11 @@
   },
   "mws": {
    "read": 20,
-   "added": 5
+   "added": 4
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -58,14 +58,12 @@
    "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 10,
+   "geminiToday": 2,
    "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
- "errors": [
-  "Money Saving Mom: https://www.moneysavingmom.com/feed/: The read operation timed out"
- ],
+ "errors": [],
  "items": [
   {
    "id": "cf5735eb4f03",
@@ -134,40 +132,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "b4f55d733013",
-   "title": "The Best Black Friday Streaming Deals – Disney+, AppleTV, Starz & More!",
-   "link": "https://thefreebieguy.com/best-streaming-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-21T02:08Z",
-   "firstSeen": "2026-11-21T02:19Z",
-   "expires": "2026-11-20",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Streaming-Deals-840x630.png",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ストリーミング配信の割引",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "",
-    "item": "ストリーミング配信の割引",
-    "when": "2026-11-20",
-    "cond": "Black Friday",
-    "what": "配信割引",
-    "where": "Disney+ほか"
-   },
-   "date": "2026-11-20"
   },
   {
    "id": "9f2ffa5d5d1b",
@@ -2180,40 +2144,6 @@
    }
   },
   {
-   "id": "15e08b65603e",
-   "title": "10 Random Walmart Things Our Team Grabbed Today",
-   "link": "https://hip2save.com/deals/best-things-to-buy-at-walmart/",
-   "source": "Hip2Save",
-   "posted": "2026-11-20T18:15Z",
-   "firstSeen": "2026-11-20T21:09Z",
-   "expires": "2026-11-20",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Walmart-boxes-stacked-with-christmas-tree-planter.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-20",
-   "ja": "当社のチームが本日見つけたウォルマートの10の商品（ランダム）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "当社のチームが本日見つけたウォルマートの10の商品（ランダム）",
-    "when": "11/20(金)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "24fc9965ca5f",
    "title": "Body Wash Gift Sets From $5 after Walmart Cash ($30 Value)",
    "link": "https://thefreebieguy.com/dove-body-wash-gift-set/",
@@ -3312,13 +3242,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Fit & Fresh 2段式キャセロールキャリアがAmazonでたったの$27.99（通常価格$40）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Fit & Fresh 2段式キャセロールキャリアがAmazonでたったの$27.99（通常価格$40）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9b3c7d80ef06",
@@ -3344,13 +3276,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メンズのフランネル裏地スリッパがたったの$5（通常価格$13）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "メンズのフランネル裏地スリッパがたったの$5（通常価格$13）！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "3024eed1734f"
   },
   {
@@ -3377,13 +3311,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* Lunakai PRO育毛＆修復サプリメントが送料込みでわずか$15.17！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*大人気* Lunakai PRO育毛＆修復サプリメントが送料込みでわずか$15.17！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1e92b85f97bf",
@@ -3441,13 +3377,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハートイニシャルネックレス14KゴールドメッキがAmazonでわずか$3.xx（通常価格$13）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハートイニシャルネックレス14KゴールドメッキがAmazonでわずか$3.xx（通常価格$13）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ce2f4e3d5b60",
@@ -3473,13 +3411,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Welch'sフルーツスナック60個入りがAmazonで送料込み10.79ドル（通常価格20ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Welch'sフルーツスナック60個入りがAmazonで送料込み10.79ドル（通常価格20ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4cac27aa1f27",
@@ -3505,13 +3445,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "COSRXの人気4点セットギフトセットがAmazonでたったの$16.xx（通常価格$25）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "COSRXの人気4点セットギフトセットがAmazonでたったの$16.xx（通常価格$25）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d860b7b60cb6",
@@ -3537,13 +3479,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ケイト・スペード2026年ベビーのファーストクリスマス・テディベアオーナメントがAmazonでたったの$20.xx（通常価格$35）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ケイト・スペード2026年ベビーのファーストクリスマス・テディベアオーナメントがAmazonでたったの$20.xx（通常価格$35）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "125b54ca377f",
@@ -3569,13 +3513,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "急げ！AmazonでLabubuぬいぐるみのお得なセール中",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "急げ！AmazonでLabubuぬいぐるみのお得なセール中",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5843a3e77fad",
@@ -3601,13 +3547,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "リトルタイクス特大インフレータブル裏庭サッカー＆バスケットボールコートがAmazonでたったの$199.xx（通常価格$400）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "リトルタイクス特大インフレータブル裏庭サッカー＆バスケットボールコートがAmazonでたったの$199.xx（通常価格$400）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "26410aef73c8",
@@ -3633,13 +3581,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでビデオゲーム＆アクセサリーが最大66%オフ | 価格は$17.xxから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでビデオゲーム＆アクセサリーが最大66%オフ | 価格は$17.xxから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fe3daef5b3a2",
@@ -3879,38 +3829,6 @@
    "date": null
   },
   {
-   "id": "09ce7f863aad",
-   "title": "Christmas Bracelet Making Kit Only $4.87 Shipped for Prime Members (Today Only)",
-   "link": "https://hip2save.com/deals/bracelet-making-kit/",
-   "source": "Hip2Save",
-   "posted": "2026-11-20T13:33Z",
-   "firstSeen": "2026-11-21T02:19Z",
-   "expires": "2026-11-20",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Gionlion-3000-Piece-Christmas-Bracelet-Making-Kit-1.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "11/20(金)まで",
-    "cond": "会員限定"
-   },
-   "date": "2026-11-20"
-  },
-  {
    "id": "f40fe555bdc9",
    "title": "Propane Torch Just $23.90 Shipped on Amazon (Great for Cooking, Camping & More)",
    "link": "https://hip2save.com/deals/airchef-propane-torch/",
@@ -4103,41 +4021,6 @@
    "date": null
   },
   {
-   "id": "1e9ec79a32eb",
-   "title": "Today only! 30% off Beauty & Personal Care Gift Sets at Target!",
-   "link": "https://moneysavingmom.com/today-only-30-off-beauty-personal-care-gift-sets-at-target/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-20T12:46Z",
-   "firstSeen": "2026-11-20T12:57Z",
-   "expires": "2026-11-20",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/beauty-personal-care-gift-sets-630x277.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 30,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "本日限り！Targetでビューティー＆パーソナルケアギフトセットが30%オフ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "本日限り！Targetでビューティー＆パーソナルケアギフトセットが30%オフ！",
-    "when": "11/20(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-20",
-   "dup": "85c441be3fde"
-  },
-  {
    "id": "c2018827ffae",
    "title": "Bluey Paint & Play Tea Party Only $5.xx on Amazon!",
    "link": "https://thefreebieguy.com/bluey-paint-play-tea-party/",
@@ -4170,79 +4053,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e6ea322d0144",
-   "title": "Walmart’s Flash Deals | Up to 75% Off Holiday Decor, Toys & More (Today Only!)",
-   "link": "https://hip2save.com/deals/walmart-flash-deals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-20T12:40Z",
-   "firstSeen": "2026-11-20T12:57Z",
-   "expires": "2026-11-20",
-   "thumb": "https://hip2save.com/wp-content/uploads/2019/03/Walmart-boxes-.png?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 75,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートのフラッシュセール | ホリデーデコレーション、おもちゃなどが最大75%オフ（本日限り！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートのフラッシュセール | ホリデーデコレーション、おもちゃなどが最大75%オフ（本日限り！）",
-    "when": "11/20(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-20"
-  },
-  {
-   "id": "a3977bcabbc2",
-   "title": "Free $7 Box Feast w/ $1+ purchase at KFC from Verizon Rewards Today!",
-   "link": "https://thefreebieguy.com/possible-freebie-from-verizon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-20T12:37Z",
-   "firstSeen": "2026-11-20T12:57Z",
-   "expires": "2026-11-20",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Verizon-Store-Front-840x630.png",
-   "hot": true,
-   "stores": [
-    "KFC"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-20"
-   },
-   "sum": {
-    "store": "KFC",
-    "item": "$7 Box Feast無料 ($1以上購入)",
-    "when": "2026-11-20",
-    "cond": "Verizon会員、$1以上購入",
-    "what": "無料ボックス",
-    "where": "KFC"
-   },
-   "ja": "$7 Box Feast無料 ($1以上購入)",
-   "jaVia": "gemini",
-   "date": "2026-11-20"
   },
   {
    "id": "5e863900fa99",
@@ -4388,39 +4198,6 @@
    "date": null
   },
   {
-   "id": "f962530fc32a",
-   "title": "30% Off Beauty Gift Sets on Target.com (Today ONLY!)",
-   "link": "https://hip2save.com/deals/target-daily-deals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-20T11:45Z",
-   "firstSeen": "2026-11-20T21:09Z",
-   "expires": "2026-11-20",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/target.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 30,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Target",
-    "item": "",
-    "when": "11/20(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-20",
-   "dup": "85c441be3fde"
-  },
-  {
    "id": "e66dc6013496",
    "title": "CVS Weekly Ad Preview (11/22/26 – 11/28/26) | We’ve Circled Our Faves!",
    "link": "https://hip2save.com/deals/cvs-weekly-ad/",
@@ -4555,48 +4332,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "4779cd3155f1",
-   "title": "Lights On! In Downtown Bryan is This Friday",
-   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-20T02:18Z",
-   "firstSeen": "2026-11-20T03:20Z",
-   "expires": "2026-11-20",
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "localDate": "2026-11-20",
-   "freebie": null,
-   "ja": "街のイルミネーション点灯式「Lights On!」",
-   "jaVia": "gemini-ev",
-   "sum": {
-    "store": "Downtown Bryan",
-    "item": "街のイルミネーション点灯式「Lights On!」",
-    "when": "11/20(金) 18:00〜",
-    "cond": "無料・家族向け",
-    "what": "イルミ点灯式",
-    "where": "Downtown Bryan"
-   },
-   "date": "2026-11-20",
-   "dup": "bfa755d60ce5"
   },
   {
    "id": "6a525a9b6aa3",
@@ -10622,6 +10357,41 @@
    "date": null
   },
   {
+   "id": "1d7875526242",
+   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
+   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-19T02:58Z",
+   "firstSeen": "2026-11-21T11:09Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "localDate": "2026-11-19",
+   "freebie": null,
+   "ja": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に実施",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に実施",
+    "when": "11/19(木)",
+    "cond": ""
+   },
+   "date": "2026-11-19"
+  },
+  {
    "id": "95027a865b98",
    "title": "Comfrt Early Black Friday Sale is Live! Save BIG on Viral Oversized Hoodies & Sweatpants",
    "link": "https://hip2save.com/deals/comfrt-clothing/",
@@ -14761,47 +14531,6 @@
     "where": "Woman's Club"
    },
    "ja": "クリスマスの買い物市「Christmas on Carter Creek」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-20",
-   "freebie": null
-  },
-  {
-   "id": "c3e7c75a2954",
-   "title": "TAMUsic Fall Fest at The Kimbell",
-   "link": "https://www.destinationbryan.com/events/tamusic-fall-fest-at-the-kimbell/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-17T23:32Z",
-   "firstSeen": "2026-11-17T23:32Z",
-   "expires": "2026-11-20",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-20",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Live Music"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "The Kimbell Cultural Events C…",
-    "item": "A&M音楽団体の秋のコンサート「TAMUsic Fall Fest」",
-    "when": "11/20(金)",
-    "what": "秋の音楽祭",
-    "where": "The Kimbell"
-   },
-   "ja": "A&M音楽団体の秋のコンサート「TAMUsic Fall Fest」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -19085,43 +18814,6 @@
    "date": null
   },
   {
-   "id": "395d365191b3",
-   "title": "Free 2026 Feastivities Holiday Ornament from Purina! Drops 11/9-11/20 at 11 am EST!",
-   "link": "https://thefreebieguy.com/purina-freebie/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-17T12:21Z",
-   "firstSeen": "2026-11-17T14:28Z",
-   "expires": "2026-11-20",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/2026-Purina-Ornament-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-09"
-   },
-   "ja": "ホリデーオーナメント無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Purina",
-    "item": "ホリデーオーナメント無料",
-    "when": "11/9-11/20 11am EST",
-    "cond": "時間限定",
-    "what": "無料オーナメント",
-    "where": "Purina"
-   },
-   "date": "2026-11-09"
-  },
-  {
    "id": "b8df4b9fbb1f",
    "title": "Initial Necklaces Only $3.99 on Amazon (Reg. $20)",
    "link": "https://hip2save.com/deals/amazon-initial-necklace/",
@@ -22454,38 +22146,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "b51c17749f44",
-   "title": "Burger King Deals | The 2026 Burger King Advent Calendar Returns 11/16 – 11/20 at 12 PM EST!",
-   "link": "https://thefreebieguy.com/burger-king-deals-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-16T15:01Z",
-   "firstSeen": "2026-11-16T22:07Z",
-   "expires": "2026-11-20",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Limited-time-Cheap-Meal-at-Burger-King-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Burger King"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Burger King",
-    "item": "",
-    "when": "11/20(金)まで 12PM",
-    "cond": ""
-   },
-   "date": "2026-11-20"
   },
   {
    "id": "1e3d9b66326c",
@@ -32558,89 +32218,6 @@
    "date": null
   },
   {
-   "id": "e9ed8b8418bf",
-   "title": "Father Son Nerf War at First Baptist Church Bryan",
-   "link": "https://www.destinationbryan.com/events/father-son-nerf-war-at-first-baptist-church-bryan/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-12T23:32Z",
-   "firstSeen": "2026-11-12T23:32Z",
-   "expires": "2026-11-20",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-20",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Family-Friendly"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "First Baptist Church Bryan",
-    "item": "父と息子のナーフ銃バトル大会",
-    "when": "11/20(金)",
-    "cond": "父子向け",
-    "what": "親子ナーフ戦",
-    "where": "First Baptist教会"
-   },
-   "ja": "父と息子のナーフ銃バトル大会",
-   "jaVia": "claude-ev",
-   "outing": [
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-11-20",
-   "freebie": null
-  },
-  {
-   "id": "d325dd044943",
-   "title": "Holiday Treats & Trinkets Market at The Kimbell",
-   "link": "https://www.destinationbryan.com/events/holiday-treats-and-trinkets-market-at-the-kimbell/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-12T23:32Z",
-   "firstSeen": "2026-11-12T23:32Z",
-   "expires": "2026-11-20",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-20",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "The Kimbell Cultural Events C…",
-    "item": "お菓子と雑貨のホリデーマーケット",
-    "when": "11/20(金)",
-    "what": "ホリデー市",
-    "where": "The Kimbell"
-   },
-   "ja": "お菓子と雑貨のホリデーマーケット",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-20",
-   "freebie": null
-  },
-  {
    "id": "56513e9c8ffd",
    "title": "Holiday Car Meet & Toy Drive at Lake Walk",
    "link": "https://www.destinationbryan.com/events/holiday-car-meet-toy-drive-at-lake-walk/",
@@ -34327,40 +33904,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "e16e5edcb194",
-   "title": "Shop JCPenney Black Friday Deals NOW (+ More Hot Deals Drop Nov 20th!)",
-   "link": "https://hip2save.com/deals/jcpenney-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T18:10Z",
-   "firstSeen": "2026-11-12T19:57Z",
-   "expires": "2026-11-20",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/jcp-black-friday.jpg?resize=306,182",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "JCPenneyのブラックフライデー先行セール(11/20に追加)",
-   "jaVia": "claude",
-   "sum": {
-    "store": "JCPenney",
-    "item": "JCPenneyのブラックフライデー先行セール(11/20に追加)",
-    "when": "〜11/20に追加セール",
-    "cond": "",
-    "what": "BF先行セール",
-    "where": "JCPenney"
-   },
-   "date": "2026-11-20"
   },
   {
    "id": "aacf7323e13a",
@@ -44721,48 +44264,6 @@
    }
   },
   {
-   "id": "bfa755d60ce5",
-   "title": "Lights On! In Historic Downtown Bryan",
-   "link": "https://www.destinationbryan.com/events/lights-on-in-historic-downtown-bryan/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-09T23:32Z",
-   "firstSeen": "2026-11-09T23:32Z",
-   "expires": "2026-11-20",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-20",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Holiday Events"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Historic Downtown Bryan",
-    "item": "ダウンタウンのクリスマス点灯イベント「Lights On!」",
-    "when": "11/20(金) 17時〜",
-    "cond": "家族向け",
-    "what": "点灯式",
-    "where": "ブライアン旧市街"
-   },
-   "ja": "ダウンタウンのクリスマス点灯イベント「Lights On!」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-20",
-   "freebie": null
-  },
-  {
    "id": "3c3c9c895694",
    "title": "YUM! Duncan Hines Mixes and Frostings Only $1 on Amazon",
    "link": "https://thefreebieguy.com/duncan-hines-classic-yellow-cake-mix/",
@@ -51284,40 +50785,6 @@
    "date": null
   },
   {
-   "id": "5ee77d7d0c81",
-   "title": "$0.10 Small Drink at Orange Julius thru November 20th!",
-   "link": "https://moneysavingmom.com/0-10-small-drink-at-orange-julius-thru-november-29th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T12:15Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": "2026-11-20",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-06-at-9.59.25-AM.png",
-   "hot": false,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "11月20日までOrange Juliusで$ 0.10のスモールドリンク！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Orange Julius",
-    "item": "11月20日までOrange Juliusで$ 0.10のスモールドリンク！",
-    "when": "11/20(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-20"
-  },
-  {
    "id": "0fa8183a0866",
    "title": "Uber Eats: Prime Members Can Get $20 Off TWO Orders!",
    "link": "https://moneysavingmom.com/uber-eats-prime-members-can-get-20-off-two-orders/",
@@ -55294,40 +54761,6 @@
    "date": null
   },
   {
-   "id": "c9b506855378",
-   "title": "Samsung Galaxy S26 Ultra 256GB Unlocked Smartphone Only $949.xx on Amazon (Reg $1400)",
-   "link": "https://thefreebieguy.com/samsung-galaxy-s26-ultra-256gb-unlocked-smartphone/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-06T10:50Z",
-   "firstSeen": "2026-11-06T11:16Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Samsung-Galaxy-S26-Ultra-Unlocked-Smartphone-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 32,
-   "price": 949.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Samsung Galaxy S 26 Ultra 256 GBロック解除スマートフォンのみ$ 949.xx Amazon （登録$ 1400 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Samsung Galaxy S 26 Ultra 256 GBロック解除スマートフォンのみ$ 949.xx Amazon （登録$ 1400 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "7e45bcc0a4fc",
    "title": "Panera Bread Deals | Glass Snowman Cups Just Dropped + Score One For Free on 12/3",
    "link": "https://thefreebieguy.com/panera-bread-deal-freebies/",
@@ -55740,48 +55173,6 @@
    ],
    "family": true,
    "date": "2026-11-27",
-   "freebie": null
-  },
-  {
-   "id": "74bb372cab83",
-   "title": "Lights On presented by Frost Bank",
-   "link": "https://events.bryantx.gov/default/Detail/2026-11-20-1700-Lights-On-Presented-by-Frost-Bank",
-   "source": "City of Bryan",
-   "posted": "2026-11-01T23:33Z",
-   "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-20",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-20",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Holiday Events"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Historic Downtown Bryan",
-    "item": "ブライアン市ダウンタウンのホリデー点灯イベント Lights On",
-    "when": "11/20(金) 17時",
-    "cond": "家族で",
-    "what": "点灯式",
-    "where": "ダウンタウンBryan"
-   },
-   "ja": "ブライアン市ダウンタウンのホリデー点灯イベント Lights On",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-20",
    "freebie": null
   },
   {
