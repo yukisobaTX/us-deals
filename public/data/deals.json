@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T03:33Z",
- "count": 1628,
+ "updated": "2026-11-21T04:19Z",
+ "count": 1630,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
@@ -19,20 +19,20 @@
    "added": 0
   },
   "msm": {
-   "read": 75,
-   "added": 1
+   "read": 0,
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
-   "added": 4
+   "added": 5
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,16 +55,86 @@
    "added": 0
   },
   "ja": {
-   "gemini": 14,
+   "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 8,
+   "geminiToday": 10,
    "model": "gemini-flash-latest",
    "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
- "errors": [],
+ "errors": [
+  "Money Saving Mom: https://www.moneysavingmom.com/feed/: The read operation timed out"
+ ],
  "items": [
+  {
+   "id": "cf5735eb4f03",
+   "title": "EIGHT Shower Steamers Only $2.99 on Amazon",
+   "link": "https://hip2save.com/deals/shower-steamers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-21T03:40Z",
+   "firstSeen": "2026-11-21T04:19Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/rusmle-shower-steamers.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "シャワー用バスボム8個がAmazonでたったの$2.99",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "シャワー用バスボム8個がAmazonでたったの$2.99",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a294ecf89fcf",
+   "title": "Giveaway: Enter to Win a $75 Amazon Gift Card or $75 in PayPal Cash",
+   "link": "https://momswhosave.com/giveaway-enter-to-win-a-amazon-gift-card/",
+   "source": "Moms Who Save",
+   "posted": "2026-11-21T03:00Z",
+   "firstSeen": "2026-11-21T04:19Z",
+   "expires": null,
+   "thumb": "https://momswhosave.com/wp-content/uploads/2019/06/amazon-gift-card-5.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "プレゼント：ご応募いただくと、75ドル分のAmazonギフトカードまたは75ドル分のPayPalキャッシュが当たるチャンス",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "プレゼント：ご応募いただくと、75ドル分のAmazonギフトカードまたは75ドル分のPayPalキャッシュが当たるチャンス",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "b4f55d733013",
    "title": "The Best Black Friday Streaming Deals – Disney+, AppleTV, Starz & More!",
@@ -72,7 +142,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-11-21T02:08Z",
    "firstSeen": "2026-11-21T02:19Z",
-   "expires": null,
+   "expires": "2026-11-20",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/Streaming-Deals-840x630.png",
    "hot": false,
    "stores": [],
@@ -97,7 +167,7 @@
     "what": "配信割引",
     "where": "Disney+ほか"
    },
-   "date": null
+   "date": "2026-11-20"
   },
   {
    "id": "9f2ffa5d5d1b",
@@ -162,6 +232,40 @@
    "sum": {
     "store": "Amazon",
     "item": "Audibleが3か月間わずか月額99セント＋20ドルのボーナスクレジット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5f9652aca614",
+   "title": "Amazon Grocery 32oz Broth Just 96¢ Shipped",
+   "link": "https://hip2save.com/deals/amazon-grocery-broth/",
+   "source": "Hip2Save",
+   "posted": "2026-11-21T01:10Z",
+   "firstSeen": "2026-11-21T04:19Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Amazon-Grocery-Chicken-Broth-Display.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon食品・生鮮食品 32オンスのスープが送料込みでわずか96セント",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon食品・生鮮食品 32オンスのスープが送料込みでわずか96セント",
     "when": "",
     "cond": ""
    },
@@ -2790,13 +2894,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Camelbakハイドレーションパックがウォルマートでなんと24ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Camelbakハイドレーションパックがウォルマートでなんと24ドルから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5c4cb0681b0b",
@@ -2822,13 +2928,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Grace & Stella レチノール＆カフェイン配合アイセラムが送料込みでわずか$6.25（通常価格$13）など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Grace & Stella レチノール＆カフェイン配合アイセラムが送料込みでわずか$6.25（通常価格$13）など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6aa90f355149",
@@ -2854,13 +2962,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lowe'sでRTIC Outdoorsが50%オフ – クーラーボックス、タンブラーなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Lowe'sでRTIC Outdoorsが50%オフ – クーラーボックス、タンブラーなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "75f5ca0318f3",
@@ -2960,13 +3070,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "タートルレベルツールがAmazonでたったの$3.xx（通常価格$10）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "タートルレベルツールがAmazonでたったの$3.xx（通常価格$10）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ca54a1dfbaa1",
@@ -2992,13 +3104,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon：Zift、inKindなどのギフトカードがお得に",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon：Zift、inKindなどのギフトカードがお得に",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "16fc190509a5",
@@ -3024,13 +3138,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースのドレスアップカジュアル長袖ブラウスがAmazonでわずか$6.xx（通常価格$24）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースのドレスアップカジュアル長袖ブラウスがAmazonでわずか$6.xx（通常価格$24）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "246e5a460167",
@@ -3088,13 +3204,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "4-in-1ミルクフォーマーがAmazonでたったの$25.xx（通常価格$189）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "4-in-1ミルクフォーマーがAmazonでたったの$25.xx（通常価格$189）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "08bddfe47573",
@@ -3160,13 +3278,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "1ドル未満のおすすめAmazon商品 | お得なパーソナルケア用品、家庭用品など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "1ドル未満のおすすめAmazon商品 | お得なパーソナルケア用品、家庭用品など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e5d80ae37d78",
@@ -10500,41 +10620,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "1d7875526242",
-   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
-   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-19T02:58Z",
-   "firstSeen": "2026-11-21T03:33Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "localDate": "2026-11-19",
-   "freebie": null,
-   "ja": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に開催",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に開催",
-    "when": "11/19(木)",
-    "cond": ""
-   },
-   "date": "2026-11-19"
   },
   {
    "id": "95027a865b98",
