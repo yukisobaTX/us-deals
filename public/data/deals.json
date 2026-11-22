@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T02:41Z",
- "count": 1570,
+ "updated": "2026-11-22T03:31Z",
+ "count": 1572,
  "stats": {
   "h2s": {
    "read": 100,
@@ -20,7 +20,7 @@
   },
   "msm": {
    "read": 75,
-   "added": 2
+   "added": 0
   },
   "tfg": {
    "read": 40,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 0,
+   "read": 25,
    "added": 0
   },
   "mnn": {
@@ -55,18 +55,49 @@
    "added": 0
   },
   "ja": {
-   "gemini": 16,
-   "geminiEvent": 3,
-   "mymemory": 0,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest",
-   "mymemoryError": "HTTP Error 429: Too Many Requests"
+   "gemini": 13,
+   "geminiEvent": 0,
+   "mymemory": 25,
+   "geminiToday": 10,
+   "model": "gemini-flash-latest"
   }
  },
- "errors": [
-  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "77a772824770",
+   "title": "Ulta Black Friday Deal | Daisy Delight Beauty Box Just $19.99 (Reg $30)",
+   "link": "https://thefreebieguy.com/ulta-beauty-box/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T03:06Z",
+   "firstSeen": "2026-11-22T03:31Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Ulta-Daisy-Box-840x630.png",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 33,
+   "price": 19.99,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アルタのブラックフライデーセール | デイジー・ディライト・ビューティーボックスがわずか19.99ドル（通常価格30ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "アルタのブラックフライデーセール | デイジー・ディライト・ビューティーボックスがわずか19.99ドル（通常価格30ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "54c3b1f909cc",
    "title": "My Little Golden Book About the ’80s Just $5.99 on Amazon",
@@ -91,13 +122,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "『My Little Golden Book About the ’80s』がAmazonでわずか5.99ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "『My Little Golden Book About the ’80s』がAmazonでわずか5.99ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a31de7729c80",
@@ -132,6 +165,41 @@
    },
    "ja": "感謝祭用ターキー",
    "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "944e5891023c",
+   "title": "Jet-Puffed Mini Marshmallows Only 70¢ Shipped on Amazon",
+   "link": "https://hip2save.com/deals/jet-puffed-marshmallows/",
+   "source": "Hip2Save",
+   "posted": "2026-11-21T22:30Z",
+   "firstSeen": "2026-11-22T03:31Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/04/Jet-Puffed-Mini-Marshmallows.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Jet-PuffedミニマシュマロがAmazonで送料込みでわずか70セント",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Jet-PuffedミニマシュマロがAmazonで送料込みでわずか70セント",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "560ccd6f95a4",
    "date": null
   },
   {
@@ -941,13 +1009,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スコット・コンフォートプラス・トイレットペーパー48ロールがAmazonでたったの$15.xx（通常価格$22）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "スコット・コンフォートプラス・トイレットペーパー48ロールがAmazonでたったの$15.xx（通常価格$22）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "683d11358680"
   },
   {
@@ -1889,8 +1959,8 @@
    },
    "ja": "スポーツウェア等",
    "jaVia": "gemini",
-   "dup": "6112082e709d",
-   "date": null
+   "date": null,
+   "dup": "6112082e709d"
   },
   {
    "id": "e0b6345d08d7",
@@ -1983,13 +2053,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-21",
+   "ja": "コールズのおもちゃが10ドルオフ | エルフ・オン・ザ・シェルフ、ディズニーなど（本日限り！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "コールズのおもちゃが10ドルオフ | エルフ・オン・ザ・シェルフ、ディズニーなど（本日限り！）",
     "when": "11/21(土)まで",
     "cond": ""
-   },
-   "date": "2026-11-21"
+   }
   },
   {
    "id": "e4e0b54a9f81",
@@ -2152,13 +2224,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-21",
+   "ja": "本日限り！Targetのアクティビティ＆クラフトキットが30%オフ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "本日限り！Targetのアクティビティ＆クラフトキットが30%オフ！",
     "when": "11/21(土)まで",
     "cond": ""
-   },
-   "date": "2026-11-21"
+   }
   },
   {
    "id": "15fd4452f59d",
@@ -2184,9 +2258,45 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディース軽量長袖ワークアウトトップスがたったの$8.97！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディース軽量長袖ワークアウトトップスがたったの$8.97！",
+    "when": "",
+    "cond": ""
+   }
+  },
+  {
+   "id": "575de9835972",
+   "title": "Electric Paint Sprayer Just $19.99 Shipped on Amazon (Reg. $60)",
+   "link": "https://hip2save.com/deals/tilswall-electric-paint-sprayer/",
+   "source": "Hip2Save",
+   "posted": "2026-11-21T13:35Z",
+   "firstSeen": "2026-11-22T03:31Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2022/02/Tilswall-Paint-Sprayer.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 67,
+   "price": 19.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "電動ペイントスプレーヤーがAmazonで送料込み19.99ドル（通常価格60ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "電動ペイントスプレーヤーがAmazonで送料込み19.99ドル（通常価格60ドル）",
     "when": "",
     "cond": ""
    },
@@ -2216,13 +2326,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Mondo Llamaのアート＆クラフトキットがTargetで1個あたりわずか$3.50！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Mondo Llamaのアート＆クラフトキットがTargetで1個あたりわずか$3.50！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f96926e2bd2a",
@@ -2248,13 +2360,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "L.O.L.サプライズ・インフレータブル・リバーレース・ウォータースライド（ブロワー付き）がAmazonでわずか139.xxドル（通常価格550ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "L.O.L.サプライズ・インフレータブル・リバーレース・ウォータースライド（ブロワー付き）がAmazonでわずか139.xxドル（通常価格550ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "cabaea6ef35f",
@@ -2280,13 +2394,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lowes.comでスタンレーのタンブラーが50%オフ＋送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Lowes.comでスタンレーのタンブラーが50%オフ＋送料無料",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a46eecbccc67",
@@ -2312,13 +2428,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "GO！Amazonで話題のSlimyGloop Gelli Gelが$4.xxから。売り切れ必至！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "GO！Amazonで話題のSlimyGloop Gelli Gelが$4.xxから。売り切れ必至！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "126418c758aa",
@@ -2344,13 +2462,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-21",
+   "ja": "マーク・ロバーのCrunchLabs STEM玩具がTarget.comでたったの$10.49 – 今日限り！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "マーク・ロバーのCrunchLabs STEM玩具がTarget.comでたったの$10.49 – 今日限り！",
     "when": "11/21(土)まで",
     "cond": ""
-   },
-   "date": "2026-11-21"
+   }
   },
   {
    "id": "635e87ff69f9",
@@ -2414,13 +2534,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "赤外線体温計がAmazonプライムで送料込みわずか$3.99！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "赤外線体温計がAmazonプライムで送料込みわずか$3.99！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "41eb0f5557d4",
@@ -2446,13 +2568,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "電動鼻吸引器がAmazonでたったの19.71ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "電動鼻吸引器がAmazonでたったの19.71ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "511aa0086966",
@@ -2552,13 +2676,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-21",
+   "ja": "Target.comのアクティビティ＆クラフトキットが30%オフ | Gui Guiスライム、NeeDohなど（本日限り！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Target.comのアクティビティ＆クラフトキットが30%オフ | Gui Guiスライム、NeeDohなど（本日限り！）",
     "when": "11/21(土)まで",
     "cond": ""
    },
-   "date": "2026-11-21",
    "dup": "0d2e8553fe1c"
   },
   {
@@ -2585,13 +2711,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ディズニーにインスパイアされたイニシャル入りスリングバッグがAmazonでたったの$7.99（かわいいパーソナライズギフト）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ディズニーにインスパイアされたイニシャル入りスリングバッグがAmazonでたったの$7.99（かわいいパーソナライズギフト）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e0e54f46c50a",
@@ -2617,13 +2745,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Burt's BeesのリップバームアドベントカレンダーがAmazonでたったの$20.98（通常価格$30）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Burt's BeesのリップバームアドベントカレンダーがAmazonでたったの$20.98（通常価格$30）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ed6e98c8581c",
@@ -2649,13 +2779,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "サワードウブレッドベーキングキットがAmazonで送料込みわずか$16.99（通常価格$40）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "サワードウブレッドベーキングキットがAmazonで送料込みわずか$16.99（通常価格$40）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "38b26710b84c",
@@ -3422,13 +3554,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "今週のおすすめ食品・生鮮食品・日用品のお買い得情報：感謝祭の必需品など！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "今週のおすすめ食品・生鮮食品・日用品のお買い得情報：感謝祭の必需品など！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "21d12d5bcff2",
@@ -6309,13 +6443,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "サムズクラブのお揃いファミリーパジャマが5.98ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "サムズクラブのお揃いファミリーパジャマが5.98ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f8fe2d4f4bda",
@@ -6416,13 +6552,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "値下げ：ミニブランド・マスターピース・アドベントカレンダーがAmazonでわずか13ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "値下げ：ミニブランド・マスターピース・アドベントカレンダーがAmazonでわずか13ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "650ab780ac72",
@@ -6482,13 +6620,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ジャックリンクのテリヤキビーフジャーキーマルチパック（20個入り）が送料込みでわずか$13.16！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ジャックリンクのテリヤキビーフジャーキーマルチパック（20個入り）が送料込みでわずか$13.16！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "27db5ffdfe79",
@@ -7026,47 +7166,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "4779cd3155f1",
-   "title": "Lights On! In Downtown Bryan is This Friday",
-   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-20T02:18Z",
-   "firstSeen": "2026-11-22T02:41Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "localDate": "2026-11-20",
-   "freebie": null,
-   "sum": {
-    "store": "Downtown Bryan",
-    "item": "ホリデー点灯式「Lights On!」",
-    "when": "11/20(金) 18時〜",
-    "cond": "無料・家族向け",
-    "what": "街のイルミ点灯",
-    "where": "Downtown Bryan"
-   },
-   "ja": "ホリデー点灯式「Lights On!」",
-   "jaVia": "gemini-ev",
-   "date": "2026-11-20"
   },
   {
    "id": "6a525a9b6aa3",
@@ -11142,8 +11241,7 @@
     "item": "10.1インチのデジタルフォトフレームがAmazonでわずか$39.xx（通常価格$70） | 素晴らしいギフトのアイデア！",
     "when": "",
     "cond": ""
-   },
-   "dup": "ccc88c85755b"
+   }
   },
   {
    "id": "c0a7b883d5cd",
@@ -13089,6 +13187,41 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "1d7875526242",
+   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
+   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-19T02:58Z",
+   "firstSeen": "2026-11-22T03:31Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "localDate": "2026-11-19",
+   "freebie": null,
+   "ja": "ツインシティ・ミッションが木曜日に2026年コートとブランケットの無料配布を実施",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ツインシティ・ミッションが木曜日に2026年コートとブランケットの無料配布を実施",
+    "when": "11/19(木)",
+    "cond": ""
+   },
+   "date": "2026-11-19"
   },
   {
    "id": "95027a865b98",
@@ -21162,8 +21295,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "944e5891023c"
+   "date": null
   },
   {
    "id": "068543d271a4",
@@ -21709,7 +21841,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "944e5891023c"
+   "dup": "560ccd6f95a4"
   },
   {
    "id": "8bae4fe40ac8",
@@ -37765,8 +37897,7 @@
     "item": "着るブランケットパーカーがAmazonでたったの$14.99（通常価格$30）",
     "when": "",
     "cond": ""
-   },
-   "dup": "0e6be98a0b0a"
+   }
   },
   {
    "id": "899a0205c23d",
@@ -49384,8 +49515,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "ccc88c85755b"
+   "date": null
   },
   {
    "id": "75b9e2772fd3",
@@ -53206,38 +53336,6 @@
    "sum": {
     "store": "Amazon",
     "item": "As FairyレディースワイヤレスフルカバレッジジェリーブラジャーAmazonで$ 9.xxのみ（登録価格$ 30 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "f78cb8db435a",
-   "title": "Sam’s Club Weekend Doorbusters Are HERE! Save on Gift Cards, Pajamas, Toys & More!",
-   "link": "https://hip2save.com/deals/sams-club-doorbusters/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T03:08Z",
-   "firstSeen": "2026-11-08T02:31Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/sams-club-weekend-doorbusters.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Sam's Club",
-    "item": "",
     "when": "",
     "cond": ""
    },
