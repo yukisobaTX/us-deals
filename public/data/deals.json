@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-21T23:21Z",
- "count": 1574,
+ "updated": "2026-11-22T02:41Z",
+ "count": 1570,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 17
+   "added": 2
   },
   "h2s-free": {
    "read": 100,
-   "added": 20
+   "added": 21
   },
   "doc": {
    "read": 15,
@@ -16,15 +16,15 @@
   },
   "ffp": {
    "read": 20,
-   "added": 1
+   "added": 2
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 8
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 25,
+   "read": 0,
    "added": 0
   },
   "mnn": {
@@ -55,15 +55,85 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
-   "geminiEvent": 1,
-   "mymemory": 25,
-   "geminiToday": 6,
-   "model": "gemini-flash-latest"
+   "gemini": 16,
+   "geminiEvent": 3,
+   "mymemory": 0,
+   "geminiToday": 8,
+   "model": "gemini-flash-latest",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
- "errors": [],
+ "errors": [
+  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: HTTP Error 429: Too Many Requests"
+ ],
  "items": [
+  {
+   "id": "54c3b1f909cc",
+   "title": "My Little Golden Book About the ’80s Just $5.99 on Amazon",
+   "link": "https://hip2save.com/deals/my-little-golden-book-about-the-80s/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T01:30Z",
+   "firstSeen": "2026-11-22T02:41Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/My-Little-Golden-Book-About-the-80s-and-90s-Hardcover-Books.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a31de7729c80",
+   "title": "Where to Find Free & Cheap Thanksgiving Turkeys in 2026",
+   "link": "https://thefreebieguy.com/free-cheap-thanksgiving-turkey/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T01:07Z",
+   "firstSeen": "2026-11-22T02:41Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Thanksgiving-Dinner-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "item": "感謝祭用ターキー",
+    "when": "2026年感謝祭",
+    "what": "無料格安ターキー",
+    "where": "各スーパーなど"
+   },
+   "ja": "感謝祭用ターキー",
+   "jaVia": "gemini",
+   "date": null
+  },
   {
    "id": "47e9aa391666",
    "title": "Soundcore by Anker Noice Cancelling Headphones Only $37.xx on Amazon (Reg. $140)",
@@ -776,8 +846,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "76b907419ca4",
-   "date": null
+   "date": null,
+   "dup": "76b907419ca4"
   },
   {
    "id": "71138d1a712d",
@@ -801,13 +871,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "これらのNutrafolサプリメントは画期的です。さらにブラックフライデーの割引も！",
-   "jaVia": "mymemory",
+   "ja": "サプリメント",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "これらのNutrafolサプリメントは画期的です。さらにブラックフライデーの割引も！",
-    "when": "",
-    "cond": ""
+    "store": "Nutrafol",
+    "item": "サプリメント",
+    "when": "ブラックフライデー",
+    "cond": "",
+    "what": "サプリ割引",
+    "where": "Nutrafol"
    },
    "date": null
   },
@@ -875,8 +947,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "683d11358680",
-   "date": null
+   "date": null,
+   "dup": "683d11358680"
   },
   {
    "id": "3a83bae382bd",
@@ -1786,6 +1858,41 @@
    "date": null
   },
   {
+   "id": "cf0f8daaf5cc",
+   "title": "Under Armour Black Friday Sale: Up to an Extra 40% Off + Additional 10% Off + Free Shipping!",
+   "link": "https://moneysavingmom.com/under-armour-fleece-hoodies-pants-and-more-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-21T14:32Z",
+   "firstSeen": "2026-11-22T02:41Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Under-Armour-Hoodies.jpg",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Under Armour",
+    "item": "スポーツウェア等",
+    "when": "ブラックフライデー",
+    "cond": "送料無料",
+    "what": "最大半額超割引",
+    "where": "Under Armour"
+   },
+   "ja": "スポーツウェア等",
+   "jaVia": "gemini",
+   "dup": "6112082e709d",
+   "date": null
+  },
+  {
    "id": "e0b6345d08d7",
    "title": "Shop Macy’s Black Friday Sale NOW (+ Free Shipping Offer Ends Today!)",
    "link": "https://hip2save.com/deals/macys-black-friday/",
@@ -1851,6 +1958,38 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "51805af51fe1",
+   "title": "Save $10 Off Kohl’s Toys | Elf on the Shelf, Disney, & More (Today Only!)",
+   "link": "https://hip2save.com/deals/kohls-toys/",
+   "source": "Hip2Save",
+   "posted": "2026-11-21T14:15Z",
+   "firstSeen": "2026-11-22T02:41Z",
+   "expires": "2026-11-21",
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/elf-on-the-shelf.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "11/21(土)まで",
+    "cond": ""
+   },
+   "date": "2026-11-21"
   },
   {
    "id": "e4e0b54a9f81",
@@ -2894,8 +3033,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "188ddbe61d63"
+   "date": null
   },
   {
    "id": "53f1b8a41ce3",
@@ -3255,6 +3393,38 @@
    "sum": {
     "store": "Target",
     "item": "ターゲットでジンジャーブレッドハウスとクリスマスクッキーキットがたったの10ドル！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "71cbbea38bbf",
+   "title": "Top Grocery and Household Deals This Week: Thanksgiving Essentials, plus more!",
+   "link": "https://moneysavingmom.com/hot-deals-on-snacks-and-grocery-items/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-20T22:08Z",
+   "firstSeen": "2026-11-22T02:41Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Grocery-Deals-11-1.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
     "when": "",
     "cond": ""
    },
@@ -6856,6 +7026,47 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "4779cd3155f1",
+   "title": "Lights On! In Downtown Bryan is This Friday",
+   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-20T02:18Z",
+   "firstSeen": "2026-11-22T02:41Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "localDate": "2026-11-20",
+   "freebie": null,
+   "sum": {
+    "store": "Downtown Bryan",
+    "item": "ホリデー点灯式「Lights On!」",
+    "when": "11/20(金) 18時〜",
+    "cond": "無料・家族向け",
+    "what": "街のイルミ点灯",
+    "where": "Downtown Bryan"
+   },
+   "ja": "ホリデー点灯式「Lights On!」",
+   "jaVia": "gemini-ev",
+   "date": "2026-11-20"
   },
   {
    "id": "6a525a9b6aa3",
@@ -12880,41 +13091,6 @@
    "date": null
   },
   {
-   "id": "1d7875526242",
-   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
-   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-19T02:58Z",
-   "firstSeen": "2026-11-21T23:21Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "localDate": "2026-11-19",
-   "freebie": null,
-   "ja": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に開催",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に開催",
-    "when": "11/19(木)",
-    "cond": ""
-   },
-   "date": "2026-11-19"
-  },
-  {
    "id": "95027a865b98",
    "title": "Comfrt Early Black Friday Sale is Live! Save BIG on Viral Oversized Hoodies & Sweatpants",
    "link": "https://hip2save.com/deals/comfrt-clothing/",
@@ -13469,8 +13645,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "b3d711cea32e"
+   "date": null
   },
   {
    "id": "c51fa9de35da",
@@ -20692,8 +20867,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "892633375476"
+   "date": null
   },
   {
    "id": "e451b2b55324",
@@ -21366,7 +21540,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "188ddbe61d63"
+   "dup": "acce3f83d88d"
   },
   {
    "id": "6932d770c30d",
@@ -33719,7 +33893,7 @@
     "when": "",
     "cond": ""
    },
-   "dup": "26ca9fd392f4"
+   "dup": "9dde507d478b"
   },
   {
    "id": "f48a596cfaa8",
@@ -45245,8 +45419,7 @@
     "item": "*ホット* Rubbermaid Brilliance 20ピースガラス食品収納コンテナセット$ 34.39 （登録価格$ 70 ） ！",
     "when": "",
     "cond": ""
-   },
-   "dup": "56c0b2ca2a40"
+   }
   },
   {
    "id": "089039db299f",
@@ -48410,7 +48583,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "ee7070339fd1"
+   "dup": "e8da8df1fe19"
   },
   {
    "id": "446f70425e4f",
@@ -49489,8 +49662,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "dafd3759d1b2"
+   "date": null
   },
   {
    "id": "b464f0b89a2a",
@@ -53066,310 +53238,6 @@
    "sum": {
     "store": "Sam's Club",
     "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "3f0bd94f9cac",
-   "title": "These Bombas-Inspired Socks Are Only $13.99 for 6 Pairs on Amazon",
-   "link": "https://hip2save.com/deals/cs-celersport-socks/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T02:40Z",
-   "firstSeen": "2026-11-07T07:16Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/CS-CelerSport-Socks.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "これらのBombasにインスパイアされたソックスは、Amazonで6ペアでわずか$ 13.99です",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "これらのBombasにインスパイアされたソックスは、Amazonで6ペアでわずか$ 13.99です",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0945f87c812e",
-   "title": "Better Homes & Gardens Towel Set Just $27 at Walmart (Reg $39)",
-   "link": "https://thefreebieguy.com/better-homes-gardens-towel-sets/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T02:33Z",
-   "firstSeen": "2026-11-07T07:16Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/02/Better-Homes-Gardens-Towels-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 31,
-   "price": 27.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Better Homes & Gardensタオルセットウォルマートでたったの$ 27 （登録価格$ 39 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Better Homes & Gardensタオルセットウォルマートでたったの$ 27 （登録価格$ 39 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ccc88c85755b",
-   "title": "Digital Picture Frame Only $39.85 Shipped on Amazon (Reg. $70)",
-   "link": "https://hip2save.com/deals/digital-picture-frame/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T00:40Z",
-   "firstSeen": "2026-11-07T01:15Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Pastigio-Frameo-Digital-Picture-Frame.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 43,
-   "price": 39.85,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "デジタル写真フレームのみ$ 39.85 Amazonで出荷（登録番号$ 70 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "デジタル写真フレームのみ$ 39.85 Amazonで出荷（登録番号$ 70 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "575de9835972",
-   "title": "Electric Paint Sprayer Just $19.99 Shipped on Amazon (Reg. $60)",
-   "link": "https://hip2save.com/deals/tilswall-electric-paint-sprayer/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T00:20Z",
-   "firstSeen": "2026-11-07T00:22Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2022/02/Tilswall-Paint-Sprayer.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 67,
-   "price": 19.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "電動塗料スプレーヤーわずか$ 19.99 Amazonで発送（登録価格$ 60 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "電動塗料スプレーヤーわずか$ 19.99 Amazonで発送（登録価格$ 60 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0fd1a921d07c",
-   "title": "CRAFTSMAN 20V Max 6 -Tool Power Tool Combo Kit Just $199 at Lowe’s (Reg $350)",
-   "link": "https://thefreebieguy.com/craftsman-bundle/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T00:15Z",
-   "firstSeen": "2026-11-07T07:16Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Craftsman-6-Piece-Tool-Set-840x630.png",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 43,
-   "price": 199.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "CRAFTSMAN 20 V Max 6 -ツール電動工具コンボキットLowe'sでたったの$ 199 （登録価格$ 350 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "CRAFTSMAN 20 V Max 6 -ツール電動工具コンボキットLowe'sでたったの$ 199 （登録価格$ 350 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "944e5891023c",
-   "title": "Jet-Puffed Mini Marshmallows Only 85¢ Shipped on Amazon",
-   "link": "https://hip2save.com/deals/jet-puffed-marshmallows/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T00:10Z",
-   "firstSeen": "2026-11-08T01:54Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2023/11/jet-puffed-marshmallows.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0e6be98a0b0a",
-   "title": "Oversized Wearable Blanket Hoodies Only $12.xx on Amazon (Reg. $25)",
-   "link": "https://thefreebieguy.com/wearable-blanket-hoodie/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T00:05Z",
-   "firstSeen": "2026-11-07T00:22Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/05/Oversized-Wearable-blankets--840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 52,
-   "price": 12.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "オーバーサイズウェアラブルブランケットパーカーAmazonで$ 12.xxのみ（登録価格$ 25 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "オーバーサイズウェアラブルブランケットパーカーAmazonで$ 12.xxのみ（登録価格$ 25 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "e98f8076f008",
-   "title": "Crescent Shoulder Bags Only $25.99 on Amazon (Reg. $40)",
-   "link": "https://hip2save.com/deals/lovevook-crescent-bags/",
-   "source": "Hip2Save",
-   "posted": "2026-11-06T23:40Z",
-   "firstSeen": "2026-11-06T23:49Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/LOVEVOOK-Crescent-Shoulder-Bag.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 35,
-   "price": 25.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "CrescentショルダーバッグAmazonで$ 25.99のみ（登録価格$ 40 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "CrescentショルダーバッグAmazonで$ 25.99のみ（登録価格$ 40 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "43d3c58f145d",
-   "title": "Cuisinart Precision Stand 5.5QT Mixer Only $159 at Kohl’s + $45 Kohl’s Cash (Reg. $350)!",
-   "link": "https://thefreebieguy.com/cuisinart-stand-5-5qt-mixer/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-06T23:32Z",
-   "firstSeen": "2026-11-06T23:49Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/cuisinart-mixer--e1794008018441-848x630.png",
-   "hot": true,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 87,
-   "price": 45.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Cuisinart Precision Stand 5.5QTミキサーKohl'sで$ 159のみ+ $ 45 Kohl's Cash （登録価格$ 350 ） ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Cuisinart Precision Stand 5.5QTミキサーKohl'sで$ 159のみ+ $ 45 Kohl's Cash （登録価格$ 350 ） ！",
     "when": "",
     "cond": ""
    },
