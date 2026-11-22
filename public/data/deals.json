@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T03:31Z",
- "count": 1572,
+ "updated": "2026-11-22T06:53Z",
+ "count": 1555,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 2
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,11 +55,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 13,
+   "gemini": 0,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 10,
-   "model": "gemini-flash-latest"
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
  "errors": [],
@@ -199,8 +200,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "560ccd6f95a4",
-   "date": null
+   "date": null,
+   "dup": "560ccd6f95a4"
   },
   {
    "id": "47e9aa391666",
@@ -1963,39 +1964,6 @@
    "dup": "6112082e709d"
   },
   {
-   "id": "e0b6345d08d7",
-   "title": "Shop Macy’s Black Friday Sale NOW (+ Free Shipping Offer Ends Today!)",
-   "link": "https://hip2save.com/deals/macys-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-21T14:31Z",
-   "firstSeen": "2026-11-21T23:21Z",
-   "expires": "2026-11-21",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Macys-Holiday-Bedding-e1795269061733.jpg?resize=306,182",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Macy's",
-    "item": "BFセール・送料無料",
-    "when": "〜11/21",
-    "what": "BFセール",
-    "where": "Macy's"
-   },
-   "ja": "BFセール・送料無料",
-   "jaVia": "gemini",
-   "date": "2026-11-21"
-  },
-  {
    "id": "ffa49129f2fd",
    "title": "Walmart Has Coca-Cola, Cheetos & Pop-Tarts Blankets for Under $20 (Fun White Elephant Gift!)",
    "link": "https://hip2save.com/deals/walmart-food-blanket/",
@@ -2028,40 +1996,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "51805af51fe1",
-   "title": "Save $10 Off Kohl’s Toys | Elf on the Shelf, Disney, & More (Today Only!)",
-   "link": "https://hip2save.com/deals/kohls-toys/",
-   "source": "Hip2Save",
-   "posted": "2026-11-21T14:15Z",
-   "firstSeen": "2026-11-22T02:41Z",
-   "expires": "2026-11-21",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/elf-on-the-shelf.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-21",
-   "ja": "コールズのおもちゃが10ドルオフ | エルフ・オン・ザ・シェルフ、ディズニーなど（本日限り！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "コールズのおもちゃが10ドルオフ | エルフ・オン・ザ・シェルフ、ディズニーなど（本日限り！）",
-    "when": "11/21(土)まで",
-    "cond": ""
-   }
   },
   {
    "id": "e4e0b54a9f81",
@@ -2199,40 +2133,6 @@
    "ja": "$20 OFF",
    "jaVia": "gemini",
    "date": null
-  },
-  {
-   "id": "0d2e8553fe1c",
-   "title": "Today Only! 30% off Activity & Craft Kits at Target!",
-   "link": "https://moneysavingmom.com/today-only-30-off-activity-craft-kits-at-target/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-21T13:44Z",
-   "firstSeen": "2026-11-21T17:59Z",
-   "expires": "2026-11-21",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/activity-craft-kits-630x314.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 30,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-21",
-   "ja": "本日限り！Targetのアクティビティ＆クラフトキットが30%オフ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "本日限り！Targetのアクティビティ＆クラフトキットが30%オフ！",
-    "when": "11/21(土)まで",
-    "cond": ""
-   }
   },
   {
    "id": "15fd4452f59d",
@@ -2439,40 +2339,6 @@
    }
   },
   {
-   "id": "126418c758aa",
-   "title": "CrunchLabs by Mark Rober STEM Toys Only $10.49 on Target.com – Today Only!",
-   "link": "https://hip2save.com/deals/crunchlabs-by-mark-rober/",
-   "source": "Hip2Save",
-   "posted": "2026-11-21T13:04Z",
-   "firstSeen": "2026-11-21T17:59Z",
-   "expires": "2026-11-21",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/CrunchLabs-by-Mark-Rober-Egg-Drop-Challenge.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-21",
-   "ja": "マーク・ロバーのCrunchLabs STEM玩具がTarget.comでたったの$10.49 – 今日限り！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "マーク・ロバーのCrunchLabs STEM玩具がTarget.comでたったの$10.49 – 今日限り！",
-    "when": "11/21(土)まで",
-    "cond": ""
-   }
-  },
-  {
    "id": "635e87ff69f9",
    "title": "Top Weekend Freebies & Deals – Target Free LEGO-Themed Gift Tag & More!",
    "link": "https://thefreebieguy.com/top-weekend-freebies-deals/",
@@ -2653,41 +2519,6 @@
    "date": null
   },
   {
-   "id": "f962530fc32a",
-   "title": "30% Off Activity & Craft Kits on Target.com | Gui Gui Slime, NeeDoh & More (Today ONLY!)",
-   "link": "https://hip2save.com/deals/target-daily-deals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-21T11:47Z",
-   "firstSeen": "2026-11-21T17:59Z",
-   "expires": "2026-11-21",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Gui-Gui-kit-.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 30,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-21",
-   "ja": "Target.comのアクティビティ＆クラフトキットが30%オフ | Gui Guiスライム、NeeDohなど（本日限り！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "Target.comのアクティビティ＆クラフトキットが30%オフ | Gui Guiスライム、NeeDohなど（本日限り！）",
-    "when": "11/21(土)まで",
-    "cond": ""
-   },
-   "dup": "0d2e8553fe1c"
-  },
-  {
    "id": "e481b48f6bd2",
    "title": "Disney-Inspired Initial Sling Bags Just $7.99 on Amazon (Cute Personalized Gift)",
    "link": "https://hip2save.com/deals/amazon-girls-initial-sling-bag/",
@@ -2788,46 +2619,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "38b26710b84c",
-   "title": "Instacart Is Giving Away 10,000 FREE Turkeys at 12pm ET TODAY",
-   "link": "https://hip2save.com/deals/instacart-free-turkey/",
-   "source": "Hip2Save",
-   "posted": "2026-11-21T11:10Z",
-   "firstSeen": "2026-11-21T17:59Z",
-   "expires": "2026-11-21",
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/09/Aldi-Jennie-O-Turkey.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Instacart"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-21"
-   },
-   "sum": {
-    "store": "Instacart",
-    "item": "七面鳥先着1万名無料",
-    "when": "11/21 12時ET",
-    "cond": "先着1万名",
-    "what": "無料七面鳥",
-    "where": "Instacart"
-   },
-   "ja": "七面鳥先着1万名無料",
-   "jaVia": "gemini",
-   "date": "2026-11-21",
-   "dup": "e42e79e78118"
   },
   {
    "id": "cf5735eb4f03",
@@ -6654,13 +6445,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Energizer Max単3形および単4形電池48本コンボパックが、Amazonでわずか$23.xx（通常価格$39）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Energizer Max単3形および単4形電池48本コンボパックが、Amazonでわずか$23.xx（通常価格$39）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f40fe555bdc9",
@@ -6686,13 +6479,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "プロパンガスバーナーがAmazonで送料込みわずか$23.90（料理、キャンプなどに最適）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "プロパンガスバーナーがAmazonで送料込みわずか$23.90（料理、キャンプなどに最適）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "83c9feccbc65",
@@ -6718,13 +6513,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Shop-Vac 14ガロン5.5馬力コード付きウェット/ドライ掃除機がLowe'sでたったの$54.98（通常価格$140）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Shop-Vac 14ガロン5.5馬力コード付きウェット/ドライ掃除機がLowe'sでたったの$54.98（通常価格$140）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "133f0141276f",
@@ -6750,13 +6547,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Nintendo Switch、PlayStation、XBOX用ビデオゲームがベストバイでたったの$29.99（通常価格$70）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Nintendo Switch、PlayStation、XBOX用ビデオゲームがベストバイでたったの$29.99（通常価格$70）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2b8bf4033c2a",
@@ -6782,13 +6581,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ブルーイのペイント＆プレイ 木製ティーセット6点セットがたったの$5.49！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ブルーイのペイント＆プレイ 木製ティーセット6点セットがたったの$5.49！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "318acf8e7f8f",
@@ -6814,13 +6615,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "エルマーズのセレブレーションスライムキットがAmazonでたったの$17.63 | 5種類のスライムが作れます",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "エルマーズのセレブレーションスライムキットがAmazonでたったの$17.63 | 5種類のスライムが作れます",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c2101faacbe6",
@@ -6846,13 +6649,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "BTFBMレディースジーンズが送料込みでわずか$23.92 {Crystalが気に入っています！】",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "BTFBMレディースジーンズが送料込みでわずか$23.92 {Crystalが気に入っています！】",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c2018827ffae",
@@ -7166,6 +6971,45 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "4779cd3155f1",
+   "title": "Lights On! In Downtown Bryan is This Friday",
+   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-20T02:18Z",
+   "firstSeen": "2026-11-22T06:53Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "localDate": "2026-11-20",
+   "freebie": null,
+   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
+    "when": "11/20(金)",
+    "cond": ""
+   },
+   "date": "2026-11-20"
   },
   {
    "id": "6a525a9b6aa3",
@@ -7803,40 +7647,6 @@
    "date": null
   },
   {
-   "id": "a3fe5c4edf36",
-   "title": "Target Circle: $10 Back With $100 Spend, Up to $50 Back (11/19-11/21)",
-   "link": "https://www.doctorofcredit.com/target-circle-10-back-with-100-spend-up-to-50-back-11-19-11-21/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-19T21:10Z",
-   "firstSeen": "2026-11-19T21:39Z",
-   "expires": "2026-11-21",
-   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/11/Screenshot-2026-11-19-at-3.59.32-PM-282x300.png",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Target Circle：100ドルのお買い物で10ドル、最大50ドルがキャッシュバック（11月19日～11月21日）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "Target Circle：100ドルのお買い物で10ドル、最大50ドルがキャッシュバック（11月19日～11月21日）",
-    "when": "11/21(土)まで",
-    "cond": ""
-   },
-   "date": "2026-11-21"
-  },
-  {
    "id": "b21b105921e3",
    "title": "*HOT* Lunakai Magnesium Glycinate, 90 count, only $9.85 shipped, plus more!",
    "link": "https://moneysavingmom.com/lunakai-magnesium-glycinate-gummies-deal/",
@@ -8132,13 +7942,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*注目* Targetでファミリー向けお揃いパジャマが40%オフ：マイクロフリース製ホリデーパンツが6ドルなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "*注目* Targetでファミリー向けお揃いパジャマが40%オフ：マイクロフリース製ホリデーパンツが6ドルなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "04daa12f8615",
@@ -11267,13 +11079,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ブルーイのビデオゲーム＋限定ノームのぬいぐるみがAmazonでわずか$14.xx（通常価格$50）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ブルーイのビデオゲーム＋限定ノームのぬいぐるみがAmazonでわずか$14.xx（通常価格$50）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5b1025859400",
@@ -11335,13 +11149,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Barefoot DreamsのスローブランケットがAmazonで送料込みわずか$54（通常価格$180）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Barefoot DreamsのスローブランケットがAmazonで送料込みわずか$54（通常価格$180）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b441df39004d",
@@ -13189,41 +13005,6 @@
    "date": null
   },
   {
-   "id": "1d7875526242",
-   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
-   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-19T02:58Z",
-   "firstSeen": "2026-11-22T03:31Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "localDate": "2026-11-19",
-   "freebie": null,
-   "ja": "ツインシティ・ミッションが木曜日に2026年コートとブランケットの無料配布を実施",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ツインシティ・ミッションが木曜日に2026年コートとブランケットの無料配布を実施",
-    "when": "11/19(木)",
-    "cond": ""
-   },
-   "date": "2026-11-19"
-  },
-  {
    "id": "95027a865b98",
    "title": "Comfrt Early Black Friday Sale is Live! Save BIG on Viral Oversized Hoodies & Sweatpants",
    "link": "https://hip2save.com/deals/comfrt-clothing/",
@@ -14600,44 +14381,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "f20f3f43bdc2",
-   "title": "Target: FREE LEGO Holiday Event on November 21st!",
-   "link": "https://moneysavingmom.com/target-free-store-event/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-18T19:28Z",
-   "firstSeen": "2026-11-18T21:59Z",
-   "expires": "2026-11-21",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-18-at-1.25.37-PM.png",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-21"
-   },
-   "sum": {
-    "store": "Target",
-    "item": "LEGOイベント",
-    "when": "2026-11-21",
-    "what": "無料LEGO",
-    "where": "Target"
-   },
-   "ja": "LEGOイベント",
-   "jaVia": "gemini",
-   "date": "2026-11-21"
   },
   {
    "id": "cb7c188fd75e",
@@ -17328,47 +17071,6 @@
    },
    "date": null,
    "dup": "54102c860089"
-  },
-  {
-   "id": "dafac0d7c769",
-   "title": "Christmas on Carter Creek at The Woman's Club of Bryan",
-   "link": "https://www.destinationbryan.com/events/christmas-on-carter-creek-preview-party-at-the-womans-club-of-bryan-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-17T23:32Z",
-   "firstSeen": "2026-11-17T23:32Z",
-   "expires": "2026-11-21",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-20",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Holiday Events"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "The Woman's Club of Bryan",
-    "item": "クリスマスの買い物市「Christmas on Carter Creek」",
-    "when": "11/20(金)〜11/21(土)",
-    "what": "クリスマス市",
-    "where": "Woman's Club"
-   },
-   "ja": "クリスマスの買い物市「Christmas on Carter Creek」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-20",
-   "freebie": null
   },
   {
    "id": "2f0c5e2e4154",
@@ -22118,92 +21820,6 @@
    "date": null
   },
   {
-   "id": "74f8cf90347a",
-   "title": "The Farmers' Market in Brazos County",
-   "link": "https://www.destinationbryan.com/events/the-farmers-market-in-brazos-county/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-16T23:32Z",
-   "firstSeen": "2026-11-16T23:32Z",
-   "expires": "2026-11-21",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-21",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Midtown Park",
-    "item": "ブラゾス郡ファーマーズマーケット(毎週土曜)",
-    "when": "11/21(土)",
-    "cond": "毎週土曜",
-    "what": "ファーマーズ市",
-    "where": "Midtown Park"
-   },
-   "ja": "ブラゾス郡ファーマーズマーケット(毎週土曜)",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-21",
-   "freebie": null
-  },
-  {
-   "id": "32d4aceeb0f9",
-   "title": "Community Yoga at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/yoga-at-lake-walk/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-16T23:32Z",
-   "firstSeen": "2026-11-16T23:32Z",
-   "expires": "2026-11-21",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-21",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fitness"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk",
-    "item": "Lake Walk の湖畔でみんなのヨガ",
-    "when": "11/21(土)",
-    "what": "屋外ヨガ",
-    "where": "Lake Walk",
-    "cond": "屋外"
-   },
-   "ja": "Lake Walk の湖畔でみんなのヨガ",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "スポーツ"
-   ],
-   "family": true,
-   "date": "2026-11-21",
-   "freebie": null
-  },
-  {
    "id": "fadc4d000f54",
    "title": "Rountree Market at Midtown Park",
    "link": "https://www.destinationbryan.com/events/sunday-market-at-rountree/",
@@ -25569,45 +25185,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "87250b402c07",
-   "title": "Target Free Events: Free LEGO-Themed Gift Tag + Free Tote w/ Purchase on November 21",
-   "link": "https://thefreebieguy.com/free-target-event/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-16T13:39Z",
-   "firstSeen": "2026-11-16T22:07Z",
-   "expires": "2026-11-21",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Target-Storefront-840x630.png",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-21"
-   },
-   "sum": {
-    "store": "Target",
-    "item": "レゴタグ・トートバッグ無料",
-    "when": "11/21",
-    "cond": "要購入",
-    "what": "無料ギフト",
-    "where": "Target"
-   },
-   "ja": "レゴタグ・トートバッグ無料",
-   "jaVia": "gemini",
-   "date": "2026-11-21"
   },
   {
    "id": "9f00b611b788",
@@ -30488,41 +30065,6 @@
    "date": null
   },
   {
-   "id": "6197127ac880",
-   "title": "Home Depot Workshops For Kids: Christmas Car Ornament on November 21st!",
-   "link": "https://moneysavingmom.com/free-home-depot-kids-workshop/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-14T13:15Z",
-   "firstSeen": "2026-11-14T18:07Z",
-   "expires": "2026-11-21",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-11-12-at-11.41.37-AM.png",
-   "hot": true,
-   "stores": [
-    "Home Depot"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-21",
-   "ja": "ホームデポのキッズ向けワークショップ：11月21日にクリスマスカーオーナメントを作ろう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Home Depot",
-    "item": "ホームデポのキッズ向けワークショップ：11月21日にクリスマスカーオーナメントを作ろう！",
-    "when": "11/21(土)まで",
-    "cond": "子ども向け"
-   },
-   "dup": "633f472600fc"
-  },
-  {
    "id": "7dc2e9d55556",
    "title": "Dollar General $5 Off $25 Scenarios for November 14th!",
    "link": "https://thefreebieguy.com/dollar-general-saturday-scenarios-list/",
@@ -30966,47 +30508,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "d31239c288a2",
-   "title": "Christmas on Carter Creek at The Woman's Club of Bryan",
-   "link": "https://www.destinationbryan.com/events/christmas-on-carter-creek-at-the-womans-club-of-bryan/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-13T23:32Z",
-   "firstSeen": "2026-11-13T23:32Z",
-   "expires": "2026-11-21",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-21",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "The Woman's Club of Bryan",
-    "item": "クリスマスの買い物市「Christmas on Carter Creek」",
-    "when": "11/21(土)",
-    "what": "クリスマス市",
-    "where": "Woman's Club"
-   },
-   "ja": "クリスマスの買い物市「Christmas on Carter Creek」",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-21",
-   "freebie": null
   },
   {
    "id": "9533c2bb6347",
@@ -35914,40 +35415,6 @@
     "store": "Amazon",
     "item": "CUTEイニシャルブレスレットがAmazonでたったの$3.xx（通常価格 10ドル）| 素晴らしいギフトのアイデア！",
     "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "4d5f66f8fc1e",
-   "title": "Target’s EOS Holiday Scents Event is Happening Nov 14th from 12-4 PM (+ LEGO Event on 11/21!)",
-   "link": "https://hip2save.com/deals/target-store-event/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-11-12T18:53Z",
-   "firstSeen": "2026-11-15T22:51Z",
-   "expires": "2026-11-21",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/eos-holiday.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-21",
-   "ja": "ターゲットのEOSホリデーセントイベントが11月14日午後12時から4時まで開催されます（さらに11月21日にはレゴイベントも開催！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "ターゲットのEOSホリデーセントイベントが11月14日午後12時から4時まで開催されます（さらに11月21日にはレゴイベントも開催！）",
-    "when": "11/21(土)まで 12-4PM",
     "cond": ""
    }
   },
@@ -45654,44 +45121,6 @@
    "date": "2026-11-22"
   },
   {
-   "id": "633f472600fc",
-   "title": "Free Christmas Car Ornament Workshop Event at Home Depot on November 21st",
-   "link": "https://thefreebieguy.com/free-home-depot-kids-workshop/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-10T15:24Z",
-   "firstSeen": "2026-11-10T17:53Z",
-   "expires": "2026-11-21",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Home-Depot-November-21-Holiday-Car-Free-Kids-Workshop-1-840x630.png",
-   "hot": true,
-   "stores": [
-    "Home Depot"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-21"
-   },
-   "sum": {
-    "store": "Home Depot",
-    "item": "クリスマスオーナメント工作",
-    "when": "11/21",
-    "what": "無料工作",
-    "where": "Home Depot"
-   },
-   "ja": "クリスマスオーナメント工作",
-   "jaVia": "gemini",
-   "date": "2026-11-21"
-  },
-  {
    "id": "9a688dd3fc38",
    "title": "ELYSOO Home Security Camera System Wi-Fi Connected Only $129.xx on Amazon (Reg $340)",
    "link": "https://thefreebieguy.com/elysoo-home-security-camera-system/",
@@ -53710,42 +53139,6 @@
     "where": "JCPenney"
    },
    "date": "2026-11-27"
-  },
-  {
-   "id": "d7bdfa2b8b93",
-   "title": "Free Pottery Barn Kids Weekly Story Time Every Friday + Thanksgiving Craft Event on Nov. 21",
-   "link": "https://thefreebieguy.com/pottery-barn-kids-events/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-02T19:07Z",
-   "firstSeen": "2026-11-02T19:10Z",
-   "expires": "2026-11-21",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Pottery-Barn-Summer-Craft-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-21"
-   },
-   "sum": {
-    "store": "Pottery Barn Kids",
-    "item": "読み聞かせと工作イベント",
-    "when": "毎週金曜・11/21",
-    "what": "無料イベント",
-    "where": "Pottery Barn Kids"
-   },
-   "ja": "読み聞かせと工作イベント",
-   "jaVia": "gemini",
-   "date": "2026-11-21"
   },
   {
    "id": "1ecde3559502",
