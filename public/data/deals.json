@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T06:53Z",
- "count": 1555,
+ "updated": "2026-11-22T15:21Z",
+ "count": 1576,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 29
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 12
   },
   "mws": {
    "read": 20,
@@ -55,16 +55,1369 @@
    "added": 0
   },
   "ja": {
-   "gemini": 0,
-   "geminiEvent": 0,
+   "gemini": 18,
+   "geminiEvent": 1,
    "mymemory": 25,
-   "geminiToday": 2,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
+   "geminiToday": 4,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "d52a7d041117",
+   "title": "GO! Step2 Christmas Tree Just $35.99 Shipped on Target.com (Reg. $60)",
+   "link": "https://hip2save.com/deals/step-2-my-first-christmas-tree/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T15:15Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/pink-Step2-My-First-Christmas-Tree.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 35.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "GO！Target.comでStep2クリスマスツリーが送料込みでわずか$35.99（通常価格$60）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "GO！Target.comでStep2クリスマスツリーが送料込みでわずか$35.99（通常価格$60）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4899c072ef75",
+   "title": "Under Armour Black Friday Sale is LIVE! 40% Off Under Armour Outlet + Extra 10% Off + Free Shipping",
+   "link": "https://thefreebieguy.com/under-armour-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T15:14Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/UNDER-ARMOUR-HOODIES-1-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "アンダーアーマーのブラックフライデーセールが始まりました！Under Armourアウトレットが40%オフ＋さらに10%オフ＋送料無料",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "アンダーアーマーのブラックフライデーセールが始まりました！Under Armourアウトレットが40%オフ＋さらに10%オフ＋送料無料",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "fc499089d6f5",
+   "date": null
+  },
+  {
+   "id": "5eb73d66ebe1",
+   "title": "Up to 70% Off Old Navy Early Black Friday Deals – Ends Tonight!",
+   "link": "https://hip2save.com/deals/old-navy-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T15:07Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": "2026-11-22",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Old-Navy-Pajamas.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Old Navyのブラックフライデー先行セールが最大70%オフ – 今夜終了！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Old Navyのブラックフライデー先行セールが最大70%オフ – 今夜終了！",
+    "when": "11/22(日)まで",
+    "cond": ""
+   },
+   "date": "2026-11-22"
+  },
+  {
+   "id": "d294f2f0202d",
+   "title": "NEW Step2 Gingerbread House Toy Just $32.99 on Target.com (Reg. $55)",
+   "link": "https://hip2save.com/deals/step-2-gingerbread-house/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T15:04Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Step2-My-First-Gingerbread-House.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": 32.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "新登場 Step2ジンジャーブレッドハウスのおもちゃがTarget.comでたったの$32.99（通常価格$55）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "新登場 Step2ジンジャーブレッドハウスのおもちゃがTarget.comでたったの$32.99（通常価格$55）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "621a802b7fe2",
+   "title": "20% Off Gift Cards on Target | Apple, H&M, Fandango & More!",
+   "link": "https://thefreebieguy.com/target-gift-card-offer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T14:51Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/09/Discounted-Gift-Cards-on-Target-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 20,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "gift": {
+    "grocery": false
+   },
+   "ja": "Targetのギフトカードが20%オフ | Apple、H&M、Fandangoなど！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Targetのギフトカードが20%オフ | Apple、H&M、Fandangoなど！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "9d48d932d331",
+   "date": null
+  },
+  {
+   "id": "f95fefc3346a",
+   "title": "Macy’s Black Friday Deal | Women’s Boots for $19.99 (Reg up to $90)",
+   "link": "https://thefreebieguy.com/macys-boots/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T14:51Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/Macys-Boots-Sale-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "メイシーズのブラックフライデーセール | レディースブーツが19.99ドル（通常価格最大90ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "メイシーズのブラックフライデーセール | レディースブーツが19.99ドル（通常価格最大90ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "d40be07b2398",
+   "date": null
+  },
+  {
+   "id": "316f1d41b955",
+   "title": "FREE Amazon Music + Audible Books?! Get 3 Months Free Before This Deal Ends!",
+   "link": "https://hip2save.com/deals/amazon-music-unlimited/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T14:43Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/amazon-music-on-phone.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Amazon",
+    "item": "Music & Audible 3ヶ月無料",
+    "cond": "期間限定",
+    "what": "3ヶ月無料",
+    "where": "Amazon"
+   },
+   "ja": "Music & Audible 3ヶ月無料",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "5b1627b69393",
+   "title": "GO! ULTA Fragrance Sampler Kits from $17 ($52+ Value)!",
+   "link": "https://thefreebieguy.com/ulta-beauty-finds/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T14:40Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/fragrance-samplers-840x630.png",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "GO! ULTAフレグランスサンプルキットが17ドルから（52ドル以上の価値）！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "GO! ULTAフレグランスサンプルキットが17ドルから（52ドル以上の価値）！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5ec08f3520ab",
+   "title": "Up to 65% Off Kohl’s Boots | Popular Styles from $9.59",
+   "link": "https://hip2save.com/deals/kohls-boots/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T14:34Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/kohls-boot-boxes-in-box.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohl'sのブーツが最大65%オフ | 人気のスタイルが$9.59から",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohl'sのブーツが最大65%オフ | 人気のスタイルが$9.59から",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9d8263ef87cb",
+   "title": "Target Toy Shopping Basket Just $6.99 (Includes Bullseye Bag & Toy Smartphone!)",
+   "link": "https://hip2save.com/deals/target-toy-shopping-basket/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T14:25Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/07/Target-Toy-Shopping-Basket-Set.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットのおもちゃの買い物かごがたったの6.99ドル（ブルズアイバッグとおもちゃのスマートフォン付き！）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットのおもちゃの買い物かごがたったの6.99ドル（ブルズアイバッグとおもちゃのスマートフォン付き！）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "093018f44d0b",
+   "title": "Up to 65% Off adidas + FREE Shipping | Running Shoes Just $20 Shipped",
+   "link": "https://hip2save.com/deals/adidas-ebay/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T14:22Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Adidas-eBay-Sale-6.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "eBay"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "アディダスが最大65%オフ＋送料無料 | ランニングシューズが送料込みでわずか$20",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "eBay",
+    "item": "アディダスが最大65%オフ＋送料無料 | ランニングシューズが送料込みでわずか$20",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3204afe0b23c",
+   "title": "All for $111 Shipped! Gucci Guilty Love Edition Perfume + 9-Piece Gift + Beauty Bag + Gucci 4-Piece Gift",
+   "link": "https://thefreebieguy.com/gucci-perfume-ulta-beauty-bundle/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T14:18Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Gucci-Bundle-Ulta-1-840x630.png",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "すべて送料込みで111ドル！グッチ ギルティ ラブ エディション パフューム + 9点セットのギフト + ビューティーバッグ + グッチ 4点セットのギフト",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "すべて送料込みで111ドル！グッチ ギルティ ラブ エディション パフューム + 9点セットのギフト + ビューティーバッグ + グッチ 4点セットのギフト",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9dd61c221f12",
+   "title": "SEVEN Pairs of Fuzzy Socks Just $6.36 Shipped for Amazon Prime Members",
+   "link": "https://hip2save.com/deals/amazon-fuzzy-socks/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T14:14Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/passionability-fuzzy-socks.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonプライム会員なら、ふわふわソックス7足セットが送料込みでわずか6.36ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonプライム会員なら、ふわふわソックス7足セットが送料込みでわずか6.36ドル",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "bfac0eab2cb0",
+   "title": "Kohl’s Boxed Jewelry Gifts from $11.99 (Reg. $50)",
+   "link": "https://hip2save.com/deals/kohls-jewelry/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T14:11Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/kohls-boxed-jewelry.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 76,
+   "price": 11.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohl'sのジュエリーギフトボックス入りが11.99ドルから（通常価格50ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohl'sのジュエリーギフトボックス入りが11.99ドルから（通常価格50ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a1a24f374ba3",
+   "title": "Viral Medicube Jelly Cream with Collagen Only $8.xx on Amazon | Over 40K Sold Last Month!",
+   "link": "https://thefreebieguy.com/medicube-jelly-cream/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T14:00Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Medicube-Collagen-Jelly-Cream-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "話題のメディキューブ・ジェリークリーム（コラーゲン配合）がAmazonでたったの$8.xx | 先月4万個以上を販売！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "話題のメディキューブ・ジェリークリーム（コラーゲン配合）がAmazonでたったの$8.xx | 先月4万個以上を販売！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5d7346c421f5",
+   "title": "BOGO FREE Target Christmas Candles & Gift Sets | Stock Up for Holiday Gifts",
+   "link": "https://hip2save.com/deals/target-christmas-candles/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T13:57Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Threshold-Holiday-Mercury-Glass-Ornament-Candle.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free",
+    "bogo"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットのクリスマスキャンドル＆ギフトセットが2点買うと1点無料 | ホリデーギフトの買い置きに",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットのクリスマスキャンドル＆ギフトセットが2点買うと1点無料 | ホリデーギフトの買い置きに",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "c31e06a7a46d",
+   "title": "Amazon Essentials Petroleum Jelly Only $1.xx (Reg. $4)",
+   "link": "https://thefreebieguy.com/amazon-basics-petroleum-jelly/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T13:56Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/petroleum-jelly-amazon-essentials-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": 75,
+   "price": 1.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon Essentialsのワセリンがたったの$1.xx（通常価格$4）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazon Essentialsのワセリンがたったの$1.xx（通常価格$4）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "6705ec61c0e8",
+   "title": "All for $109! Viktor & Rolf Flowerbomb Tiger Lily Perfume + Mini Perfume + 9-Piece Gift Set + Robe or Throw",
+   "link": "https://thefreebieguy.com/viktor-rolf-ulta-beauty-gift/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T13:41Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Viktor-Rolf-Tiger-Lily-840x630.png",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "すべてで109ドル！Viktor & Rolf Flowerbomb Tiger Lily パフューム + ミニパフューム + 9点セットギフトセット + ガウンまたはブランケット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "すべてで109ドル！Viktor & Rolf Flowerbomb Tiger Lily パフューム + ミニパフューム + 9点セットギフトセット + ガウンまたはブランケット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "46261867d9f5",
+   "title": "Kohl’s Matching Family Pajamas from $7.99 | The Grinch, Disney, Peanuts & More",
+   "link": "https://hip2save.com/deals/kohls-family-pajamas/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T13:35Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/Kohls-Matching-Family-Grinch-Pajamas.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コールズのお揃いファミリーパジャマが7.99ドルから | グリンチ、ディズニー、ピーナッツなど",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "コールズのお揃いファミリーパジャマが7.99ドルから | グリンチ、ディズニー、ピーナッツなど",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e2ff9a7158c9",
+   "title": "TWO Chamberlain myQ Video Doorbell + $10 Amazon Credit Only $37.xx on Amazon",
+   "link": "https://thefreebieguy.com/chamberlain-myq-video-doorbell/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T13:30Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Chamberlain-myQ-Video-Doorbell-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Chamberlain myQビデオドアホン2台＋Amazonギフト券10ドルが、Amazonでわずか37.xxドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Chamberlain myQビデオドアホン2台＋Amazonギフト券10ドルが、Amazonでわずか37.xxドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "38b26710b84c",
+   "title": "Instacart Is Giving Away 10,000 FREE Turkeys at 12pm ET TODAY",
+   "link": "https://hip2save.com/deals/instacart-free-turkey/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T13:29Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": "2026-11-22",
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/12/walmart-holiday-meals-thanksgiving-dinner-meal-butterball-turkey-walmart-groceries-walmart-holiday-ham-dinner-3.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Instacart"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "store",
+    "when": "2026-11-22"
+   },
+   "sum": {
+    "store": "Instacart",
+    "item": "七面鳥が無料",
+    "when": "11/22 12:00 ET",
+    "cond": "先着1万名",
+    "what": "無料の七面鳥",
+    "where": "Instacart"
+   },
+   "ja": "七面鳥が無料",
+   "jaVia": "gemini",
+   "dup": "e42e79e78118",
+   "date": "2026-11-22"
+  },
+  {
+   "id": "f8311a4bca97",
+   "title": "Macy’s Black Friday Sale is Live! $18 Comforters, 70% Off Toys + More!",
+   "link": "https://thefreebieguy.com/macys-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T13:29Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Macys-Sign-With-Kendall-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 70,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "ja": "メイシーズのブラックフライデーセールが始まりました！掛け布団が18ドル、おもちゃが70%オフなど盛りだくさん！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "メイシーズのブラックフライデーセールが始まりました！掛け布団が18ドル、おもちゃが70%オフなど盛りだくさん！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "fad44cb74955",
+   "date": null
+  },
+  {
+   "id": "e0b6345d08d7",
+   "title": "Macy’s Black Friday Sale | Save on UGG Throws, Clothing, Shoes, & More",
+   "link": "https://hip2save.com/deals/macys-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T13:22Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/macys-black-friday.jpg?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "メイシーズのブラックフライデーセール | UGGのスロー、衣類、靴などがお得に",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "メイシーズのブラックフライデーセール | UGGのスロー、衣類、靴などがお得に",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8b94d1cae113",
+   "title": "The Big One Holiday Throw Blankets Just $7.99 at Kohl’s",
+   "link": "https://hip2save.com/deals/kohls-big-one-blanket/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T13:17Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/The-big-one-blankets-.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "The Big Oneのホリデーブランケットがコールズでたったの$7.99",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "The Big Oneのホリデーブランケットがコールズでたったの$7.99",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "11ff022eba75",
+   "title": "GO! Target Toy Shopping Cart with 12 Accessories Only $13.99",
+   "link": "https://hip2save.com/deals/target-toy-shopping-cart/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T12:54Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/02/target-toy-shopping-cart.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "GO！ターゲットのおもちゃのショッピングカートと12点の付属品がたったの$13.99",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "GO！ターゲットのおもちゃのショッピングカートと12点の付属品がたったの$13.99",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9d48d932d331",
+   "title": "Discounted Gift Cards on Target.com | Red Robin, Fandango, H&M + More",
+   "link": "https://hip2save.com/deals/target-discounted-gift-cards/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T12:43Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/12/36.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target",
+    "Red Robin"
+   ],
+   "cats": [
+    "home",
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "gift": {
+    "grocery": false
+   },
+   "sum": {
+    "store": "Target・Red Robin",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b8b532f1c6bd",
+   "title": "X-Sense Indoor Wi-Fi Thermometer Hygrometer Only $32.xx on Amazon (Reg $50)",
+   "link": "https://thefreebieguy.com/x-sense-indoor-wi-fi-thermometer-hygrometer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T12:43Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/X-Sense-Indoor-Wi-Fi-Thermometer-Hygrometer-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 36,
+   "price": 32.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "af0255d21099",
+   "title": "Target Toy Checklane Just $99.99 Shipped (Reg. $150) | Cute Gift Idea!",
+   "link": "https://hip2save.com/deals/target-toy-checklane/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T12:31Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/12/target-checkout-lane-toy.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 33,
+   "price": 99.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ff2c3d438838",
+   "title": "Target Black Friday 2026 Sale is Live + $1000 Target Gift Card Giveaway!",
+   "link": "https://thefreebieguy.com/target-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T12:27Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Target-Store-Front-840x630.png",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": true,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "$1000ギフトカード抽選",
+    "cond": "2026セール",
+    "what": "GC抽選",
+    "where": "Target"
+   },
+   "ja": "$1000ギフトカード抽選",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "283c9d648b6a",
+   "title": "WOW! Save Over $310 on This Tineco Wet-Dry Vacuum on Amazon",
+   "link": "https://hip2save.com/deals/amazon-tineco-floor-one-s7/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T12:05Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/tineco-Tineco-Floor-ONE-S7-Stretch-Ultra-Cordless-Wet-Dry-Vacuum-Cleaner.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7b7843a4bcae",
+   "title": "Kohl’s Big One Bath Towels Just $2.79 | Stock Up",
+   "link": "https://hip2save.com/deals/kohls-big-one-towels/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T11:50Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/kohls-big-ones-towels.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Kohl's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "017479eab5af",
+   "title": "BOGO 50% Off Target Christmas Lights | Prices from $1.50 Each",
+   "link": "https://hip2save.com/deals/target-christmas-lights/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T11:02Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2020/11/Wondershop-Lights-.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "bogo"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "91465e86e0be",
+   "title": "iPhone Fast Charging Lightning Cables 3-Pack Just $3.99 Shipped for Amazon Prime Members",
+   "link": "https://hip2save.com/deals/iphone-lightning-charging-cables/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T10:30Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/MenoSupp-Lightning-Charging-Cables.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "4d5f66f8fc1e",
+   "title": "You Could Win a $1,000 Target Gift Card on 11/27!",
+   "link": "https://hip2save.com/deals/target-store-event/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T10:26Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": "2026-11-27",
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/12/Target-Gift-Card.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free",
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "11/27(金)まで",
+    "cond": ""
+   },
+   "date": "2026-11-27"
+  },
+  {
+   "id": "7fb6558b912d",
+   "title": "Fun Throw Blankets Only $5 at Walgreens (Easy Gift Idea)",
+   "link": "https://hip2save.com/deals/walgreens-throw-blankets/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T10:04Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/walgreens-throw-blankets.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "bbaff5e8ce3a",
+   "title": "FREE $15 Target Gift Card w/ $100 Apple Gift Card Purchase",
+   "link": "https://hip2save.com/deals/apple-gift-card-discount/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T10:01Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/02/apple-and-target-gift-cards.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free",
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Target",
+    "item": "Apple Gift Card購入で$15",
+    "cond": "$100以上購入",
+    "what": "$15GC",
+    "where": "Target"
+   },
+   "ja": "Apple Gift Card購入で$15",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "7faaee6f6bee",
+   "title": "Handheld Clothes Steamer Just $9.99 on Amazon (Reg. $23)",
+   "link": "https://hip2save.com/deals/amazon-clothes-steamer/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T09:47Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/04/HiLife-Handheld-Clothes-Steamer.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 57,
+   "price": 9.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a527a36ae821",
+   "title": "Magic Doodle Writing Tablet 2-Pack Just $4.99 on Amazon",
+   "link": "https://hip2save.com/deals/magic-doodle-board/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T09:44Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/06/LCD-Tablets-3.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "194dc532c844",
+   "title": "MAREE Self-Heating Eye Masks 16-Pack Just $6 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/maree-eye-masks/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T09:39Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/MAREE-Heated-Eye-Masks.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f962530fc32a",
+   "title": "40% Off Sweatshirts & Pants for the Family at Target – Today Only!",
+   "link": "https://hip2save.com/deals/target-daily-deals/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T09:32Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": "2026-11-22",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Dolly-Holiday-Sweatshrt-Target.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
+    "item": "",
+    "when": "11/22(日)まで",
+    "cond": ""
+   },
+   "date": "2026-11-22"
+  },
   {
    "id": "77a772824770",
    "title": "Ulta Black Friday Deal | Daisy Delight Beauty Box Just $19.99 (Reg $30)",
@@ -89,13 +1442,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "アルタのブラックフライデーセール | デイジー・ディライト・ビューティーボックスがわずか19.99ドル（通常価格30ドル）",
-   "jaVia": "mymemory",
+   "ja": "ビューティーボックス $19.99",
+   "jaVia": "gemini",
    "sum": {
     "store": "Ulta",
-    "item": "アルタのブラックフライデーセール | デイジー・ディライト・ビューティーボックスがわずか19.99ドル（通常価格30ドル）",
+    "item": "ビューティーボックス $19.99",
     "when": "",
-    "cond": ""
+    "cond": "ブラックフライデー",
+    "what": "コスメ特価",
+    "where": "Ulta"
    },
    "date": null
   },
@@ -6973,45 +8328,6 @@
    "date": null
   },
   {
-   "id": "4779cd3155f1",
-   "title": "Lights On! In Downtown Bryan is This Friday",
-   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-20T02:18Z",
-   "firstSeen": "2026-11-22T06:53Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "localDate": "2026-11-20",
-   "freebie": null,
-   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-    "when": "11/20(金)",
-    "cond": ""
-   },
-   "date": "2026-11-20"
-  },
-  {
    "id": "6a525a9b6aa3",
    "title": "McCormick Finishing Sugars Just $2.99 Shipped on Amazon",
    "link": "https://hip2save.com/deals/mccormick-finishing-sugars/",
@@ -13003,6 +14319,41 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "1d7875526242",
+   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
+   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-19T02:58Z",
+   "firstSeen": "2026-11-22T15:21Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "localDate": "2026-11-19",
+   "freebie": null,
+   "ja": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に開催",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に開催",
+    "when": "11/19(木)",
+    "cond": ""
+   },
+   "date": "2026-11-19"
   },
   {
    "id": "95027a865b98",
@@ -29952,39 +31303,6 @@
    "sum": {
     "store": "Kohl's",
     "item": "コールズのスーパーサタデーセール＋プロモーションの併用＝ホームアイテムがお得に",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "003bdff170cb",
-   "title": "BOGO Free Victoria’s Secret Beauty Gift Sets – Prices from $20 (That’s $10 Each)!",
-   "link": "https://thefreebieguy.com/victorias-secret-beauty-gift-sets/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-14T13:52Z",
-   "firstSeen": "2026-11-14T18:07Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/Victorias-Secret-Beauty-Gift-Sets-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "ヴィクトリアズ・シークレットのビューティーギフトセットが1つ買うと1つ無料 – 価格は20ドルから（1つあたり10ドル）！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ヴィクトリアズ・シークレットのビューティーギフトセットが1つ買うと1つ無料 – 価格は20ドルから（1つあたり10ドル）！",
     "when": "",
     "cond": ""
    }
@@ -52159,612 +53477,6 @@
    "sum": {
     "store": "Amazon",
     "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ae10138ee1d8",
-   "title": "Ozark Trail Portable Hard Arm Chair w/ Cup Holder Only $9.xx at Walmart (Reg 20)",
-   "link": "https://thefreebieguy.com/ozark-trail-hard-arm-chair/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T15:17Z",
-   "firstSeen": "2026-11-07T18:48Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/03/Ozark-Trail-Folding-Hard-Arm-Camping-Chair-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "2590db48f3ef",
-   "title": "Tablet Stand Only $7.49 on Amazon (Works w/ iPad, Phones & More!)",
-   "link": "https://hip2save.com/deals/lisen-tablet-stand/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T14:32Z",
-   "firstSeen": "2026-11-07T18:48Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Lisen-tablet-stand-amazon.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "a11438c14c3e",
-   "title": "New Owala Water Bottle Holiday Collection Available Now!",
-   "link": "https://thefreebieguy.com/owala-water-bottle-holiday-collection/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T14:30Z",
-   "firstSeen": "2026-11-07T18:48Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/11/OWALA-WATER-BOTTLE-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "9fe321bde1d0",
-   "title": "*HOT* American Tourister Stratum 3.0 Hardside Spinner Luggage only $57.59 shipped + $10 Kohl’s Cash!",
-   "link": "https://moneysavingmom.com/american-tourister-hardside-spinner-carry-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T14:30Z",
-   "firstSeen": "2026-11-08T01:54Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Screenshot-2026-11-07-at-7.16.17-PM.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Kohl's",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "683700c428e2",
-   "title": "Lowe’s 5-Gallon Utility Buckets 2 for Just $6 (Reg. $5 Each)",
-   "link": "https://thefreebieguy.com/lowes-5-gallon-utility-buckets/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T14:23Z",
-   "firstSeen": "2026-11-07T18:48Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Blue-5-Gallon-Utility-Buckets-840x630.jpg",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Lowe's",
-    "item": "",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "899ec52e364d",
-   "title": "NEW Target x Harry Potter Collection Just Dropped (Over 120 Items!)",
-   "link": "https://hip2save.com/deals/target-harry-potter/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T14:05Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/target-x-harry-potter-snow-globes.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "新しいターゲットxハリーポッターコレクションがドロップしました（ 120アイテム以上！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "新しいターゲットxハリーポッターコレクションがドロップしました（ 120アイテム以上！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "1797e4f06c4f",
-   "title": "re:line Biotin Shampoo and Conditioner Set for Hair Growth only $25.47 shipped!",
-   "link": "https://moneysavingmom.com/reline-biotin-shampoo-conditioner-set/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T14:05Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/06/Screenshot-2025-07-10-at-7.55.33 AM-630x796.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "re: lineビオチンシャンプーとコンディショナー育毛用セット$ 25.47のみ発送！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "re: lineビオチンシャンプーとコンディショナー育毛用セット$ 25.47のみ発送！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "da624884fe1c",
-   "title": "Cascade Dishwasher Pods 47-Count Only $10.49 Shipped on Amazon (Reg. $20)",
-   "link": "https://hip2save.com/deals/cascade-dishwasher-pods/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T14:00Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/cascade-free-clear-pods.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 48,
-   "price": 10.49,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "カスケードディッシュウォッシャーポッド47 -カウントのみ$ 10.49 Amazonで出荷（登録価格$ 20 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "カスケードディッシュウォッシャーポッド47 -カウントのみ$ 10.49 Amazonで出荷（登録価格$ 20 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8a8d23c5c223",
-   "title": "Kohl’s Early Black Friday Sale Daily Deals | Hot Buys on Small Appliances, Towels, Women’s Clothing & More",
-   "link": "https://hip2save.com/deals/kohls-early-black-friday-sale/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T13:45Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/Woman-holding-toastmaster-appliances-at-the-kohls-store.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Kohl'sの早期ブラックフライデー日替わりセール",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Kohl'sの早期ブラックフライデー日替わりセール",
-    "when": "",
-    "cond": "小型家電・タオル・衣料など",
-    "what": "早期BFセール",
-    "where": "Kohl's"
-   },
-   "date": null
-  },
-  {
-   "id": "db7534aabca4",
-   "title": "Amazon Fire HD 10.1″ 32GB Tablet (Refurbished) Only $29.xx at Woot",
-   "link": "https://thefreebieguy.com/amazon-fire-hd-10-1-32gb-tablet/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T13:38Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2022/09/Fire-HD-10-Tablet-1024x538.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazon Fire HD 10.1インチ32 GBタブレット（改装済み） Wootで$ 29.xxのみ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazon Fire HD 10.1インチ32 GBタブレット（改装済み） Wootで$ 29.xxのみ",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "dbf21a177a24",
-   "title": "Kohl’s Matching Pajamas for the Family: Up to 50% off  + Extra 20% off!",
-   "link": "https://moneysavingmom.com/kohls-pajamas-for-the-family-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T13:28Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/12/Matching-Pajamas-for-the-Family.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Kohl's Matching Pajamas for the Family ：最大50%オフ+さらに20%オフ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Kohl's Matching Pajamas for the Family ：最大50%オフ+さらに20%オフ！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "f0f6c876268b",
-   "title": "DREAM PAIRS Women’s Clogs just $15.39 shipped!",
-   "link": "https://moneysavingmom.com/dream-pairs-womens-clogs-cute/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T13:24Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-9.55.58-AM.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ドリームペアのレディースクロッグがたったの$ 15.39 ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ドリームペアのレディースクロッグがたったの$ 15.39 ！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "f963d33233f0",
-   "title": "The Big One Waterproof Mattress Pad only $14.39 shipped!",
-   "link": "https://moneysavingmom.com/the-big-one-waterproof-mattress-pad-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T13:05Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/The-Big-One®-Waterproof-Mattress-Pad-630x625.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Big One防水マットレスパッドはわずか$ 14.39で発送！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Big One防水マットレスパッドはわずか$ 14.39で発送！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "7c9bff9bc65a",
-   "title": "Kobalt 302-Piece Mechanics Tool Set w/ Hard Case Only $99 Shipped (Reg $149)",
-   "link": "https://thefreebieguy.com/kobalt-mechanics-tool-set/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T12:54Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/08/Kobalt-Tool-Set-840x630.png",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 34,
-   "price": 99.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Kobalt 302ピースメカニクスツールセットハードケースのみ$ 99発送（定額$ 149 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "Kobalt 302ピースメカニクスツールセットハードケースのみ$ 99発送（定額$ 149 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "4948d30296b5",
-   "title": "Handheld Steam Cleaner for the Home only $47.99 shipped (Reg. $67!)",
-   "link": "https://moneysavingmom.com/handheld-steam-cleaner-for-the-home-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T12:45Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Handheld-Steam-Cleaner--630x570.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 28,
-   "price": 47.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "家庭用ハンドヘルドスチームクリーナー$ 47.99のみ出荷（登録価格$ 67 ！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "家庭用ハンドヘルドスチームクリーナー$ 47.99のみ出荷（登録価格$ 67 ！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0fa8183a0866",
-   "title": "Uber Eats: Prime Members Can Get $20 Off TWO Orders!",
-   "link": "https://moneysavingmom.com/uber-eats-prime-members-can-get-20-off-two-orders/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-07T11:47Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/UberEatsPrime-630x354.jpg",
-   "hot": false,
-   "stores": [
-    "Amazon",
-    "Uber Eats"
-   ],
-   "cats": [
-    "food",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Uber Eats ：プライムメンバーは2回のご注文が$ 20割引になります！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon・Uber Eats",
-    "item": "Uber Eats ：プライムメンバーは2回のご注文が$ 20割引になります！",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "date": null
-  },
-  {
-   "id": "f41d3c5fc2b0",
-   "title": "Wegear 30W USB-C GaN III Wall Charger Block & Cable 2-Pack Only $9.xx on Amazon (Reg $20)",
-   "link": "https://thefreebieguy.com/wegear-30w-usb-c-gan-iii-wall-charger-block-cable/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T11:37Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Wegear-30W-USB-C-GaN-III-Wall-Charger-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 55,
-   "price": 9.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Wegear 30 W USB - C GaN IIIウォールチャージャーブロック＆ケーブル2パックのみ$ 9.xx Amazon （登録$ 20 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Wegear 30 W USB - C GaN IIIウォールチャージャーブロック＆ケーブル2パックのみ$ 9.xx Amazon （登録$ 20 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "a9c9787e4860",
-   "title": "As Fairy Women’s Wireless Full Coverage Jelly Bras Only $9.xx on Amazon (Reg. $30)",
-   "link": "https://thefreebieguy.com/as-fairy-seamless-bra/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T11:29Z",
-   "firstSeen": "2026-11-07T14:09Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/As-Fairy-Womens-Wireless-Full-Coverage-Jelly-Bras-840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 70,
-   "price": 9.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "As FairyレディースワイヤレスフルカバレッジジェリーブラジャーAmazonで$ 9.xxのみ（登録価格$ 30 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "As FairyレディースワイヤレスフルカバレッジジェリーブラジャーAmazonで$ 9.xxのみ（登録価格$ 30 ）",
     "when": "",
     "cond": ""
    },
