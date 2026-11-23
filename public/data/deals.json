@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-23T02:49Z",
+ "updated": "2026-11-23T03:14Z",
  "count": 1596,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 4
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
-   "added": 21
+   "added": 22
   },
   "doc": {
    "read": 15,
-   "added": 1
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,11 +55,12 @@
    "added": 0
   },
   "ja": {
-   "gemini": 14,
-   "geminiEvent": 1,
+   "gemini": 15,
+   "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 8,
-   "model": "gemini-flash-latest"
+   "geminiToday": 10,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
   }
  },
  "errors": [],
@@ -86,13 +87,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Life in Lilacブラックフライデーセール：全品最大50%オフ＋ニューヨーク旅行が当たるチャンス！",
-   "jaVia": "mymemory",
+   "ja": "全品最大50%OFF + NYC旅行抽選",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Life in Lilacブラックフライデーセール：全品最大50%オフ＋ニューヨーク旅行が当たるチャンス！",
+    "store": "Life in Lilac",
+    "item": "全品最大50%OFF + NYC旅行抽選",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "最大50%OFF",
+    "where": "Life in Lilac"
    },
    "date": null
   },
@@ -341,7 +344,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-22T21:25Z",
    "firstSeen": "2026-11-22T21:48Z",
-   "expires": null,
+   "expires": "2026-11-22",
    "thumb": "https://hip2save.com/wp-content/uploads/2020/12/Hempz-Travel-Size-Lotions.jpg?resize=306,182",
    "hot": true,
    "stores": [],
@@ -366,7 +369,7 @@
     "what": "最大80%OFF",
     "where": "オンライン"
    },
-   "date": null
+   "date": "2026-11-22"
   },
   {
    "id": "3753eba4fefe",
@@ -1734,13 +1737,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "頑丈な27ガロンのトートがLowe'sでたったの$6.98 | 10万個以上販売済み！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "頑丈な27ガロンのトートがLowe'sでたったの$6.98 | 10万個以上販売済み！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ca2e1e616bf3",
@@ -1772,13 +1777,15 @@
     "kind": "goods"
    },
    "freebie": null,
+   "date": null,
+   "ja": "ポケモン30周年記念アイテムが11月28日にターゲットで発売",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ポケモン30周年記念アイテムが11月28日にターゲットで発売",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0c0e524b138c",
@@ -1804,13 +1811,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ポータブルミニプロジェクターがAmazonで送料込みわずか$25.99 | ムービーナイトをさらに楽しく",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ポータブルミニプロジェクターがAmazonで送料込みわずか$25.99 | ムービーナイトをさらに楽しく",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "229329806762",
@@ -1836,13 +1845,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Vacplusトイレ用洗浄剤タブレット12個入りがAmazonで送料込み4.49ドルのみ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Vacplusトイレ用洗浄剤タブレット12個入りがAmazonで送料込み4.49ドルのみ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "409a36eb2d40",
@@ -1866,13 +1877,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Camp Snapカメラがまれに見るお得価格に（ティーンが喜ぶ、画面のない楽しいギフト！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "Camp Snapカメラがまれに見るお得価格に（ティーンが喜ぶ、画面のない楽しいギフト！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "30afb301f233",
@@ -1898,13 +1911,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハードサイド・スピナー・スーツケースが送料込みで50ドルから（通常価格 180ドル）＋Kohl'sキャッシュを獲得",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "ハードサイド・スピナー・スーツケースが送料込みで50ドルから（通常価格 180ドル）＋Kohl'sキャッシュを獲得",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8003d81da931",
@@ -1930,13 +1945,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アウトドア用ロッキングチェアがAmazonでわずか47ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アウトドア用ロッキングチェアがAmazonでわずか47ドルから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5baa2f35c393",
@@ -1962,13 +1979,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットでボードゲームが最大50%オフ | ファミリーのお気にいりが5ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットでボードゲームが最大50%オフ | ファミリーのお気にいりが5ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "798bdba463d5",
@@ -1994,13 +2013,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "マーサ・スチュワート・スタンドミキサーが送料込みでたったの$79.99（通常価格 200ドル）＋15ドルのコールズキャッシュをゲット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "マーサ・スチュワート・スタンドミキサーが送料込みでたったの$79.99（通常価格 200ドル）＋15ドルのコールズキャッシュをゲット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "607e6f84a64b",
@@ -2060,13 +2081,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Rubbermaidの30個セット食品保存容器がTarget.comでたったの$9.99",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Rubbermaidの30個セット食品保存容器がTarget.comでたったの$9.99",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "d2ea1aaa04fa"
   },
   {
@@ -2093,13 +2116,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonスマートプラグがたったの$14.xx（通常価格 25ドル） | クリスマスイルミネーションに最適！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonスマートプラグがたったの$14.xx（通常価格 25ドル） | クリスマスイルミネーションに最適！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9b0d8ddf7368",
@@ -2129,13 +2154,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "LEGOボタニカルコレクションセットが史上最安値！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Target",
-    "item": "",
+    "item": "LEGOボタニカルコレクションセットが史上最安値！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d52a7d041117",
@@ -3033,13 +3060,15 @@
    "gift": {
     "grocery": false
    },
+   "date": null,
+   "ja": "Target.comでギフトカードが割引価格に | Red Robin、Fandango、H&Mなど",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target・Red Robin",
-    "item": "",
+    "item": "Target.comでギフトカードが割引価格に | Red Robin、Fandango、H&Mなど",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "621a802b7fe2"
   },
   {
@@ -3066,13 +3095,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "X-Sense屋内用Wi-Fi温度計・湿度計がAmazonでわずか32.xxドル（通常価格50ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "X-Sense屋内用Wi-Fi温度計・湿度計がAmazonでわずか32.xxドル（通常価格50ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "af0255d21099",
@@ -3098,13 +3129,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットのトイチェックレーンが送料込みでわずか99.99ドル（通常価格 150ドル）| かわいいギフトのアイデア！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのトイチェックレーンが送料込みでわずか99.99ドル（通常価格 150ドル）| かわいいギフトのアイデア！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ff2c3d438838",
@@ -3165,13 +3198,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "すごい！AmazonでこのTinecoウェット＆ドライ掃除機が310ドル以上お得に",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "すごい！AmazonでこのTinecoウェット＆ドライ掃除機が310ドル以上お得に",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7b7843a4bcae",
@@ -3197,13 +3232,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kohl'sのBig Oneバスタオルがたったの$2.79 | まとめ買い",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Kohl'sのBig Oneバスタオルがたったの$2.79 | まとめ買い",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "017479eab5af",
@@ -3229,13 +3266,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Targetのクリスマスイルミネーションが2点買うと1点が50%オフ | 1点あたり1.50ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Targetのクリスマスイルミネーションが2点買うと1点が50%オフ | 1点あたり1.50ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "91465e86e0be",
@@ -3261,13 +3300,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "iPhone高速充電用Lightningケーブル3本セットが、Amazonプライム会員なら送料込みでわずか3.99ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "iPhone高速充電用Lightningケーブル3本セットが、Amazonプライム会員なら送料込みでわずか3.99ドル",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "4d5f66f8fc1e",
@@ -3294,13 +3335,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-27",
+   "ja": "11月27日に1,000ドルのTargetギフトカードが当たるチャンス！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "11月27日に1,000ドルのTargetギフトカードが当たるチャンス！",
     "when": "11/27(金)まで",
     "cond": ""
-   },
-   "date": "2026-11-27"
+   }
   },
   {
    "id": "7fb6558b912d",
@@ -3326,13 +3369,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walgreensで楽しいブランケットがたったの$5（手軽なギフトのアイデア）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "Walgreensで楽しいブランケットがたったの$5（手軽なギフトのアイデア）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bbaff5e8ce3a",
@@ -3397,13 +3442,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハンディ衣類スチーマーがAmazonでわずか$9.99（通常価格$23）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ハンディ衣類スチーマーがAmazonでわずか$9.99（通常価格$23）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a527a36ae821",
@@ -3429,13 +3476,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "マジックドゥードルライティングタブレット2個セットがAmazonでたったの4.99ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "マジックドゥードルライティングタブレット2個セットがAmazonでたったの4.99ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "194dc532c844",
@@ -10410,6 +10459,45 @@
    "date": null
   },
   {
+   "id": "4779cd3155f1",
+   "title": "Lights On! In Downtown Bryan is This Friday",
+   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-20T02:18Z",
+   "firstSeen": "2026-11-23T03:14Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "localDate": "2026-11-20",
+   "freebie": null,
+   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
+    "when": "11/20(金)",
+    "cond": ""
+   },
+   "date": "2026-11-20"
+  },
+  {
    "id": "6a525a9b6aa3",
    "title": "McCormick Finishing Sugars Just $2.99 Shipped on Amazon",
    "link": "https://hip2save.com/deals/mccormick-finishing-sugars/",
@@ -16402,41 +16490,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "1d7875526242",
-   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
-   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-19T02:58Z",
-   "firstSeen": "2026-11-23T02:49Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "localDate": "2026-11-19",
-   "freebie": null,
-   "ja": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に実施",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に実施",
-    "when": "11/19(木)",
-    "cond": ""
-   },
-   "date": "2026-11-19"
   },
   {
    "id": "95027a865b98",
@@ -31474,8 +31527,7 @@
     "item": "Aquaphor リップリペア 2個セット Amazonで送料込みわずか$4.98（クリスマスプレゼントに最適！）",
     "when": "",
     "cond": ""
-   },
-   "dup": "fda50b063854"
+   }
   },
   {
    "id": "b57ea97b1243",
