@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T03:14Z",
- "count": 1596,
+ "updated": "2026-11-23T04:03Z",
+ "count": 1595,
  "stats": {
   "h2s": {
    "read": 100,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,12 +55,11 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
+   "gemini": 14,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 10,
-   "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai"
+   "geminiToday": 11,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
@@ -3510,13 +3509,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "MAREEの自己発熱アイマスク16枚入りがAmazonで送料込みわずか$6",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "MAREEの自己発熱アイマスク16枚入りがAmazonで送料込みわずか$6",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f962530fc32a",
@@ -3542,13 +3543,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-11-22",
+   "ja": "ターゲットでファミリー向けのスウェットシャツとパンツが40%オフ – 今日限り！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットでファミリー向けのスウェットシャツとパンツが40%オフ – 今日限り！",
     "when": "11/22(日)まで",
     "cond": ""
-   },
-   "date": "2026-11-22"
+   }
   },
   {
    "id": "77a772824770",
@@ -10459,45 +10462,6 @@
    "date": null
   },
   {
-   "id": "4779cd3155f1",
-   "title": "Lights On! In Downtown Bryan is This Friday",
-   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-20T02:18Z",
-   "firstSeen": "2026-11-23T03:14Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "localDate": "2026-11-20",
-   "freebie": null,
-   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-    "when": "11/20(金)",
-    "cond": ""
-   },
-   "date": "2026-11-20"
-  },
-  {
    "id": "6a525a9b6aa3",
    "title": "McCormick Finishing Sugars Just $2.99 Shipped on Amazon",
    "link": "https://hip2save.com/deals/mccormick-finishing-sugars/",
@@ -14669,13 +14633,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ナインゴルフカードゲームをAmazonでたったの15.99ドルでプレイ（楽しいファミリーギフト！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ナインゴルフカードゲームをAmazonでたったの15.99ドルでプレイ（楽しいファミリーギフト！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "23e105c8a483",
@@ -14701,13 +14667,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "2本セット 4フィート 3in1マルチ充電ケーブルがAmazonでわずか$3.xx",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "2本セット 4フィート 3in1マルチ充電ケーブルがAmazonでわずか$3.xx",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "6ea9ef090e5a"
   },
   {
@@ -14734,13 +14702,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "As Fairyワイヤレス・ジェリーブラがAmazonでわずか$ 25（通常価格$ 25）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "As Fairyワイヤレス・ジェリーブラがAmazonでわずか$ 25（通常価格$ 25）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "fc963e38fb74"
   },
   {
@@ -14767,13 +14737,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ゼルダの伝説 時のオカリナがAmazonでわずか54.xxドル（通常価格70ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ゼルダの伝説 時のオカリナがAmazonでわずか54.xxドル（通常価格70ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "043d76f87c59",
@@ -14799,13 +14771,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで新登場のおやつ＆ドリンクのお得情報 | 価格は1ドル未満から！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで新登場のおやつ＆ドリンクのお得情報 | 価格は1ドル未満から！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3325b32d2c0a",
@@ -14831,13 +14805,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ロウズの話題のツインクル・クリスマスツリーがセール中（売り切れ必至！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "ロウズの話題のツインクル・クリスマスツリーがセール中（売り切れ必至！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "820aba673122",
@@ -14863,13 +14839,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Apple AirPods Pro 3がAmazonで送料込み179ドル（通常価格249ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Apple AirPods Pro 3がAmazonで送料込み179ドル（通常価格249ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a62b582854b4",
@@ -14895,13 +14873,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*お得* JLab JBuds Lux ノイズキャンセリング ワイヤレス オーバーイヤーヘッドホンが送料込みでわずか$39.99（通常価格$100！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*お得* JLab JBuds Lux ノイズキャンセリング ワイヤレス オーバーイヤーヘッドホンが送料込みでわずか$39.99（通常価格$100！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "47f0b00a5886",
@@ -14927,13 +14907,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "JLab Go Air Pop+ワイヤレスBluetoothイヤホン＆充電ケースがなんと9.88ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "JLab Go Air Pop+ワイヤレスBluetoothイヤホン＆充電ケースがなんと9.88ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "90648ae6bed3",
@@ -15877,13 +15859,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "話題のゼリーブラがAmazonで$ 25.xxから（通常価格$ 25）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "話題のゼリーブラがAmazonで$ 25.xxから（通常価格$ 25）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0f4b5f124fa0",
@@ -15978,13 +15962,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レゴ クリエイター 3in1 ワイルド・アニマルズ：雄大なサイと鳥たち 送料込みでわずか$26.99、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レゴ クリエイター 3in1 ワイルド・アニマルズ：雄大なサイと鳥たち 送料込みでわずか$26.99、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "dd0173294b2e",
@@ -16045,13 +16031,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Laifen SE LiteヘアドライヤーがAmazonで送料込みわずか$69.xx（通常価格$120）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Laifen SE LiteヘアドライヤーがAmazonで送料込みわずか$69.xx（通常価格$120）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7f7b0fc9fe0a",
@@ -16077,13 +16065,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Prime Videoチャンネルが月額わずか0.99ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Prime Videoチャンネルが月額わずか0.99ドルから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5ba574726272",
@@ -16109,13 +16099,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "話題のMediCubeスキンケアがAmazonで$xxから | 先月8万個以上を販売！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "話題のMediCubeスキンケアがAmazonで$xxから | 先月8万個以上を販売！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0b3d6cf76ee4",
@@ -16216,13 +16208,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Targusのバックパックがベストバイでたったの$9.99（通常価格$40）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Targusのバックパックがベストバイでたったの$9.99（通常価格$40）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d8228c9c9e60",
@@ -16248,13 +16242,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Beats 360ヘッドフォンがベストバイでわずか249.xxドル（通常価格350ドル）で送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Beats 360ヘッドフォンがベストバイでわずか249.xxドル（通常価格350ドル）で送料無料",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "04e586aa285c",
@@ -16280,13 +16276,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Insignia 70インチ4KスマートFire TVがBest Buyでわずか299.99ドル（通常価格500ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Insignia 70インチ4KスマートFire TVがBest Buyでわずか299.99ドル（通常価格500ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7b51408804f3",
@@ -16312,13 +16310,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "HP 14インチノートパソコンがBest Buyで送料込みわずか179.99ドル（通常価格350ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "HP 14インチノートパソコンがBest Buyで送料込みわずか179.99ドル（通常価格350ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "753f2cd90107",
@@ -16344,13 +16344,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Bella PRO SmartCrisp 8クォート タッチスクリーンエアフライヤーが送料込みでわずか$49.xx（通常価格$130）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Bella PRO SmartCrisp 8クォート タッチスクリーンエアフライヤーが送料込みでわずか$49.xx（通常価格$130）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8b1f3dc257f2",
@@ -16376,13 +16378,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ハイセンス65インチクラスQD5 Hi-QLED 4K UHDスマートRokuテレビがベストバイでわずか$299.xx（通常価格$550）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "ハイセンス65インチクラスQD5 Hi-QLED 4K UHDスマートRokuテレビがベストバイでわずか$299.xx（通常価格$550）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4b0bce75ba4c",
@@ -20109,13 +20113,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットのお買い得情報：Cuisinartのキッチン用品が40%オフ！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのお買い得情報：Cuisinartのキッチン用品が40%オフ！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0956b698495b",
