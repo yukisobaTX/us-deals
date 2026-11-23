@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T21:48Z",
- "count": 1594,
+ "updated": "2026-11-23T02:49Z",
+ "count": 1596,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 39
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -15,8 +15,8 @@
    "added": 1
   },
   "ffp": {
-   "read": 0,
-   "added": 0
+   "read": 20,
+   "added": 2
   },
   "msm": {
    "read": 75,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 12
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -55,17 +55,251 @@
    "added": 0
   },
   "ja": {
-   "gemini": 21,
+   "gemini": 14,
    "geminiEvent": 1,
    "mymemory": 25,
-   "geminiToday": 6,
+   "geminiToday": 8,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [
-  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "595eaab466a1",
+   "title": "Life in Lilac Black Friday Sale: Up to 50% Off EVERYTHING + Chance to Win a NYC Trip!",
+   "link": "https://hip2save.com/deals/life-in-lilac/",
+   "source": "Hip2Save",
+   "posted": "2026-11-23T01:01Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/life-in-lilac.png?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Life in Lilacブラックフライデーセール：全品最大50%オフ＋ニューヨーク旅行が当たるチャンス！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Life in Lilacブラックフライデーセール：全品最大50%オフ＋ニューヨーク旅行が当たるチャンス！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "0fb02682dfb5",
+   "title": "Bauble Bar Gold-Plated Initial Necklaces only $15.xx on Amazon! (Reg. $42)",
+   "link": "https://thefreebieguy.com/bauble-bar-gold-plated-initial-necklaces/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-23T00:55Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Baublebar-initial-necklace-_20261122_195425_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 64,
+   "price": 15.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Bauble BarのゴールドメッキイニシャルネックレスがAmazonでたったの$15.xx！（通常価格$42）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Bauble BarのゴールドメッキイニシャルネックレスがAmazonでたったの$15.xx！（通常価格$42）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a5375077cc97",
+   "title": "5 Tier Garage Shelving only $39.xx on Amazon (Reg. $80)",
+   "link": "https://thefreebieguy.com/5-tier-garage-shelving/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-23T00:27Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Garage-shelves-_20261122_192552_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 51,
+   "price": 39.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "5段ガレージ用棚がAmazonでたったの$39.xx（通常価格$80）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "5段ガレージ用棚がAmazonでたったの$39.xx（通常価格$80）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "aa4d4b505a7c",
+   "title": "UberEats: Promo Codes, Discounts & Other Savings: $11.25 off $18+",
+   "link": "https://www.doctorofcredit.com/ubereats-promo-codes-discounts-other-savings/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-22T23:40Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2024/05/garfield.png",
+   "hot": false,
+   "stores": [
+    "Uber Eats"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Uber Eats：プロモーションコード、割引、その他の特典：18 ドル以上のご注文で 11.25 ドル OFF",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Uber Eats",
+    "item": "Uber Eats：プロモーションコード、割引、その他の特典：18 ドル以上のご注文で 11.25 ドル OFF",
+    "when": "",
+    "cond": "コード入力"
+   },
+   "date": null
+  },
+  {
+   "id": "7078b4da5b60",
+   "title": "Ooey Gooey Squishies as low as $4.xx at Walmart! (Reg. $11)",
+   "link": "https://thefreebieguy.com/ooey-gooey-le-goo-bakery-squishies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T23:08Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Ooey-Gooey-Le-Goo-Bakery-Squishes_20261122_180510_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 64,
+   "price": 4.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "WalmartでOoey Gooey Squishiesがなんと$4.xx！（通常価格$11）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "WalmartでOoey Gooey Squishiesがなんと$4.xx！（通常価格$11）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "45839a404bc5",
+   "title": "Taba Squishy Making Kit Only $23.xx on Amazon!",
+   "link": "https://thefreebieguy.com/dan-darci-taba-squishy-making-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-22T22:38Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Taba-Squishy-Making-Kit-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Tabaスクイーズ作成キットがAmazonでたったの$23.xx！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Tabaスクイーズ作成キットがAmazonでたったの$23.xx！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2eb6909cd56b",
+   "title": "Kohl’s Clearance Clothing, Shoes, Jewelry, & More from $2.55",
+   "link": "https://hip2save.com/deals/kohls-clearance/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T22:25Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Kohls-Clearance-5.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohl'sの衣類、靴、ジュエリーなどのクリアランスセールが2.55ドルから",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohl'sの衣類、靴、ジュエリーなどのクリアランスセールが2.55ドルから",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "ced8154e7949",
    "title": "Febreze Air Mist Sprays Only $1.xx at Target!",
@@ -122,11 +356,47 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ビューティーブランドがブラックフライデーセールで最大80%オフ| Biolage、CHI、Hempzなど）",
+   "ja": "ビューティーブランド最大80%OFF",
+   "jaVia": "gemini",
+   "sum": {
+    "store": "Biolage / CHI / Hempz",
+    "item": "ビューティーブランド最大80%OFF",
+    "when": "2026-11-22以降",
+    "cond": "BFセール",
+    "what": "最大80%OFF",
+    "where": "オンライン"
+   },
+   "date": null
+  },
+  {
+   "id": "3753eba4fefe",
+   "title": "Amazon Grocery Gravy from 85¢ Shipped (Beef or Turkey)",
+   "link": "https://hip2save.com/deals/amazon-grocery-gravy/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T21:15Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Amazon-Grocery-Beef-Gravy.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazon食品・生鮮食品のグレービーソースが85セントから（牛肉または七面鳥）",
    "jaVia": "mymemory",
    "sum": {
-    "store": "",
-    "item": "ビューティーブランドがブラックフライデーセールで最大80%オフ| Biolage、CHI、Hempzなど）",
+    "store": "Amazon",
+    "item": "Amazon食品・生鮮食品のグレービーソースが85セントから（牛肉または七面鳥）",
     "when": "",
     "cond": ""
    },
@@ -232,8 +502,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "72ca934415de",
-   "date": null
+   "date": null,
+   "dup": "72ca934415de"
   },
   {
    "id": "a7aa076d1e5f",
@@ -682,8 +952,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "64310e39af41",
-   "date": null
+   "date": null,
+   "dup": "64310e39af41"
   },
   {
    "id": "94255c2dcfe0",
@@ -719,8 +989,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "218d3aa6c6f3",
-   "date": null
+   "date": null,
+   "dup": "218d3aa6c6f3"
   },
   {
    "id": "6cfd650384db",
@@ -924,8 +1194,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "ab9df8f0f3da",
-   "date": null
+   "date": null,
+   "dup": "ab9df8f0f3da"
   },
   {
    "id": "2b3faf9e630d",
@@ -951,14 +1221,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kohl'sのレディースセーターが11.99ドルから（通常価格30ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Kohl'sのレディースセーターが11.99ドルから（通常価格30ドル）",
     "when": "",
     "cond": ""
    },
-   "dup": "89ec5ff3646c",
-   "date": null
+   "dup": "89ec5ff3646c"
   },
   {
    "id": "78eedfd88dba",
@@ -984,13 +1256,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Dawnパワーウォッシュスプレー（詰め替え用3個付き）がAmazonで1個あたりわずか$10.xx（通常価格$18）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Dawnパワーウォッシュスプレー（詰め替え用3個付き）がAmazonで1個あたりわずか$10.xx（通常価格$18）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "51805af51fe1",
@@ -1016,9 +1290,45 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kohls.comで人気のおもちゃが最大50%オフ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Kohls.comで人気のおもちゃが最大50%オフ",
+    "when": "",
+    "cond": ""
+   }
+  },
+  {
+   "id": "33ff9d11924a",
+   "title": "40% Off Boots at Target | Best-Selling Styles from $12",
+   "link": "https://hip2save.com/deals/target-boots/",
+   "source": "Hip2Save",
+   "posted": "2026-11-22T18:10Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/target-40-off-boots-black-friday.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 40,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ターゲットでブーツが40%オフ | 人気モデルが12ドルから",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "ターゲットでブーツが40%オフ | 人気モデルが12ドルから",
     "when": "",
     "cond": ""
    },
@@ -1048,13 +1358,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSフォト：同日パネルが65%オフ＋その他のセール！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSフォト：同日パネルが65%オフ＋その他のセール！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e755f1be215f",
@@ -1080,13 +1392,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "お気に入りのMy Texas Houseのサイプレス・クリスマスツリーがWalmart.comに再入荷しました",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "お気に入りのMy Texas Houseのサイプレス・クリスマスツリーがWalmart.comに再入荷しました",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "91b30bc28b2c",
@@ -1112,13 +1426,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSでキャッシュバック後、Reese’s Puffsシリアル2箱がたったの$2.48（1箱あたりわずか$1.24！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSでキャッシュバック後、Reese’s Puffsシリアル2箱がたったの$2.48（1箱あたりわずか$1.24！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c7807e35c2aa",
@@ -1144,14 +1460,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonで11ドル未満のタイマー付きキャンドルウォーマーランプ（手軽なギフトのアイデア！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonで11ドル未満のタイマー付きキャンドルウォーマーランプ（手軽なギフトのアイデア！）",
     "when": "",
     "cond": ""
    },
-   "dup": "50de0e9a30bb",
-   "date": null
+   "dup": "50de0e9a30bb"
   },
   {
    "id": "f9e2f47521c0",
@@ -1177,13 +1495,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Cuddl DudsのふわふわシェルパブランケットがKohl'sで15.xxドルから（通常価格40ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Cuddl DudsのふわふわシェルパブランケットがKohl'sで15.xxドルから（通常価格40ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4bbb651c2616",
@@ -1209,13 +1529,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kohls.comでレゴが40%オフセール中 | セットが10.79ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Kohls.comでレゴが40%オフセール中 | セットが10.79ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fbc8b9040094",
@@ -1241,13 +1563,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "100フィートのLEDクリスマスストリングライトがプライム会員なら送料込みでわずか$5.69",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "100フィートのLEDクリスマスストリングライトがプライム会員なら送料込みでわずか$5.69",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "98dc0a1039b4",
@@ -1273,13 +1597,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Shark Stainstrikerが送料込みでわずか99.99ドル（通常価格 140ドル）＋30ドルのコールズキャッシュをゲット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Shark Stainstrikerが送料込みでわずか99.99ドル（通常価格 140ドル）＋30ドルのコールズキャッシュをゲット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f7f56f67ef5d",
@@ -1305,13 +1631,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonプライム会員なら、電熱ベストが39.89ドルから送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonプライム会員なら、電熱ベストが39.89ドルから送料無料",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "39901ef15da1",
@@ -1337,13 +1665,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSでクリスマスのキャンディを1つ買うと、もう1つが50%オフ | スイートなギフトのアイデア",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSでクリスマスのキャンディを1つ買うと、もう1つが50%オフ | スイートなギフトのアイデア",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8c71c0844a7a",
@@ -1369,14 +1699,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Hanesのメンズお揃いパーカー＆スウェットパンツがWalmartで1枚あたりわずか$9（通常価格$28）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Hanesのメンズお揃いパーカー＆スウェットパンツがWalmartで1枚あたりわずか$9（通常価格$28）",
     "when": "",
     "cond": ""
    },
-   "dup": "93916239bc16",
-   "date": null
+   "dup": "93916239bc16"
   },
   {
    "id": "6b319eca4b82",
@@ -1734,8 +2066,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "d2ea1aaa04fa",
-   "date": null
+   "date": null,
+   "dup": "d2ea1aaa04fa"
   },
   {
    "id": "1040b96c7ca3",
@@ -10078,45 +10410,6 @@
    "date": null
   },
   {
-   "id": "4779cd3155f1",
-   "title": "Lights On! In Downtown Bryan is This Friday",
-   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-20T02:18Z",
-   "firstSeen": "2026-11-22T21:48Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "localDate": "2026-11-20",
-   "freebie": null,
-   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-    "when": "11/20(金)",
-    "cond": ""
-   },
-   "date": "2026-11-20"
-  },
-  {
    "id": "6a525a9b6aa3",
    "title": "McCormick Finishing Sugars Just $2.99 Shipped on Amazon",
    "link": "https://hip2save.com/deals/mccormick-finishing-sugars/",
@@ -16111,6 +16404,41 @@
    "date": null
   },
   {
+   "id": "1d7875526242",
+   "title": "Twin City Mission Hosting 2026 Coat and Blanket Giveaway on Thursday",
+   "link": "https://wtaw.com/twin-city-mission-hosting-2026-coat-and-blanket-giveaway-on-thursday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-19T02:58Z",
+   "firstSeen": "2026-11-23T02:49Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/18205518/TwinCityBlanket-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "localDate": "2026-11-19",
+   "freebie": null,
+   "ja": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に実施",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ツインシティ・ミッションが2026年コートとブランケットの無料配布を木曜日に実施",
+    "when": "11/19(木)",
+    "cond": ""
+   },
+   "date": "2026-11-19"
+  },
+  {
    "id": "95027a865b98",
    "title": "Comfrt Early Black Friday Sale is Live! Save BIG on Viral Oversized Hoodies & Sweatpants",
    "link": "https://hip2save.com/deals/comfrt-clothing/",
@@ -19629,7 +19957,7 @@
     "when": "",
     "cond": ""
    },
-   "dup": "2f37b25d22c0"
+   "dup": "aa057c14747e"
   },
   {
    "id": "6a63c76801fc",
@@ -22171,7 +22499,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "3753eba4fefe"
+   "dup": "87e44564b33f"
   },
   {
    "id": "822905440d26",
@@ -30978,41 +31306,6 @@
    "date": null
   },
   {
-   "id": "19408e3bd511",
-   "title": "Black Friday FREEBIES Are Coming! Score FREE Gift Cards, Advent Calendars & More",
-   "link": "https://hip2save.com/deals/black-friday-freebies/",
-   "source": "Hip2Save(無料)",
-   "posted": "2026-11-15T02:20Z",
-   "firstSeen": "2026-11-20T03:20Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2019/03/excited-holding-laptop.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": true,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "item": "ブラックフライデーの無料ギフトカード・アドベントカレンダーまとめ",
-    "what": "BF無料特典",
-    "where": "各店",
-    "cond": "まとめ"
-   },
-   "ja": "ブラックフライデーの無料ギフトカード・アドベントカレンダーまとめ",
-   "jaVia": "claude",
-   "date": null
-  },
-  {
    "id": "4c3a29265d8e",
    "title": "$10 and UNDER Toys for Walmart Black Friday | $5 Games, Squishmallows & More",
    "link": "https://thefreebieguy.com/10-and-under-toys-at-walmart/",
@@ -31046,40 +31339,6 @@
    "ja": "$10以下のおもちゃやゲーム",
    "jaVia": "gemini",
    "date": null
-  },
-  {
-   "id": "fda50b063854",
-   "title": "Aquaphor Lip Repair Ointment 2 Pack Only $4.xx on Amazon (Reg $10)",
-   "link": "https://thefreebieguy.com/aquaphor-lip-repair/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-15T00:49Z",
-   "firstSeen": "2026-11-15T02:12Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/aquaphor-lip-repair--840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": 60,
-   "price": 4.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "Aquaphorリップリペア軟膏2個セットがAmazonでたったの$4.xx（通常価格$10）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Aquaphorリップリペア軟膏2個セットがAmazonでたったの$4.xx（通常価格$10）",
-    "when": "",
-    "cond": ""
-   }
   },
   {
    "id": "cd026fcaf464",
@@ -36457,8 +36716,7 @@
     "item": "キッズ用ミニカラオケマシン（マイク2本付き）がAmazonでわずか$9.xx（通常価格$25）",
     "when": "",
     "cond": "子ども向け"
-   },
-   "dup": "b0d344e67707"
+   }
   },
   {
    "id": "50ecf26f30d8",
@@ -43852,7 +44110,7 @@
     "when": "",
     "cond": ""
    },
-   "dup": "3753eba4fefe"
+   "dup": "0fbf7b4ca67a"
   },
   {
    "id": "5862b87260da",
@@ -53838,40 +54096,6 @@
    "date": null
   },
   {
-   "id": "7f96dd4aad5c",
-   "title": "Rhinestone Bedazzling 52,000-Piece Kit Just $4.49 on Amazon (Includes Glue, Tweezers, & More)",
-   "link": "https://hip2save.com/deals/amazon-rhinestone-bedazzling-kit/",
-   "source": "Hip2Save",
-   "posted": "2026-11-08T02:20Z",
-   "firstSeen": "2026-11-08T02:31Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/HRLbrc-Bedazzling-Kit.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Rhinestone Bedazzling 52,000ピースキットアマゾンでわずか$ 4.49 （接着剤、ピンセットなどを含む）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Rhinestone Bedazzling 52,000ピースキットアマゾンでわずか$ 4.49 （接着剤、ピンセットなどを含む）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "dd0b1bd4468a",
    "title": "Lake Walk Run Club",
    "link": "https://www.destinationbryan.com/events/lake-walk-run-club/",
@@ -53955,142 +54179,6 @@
    "family": true,
    "date": "2026-12-04",
    "freebie": null
-  },
-  {
-   "id": "4f825f8c0c50",
-   "title": "NEW Little People Holiday Sets at Walmart!",
-   "link": "https://thefreebieguy.com/little-people-holiday-sets/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-07T22:53Z",
-   "firstSeen": "2026-11-08T01:54Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Fisher-Price-Little-People-Musical-Christmas-Train-Toddler-Toy-with-Santa-Elf-Reindeer-Figures-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマートの新しいリトルピープルホリデーセット！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ウォルマートの新しいリトルピープルホリデーセット！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "e1b99840861a",
-   "title": "Galaxy Star Projectors from $9.99 on Amazon (Reg. $20)",
-   "link": "https://hip2save.com/deals/astronaut-galaxy-star-projector/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T22:50Z",
-   "firstSeen": "2026-11-08T01:54Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/glazy-projector.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": 9.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazonで$ 9.99からのGalaxy Starプロジェクター（登録価格$ 20 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonで$ 9.99からのGalaxy Starプロジェクター（登録価格$ 20 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "e8d8069d3250",
-   "title": "Here’s What We Found at Costco (& The the Porch Goose is Just the Start!)",
-   "link": "https://hip2save.com/deals/new-at-costco/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T22:45Z",
-   "firstSeen": "2026-11-07T22:46Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/costco-porch-goose.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Costco"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "コストコで見つけたものをご紹介します（そして、ポーチグースはほんの始まりに過ぎません！ ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Costco",
-    "item": "コストコで見つけたものをご紹介します（そして、ポーチグースはほんの始まりに過ぎません！ ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "f84d01cdc1b8",
-   "title": "Bauducco Wafer Cookies Only $1 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/bauducco-wafer-cookies/",
-   "source": "Hip2Save",
-   "posted": "2026-11-07T22:00Z",
-   "firstSeen": "2026-11-07T22:46Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/02/Bauducco-chocolate-cookies-displayed-on-a-plate-on-a-table.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ボードゥッコウェハークッキーのみ$ 1 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ボードゥッコウェハークッキーのみ$ 1 Amazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
   },
   {
    "id": "12f496e2120d",
