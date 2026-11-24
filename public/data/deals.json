@@ -1,34 +1,34 @@
 {
- "updated": "2026-11-24T00:55Z",
- "count": 1662,
+ "updated": "2026-11-24T06:30Z",
+ "count": 1666,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 59
+   "added": 9
   },
   "h2s-free": {
    "read": 100,
-   "added": 19
+   "added": 20
   },
   "doc": {
    "read": 15,
-   "added": 3
+   "added": 2
   },
   "ffp": {
-   "read": 0,
-   "added": 0
+   "read": 20,
+   "added": 2
   },
   "msm": {
    "read": 75,
-   "added": 29
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 29
+   "added": 1
   },
   "mws": {
    "read": 20,
-   "added": 4
+   "added": 3
   },
   "wtaw": {
    "read": 20,
@@ -55,17 +55,377 @@
    "added": 0
   },
   "ja": {
-   "gemini": 23,
+   "gemini": 0,
    "geminiEvent": 1,
-   "mymemory": 25,
-   "geminiToday": 4,
-   "model": "gemini-flash-latest"
+   "mymemory": 21,
+   "geminiToday": 2,
+   "model": "gemini-flash-latest",
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
- "errors": [
-  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "91aacca013e4",
+   "title": "JetBlue Black Friday Award Sale: Flights From 2,700 Points",
+   "link": "https://www.doctorofcredit.com/jetblue-black-friday-award-sale-flights-from-2700-points/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-24T05:59Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/11/jetblue-black-friday-1005x1024.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ジェットブルーのブラックフライデーアワードセール：2,700ポイントからの航空券",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ジェットブルーのブラックフライデーアワードセール：2,700ポイントからの航空券",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "744f8c9a2d04",
+   "title": "7-Eleven/Speedway: Text Knoodle To 711711 & Get Free Knoodle Salad",
+   "link": "https://www.doctorofcredit.com/7-eleven-speedway-text-knoodle-to-711711-get-free-knoodle-salad/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-24T05:54Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": null,
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "ja": "セブンイレブン/スピードウェイ：711711に「Knoodle」とSMSを送信して、ヌードルサラダを無料でゲット",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "セブンイレブン/スピードウェイ：711711に「Knoodle」とSMSを送信して、ヌードルサラダを無料でゲット",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f30e01bd3989",
+   "title": "Team & Reader Fave Jelly Bras UNDER $10 on Amazon",
+   "link": "https://hip2save.com/deals/amazon-jelly-bra/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T04:15Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Oeak-Jelly-Bra-in-pink.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "チーム＆読者のお気に入りジェルブラがAmazonで10ドル未満",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "チーム＆読者のお気に入りジェルブラがAmazonで10ドル未満",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "82e43bfb1a14",
+   "title": "Aerie Black Friday Sale | Up to 55% Off Sweatshirts, Leggings & Underwear",
+   "link": "https://hip2save.com/deals/aerie-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T03:25Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Aerie-Oh-Snap-Sweatshirt.jpg?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Aerieブラックフライデーセール | スウェットシャツ、レギンス、下着が最大55%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Aerieブラックフライデーセール | スウェットシャツ、レギンス、下着が最大55%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5eb73d66ebe1",
+   "title": "Old Navy Black Friday Sale | Tops, Jeans & More from $4.99",
+   "link": "https://hip2save.com/deals/old-navy-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T02:30Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/old-navy-50-off.jpg?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Old Navyブラックフライデーセール | トップス、ジーンズなど4.99ドルから",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Old Navyブラックフライデーセール | トップス、ジーンズなど4.99ドルから",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3e4269f0bede",
+   "title": "Hot Wheels Monster Trucks Neon Smashers 9-Pack JUST $15 on Walmart.com (Reg. $30)",
+   "link": "https://hip2save.com/deals/hot-wheels-monster-trucks/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T02:25Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Hot-Wheels-Monster-Trucks-Neon-Smashers-4-Pack-2-.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 15.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ホットウィール・モンスタートラック・ネオンスマッシャー9台セットがWalmart.comでわずか$15（通常価格$30）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ホットウィール・モンスタートラック・ネオンスマッシャー9台セットがWalmart.comでわずか$15（通常価格$30）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7a4340987434",
+   "title": "Walmart Has the Leg Lamp from A Christmas Story Available for Black Friday!",
+   "link": "https://hip2save.com/deals/christmas-story-leg-lamp/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T02:15Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/a-christmas-story-leg-lamp-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートで『クリスマス・ストーリー』の脚のランプがブラックフライデーに登場！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートで『クリスマス・ストーリー』の脚のランプがブラックフライデーに登場！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "ae0e28c6ce86",
+   "title": "Jurassic World Super Colossal Dinosaur Action Figures Just $30 on Walmart.com (Reg. $70)",
+   "link": "https://hip2save.com/deals/jurassic-world-toys/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T01:55Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/Jurassic-World-Rebirth-Super-Colossal-Tyrannosaurus-Rex-Action-Figure.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 57,
+   "price": 30.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "02a8c5409b17",
+   "title": "Peacock Black Friday Streaming Deal | 12 Months for Just $29.99!",
+   "link": "https://thefreebieguy.com/streaming-peacock-deal/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-24T01:32Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/peacock-streaming-deal-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Peacockブラックフライデー・ストリーミングセール | 12か月間わずか$29.99！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Peacockブラックフライデー・ストリーミングセール | 12か月間わずか$29.99！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f546499ea8eb",
+   "title": "Battat My First Barn Playset Only $15 on Walmart.com (Reg. $30)",
+   "link": "https://hip2save.com/deals/battat-my-first-barn-playset/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T01:25Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/H2S-1200x630-7-3.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 15.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "a3d1d9ba0255",
+   "title": "Rechargeable Cordless Lamp Only $5 on Walmart.com",
+   "link": "https://hip2save.com/deals/walmart-rechargeable-cordless-lamp/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T01:20Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Rechargeable-Cordless-Lamp.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "e525b9f43614",
    "title": "15 Advent Calendars Worth Buying Before They Sell Out",
@@ -237,40 +597,6 @@
    "date": null
   },
   {
-   "id": "f962530fc32a",
-   "title": "Up to 50% Off Holiday Lighting, Decor, & More on Target.com – Today Only!",
-   "link": "https://hip2save.com/deals/target-daily-deals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-23T23:40Z",
-   "firstSeen": "2026-11-24T00:55Z",
-   "expires": "2026-11-23",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/target-1.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Target.comでホリデーの照明、装飾などが最大50%オフ – 今日限り！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "Target.comでホリデーの照明、装飾などが最大50%オフ – 今日限り！",
-    "when": "11/23(月)まで",
-    "cond": ""
-   },
-   "date": "2026-11-23"
-  },
-  {
    "id": "f66ddb0f3989",
    "title": "FurReal Daisy the Yoga Goat Interactive Toy Only $20.xx on Amazon (Reg. $45)",
    "link": "https://thefreebieguy.com/furreal-daisy-the-yoga-goat/",
@@ -302,7 +628,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "3859bc46ffad",
    "date": null
   },
   {
@@ -663,8 +988,8 @@
    },
    "ja": "人気ブランド25%OFF",
    "jaVia": "gemini",
-   "dup": "1b9f3c7d360c",
-   "date": null
+   "date": null,
+   "dup": "1b9f3c7d360c"
   },
   {
    "id": "0cc40ff67a1b",
@@ -793,8 +1118,8 @@
     "when": "",
     "cond": "会員限定"
    },
-   "dup": "8318857282c0",
-   "date": null
+   "date": null,
+   "dup": "8318857282c0"
   },
   {
    "id": "22fccf92de29",
@@ -858,8 +1183,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "a0375bda43d4",
-   "date": null
+   "date": null,
+   "dup": "a0375bda43d4"
   },
   {
    "id": "11742824c1ad",
@@ -923,8 +1248,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "9ba150cfe859",
-   "date": null
+   "date": null,
+   "dup": "9ba150cfe859"
   },
   {
    "id": "557360179b42",
@@ -1084,7 +1409,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "c554487c96bb",
    "date": null
   },
   {
@@ -1117,8 +1441,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "b15c61148bc6",
-   "date": null
+   "date": null,
+   "dup": "b15c61148bc6"
   },
   {
    "id": "0aa72e0b1e6a",
@@ -1146,6 +1470,38 @@
    "freebie": null,
    "sum": {
     "store": "Walmart",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9c9f8a061b3d",
+   "title": "Firehouse Subs Unveils New Maple Bourbon Brisket Sub in Partnership with The Grill Dads",
+   "link": "https://www.fastfoodpost.com/firehouse-subs-unveils-new-maple-bourbon-brisket-sub-in-partnership-with-the-grill-dads/",
+   "source": "Fast Food Post",
+   "posted": "2026-11-23T20:12Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Firehouse Subs"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Firehouse Subs",
     "item": "",
     "when": "",
     "cond": ""
@@ -1222,7 +1578,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "76c3b6316924",
    "date": null
   },
   {
@@ -1489,8 +1844,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "3be2778f4a7e",
-   "date": null
+   "date": null,
+   "dup": "3be2778f4a7e"
   },
   {
    "id": "e312982405da",
@@ -1592,38 +1947,6 @@
    "date": null
   },
   {
-   "id": "bfacb1ea9f58",
-   "title": "Kobalt Assorted Pliers 5-Piece Set only $14.98 shipped (Reg. $33)! Today Only!",
-   "link": "https://moneysavingmom.com/kobalt-pliers-set-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-23T19:28Z",
-   "firstSeen": "2026-11-24T00:55Z",
-   "expires": "2026-11-23",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Kobalt-Pliers-set-5-Piece.jpg",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 55,
-   "price": 14.98,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Lowe's",
-    "item": "",
-    "when": "11/23(月)まで",
-    "cond": ""
-   },
-   "date": "2026-11-23"
-  },
-  {
    "id": "950c39b81c3e",
    "title": "*HOT* LEGO Black Friday Deals at Kohl’s!",
    "link": "https://moneysavingmom.com/kohls-lego-deals/",
@@ -1655,7 +1978,6 @@
    },
    "ja": "レゴ製品セール",
    "jaVia": "gemini",
-   "dup": "b105149b5286",
    "date": null
   },
   {
@@ -1788,7 +2110,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "4b4a4b3618ec"
   },
   {
    "id": "b2bc1e3e7082",
@@ -2119,7 +2442,6 @@
     "when": "",
     "cond": "会員限定"
    },
-   "dup": "2e85935b1288",
    "date": null
   },
   {
@@ -2218,7 +2540,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "f66ddb0f3989"
   },
   {
    "id": "2e85935b1288",
@@ -2250,7 +2573,8 @@
     "when": "",
     "cond": "会員限定"
    },
-   "date": null
+   "date": null,
+   "dup": "900632b0029c"
   },
   {
    "id": "8dc39a5bb477",
@@ -2734,7 +3058,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "5afdd955c8f9",
    "date": null
   },
   {
@@ -3023,7 +3346,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "8e8f661d7f61"
   },
   {
    "id": "257bdf8dabc9",
@@ -3151,7 +3475,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "8778ca2cd588"
   },
   {
    "id": "9f99c8129a59",
@@ -3311,7 +3636,39 @@
     "when": "",
     "cond": ""
    },
-   "dup": "c43febe0bab0",
+   "date": null,
+   "dup": "c43febe0bab0"
+  },
+  {
+   "id": "d68d7affe552",
+   "title": "Popeyes Debuts New $20 Family Style Meal Deal Alongside New Apple Crisp Cup",
+   "link": "https://www.fastfoodpost.com/popeyes-debuts-new-20-family-style-meal-deal-alongside-new-apple-crisp-cup/",
+   "source": "Fast Food Post",
+   "posted": "2026-11-23T15:43Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Popeyes"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Popeyes",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
    "date": null
   },
   {
@@ -3378,7 +3735,8 @@
    },
    "ja": "生活雑貨が$2.79〜",
    "jaVia": "gemini",
-   "date": null
+   "date": null,
+   "dup": "950c39b81c3e"
   },
   {
    "id": "96d0ddf5409c",
@@ -3419,7 +3777,7 @@
    "source": "WTAW(カレッジステーション)",
    "posted": "2026-11-23T15:17Z",
    "firstSeen": "2026-11-24T00:55Z",
-   "expires": null,
+   "expires": "2026-11-25",
    "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/23135937/NoonLionsTree-300x169.jpg",
    "noAlert": true,
    "region": "College Station",
@@ -3441,13 +3799,15 @@
    "family": true,
    "localDate": "2026-11-25",
    "freebie": null,
-   "ja": "クリスマスツリーの季節が水曜日から始まります。CSヌーンライオンズが担当します。",
-   "jaVia": "mymemory",
+   "ja": "CS Noon Lionsのクリスマスツリー販売",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "クリスマスツリーの季節が水曜日から始まります。CSヌーンライオンズが担当します。",
-    "when": "11/25(水)",
-    "cond": ""
+    "store": "CS Noon Lions",
+    "item": "CS Noon Lionsのクリスマスツリー販売",
+    "when": "水曜日開始",
+    "cond": "家族向け",
+    "what": "ツリー販売",
+    "where": "CS Noon Lions"
    },
    "date": "2026-11-25"
   },
@@ -3513,8 +3873,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "7b7843a4bcae",
-   "date": null
+   "date": null,
+   "dup": "7b7843a4bcae"
   },
   {
    "id": "38b70860ce37",
@@ -3807,38 +4167,6 @@
    "date": null
   },
   {
-   "id": "3651a8980319",
-   "title": "Peek at Our Carts: 10 Random Things We Bought on Amazon Today",
-   "link": "https://hip2save.com/product-reviews/best-things-to-buy-on-amazon/",
-   "source": "Hip2Save",
-   "posted": "2026-11-23T14:05Z",
-   "firstSeen": "2026-11-24T00:55Z",
-   "expires": "2026-11-23",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/amazon-boxes.jpeg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "",
-    "when": "11/23(月)まで",
-    "cond": ""
-   },
-   "date": "2026-11-23"
-  },
-  {
    "id": "db2ef11e31a7",
    "title": "Women’s Cozy Boots and Mini Boots only $11.99!",
    "link": "https://moneysavingmom.com/so-paulina-womens-faux-fur-winter-boots-deal/",
@@ -3934,8 +4262,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "30afb301f233",
-   "date": null
+   "date": null,
+   "dup": "30afb301f233"
   },
   {
    "id": "c0652f86a947",
@@ -3999,8 +4327,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "77ce2216026d",
-   "date": null
+   "date": null,
+   "dup": "77ce2216026d"
   },
   {
    "id": "d3ef00ee3de1",
@@ -4556,45 +4884,6 @@
    "date": null
   },
   {
-   "id": "454e7543059b",
-   "title": "Paris Baguette Deals | Buy One, Get One Cake Slice Free – Today Only!",
-   "link": "https://thefreebieguy.com/paris-baguette-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-23T11:53Z",
-   "firstSeen": "2026-11-23T12:51Z",
-   "expires": "2026-11-23",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Paris-Baguette-Thanksgiving-Cake-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Paris Baguette"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-23",
-    "bogo": true
-   },
-   "sum": {
-    "store": "Paris Baguette",
-    "item": "ケーキのスライスがBOGO",
-    "when": "11/23",
-    "what": "BOGOケーキ",
-    "where": "Paris Baguette"
-   },
-   "ja": "ケーキのスライスがBOGO",
-   "jaVia": "gemini",
-   "date": "2026-11-23"
-  },
-  {
    "id": "53446cacb0b8",
    "title": "Cheap Food Deals for Monday – Jimmy John’s, Krispy Kreme, & More!",
    "link": "https://thefreebieguy.com/cheap-monday-food-deals/",
@@ -4842,7 +5131,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-23T11:22Z",
    "firstSeen": "2026-11-23T12:51Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/11/nee-doh.jpg?resize=306,182",
    "hot": false,
    "stores": [
@@ -5893,7 +6182,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "64310e39af41"
+   "dup": "004d58ccd101"
   },
   {
    "id": "94255c2dcfe0",
@@ -11279,48 +11568,6 @@
    "date": null
   },
   {
-   "id": "e846931b91dc",
-   "title": "\"Remnants of 150 Years at Texas A&M University\" Exhibit at Cushing Library",
-   "link": "https://www.destinationbryan.com/events/a-legacy-built-of-brick-stone-remnants-of-150-years-at-texas-a-m-university/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-20T23:32Z",
-   "firstSeen": "2026-11-20T23:32Z",
-   "expires": "2026-11-23",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-23",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Cushing Library",
-    "item": "A&M 150年の建物の名残をたどる展示",
-    "when": "11/23(月)",
-    "cond": "展示",
-    "what": "A&M150年展",
-    "where": "Cushing Library"
-   },
-   "ja": "A&M 150年の建物の名残をたどる展示",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-23",
-   "freebie": null
-  },
-  {
    "id": "ae0d015ed0c7",
    "title": "Out & About Holiday Market Hangout at Rountree Market",
    "link": "https://www.destinationbryan.com/events/out-about-holiday-market-hangout/",
@@ -12801,41 +13048,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "070fcb12bdd7",
-   "title": "Want a Peek at Walmart’s Black Friday Deals? Get Ready to Shop on 11/23!",
-   "link": "https://hip2save.com/deals/walmart-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-20T19:08Z",
-   "firstSeen": "2026-11-20T21:09Z",
-   "expires": "2026-11-23",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/walmart-bf-deals-images.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "Walmart のブラックフライデーセール 11/23 開始",
-    "when": "11/23(月)",
-    "what": "BFセール開始",
-    "where": "Walmart"
-   },
-   "ja": "Walmart のブラックフライデーセール 11/23 開始",
-   "jaVia": "claude",
-   "date": "2026-11-23"
   },
   {
    "id": "17f7507b9a7b",
@@ -15177,6 +15389,45 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "4779cd3155f1",
+   "title": "Lights On! In Downtown Bryan is This Friday",
+   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-20T02:18Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "localDate": "2026-11-20",
+   "freebie": null,
+   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
+    "when": "11/20(金)",
+    "cond": ""
+   },
+   "date": "2026-11-20"
   },
   {
    "id": "6a525a9b6aa3",
@@ -19915,45 +20166,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "18e98c852a35",
-   "title": "Jimmy John’s Deals | Free Branded Dickie w/ Christmas Vacation Feast Purchase on 11/23!",
-   "link": "https://thefreebieguy.com/jimmy-johns-deals-and-codes/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-19T12:42Z",
-   "firstSeen": "2026-11-19T13:14Z",
-   "expires": "2026-11-23",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Jimmy-Johns-National-Lampoons-Christmas-Vacations-Collab-and-Dickie-Freebie-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Jimmy John's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-23"
-   },
-   "sum": {
-    "store": "Jimmy John's",
-    "item": "Jimmy John's 限定セット購入でディッキー無料",
-    "when": "11/23(月)",
-    "cond": "セット購入",
-    "what": "記念品無料",
-    "where": "Jimmy John's"
-   },
-   "ja": "Jimmy John's 限定セット購入でディッキー無料",
-   "jaVia": "claude",
-   "date": "2026-11-23"
   },
   {
    "id": "9ef28651ceba",
@@ -25179,6 +25391,39 @@
    "date": null
   },
   {
+   "id": "7988d51c71df",
+   "title": "*HOT* 6 FREE Walgreens Photo Cards + FREE Return Address Printing ($25 Value!)",
+   "link": "https://hip2save.com/deals/walgreens-photo-cards/",
+   "source": "Hip2Save(無料)",
+   "posted": "2026-11-18T00:20Z",
+   "firstSeen": "2026-11-24T06:30Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/walgreens-photo-cards-1.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walgreens"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Walgreens",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "7fa3cb55402f",
+   "date": null
+  },
+  {
    "id": "9ac9eb051f53",
    "title": "Farberware Disney Cast Iron Dutch Oven with Lid Only $49.xx on Amazon (Reg. $130)",
    "link": "https://thefreebieguy.com/farberware-disney-cast-iron-dutch-oven/",
@@ -26279,7 +26524,7 @@
     "when": "",
     "cond": ""
    },
-   "dup": "5490bd2a6d54"
+   "dup": "1cd82dbc6b05"
   },
   {
    "id": "6f11a3bd4ac8",
@@ -27891,46 +28136,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "d8eb1200a98b",
-   "title": "Krispy Kreme Deals | FREE Thanksgiving Collection Doughnut w/ Purchase Through 11/23",
-   "link": "https://thefreebieguy.com/krispy-kreme-coupons-freebies/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-17T16:44Z",
-   "firstSeen": "2026-11-17T22:54Z",
-   "expires": "2026-11-23",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Krispy-Kreme-Holiday-Doughnuts-1-840x630.png",
-   "hot": true,
-   "stores": [
-    "Krispy Kreme"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-23"
-   },
-   "sum": {
-    "store": "Krispy Kreme",
-    "item": "サンクスギビングドーナツ無料",
-    "when": "~11/23",
-    "cond": "要購入",
-    "what": "無料ドーナツ",
-    "where": "Krispy Kreme"
-   },
-   "ja": "サンクスギビングドーナツ無料",
-   "jaVia": "gemini",
-   "date": "2026-11-23",
-   "dup": "833e40c5f186"
   },
   {
    "id": "123707b7d7f1",
@@ -31725,8 +31930,7 @@
     "item": "ウォルマート：キャッシュバックでGolden Starのジャスミンライスを無料でゲット！",
     "when": "",
     "cond": ""
-   },
-   "dup": "b4367ad85c3d"
+   }
   },
   {
    "id": "57b3f36bd639",
@@ -33667,42 +33871,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "6714b88d37fa",
-   "title": "SLH: Free Upgrade To CLUB 03 Tier",
-   "link": "https://www.doctorofcredit.com/slh-free-upgrade-to-club-03-tier/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-16T03:06Z",
-   "firstSeen": "2026-11-16T03:14Z",
-   "expires": null,
-   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2026/05/slh-deal-1024x420.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Small Luxury Hotels",
-    "item": "SLH(ホテル)の会員 CLUB 03 へ無料アップグレード",
-    "what": "会員ランク無料UP",
-    "where": "SLH",
-    "cond": "会員登録"
-   },
-   "ja": "SLH(ホテル)の会員 CLUB 03 へ無料アップグレード",
-   "jaVia": "claude",
    "date": null
   },
   {
@@ -43581,8 +43749,7 @@
     "item": "コットンエル・トイレットペーパー、ファミリーメガロール40個が送料込みでわずか$27.99！",
     "when": "",
     "cond": ""
-   },
-   "dup": "af265aa346ef"
+   }
   },
   {
    "id": "c77307ea6077",
@@ -44947,7 +45114,8 @@
     "item": "Cottonelleウルトラソフトトイレットペーパー、ファミリーメガロール40個がAmazonでわずか$28.xx（通常価格$40）",
     "when": "",
     "cond": ""
-   }
+   },
+   "dup": "004d58ccd101"
   },
   {
    "id": "042b704e4305",
@@ -53176,8 +53344,7 @@
     "item": "$ 40のWondershopクリスマスデコレーション購入で$ 10オフ！",
     "when": "",
     "cond": ""
-   },
-   "dup": "09c99a31f889"
+   }
   },
   {
    "id": "79c11c1c52ce",
@@ -55057,8 +55224,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "183e645f4fa1"
+   "date": null
   },
   {
    "id": "100e2e3b1fa6",
@@ -55679,8 +55845,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "3febe56dfb00"
+   "date": null
   },
   {
    "id": "bba9b1c84312",
@@ -56207,81 +56372,6 @@
    "date": "2026-11-10",
    "ja": "McDonald's×ポケモンの限定ハッピーセット発売",
    "jaVia": "claude"
-  },
-  {
-   "id": "e3fc568e669b",
-   "title": "New for Families: Kanopy Kids Launches November 15!",
-   "link": "https://www.bcslibrary.org/new-for-families-kanopy-kids-launches-november-15/",
-   "source": "Bryan+College Station 図書館",
-   "posted": "2026-11-09T01:28Z",
-   "firstSeen": "2026-11-09T02:05Z",
-   "expires": null,
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "子供向け"
-   ],
-   "family": true,
-   "localDate": "2026-11-15",
-   "freebie": null,
-   "ja": "子供向け動画配信「Kanopy Kids」開始",
-   "jaVia": "claude-ev",
-   "sum": {
-    "store": "Kanopy",
-    "item": "子供向け動画配信「Kanopy Kids」開始",
-    "when": "11/15〜",
-    "cond": "無料(図書カード要)・2〜8歳向け",
-    "what": "子供動画配信",
-    "where": "オンライン"
-   },
-   "date": "2026-11-15"
-  },
-  {
-   "id": "69e599c1649c",
-   "title": "Mini Sticker Printer only $8.xx on Amazon!",
-   "link": "https://thefreebieguy.com/mini-sticker-printer/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-09T01:06Z",
-   "firstSeen": "2026-11-09T02:05Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Printer-_20261108_195648_0000-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ミニステッカープリンターはAmazonで$ 8.xxのみ！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ミニステッカープリンターはAmazonで$ 8.xxのみ！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
   },
   {
    "id": "dd0b1bd4468a",
