@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-24T07:07Z",
- "count": 1666,
+ "updated": "2026-11-24T10:58Z",
+ "count": 1671,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 5
   },
   "h2s-free": {
    "read": 100,
@@ -15,7 +15,7 @@
    "added": 0
   },
   "ffp": {
-   "read": 0,
+   "read": 20,
    "added": 0
   },
   "msm": {
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 0
+   "added": 1
   },
   "cstx": {
    "read": 5,
@@ -57,17 +57,146 @@
   "ja": {
    "gemini": 0,
    "geminiEvent": 0,
-   "mymemory": 23,
-   "geminiToday": 4,
+   "mymemory": 24,
+   "geminiToday": 6,
    "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai",
-   "mymemoryError": "HTTP Error 429: Too Many Requests"
+   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
   }
  },
- "errors": [
-  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
- ],
+ "errors": [],
  "items": [
+  {
+   "id": "ab610aae4332",
+   "title": "FIVE Ulta Beauty Minis Just $4.50 (Perfect Teen Stocking Stuffers!)",
+   "link": "https://hip2save.com/deals/ulta-beauty-sweet-and-shimmer/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T10:55Z",
+   "firstSeen": "2026-11-24T10:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/ulta-beauty-minis.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Ulta"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウルタビューティーのミニサイズ5点わずか$4.50（ティーン向けのクリスマスプレゼントに最適！）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Ulta",
+    "item": "ウルタビューティーのミニサイズ5点わずか$4.50（ティーン向けのクリスマスプレゼントに最適！）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7e1bfed5d588",
+   "title": "Grab All the Best TV Streaming Service Deals + Ways to Get Them Free",
+   "link": "https://hip2save.com/deals/best-tv-streaming-service/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T10:34Z",
+   "firstSeen": "2026-11-24T10:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2020/05/starz-streaming-tv.jpg?resize=306,182",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "最高のテレビストリーミングサービスのお得な情報と無料入手方法をすべてチェック",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "最高のテレビストリーミングサービスのお得な情報と無料入手方法をすべてチェック",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "f962530fc32a",
+   "title": "30% Off Gigglescape Toys & Plushies on Target.com – Today Only!",
+   "link": "https://hip2save.com/deals/target-daily-deals/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T10:28Z",
+   "firstSeen": "2026-11-24T10:58Z",
+   "expires": "2026-11-24",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/gigglescape-dolls.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 30,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Target.comでGigglescapeのおもちゃとぬいぐるみ30%オフ – 今日限り！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Target.comでGigglescapeのおもちゃとぬいぐるみ30%オフ – 今日限り！",
+    "when": "11/24(火)まで",
+    "cond": ""
+   },
+   "date": "2026-11-24"
+  },
+  {
+   "id": "385d42ecb22c",
+   "title": "Disney+ & Hulu Black Friday Bundle: Just $4.99/Month for a WHOLE YEAR (New & Returning Customers!)",
+   "link": "https://hip2save.com/deals/disney-plus-hulu-bundle/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T10:01Z",
+   "firstSeen": "2026-11-24T10:58Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/H2S-1200x630-15-2.jpg?resize=306,182",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Disney+とHuluのブラックフライデーバンドル：年間わずか月額4.99ドル（新規および再登録のお客様対象！）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "Disney+とHuluのブラックフライデーバンドル：年間わずか月額4.99ドル（新規および再登録のお客様対象！）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "91aacca013e4",
    "title": "JetBlue Black Friday Award Sale: Flights From 2,700 Points",
@@ -1167,13 +1296,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "PicassoTiles 101ピースセットが、Walmart+メンバーなら送料込みでわずか24.99ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "PicassoTiles 101ピースセットが、Walmart+メンバーなら送料込みでわずか24.99ドル",
     "when": "",
     "cond": "会員限定"
    },
-   "date": null,
    "dup": "8318857282c0"
   },
   {
@@ -1200,13 +1331,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "MainstaysのフェイクファーのスローピローがWalmart.comでたったの5ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "MainstaysのフェイクファーのスローピローがWalmart.comでたったの5ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "10cd10796677",
@@ -1232,13 +1365,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "No Boundariesのレディースフリーススウェットシャツとジョガーパンツがウォルマートでたったの$8（通常価格$12）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "No Boundariesのレディースフリーススウェットシャツとジョガーパンツがウォルマートでたったの$8（通常価格$12）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "a0375bda43d4"
   },
   {
@@ -1265,13 +1400,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "コンセントがない？火がない？4ドルの食品保温パッドが、数時間食品を温かく保ちます",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "コンセントがない？火がない？4ドルの食品保温パッドが、数時間食品を温かく保ちます",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5daf59534f60",
@@ -1297,13 +1434,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ネスプレッソ ヴァーチュオ ポップ コーヒー＆エスプレッソマシンがウォルマートでわずか$59（通常価格$119）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ネスプレッソ ヴァーチュオ ポップ コーヒー＆エスプレッソマシンがウォルマートでわずか$59（通常価格$119）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "9ba150cfe859"
   },
   {
@@ -1330,13 +1469,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キッズ用クリスマスパジャマセットがWalmart.comでたったの$5（通常価格$10）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "キッズ用クリスマスパジャマセットがWalmart.comでたったの$5（通常価格$10）",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "17afb7a6ead8",
@@ -1362,13 +1503,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*レア* Apple AirTag第2世代がたったの18ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "*レア* Apple AirTag第2世代がたったの18ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1647b7ab9173",
@@ -15444,6 +15587,45 @@
     "cond": ""
    },
    "date": null
+  },
+  {
+   "id": "4779cd3155f1",
+   "title": "Lights On! In Downtown Bryan is This Friday",
+   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
+   "source": "WTAW(カレッジステーション)",
+   "posted": "2026-11-20T02:18Z",
+   "firstSeen": "2026-11-24T10:58Z",
+   "expires": null,
+   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
+   "noAlert": true,
+   "region": "College Station",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "localDate": "2026-11-20",
+   "freebie": null,
+   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
+    "when": "11/20(金)",
+    "cond": ""
+   },
+   "date": "2026-11-20"
   },
   {
    "id": "6a525a9b6aa3",
