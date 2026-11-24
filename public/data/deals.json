@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-24T06:30Z",
+ "updated": "2026-11-24T07:07Z",
  "count": 1666,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 9
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
-   "added": 20
+   "added": 19
   },
   "doc": {
    "read": 15,
-   "added": 2
+   "added": 0
   },
   "ffp": {
-   "read": 20,
-   "added": 2
+   "read": 0,
+   "added": 0
   },
   "msm": {
    "read": 75,
-   "added": 0
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 1
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -56,14 +56,17 @@
   },
   "ja": {
    "gemini": 0,
-   "geminiEvent": 1,
-   "mymemory": 21,
-   "geminiToday": 2,
+   "geminiEvent": 0,
+   "mymemory": 23,
+   "geminiToday": 4,
    "model": "gemini-flash-latest",
-   "geminiError": "HTTP Error 503: Service Unavailable {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}"
+   "geminiError": "HTTP Error 429: Too Many Requests {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
+ ],
  "items": [
   {
    "id": "91aacca013e4",
@@ -161,6 +164,40 @@
    "sum": {
     "store": "Amazon",
     "item": "チーム＆読者のお気に入りジェルブラがAmazonで10ドル未満",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "070fcb12bdd7",
+   "title": "Walmart’s Black Friday Deals Are LIVE | Up to 80% Off Home Goods, TVs, Toys & More",
+   "link": "https://hip2save.com/deals/walmart-black-friday/",
+   "source": "Hip2Save",
+   "posted": "2026-11-24T04:05Z",
+   "firstSeen": "2026-11-24T07:07Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/walmart-black-friday.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 80,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ウォルマートのブラックフライデーセールがスタート | 家庭用品、テレビ、おもちゃなどが最大80%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "ウォルマートのブラックフライデーセールがスタート | 家庭用品、テレビ、おもちゃなどが最大80%オフ",
     "when": "",
     "cond": ""
    },
@@ -322,13 +359,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ジュラシック・ワールド スーパーコロッサル恐竜アクションフィギュアがWalmart.comでたったの30ドル（通常価格70ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ジュラシック・ワールド スーパーコロッサル恐竜アクションフィギュアがWalmart.comでたったの30ドル（通常価格70ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "02a8c5409b17",
@@ -386,13 +425,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Battat「マイ・ファースト・バーン」プレイセットがWalmart.comでたったの$15（通常価格$30）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Battat「マイ・ファースト・バーン」プレイセットがWalmart.comでたったの$15（通常価格$30）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a3d1d9ba0255",
@@ -418,13 +459,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "充電式コードレスランプがWalmart.comでたったの5ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "充電式コードレスランプがWalmart.comでたったの5ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e525b9f43614",
@@ -820,13 +863,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-12-13",
+   "ja": "トロピカルスムージーのお得情報 | アサイーボウルが 6 ドル（11 月 30 日～ 12 月 13 日）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Tropical Smoothie",
-    "item": "",
+    "item": "トロピカルスムージーのお得情報 | アサイーボウルが 6 ドル（11 月 30 日～ 12 月 13 日）",
     "when": "12/13(日)まで",
     "cond": ""
-   },
-   "date": "2026-12-13"
+   }
   },
   {
    "id": "350943855be8",
@@ -854,13 +899,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "シャープie油性マーカー（27本入り）がたったの$10！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Amazon",
-    "item": "",
+    "item": "シャープie油性マーカー（27本入り）がたったの$10！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "80188dd393ca",
@@ -886,13 +933,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "値下げ！Lifetime 55クォート・クマ対策キャンプ用クーラーボックスがウォルマートでたったの$124（通常価格$210）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "値下げ！Lifetime 55クォート・クマ対策キャンプ用クーラーボックスがウォルマートでたったの$124（通常価格$210）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9e4bf38a2975",
@@ -918,13 +967,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Championメンズボクサーショーツ5枚セットがAmazonで送料込みでわずか$11（通常価格$25）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Championメンズボクサーショーツ5枚セットがAmazonで送料込みでわずか$11（通常価格$25）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5c3a42af1255",
@@ -950,13 +1001,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "350ドルのOuraリングの隣に31.99ドルのスマートリングをはめてみました…結果に衝撃を受けました",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "350ドルのOuraリングの隣に31.99ドルのスマートリングをはめてみました…結果に衝撃を受けました",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "10afa6c05136",
@@ -1080,13 +1133,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Tineコールのコードレスモップ＆掃除機がコールズでわずか149.99ドル（通常価格300ドル）＋コールズキャッシュ30ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Tineコールのコードレスモップ＆掃除機がコールズでわずか149.99ドル（通常価格300ドル）＋コールズキャッシュ30ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "763891c41fb9",
@@ -3777,7 +3832,7 @@
    "source": "WTAW(カレッジステーション)",
    "posted": "2026-11-23T15:17Z",
    "firstSeen": "2026-11-24T00:55Z",
-   "expires": "2026-11-25",
+   "expires": null,
    "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/23135937/NoonLionsTree-300x169.jpg",
    "noAlert": true,
    "region": "College Station",
@@ -15391,45 +15446,6 @@
    "date": null
   },
   {
-   "id": "4779cd3155f1",
-   "title": "Lights On! In Downtown Bryan is This Friday",
-   "link": "https://wtaw.com/lights-on-in-downtown-bryan-is-this-friday/",
-   "source": "WTAW(カレッジステーション)",
-   "posted": "2026-11-20T02:18Z",
-   "firstSeen": "2026-11-24T06:30Z",
-   "expires": null,
-   "thumb": "https://wpengine-bbcbryan.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/11/19150238/lights-on-300x169.jpg",
-   "noAlert": true,
-   "region": "College Station",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "localDate": "2026-11-20",
-   "freebie": null,
-   "ja": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "ライトオン！イン・ダウンタウン・ブライアンが今週金曜日に開催されます",
-    "when": "11/20(金)",
-    "cond": ""
-   },
-   "date": "2026-11-20"
-  },
-  {
    "id": "6a525a9b6aa3",
    "title": "McCormick Finishing Sugars Just $2.99 Shipped on Amazon",
    "link": "https://hip2save.com/deals/mccormick-finishing-sugars/",
@@ -25420,8 +25436,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "7fa3cb55402f",
-   "date": null
+   "date": null,
+   "dup": "7fa3cb55402f"
   },
   {
    "id": "9ac9eb051f53",
