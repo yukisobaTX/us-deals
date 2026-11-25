@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25T04:18Z",
- "count": 1749,
+ "updated": "2026-11-25T05:04Z",
+ "count": 1748,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 18
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -20,15 +20,15 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 22
+   "added": 0
   },
   "mws": {
    "read": 20,
-   "added": 2
+   "added": 1
   },
   "wtaw": {
    "read": 20,
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 0,
+   "read": 25,
    "added": 0
   },
   "mnn": {
@@ -55,16 +55,14 @@
    "added": 0
   },
   "ja": {
-   "gemini": 25,
+   "gemini": 11,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 9,
+   "geminiToday": 10,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [
-  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "items": [
   {
    "id": "d7f68a5cc020",
@@ -508,8 +506,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "2467674426fd",
-   "date": null
+   "date": null,
+   "dup": "2467674426fd"
   },
   {
    "id": "f3cd828d974f",
@@ -1355,8 +1353,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "1cd82dbc6b05",
-   "date": null
+   "date": null,
+   "dup": "1cd82dbc6b05"
   },
   {
    "id": "0fe1c5803764",
@@ -1451,13 +1449,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "可愛い！Walmartでメインステイズのスノードームキャンドルがたったの$8.48！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "可愛い！Walmartでメインステイズのスノードームキャンドルがたったの$8.48！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "461c5fe4b98e",
@@ -1483,13 +1483,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "窓用バードフィーダーがAmazonでたったの$7.99（通常価格$28）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "窓用バードフィーダーがAmazonでたったの$7.99（通常価格$28）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e98f8076f008",
@@ -1515,13 +1517,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アマゾンでクレセントショルダーバッグが14.53ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アマゾンでクレセントショルダーバッグが14.53ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ef106a408398",
@@ -1547,14 +1551,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "フィニッシュ・ジェットドライ食洗機用リンス剤がAmazonでたったの$2.xx（通常価格$5）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "フィニッシュ・ジェットドライ食洗機用リンス剤がAmazonでたったの$2.xx（通常価格$5）",
     "when": "",
     "cond": ""
    },
-   "dup": "350d152f832a",
-   "date": null
+   "dup": "350d152f832a"
   },
   {
    "id": "274e0163ffa0",
@@ -1620,13 +1626,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "さあ、始めましょう！ウォルマートでバービーのお得なセール＋ウォルマートキャッシュの特典！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "さあ、始めましょう！ウォルマートでバービーのお得なセール＋ウォルマートキャッシュの特典！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e8b7da415d99",
@@ -1652,13 +1660,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "オーガニック・アロエベラジェルがAmazonで送料込みでわずか$12.71（通常価格 25ドル）| 5つ星レビュー6万件以上！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "オーガニック・アロエベラジェルがAmazonで送料込みでわずか$12.71（通常価格 25ドル）| 5つ星レビュー6万件以上！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "71dcdee422cf",
@@ -1684,13 +1694,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースオーバーサイズケーブルニットセーターがAmazonでわずか$27.xx（通常価格$47）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースオーバーサイズケーブルニットセーターがAmazonでわずか$27.xx（通常価格$47）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b8f0285fe0e6",
@@ -1716,13 +1728,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "WranglerメンズジーンズがWalmart.comでたったの$13（通常価格 22ドル）– 大きいサイズを含む",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "WranglerメンズジーンズがWalmart.comでたったの$13（通常価格 22ドル）– 大きいサイズを含む",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2b97ab7c2adf",
@@ -1748,13 +1762,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Instant Pot Duo 7-in-1電気圧力鍋がAmazonで59.xxドル（通常価格110ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Instant Pot Duo 7-in-1電気圧力鍋がAmazonで59.xxドル（通常価格110ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "23f54db4d06b",
@@ -1780,13 +1796,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットのクリスマスのスリッパが最大40%オフ | かわいいデザインが$6から",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのクリスマスのスリッパが最大40%オフ | かわいいデザインが$6から",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "22b467569c52",
@@ -1812,13 +1830,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Blackstone 1971 オリジナル17インチ・オムニボア・テーブルトップ・グリドルがAmazonでわずか$62.xx（通常価格$130）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Blackstone 1971 オリジナル17インチ・オムニボア・テーブルトップ・グリドルがAmazonでわずか$62.xx（通常価格$130）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ddff0b023017",
@@ -1844,13 +1864,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Crayolaアートセット（ぬりえ帳＆クレヨン付き）がWalmart.comでたったの$14.99",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Crayolaアートセット（ぬりえ帳＆クレヨン付き）がWalmart.comでたったの$14.99",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8caff63bfea5",
@@ -1876,14 +1898,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Saverコロンビア産コーヒーポッド24個入りがわずか$4.xx（通常価格$9）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Saverコロンビア産コーヒーポッド24個入りがわずか$4.xx（通常価格$9）！",
     "when": "",
     "cond": ""
-   },
-   "dup": "89489e09a98f",
-   "date": null
+   }
   },
   {
    "id": "5fe44f20b31f",
@@ -1909,13 +1932,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comでウィルソンのフットボールとバスケットボールがたったの10ドル（通常価格20ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comでウィルソンのフットボールとバスケットボールがたったの10ドル（通常価格20ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9710ff566a2c",
@@ -2261,13 +2286,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Crumblで大きな節約の準備をしましょう：お得なギフトカードとクッキー！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Crumbl",
-    "item": "",
+    "item": "Crumblで大きな節約の準備をしましょう：お得なギフトカードとクッキー！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b52b6db31128",
@@ -2293,13 +2320,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "WalmartでSterilite 27ガロンのプラスチック製収納トート6個がたったの$48（通常価格$60）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "WalmartでSterilite 27ガロンのプラスチック製収納トート6個がたったの$48（通常価格$60）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9e84aec42a71",
@@ -2325,13 +2354,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "No BoundariesのレディーススリープウェアセットがWalmart.comで10ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "No BoundariesのレディーススリープウェアセットがWalmart.comで10ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "47a954ca5b95",
@@ -2357,13 +2388,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walmart.comで5分間のストーリーブックがたったの5ドル（ディズニーのタイトルを含む！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Walmart.comで5分間のストーリーブックがたったの5ドル（ディズニーのタイトルを含む！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "769a8ab69446",
@@ -2389,13 +2422,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Costcoの新規メンバーシップが、オファー適用後わずか$20（通常$65） | エグゼクティブメンバーシップもお得に！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Costco",
-    "item": "",
+    "item": "Costcoの新規メンバーシップが、オファー適用後わずか$20（通常$65） | エグゼクティブメンバーシップもお得に！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3684943725b1",
@@ -2455,13 +2490,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Adventure Forceのミニカー＆ラジコンカーがWalmart.comでたったの5ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Adventure Forceのミニカー＆ラジコンカーがWalmart.comでたったの5ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "230108080561",
@@ -2487,13 +2524,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSリワード適用後、AXEデオドラント2本がそれぞれわずか71セント",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSリワード適用後、AXEデオドラント2本がそれぞれわずか71セント",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fd8de0ce2a8a",
@@ -2519,13 +2558,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "NIVEAリップケア バラエティパック4本入りがAmazonで送料込みわずか$6",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "NIVEAリップケア バラエティパック4本入りがAmazonで送料込みわずか$6",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "87e654c044dc",
@@ -2551,13 +2592,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "モノポリートークン・アドベントカレンダーがわずか$12.49（通常価格$25）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "モノポリートークン・アドベントカレンダーがわずか$12.49（通常価格$25）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e34a396b126f",
@@ -2583,13 +2626,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Tattle Talesボードブック（フィギュア4体付き）がWalmart.comでたったの5ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Tattle Talesボードブック（フィギュア4体付き）がWalmart.comでたったの5ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d47afde7905a",
@@ -2615,13 +2660,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Toraniキャラメルソース4本セットがAmazonで送料込みわずか$10.79（1本あたり$2.70！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Toraniキャラメルソース4本セットがAmazonで送料込みわずか$10.79（1本あたり$2.70！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f9528414e543",
@@ -2982,7 +3029,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "8caff63bfea5"
   },
   {
    "id": "14c18e89b57e",
@@ -5146,7 +5194,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-24T14:56Z",
    "firstSeen": "2026-11-24T21:15Z",
-   "expires": null,
+   "expires": "2026-11-24",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Shark-Glam.jpg?resize=306,182",
    "hot": true,
    "stores": [
@@ -5176,7 +5224,7 @@
     "what": "無料メイクギフト",
     "where": "ULTA"
    },
-   "date": null
+   "date": "2026-11-24"
   },
   {
    "id": "98bcf6a423b9",
@@ -6857,40 +6905,6 @@
     "item": "折りたたみ式キャスター付きトートバッグがWalmart.comでたったの$19（通常価格 50ドル） – Hulkenの雰囲気を手頃な価格で！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ae7805b1868f",
-   "title": "Finish Line Black Friday Sale 2026 Is Here! | Prices From $18 (Reg. $40)",
-   "link": "https://thefreebieguy.com/finish-line-black-friday/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-23T22:43Z",
-   "firstSeen": "2026-11-24T00:55Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/07/Finish-Line-840x630.png",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 55,
-   "price": 18.0,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "$18〜",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Finish Line",
-    "item": "$18〜",
-    "when": "2026-11-23",
-    "cond": "",
-    "what": "$18〜シューズ",
-    "where": "Finish Line"
    },
    "date": null
   },
@@ -12654,8 +12668,7 @@
     "item": "Kohl'sのレディースセーターが11.99ドルから（通常価格30ドル）",
     "when": "",
     "cond": ""
-   },
-   "dup": "89ec5ff3646c"
+   }
   },
   {
    "id": "78eedfd88dba",
@@ -25840,8 +25853,7 @@
     "item": "As Fairyワイヤレス・ジェリーブラがAmazonでわずか$ 25（通常価格$ 25）",
     "when": "",
     "cond": ""
-   },
-   "dup": "fc963e38fb74"
+   }
   },
   {
    "id": "90a86c74e79b",
@@ -30555,8 +30567,7 @@
     "item": "HORISUNのワイヤレスブラがAmazonでたったの$9.xx（通常価格$14以上）",
     "when": "",
     "cond": ""
-   },
-   "dup": "fc963e38fb74"
+   }
   },
   {
    "id": "4dd12556a764",
@@ -35013,7 +35024,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "50ecf26f30d8"
   },
   {
    "id": "615d76991bc9",
@@ -46964,8 +46976,7 @@
     "item": "Amazonでレディーススリッパが8.49ドルから（通常価格23ドル）",
     "when": "",
     "cond": ""
-   },
-   "dup": "9dde507d478b"
+   }
   },
   {
    "id": "f48a596cfaa8",
@@ -54918,8 +54929,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "b5ca8f1ca770"
+   "date": null
   },
   {
    "id": "b92d76abc62e",
@@ -55089,8 +55099,7 @@
     "item": "OLLYボディウォッシュがAmazonで送料込みでわずか$5（通常価格$10）",
     "when": "",
     "cond": ""
-   },
-   "dup": "67d6f6ea8702"
+   }
   },
   {
    "id": "cb73c87e4797",
@@ -59115,8 +59124,7 @@
     "item": "VertvieレディースワイヤレスジェリーブラジャーAmazonで$ 7.xxのみ（登録価格$ 29 ）",
     "when": "",
     "cond": ""
-   },
-   "dup": "fc963e38fb74"
+   }
   },
   {
    "id": "a9b08fe95658",
