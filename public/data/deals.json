@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T05:04Z",
+ "updated": "2026-11-25T05:42Z",
  "count": 1748,
  "stats": {
   "h2s": {
@@ -15,7 +15,7 @@
    "added": 0
   },
   "ffp": {
-   "read": 20,
+   "read": 0,
    "added": 0
   },
   "msm": {
@@ -47,7 +47,7 @@
    "added": 0
   },
   "tib": {
-   "read": 25,
+   "read": 0,
    "added": 0
   },
   "mnn": {
@@ -57,12 +57,16 @@
   "ja": {
    "gemini": 11,
    "geminiEvent": 0,
-   "mymemory": 25,
-   "geminiToday": 10,
-   "model": "gemini-flash-latest"
+   "mymemory": 0,
+   "geminiToday": 11,
+   "model": "gemini-flash-latest",
+   "mymemoryError": "HTTP Error 429: Too Many Requests"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden",
+  "The Impulsive Buy: https://www.theimpulsivebuy.com/wordpress/feed/: HTTP Error 429: Too Many Requests"
+ ],
  "items": [
   {
    "id": "d7f68a5cc020",
