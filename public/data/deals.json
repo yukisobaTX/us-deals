@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T04:31Z",
+ "updated": "2026-11-26T05:29Z",
  "count": 1762,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 3
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 1
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 3
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,15 +55,49 @@
    "added": 0
   },
   "ja": {
-   "gemini": 20,
-   "geminiEvent": 2,
+   "gemini": 10,
+   "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 5,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "0665908572e1",
+   "title": "VitaUp Magnesium Sleep Support 2-Month Supply Only $12.58 Shipped on Amazon (Reg. $27)",
+   "link": "https://hip2save.com/deals/vitaup-sleep-support/",
+   "source": "Hip2Save",
+   "posted": "2026-11-26T04:25Z",
+   "firstSeen": "2026-11-26T05:29Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/vitaup-magnesium.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 53,
+   "price": 12.58,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "VitaUpマグネシウム睡眠サポート2か月分がAmazonで送料込みわずか$12.58（通常価格$27）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "VitaUpマグネシウム睡眠サポート2か月分がAmazonで送料込みわずか$12.58（通常価格$27）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "f82fca293563",
    "title": "Stop Wasting TP! Bidet Attachment Only $26 on Amazon",
@@ -198,8 +232,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "77949c07ae90",
-   "date": null
+   "date": null,
+   "dup": "77949c07ae90"
   },
   {
    "id": "e222df636b35",
@@ -1646,13 +1680,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ドリトス、レイズ、チートス、フリトスの40パック入りが、送料込みでわずか9.87ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ドリトス、レイズ、チートス、フリトスの40パック入りが、送料込みでわずか9.87ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "589c3cc9a44c",
@@ -1712,13 +1748,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "パイレックスのガラス製食品保存容器22点セットが、Kohls.comでたったの$21.59（通常価格$60）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "パイレックスのガラス製食品保存容器22点セットが、Kohls.comでたったの$21.59（通常価格$60）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e82e074a9bf4",
@@ -1744,13 +1782,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* ミニコードレス6インチチェーンソーがたったの$19.93！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*大人気* ミニコードレス6インチチェーンソーがたったの$19.93！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b88473bb10be",
@@ -1776,13 +1816,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Frito-Layスナックチップス40パックがAmazonで9.87ドルから送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Frito-Layスナックチップス40パックがAmazonで9.87ドルから送料無料",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "da68223b8c74",
@@ -1808,13 +1850,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "The Big Oneの蓋付きミキシングボウル4個セットがKohls.comでたったの$8（通常価格$23）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "The Big Oneの蓋付きミキシングボウル4個セットがKohls.comでたったの$8（通常価格$23）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c818bb1316df",
@@ -1842,13 +1886,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "The Big Oneマイクロファイバー枕がわずか$2.79！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's・Amazon",
-    "item": "",
+    "item": "The Big Oneマイクロファイバー枕がわずか$2.79！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1118da938978",
@@ -1874,13 +1920,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Walgreensのメタルプリントがたったの$24（通常価格 60ドル）–最高のギフトになります！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "Walgreensのメタルプリントがたったの$24（通常価格 60ドル）–最高のギフトになります！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "475911ebc72d",
@@ -1906,13 +1954,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クリスマス充電式ハンドウォーマー2個セットがAmazonでたったの$6.99",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "クリスマス充電式ハンドウォーマー2個セットがAmazonでたったの$6.99",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "03bff58d253f",
@@ -1972,13 +2022,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クイーンサイズベッド用枕2個セット、カバー100%コットン付き、Amazonで送料込みわずか$20（通常価格$45）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "クイーンサイズベッド用枕2個セット、カバー100%コットン付き、Amazonで送料込みわずか$20（通常価格$45）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3699832813fe",
@@ -2004,13 +2056,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonプライム会員ならサテンシーツセットが10ドルから送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonプライム会員ならサテンシーツセットが10ドルから送料無料",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "5fb8a0430411",
@@ -2036,13 +2090,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "YETI Rambler 18オンスボトルがわずか$19.20、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "YETI Rambler 18オンスボトルがわずか$19.20、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d7bc73a2f87c",
@@ -2068,13 +2124,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ダイエットコークのレディーススウェットシャツが14ドルから。Target Circle 360メンバーは送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ダイエットコークのレディーススウェットシャツが14ドルから。Target Circle 360メンバーは送料無料",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "8fb42a39e89f",
@@ -2137,13 +2195,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "チートス パフ チーズ味スナック（40個入り）送料込みでわずか$12.34！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "チートス パフ チーズ味スナック（40個入り）送料込みでわずか$12.34！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f43991d84fff",
@@ -2169,13 +2229,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Bissell CrossWaveウェット/ドライ掃除機がWalmart.comで送料込みわずか$98.87（通常価格$210）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Bissell CrossWaveウェット/ドライ掃除機がWalmart.comで送料込みわずか$98.87（通常価格$210）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "0237de15f408"
   },
   {
@@ -2202,13 +2264,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Target.comでプレイ・ドーセットを1つ購入すると、もう1つが50%オフ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Target.comでプレイ・ドーセットを1つ購入すると、もう1つが50%オフ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c4be3c99230d",
@@ -2234,13 +2298,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sertapedicの「潰れない枕」がWalmart.comでたったの5ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Sertapedicの「潰れない枕」がWalmart.comでたったの5ドル",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "e90bdbcd941e"
   },
   {
@@ -2302,13 +2368,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Razor Black Label E90電動スクーターがWalmart.comで送料込みわずか$89（通常価格$128）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Razor Black Label E90電動スクーターがWalmart.comで送料込みわずか$89（通常価格$128）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e678e54e980d",
@@ -2334,13 +2402,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでチップスなどのマルチパックボックスが大セール中！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでチップスなどのマルチパックボックスが大セール中！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b481782ad4f9",
@@ -2366,13 +2436,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* Crock-Pot 7クォート クック＆キャリー スロークッカーが送料込みでわずか$35.99（通常価格$100）、その他にも！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "*大人気* Crock-Pot 7クォート クック＆キャリー スロークッカーが送料込みでわずか$35.99（通常価格$100）、その他にも！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "145f301abf55"
   },
   {
@@ -2399,13 +2471,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "デザイナーズサングラスが最大70%オフ＋プライム会員は送料無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "デザイナーズサングラスが最大70%オフ＋プライム会員は送料無料",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "6e37a52e1233",
@@ -2463,13 +2537,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "モンスタージャムトラック4台セット＋ミニカー3台ボーナス付きがWalmart.comでわずか15ドル（通常価格25ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "モンスタージャムトラック4台セット＋ミニカー3台ボーナス付きがWalmart.comでわずか15ドル（通常価格25ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bbec70f2f478",
@@ -2564,13 +2640,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ミラクルグロー屋内用8クォート鉢植え用土ミックス（2袋）がたったの5ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "ミラクルグロー屋内用8クォート鉢植え用土ミックス（2袋）がたったの5ドル！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "0f6fee1934e2"
   },
   {
@@ -2597,13 +2675,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sol de JaneiroのCheirosaヘア＆ボディパフュームミストがAmazonでたったの$11.xx（通常価格$26）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Sol de JaneiroのCheirosaヘア＆ボディパフュームミストがAmazonでたったの$11.xx（通常価格$26）！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "4b7f937dafbb"
   },
   {
@@ -2630,13 +2710,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースカウボーイブーツがAmazonで25.99ドルから（通常価格50ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースカウボーイブーツがAmazonで25.99ドルから（通常価格50ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "20590ee520ff",
@@ -52073,8 +52155,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "dfa78e5941eb"
+   "date": null
   },
   {
    "id": "45168bcaa82d",
@@ -58185,8 +58266,7 @@
     "item": "Amazonの食料品、ブラウン・グレービーミックスが送料込みでわずか0.79ドル！",
     "when": "",
     "cond": ""
-   },
-   "dup": "0fbf7b4ca67a"
+   }
   },
   {
    "id": "5862b87260da",
@@ -59616,40 +59696,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "a3b046311cb5",
-   "title": "Jet-Puffed Marshmallow Bits Shaker Only $1.70 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/jet-puffed-marshmallow-bits/",
-   "source": "Hip2Save",
-   "posted": "2026-11-11T04:50Z",
-   "firstSeen": "2026-11-11T06:29Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/Jet-Puffed-Bits-by-box.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ジェットパフマシュマロビットシェーカーのみ$ 1.70 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ジェットパフマシュマロビットシェーカーのみ$ 1.70 Amazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
   },
   {
    "id": "9e9f2753a8d3",
