@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-26T00:23Z",
- "count": 1761,
+ "updated": "2026-11-26T04:31Z",
+ "count": 1762,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 43
+   "added": 3
   },
   "h2s-free": {
    "read": 100,
-   "added": 18
+   "added": 21
   },
   "doc": {
    "read": 15,
-   "added": 3
+   "added": 0
   },
   "ffp": {
    "read": 20,
@@ -20,19 +20,19 @@
   },
   "msm": {
    "read": 75,
-   "added": 27
+   "added": 1
   },
   "tfg": {
    "read": 40,
-   "added": 19
+   "added": 3
   },
   "mws": {
    "read": 20,
-   "added": 2
+   "added": 1
   },
   "wtaw": {
    "read": 20,
-   "added": 2
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,15 +55,220 @@
    "added": 0
   },
   "ja": {
-   "gemini": 24,
-   "geminiEvent": 0,
+   "gemini": 20,
+   "geminiEvent": 2,
    "mymemory": 25,
-   "geminiToday": 3,
+   "geminiToday": 5,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "f82fca293563",
+   "title": "Stop Wasting TP! Bidet Attachment Only $26 on Amazon",
+   "link": "https://hip2save.com/deals/bidet-toilet-attachment/",
+   "source": "Hip2Save",
+   "posted": "2026-11-26T03:10Z",
+   "firstSeen": "2026-11-26T04:31Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/waterlace-toilet-bidet.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "トイレットペーパーの無駄遣いをやめましょう！Amazonでたったの26ドルのウォシュレットアタッチメント",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "トイレットペーパーの無駄遣いをやめましょう！Amazonでたったの26ドルのウォシュレットアタッチメント",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b268a40c8e46",
+   "title": "Cordless Water Flosser Only $8.99 on Amazon (Reg. $20)",
+   "link": "https://hip2save.com/deals/amazon-cordless-water-flosser/",
+   "source": "Hip2Save",
+   "posted": "2026-11-26T02:30Z",
+   "firstSeen": "2026-11-26T04:31Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/Cordless-Water-Flosser.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 8.99,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コードレスウォーターフロッサーがAmazonでたったの$8.99（通常価格$20）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "コードレスウォーターフロッサーがAmazonでたったの$8.99（通常価格$20）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7c7f12bb2cb5",
+   "title": "Cool Mist Steam Pet Brush Just $8.54 on Amazon (Reg. $17)",
+   "link": "https://hip2save.com/deals/amazon-pet-grooming-brush/",
+   "source": "Hip2Save",
+   "posted": "2026-11-26T02:20Z",
+   "firstSeen": "2026-11-26T04:31Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2024/05/cat-brush.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 8.54,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "クールミストスチームペットブラシがAmazonでたったの8.54ドル（通常価格17ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "クールミストスチームペットブラシがAmazonでたったの8.54ドル（通常価格17ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "128ba3fa2838",
+   "title": "Mainstays 7-Piece Bed in a Bag Comforter Set with Sheets Just $28 at Walmart (Queen or King)",
+   "link": "https://thefreebieguy.com/mainstays-bed-bag-sets/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-26T01:20Z",
+   "firstSeen": "2026-11-26T04:31Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/07/Mainstays-Bedding-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "メインステイズ 7点セット ベッドインアバッグ 掛け布団セット（シーツ付き）がウォルマートでわずか28ドル（クイーンまたはキングサイズ）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "メインステイズ 7点セット ベッドインアバッグ 掛け布団セット（シーツ付き）がウォルマートでわずか28ドル（クイーンまたはキングサイズ）",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "77949c07ae90",
+   "date": null
+  },
+  {
+   "id": "e222df636b35",
+   "title": "Schick Hydro Silk Dermaplaning Tool 3-Pack Just $3.xx on Amazon! (Reg. $7.xx)",
+   "link": "https://thefreebieguy.com/schick-hydro-silk-dermaplaning/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-26T01:08Z",
+   "firstSeen": "2026-11-26T04:31Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Untitled-1200-x-900-px_20260212_124324_0000-840x630.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 57,
+   "price": 3.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "シック ハイドロシルク ダーマプレーニングツール3個セットがAmazonでわずか$3.xx！（通常価格$7.xx）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "シック ハイドロシルク ダーマプレーニングツール3個セットがAmazonでわずか$3.xx！（通常価格$7.xx）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "7361f6fe957c",
+   "title": "KitchenAid 5.5 Quart Bowl Lift Stand Mixer Only $269 Shipped + Get $90 Kohl’s Rewards",
+   "link": "https://thefreebieguy.com/kitchenaid-stand-mixer/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-26T00:26Z",
+   "firstSeen": "2026-11-26T04:31Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/06/KitchenAid-5.5qt-Bowl-Lift-Stand-Mixer-Accessories-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "KitchenAid 5.5クォートボウルリフトスタンドミキサーが送料込みでわずか269ドル＋Kohl’sリワード90ドルを獲得",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "KitchenAid 5.5クォートボウルリフトスタンドミキサーが送料込みでわずか269ドル＋Kohl’sリワード90ドルを獲得",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "cfdf04995155",
    "title": "Shea Moisture Strong Hold Styling Gel Only $2.xx on Amazon (Reg. $10)",
@@ -262,15 +467,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Comfrtのブラックフライデーセールがさらに充実しました！ドリーマーブランケットが対象になりました！",
-   "jaVia": "mymemory",
+   "ja": "ブランケット含むBFセール",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Comfrtのブラックフライデーセールがさらに充実しました！ドリーマーブランケットが対象になりました！",
-    "when": "",
-    "cond": ""
+    "store": "Comfrt",
+    "item": "ブランケット含むBFセール",
+    "when": "11/25〜",
+    "cond": "",
+    "what": "BFセール",
+    "where": "Comfrt"
    },
-   "date": null
+   "date": "2026-11-25"
   },
   {
    "id": "acc90f7ccf33",
@@ -577,8 +784,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "d65a9e9396db",
-   "date": null
+   "date": null,
+   "dup": "d65a9e9396db"
   },
   {
    "id": "430338756f8a",
@@ -641,13 +848,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットでLEGOスノーマンミニストレージヘッドがたったの$8.99（楽しいギフトのアイデア！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットでLEGOスノーマンミニストレージヘッドがたったの$8.99（楽しいギフトのアイデア！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c16600f10f53",
@@ -673,13 +882,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "KitchenAidの日本製スチールナイフ13本セット（まな板とハサミ付き）がわずか$25（通常価格$98）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "KitchenAidの日本製スチールナイフ13本セット（まな板とハサミ付き）がわずか$25（通常価格$98）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d7131256a0f4",
@@ -711,13 +922,15 @@
    "family": true,
    "localDate": "2026-11-26",
    "freebie": null,
-   "ja": "カレッジステーションのクリスマス・イン・ザ・パーク：11月26日にイルミネーション点灯",
-   "jaVia": "mymemory",
+   "ja": "Xmasイルミ「Christmas in the Park」点灯",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "カレッジステーションのクリスマス・イン・ザ・パーク：11月26日にイルミネーション点灯",
-    "when": "11/26(木)",
-    "cond": ""
+    "store": "Stephen C. Beachy Central Park",
+    "item": "Xmasイルミ「Christmas in the Park」点灯",
+    "when": "11/26(木)〜",
+    "cond": "家族向け",
+    "what": "イルミ点灯",
+    "where": "Central Park"
    },
    "date": "2026-11-26"
   },
@@ -749,13 +962,15 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "テキサスA&M大学のボランティア106人がブライアンとカレッジステーションの12の公園を清掃",
-   "jaVia": "mymemory",
+   "ja": "A&M大学生による12公園の清掃活動報告",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "テキサスA&M大学のボランティア106人がブライアンとカレッジステーションの12の公園を清掃",
+    "store": "Bryan・College Stationの公園",
+    "item": "A&M大学生による12公園の清掃活動報告",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "公園清掃報告",
+    "where": "Bryan・CS各公園"
    },
    "date": null
   },
@@ -783,13 +998,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ホリデーコーヒーマグがたったの$5！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Michaels",
-    "item": "",
+    "item": "ホリデーコーヒーマグがたったの$5！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0e622d361afe",
@@ -815,13 +1032,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* 写真＆クラフト収納ケースがたったの$12.60（通常価格$42！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Michaels",
-    "item": "",
+    "item": "*大人気* 写真＆クラフト収納ケースがたったの$12.60（通常価格$42！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7b34f91e1cf6",
@@ -847,13 +1066,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Kroger：1年間のBoostメンバーシップが25ドル（Disney+、Hulu、ESPN+を含む）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kroger",
-    "item": "",
+    "item": "Kroger：1年間のBoostメンバーシップが25ドル（Disney+、Hulu、ESPN+を含む）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e6d715748bb3",
@@ -879,13 +1100,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "COCOMARTSワイヤレスジェリーブラがAmazonでたったの$9.xx（通常価格$25）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "COCOMARTSワイヤレスジェリーブラがAmazonでたったの$9.xx（通常価格$25）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f94f179e2302",
@@ -911,13 +1134,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Lexington 3段式キャスター付きカートがわずか$25、その他多数！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Michaels",
-    "item": "",
+    "item": "Lexington 3段式キャスター付きカートがわずか$25、その他多数！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2ac779412f68",
@@ -943,13 +1168,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "値下げ：Scrub Mommyフラワー型スポンジ3個セットがWalmart.comでたったの$7.49",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "値下げ：Scrub Mommyフラワー型スポンジ3個セットがWalmart.comでたったの$7.49",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "06ecd1b4cea8",
@@ -1013,13 +1240,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "トゥー・リバーズのアソートフレーバーコーヒーポッド40個入りバラエティパックが、送料込みでわずか15.29ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "トゥー・リバーズのアソートフレーバーコーヒーポッド40個入りバラエティパックが、送料込みでわずか15.29ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1f3bd7e1deb6",
@@ -1045,13 +1274,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "パイレーツブーティー チェダーパフ 24パックがAmazonで送料込み9.34ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "パイレーツブーティー チェダーパフ 24パックがAmazonで送料込み9.34ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "85f73f94980d",
@@ -1077,13 +1308,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "WalgreensでクリスマスM&M'sを1個買うと1個無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walgreens",
-    "item": "",
+    "item": "WalgreensでクリスマスM&M'sを1個買うと1個無料",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "77949c07ae90",
@@ -1109,13 +1342,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "MainstaysのベッドインバッグセットがWalmart.comでたったの$28（クイーンサイズ＆キングサイズ！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "MainstaysのベッドインバッグセットがWalmart.comでたったの$28（クイーンサイズ＆キングサイズ！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ff0add29fa56",
@@ -1141,9 +1376,45 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Better Homes and Gardensの2芯リブ入りジャーキャンドルがたったの$5！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Better Homes and Gardensの2芯リブ入りジャーキャンドルがたったの$5！",
+    "when": "",
+    "cond": ""
+   }
+  },
+  {
+   "id": "54102c860089",
+   "title": "Pyrex Simply Store 10-pc. Glass Storage Container Set $10.79, plus more!",
+   "link": "https://moneysavingmom.com/pyrex-22-piece-glass-food-storage-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-25T20:00Z",
+   "firstSeen": "2026-11-26T04:31Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Pyrex-Simply-Store-10-pc.-Glass-Storage-Container-Set.jpg",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "パイレックス Simply Store 10個セット ガラス製保存容器セット $10.79、その他多数！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "パイレックス Simply Store 10個セット ガラス製保存容器セット $10.79、その他多数！",
     "when": "",
     "cond": ""
    },
@@ -1173,13 +1444,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Apple Barrelのアクリル絵の具がAmazonでたったの0.58ドル | 小さなアーティストへのクリスマスプレゼントに最適！！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Apple Barrelのアクリル絵の具がAmazonでたったの0.58ドル | 小さなアーティストへのクリスマスプレゼントに最適！！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0ea5c3ffc9a1",
@@ -1205,13 +1478,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Dairy Queen のお得情報 | カップケーキ 2 個 6 ドル、Blizzard キータグ 2 ドルなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Dairy Queen",
-    "item": "",
+    "item": "Dairy Queen のお得情報 | カップケーキ 2 個 6 ドル、Blizzard キータグ 2 ドルなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0cc1bd46fa8c",
@@ -1237,13 +1512,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonベーシック綿棒2,000本入りが送料込みでわずか7.72ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonベーシック綿棒2,000本入りが送料込みでわずか7.72ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fea654574d69",
@@ -1269,13 +1546,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "精密37-in-1ドライバーセットがたったの$5.99！{クリスマスプレゼントにぴったり！】",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "精密37-in-1ドライバーセットがたったの$5.99！{クリスマスプレゼントにぴったり！】",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "19aa772492e8",
@@ -1333,13 +1612,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Shark Stratos掃除機が290ドル以上オフ＋Kohl'sキャッシュ60ドルをゲット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Shark Stratos掃除機が290ドル以上オフ＋Kohl'sキャッシュ60ドルをゲット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "145d0e521c54",
@@ -1437,7 +1718,6 @@
     "when": "",
     "cond": ""
    },
-   "dup": "54102c860089",
    "date": null
   },
   {
@@ -1895,8 +2175,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "0237de15f408",
-   "date": null
+   "date": null,
+   "dup": "0237de15f408"
   },
   {
    "id": "ccf3fed7513f",
@@ -1960,8 +2240,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "e90bdbcd941e",
-   "date": null
+   "date": null,
+   "dup": "e90bdbcd941e"
   },
   {
    "id": "a695599816b3",
@@ -2092,8 +2372,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "145f301abf55",
-   "date": null
+   "date": null,
+   "dup": "145f301abf55"
   },
   {
    "id": "b5dc2d3c3a5c",
@@ -2156,8 +2436,8 @@
    },
    "ja": "ブラックフライデー特価品",
    "jaVia": "gemini",
-   "dup": "48ac8c37c31e",
-   "date": null
+   "date": null,
+   "dup": "48ac8c37c31e"
   },
   {
    "id": "392943f2593f",
@@ -2257,8 +2537,8 @@
    },
    "ja": "初回80%オフ＋無料ジャーキー",
    "jaVia": "gemini",
-   "dup": "2682bddd3a8d",
-   "date": null
+   "date": null,
+   "dup": "2682bddd3a8d"
   },
   {
    "id": "b1020a173676",
@@ -2290,8 +2570,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "0f6fee1934e2",
-   "date": null
+   "date": null,
+   "dup": "0f6fee1934e2"
   },
   {
    "id": "decfa0293a8b",
@@ -2323,8 +2603,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "4b7f937dafbb",
-   "date": null
+   "date": null,
+   "dup": "4b7f937dafbb"
   },
   {
    "id": "b9243b863213",
@@ -2395,7 +2675,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-25T17:21Z",
    "firstSeen": "2026-11-26T00:23Z",
-   "expires": null,
+   "expires": "2026-11-25",
    "thumb": "https://hip2save.com/wp-content/uploads/2024/12/H2S-1200x630-13-8-4.jpg?resize=306,182",
    "hot": false,
    "stores": [
@@ -3052,8 +3332,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "e99b3d59d62a",
-   "date": null
+   "date": null,
+   "dup": "e99b3d59d62a"
   },
   {
    "id": "277209254ab7",
@@ -3147,8 +3427,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "f3cd828d974f",
-   "date": null
+   "date": null,
+   "dup": "f3cd828d974f"
   },
   {
    "id": "766107533b8f",
@@ -3799,15 +4079,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Nordstrom Rackブラックフライデーセール2026 – クリアランス商品がさらに40%オフ！",
-   "jaVia": "mymemory",
+   "ja": "クリアランス商品さらに40%オフ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Nordstrom Rackブラックフライデーセール2026 – クリアランス商品がさらに40%オフ！",
-    "when": "",
-    "cond": ""
+    "store": "Nordstrom Rack",
+    "item": "クリアランス商品さらに40%オフ",
+    "when": "11/25〜",
+    "cond": "",
+    "what": "追加40%オフ",
+    "where": "Nordstrom Rack"
    },
-   "date": null,
+   "date": "2026-11-25",
    "dup": "fad44cb74955"
   },
   {
@@ -3864,15 +4146,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ディズニー・ストアのブラックフライデーセールが現在開催中",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセール",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "ディズニー・ストアのブラックフライデーセールが現在開催中",
-    "when": "",
-    "cond": ""
+    "store": "Disney Store",
+    "item": "ブラックフライデーセール",
+    "when": "11/25〜",
+    "cond": "",
+    "what": "BFセール",
+    "where": "Disney Store"
    },
-   "date": null
+   "date": "2026-11-25"
   },
   {
    "id": "a8f2e1d6ec86",
@@ -3930,15 +4214,17 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "サムズクラブのブラックフライデーセールが始まりました！",
-   "jaVia": "mymemory",
+   "ja": "ブラックフライデーセール",
+   "jaVia": "gemini",
    "sum": {
     "store": "Sam's Club",
-    "item": "サムズクラブのブラックフライデーセールが始まりました！",
-    "when": "",
-    "cond": ""
+    "item": "ブラックフライデーセール",
+    "when": "11/25〜",
+    "cond": "",
+    "what": "BFセール",
+    "where": "Sam's Club"
    },
-   "date": null
+   "date": "2026-11-25"
   },
   {
    "id": "300145d28975",
@@ -4092,15 +4378,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Goodrブラックフライデーセール：最大40%オフ＝18ドルから！",
-   "jaVia": "mymemory",
+   "ja": "サングラス最大40%オフ($18〜)",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Goodrブラックフライデーセール：最大40%オフ＝18ドルから！",
-    "when": "",
-    "cond": ""
+    "store": "Goodr",
+    "item": "サングラス最大40%オフ($18〜)",
+    "when": "11/25〜",
+    "cond": "",
+    "what": "最大40%オフ",
+    "where": "Goodr"
    },
-   "date": null,
+   "date": "2026-11-25",
    "dup": "8c93589be03f"
   },
   {
@@ -4161,13 +4449,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "*超お得* ButcherBoxクーポンコード：ステーキ＋ベーコンが一生無料＋20ドル割引！",
-   "jaVia": "mymemory",
+   "ja": "無料肉+生涯ベーコン+$20引",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "*超お得* ButcherBoxクーポンコード：ステーキ＋ベーコンが一生無料＋20ドル割引！",
+    "store": "ButcherBox",
+    "item": "無料肉+生涯ベーコン+$20引",
     "when": "",
-    "cond": "コード入力"
+    "cond": "クーポンコード",
+    "what": "無料肉+割引",
+    "where": "ButcherBox"
    },
    "date": null
   },
@@ -4229,13 +4519,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "献血または血小板提供で、アメリカ赤十字社から無料ギフトを獲得しましょう！",
-   "jaVia": "mymemory",
+   "ja": "限定ギフト",
+   "jaVia": "gemini",
    "sum": {
     "store": "The American Red Cross",
-    "item": "献血または血小板提供で、アメリカ赤十字社から無料ギフトを獲得しましょう！",
+    "item": "限定ギフト",
     "when": "",
-    "cond": ""
+    "cond": "献血または血小板提供",
+    "what": "無料ギフト",
+    "where": "米赤十字社"
    },
    "date": null
   },
@@ -4264,15 +4556,17 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Bath & Body Works：サイト全体で3点購入すると4点目が無料！",
-   "jaVia": "mymemory",
+   "ja": "全品3点購入で4点無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Bath & Body Works：サイト全体で3点購入すると4点目が無料！",
-    "when": "",
-    "cond": ""
+    "store": "Bath & Body Works",
+    "item": "全品3点購入で4点無料",
+    "when": "11/25〜",
+    "cond": "3点購入",
+    "what": "3個買い4個無料",
+    "where": "Bath & Body Works"
    },
-   "date": null
+   "date": "2026-11-25"
   },
   {
    "id": "ab69e954e743",
@@ -4331,15 +4625,17 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "Bath & Body Worksの大セール – キャンドル、ボディミスト、ギフトセットなどが3つ購入で4つ無料！",
-   "jaVia": "mymemory",
+   "ja": "キャンドル等3個購入で4個無料",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Bath & Body Worksの大セール – キャンドル、ボディミスト、ギフトセットなどが3つ購入で4つ無料！",
-    "when": "",
-    "cond": ""
+    "store": "Bath & Body Works",
+    "item": "キャンドル等3個購入で4個無料",
+    "when": "11/25〜",
+    "cond": "3点購入",
+    "what": "3個買い4個無料",
+    "where": "Bath & Body Works"
    },
-   "date": null
+   "date": "2026-11-25"
   },
   {
    "id": "e3d028dd3ae4",
@@ -4583,15 +4879,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Ace Hardwareのブラックフライデー・フラッシュセール | ミニバケツ、ドッグタンブラーなどを手に入れよう！",
-   "jaVia": "mymemory",
+   "ja": "ミニバケツ等のBF特価品",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "Ace Hardwareのブラックフライデー・フラッシュセール | ミニバケツ、ドッグタンブラーなどを手に入れよう！",
-    "when": "",
-    "cond": ""
+    "store": "Ace Hardware",
+    "item": "ミニバケツ等のBF特価品",
+    "when": "11/25〜",
+    "cond": "",
+    "what": "BF特価",
+    "where": "Ace Hardware"
    },
-   "date": null
+   "date": "2026-11-25"
   },
   {
    "id": "5c008e652ba1",
@@ -6053,8 +6351,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "1cd82dbc6b05"
+   "date": null
   },
   {
    "id": "0fe1c5803764",
@@ -15915,7 +16212,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "b8df4b9fbb1f"
   },
   {
    "id": "a5375077cc97",
@@ -17841,8 +18139,7 @@
     "item": "Rubbermaidの30個セット食品保存容器がTarget.comでたったの$9.99",
     "when": "",
     "cond": ""
-   },
-   "dup": "d2ea1aaa04fa"
+   }
   },
   {
    "id": "1040b96c7ca3",
@@ -17983,7 +18280,7 @@
     "where": "Under Armour"
    },
    "date": null,
-   "dup": "fc499089d6f5"
+   "dup": "6112082e709d"
   },
   {
    "id": "d294f2f0202d",
@@ -22312,8 +22609,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "7f1a5753f7bc"
+   "date": null
   },
   {
    "id": "8fe5c4798310",
@@ -32223,8 +32519,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "402f40ebb3e3"
+   "date": null
   },
   {
    "id": "fd2fc8e34892",
@@ -35808,40 +36103,6 @@
    "date": null
   },
   {
-   "id": "2acd6d8392c3",
-   "title": "TGI Fridays Deals | Three Course Meal Starting at $11.99!",
-   "link": "https://thefreebieguy.com/tgi-fridays-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-18T00:30Z",
-   "firstSeen": "2026-11-18T03:54Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/TGI-Fridays-3-course-meal-deal-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "TGI Fridays"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "TGIフライデーズのお得情報 | 3コースのお食事を11.99ドルから！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "TGI Fridays",
-    "item": "TGIフライデーズのお得情報 | 3コースのお食事を11.99ドルから！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "9ac9eb051f53",
    "title": "Farberware Disney Cast Iron Dutch Oven with Lid Only $49.xx on Amazon (Reg. $130)",
    "link": "https://thefreebieguy.com/farberware-disney-cast-iron-dutch-oven/",
@@ -35944,7 +36205,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "54102c860089"
+   "dup": "5f5f12c6ea5f"
   },
   {
    "id": "c64a70e18174",
@@ -36867,8 +37128,7 @@
     "item": "電気ひざ掛けがAmazonでたったの$25.xx（通常価格$50）",
     "when": "",
     "cond": ""
-   },
-   "dup": "1cd82dbc6b05"
+   }
   },
   {
    "id": "6f11a3bd4ac8",
@@ -39673,8 +39933,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "acce3f83d88d"
+   "date": null
   },
   {
    "id": "453a79410976",
@@ -41461,8 +41720,7 @@
     "item": "BedsureフリースブランケットがAmazonでわずか$9.xx（通常価格$33）",
     "when": "",
     "cond": ""
-   },
-   "dup": "1cd82dbc6b05"
+   }
   },
   {
    "id": "4f8cfbc686e0",
@@ -57078,8 +57336,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "6bf637ffaad6"
+   "date": null
   },
   {
    "id": "9f84d3f0f910",
@@ -59389,176 +59646,6 @@
    "sum": {
     "store": "Amazon",
     "item": "ジェットパフマシュマロビットシェーカーのみ$ 1.70 Amazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0fbf7b4ca67a",
-   "title": "Amazon Grocery Stuffing Mix Only 63¢ Shipped",
-   "link": "https://hip2save.com/deals/amazon-grocery-stuffing/",
-   "source": "Hip2Save",
-   "posted": "2026-11-11T04:30Z",
-   "firstSeen": "2026-11-11T06:29Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/Amazon-Grocery-Stuffing-Mix.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazon Grocery Stuffing Mix 63 ¢のみ発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazon Grocery Stuffing Mix 63 ¢のみ発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "a6f7da44c4b8",
-   "title": "Book Lovers Will LOVE This Unique Lamp for Just $13.99 on Amazon (Reg. $28)",
-   "link": "https://hip2save.com/deals/amazon-book-lamp/",
-   "source": "Hip2Save",
-   "posted": "2026-11-11T03:40Z",
-   "firstSeen": "2026-11-11T06:29Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/book-lamp-3.png?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": 13.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "アマゾンでわずか$ 13.99でこのユニークなランプを愛用しています（登録価格$ 28 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "アマゾンでわずか$ 13.99でこのユニークなランプを愛用しています（登録価格$ 28 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "345499dd6ebb",
-   "title": "Portable Clothes Rack Just $27.52 Shipped w/ Amazon Prime (Reg. $46)",
-   "link": "https://hip2save.com/deals/amazon-portable-clothes-rack/",
-   "source": "Hip2Save",
-   "posted": "2026-11-11T02:00Z",
-   "firstSeen": "2026-11-11T02:18Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/amazon-clothing-rack-1.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": 27.52,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ポータブル洋服ラックわずか$ 27.52 Amazonプライム付き発送（登録価格$ 46 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ポータブル洋服ラックわずか$ 27.52 Amazonプライム付き発送（登録価格$ 46 ）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0665908572e1",
-   "title": "VitaUp Magnesium Sleep Support 2-Month Supply Only $13.46 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/vitaup-sleep-support/",
-   "source": "Hip2Save",
-   "posted": "2026-11-11T00:40Z",
-   "firstSeen": "2026-11-11T03:08Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/vitaup-magnesium.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "VitaUpマグネシウム睡眠サポート2ヶ月供給のみ$ 13.46 Amazonで発送",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "VitaUpマグネシウム睡眠サポート2ヶ月供給のみ$ 13.46 Amazonで発送",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "dfa78e5941eb",
-   "title": "Cuddl Duds Plush Heated Throw Blanket Only $28.xx at Kohl’s (Reg. $75)",
-   "link": "https://thefreebieguy.com/cuddl-duds-plush-heated-throw-blanket/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-11T00:36Z",
-   "firstSeen": "2026-11-11T02:18Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Cuddl-Duds-Plush-Heated-Throw-Blanket-840x630.jpg",
-   "hot": false,
-   "stores": [
-    "Kohl's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 63,
-   "price": 28.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Cuddl Dudsぬいぐるみ加熱スローブランケットKohl'sでたったの$ 28.xx （登録価格$ 75 ）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Kohl's",
-    "item": "Cuddl Dudsぬいぐるみ加熱スローブランケットKohl'sでたったの$ 28.xx （登録価格$ 75 ）",
     "when": "",
     "cond": ""
    },
