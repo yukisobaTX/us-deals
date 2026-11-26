@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T05:29Z",
- "count": 1762,
+ "updated": "2026-11-26T09:33Z",
+ "count": 1746,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -24,7 +24,7 @@
   },
   "tfg": {
    "read": 40,
-   "added": 0
+   "added": 1
   },
   "mws": {
    "read": 20,
@@ -58,12 +58,46 @@
    "gemini": 10,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 6,
+   "geminiToday": 1,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "e4585d7c2aef",
+   "title": "The Home Depot Black Friday Sale | $1.25 Poinsettias, Hot Tool Bundles, & More",
+   "link": "https://thefreebieguy.com/home-depot-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-26T05:43Z",
+   "firstSeen": "2026-11-26T09:33Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Home-depot-Storefront-840x630.png",
+   "hot": false,
+   "stores": [
+    "Home Depot"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "The Home Depotのブラックフライデーセール | ポインセチア1.25ドル、電動工具セットなど",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Home Depot",
+    "item": "The Home Depotのブラックフライデーセール | ポインセチア1.25ドル、電動工具セットなど",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "0665908572e1",
    "title": "VitaUp Magnesium Sleep Support 2-Month Supply Only $12.58 Shipped on Amazon (Reg. $27)",
@@ -444,40 +478,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "f962530fc32a",
-   "title": "Save on Target Brightroom Closet Organization – Today Only!",
-   "link": "https://hip2save.com/deals/target-daily-deals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-25T23:10Z",
-   "firstSeen": "2026-11-26T00:23Z",
-   "expires": "2026-11-25",
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/05/Brightroom-Shoe-Rack-1.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Target Brightroomのクローゼット収納用品がお得に – 本日限り！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "Target Brightroomのクローゼット収納用品がお得に – 本日限り！",
-    "when": "11/25(水)まで",
-    "cond": ""
-   },
-   "date": "2026-11-25"
   },
   {
    "id": "d41cdadb1a7e",
@@ -2742,48 +2742,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "BetterWildアレルギー対応ドッグチュウを無料で試すお申し込み！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "BetterWildアレルギー対応ドッグチュウを無料で試すお申し込み！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "21b0a0ba723e",
-   "title": "Last Day for Home Depot’s Early Black Friday Sale (+ Many Black Friday Prices LIVE!)",
-   "link": "https://hip2save.com/deals/home-depot-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-25T17:21Z",
-   "firstSeen": "2026-11-26T00:23Z",
-   "expires": "2026-11-25",
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/12/H2S-1200x630-13-8-4.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Home Depot"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "The Home Depot",
-    "item": "アーリーBFセール対象商品",
-    "when": "〜11/25(水)",
-    "what": "BFセール",
-    "where": "Home Depot"
-   },
-   "ja": "アーリーBFセール対象商品",
-   "jaVia": "gemini",
-   "date": "2026-11-25"
+   }
   },
   {
    "id": "5ef259f7e7d5",
@@ -2852,13 +2819,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Shark StainStrikerポータブルカーペット＆布張りクリーナーが送料込みでわずか$89.99 + $15のKohl’s Cash {Sarahさんは自分のを気に入っています！】",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Kohl's",
-    "item": "",
+    "item": "Shark StainStrikerポータブルカーペット＆布張りクリーナーが送料込みでわずか$89.99 + $15のKohl’s Cash {Sarahさんは自分のを気に入っています！】",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6e1ce94934d5",
@@ -2884,13 +2853,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "チートス・パフス40パックがAmazonで送料込みでわずか$12（通常価格$23）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "チートス・パフス40パックがAmazonで送料込みでわずか$12（通常価格$23）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e7734c005209",
@@ -2948,13 +2919,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メタリック折りたたみ式キャスター付きトートバッグがたったの$19（通常価格$50）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "メタリック折りたたみ式キャスター付きトートバッグがたったの$19（通常価格$50）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d4fa17857215",
@@ -2982,13 +2955,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* コードレス掃除機が送料込みでわずか$51.99（通常価格$138）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Amazon",
-    "item": "",
+    "item": "*大人気* コードレス掃除機が送料込みでわずか$51.99（通常価格$138）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "c0e42d61b02f",
@@ -3014,13 +2989,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sports Research マグネシウムL-スレオネート（Magtein配合）90粒入りが送料込みでわずか$14.37（通常価格$30）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Sports Research マグネシウムL-スレオネート（Magtein配合）90粒入りが送料込みでわずか$14.37（通常価格$30）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "fc8b24693af4",
@@ -3080,13 +3057,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メントスガム10ボトルがAmazonでたったの$7.xx（通常価格 15ドル）| クリスマスプレゼントに最適！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "メントスガム10ボトルがAmazonでたったの$7.xx（通常価格 15ドル）| クリスマスプレゼントに最適！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9737a94aedf1",
@@ -3112,13 +3091,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sports Researchのクレアチン電解質バリエーションパック、16個入りが送料込みでわずか$13.41（通常価格$28）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Sports Researchのクレアチン電解質バリエーションパック、16個入りが送料込みでわずか$13.41（通常価格$28）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bbd404b2ff34",
@@ -3144,13 +3125,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*お得情報* Physician’s Choiceファイバーグミ、30回分が送料込みでわずか$5.54！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*お得情報* Physician’s Choiceファイバーグミ、30回分が送料込みでわずか$5.54！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8d85cfabcb9c",
@@ -3246,13 +3229,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonの食品・生鮮食品のお買い得情報 | ホリデーシーズン向けの商品13点をわずか10ドルでゲット！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonの食品・生鮮食品のお買い得情報 | ホリデーシーズン向けの商品13点をわずか10ドルでゲット！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "58b587caf619",
@@ -3312,13 +3297,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Shark Navigator Lift-Away掃除機がAmazonで送料込み119.99ドル（通常価格200ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Shark Navigator Lift-Away掃除機がAmazonで送料込み119.99ドル（通常価格200ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ef7106ac47b6",
@@ -3344,13 +3331,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Stride Rite x Ms. Rachelコレクションがウォルマートでわずか15ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Stride Rite x Ms. Rachelコレクションがウォルマートでわずか15ドルから！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "af9278fad574",
@@ -3376,13 +3365,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Little Debbieのクリスマスツリーケーキ・バラエティパック（オーナメント付き）がWalmart.comでたったの23.99ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Little Debbieのクリスマスツリーケーキ・バラエティパック（オーナメント付き）がWalmart.comでたったの23.99ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e5db3f9e535b",
@@ -3408,13 +3399,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Shark NeverChange Compact Pro空気清浄機が送料込みでわずか99.99ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Shark NeverChange Compact Pro空気清浄機が送料込みでわずか99.99ドル！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "e99b3d59d62a"
   },
   {
@@ -3441,13 +3434,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Giftcards.com：Lowe’s と Uber の eギフトカードが 10% 割引",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Giftcards.com：Lowe’s と Uber の eギフトカードが 10% 割引",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "793ad2e47263",
@@ -3503,13 +3498,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キングス・ハワイアンのメープルブラウンシュガーロール12個入りパックがキャッシュバック後2パック無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "",
-    "item": "",
+    "item": "キングス・ハワイアンのメープルブラウンシュガーロール12個入りパックがキャッシュバック後2パック無料",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "f3cd828d974f"
   },
   {
@@ -3536,13 +3533,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Caroteクックウェア24点セットがWalmart.comで送料込み55.99ドル（通常価格110ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Caroteクックウェア24点セットがWalmart.comで送料込み55.99ドル（通常価格110ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7fa1f3c18258",
@@ -3651,38 +3650,6 @@
    "dup": "f3cd828d974f"
   },
   {
-   "id": "0f6fee1934e2",
-   "title": "Today Only! TWO Bags of Miracle-Gro Organic Indoor Potting Mix $5 Shipped (Reg. $18)",
-   "link": "https://hip2save.com/deals/miracle-gro-potting-mix/",
-   "source": "Hip2Save",
-   "posted": "2026-11-25T15:32Z",
-   "firstSeen": "2026-11-25T15:38Z",
-   "expires": "2026-11-25",
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/06/Miracle-Gro-Potting-Mix.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 72,
-   "price": 5.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Lowe's",
-    "item": "",
-    "when": "11/25(水)まで",
-    "cond": ""
-   },
-   "date": "2026-11-25"
-  },
-  {
    "id": "703855f97dfb",
    "title": "These Walmart Scenario Bags Look Just Like Designer for MUCH Less!",
    "link": "https://hip2save.com/deals/walmart-scenario-bags/",
@@ -3706,13 +3673,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "これらのウォルマートのScenarioバッグは、はるかに安い価格でデザイナーブランドのように見えます！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "これらのウォルマートのScenarioバッグは、はるかに安い価格でデザイナーブランドのように見えます！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "07f804a52d63",
@@ -3738,46 +3707,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レインボーカラーの鉛筆がAmazonでたったの$2.xx！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レインボーカラーの鉛筆がAmazonでたったの$2.xx！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ab7099076d87",
-   "title": "Verizon Rewards Members can get a $5 Starbucks Gift Card TODAY!",
-   "link": "https://moneysavingmom.com/verizon-rewards-members-can-get-a-5-starbucks-gift-card-today/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-25T15:23Z",
-   "firstSeen": "2026-11-25T15:38Z",
-   "expires": "2026-11-25",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/HOLIDAY26_STARBUCKS_GIFT_CARDS_02-630x664.webp",
-   "hot": true,
-   "stores": [
-    "Starbucks"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Starbucks",
-    "item": "",
-    "when": "11/25(水)まで",
-    "cond": "会員限定"
-   },
-   "date": "2026-11-25"
+   }
   },
   {
    "id": "6c8ca434f2c9",
@@ -3803,13 +3741,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "HEXボット カメレオンウォークローラーがWalmart.comでわずか15ドル（通常価格30ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "HEXボット カメレオンウォークローラーがWalmart.comでわずか15ドル（通常価格30ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b262aa362841",
@@ -3835,13 +3775,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonプライムビデオチャンネルのお得情報：Apple TV、Paramount+、MGM+、Starz、AMC+など（月額$1.99から）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonプライムビデオチャンネルのお得情報：Apple TV、Paramount+、MGM+、Starz、AMC+など（月額$1.99から）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7197792e1bc7",
@@ -3867,13 +3809,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "GLAMUP AirCurlersがAmazonで99ドルから送料無料 | ダイソン並みの品質がはるかに低価格で",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "GLAMUP AirCurlersがAmazonで99ドルから送料無料 | ダイソン並みの品質がはるかに低価格で",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "85e6482e7110",
@@ -4076,38 +4020,6 @@
    "date": null
   },
   {
-   "id": "badbe9016541",
-   "title": "Walmart Drawing Today, November 25 at 5PM EST — NeeDoh Toys, and Pokemon Card Games!",
-   "link": "https://thefreebieguy.com/walmart-drawing/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-25T14:26Z",
-   "firstSeen": "2026-11-25T15:38Z",
-   "expires": "2026-11-25",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/pokemon-needoh-walmart-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Walmart",
-    "item": "",
-    "when": "11/25(水)まで 5PM",
-    "cond": ""
-   },
-   "date": "2026-11-25"
-  },
-  {
    "id": "c69a88a6e1d7",
    "title": "40% Off All In Motion Backpacks on Target.com (Styles from $12)",
    "link": "https://hip2save.com/deals/all-in-motion-backpack/",
@@ -4307,40 +4219,6 @@
     "where": "Sam's Club"
    },
    "date": "2026-11-25"
-  },
-  {
-   "id": "300145d28975",
-   "title": "Verizon Rewards Members: Score a $5 Starbucks Gift Card (Today at 3PM ET)",
-   "link": "https://hip2save.com/deals/verizon-up-rewards/",
-   "source": "Hip2Save",
-   "posted": "2026-11-25T13:48Z",
-   "firstSeen": "2026-11-25T15:38Z",
-   "expires": "2026-11-25",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Starbucks-Gift-Card.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Starbucks"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Starbucks",
-    "item": "",
-    "when": "11/25(水)まで 3PM",
-    "cond": "会員限定"
-   },
-   "date": "2026-11-25",
-   "dup": "ab7099076d87"
   },
   {
    "id": "9b20e38ea361",
@@ -4974,77 +4852,6 @@
    "date": "2026-11-25"
   },
   {
-   "id": "5c008e652ba1",
-   "title": "Score 30% off Brightroom Closet Essentials Today Only!",
-   "link": "https://moneysavingmom.com/score-30-off-brightroom-closet-essentials-today-only/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-25T12:09Z",
-   "firstSeen": "2026-11-25T15:38Z",
-   "expires": "2026-11-25",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Closet-630x629.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 30,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Target",
-    "item": "",
-    "when": "11/25(水)まで",
-    "cond": ""
-   },
-   "date": "2026-11-25"
-  },
-  {
-   "id": "ae9301bc2ff2",
-   "title": "Red Robin: Kids Eat Free Wednesdays!",
-   "link": "https://moneysavingmom.com/red-robin-kids-eat-free-wednesdays/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-25T11:57Z",
-   "firstSeen": "2026-11-25T15:38Z",
-   "expires": "2026-11-25",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/restaurant-exterior-mobile.jpg.webp",
-   "hot": true,
-   "stores": [
-    "Red Robin"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "ja": "キッズミールが無料",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Red Robin",
-    "item": "キッズミールが無料",
-    "when": "毎週水曜",
-    "cond": "子ども向け",
-    "what": "無料キッズ食",
-    "where": "Red Robin"
-   },
-   "date": "2026-11-25"
-  },
-  {
    "id": "92d6e6a15c9a",
    "title": "Meta Quest VR Headset Just $297.49 at Target + $50 Gift Card (Best Deal!)",
    "link": "https://hip2save.com/deals/meta-quest/",
@@ -5485,42 +5292,6 @@
    "date": null
   },
   {
-   "id": "9d9049a20f11",
-   "title": "Hershey’s is Selling 5¢ Hershey Milk Chocolate Bars on 11/25 – Same Price As In 1900!",
-   "link": "https://thefreebieguy.com/five-cent-hershey-milk-chocolate-bars/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-25T00:25Z",
-   "firstSeen": "2026-11-25T04:18Z",
-   "expires": "2026-11-25",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Hershey-Five-Cent-Chocolate-Bars-on-November-25th-thefreebieguy-840x630.png",
-   "hot": false,
-   "stores": [
-    "Walmart",
-    "Amazon"
-   ],
-   "cats": [
-    "grocery",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ハーシーが11月25日にハーシーミルクチョコレートバーを5セントで販売 – 1900年と同じ価格！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart・Amazon",
-    "item": "ハーシーが11月25日にハーシーミルクチョコレートバーを5セントで販売 – 1900年と同じ価格！",
-    "when": "11/25(水)まで",
-    "cond": ""
-   },
-   "date": "2026-11-25"
-  },
-  {
    "id": "d82a24fc679f",
    "title": "Weekender Travel Bag Only $16.49 on Amazon (Reg. $33)",
    "link": "https://hip2save.com/deals/weekender-travel-bag/",
@@ -5790,90 +5561,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "e846931b91dc",
-   "title": "\"Remnants of 150 Years at Texas A&M University\" Exhibit at Cushing Library",
-   "link": "https://www.destinationbryan.com/events/a-legacy-built-of-brick-stone-remnants-of-150-years-at-texas-a-m-university/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-24T23:32Z",
-   "firstSeen": "2026-11-24T23:32Z",
-   "expires": "2026-11-25",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-25",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Cushing Library",
-    "item": "A&M大学150年の歴史をたどる建材・遺物の展示",
-    "when": "開催中",
-    "cond": "展示",
-    "what": "A&M150年の展示",
-    "where": "Cushing図書館"
-   },
-   "ja": "A&M大学150年の歴史をたどる建材・遺物の展示",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-25",
-   "freebie": null
-  },
-  {
-   "id": "0bb936a8ea78",
-   "title": "\"The Polar Express\" at The Queen Theatre",
-   "link": "https://www.destinationbryan.com/events/plar-express-at-the-queen-theatre-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-24T23:32Z",
-   "firstSeen": "2026-11-24T23:32Z",
-   "expires": "2026-11-25",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-25",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Holiday Events"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "The Queen Theatre",
-    "item": "クリスマス映画「ポーラー・エクスプレス」の上映",
-    "when": "11/25(水)",
-    "cond": "家族向け映画",
-    "what": "ポーラー映画上映",
-    "where": "Queen Theatre"
-   },
-   "ja": "クリスマス映画「ポーラー・エクスプレス」の上映",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-25",
-   "freebie": null
   },
   {
    "id": "74f8cf90347a",
@@ -7192,43 +6879,6 @@
    "date": null
   },
   {
-   "id": "d57bbe9cd1ae",
-   "title": "Walmart & Amazon: Hershey’s Chocolate Bars only $0.05  on November 25th!",
-   "link": "https://moneysavingmom.com/walmart-amazon-hersheys-chocolate-bars-only-0-05-on-november-25th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-24T20:42Z",
-   "firstSeen": "2026-11-24T21:15Z",
-   "expires": "2026-11-25",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Vintage-Inspired-HERSHEY-S-Milk-Chocolate-Bar.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart",
-    "Amazon"
-   ],
-   "cats": [
-    "grocery",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ウォルマート＆アマゾン：ハーシーのチョコレートバーが11月25日にたったの0.05ドル！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart・Amazon",
-    "item": "ウォルマート＆アマゾン：ハーシーのチョコレートバーが11月25日にたったの0.05ドル！",
-    "when": "11/25(水)まで",
-    "cond": ""
-   },
-   "date": "2026-11-25",
-   "dup": "7862b74707a8"
-  },
-  {
    "id": "7ef14aadb934",
    "title": "We Found NEW Mini Buckets at Walmart!",
    "link": "https://hip2save.com/deals/walmart-mini-buckets/",
@@ -7766,46 +7416,6 @@
    "ja": "$250以上購入で30%OFF",
    "jaVia": "gemini",
    "date": null
-  },
-  {
-   "id": "164b0d28e2d9",
-   "title": "Best Wednesday Food and Restaurant Deals | Chipotle BOGO Entrées, Panera FREE Baguettes, & More!",
-   "link": "https://thefreebieguy.com/cheap-wednesday-food-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-24T19:25Z",
-   "firstSeen": "2026-11-25T04:18Z",
-   "expires": "2026-11-25",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/01/Wednesday-Food-Deals-1-840x630.png",
-   "hot": true,
-   "stores": [
-    "Chipotle",
-    "Panera"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "bogo": true
-   },
-   "sum": {
-    "item": "Chipotle BOGO、Panera無料",
-    "when": "毎週水曜",
-    "what": "水曜レストラン特典",
-    "where": "複数店舗"
-   },
-   "ja": "Chipotle BOGO、Panera無料",
-   "jaVia": "gemini",
-   "date": "2026-11-25"
   },
   {
    "id": "c9a1c800e645",
@@ -25051,46 +24661,6 @@
    }
   },
   {
-   "id": "08bddfe47573",
-   "title": "Chipotle Discount | Buy One, Get One Free Entrees on November 25th!",
-   "link": "https://moneysavingmom.com/chipotle-rewards-coupons-discount-codes/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-20T15:10Z",
-   "firstSeen": "2026-11-20T21:09Z",
-   "expires": "2026-11-25",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/06/Screenshot-2024-06-04-at-7.39.01 AM-630x754.jpg",
-   "hot": true,
-   "stores": [
-    "Chipotle"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-25",
-    "bogo": true
-   },
-   "sum": {
-    "store": "Chipotle",
-    "item": "Chipotle メイン料理 BOGO",
-    "when": "11/25(水)",
-    "what": "メイン1つ無料",
-    "where": "Chipotle",
-    "cond": "1つ購入"
-   },
-   "ja": "Chipotle メイン料理 BOGO",
-   "jaVia": "claude",
-   "date": "2026-11-25"
-  },
-  {
    "id": "f2808ffe03f9",
    "title": "The Best Amazon Things Under $1 | Cheap Personal Care Products, Household Items & More!",
    "link": "https://thefreebieguy.com/best-amazon-deals-under-1/",
@@ -25563,48 +25133,6 @@
    "ja": "追加40%OFF＋送料無料 ($7〜)",
    "jaVia": "gemini",
    "date": null
-  },
-  {
-   "id": "608dddcafbee",
-   "title": "Chipotle BOGO FREE Entrées on November 25th (One Day Only!)",
-   "link": "https://hip2save.com/deals/chipotle-bogo/",
-   "source": "Hip2Save",
-   "posted": "2026-11-20T14:05Z",
-   "firstSeen": "2026-11-20T21:09Z",
-   "expires": "2026-11-25",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Chipotle-foil-wrapped-burritos.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Chipotle"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-25",
-    "bogo": true
-   },
-   "sum": {
-    "store": "Chipotle",
-    "item": "メインメニューBOGO",
-    "when": "11/25",
-    "cond": "1日限定",
-    "what": "BOGO主食",
-    "where": "Chipotle"
-   },
-   "ja": "メインメニューBOGO",
-   "jaVia": "gemini",
-   "date": "2026-11-25",
-   "dup": "de3c83c3a239"
   },
   {
    "id": "e558cbbfb26a",
@@ -27898,47 +27426,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "de3c83c3a239",
-   "title": "Chipotle Deals | BOGO Free Entrées on November 25th!",
-   "link": "https://thefreebieguy.com/chipotle-rewards-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-19T19:22Z",
-   "firstSeen": "2026-11-19T21:39Z",
-   "expires": "2026-11-25",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Chipotle-BOGO-Free-Entrees-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [
-    "Chipotle"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-25",
-    "bogo": true
-   },
-   "sum": {
-    "store": "Chipotle",
-    "item": "Chipotle メイン料理 BOGO",
-    "when": "11/25(水)",
-    "cond": "1つ購入",
-    "what": "メイン1つ無料",
-    "where": "Chipotle"
-   },
-   "ja": "Chipotle メイン料理 BOGO",
-   "jaVia": "claude",
-   "date": "2026-11-25"
   },
   {
    "id": "4daa39b858ce",
@@ -34494,42 +33981,6 @@
    "ja": "$10 eGift Card",
    "jaVia": "gemini",
    "date": null
-  },
-  {
-   "id": "7862b74707a8",
-   "title": "Hershey’s Chocolate Bars Will Be Just 5¢ at Walmart & Amazon on November 25th (Limited Quantities!)",
-   "link": "https://hip2save.com/deals/hersheys-chocolate-bars/",
-   "source": "Hip2Save",
-   "posted": "2026-11-18T16:55Z",
-   "firstSeen": "2026-11-18T21:59Z",
-   "expires": "2026-11-25",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/hersheys-Milk-Chocolate-Bar.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart",
-    "Amazon"
-   ],
-   "cats": [
-    "grocery",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-25",
-   "ja": "11月25日、ウォルマートとアマゾンでハーシーのチョコレートバーがわずか5セントに（数量限定！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart・Amazon",
-    "item": "11月25日、ウォルマートとアマゾンでハーシーのチョコレートバーがわずか5セントに（数量限定！）",
-    "when": "11/25(水)まで",
-    "cond": ""
-   }
   },
   {
    "id": "bc2c7f526832",
