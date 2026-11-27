@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T04:36Z",
- "count": 1764,
+ "updated": "2026-11-27T05:25Z",
+ "count": 1760,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 1
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -12,11 +12,11 @@
   },
   "doc": {
    "read": 15,
-   "added": 2
+   "added": 0
   },
   "ffp": {
-   "read": 20,
-   "added": 1
+   "read": 0,
+   "added": 0
   },
   "msm": {
    "read": 75,
@@ -55,15 +55,85 @@
    "added": 0
   },
   "ja": {
-   "gemini": 15,
-   "geminiEvent": 1,
+   "gemini": 11,
+   "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 6,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
- "errors": [],
+ "errors": [
+  "Fast Food Post: https://www.fastfoodpost.com/feed/: HTTP Error 403: Forbidden"
+ ],
  "items": [
+  {
+   "id": "21393f58e326",
+   "title": "AncestryDNA Genetic Test Kit Only $29 on Amazon (Reg. $99)",
+   "link": "https://thefreebieguy.com/ancestrydna-genetic-test-kit/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-27T04:53Z",
+   "firstSeen": "2026-11-27T05:25Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Ancestry-DNA-kit-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 29.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AncestryDNA遺伝子検査キットがAmazonでたったの29ドル（通常価格99ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "AncestryDNA遺伝子検査キットがAmazonでたったの29ドル（通常価格99ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "b95e601e58dd",
+   "title": "Indestructibles Baby Books on Amazon – Get 3 for as Low as $6.xx (Reg. $6 Each)",
+   "link": "https://thefreebieguy.com/indestructibles-baby-books/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-27T04:36Z",
+   "firstSeen": "2026-11-27T05:25Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/Indestructibles-baby-books-840x630.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AmazonでIndestructiblesのベビーブック – 3冊でわずか$6.xx（通常は1冊$6）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "AmazonでIndestructiblesのベビーブック – 3冊でわずか$6.xx（通常は1冊$6）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "530a7dea926a",
    "title": "Amazon Prime: $100 Mastercard eGiftcard & Physical Giftcard For $100 (Limit 1)",
@@ -123,15 +193,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "レゴ ブラックフライデーセール2026 | レゴポイント100ポイントを500ポイントに",
-   "jaVia": "mymemory",
+   "ja": "100ポイントが500ポイントに",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "レゴ ブラックフライデーセール2026 | レゴポイント100ポイントを500ポイントに",
-    "when": "",
-    "cond": ""
+    "store": "LEGO",
+    "item": "100ポイントが500ポイントに",
+    "when": "11/26〜",
+    "cond": "会員限定",
+    "what": "ポイント増量",
+    "where": "LEGO"
    },
-   "date": null
+   "date": "2026-11-26"
   },
   {
    "id": "123a837a8210",
@@ -1932,13 +2004,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": "2026-12-03",
+   "ja": "シナボンのお得情報 | 12 月 3 日はクラシックロールが 1.25 ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Cinnabon",
-    "item": "",
+    "item": "シナボンのお得情報 | 12 月 3 日はクラシックロールが 1.25 ドル！",
     "when": "12/3(木)まで",
     "cond": ""
-   },
-   "date": "2026-12-03"
+   }
   },
   {
    "id": "d9083b966166",
@@ -2000,13 +2074,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "BaubleBarのディズニーキャラクターチャームネックレスがAmazonでたったの$15（通常価格$48）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "BaubleBarのディズニーキャラクターチャームネックレスがAmazonでたったの$15（通常価格$48）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "629deff9764c",
@@ -2032,13 +2108,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "BaubleBarのバースストーンペンダントネックレスがAmazonで今なら15ドル（通常価格42ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "BaubleBarのバースストーンペンダントネックレスがAmazonで今なら15ドル（通常価格42ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d27b573a3935",
@@ -2896,13 +2974,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "USB-C充電ケーブル3本セットがAmazonでたったの3.43ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "USB-C充電ケーブル3本セットがAmazonでたったの3.43ドル",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "7e3cc689c4e4"
   },
   {
@@ -3065,13 +3145,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Fruit of the LoomのEversoftオープンボトムスウェットパンツ（ポケット付き）がAmazonでわずか$6.xx（通常価格$17）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Fruit of the LoomのEversoftオープンボトムスウェットパンツ（ポケット付き）がAmazonでわずか$6.xx（通常価格$17）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "985016542cac",
@@ -3097,13 +3179,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "日記用ペン8本セットがAmazonで送料込みわずか8ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "日記用ペン8本セットがAmazonで送料込みわずか8ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4911977cd102",
@@ -3129,13 +3213,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ジャックリンクス x MrBeast ミニビーフジャーキースティック 12本入りがAmazonで送料込みわずか6ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ジャックリンクス x MrBeast ミニビーフジャーキースティック 12本入りがAmazonで送料込みわずか6ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "88b32edcbf93",
@@ -3193,13 +3279,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "全身振動プレートエクササイズマシンがAmazonでたったの$29.xx（通常価格$80）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "全身振動プレートエクササイズマシンがAmazonでたったの$29.xx（通常価格$80）",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "10d1161cbde1"
   },
   {
@@ -3226,13 +3314,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonプレミアムビューティーの大セール！人気ブランドが最大50%オフ – Olaplex、Armani、Sharkなどがお得に！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonプレミアムビューティーの大セール！人気ブランドが最大50%オフ – Olaplex、Armani、Sharkなどがお得に！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "869608fdd805",
@@ -3291,13 +3381,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "急いで！Lowes.comでKobaltミニツールボックスが送料込みで14.98ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "急いで！Lowes.comでKobaltミニツールボックスが送料込みで14.98ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "165bc461513a",
@@ -3327,13 +3419,15 @@
    "gift": {
     "grocery": false
    },
+   "date": null,
+   "ja": "Giftcards.com：100ドルのギフトカード（Visa、Mastercard、Disney、Ulta、Kohl'sなど）を購入すると、10ドルのボーナスギフトカードがもらえます",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's・Ulta",
-    "item": "",
+    "item": "Giftcards.com：100ドルのギフトカード（Visa、Mastercard、Disney、Ulta、Kohl'sなど）を購入すると、10ドルのボーナスギフトカードがもらえます",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5b4a70657f63",
@@ -3396,13 +3490,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートの折りたたみテーブルと椅子のセール | 価格は$37.xxから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートの折りたたみテーブルと椅子のセール | 価格は$37.xxから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b440764f8b04",
@@ -3428,13 +3524,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "🏈 NFLミニツールボックスがLowe'sでたったの$24.98 | 素晴らしいギフトのアイデア！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "🏈 NFLミニツールボックスがLowe'sでたったの$24.98 | 素晴らしいギフトのアイデア！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "81cf4ced15ee",
@@ -3460,13 +3558,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Insignia 4KスマートFire TVがBestBuy.comで送料込みわずか89.99ドル（通常価格200ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy",
-    "item": "",
+    "item": "Insignia 4KスマートFire TVがBestBuy.comで送料込みわずか89.99ドル（通常価格200ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2a3300f04032",
@@ -3492,13 +3592,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ターゲットのお揃いファミリーパジャマが、全サイズわずか5ドル（通常価格10ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ターゲットのお揃いファミリーパジャマが、全サイズわずか5ドル（通常価格10ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f22e4ae3ca29",
@@ -3524,13 +3626,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "さあ、始めましょう！ナイキのソックス6足セットが12ドルから。さらに50ドルお買い上げごとに15ドルのKohl'sキャッシュをプレゼント",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "さあ、始めましょう！ナイキのソックス6足セットが12ドルから。さらに50ドルお買い上げごとに15ドルのKohl'sキャッシュをプレゼント",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bc249f1be227",
@@ -3556,13 +3660,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "サムズクラブの27ガロン大容量収納トートがたったの$6.48（ホリデーデコレーションに最適！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Sam's Club",
-    "item": "",
+    "item": "サムズクラブの27ガロン大容量収納トートがたったの$6.48（ホリデーデコレーションに最適！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "86f7bfb67507",
@@ -3589,13 +3695,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Dollar General：Lowe'sのギフトカードが15%オフ（11月27日のみ有効）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's・Dollar General",
-    "item": "",
+    "item": "Dollar General：Lowe'sのギフトカードが15%オフ（11月27日のみ有効）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "75a01b61a0b6",
@@ -3621,13 +3729,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ワイヤレスラベルメーカーがAmazonでたったの7ドル（史上最安値！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ワイヤレスラベルメーカーがAmazonでたったの7ドル（史上最安値！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a9c9787e4860",
@@ -3653,13 +3763,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ワイヤレスシームレスフルカバレッジジェリーブラがAmazonでわずか$ 9.xx（通常価格$ 30）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ワイヤレスシームレスフルカバレッジジェリーブラがAmazonでわずか$ 9.xx（通常価格$ 30）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "28a984f9ef27",
@@ -3685,13 +3797,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "両面ステンレススチール製まな板がAmazonでたったの11.87ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "両面ステンレススチール製まな板がAmazonでたったの11.87ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2dba5eb66178",
@@ -3789,13 +3903,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon、コストコ：Apple MacBook Airが999ドルから、MacBook Neoが599ドルから",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Costco・Amazon",
-    "item": "",
+    "item": "Amazon、コストコ：Apple MacBook Airが999ドルから、MacBook Neoが599ドルから",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4cb62efa0395",
@@ -3861,13 +3977,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sertaジェルメモリーフォームミニクッションピロー2個セットがKohl'sでたったの$11（通常価格$50）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart・Kohl's",
-    "item": "",
+    "item": "Sertaジェルメモリーフォームミニクッションピロー2個セットがKohl'sでたったの$11（通常価格$50）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5588ef040756",
@@ -16334,8 +16452,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "b15c61148bc6"
+   "date": null
   },
   {
    "id": "0aa72e0b1e6a",
@@ -59530,210 +59647,6 @@
     "item": "LEGO Iconsのポインセチアの鉢植えまたはビッグサイズのサンタがたったの28ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "3f693ca4bccf",
-   "title": "Cook with Color 12-Piece Mixing Bowl Set just $10! {Walmart+ Members}",
-   "link": "https://moneysavingmom.com/cook-with-color-12-piece-mixing-bowl-set-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T05:13Z",
-   "firstSeen": "2026-11-12T11:18Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Cook-with-Color-Mixing-Bowl-Set.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Cook with Colorの12点セットのボウルがわずか$10！{Walmart+メンバー}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Cook with Colorの12点セットのボウルがわずか$10！{Walmart+メンバー}",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "date": null
-  },
-  {
-   "id": "65fd67a14a69",
-   "title": "LEGO Harry Potter Privet Drive Set only $50 shipped, plus more! {Walmart+ Members}",
-   "link": "https://moneysavingmom.com/lego-harry-potter-privet-drive-set-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T05:11Z",
-   "firstSeen": "2026-11-12T11:18Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/LEGO-Harry-Potter-Privet-Drive-Set.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "レゴ ハリー・ポッター「プリベット通り」セットが送料込みでわずか$50、その他多数！{Walmart+メンバー}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "レゴ ハリー・ポッター「プリベット通り」セットが送料込みでわずか$50、その他多数！{Walmart+メンバー}",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "date": null
-  },
-  {
-   "id": "dfc065184263",
-   "title": "Ninja Crispi 4-Quart Glass Air Fryer only $89 shipped (Reg. $150)! {Walmart+ Members}",
-   "link": "https://moneysavingmom.com/ninja-crispi-glass-air-fryer-deal-at-walmart/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T05:10Z",
-   "firstSeen": "2026-11-12T11:18Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Ninja-Crispi-Glass-Air-Fryer-4-Qt.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 41,
-   "price": 89.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Ninja Crispi 4クォートガラス製エアフライヤーが送料込みでわずか$89（通常価格$150）！{Walmart+メンバー}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Ninja Crispi 4クォートガラス製エアフライヤーが送料込みでわずか$89（通常価格$150）！{Walmart+メンバー}",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "date": null
-  },
-  {
-   "id": "3d96679b41ba",
-   "title": "Bissell PowerClean Cordless Stick Vacuum only $78 shipped (Reg. $148!)",
-   "link": "https://moneysavingmom.com/bissell-powerclean-cordless-stick-vacuum-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T05:09Z",
-   "firstSeen": "2026-11-12T11:18Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Screenshot-2025-11-14-at-7.27.05 AM.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 47,
-   "price": 78.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Bissell PowerCleanコードレススティック掃除機が送料込みでわずか$78（通常価格$148！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Bissell PowerCleanコードレススティック掃除機が送料込みでわずか$78（通常価格$148！）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "7a5ce4d5878c",
-   "title": "Gourmia 6-Quart Slow Cooker only $15!",
-   "link": "https://moneysavingmom.com/gourmia-slow-cooker-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T05:07Z",
-   "firstSeen": "2026-11-12T11:18Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/Gourmia-6-Qt-Slow-Cooker.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Gourmia 6クォートスロークッカーがたったの$15！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Gourmia 6クォートスロークッカーがたったの$15！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "6b9a764cb9c9",
-   "title": "LEGO Snowman Ornaments Set only $8 {Walmart+ Members}",
-   "link": "https://moneysavingmom.com/lego-snowman-ornaments-set-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T05:03Z",
-   "firstSeen": "2026-11-12T11:18Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/09/LEGO-Snowman-Ornaments-.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "レゴ スノーマンオーナメントセットがわずか8ドル{Walmart+メンバー}",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "レゴ スノーマンオーナメントセットがわずか8ドル{Walmart+メンバー}",
-    "when": "",
-    "cond": "会員限定"
    },
    "date": null
   },
