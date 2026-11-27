@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-27T21:59Z",
- "count": 1747,
+ "count": 1756,
  "stats": {
   "h2s": {
    "read": 100,
@@ -453,12 +453,12 @@
    "eventNews": false,
    "freebie": null,
    "sum": {
-    "item": "動画配信サービスの割引セール",
+    "item": "ブラックフライデーの動画配信サービス割引まとめ",
     "what": "動画配信割引",
     "where": "オンライン"
    },
-   "ja": "動画配信サービスの割引セール",
-   "jaVia": "gemini",
+   "ja": "ブラックフライデーの動画配信サービス割引まとめ",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -550,13 +550,13 @@
    "freebie": null,
    "sum": {
     "store": "QVC",
-    "item": "ブラックフライデーセール",
+    "item": "QVC のブラックフライデーセール＋送料無料",
     "cond": "送料無料",
-    "what": "セール割引",
+    "what": "BFセール",
     "where": "QVC"
    },
-   "ja": "ブラックフライデーセール",
-   "jaVia": "gemini",
+   "ja": "QVC のブラックフライデーセール＋送料無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -586,12 +586,12 @@
    },
    "sum": {
     "store": "Sol de Janeiro",
-    "item": "ボディケアセット$25台＋おまけ",
-    "what": "セット特価",
+    "item": "Sol de Janeiro ボディケアセット$25台＋おまけ",
+    "what": "セット$25台",
     "where": "Sol de Janeiro"
    },
-   "ja": "ボディケアセット$25台＋おまけ",
-   "jaVia": "gemini",
+   "ja": "Sol de Janeiro ボディケアセット$25台＋おまけ",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -688,15 +688,15 @@
     "bogo": true
    },
    "sum": {
-    "store": "Arby’s",
-    "item": "サンドイッチ1個買うともう1個無料",
+    "store": "Arby's",
+    "item": "Arby's サンドイッチ1つ買うと1つ無料",
     "when": "〜11/29(日)",
-    "cond": "1個購入",
+    "cond": "1つ購入",
     "what": "BOGOサンド",
-    "where": "Arby’s"
+    "where": "Arby's"
    },
-   "ja": "サンドイッチ1個買うともう1個無料",
-   "jaVia": "gemini",
+   "ja": "Arby's サンドイッチ1つ買うと1つ無料",
+   "jaVia": "claude",
    "date": "2026-11-29"
   },
   {
@@ -726,12 +726,12 @@
    },
    "sum": {
     "store": "Bass Pro Shops",
-    "item": "サンタ写真・帽子カップ無料配布等",
-    "what": "写真・グッズ無料",
+    "item": "Bass Pro:サンタ写真・サンタ帽カップ無料など",
+    "what": "サンタ写真無料",
     "where": "Bass Pro Shops"
    },
-   "ja": "サンタ写真・帽子カップ無料配布等",
-   "jaVia": "gemini",
+   "ja": "Bass Pro:サンタ写真・サンタ帽カップ無料など",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -892,13 +892,13 @@
    },
    "sum": {
     "store": "Vanity Fair",
-    "item": "ブラ$17・ショーツ$4",
+    "item": "Vanity Fair のBF:ブラ$17・ショーツ$4",
     "cond": "送料無料",
     "what": "下着特価",
     "where": "Vanity Fair"
    },
-   "ja": "ブラ$17・ショーツ$4",
-   "jaVia": "gemini",
+   "ja": "Vanity Fair のBF:ブラ$17・ショーツ$4",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1252,12 +1252,12 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
-    "item": "金属製大型水切りボウル割引",
-    "what": "ボウル特価",
+    "item": "Collin's の大型金属ざるがBF特価",
+    "what": "大型ざる特価",
     "where": "Amazon"
    },
-   "ja": "金属製大型水切りボウル割引",
-   "jaVia": "gemini",
+   "ja": "Collin's の大型金属ざるがBF特価",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -1545,14 +1545,14 @@
    },
    "sum": {
     "store": "Southwest Airlines",
-    "item": "無料同伴者パス付与",
+    "item": "サウスウエスト航空の同伴者パス無料特典",
     "when": "〜11/29(日)",
-    "cond": "要予約",
+    "cond": "11/29までに予約",
     "what": "同伴パス無料",
-    "where": "サウスウエスト航空"
+    "where": "Southwest"
    },
-   "ja": "無料同伴者パス付与",
-   "jaVia": "gemini",
+   "ja": "サウスウエスト航空の同伴者パス無料特典",
+   "jaVia": "claude",
    "date": "2026-11-29"
   },
   {
@@ -2980,13 +2980,15 @@
    "gift": {
     "grocery": true
    },
-   "ja": "H-E-B：Visa/Mastercard/American Expressのギフトカードを100ドル分購入すると、H-E-Bのギフトカード20ドル分を無料でプレゼント",
-   "jaVia": "mymemory",
+   "ja": "Visa/MC/Amexカード$100購入でH-E-Bカード$20",
+   "jaVia": "claude",
    "sum": {
     "store": "H-E-B",
-    "item": "H-E-B：Visa/Mastercard/American Expressのギフトカードを100ドル分購入すると、H-E-Bのギフトカード20ドル分を無料でプレゼント",
+    "item": "Visa/MC/Amexカード$100購入でH-E-Bカード$20",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "$100で$20還元",
+    "where": "H-E-B"
    },
    "date": null
   },
@@ -4560,13 +4562,15 @@
    "event": "cyber-monday",
    "eventNews": true,
    "freebie": null,
-   "ja": "ターゲットのサイバーマンデーセールは11月30日スタート | おもちゃ、キッチン家電などが最大50%オフ",
-   "jaVia": "mymemory",
+   "ja": "Target サイバーマンデー:おもちゃ・家電など最大50%オフ",
+   "jaVia": "claude",
    "sum": {
     "store": "Target",
-    "item": "ターゲットのサイバーマンデーセールは11月30日スタート | おもちゃ、キッチン家電などが最大50%オフ",
-    "when": "",
-    "cond": ""
+    "item": "Target サイバーマンデー:おもちゃ・家電など最大50%オフ",
+    "when": "11/30(月)〜",
+    "cond": "",
+    "what": "最大50%オフ",
+    "where": "Target"
    },
    "date": null
   },
@@ -5328,14 +5332,14 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "ホリデーシーズンの買い物安全対策の注意喚起",
-   "jaVia": "gemini-ev",
+   "ja": "州公安局がホリデーの買い物の注意を呼びかけ",
+   "jaVia": "claude-ev",
    "sum": {
-    "store": "テキサス州",
-    "item": "ホリデーシーズンの買い物安全対策の注意喚起",
+    "store": "Texas DPS",
+    "item": "州公安局がホリデーの買い物の注意を呼びかけ",
     "when": "",
     "cond": "",
-    "what": "買い物安全対策",
+    "what": "買い物注意喚起",
     "where": "テキサス州"
    },
    "date": null
@@ -6136,14 +6140,14 @@
    },
    "sum": {
     "store": "Dunkin'",
-    "item": "金曜ドーナツ無料／コーヒー無料",
-    "when": "金曜 / 11/30",
+    "item": "Dunkin' 金曜ドーナツ無料＋11/30コーヒー無料",
+    "when": "金曜/11/30(月)",
     "cond": "コーヒーは先着100万人",
-    "what": "ドーナツ＆珈琲無料",
+    "what": "ドーナツ・珈琲無料",
     "where": "Dunkin'"
    },
-   "ja": "金曜ドーナツ無料／コーヒー無料",
-   "jaVia": "gemini",
+   "ja": "Dunkin' 金曜ドーナツ無料＋11/30コーヒー無料",
+   "jaVia": "claude",
    "date": "2026-11-30"
   },
   {
@@ -6859,14 +6863,14 @@
     "when": "2026-12-03"
    },
    "sum": {
-    "store": "Epic Game Store",
-    "item": "PCゲーム無料",
-    "when": "〜12/3",
+    "store": "Epic Games Store",
+    "item": "Epic Games Store のPCゲーム無料配布",
+    "when": "〜12/3(木)",
     "what": "無料PCゲーム",
     "where": "Epic Games"
    },
-   "ja": "PCゲーム無料",
-   "jaVia": "gemini",
+   "ja": "Epic Games Store のPCゲーム無料配布",
+   "jaVia": "claude",
    "date": "2026-12-03"
   },
   {
@@ -8589,13 +8593,13 @@
    },
    "sum": {
     "store": "IKEA",
-    "item": "無料バッグチャーム",
-    "when": "11/28",
+    "item": "IKEA のBFセール＋11/28にバッグチャーム無料",
+    "when": "11/28(土)",
     "what": "無料チャーム",
     "where": "IKEA"
    },
-   "ja": "無料バッグチャーム",
-   "jaVia": "gemini",
+   "ja": "IKEA のBFセール＋11/28にバッグチャーム無料",
+   "jaVia": "claude",
    "date": "2026-11-28"
   },
   {
@@ -9771,12 +9775,13 @@
    },
    "sum": {
     "store": "Bvlgari",
-    "item": "メンズ香水サンプル",
-    "what": "無料サンプル",
-    "where": "オンライン"
+    "item": "ブルガリ メンズ香水の無料サンプル(当たれば)",
+    "what": "香水サンプル",
+    "where": "Bvlgari",
+    "cond": "数に限り"
    },
-   "ja": "メンズ香水サンプル",
-   "jaVia": "gemini",
+   "ja": "ブルガリ メンズ香水の無料サンプル(当たれば)",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -10049,15 +10054,15 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "A&M大学生による12公園の清掃活動報告",
-   "jaVia": "gemini-ev",
+   "ja": "A&M のボランティア106人が12公園を清掃(報告)",
+   "jaVia": "claude-ev",
    "sum": {
     "store": "Bryan・College Stationの公園",
-    "item": "A&M大学生による12公園の清掃活動報告",
+    "item": "A&M のボランティア106人が12公園を清掃(報告)",
     "when": "",
     "cond": "",
     "what": "公園清掃報告",
-    "where": "Bryan・CS各公園"
+    "where": "CS・ブライアン"
    },
    "date": null
   },
@@ -11389,12 +11394,13 @@
    },
    "sum": {
     "store": "Ninja",
-    "item": "ガラス製フライヤー $249.99",
-    "what": "フライヤー等",
-    "where": "オンライン"
+    "item": "Ninja Crispi Pro ガラス製エアフライヤー$249.99＋おまけ…",
+    "what": "フライヤー$250",
+    "where": "Ninja",
+    "cond": "送料込み"
    },
-   "ja": "ガラス製フライヤー $249.99",
-   "jaVia": "gemini",
+   "ja": "Ninja Crispi Pro ガラス製エアフライヤー$249.99＋おまけ…",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -12249,12 +12255,12 @@
    },
    "sum": {
     "store": "Guardian Bikes",
-    "item": "子供用自転車＋$127相当の特典",
-    "what": "自転車セール",
+    "item": "Guardian Bikes のBFセール＋$127分の付属品無料",
+    "what": "子供自転車割引",
     "where": "Guardian Bikes"
    },
-   "ja": "子供用自転車＋$127相当の特典",
-   "jaVia": "gemini",
+   "ja": "Guardian Bikes のBFセール＋$127分の付属品無料",
+   "jaVia": "claude",
    "date": null
   },
   {
@@ -13531,15 +13537,15 @@
     "kind": "coupon",
     "when": null
    },
-   "ja": "限定ギフト",
-   "jaVia": "gemini",
+   "ja": "献血・血小板提供で無料ギフト",
+   "jaVia": "claude",
    "sum": {
     "store": "The American Red Cross",
-    "item": "限定ギフト",
+    "item": "献血・血小板提供で無料ギフト",
     "when": "",
-    "cond": "献血または血小板提供",
-    "what": "無料ギフト",
-    "where": "米赤十字社"
+    "cond": "献血・血小板提供",
+    "what": "献血でギフト",
+    "where": "米赤十字"
    },
    "date": null
   },
@@ -14641,13 +14647,13 @@
    "eventNews": false,
    "sum": {
     "store": "Midtown Park",
-    "item": "地元野菜や食品が並ぶ土曜のファーマーズマーケット",
-    "when": "11/28(土)",
-    "cond": "毎週土曜",
+    "item": "毎週土曜のブラゾス郡ファーマーズマーケット",
+    "when": "11/28(土)・毎週土曜",
+    "cond": "屋外",
     "what": "ファーマーズ市",
     "where": "Midtown Park"
    },
-   "ja": "地元野菜や食品が並ぶ土曜のファーマーズマーケット",
+   "ja": "毎週土曜のブラゾス郡ファーマーズマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -14684,13 +14690,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkで屋外コミュニティヨガ",
+    "item": "Lake Walk のコミュニティヨガ",
     "when": "11/28(土)",
-    "cond": "誰でも参加",
+    "cond": "屋外",
     "what": "屋外ヨガ",
     "where": "Lake Walk"
    },
-   "ja": "Lake Walkで屋外コミュニティヨガ",
+   "ja": "Lake Walk のコミュニティヨガ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -14727,12 +14733,13 @@
    "eventNews": false,
    "sum": {
     "store": "Rountree Market",
-    "item": "Midtown Parkの日曜マーケット",
+    "item": "Midtown Park の日曜マーケット",
     "when": "11/29(日)",
     "what": "日曜マーケット",
-    "where": "Midtown Park"
+    "where": "Midtown Park",
+    "cond": "屋外"
    },
-   "ja": "Midtown Parkの日曜マーケット",
+   "ja": "Midtown Park の日曜マーケット",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -14769,12 +14776,12 @@
    "eventNews": false,
    "sum": {
     "store": "The Queen Theatre",
-    "item": "クリスマス名作映画「Christmas in Connecticut」上映",
+    "item": "名作映画「Christmas in Connecticut」上映",
     "when": "12/2(水)",
-    "what": "名作映画上映",
-    "where": "Queen Theatre"
+    "what": "クリスマス映画",
+    "where": "The Queen Thea…"
    },
-   "ja": "クリスマス名作映画「Christmas in Connecticut」上映",
+   "ja": "名作映画「Christmas in Connecticut」上映",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -14810,13 +14817,13 @@
    "eventNews": false,
    "sum": {
     "store": "Sue Haswell Park",
-    "item": "Sue Haswell公園のホリデーイベント「Holiday Magic」",
+    "item": "Sue Haswell 公園のホリデー催し",
     "when": "12/3(木)",
-    "cond": "家族向け",
-    "what": "公園の冬祭り",
+    "cond": "屋外・家族向け",
+    "what": "公園のホリデー",
     "where": "Sue Haswell Pa…"
    },
-   "ja": "Sue Haswell公園のホリデーイベント「Holiday Magic」",
+   "ja": "Sue Haswell 公園のホリデー催し",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -14853,13 +14860,13 @@
    "eventNews": false,
    "sum": {
     "store": "Historic Downtown Bryan",
-    "item": "ダウンタウンで音楽・アート・催しの月例イベント",
-    "when": "12/4(金) 夕方",
-    "cond": "毎月第1金曜",
-    "what": "ファーストフライデー",
-    "where": "ダウンタウンBryan"
+    "item": "旧市街の月例 First Friday(音楽・催し)",
+    "when": "12/4(金)",
+    "cond": "屋外",
+    "what": "First Fri…",
+    "where": "ブライアン旧市街"
    },
-   "ja": "ダウンタウンで音楽・アート・催しの月例イベント",
+   "ja": "旧市街の月例 First Friday(音楽・催し)",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -14895,13 +14902,13 @@
    "eventNews": false,
    "sum": {
     "store": "Voices for Children",
-    "item": "First Fridayでサンタと記念撮影",
+    "item": "First Friday でサンタと記念撮影",
     "when": "12/4(金)",
     "cond": "子供向け",
     "what": "サンタと写真",
-    "where": "ダウンタウンBryan"
+    "where": "ブライアン旧市街"
    },
-   "ja": "First Fridayでサンタと記念撮影",
+   "ja": "First Friday でサンタと記念撮影",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -14937,12 +14944,12 @@
    "eventNews": false,
    "sum": {
     "store": "Polite Coffee Roasters",
-    "item": "Polite Coffeeのホリデーマーケットとフードドライブ",
+    "item": "Polite Coffee のホリデーマーケット＋食品寄付",
     "when": "12/4(金)",
     "what": "ホリデー市",
     "where": "Polite Coffee"
    },
-   "ja": "Polite Coffeeのホリデーマーケットとフードドライブ",
+   "ja": "Polite Coffee のホリデーマーケット＋食品寄付",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -14958,7 +14965,7 @@
    "source": "Destination Bryan",
    "posted": "2026-11-24T23:32Z",
    "firstSeen": "2026-11-24T23:32Z",
-   "expires": "2026-12-04",
+   "expires": "2026-12-06",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -14978,13 +14985,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Theatre Company of Bryan/…",
-    "item": "家族向け劇「赤鼻のトナカイ ルドルフ」",
-    "when": "12/4(金)〜",
-    "cond": "家族向け・有料",
+    "item": "家族向けの劇「赤鼻のトナカイ」",
+    "when": "12/4(金)〜12/6(日)",
+    "cond": "家族向け・要チケット",
     "what": "ルドルフの劇",
     "where": "Theatre Company"
    },
-   "ja": "家族向け劇「赤鼻のトナカイ ルドルフ」",
+   "ja": "家族向けの劇「赤鼻のトナカイ」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -15000,7 +15007,7 @@
    "source": "Destination Bryan",
    "posted": "2026-11-24T23:32Z",
    "firstSeen": "2026-11-24T23:32Z",
-   "expires": "2026-12-04",
+   "expires": "2026-12-05",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
@@ -15020,13 +15027,13 @@
    "eventNews": false,
    "sum": {
     "store": "Rudder Auditorium",
-    "item": "Ballet Brazosのバレエ「くるみ割り人形」公演",
-    "when": "12/4(金)〜",
-    "cond": "有料",
+    "item": "Ballet Brazos のバレエ「くるみ割り人形」",
+    "when": "12/4(金)〜12/5(土)",
+    "cond": "要チケット",
     "what": "くるみ割り人形",
     "where": "Rudder Auditor…"
    },
-   "ja": "Ballet Brazosのバレエ「くるみ割り人形」公演",
+   "ja": "Ballet Brazos のバレエ「くるみ割り人形」",
    "jaVia": "claude-ev",
    "date": "2026-12-04",
    "freebie": null
@@ -15058,12 +15065,12 @@
    "eventNews": false,
    "sum": {
     "store": "Joyful Sips",
-    "item": "Joyful Sipsのホリデーマーケット",
+    "item": "Joyful Sips のホリデーマーケット",
     "when": "12/5(土)",
     "what": "ホリデー市",
     "where": "Joyful Sips"
    },
-   "ja": "Joyful Sipsのホリデーマーケット",
+   "ja": "Joyful Sips のホリデーマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -31124,12 +31131,12 @@
    "eventNews": false,
    "sum": {
     "store": "Rountree Market",
-    "item": "Rountree Marketのホリデーマーケット",
+    "item": "Rountree Market のホリデーマーケット",
     "when": "11/29(日)",
     "what": "ホリデー市",
     "where": "Rountree Market"
    },
-   "ja": "Rountree Marketのホリデーマーケット",
+   "ja": "Rountree Market のホリデーマーケット",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -31165,13 +31172,13 @@
    "eventNews": false,
    "sum": {
     "store": "Aggieland Safari",
-    "item": "Aggieland Safariの日曜イベント「Football Extrav…",
+    "item": "Aggieland Safari の日曜イベント",
     "when": "11/29(日)",
     "cond": "動物園",
-    "what": "サファリの催し",
+    "what": "サファリの日曜催し",
     "where": "Aggieland Safa…"
    },
-   "ja": "Aggieland Safariの日曜イベント「Football Extrav…",
+   "ja": "Aggieland Safari の日曜イベント",
    "jaVia": "claude-ev",
    "outing": [
     "動物"
@@ -48787,13 +48794,13 @@
    },
    "sum": {
     "store": "JCPenney",
-    "item": "レゴオーナメント無料",
-    "when": "12/12",
-    "what": "無料レゴ",
+    "item": "JCPenney でレゴの雪だるまオーナメント作り無料",
+    "when": "12/12(土)",
+    "what": "レゴ工作無料",
     "where": "JCPenney"
    },
-   "ja": "レゴオーナメント無料",
-   "jaVia": "gemini",
+   "ja": "JCPenney でレゴの雪だるまオーナメント作り無料",
+   "jaVia": "claude",
    "date": "2026-12-12"
   },
   {
@@ -49615,13 +49622,13 @@
    },
    "sum": {
     "store": "PetSmart",
-    "item": "サンタとペットの写真撮影無料",
-    "when": "12/12〜12/13",
-    "what": "無料の写真",
+    "item": "PetSmart でペットとサンタの写真撮影無料",
+    "when": "12/12(土)〜12/13(日)",
+    "what": "ペットとサンタ",
     "where": "PetSmart"
    },
-   "ja": "サンタとペットの写真撮影無料",
-   "jaVia": "gemini",
+   "ja": "PetSmart でペットとサンタの写真撮影無料",
+   "jaVia": "claude",
    "date": "2026-12-12"
   },
   {
@@ -59313,11 +59320,11 @@
    "source": "Destination Bryan",
    "posted": "2026-11-07T23:32Z",
    "firstSeen": "2026-11-07T23:32Z",
-   "expires": "2026-11-27",
+   "expires": "2026-12-04",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-27",
+   "localDate": "2026-12-04",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -59333,13 +59340,13 @@
    "eventNews": false,
    "sum": {
     "store": "Lake Walk",
-    "item": "Lake Walkのランニングクラブ(毎週金曜)",
-    "when": "11/27(金)",
-    "what": "ラン練習会",
+    "item": "Lake Walk のランニングクラブ",
+    "when": "12/4(金)",
+    "what": "ランクラブ",
     "where": "Lake Walk",
-    "cond": "誰でも参加"
+    "cond": "屋外"
    },
-   "ja": "Lake Walkのランニングクラブ(毎週金曜)",
+   "ja": "Lake Walk のランニングクラブ",
    "jaVia": "claude-ev",
    "outing": [
     "公園・屋外",
@@ -59360,7 +59367,7 @@
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-25",
+   "localDate": "2026-11-28",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -59376,13 +59383,13 @@
    "eventNews": false,
    "sum": {
     "store": "The Kimbell Cultural Event Ce…",
-    "item": "飾り付けたクリスマスツリーが並ぶFestival of Trees",
+    "item": "飾り付けたツリーが並ぶ「Festival of Trees」",
     "when": "〜12/4(金)",
     "what": "ツリーの祭典",
     "where": "The Kimbell",
     "cond": "家族向け"
    },
-   "ja": "飾り付けたクリスマスツリーが並ぶFestival of Trees",
+   "ja": "飾り付けたツリーが並ぶ「Festival of Trees」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -59437,11 +59444,11 @@
    "source": "Destination Bryan",
    "posted": "2026-11-01T23:33Z",
    "firstSeen": "2026-11-01T23:33Z",
-   "expires": "2026-11-27",
+   "expires": "2026-12-04",
    "thumb": null,
    "noAlert": true,
    "region": "College Station",
-   "localDate": "2026-11-27",
+   "localDate": "2026-12-04",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -59457,13 +59464,13 @@
    "eventNews": false,
    "sum": {
     "store": "St. Andrew's Episcopal Church",
-    "item": "小さな子と音楽で遊ぶMusic Play",
-    "when": "11/27(金)",
+    "item": "St. Andrew's 教会の音楽あそび",
+    "when": "12/4(金)",
     "cond": "子供向け",
-    "what": "親子音楽遊び",
+    "what": "子供の音楽遊び",
     "where": "St. Andrew's教会"
    },
-   "ja": "小さな子と音楽で遊ぶMusic Play",
+   "ja": "St. Andrew's 教会の音楽あそび",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -59482,7 +59489,7 @@
    "expires": "2027-05-16",
    "thumb": null,
    "noAlert": true,
-   "localDate": "2026-11-25",
+   "localDate": "2026-11-28",
    "calendar": true,
    "hot": false,
    "stores": [],
@@ -59498,13 +59505,13 @@
    "eventNews": false,
    "sum": {
     "store": "George H.W. Bush Presidential…",
-    "item": "ブッシュ大統領図書館の企画展「E Pluribus Unum」",
+    "item": "ブッシュ大統領図書館の特別展「E Pluribus Unum」",
     "when": "〜2027/5/16",
-    "what": "アメリカ史の企画展",
+    "what": "米国史の特別展",
     "where": "ブッシュ図書館博物館",
     "cond": "博物館の展示"
    },
-   "ja": "ブッシュ大統領図書館の企画展「E Pluribus Unum」",
+   "ja": "ブッシュ大統領図書館の特別展「E Pluribus Unum」",
    "jaVia": "claude-ev",
    "outing": [
     "エンタメ"
@@ -59513,6 +59520,375 @@
    "freebie": null,
    "region": "College Station",
    "family": true
+  },
+  {
+   "id": "e846931b91dc",
+   "title": "\"Remnants of 150 Years at Texas A&M University\" Exhibit at Cushing Library",
+   "link": "https://www.destinationbryan.com/events/a-legacy-built-of-brick-stone-remnants-of-150-years-at-texas-a-m-university/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-11-30",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Cushing Library",
+    "item": "A&M の150年を振り返る展示",
+    "when": "11/30(月)〜",
+    "cond": "展示",
+    "what": "A&M150年展",
+    "where": "Cushing Library"
+   },
+   "ja": "A&M の150年を振り返る展示",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-30"
+  },
+  {
+   "id": "e90c5416154a",
+   "title": "Winter Wonderland at Travis Fields",
+   "link": "https://www.destinationbryan.com/events/winter-wonderland/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Travis Fields at Bryan Midtow…",
+    "item": "Midtown Park の Winter Wonderland",
+    "when": "12/5(土)",
+    "cond": "家族向け",
+    "what": "冬の催し",
+    "where": "Travis Fields"
+   },
+   "ja": "Midtown Park の Winter Wonderland",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-05"
+  },
+  {
+   "id": "9e6131a77860",
+   "title": "Meet Santa at Aggieland Safari",
+   "link": "https://www.destinationbryan.com/events/meet-santa-at-aggieland-safari/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Aggieland Safari",
+    "item": "Aggieland Safari でサンタに会える日",
+    "when": "12/5(土)",
+    "cond": "子供向け",
+    "what": "サファリでサンタ",
+    "where": "Aggieland Safa…"
+   },
+   "ja": "Aggieland Safari でサンタに会える日",
+   "jaVia": "claude-ev",
+   "outing": [
+    "動物",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-05"
+  },
+  {
+   "id": "eb0ca44e044e",
+   "title": "The 44th Annual Christmas Arts & Crafts Show",
+   "link": "https://www.destinationbryan.com/events/the-44th-annual-christmas-arts-crafts-show/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Brazos Center",
+    "item": "第44回クリスマス手工芸品ショー",
+    "when": "12/5(土)〜12/6(日)",
+    "what": "クリスマス工芸展",
+    "where": "Brazos Center"
+   },
+   "ja": "第44回クリスマス手工芸品ショー",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-12-05"
+  },
+  {
+   "id": "a7083aea5416",
+   "title": "Holiday Night Bazaar at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/holiday-night-bazaar-at-the-pavilion-lake-walk-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk Pavilion",
+    "item": "Lake Walk のホリデーナイトバザール",
+    "when": "12/5(土)",
+    "cond": "屋外",
+    "what": "夜のホリデー市",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walk のホリデーナイトバザール",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-05"
+  },
+  {
+   "id": "b9326d916a82",
+   "title": "The Active Texan Tinsel Trot at The Pavilion Lake Walk",
+   "link": "https://www.destinationbryan.com/events/the-active-texan-tinsel-trot-at-the-pavilion-lake-walk-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fitness"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk Pavilion",
+    "item": "ホリデーのラン大会 Tinsel Trot",
+    "when": "12/5(土)",
+    "cond": "要申込",
+    "what": "ホリデーラン",
+    "where": "Lake Walk"
+   },
+   "ja": "ホリデーのラン大会 Tinsel Trot",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-12-05"
+  },
+  {
+   "id": "42c7a8dfa037",
+   "title": "First Saturday Art Market at Degallery",
+   "link": "https://www.destinationbryan.com/events/first-saturday-art-market-at-degallery-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "DeGallery",
+    "item": "DeGallery の第1土曜アートマーケット",
+    "when": "12/5(土)",
+    "what": "アート市",
+    "where": "DeGallery"
+   },
+   "ja": "DeGallery の第1土曜アートマーケット",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-05"
+  },
+  {
+   "id": "c35efb3b5be7",
+   "title": "Texas A&M University Holiday Spirit of Aggieland Choral Concert at Rudder Auditorium",
+   "link": "https://www.destinationbryan.com/events/texas-a-m-university-holiday-spirit-of-aggieland-choral-concert/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Rudder Auditorium",
+    "item": "A&M 合唱団のホリデーコンサート",
+    "when": "12/6(日)",
+    "what": "ホリデー合唱会",
+    "where": "Rudder Auditor…"
+   },
+   "ja": "A&M 合唱団のホリデーコンサート",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-06"
+  },
+  {
+   "id": "dfe1566cb2a0",
+   "title": "Holiday Hometown Session at The Kimbell",
+   "link": "https://www.destinationbryan.com/events/holiday-hometown-session-at-the-kimbell/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Live Music"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "The Kimbell Cultural Event Ce…",
+    "item": "The Kimbell のホリデー音楽会",
+    "when": "12/6(日)",
+    "what": "ホリデー音楽会",
+    "where": "The Kimbell"
+   },
+   "ja": "The Kimbell のホリデー音楽会",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-06"
   }
  ]
 }
