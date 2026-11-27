@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-27T02:52Z",
- "count": 1766,
+ "updated": "2026-11-27T04:36Z",
+ "count": 1764,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 25
+   "added": 1
   },
   "h2s-free": {
    "read": 100,
-   "added": 22
+   "added": 21
   },
   "doc": {
    "read": 15,
-   "added": 0
+   "added": 2
   },
   "ffp": {
    "read": 20,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 3
+   "added": 2
   },
   "tfg": {
    "read": 40,
-   "added": 28
+   "added": 2
   },
   "mws": {
    "read": 20,
@@ -32,7 +32,7 @@
   },
   "wtaw": {
    "read": 20,
-   "added": 1
+   "added": 0
   },
   "cstx": {
    "read": 5,
@@ -55,15 +55,120 @@
    "added": 0
   },
   "ja": {
-   "gemini": 21,
-   "geminiEvent": 0,
+   "gemini": 15,
+   "geminiEvent": 1,
    "mymemory": 25,
-   "geminiToday": 4,
+   "geminiToday": 6,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "530a7dea926a",
+   "title": "Amazon Prime: $100 Mastercard eGiftcard & Physical Giftcard For $100 (Limit 1)",
+   "link": "https://www.doctorofcredit.com/amazon-100-mastercard-giftcard-for-100-limit-37/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-27T04:20Z",
+   "firstSeen": "2026-11-27T04:36Z",
+   "expires": null,
+   "thumb": "https://www.doctorofcredit.com/wp-content/uploads/2025/11/mstrcard-1024x267.png",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "gift": {
+    "grocery": false
+   },
+   "ja": "Amazonプライム：100ドル分のMastercard eギフトカードと実物のギフトカードが100ドル（1枚限り）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonプライム：100ドル分のMastercard eギフトカードと実物のギフトカードが100ドル（1枚限り）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "5ad77616d488",
+   "title": "LEGO Black Friday Sale 2026 | Turn 100 LEGO Points Into 500 Points",
+   "link": "https://thefreebieguy.com/lego-black-friday/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-27T04:01Z",
+   "firstSeen": "2026-11-27T04:36Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/10/LEGO-store-1-840x630.png",
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "レゴ ブラックフライデーセール2026 | レゴポイント100ポイントを500ポイントに",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "",
+    "item": "レゴ ブラックフライデーセール2026 | レゴポイント100ポイントを500ポイントに",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "123a837a8210",
+   "title": "Capital One Offers: Amazon, Trader Joe’s – Get $5 Back on $20 Spend",
+   "link": "https://www.doctorofcredit.com/capital-one-offers-amazon-trader-joes-get-5-back-on-20-spend/",
+   "source": "Doctor of Credit",
+   "posted": "2026-11-27T03:06Z",
+   "firstSeen": "2026-11-27T04:36Z",
+   "expires": null,
+   "thumb": null,
+   "hot": false,
+   "stores": [
+    "Trader Joe's",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Capital Oneの特典：Amazon、Trader Joe's – 20ドルのお買い物で5ドルがキャッシュバック",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Trader Joe's・Amazon",
+    "item": "Capital Oneの特典：Amazon、Trader Joe's – 20ドルのお買い物で5ドルがキャッシュバック",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "711b8351cd5f",
    "title": "withSimplicity Black Friday Sale: 25% off entire site!",
@@ -86,13 +191,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "withSimplicityのブラックフライデーセール：サイト全体が25%オフ！",
-   "jaVia": "mymemory",
+   "ja": "全商品25%オフ",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "withSimplicityのブラックフライデーセール：サイト全体が25%オフ！",
-    "when": "",
-    "cond": ""
+    "store": "withSimplicity",
+    "item": "全商品25%オフ",
+    "when": "BFセール",
+    "cond": "",
+    "what": "全品25%オフ",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -188,13 +295,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Lowe's x MrBeastのアドベントカレンダーが今なら19.99ドル – ブラックフライデーで60%オフ",
-   "jaVia": "mymemory",
+   "ja": "MrBeastカレンダーが$19.99",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "Lowe's x MrBeastのアドベントカレンダーが今なら19.99ドル – ブラックフライデーで60%オフ",
-    "when": "",
-    "cond": ""
+    "item": "MrBeastカレンダーが$19.99",
+    "when": "BFセール",
+    "cond": "",
+    "what": "アドベント暦半額超",
+    "where": "Lowe's"
    },
    "date": null
   },
@@ -392,13 +501,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ターゲットでバービーがなんと5ドルセール | ブラックフライデーセール",
-   "jaVia": "mymemory",
+   "ja": "バービー人形が$5均一",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "ターゲットでバービーがなんと5ドルセール | ブラックフライデーセール",
-    "when": "",
-    "cond": ""
+    "item": "バービー人形が$5均一",
+    "when": "BFセール",
+    "cond": "",
+    "what": "バービー$5",
+    "where": "Target"
    },
    "date": null
   },
@@ -430,13 +541,15 @@
    ],
    "family": true,
    "freebie": null,
-   "ja": "DPSがテキサス州民にこのホリデーシーズンは賢く買い物をするよう呼びかけ",
-   "jaVia": "mymemory",
+   "ja": "ホリデーシーズンの買い物安全対策の注意喚起",
+   "jaVia": "gemini-ev",
    "sum": {
-    "store": "",
-    "item": "DPSがテキサス州民にこのホリデーシーズンは賢く買い物をするよう呼びかけ",
+    "store": "テキサス州",
+    "item": "ホリデーシーズンの買い物安全対策の注意喚起",
     "when": "",
-    "cond": ""
+    "cond": "",
+    "what": "買い物安全対策",
+    "where": "テキサス州"
    },
    "date": null
   },
@@ -784,6 +897,40 @@
    "date": "2026-11-26"
   },
   {
+   "id": "8c0c2fd1af4a",
+   "title": "Boxing Reflex Ball Just $9.59 Shipped for Amazon Prime Members | Fun Family Activity!",
+   "link": "https://hip2save.com/deals/boxing-reflex-ball/",
+   "source": "Hip2Save",
+   "posted": "2026-11-26T23:30Z",
+   "firstSeen": "2026-11-27T04:36Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/WiiMad-Boxing-Reflex-Ball.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ボクシング・リフレックスボールがAmazonプライム会員なら送料込みでわずか$9.59 | 楽しいファミリーアクティビティ！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ボクシング・リフレックスボールがAmazonプライム会員なら送料込みでわずか$9.59 | 楽しいファミリーアクティビティ！",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
    "id": "87250b402c07",
    "title": "Target Free Events: Score up to $1,000 in Gift Cards, Score a Free Ornament and More in November!",
    "link": "https://thefreebieguy.com/free-target-event/",
@@ -845,13 +992,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Lowe'sのブラックフライデー | 照明、クリスマスツリーなどが最大50%オフ",
-   "jaVia": "mymemory",
+   "ja": "電飾やツリー最大50%オフ",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "Lowe'sのブラックフライデー | 照明、クリスマスツリーなどが最大50%オフ",
-    "when": "",
-    "cond": ""
+    "item": "電飾やツリー最大50%オフ",
+    "when": "BFセール",
+    "cond": "",
+    "what": "装飾品最大半額",
+    "where": "Lowe's"
    },
    "date": null
   },
@@ -918,14 +1067,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スコット トイレットペーパー 36ロール入りトリプルロールがAmazonで送料込みわずか11ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "スコット トイレットペーパー 36ロール入りトリプルロールがAmazonで送料込みわずか11ドル",
     "when": "",
     "cond": ""
    },
-   "dup": "0e1ec5134b99",
-   "date": null
+   "dup": "0e1ec5134b99"
   },
   {
    "id": "a891f9565deb",
@@ -985,13 +1136,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Happy Curvesの擦れ防止スティックがAmazonで送料込みわずか$12.59（通常価格$18）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Happy Curvesの擦れ防止スティックがAmazonで送料込みわずか$12.59（通常価格$18）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4152c7c59573",
@@ -1017,13 +1170,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "GO！ホームデポの人気ミニトート5点、たったの10ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Home Depot",
-    "item": "",
+    "item": "GO！ホームデポの人気ミニトート5点、たったの10ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "04a6097d5df7",
@@ -1050,13 +1205,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ディズニープリンセスの人形がKohls.comでたったの$4.99（通常価格$12）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target・Kohl's",
-    "item": "",
+    "item": "ディズニープリンセスの人形がKohls.comでたったの$4.99（通常価格$12）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e8500c45d8c8",
@@ -1119,13 +1276,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "カップ＆ワインホルダー付きダブルキャンプチェアがAmazonで送料込みわずか$39.99（通常価格$80）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "カップ＆ワインホルダー付きダブルキャンプチェアがAmazonで送料込みわずか$39.99（通常価格$80）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4d3f5f1217e2",
@@ -1151,13 +1310,54 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "14Kゴールドメッキのハート型イニシャルネックレスがAmazonでわずか$3.xx（通常価格$10）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "14Kゴールドメッキのハート型イニシャルネックレスがAmazonでわずか$3.xx（通常価格$10）",
     "when": "",
     "cond": ""
+   }
+  },
+  {
+   "id": "1b735b191030",
+   "title": "Dunkin’ Deals & Freebies: Free Donut Fridays + Free Coffee for The First Million People on Nov. 30!",
+   "link": "https://thefreebieguy.com/best-dunkin-deals-freebies/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-26T22:22Z",
+   "firstSeen": "2026-11-27T04:36Z",
+   "expires": "2026-11-30",
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/04/Free-Iced-Coffee-Dunkin-TFG-840x630.png",
+   "hot": true,
+   "stores": [
+    "Dunkin'"
+   ],
+   "cats": [
+    "food"
+   ],
+   "types": [
+    "free"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": "2026-11-30"
    },
-   "date": null
+   "sum": {
+    "store": "Dunkin'",
+    "item": "金曜ドーナツ無料／コーヒー無料",
+    "when": "金曜 / 11/30",
+    "cond": "コーヒーは先着100万人",
+    "what": "ドーナツ＆珈琲無料",
+    "where": "Dunkin'"
+   },
+   "ja": "金曜ドーナツ無料／コーヒー無料",
+   "jaVia": "gemini",
+   "date": "2026-11-30"
   },
   {
    "id": "b92d76abc62e",
@@ -1183,13 +1383,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon Haulのギフトは1.82ドルから。お得にクリスマスプレゼントを揃えましょう！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon Haulのギフトは1.82ドルから。お得にクリスマスプレゼントを揃えましょう！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "aa6e27d91fc8",
@@ -1215,14 +1417,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "値下げ！JBL Go 4超ポータブルBluetoothスピーカーがAmazonでわずか$31.xx（通常価格$50）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "値下げ！JBL Go 4超ポータブルBluetoothスピーカーがAmazonでわずか$31.xx（通常価格$50）",
     "when": "",
     "cond": ""
    },
-   "dup": "7abad1231f4d",
-   "date": null
+   "dup": "7abad1231f4d"
   },
   {
    "id": "0ec6f07e7208",
@@ -1248,13 +1452,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "アクリル絵の具マーカー36本セットがAmazonで送料込みわずか$8.98",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "アクリル絵の具マーカー36本セットがAmazonで送料込みわずか$8.98",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "50bab293e42e",
@@ -1290,8 +1496,8 @@
    },
    "ja": "衣類が$3.81〜",
    "jaVia": "gemini",
-   "dup": "41a314062a51",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "dup": "41a314062a51"
   },
   {
    "id": "40b2d0073878",
@@ -1317,13 +1523,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Bissellコードレスリトルグリーンミニマシンが送料込みでわずか$62.99 + $15のコールズキャッシュをゲット",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Bissellコードレスリトルグリーンミニマシンが送料込みでわずか$62.99 + $15のコールズキャッシュをゲット",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "784b934c471a",
@@ -1349,13 +1557,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Target.comでLEGOセットが最大40%オフ | スター・ウォーズ、フォートナイト、マインクラフトなど",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Target.comでLEGOセットが最大40%オフ | スター・ウォーズ、フォートナイト、マインクラフトなど",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b945cac454b6",
@@ -1381,13 +1591,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "12色のアロマ付きグリッタージェルペンがAmazonでたったの$3.xx！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "12色のアロマ付きグリッタージェルペンがAmazonでたったの$3.xx！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a03cf9d12e68",
@@ -1413,13 +1625,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "かわいい！WalmartでFrigidaire 9缶収納レトロミニ冷蔵庫がたったの$29.84（通常価格$60）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "かわいい！WalmartでFrigidaire 9缶収納レトロミニ冷蔵庫がたったの$29.84（通常価格$60）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "b34606b83f71",
@@ -1445,13 +1659,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "HEPA空気清浄機がAmazonで送料込み35.99ドルのみ | 寝室やホームオフィスに最適！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "HEPA空気清浄機がAmazonで送料込み35.99ドルのみ | 寝室やホームオフィスに最適！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2bd3ba5c6f3a",
@@ -1477,13 +1693,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "メイクブラシ＆ブレンディングスポンジ12点セットがAmazonでたったの$4.55",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "メイクブラシ＆ブレンディングスポンジ12点セットがAmazonでたったの$4.55",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4f4c5e9aca43",
@@ -1509,13 +1727,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Battery Daddy電池収納ケースがAmazonでたったの$15.xx（通常価格 20ドル）| 180本の電池を収納可能！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Battery Daddy電池収納ケースがAmazonでたったの$15.xx（通常価格 20ドル）| 180本の電池を収納可能！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3ca9de8de764",
@@ -1541,13 +1761,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "大人気のKobaltミニツールキャビネットが、Lowes.comで送料込みわずか24.98ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "大人気のKobaltミニツールキャビネットが、Lowes.comで送料込みわずか24.98ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3feb0a704057",
@@ -1573,13 +1795,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "GO！Ninjaマルチポット11-in-1マルチクッカーがウォルマートでたったの$179（通常価格$200）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "GO！Ninjaマルチポット11-in-1マルチクッカーがウォルマートでたったの$179（通常価格$200）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1ccfccfb21c9",
@@ -1605,14 +1829,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "リトルタイクス・コージークーペがAmazonで送料込み38.49ドル（通常価格65ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "リトルタイクス・コージークーペがAmazonで送料込み38.49ドル（通常価格65ドル）",
     "when": "",
     "cond": ""
    },
-   "dup": "90648ae6bed3",
-   "date": null
+   "dup": "90648ae6bed3"
   },
   {
    "id": "643498c0ae5d",
@@ -1638,13 +1864,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "カラースタックチャレンジゲームがAmazonでたったの10ドル（最近4万個が販売されました！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "カラースタックチャレンジゲームがAmazonでたったの10ドル（最近4万個が販売されました！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "73ca87b23316",
@@ -1670,13 +1898,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Sol de JaneiroのパフュームミストがAmazonで送料込み11.73ドル（通常価格26ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Sol de JaneiroのパフュームミストがAmazonで送料込み11.73ドル（通常価格26ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "aa9da84f6eb7",
@@ -1743,8 +1973,8 @@
    },
    "ja": "掃除機が$17.99〜",
    "jaVia": "gemini",
-   "dup": "2df2eb7f190a",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "dup": "2df2eb7f190a"
   },
   {
    "id": "70492af0b0b1",
@@ -2672,8 +2902,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "7e3cc689c4e4",
-   "date": null
+   "date": null,
+   "dup": "7e3cc689c4e4"
   },
   {
    "id": "2525b5d9f31a",
@@ -13467,7 +13697,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "7f48065e33ff"
+   "dup": "423f935fa316"
   },
   {
    "id": "9c536e48bb98",
@@ -35785,45 +36015,6 @@
    }
   },
   {
-   "id": "4b0bce75ba4c",
-   "title": "Dunkin: Free Hot Or Iced Coffee With Promo Code DUNKINRUNSONDOOM",
-   "link": "https://www.doctorofcredit.com/dunkin-free-hot-or-iced-coffee-with-promo-code-dunkinrunsondoom/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-19T04:11Z",
-   "firstSeen": "2026-11-19T04:34Z",
-   "expires": null,
-   "thumb": null,
-   "hot": true,
-   "stores": [
-    "Dunkin'"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "coupon"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "store": "Dunkin'",
-    "item": "Dunkin' コード DUNKINRUNSONDOOM で無料コーヒー",
-    "cond": "プロモコード",
-    "what": "コーヒー無料",
-    "where": "Dunkin'"
-   },
-   "ja": "Dunkin' コード DUNKINRUNSONDOOM で無料コーヒー",
-   "jaVia": "claude",
-   "date": null
-  },
-  {
    "id": "d3423e4a0c03",
    "title": "Wireless Label Maker Only $7.59 on Amazon | Compact & Easy to Use",
    "link": "https://hip2save.com/deals/wireless-label-maker/",
@@ -49727,8 +49918,7 @@
     "item": "レディース2点セットトレーニングウェアがAmazonでたったの$11.xx（通常価格$43）",
     "when": "",
     "cond": ""
-   },
-   "dup": "a88c4926f9c6"
+   }
   },
   {
    "id": "d90432109e68",
@@ -50930,7 +51120,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "48227f8b0c7f"
+   "dup": "c8c35ef0ef79"
   },
   {
    "id": "9951fe11007a",
@@ -59542,210 +59732,6 @@
    "sum": {
     "store": "Walmart",
     "item": "レゴ スノーマンオーナメントセットがわずか8ドル{Walmart+メンバー}",
-    "when": "",
-    "cond": "会員限定"
-   },
-   "date": null
-  },
-  {
-   "id": "b15c61148bc6",
-   "title": "Shark Steam & Scrub Mop Just $98.74 Shipped on Walmart.com (Reg. $149)",
-   "link": "https://hip2save.com/deals/shark-steam-mop/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T04:10Z",
-   "firstSeen": "2026-11-12T04:22Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Shark-Steam-Scrub.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 34,
-   "price": 98.74,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Sharkスチーム＆スクラブモップがWalmart.comで送料込みわずか$98.74（通常価格$149）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Sharkスチーム＆スクラブモップがWalmart.comで送料込みわずか$98.74（通常価格$149）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "893518b5f1c5",
-   "title": "Blackstone Griddle w/ Hard Cover & Side Shelf Only $197 Shipped on Walmart.com",
-   "link": "https://hip2save.com/deals/blackstone-28-griddle/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T04:00Z",
-   "firstSeen": "2026-11-12T04:22Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/06/Blackstone-28-Griddle-2.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ハードカバー＆サイドシェルフ付きBlackstoneグリドルがWalmart.comで送料込み197ドルのみ",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "ハードカバー＆サイドシェルフ付きBlackstoneグリドルがWalmart.comで送料込み197ドルのみ",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "d4edd1591166",
-   "title": "KitchenAid Deluxe Stand Mixer Just $279 Shipped on Walmart.com (Reg. $450)",
-   "link": "https://hip2save.com/deals/walmart-kitchenaid-mixer/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T03:50Z",
-   "firstSeen": "2026-11-12T04:22Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/KitchenAid-Deluxe-Stand-Mixer.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 38,
-   "price": 279.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "KitchenAidデラックススタンドミキサーがWalmart.comで送料込みわずか279ドル（通常価格450ドル）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "KitchenAidデラックススタンドミキサーがWalmart.comで送料込みわずか279ドル（通常価格450ドル）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "b2a3c0fc5fa3",
-   "title": "Bissell Carpet Cleaner Just $97.94 Shipped on Walmart.com (Reg. $130)",
-   "link": "https://hip2save.com/deals/bissell-carpet-cleaner/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T03:30Z",
-   "firstSeen": "2026-11-12T04:22Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/BISSELL-PowerForce-PowerBrush-Carpet-Cleaner.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 25,
-   "price": 97.94,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "BissellカーペットクリーナーがWalmart.comで送料込みわずか$97.94（通常価格$130）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "BissellカーペットクリーナーがWalmart.comで送料込みわずか$97.94（通常価格$130）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "18261661aaeb",
-   "title": "Orgain Protein Powder Tub Only $13.98 Shipped on Amazon (Reg. $24)",
-   "link": "https://hip2save.com/deals/orgain-protein-powder/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T03:10Z",
-   "firstSeen": "2026-11-12T03:26Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/07/orgain-protein-powder.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 42,
-   "price": 13.98,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Orgainプロテインパウダーの容器のみがAmazonで送料込み13.98ドル（通常価格24ドル）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Orgainプロテインパウダーの容器のみがAmazonで送料込み13.98ドル（通常価格24ドル）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "fece7b9f8d1b",
-   "title": "Smoke Detector w/ 10-Year Battery Only $19.99 Shipped for Amazon Prime Members",
-   "link": "https://hip2save.com/deals/x-sense-smoke-detector/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T03:00Z",
-   "firstSeen": "2026-11-12T03:02Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/07/X-Sense-Smoke-Detector.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "10年電池付き煙感知器が、Amazonプライム会員なら送料込みでわずか19.99ドル",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "10年電池付き煙感知器が、Amazonプライム会員なら送料込みでわずか19.99ドル",
     "when": "",
     "cond": "会員限定"
    },
