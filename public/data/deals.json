@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-27T21:59Z",
- "count": 1756,
+ "updated": "2026-11-28T03:55Z",
+ "count": 1759,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 50
+   "added": 8
   },
   "h2s-free": {
    "read": 100,
-   "added": 21
+   "added": 22
   },
   "doc": {
    "read": 15,
-   "added": 6
+   "added": 0
   },
   "ffp": {
    "read": 20,
-   "added": 1
+   "added": 3
   },
   "msm": {
    "read": 75,
-   "added": 37
+   "added": 6
   },
   "tfg": {
    "read": 40,
-   "added": 28
+   "added": 4
   },
   "mws": {
    "read": 20,
@@ -55,16 +55,812 @@
    "added": 0
   },
   "ja": {
-   "gemini": 25,
-   "geminiEvent": 1,
-   "mymemory": 5,
-   "geminiToday": 3,
-   "model": "gemini-flash-latest",
-   "mymemoryError": "HTTP Error 429: Too Many Requests"
+   "gemini": 24,
+   "geminiEvent": 0,
+   "mymemory": 25,
+   "geminiToday": 5,
+   "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "a0b620f219d3",
+   "title": "Up to 50% Off Board Games on Amazon",
+   "link": "https://hip2save.com/deals/amazon-board-games/",
+   "source": "Hip2Save",
+   "posted": "2026-11-28T03:35Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Farkle-Dice-Game.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonでボードゲームが最大50%オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonでボードゲームが最大50%オフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "460fc41964cd",
+   "title": "Dunkin’ Refreshers 40-Count Variety Pack Only $7.50 Shipped On Amazon",
+   "link": "https://hip2save.com/deals/dunkin-refreshers/",
+   "source": "Hip2Save",
+   "posted": "2026-11-28T00:05Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/05/Dunkin-Refreshers-Drink-Mix.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Dunkin'",
+    "Amazon"
+   ],
+   "cats": [
+    "food",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ダンキン・リフレッシャー40個入りバラエティパックがAmazonで送料込み7.50ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Dunkin'・Amazon",
+    "item": "ダンキン・リフレッシャー40個入りバラエティパックがAmazonで送料込み7.50ドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2b906098171d",
+   "title": "GCI Outdoor Foldable Rocking Camp Chair Only $56 at Walmart (Reg. $70)",
+   "link": "https://thefreebieguy.com/gci-chair-walmart/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-27T23:58Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/GCI-Rocking-Chair-840x630.png",
+   "hot": false,
+   "stores": [
+    "Walmart"
+   ],
+   "cats": [
+    "grocery"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 20,
+   "price": 56.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "GCIアウトドア折りたたみ式ロッキングキャンプチェアがウォルマートでたったの$56（通常価格$70）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart",
+    "item": "GCIアウトドア折りたたみ式ロッキングキャンプチェアがウォルマートでたったの$56（通常価格$70）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "76aa0a1f11c5",
+   "title": "MaryRuth’s Liquid Morning Multivitamin Only $21.57 Shipped on Amazon (Reg. $43)",
+   "link": "https://hip2save.com/deals/maryruths-liquid-morning-multivitamin/",
+   "source": "Hip2Save",
+   "posted": "2026-11-27T23:45Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/maryruths-liqui-multivitamin.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": 21.57,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "MaryRuth'sリキッドモーニングマルチビタミンがAmazonで送料込み21.57ドル（通常価格43ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "MaryRuth'sリキッドモーニングマルチビタミンがAmazonで送料込み21.57ドル（通常価格43ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "9957a0de5871",
+   "title": "Battery Daddy Organizer & Tester Only $15.99 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/battery-daddy/",
+   "source": "Hip2Save",
+   "posted": "2026-11-27T23:35Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2023/11/Battery-Daddy-Organizer-and-Storage-Case-w-Tester-1.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Battery Daddyオーガナイザー＆テスターがAmazonで送料込み15.99ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Battery Daddyオーガナイザー＆テスターがAmazonで送料込み15.99ドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "e846931b91dc",
+   "title": "\"Remnants of 150 Years at Texas A&M University\" Exhibit at Cushing Library",
+   "link": "https://www.destinationbryan.com/events/a-legacy-built-of-brick-stone-remnants-of-150-years-at-texas-a-m-university/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-11-30",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-11-30",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Cushing Library",
+    "item": "A&M の150年を振り返る展示",
+    "when": "11/30(月)〜",
+    "cond": "展示",
+    "what": "A&M150年展",
+    "where": "Cushing Library"
+   },
+   "ja": "A&M の150年を振り返る展示",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-11-30",
+   "freebie": null
+  },
+  {
+   "id": "e90c5416154a",
+   "title": "Winter Wonderland at Travis Fields",
+   "link": "https://www.destinationbryan.com/events/winter-wonderland/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Travis Fields at Bryan Midtow…",
+    "item": "Midtown Park の Winter Wonderland",
+    "when": "12/5(土)",
+    "cond": "家族向け",
+    "what": "冬の催し",
+    "where": "Travis Fields"
+   },
+   "ja": "Midtown Park の Winter Wonderland",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-05",
+   "freebie": null
+  },
+  {
+   "id": "9e6131a77860",
+   "title": "Meet Santa at Aggieland Safari",
+   "link": "https://www.destinationbryan.com/events/meet-santa-at-aggieland-safari/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Holiday Events"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Aggieland Safari",
+    "item": "Aggieland Safari でサンタに会える日",
+    "when": "12/5(土)",
+    "cond": "子供向け",
+    "what": "サファリでサンタ",
+    "where": "Aggieland Safa…"
+   },
+   "ja": "Aggieland Safari でサンタに会える日",
+   "jaVia": "claude-ev",
+   "outing": [
+    "動物",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-05",
+   "freebie": null
+  },
+  {
+   "id": "eb0ca44e044e",
+   "title": "The 44th Annual Christmas Arts & Crafts Show",
+   "link": "https://www.destinationbryan.com/events/the-44th-annual-christmas-arts-crafts-show/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Brazos Center",
+    "item": "第44回クリスマス手工芸品ショー",
+    "when": "12/5(土)〜12/6(日)",
+    "what": "クリスマス工芸展",
+    "where": "Brazos Center"
+   },
+   "ja": "第44回クリスマス手工芸品ショー",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ",
+    "子供向け"
+   ],
+   "family": true,
+   "date": "2026-12-05",
+   "freebie": null
+  },
+  {
+   "id": "a7083aea5416",
+   "title": "Holiday Night Bazaar at Lake Walk",
+   "link": "https://www.destinationbryan.com/events/holiday-night-bazaar-at-the-pavilion-lake-walk-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Market"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk Pavilion",
+    "item": "Lake Walk のホリデーナイトバザール",
+    "when": "12/5(土)",
+    "cond": "屋外",
+    "what": "夜のホリデー市",
+    "where": "Lake Walk"
+   },
+   "ja": "Lake Walk のホリデーナイトバザール",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-05",
+   "freebie": null
+  },
+  {
+   "id": "b9326d916a82",
+   "title": "The Active Texan Tinsel Trot at The Pavilion Lake Walk",
+   "link": "https://www.destinationbryan.com/events/the-active-texan-tinsel-trot-at-the-pavilion-lake-walk-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Fitness"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Lake Walk Pavilion",
+    "item": "ホリデーのラン大会 Tinsel Trot",
+    "when": "12/5(土)",
+    "cond": "要申込",
+    "what": "ホリデーラン",
+    "where": "Lake Walk"
+   },
+   "ja": "ホリデーのラン大会 Tinsel Trot",
+   "jaVia": "claude-ev",
+   "outing": [
+    "公園・屋外",
+    "スポーツ"
+   ],
+   "family": true,
+   "date": "2026-12-05",
+   "freebie": null
+  },
+  {
+   "id": "42c7a8dfa037",
+   "title": "First Saturday Art Market at Degallery",
+   "link": "https://www.destinationbryan.com/events/first-saturday-art-market-at-degallery-2/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-05",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-05",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "DeGallery",
+    "item": "DeGallery の第1土曜アートマーケット",
+    "when": "12/5(土)",
+    "what": "アート市",
+    "where": "DeGallery"
+   },
+   "ja": "DeGallery の第1土曜アートマーケット",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-05",
+   "freebie": null
+  },
+  {
+   "id": "c35efb3b5be7",
+   "title": "Texas A&M University Holiday Spirit of Aggieland Choral Concert at Rudder Auditorium",
+   "link": "https://www.destinationbryan.com/events/texas-a-m-university-holiday-spirit-of-aggieland-choral-concert/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Arts & Culture"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "Rudder Auditorium",
+    "item": "A&M 合唱団のホリデーコンサート",
+    "when": "12/6(日)",
+    "what": "ホリデー合唱会",
+    "where": "Rudder Auditor…"
+   },
+   "ja": "A&M 合唱団のホリデーコンサート",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-06",
+   "freebie": null
+  },
+  {
+   "id": "dfe1566cb2a0",
+   "title": "Holiday Hometown Session at The Kimbell",
+   "link": "https://www.destinationbryan.com/events/holiday-hometown-session-at-the-kimbell/",
+   "source": "Destination Bryan",
+   "posted": "2026-11-27T23:32Z",
+   "firstSeen": "2026-11-27T23:32Z",
+   "expires": "2026-12-06",
+   "thumb": null,
+   "noAlert": true,
+   "region": "College Station",
+   "localDate": "2026-12-06",
+   "calendar": true,
+   "hot": false,
+   "stores": [],
+   "cats": [
+    "Live Music"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "sum": {
+    "store": "The Kimbell Cultural Event Ce…",
+    "item": "The Kimbell のホリデー音楽会",
+    "when": "12/6(日)",
+    "what": "ホリデー音楽会",
+    "where": "The Kimbell"
+   },
+   "ja": "The Kimbell のホリデー音楽会",
+   "jaVia": "claude-ev",
+   "outing": [
+    "エンタメ"
+   ],
+   "family": true,
+   "date": "2026-12-06",
+   "freebie": null
+  },
+  {
+   "id": "761e5d07fc75",
+   "title": "Macy’s Magical Weekends Gift Card Scavenger Hunt! Score a FREE Macy’s Gift Card!",
+   "link": "https://thefreebieguy.com/macys-magical-weekends-gift-card-scavenger-hunt-score-a-free-macys-gift-card/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-27T23:29Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Macys-Scavenger-Hunt-Promotion-840x630.png",
+   "hot": true,
+   "stores": [],
+   "cats": [
+    "other"
+   ],
+   "types": [
+    "free",
+    "gc"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": {
+    "kind": "coupon",
+    "when": null
+   },
+   "sum": {
+    "store": "Macy's",
+    "item": "ギフトカード",
+    "cond": "宝探しイベント参加",
+    "what": "無料ギフト券",
+    "where": "Macy's"
+   },
+   "ja": "ギフトカード",
+   "jaVia": "gemini",
+   "date": null
+  },
+  {
+   "id": "6ba625a49372",
+   "title": "Cordless Reciprocating Saw Just $35.69 Shipped on Amazon (Reg. $70)",
+   "link": "https://hip2save.com/deals/seesii-cordless-saw/",
+   "source": "Hip2Save",
+   "posted": "2026-11-27T23:15Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/08/cordless-reciprocating-saw-seesi.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 49,
+   "price": 35.69,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "コードレスレシプロソーがAmazonで送料込みわずか$35.69（通常価格$70）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "コードレスレシプロソーがAmazonで送料込みわずか$35.69（通常価格$70）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "2d94dcad557d",
+   "title": "JLab JBuds Lux Jelle Wireless Headphones Only $24.xx (Reg. $100)!",
+   "link": "https://thefreebieguy.com/jlab-jbuds-lux-jelle-wireless-headphones/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-27T23:13Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/JLab-JBuds-Lux-ANC-Jelle-Wireless-Over-Ear-Headphones-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 76,
+   "price": 24.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "JLab JBuds Lux Jelleワイヤレスヘッドホンがわずか$24.xx（通常価格$100）！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "JLab JBuds Lux Jelleワイヤレスヘッドホンがわずか$24.xx（通常価格$100）！",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "a62b582854b4",
+   "date": null
+  },
+  {
+   "id": "7e2e0188b048",
+   "title": "AncestryDNA Kit Only $29 Shipped for Amazon Prime Members (Reg. $99)",
+   "link": "https://hip2save.com/deals/ancestry-dna-test/",
+   "source": "Hip2Save",
+   "posted": "2026-11-27T23:05Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/ancestry-dna-kit.jpg?resize=306,182",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 29.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AncestryDNAキットが、Amazonプライム会員なら送料込みでわずか29ドル（通常価格99ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "AncestryDNAキットが、Amazonプライム会員なら送料込みでわずか29ドル（通常価格99ドル）",
+    "when": "",
+    "cond": "会員限定"
+   },
+   "date": null
+  },
+  {
+   "id": "f962530fc32a",
+   "title": "Up to 50% Off Crocs & Pajamas at Target (Today Only!)",
+   "link": "https://hip2save.com/deals/target-daily-deals/",
+   "source": "Hip2Save",
+   "posted": "2026-11-27T23:00Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": "2026-11-27",
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/target_9b3c00.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 50,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Targetでクロックスとパジャマが最大50%オフ（本日限り！）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Target",
+    "item": "Targetでクロックスとパジャマが最大50%オフ（本日限り！）",
+    "when": "11/27(金)まで",
+    "cond": ""
+   },
+   "dup": "379de3bc4453",
+   "date": "2026-11-27"
+  },
+  {
+   "id": "9de74d8b468a",
+   "title": "BaubleBar Gold-Plated Necklaces, Bracelets, & Pendants from $14.xx on Amazon (Reg. $48)",
+   "link": "https://thefreebieguy.com/baublebar-jewelry-deals-amazon/",
+   "source": "The Freebie Guy",
+   "posted": "2026-11-27T22:39Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Baublebar-jewelry-Amazon-Deals-840x630.png",
+   "hot": true,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 71,
+   "price": 14.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "BaubleBarのゴールドメッキのネックレス、ブレスレット、ペンダントがAmazonで14.xxドルから（通常価格48ドル）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "BaubleBarのゴールドメッキのネックレス、ブレスレット、ペンダントがAmazonで14.xxドルから（通常価格48ドル）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "d0247e5d9857",
+   "title": "30 Black Friday Finds Worth the Hype",
+   "link": "https://moneysavingmom.com/black-friday-2026-favs/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-27T22:04Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/BF-roundup-630x789.jpg",
+   "hot": false,
+   "stores": [
+    "Walmart",
+    "Target",
+    "Amazon"
+   ],
+   "cats": [
+    "grocery",
+    "home",
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": "black-friday",
+   "eventNews": false,
+   "freebie": null,
+   "ja": "話題になるだけの価値があるブラックフライデーのお買い得品30選",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Walmart・Target",
+    "item": "話題になるだけの価値があるブラックフライデーのお買い得品30選",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "fd3df7a4b415",
    "title": "Check Your Amazon ‘Buy Again’ Tab on Amazon Sale Events",
@@ -89,13 +885,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "AmazonセールイベントでAmazonの「リピート購入」タブを確認する",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "AmazonセールイベントでAmazonの「リピート購入」タブを確認する",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0f70559ee471",
@@ -121,13 +919,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "映画館のキャンディボックスがたったの1ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "映画館のキャンディボックスがたったの1ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "73dca490312b",
@@ -160,13 +960,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Google Playアプリ：スターバックス、Instacart、Home Depot、Lowe's、Uber、Lyft、DoorDash、Chipotleなどのギフトカードがお得に",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Home Depot・Lowe's",
-    "item": "",
+    "item": "Google Playアプリ：スターバックス、Instacart、Home Depot、Lowe's、Uber、Lyft、DoorDash、Chipotleなどのギフトカードがお得に",
     "when": "",
     "cond": "アプリ"
-   },
-   "date": null
+   }
   },
   {
    "id": "3f7dd1cb65bf",
@@ -192,13 +994,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* Targetでファミリーお揃いパジャマが50%オフ：マイクロフリースホリデーパンツが5ドルなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "*大人気* Targetでファミリーお揃いパジャマが50%オフ：マイクロフリースホリデーパンツが5ドルなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f47e8fd385f4",
@@ -224,13 +1028,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "新登場のAmazon Echo TimeがAmazonでわずか$99.xx（通常価格$200）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "新登場のAmazon Echo TimeがAmazonでわずか$99.xx（通常価格$200）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "45ee6ae8a5b7",
@@ -257,14 +1063,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonでブルーバッファローの犬用＆猫用おやつが2つ買うと1つ無料",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonでブルーバッファローの犬用＆猫用おやつが2つ買うと1つ無料",
     "when": "",
     "cond": ""
    },
-   "dup": "ab1d4cc561cc",
-   "date": null
+   "dup": "ab1d4cc561cc"
   },
   {
    "id": "5476f60f33bc",
@@ -325,14 +1133,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Mainstaysのフェイクファーのクッションがたったの$5！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Mainstaysのフェイクファーのクッションがたったの$5！",
     "when": "",
     "cond": ""
    },
-   "dup": "22fccf92de29",
-   "date": null
+   "dup": "22fccf92de29"
   },
   {
    "id": "82f22aab55b6",
@@ -358,13 +1168,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ライゾール多目的クリーナースプレー4本セットがAmazonで送料込みわずか$12.91（通常価格$17）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ライゾール多目的クリーナースプレー4本セットがAmazonで送料込みわずか$12.91（通常価格$17）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7b531cf3e869",
@@ -390,13 +1202,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* Safavieh 5×7 洗えるラグがたったの$30！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "*大人気* Safavieh 5×7 洗えるラグがたったの$30！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2732f74923be",
@@ -422,13 +1236,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "UGGのスローブランケットがAmazonで48.xxドルから（通常72ドル以上）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "UGGのスローブランケットがAmazonで48.xxドルから（通常72ドル以上）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "9e71458c41aa",
@@ -462,6 +1278,40 @@
    "date": null
   },
   {
+   "id": "9e8bab9f81ff",
+   "title": "Save Up to $150 Off Shark FlexStyle Air Stylers on Amazon",
+   "link": "https://hip2save.com/deals/shark-flexstyle/",
+   "source": "Hip2Save",
+   "posted": "2026-11-27T20:55Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/shark-speedstyle-pro.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "AmazonでShark FlexStyleエアスタイラーが最大150ドルオフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "AmazonでShark FlexStyleエアスタイラーが最大150ドルオフ",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "1b9f3c7d360c",
    "title": "Shop Nordstrom’s Black Friday Sale: Up to 75% Off UGG, Tory Burch, & More",
    "link": "https://hip2save.com/deals/nordstrom-black-friday-sale/",
@@ -491,8 +1341,8 @@
    },
    "ja": "UGGやトリーバーチ等最大75%オフ",
    "jaVia": "gemini",
-   "dup": "10afa6c05136",
-   "date": null
+   "date": null,
+   "dup": "10afa6c05136"
   },
   {
    "id": "399beed71c2d",
@@ -518,13 +1368,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Fairlifeプロテインシェイク12パックがAmazonで送料込みわずか$19（通常価格$41）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Fairlifeプロテインシェイク12パックがAmazonで送料込みわずか$19（通常価格$41）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0582b6069394",
@@ -620,6 +1472,38 @@
    "freebie": null,
    "sum": {
     "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "bab5f8f59849",
+   "title": "Christmas Flannel Sheet Set only $15 at Target!",
+   "link": "https://moneysavingmom.com/christmas-flannel-sheet-set-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-27T20:30Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/Sheets-Sets-1-630x621.jpg",
+   "hot": false,
+   "stores": [
+    "Target"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Target",
     "item": "",
     "when": "",
     "cond": ""
@@ -735,6 +1619,39 @@
    "date": null
   },
   {
+   "id": "dced924eedcf",
+   "title": "Campbell’s Condensed Cream of Mushroom Soup only $0.47 shipped!",
+   "link": "https://moneysavingmom.com/campbells-condensed-cream-of-mushroom-soup-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-27T20:17Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/12/Campbells-Condensed-Cream-of-Mushroom-Soup-10.5-oz-Can.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "a84e2dd2c8c2",
+   "date": null
+  },
+  {
    "id": "8e1470f308e0",
    "title": "12 Days of Socks for Just $10 at Walmart (Reg. $25) – The Grinch, Peanuts, Hello Kitty & More!",
    "link": "https://thefreebieguy.com/12-days-of-socks/",
@@ -798,8 +1715,8 @@
    },
    "ja": "レゴ商品が最大40%オフ",
    "jaVia": "gemini",
-   "dup": "950c39b81c3e",
-   "date": null
+   "date": null,
+   "dup": "950c39b81c3e"
   },
   {
    "id": "a69625015881",
@@ -996,8 +1913,8 @@
    },
    "ja": "全ジーンズが50%オフ",
    "jaVia": "gemini",
-   "dup": "8bcaaadded6c",
-   "date": "2026-11-27"
+   "date": "2026-11-27",
+   "dup": "8bcaaadded6c"
   },
   {
    "id": "875ddf3e14a2",
@@ -1127,8 +2044,8 @@
    },
    "ja": "ファー調クッションが$5",
    "jaVia": "gemini",
-   "dup": "22fccf92de29",
-   "date": null
+   "date": null,
+   "dup": "22fccf92de29"
   },
   {
    "id": "0d099e971be9",
@@ -1525,7 +2442,7 @@
    "source": "The Freebie Guy",
    "posted": "2026-11-27T18:55Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-29",
    "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/12/southwest-2-840x630.png",
    "hot": true,
    "stores": [],
@@ -1779,8 +2696,8 @@
    },
    "ja": "乗用玩具各種が$29.88から",
    "jaVia": "gemini",
-   "dup": "2df2eb7f190a",
-   "date": null
+   "date": null,
+   "dup": "2df2eb7f190a"
   },
   {
    "id": "db0d6abffb17",
@@ -1917,8 +2834,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "347026f5b38a",
-   "date": null
+   "date": null,
+   "dup": "347026f5b38a"
   },
   {
    "id": "dfb1ebf0af24",
@@ -1982,8 +2899,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "04a6097d5df7",
-   "date": null
+   "date": null,
+   "dup": "04a6097d5df7"
   },
   {
    "id": "e8a1c88fef4e",
@@ -2522,8 +3439,8 @@
    },
    "ja": "全品最大40%オフ＋無料ポーチ",
    "jaVia": "gemini",
-   "dup": "5476f60f33bc",
-   "date": null
+   "date": null,
+   "dup": "5476f60f33bc"
   },
   {
    "id": "74de8b4d9c50",
@@ -2656,6 +3573,38 @@
    "date": null
   },
   {
+   "id": "635aa2d02a79",
+   "title": "*HOT* Craftsman Versastack 242-Piece Mechanic Tool Set with Hard Case only $99 shipped (Reg. $219!)",
+   "link": "https://moneysavingmom.com/craftsman-tool-deals-at-lowes/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-27T17:11Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/10/VERSASTACK-242-Piece-Standard-SAE-and-Metric-Mechanics-Tool-Set-with-Hard-Case.jpg",
+   "hot": false,
+   "stores": [
+    "Lowe's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 55,
+   "price": 99.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Lowe's",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
    "id": "46aef806e97e",
    "title": "Grace & Stella Cooling Eye Roller only $6.70 shipped!",
    "link": "https://moneysavingmom.com/grace-amp-stella-under-eye-brightener-deal/",
@@ -2685,6 +3634,39 @@
     "when": "",
     "cond": ""
    },
+   "date": null
+  },
+  {
+   "id": "43ed89eb022f",
+   "title": "Grace & Stella Lip Gloss Butter only $7.15 shipped!",
+   "link": "https://moneysavingmom.com/grace-stella-lip-gloss-butter-bundle-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-27T17:10Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Grace-Stella-bundle-630x713.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "dup": "0f725d80ebe3",
    "date": null
   },
   {
@@ -2841,6 +3823,38 @@
    "freebie": null,
    "sum": {
     "store": "Target",
+    "item": "",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "8d20de710285",
+   "title": "Women’s Lace Up Ankle Snow Boots just $29.59 shipped!",
+   "link": "https://moneysavingmom.com/womens-lace-up-ankle-snow-boots-deal/",
+   "source": "Money Saving Mom",
+   "posted": "2026-11-27T16:45Z",
+   "firstSeen": "2026-11-28T03:55Z",
+   "expires": null,
+   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Snow-Boots-630x770.jpg",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "sum": {
+    "store": "Amazon",
     "item": "",
     "when": "",
     "cond": ""
@@ -3048,16 +4062,18 @@
    "event": "cyber-monday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ターゲットのサイバーマンデーセール2026 – おもちゃ、家電製品などが最大50%オフ！",
-   "jaVia": "mymemory",
+   "ja": "おもちゃ・家電など最大半額",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "ターゲットのサイバーマンデーセール2026 – おもちゃ、家電製品などが最大50%オフ！",
-    "when": "",
-    "cond": ""
+    "item": "おもちゃ・家電など最大半額",
+    "when": "サイバーマンデー",
+    "cond": "",
+    "what": "サイバーセール",
+    "where": "Target"
    },
-   "dup": "2ca6a8992307",
-   "date": null
+   "date": null,
+   "dup": "2ca6a8992307"
   },
   {
    "id": "432c1b9e15b3",
@@ -3083,15 +4099,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "ターゲット x ハリー・ポッター キャンディ ブラックフライデーセール | 魔法のお菓子が$3.49から",
-   "jaVia": "mymemory",
+   "ja": "ハリポタ菓子が$3.49〜",
+   "jaVia": "gemini",
    "sum": {
     "store": "Target",
-    "item": "ターゲット x ハリー・ポッター キャンディ ブラックフライデーセール | 魔法のお菓子が$3.49から",
-    "when": "",
-    "cond": ""
+    "item": "ハリポタ菓子が$3.49〜",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "ハリポタ菓子安",
+    "where": "Target"
    },
-   "date": null
+   "date": "2026-11-27"
   },
   {
    "id": "8185752dc35f",
@@ -3154,15 +4172,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "メレル ブラックフライデーセール | 大人用シューズとブーツがなんと23.99ドルから！",
-   "jaVia": "mymemory",
+   "ja": "靴やブーツが$23.99〜",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "メレル ブラックフライデーセール | 大人用シューズとブーツがなんと23.99ドルから！",
-    "when": "",
-    "cond": ""
+    "store": "Merrell",
+    "item": "靴やブーツが$23.99〜",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "靴・ブーツ安",
+    "where": "Merrell"
    },
-   "date": null
+   "date": "2026-11-27"
   },
   {
    "id": "355d06632e4c",
@@ -3220,15 +4240,17 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "Lowe'sのブラックフライデーセール：Energizer MAX電池が50%オフ＋送料無料＋5ドルキャッシュバック",
-   "jaVia": "mymemory",
+   "ja": "電池50%オフ+送料無料他",
+   "jaVia": "gemini",
    "sum": {
     "store": "Lowe's",
-    "item": "Lowe'sのブラックフライデーセール：Energizer MAX電池が50%オフ＋送料無料＋5ドルキャッシュバック",
-    "when": "",
-    "cond": ""
+    "item": "電池50%オフ+送料無料他",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "電池半額",
+    "where": "Lowe's"
    },
-   "date": null
+   "date": "2026-11-27"
   },
   {
    "id": "889fa9c412fd",
@@ -3480,11 +4502,15 @@
    "freebie": null,
    "sum": {
     "store": "CVS",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "item": "シェーバーセットが各$9.99",
+    "when": "11/27(金)",
+    "cond": "2個購入",
+    "what": "シェーバー安",
+    "where": "CVS"
    },
-   "date": null
+   "date": "2026-11-27",
+   "ja": "シェーバーセットが各$9.99",
+   "jaVia": "gemini"
   },
   {
    "id": "abd029752212",
@@ -3637,12 +4663,16 @@
    "eventNews": false,
    "freebie": null,
    "sum": {
-    "store": "",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "store": "tarte",
+    "item": "全品40%オフ+送料無料",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "コスメ40%オフ",
+    "where": "tarte"
    },
-   "date": null
+   "date": "2026-11-27",
+   "ja": "全品40%オフ+送料無料",
+   "jaVia": "gemini"
   },
   {
    "id": "6f21eb962fa9",
@@ -3763,12 +4793,16 @@
    "eventNews": false,
    "freebie": null,
    "sum": {
-    "store": "",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "store": "Weight Watchers",
+    "item": "初月料金が$5",
+    "when": "11/27(金)",
+    "cond": "新規会員限定",
+    "what": "初月$5",
+    "where": "オンライン"
    },
-   "date": null
+   "date": "2026-11-27",
+   "ja": "初月料金が$5",
+   "jaVia": "gemini"
   },
   {
    "id": "3ae35ef756d6",
@@ -3793,12 +4827,16 @@
    "eventNews": false,
    "freebie": null,
    "sum": {
-    "store": "",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "store": "AMC Theatres",
+    "item": "映画チケット+ポップコーンが$10",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "映画セット$10",
+    "where": "AMC"
    },
-   "date": null
+   "date": "2026-11-27",
+   "ja": "映画チケット+ポップコーンが$10",
+   "jaVia": "gemini"
   },
   {
    "id": "40281743d818",
@@ -3855,12 +4893,16 @@
    "eventNews": false,
    "freebie": null,
    "sum": {
-    "store": "",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "store": "J.Crew",
+    "item": "最大95%オフ+送料無料",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "最大95%オフ",
+    "where": "J.Crew"
    },
-   "date": null
+   "date": "2026-11-27",
+   "ja": "最大95%オフ+送料無料",
+   "jaVia": "gemini"
   },
   {
    "id": "6c004627a378",
@@ -3888,11 +4930,15 @@
    "freebie": null,
    "sum": {
     "store": "Target",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "item": "クリスマス商品TOP100",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "BFセール品",
+    "where": "Target"
    },
-   "date": null
+   "date": "2026-11-27",
+   "ja": "クリスマス商品TOP100",
+   "jaVia": "gemini"
   },
   {
    "id": "be31f0a02fc0",
@@ -3984,12 +5030,16 @@
    "freebie": null,
    "sum": {
     "store": "Sam's Club",
-    "item": "",
-    "when": "",
-    "cond": ""
+    "item": "人気おもちゃ各種",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "おもちゃセール",
+    "where": "Sam's Club"
    },
-   "dup": "ed494a77ee78",
-   "date": null
+   "date": "2026-11-27",
+   "ja": "人気おもちゃ各種",
+   "jaVia": "gemini",
+   "dup": "ed494a77ee78"
   },
   {
    "id": "aca634df954a",
@@ -4572,7 +5622,7 @@
     "what": "最大50%オフ",
     "where": "Target"
    },
-   "date": null
+   "date": "2026-11-30"
   },
   {
    "id": "56ed3b03791e",
@@ -4743,15 +5793,17 @@
    "gift": {
     "grocery": false
    },
-   "ja": "アマゾン ブラックフライデー ギフトカードセール：ローウェズの100ドル分が85ドル、アップルの100ドル分にアマゾンの15ドル分が付いてくるなど",
-   "jaVia": "mymemory",
+   "ja": "各種ギフト券がお得",
+   "jaVia": "gemini",
    "sum": {
-    "store": "Lowe's・Amazon",
-    "item": "アマゾン ブラックフライデー ギフトカードセール：ローウェズの100ドル分が85ドル、アップルの100ドル分にアマゾンの15ドル分が付いてくるなど",
-    "when": "",
-    "cond": ""
+    "store": "Amazon",
+    "item": "各種ギフト券がお得",
+    "when": "11/27(金)",
+    "cond": "",
+    "what": "ギフト券割引",
+    "where": "Amazon"
    },
-   "date": null
+   "date": "2026-11-27"
   },
   {
    "id": "f7b70980ccac",
@@ -4775,15 +5827,17 @@
    "event": "black-friday",
    "eventNews": true,
    "freebie": null,
-   "ja": "JCPenneyの2026年ブラックフライデーが始まりました！！アパレル、ホーム＆キッチン用品などのお買い得品を多数ご用意",
-   "jaVia": "mymemory",
+   "ja": "アパレル・日用品など大幅割引",
+   "jaVia": "gemini",
    "sum": {
-    "store": "",
-    "item": "JCPenneyの2026年ブラックフライデーが始まりました！！アパレル、ホーム＆キッチン用品などのお買い得品を多数ご用意",
-    "when": "",
-    "cond": ""
+    "store": "JCPenney",
+    "item": "アパレル・日用品など大幅割引",
+    "when": "11/26(木)〜",
+    "cond": "",
+    "what": "BFセール",
+    "where": "JCPenney"
    },
-   "date": null
+   "date": "2026-11-26"
   },
   {
    "id": "21393f58e326",
@@ -6216,8 +7270,7 @@
     "item": "値下げ！JBL Go 4超ポータブルBluetoothスピーカーがAmazonでわずか$31.xx（通常価格$50）",
     "when": "",
     "cond": ""
-   },
-   "dup": "7abad1231f4d"
+   }
   },
   {
    "id": "0ec6f07e7208",
@@ -7598,8 +8651,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "1ea9c20d02b8"
+   "date": null
   },
   {
    "id": "6ea9ef090e5a",
@@ -8704,8 +9756,7 @@
     "item": "コットンエル トイレットペーパー メガロール 32ロール入りがAmazonで送料込みわずか$26",
     "when": "",
     "cond": ""
-   },
-   "dup": "004d58ccd101"
+   }
   },
   {
    "id": "095eeaf67c11",
@@ -9918,8 +10969,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "d65a9e9396db"
+   "date": null
   },
   {
    "id": "430338756f8a",
@@ -10814,7 +11864,8 @@
     "item": "パイレックスのガラス製食品保存容器22点セットが、Kohls.comでたったの$21.59（通常価格$60）",
     "when": "",
     "cond": ""
-   }
+   },
+   "dup": "0a7dc0e494c6"
   },
   {
    "id": "e82e074a9bf4",
@@ -15316,7 +16367,8 @@
     "item": "窓用バードフィーダーがAmazonでたったの$7.99（通常価格$28）",
     "when": "",
     "cond": ""
-   }
+   },
+   "dup": "d416fc120f42"
   },
   {
    "id": "e98f8076f008",
@@ -16666,7 +17718,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "041c6e4a2a73"
   },
   {
    "id": "89489e09a98f",
@@ -17975,7 +19028,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "9ba150cfe859"
+   "dup": "5daf59534f60"
   },
   {
    "id": "c50c748b88ce",
@@ -20811,8 +21864,7 @@
     "item": "ネスプレッソ ヴァーチュオ ポップ コーヒー＆エスプレッソマシンがウォルマートでわずか$59（通常価格$119）",
     "when": "",
     "cond": ""
-   },
-   "dup": "9ba150cfe859"
+   }
   },
   {
    "id": "557360179b42",
@@ -21410,8 +22462,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "3be2778f4a7e"
+   "date": null
   },
   {
    "id": "e312982405da",
@@ -23897,8 +24948,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "77ce2216026d"
+   "date": null
   },
   {
    "id": "d3ef00ee3de1",
@@ -25754,7 +26804,7 @@
     "cond": ""
    },
    "date": null,
-   "dup": "004d58ccd101"
+   "dup": "64310e39af41"
   },
   {
    "id": "94255c2dcfe0",
@@ -25995,8 +27045,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "ab9df8f0f3da"
+   "date": null
   },
   {
    "id": "2b3faf9e630d",
@@ -26507,8 +27556,7 @@
     "item": "Hanesのメンズお揃いパーカー＆スウェットパンツがWalmartで1枚あたりわずか$9（通常価格$28）",
     "when": "",
     "cond": ""
-   },
-   "dup": "93916239bc16"
+   }
   },
   {
    "id": "6b319eca4b82",
@@ -33508,8 +34556,7 @@
    },
    "ja": "2027年カレンダー無料",
    "jaVia": "gemini",
-   "date": null,
-   "dup": "3354b0b83929"
+   "date": null
   },
   {
    "id": "ef938abada85",
@@ -34976,7 +36023,8 @@
     "when": "",
     "cond": ""
    },
-   "date": null
+   "date": null,
+   "dup": "cad1c7aa02e7"
   },
   {
    "id": "0e39e2e92b58",
@@ -35044,41 +36092,6 @@
     "when": "",
     "cond": ""
    },
-   "date": null
-  },
-  {
-   "id": "6b498282285b",
-   "title": "2026 Black Friday Freebies in November – FREE Events, Samples & MORE!",
-   "link": "https://thefreebieguy.com/black-friday-freebies-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-19T23:14Z",
-   "firstSeen": "2026-11-20T03:20Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/Black-Friday-Freebies-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null
-   },
-   "sum": {
-    "item": "無料イベント・サンプル等",
-    "when": "11月中",
-    "what": "無料特典情報",
-    "where": "各種店舗"
-   },
-   "ja": "無料イベント・サンプル等",
-   "jaVia": "gemini",
    "date": null
   },
   {
@@ -39171,8 +40184,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "c00b2b07cafb"
+   "date": null
   },
   {
    "id": "318776993870",
@@ -43595,8 +44607,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "9ceaf0f2b8d5"
+   "date": null
   },
   {
    "id": "c64a70e18174",
@@ -53981,8 +54992,7 @@
     "item": "LISEN 84W 4ポート格納式カーチャージャーがAmazonでわずか$10.xx（通常価格$20）",
     "when": "",
     "cond": ""
-   },
-   "dup": "73a147c23957"
+   }
   },
   {
    "id": "25082fb4016c",
@@ -55319,8 +56329,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "c8c35ef0ef79"
+   "date": null
   },
   {
    "id": "9951fe11007a",
@@ -55388,8 +56397,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "63d4a9a922d5"
+   "date": null
   },
   {
    "id": "d0af604ff561",
@@ -55457,8 +56465,7 @@
     "when": "",
     "cond": "子ども向け"
    },
-   "date": null,
-   "dup": "53d809263b20"
+   "date": null
   },
   {
    "id": "df6b49166c1f",
@@ -55492,8 +56499,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "a8358ffe0603"
+   "date": null
   },
   {
    "id": "0ea6a6c6929d",
@@ -55595,7 +56601,8 @@
     "when": "",
     "cond": "子ども向け"
    },
-   "date": null
+   "date": null,
+   "dup": "041c6e4a2a73"
   },
   {
    "id": "05884b3c37ab",
@@ -55799,8 +56806,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "53d809263b20"
+   "date": null
   },
   {
    "id": "1dbe1286626d",
@@ -56113,8 +57119,7 @@
     "when": "",
     "cond": ""
    },
-   "date": null,
-   "dup": "612250304c0e"
+   "date": null
   },
   {
    "id": "49e3126cbfe4",
@@ -56795,8 +57800,7 @@
     "item": "ポータブルBluetoothパーティースピーカーがたったの$29.88（通常価格$100）！",
     "when": "",
     "cond": ""
-   },
-   "dup": "c00b2b07cafb"
+   }
   },
   {
    "id": "6d9c1af37236",
@@ -58165,8 +59169,7 @@
     "item": "パイオニアウーマンのダッチオーブンが送料込みでわずか$37.84（通常価格$100）！",
     "when": "",
     "cond": ""
-   },
-   "dup": "aa5919df91a2"
+   }
   },
   {
    "id": "098069201d30",
@@ -58644,483 +59647,6 @@
    "date": null
   },
   {
-   "id": "ade2f3ea86cc",
-   "title": "Beats Solo 4 Wireless Headphones Just $69 Shipped on Walmart.com (Reg. $200)",
-   "link": "https://hip2save.com/deals/beats-solo-4-headphones/",
-   "source": "Hip2Save",
-   "posted": "2026-11-13T03:35Z",
-   "firstSeen": "2026-11-13T03:38Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/12/Beats-Solo-4-On-Ear-Wireless-Headphones-1.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 66,
-   "price": 69.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Beats Solo 4ワイヤレスヘッドホンがWalmart.comで送料込みわずか$69（通常価格$200）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "Beats Solo 4ワイヤレスヘッドホンがWalmart.comで送料込みわずか$69（通常価格$200）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null,
-   "dup": "678f1df46783"
-  },
-  {
-   "id": "b5ddbe4303c8",
-   "title": "LEGO Christmas Sets Only $28 on Walmart.com – Will Sell Out!",
-   "link": "https://hip2save.com/deals/lego-christmas-sets/",
-   "source": "Hip2Save",
-   "posted": "2026-11-13T03:10Z",
-   "firstSeen": "2026-11-13T03:38Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/11/LEGO-Poinsettia.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "LEGOのクリスマスセットがWalmart.comでたったの$28 – すぐに売り切れに！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "LEGOのクリスマスセットがWalmart.comでたったの$28 – すぐに売り切れに！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "d69cebe5ad3a",
-   "title": "Amazon Grocery Chopped Walnuts Just $2.96 Shipped",
-   "link": "https://hip2save.com/deals/amazon-grocery-nuts/",
-   "source": "Hip2Save",
-   "posted": "2026-11-13T02:30Z",
-   "firstSeen": "2026-11-13T02:58Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/10/Amazon-Grocery-Chopped-Walnuts.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazon Groceryの刻みクルミが送料込みでわずか2.96ドル",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazon Groceryの刻みクルミが送料込みでわずか2.96ドル",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "ab46afda7124",
-   "title": "Amazon Grocery Cheese Crackers Only $1.84 Shipped",
-   "link": "https://hip2save.com/deals/amazon-grocery-crackers/",
-   "source": "Hip2Save",
-   "posted": "2026-11-13T02:00Z",
-   "firstSeen": "2026-11-13T02:58Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/amazon-grocery-cheese-crackers.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Amazon食品・生鮮食品 チーズクラッカー 送料込みでわずか$1.84",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazon食品・生鮮食品 チーズクラッカー 送料込みでわずか$1.84",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "8335094aaa94",
-   "title": "Foldable Dermaplane Razor 12-Pack Just $3.59 on Amazon",
-   "link": "https://hip2save.com/deals/amazon-dermaplane-razor/",
-   "source": "Hip2Save",
-   "posted": "2026-11-13T01:40Z",
-   "firstSeen": "2026-11-13T02:58Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/artech-face-razors.png?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "折りたたみ式ダーマプレーンカミソリ12本セットがAmazonでたったの$3.59",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "折りたたみ式ダーマプレーンカミソリ12本セットがAmazonでたったの$3.59",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "6ff7346e952d",
-   "title": "New Movies Added! Disney Classic VHS Boxed Silk Touch Throws Only $19.98 at Sam’s Club",
-   "link": "https://thefreebieguy.com/disney-classic-vhs-boxed-silk-touch-throws-at-sams-club/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-13T01:31Z",
-   "firstSeen": "2026-11-13T02:58Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Disney-Classic-VHS-Boxed-Silk-Touch-Throw-840x630.png",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "新しい映画が追加されました！ディズニーの名作VHSボックス入りシルクタッチブランケットがサムズクラブでたったの$19.98",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Sam's Club",
-    "item": "新しい映画が追加されました！ディズニーの名作VHSボックス入りシルクタッチブランケットがサムズクラブでたったの$19.98",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "de5945308b9f",
-   "title": "277-Piece First-Aid Kit Only $9.99 on Amazon (Reg. $20)",
-   "link": "https://hip2save.com/deals/first-aid-kit/",
-   "source": "Hip2Save",
-   "posted": "2026-11-13T01:20Z",
-   "firstSeen": "2026-11-13T02:58Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/03/first-aid-kit-2.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": 9.99,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "277点セットの応急処置キットがAmazonでたったの$9.99（通常価格$20）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "277点セットの応急処置キットがAmazonでたったの$9.99（通常価格$20）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "7ee0d9f90aad",
-   "title": "High-Waisted Leggings w/ Pockets Just $5.xx on Amazon (Reg $10)",
-   "link": "https://thefreebieguy.com/sinophant-leggings-pockets/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-13T01:18Z",
-   "firstSeen": "2026-11-13T02:58Z",
-   "expires": null,
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/sinophant-Leggings-pocket-840x630.png",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": 5.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ハイウエストレギンス（ポケット付き）がAmazonでわずか$5.xx（通常価格$10）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "ハイウエストレギンス（ポケット付き）がAmazonでわずか$5.xx（通常価格$10）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "afec7244cbe3",
-   "title": "Chase Offers: Get 10% Back at Lowe’s/Lowes.com ($50 Cashback Max)",
-   "link": "https://www.doctorofcredit.com/chase-offers-ihg-only-get-15-back-at-lowes-50-cashback-max/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-13T00:35Z",
-   "firstSeen": "2026-11-13T01:07Z",
-   "expires": null,
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Chaseオファー：Lowe’s/Lowes.comで10%キャッシュバック（最大50ドル）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Lowe's",
-    "item": "Chaseオファー：Lowe’s/Lowes.comで10%キャッシュバック（最大50ドル）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "84f01a9c9baf",
-   "title": "WOW! $350 Off Tineco Cordless Wet Dry Vacuum on Walmart.com (Just $149.99 Shipped!)",
-   "link": "https://hip2save.com/deals/walmart-tineco-cordless-vacuum/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T23:10Z",
-   "firstSeen": "2026-11-13T16:28Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/tineco-i-floor-5.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "すごい！Walmart.comでTinecoコードレスウェット＆ドライ掃除機が350ドルオフ（送料込みでわずか149.99ドル！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "すごい！Walmart.comでTinecoコードレスウェット＆ドライ掃除機が350ドルオフ（送料込みでわずか149.99ドル！）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "1de8f9e7da0a",
-   "title": "Retractable Car Charger Only $10.99 on Amazon (Charge 4 Devices at Once)",
-   "link": "https://hip2save.com/deals/lisen-car-charger/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T22:50Z",
-   "firstSeen": "2026-11-13T01:07Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2025/07/lisen-retractable-car-charger.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "巻き取り式カーチャージャーがAmazonでたったの$10.99（4台のデバイスを同時に充電）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "巻き取り式カーチャージャーがAmazonでたったの$10.99（4台のデバイスを同時に充電）",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "bddb9c6ba166",
-   "title": "Up to 60% Off Crocs + FREE Shipping | Styles from $15.99 Shipped",
-   "link": "https://hip2save.com/deals/ebay-crocs/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T22:10Z",
-   "firstSeen": "2026-11-13T01:07Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/crocs-box.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "eBay"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 60,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "クロックスが最大60%オフ＋送料無料 | スタイルは送料込みで15.99ドルから",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "eBay",
-    "item": "クロックスが最大60%オフ＋送料無料 | スタイルは送料込みで15.99ドルから",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "7189e934cc89",
-   "title": "Shout Stain Remover Spray Just $2.82 Shipped on Amazon",
-   "link": "https://hip2save.com/deals/shout-stain-remover/",
-   "source": "Hip2Save",
-   "posted": "2026-11-12T22:00Z",
-   "firstSeen": "2026-11-13T01:07Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/06/Shout-Stain-Remover.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Shoutシミ抜きスプレーがAmazonで送料込みわずか$2.82",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Shoutシミ抜きスプレーがAmazonで送料込みわずか$2.82",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "b50ef2e8b52b",
-   "title": "ScruffaLuvs Wash-to-Reveal Twin Fantasy Scruffs just $10 (Reg. $30)!",
-   "link": "https://moneysavingmom.com/scruffaluvs-twin-fantasy-scruffs-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-12T22:00Z",
-   "firstSeen": "2026-11-13T01:07Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/ScruffaLuvs-Wash-to-Reveal-Twin-Fantasy-Scruffs.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 67,
-   "price": 10.0,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "スクラフラヴズ・ウォッシュトゥリビール・ツインファンタジースクラフがたったの10ドル（通常価格30ドル）！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "スクラフラヴズ・ウォッシュトゥリビール・ツインファンタジースクラフがたったの10ドル（通常価格30ドル）！",
-    "when": "",
-    "cond": ""
-   },
-   "date": null
-  },
-  {
    "id": "8f2a6668e750",
    "title": "Kroger / Harris Teeter: 4x Fuel Points On Third Party & Visa/MC Fixed Giftcards (11/11-12/1)",
    "link": "https://www.doctorofcredit.com/kroger-harris-teeter-stores-4x-fuel-points-on-select-gift-cards-includes-fixed-visa-mc-10-7-10-20/",
@@ -59353,7 +59879,7 @@
     "スポーツ"
    ],
    "family": true,
-   "date": "2026-11-27",
+   "date": "2026-12-04",
    "freebie": null
   },
   {
@@ -59476,7 +60002,7 @@
     "エンタメ"
    ],
    "family": true,
-   "date": "2026-11-27",
+   "date": "2026-12-04",
    "freebie": null
   },
   {
@@ -59516,379 +60042,10 @@
    "outing": [
     "エンタメ"
    ],
-   "date": "2026-11-25",
+   "date": "2026-11-28",
    "freebie": null,
    "region": "College Station",
    "family": true
-  },
-  {
-   "id": "e846931b91dc",
-   "title": "\"Remnants of 150 Years at Texas A&M University\" Exhibit at Cushing Library",
-   "link": "https://www.destinationbryan.com/events/a-legacy-built-of-brick-stone-remnants-of-150-years-at-texas-a-m-university/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-11-30",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-11-30",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Cushing Library",
-    "item": "A&M の150年を振り返る展示",
-    "when": "11/30(月)〜",
-    "cond": "展示",
-    "what": "A&M150年展",
-    "where": "Cushing Library"
-   },
-   "ja": "A&M の150年を振り返る展示",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-11-30"
-  },
-  {
-   "id": "e90c5416154a",
-   "title": "Winter Wonderland at Travis Fields",
-   "link": "https://www.destinationbryan.com/events/winter-wonderland/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-12-05",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-12-05",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Holiday Events"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Travis Fields at Bryan Midtow…",
-    "item": "Midtown Park の Winter Wonderland",
-    "when": "12/5(土)",
-    "cond": "家族向け",
-    "what": "冬の催し",
-    "where": "Travis Fields"
-   },
-   "ja": "Midtown Park の Winter Wonderland",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-12-05"
-  },
-  {
-   "id": "9e6131a77860",
-   "title": "Meet Santa at Aggieland Safari",
-   "link": "https://www.destinationbryan.com/events/meet-santa-at-aggieland-safari/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-12-05",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-12-05",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Holiday Events"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Aggieland Safari",
-    "item": "Aggieland Safari でサンタに会える日",
-    "when": "12/5(土)",
-    "cond": "子供向け",
-    "what": "サファリでサンタ",
-    "where": "Aggieland Safa…"
-   },
-   "ja": "Aggieland Safari でサンタに会える日",
-   "jaVia": "claude-ev",
-   "outing": [
-    "動物",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-12-05"
-  },
-  {
-   "id": "eb0ca44e044e",
-   "title": "The 44th Annual Christmas Arts & Crafts Show",
-   "link": "https://www.destinationbryan.com/events/the-44th-annual-christmas-arts-crafts-show/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-12-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-12-05",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Brazos Center",
-    "item": "第44回クリスマス手工芸品ショー",
-    "when": "12/5(土)〜12/6(日)",
-    "what": "クリスマス工芸展",
-    "where": "Brazos Center"
-   },
-   "ja": "第44回クリスマス手工芸品ショー",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ",
-    "子供向け"
-   ],
-   "family": true,
-   "date": "2026-12-05"
-  },
-  {
-   "id": "a7083aea5416",
-   "title": "Holiday Night Bazaar at Lake Walk",
-   "link": "https://www.destinationbryan.com/events/holiday-night-bazaar-at-the-pavilion-lake-walk-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-12-05",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-12-05",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Market"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk Pavilion",
-    "item": "Lake Walk のホリデーナイトバザール",
-    "when": "12/5(土)",
-    "cond": "屋外",
-    "what": "夜のホリデー市",
-    "where": "Lake Walk"
-   },
-   "ja": "Lake Walk のホリデーナイトバザール",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-12-05"
-  },
-  {
-   "id": "b9326d916a82",
-   "title": "The Active Texan Tinsel Trot at The Pavilion Lake Walk",
-   "link": "https://www.destinationbryan.com/events/the-active-texan-tinsel-trot-at-the-pavilion-lake-walk-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-12-05",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-12-05",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Fitness"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Lake Walk Pavilion",
-    "item": "ホリデーのラン大会 Tinsel Trot",
-    "when": "12/5(土)",
-    "cond": "要申込",
-    "what": "ホリデーラン",
-    "where": "Lake Walk"
-   },
-   "ja": "ホリデーのラン大会 Tinsel Trot",
-   "jaVia": "claude-ev",
-   "outing": [
-    "公園・屋外",
-    "スポーツ"
-   ],
-   "family": true,
-   "date": "2026-12-05"
-  },
-  {
-   "id": "42c7a8dfa037",
-   "title": "First Saturday Art Market at Degallery",
-   "link": "https://www.destinationbryan.com/events/first-saturday-art-market-at-degallery-2/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-12-05",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-12-05",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "DeGallery",
-    "item": "DeGallery の第1土曜アートマーケット",
-    "when": "12/5(土)",
-    "what": "アート市",
-    "where": "DeGallery"
-   },
-   "ja": "DeGallery の第1土曜アートマーケット",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-12-05"
-  },
-  {
-   "id": "c35efb3b5be7",
-   "title": "Texas A&M University Holiday Spirit of Aggieland Choral Concert at Rudder Auditorium",
-   "link": "https://www.destinationbryan.com/events/texas-a-m-university-holiday-spirit-of-aggieland-choral-concert/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-12-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-12-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Arts & Culture"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "Rudder Auditorium",
-    "item": "A&M 合唱団のホリデーコンサート",
-    "when": "12/6(日)",
-    "what": "ホリデー合唱会",
-    "where": "Rudder Auditor…"
-   },
-   "ja": "A&M 合唱団のホリデーコンサート",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-12-06"
-  },
-  {
-   "id": "dfe1566cb2a0",
-   "title": "Holiday Hometown Session at The Kimbell",
-   "link": "https://www.destinationbryan.com/events/holiday-hometown-session-at-the-kimbell/",
-   "source": "Destination Bryan",
-   "posted": "2026-11-27T23:32Z",
-   "firstSeen": "2026-11-27T23:32Z",
-   "expires": "2026-12-06",
-   "thumb": null,
-   "noAlert": true,
-   "region": "College Station",
-   "localDate": "2026-12-06",
-   "calendar": true,
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "Live Music"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "sum": {
-    "store": "The Kimbell Cultural Event Ce…",
-    "item": "The Kimbell のホリデー音楽会",
-    "when": "12/6(日)",
-    "what": "ホリデー音楽会",
-    "where": "The Kimbell"
-   },
-   "ja": "The Kimbell のホリデー音楽会",
-   "jaVia": "claude-ev",
-   "outing": [
-    "エンタメ"
-   ],
-   "family": true,
-   "date": "2026-12-06"
   }
  ]
 }
