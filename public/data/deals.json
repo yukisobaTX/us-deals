@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-28T05:00Z",
- "count": 1758,
+ "updated": "2026-11-28T13:03Z",
+ "count": 1731,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 0
+   "added": 4
   },
   "h2s-free": {
    "read": 100,
@@ -58,12 +58,148 @@
    "gemini": 11,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 9,
+   "geminiToday": 2,
    "model": "gemini-flash-latest"
   }
  },
  "errors": [],
  "items": [
+  {
+   "id": "43cf86e12221",
+   "title": "OVER 65% Off The Grinch Kids Clothing on Kohls.com",
+   "link": "https://hip2save.com/deals/kohls-the-grinch-clothing/",
+   "source": "Hip2Save",
+   "posted": "2026-11-28T12:52Z",
+   "firstSeen": "2026-11-28T13:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/kohls-grinch-clothing.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Kohl's"
+   ],
+   "cats": [
+    "home"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 65,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Kohls.comで、グリンチのキッズウェアが65%以上オフ",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Kohl's",
+    "item": "Kohls.comで、グリンチのキッズウェアが65%以上オフ",
+    "when": "",
+    "cond": "子ども向け"
+   },
+   "date": null
+  },
+  {
+   "id": "5c28df26eee7",
+   "title": "Tony’s Chocolonely Assorted Chocolate 36-Count Only $11 Shipped on Amazon (Reg. $18)",
+   "link": "https://hip2save.com/deals/tonys-chocolonely/",
+   "source": "Hip2Save",
+   "posted": "2026-11-28T12:27Z",
+   "firstSeen": "2026-11-28T13:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/tonys-chocolenely.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": 39,
+   "price": 11.0,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Tony's Chocolonelyアソートチョコレート36個入りがAmazonで送料込みでわずか$11（通常価格$18）",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Tony's Chocolonelyアソートチョコレート36個入りがAmazonで送料込みでわずか$11（通常価格$18）",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "4804c4d753e9",
+   "title": "Boulder Canyon Kettle Chips 18-Count Variety Pack Only $9 Shipped on Amazon",
+   "link": "https://hip2save.com/deals/boulder-canyon-kettle-chips/",
+   "source": "Hip2Save",
+   "posted": "2026-11-28T11:45Z",
+   "firstSeen": "2026-11-28T13:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/03/Boulder-Canyon-Kettle-Chips.jpg?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "ボルダーキャニオンのケトルチップス18袋入りバラエティパックが、Amazonで送料込みわずか9ドル",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "ボルダーキャニオンのケトルチップス18袋入りバラエティパックが、Amazonで送料込みわずか9ドル",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
+  {
+   "id": "3b2e11e8f2c0",
+   "title": "Amazon Grocery Finds: Stock Up on Pantry Staples, Snacks & More!",
+   "link": "https://hip2save.com/deals/amazon-groceries/",
+   "source": "Hip2Save",
+   "posted": "2026-11-28T11:40Z",
+   "firstSeen": "2026-11-28T13:03Z",
+   "expires": null,
+   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Amazon-grocery.png?resize=306,182",
+   "hot": false,
+   "stores": [
+    "Amazon"
+   ],
+   "cats": [
+    "online"
+   ],
+   "types": [
+    "sale"
+   ],
+   "pct": null,
+   "price": null,
+   "event": null,
+   "eventNews": false,
+   "freebie": null,
+   "ja": "Amazonの食品・生鮮食品コーナー：定番の食品、おやつなどを買い置きしましょう！",
+   "jaVia": "mymemory",
+   "sum": {
+    "store": "Amazon",
+    "item": "Amazonの食品・生鮮食品コーナー：定番の食品、おやつなどを買い置きしましょう！",
+    "when": "",
+    "cond": ""
+   },
+   "date": null
+  },
   {
    "id": "a0b620f219d3",
    "title": "Up to 50% Off Board Games on Amazon",
@@ -755,41 +891,6 @@
    "date": null
   },
   {
-   "id": "f962530fc32a",
-   "title": "Up to 50% Off Crocs & Pajamas at Target (Today Only!)",
-   "link": "https://hip2save.com/deals/target-daily-deals/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T23:00Z",
-   "firstSeen": "2026-11-28T03:55Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/target_9b3c00.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Targetでクロックスとパジャマが最大50%オフ（本日限り！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "Targetでクロックスとパジャマが最大50%オフ（本日限り！）",
-    "when": "11/27(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-27",
-   "dup": "379de3bc4453"
-  },
-  {
    "id": "9de74d8b468a",
    "title": "BaubleBar Gold-Plated Necklaces, Bracelets, & Pendants from $14.xx on Amazon (Reg. $48)",
    "link": "https://thefreebieguy.com/baublebar-jewelry-deals-amazon/",
@@ -822,46 +923,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "d0247e5d9857",
-   "title": "30 Black Friday Finds Worth the Hype",
-   "link": "https://moneysavingmom.com/black-friday-2026-favs/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-27T22:04Z",
-   "firstSeen": "2026-11-28T03:55Z",
-   "expires": "2026-11-27",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/11/BF-roundup-630x789.jpg",
-   "hot": false,
-   "stores": [
-    "Walmart",
-    "Target",
-    "Amazon"
-   ],
-   "cats": [
-    "grocery",
-    "home",
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "おすすめの黒金商品",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Walmart・Target",
-    "item": "おすすめの黒金商品",
-    "when": "2026-11-27",
-    "cond": "",
-    "what": "注目商品",
-    "where": "オンライン"
-   },
-   "date": "2026-11-27"
   },
   {
    "id": "fd3df7a4b415",
@@ -1901,40 +1962,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "1c570883e2d2",
-   "title": "American Eagle Black Friday Deal – 50% Off ALL Jeans Today Only!",
-   "link": "https://thefreebieguy.com/american-eagle-jeans/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-27T19:34Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2025/09/American-Eagle-Jeans-1200900-840x630.png",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "American Eagle",
-    "item": "全ジーンズが50%オフ",
-    "when": "11/27(金)",
-    "what": "ジーンズ半額",
-    "where": "American Eagle"
-   },
-   "ja": "全ジーンズが50%オフ",
-   "jaVia": "gemini",
-   "date": "2026-11-27",
-   "dup": "8bcaaadded6c"
   },
   {
    "id": "875ddf3e14a2",
@@ -3292,42 +3319,6 @@
    }
   },
   {
-   "id": "bf7968650799",
-   "title": "Watch Black Friday NFL & NBA Games for FREE on Amazon Today – No Prime Membership Needed!",
-   "link": "https://thefreebieguy.com/amazon-nfl-black-friday/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-27T17:38Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/prime-black-friday-football--840x630.png",
-   "hot": true,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Amazon",
-    "item": "NFL・NBAの試合無料視聴",
-    "when": "11/27(金)",
-    "cond": "プライム会員不要",
-    "what": "試合無料視聴",
-    "where": "Amazon"
-   },
-   "ja": "NFL・NBAの試合無料視聴",
-   "jaVia": "gemini",
-   "date": "2026-11-27"
-  },
-  {
    "id": "d15b01ab4480",
    "title": "50% Off Olipop Prebiotic Soda 12-Packs on Amazon",
    "link": "https://hip2save.com/deals/olipop/",
@@ -3694,13 +3685,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* Craftsman Versastack 242ピース メカニックツールセット（ハードケース付き）が送料込みでわずか$99（通常価格$219！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "*大人気* Craftsman Versastack 242ピース メカニックツールセット（ハードケース付き）が送料込みでわずか$99（通常価格$219！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "46aef806e97e",
@@ -3726,13 +3719,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Grace & Stellaのクーリングアイローラーが送料込みでわずか$6.70！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Grace & Stellaのクーリングアイローラーが送料込みでわずか$6.70！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "43ed89eb022f",
@@ -3758,13 +3753,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Grace & Stella リップグロスバターが送料込みでわずか$7.15！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Grace & Stella リップグロスバターが送料込みでわずか$7.15！",
     "when": "",
     "cond": ""
    },
-   "date": null,
    "dup": "0f725d80ebe3"
   },
   {
@@ -3791,13 +3788,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazon：Airbnb、Uber、Lyft、Zift、Choice、Hotels.com、Amtrak、inKindなどのギフトカードがお得に",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazon：Airbnb、Uber、Lyft、Zift、Choice、Hotels.com、Amtrak、inKindなどのギフトカードがお得に",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8670c96747c8",
@@ -3823,13 +3822,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* レゴテクニック コーニグセグ・イェスコ・アブソルート グレー ハイパーカーセットがたったの$24.99（通常価格$50）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "*大人気* レゴテクニック コーニグセグ・イェスコ・アブソルート グレー ハイパーカーセットがたったの$24.99（通常価格$50）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "265fcc55988e",
@@ -3855,13 +3856,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "WalmartでWonder Nationのキッズ用靴下＆下着が2ドルから！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "WalmartでWonder Nationのキッズ用靴下＆下着が2ドルから！",
     "when": "",
     "cond": "子ども向け"
-   },
-   "date": null
+   }
   },
   {
    "id": "3e99cf1d444f",
@@ -3887,13 +3890,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Capital One Shopping/Offers：ウォルマートで18～20%キャッシュバック",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "Capital One Shopping/Offers：ウォルマートで18～20%キャッシュバック",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "7a6a7bca9c19",
@@ -3919,13 +3924,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ボードゲーム＆パズルがTargetでなんと5ドルからセール中！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ボードゲーム＆パズルがTargetでなんと5ドルからセール中！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "8d20de710285",
@@ -3951,13 +3958,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "レディースレースアップアンクルスノーブーツが送料込みでわずか$29.59！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "レディースレースアップアンクルスノーブーツが送料込みでわずか$29.59！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ce180a844f2e",
@@ -4128,13 +4137,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Wild FableのスウェットパンツとパーカーがTargetでたったの$15！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "Wild FableのスウェットパンツとパーカーがTargetでたったの$15！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1ccf157fdb11",
@@ -4174,115 +4185,6 @@
    "dup": "2ca6a8992307"
   },
   {
-   "id": "432c1b9e15b3",
-   "title": "Target x Harry Potter Candy Black Friday Sale | Enchanted Treats from $3.49",
-   "link": "https://hip2save.com/deals/target-harry-potter-candy/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T16:11Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Harry-Potter-Candy-1.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ハリポタ菓子が$3.49〜",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Target",
-    "item": "ハリポタ菓子が$3.49〜",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "ハリポタ菓子安",
-    "where": "Target"
-   },
-   "date": "2026-11-27"
-  },
-  {
-   "id": "8185752dc35f",
-   "title": "Traeger Pro 22 Pellet Grill Only $389 Shipped + FREE $20 Bag of Pellets (Today Only!)",
-   "link": "https://hip2save.com/deals/traeger-pro-22-pellet-grill/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T16:08Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Traeger-Pro-22-Pellet-Grill.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-27"
-   },
-   "sum": {
-    "store": "Traeger",
-    "item": "ペレットグリル$389＋無料ペレット",
-    "when": "11/27(金)",
-    "cond": "送料無料",
-    "what": "グリル特価",
-    "where": "オンライン"
-   },
-   "ja": "ペレットグリル$389＋無料ペレット",
-   "jaVia": "gemini",
-   "date": "2026-11-27"
-  },
-  {
-   "id": "0649bad16dd2",
-   "title": "Merrell Black Friday Sale | Adult Shoes and Boots as low as $23.99!",
-   "link": "https://moneysavingmom.com/hot-merrell-boots-shoes-sale/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-27T16:07Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Merrell-Black-Friday-Sale.jpg",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "靴やブーツが$23.99〜",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Merrell",
-    "item": "靴やブーツが$23.99〜",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "靴・ブーツ安",
-    "where": "Merrell"
-   },
-   "date": "2026-11-27"
-  },
-  {
    "id": "355d06632e4c",
    "title": "GO! Target Universal Thread Tote Bags ONLY $6",
    "link": "https://hip2save.com/deals/target-universal-thread-bags/",
@@ -4306,49 +4208,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "急いで！ターゲットのUniversal Threadトートバッグがたったの$6",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "急いで！ターゲットのUniversal Threadトートバッグがたったの$6",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "0c3c3dde1896",
-   "title": "Lowe’s Black Friday Deal: 50% Off Energizer MAX Batteries + Free Shipping + $5 Cash Back",
-   "link": "https://hip2save.com/deals/energizer-max-batteries/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T16:04Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Energizer-MAX-Batteries.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "電池50%オフ+送料無料他",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Lowe's",
-    "item": "電池50%オフ+送料無料他",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "電池半額",
-    "where": "Lowe's"
-   },
-   "date": "2026-11-27"
+   }
   },
   {
    "id": "889fa9c412fd",
@@ -4374,13 +4242,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "LaneigeリップスリーピングマスクがAmazonで送料込みでわずか$11.40（史上最安値！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "LaneigeリップスリーピングマスクがAmazonで送料込みでわずか$11.40（史上最安値！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "df7e41b66693",
@@ -4406,13 +4276,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Boseのノイズキャンセリングヘッドホンが、プライム会員なら送料込みでわずか229ドル（通常価格429ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Boseのノイズキャンセリングヘッドホンが、プライム会員なら送料込みでわずか229ドル（通常価格429ドル）",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "785f8b85e158",
@@ -4438,13 +4310,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "eBayライブを視聴して、わずか1ドルからラグジュアリーなギフトをゲット！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "eBay",
-    "item": "",
+    "item": "eBayライブを視聴して、わずか1ドルからラグジュアリーなギフトをゲット！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2830c60823d7",
@@ -4470,13 +4344,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CVSの次回の広告チラシをちょっぴりご紹介：Colgate歯磨き粉50セント、Softsoapボディウォッシュ1.75ドルなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "CVS",
-    "item": "",
+    "item": "CVSの次回の広告チラシをちょっぴりご紹介：Colgate歯磨き粉50セント、Softsoapボディウォッシュ1.75ドルなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "291aa61bc9a5",
@@ -4502,13 +4378,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* Cuddl Dudの電気毛布がたったの$23.99（通常価格$75）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "*大人気* Cuddl Dudの電気毛布がたったの$23.99（通常価格$75）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "e6af9a532b6d",
@@ -4534,13 +4412,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Tek Gearのメンズ・レディーススウェットシャツ、パーカー、ジョガーパンツがたったの$10.39！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Tek Gearのメンズ・レディーススウェットシャツ、パーカー、ジョガーパンツがたったの$10.39！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "abb384e13dc1",
@@ -4566,49 +4446,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "*大人気* Premier Protein Shake（12本入り）が送料込みでわずか$13.27！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "*大人気* Premier Protein Shake（12本入り）が送料込みでわずか$13.27！",
     "when": "",
     "cond": ""
-   },
-   "date": null
-  },
-  {
-   "id": "65184b41fa3f",
-   "title": "CVS Black Friday Deal: Philips Norelco OneBlade Gift Sets Only $9.99 Each (Must Buy 2)",
-   "link": "https://hip2save.com/deals/philips-norelco-oneblade/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T15:26Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2024/11/Philips-OneBlade-Sets.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "CVS"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "CVS",
-    "item": "シェーバーセットが各$9.99",
-    "when": "11/27(金)",
-    "cond": "2個購入",
-    "what": "シェーバー安",
-    "where": "CVS"
-   },
-   "date": "2026-11-27",
-   "ja": "シェーバーセットが各$9.99",
-   "jaVia": "gemini"
+   }
   },
   {
    "id": "abd029752212",
@@ -4634,13 +4480,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ヴォーティブキャンドル・アドベントカレンダーがKohls.comでたったの19.99ドル（通常価格50ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "ヴォーティブキャンドル・アドベントカレンダーがKohls.comでたったの19.99ドル（通常価格50ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "3e3fc4923c5e",
@@ -4666,13 +4514,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Wernerの4フィート（約1.2m）ファイバーグラス製脚立が、送料込みでわずか29ドル（通常価格89ドル）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Lowe's",
-    "item": "",
+    "item": "Wernerの4フィート（約1.2m）ファイバーグラス製脚立が、送料込みでわずか29ドル（通常価格89ドル）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2c53556d1ebf",
@@ -4737,40 +4587,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "f9a81cbdb381",
-   "title": "tarte Black Friday Sale: 40% Off + FREE Shipping (Stocking Stuffers From $5!)",
-   "link": "https://hip2save.com/deals/tarte-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T15:16Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/02/tarte-mascara-bundle.jpg?resize=306,182",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "tarte",
-    "item": "全品40%オフ+送料無料",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "コスメ40%オフ",
-    "where": "tarte"
-   },
-   "date": "2026-11-27",
-   "ja": "全品40%オフ+送料無料",
-   "jaVia": "gemini"
   },
   {
    "id": "6f21eb962fa9",
@@ -4869,74 +4685,6 @@
    "date": null
   },
   {
-   "id": "bc770111055f",
-   "title": "Weight Watchers Black Friday Special: Just $5 for your first month!",
-   "link": "https://moneysavingmom.com/weightwatchers-deals-discount-code/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-27T14:42Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2022/05/US_Summer_B_220325_WW_Shot-2-Froyo_5609_R1-Low_Res-630x420.jpg",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Weight Watchers",
-    "item": "初月料金が$5",
-    "when": "11/27(金)",
-    "cond": "新規会員限定",
-    "what": "初月$5",
-    "where": "オンライン"
-   },
-   "date": "2026-11-27",
-   "ja": "初月料金が$5",
-   "jaVia": "gemini"
-  },
-  {
-   "id": "3ae35ef756d6",
-   "title": "AMC Theatres Black Friday Deal: Movie Ticket + Popcorn Just $10 Per Person!",
-   "link": "https://hip2save.com/deals/amc-theatres-coupon/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T14:32Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/AMC-Giftory-Date-Night.jpg?resize=306,182",
-   "hot": false,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "AMC Theatres",
-    "item": "映画チケット+ポップコーンが$10",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "映画セット$10",
-    "where": "AMC"
-   },
-   "date": "2026-11-27",
-   "ja": "映画チケット+ポップコーンが$10",
-   "jaVia": "gemini"
-  },
-  {
    "id": "40281743d818",
    "title": "Squishy Advent Calendar from $17.49 Shipped for Amazon Prime Members",
    "link": "https://hip2save.com/deals/squishy-advent-calendar/",
@@ -4967,76 +4715,6 @@
     "cond": "会員限定"
    },
    "date": null
-  },
-  {
-   "id": "8074a1f4a73d",
-   "title": "Up to 95% Off J.Crew Black Friday Sale + FREE Shipping (Styles from $1 Shipped)",
-   "link": "https://hip2save.com/deals/jcrew-factory-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T14:03Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/J.-Crew-Willa-Midi-Dress.jpg?resize=306,182",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 95,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "J.Crew",
-    "item": "最大95%オフ+送料無料",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "最大95%オフ",
-    "where": "J.Crew"
-   },
-   "date": "2026-11-27",
-   "ja": "最大95%オフ+送料無料",
-   "jaVia": "gemini"
-  },
-  {
-   "id": "6c004627a378",
-   "title": "We Shopped Target’s Christmas Top 100 List – Here’s What We’d Buy on Black Friday!",
-   "link": "https://hip2save.com/deals/target-top-christmas-items/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T13:57Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/beauty-advent-calendars-target2.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Target",
-    "item": "クリスマス商品TOP100",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "BFセール品",
-    "where": "Target"
-   },
-   "date": "2026-11-27",
-   "ja": "クリスマス商品TOP100",
-   "jaVia": "gemini"
   },
   {
    "id": "be31f0a02fc0",
@@ -5101,43 +4779,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "a1a7799e1710",
-   "title": "These Best-Selling Sam’s Club Toys Are on Sale for Black Friday!",
-   "link": "https://hip2save.com/deals/sams-club-toys/",
-   "source": "Hip2Save",
-   "posted": "2026-11-27T13:40Z",
-   "firstSeen": "2026-11-27T21:59Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Barbie-Ultimate-Fashion-Designer-Playset.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Sam's Club"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "Sam's Club",
-    "item": "人気おもちゃ各種",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "おもちゃセール",
-    "where": "Sam's Club"
-   },
-   "date": "2026-11-27",
-   "ja": "人気おもちゃ各種",
-   "jaVia": "gemini",
-   "dup": "ed494a77ee78"
   },
   {
    "id": "aca634df954a",
@@ -5340,40 +4981,6 @@
    "date": null
   },
   {
-   "id": "379de3bc4453",
-   "title": "*HOT* 40% off Crocs & Jibbitz at Target! Today only!",
-   "link": "https://moneysavingmom.com/hot-crocs-jibbitz-at-target-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-27T11:58Z",
-   "firstSeen": "2026-11-27T12:27Z",
-   "expires": "2026-11-27",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/11/Screenshot-2024-11-30-at-9.33.17 AM-630x592.jpg",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": 40,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "*注目* Targetでクロックスとジビッツが40%オフ！本日限り！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "*注目* Targetでクロックスとジビッツが40%オフ！本日限り！",
-    "when": "11/27(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-27"
-  },
-  {
    "id": "fa62715fe9cc",
    "title": "Insignia 55″ LED 4K UHD Smart Fire TV only $169.99 shipped, plus more!",
    "link": "https://moneysavingmom.com/insignia-led-4k-uhd-smart-fire-tv-deal/",
@@ -5440,46 +5047,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "801da1c7abe1",
-   "title": "7 Brew Deals | BOGO Free Bakery Treats All Day!",
-   "link": "https://thefreebieguy.com/7-brew-coupons/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-27T11:35Z",
-   "firstSeen": "2026-11-27T12:27Z",
-   "expires": "2026-11-27",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/05/7-Brew-Coffee-TFG-840x630.png",
-   "hot": true,
-   "stores": [
-    "7 Brew"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": null,
-    "bogo": true
-   },
-   "sum": {
-    "store": "7 Brew",
-    "item": "ベーカリー類がBOGO",
-    "when": "2026-11-27 終日",
-    "what": "BOGOお菓子",
-    "where": "7 Brew"
-   },
-   "ja": "ベーカリー類がBOGO",
-   "jaVia": "gemini",
-   "date": "2026-11-27"
   },
   {
    "id": "266a4871b5bd",
@@ -5861,47 +5428,6 @@
     "cond": ""
    },
    "date": null
-  },
-  {
-   "id": "b07541c9a329",
-   "title": "Amazon Black Friday Giftcard Sale: $100 Lowe’s For $85, $100 Apple With $15 Amazon & More",
-   "link": "https://www.doctorofcredit.com/amazon-black-friday-giftcard-sale-100-lowes-for-85-more/",
-   "source": "Doctor of Credit",
-   "posted": "2026-11-27T08:43Z",
-   "firstSeen": "2026-11-27T12:27Z",
-   "expires": "2026-11-27",
-   "thumb": null,
-   "hot": false,
-   "stores": [
-    "Lowe's",
-    "Amazon"
-   ],
-   "cats": [
-    "home",
-    "online"
-   ],
-   "types": [
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "gift": {
-    "grocery": false
-   },
-   "ja": "各種ギフト券がお得",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Amazon",
-    "item": "各種ギフト券がお得",
-    "when": "11/27(金)",
-    "cond": "",
-    "what": "ギフト券割引",
-    "where": "Amazon"
-   },
-   "date": "2026-11-27"
   },
   {
    "id": "f7b70980ccac",
@@ -6319,38 +5845,6 @@
     "cond": "会員限定"
    },
    "date": null
-  },
-  {
-   "id": "a5f5a269e1da",
-   "title": "Dave & Buster’s $10 Unlimited Gameplay on 11/27 & More!",
-   "link": "https://thefreebieguy.com/dave-and-busters-deals/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-27T01:33Z",
-   "firstSeen": "2026-11-27T02:52Z",
-   "expires": "2026-11-27",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/09/Dave-and-Busters-Store-Front-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "ja": "デイブ＆バスターズで11月27日にゲームプレイが10ドルで無制限に！その他にも特典があります！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "",
-    "item": "デイブ＆バスターズで11月27日にゲームプレイが10ドルで無制限に！その他にも特典があります！",
-    "when": "11/27(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-27"
   },
   {
    "id": "18c7e6679ebf",
@@ -10656,42 +10150,6 @@
    "ja": "ギフトカード割引や特典",
    "jaVia": "gemini",
    "date": null
-  },
-  {
-   "id": "5a2a299f78ae",
-   "title": "FREE Feastables Creamy Peanut Butter Snowman Cups at Simon on 11/27!",
-   "link": "https://thefreebieguy.com/free-feastables-creamy-peanut-butter-snowman-cups-at-simon/",
-   "source": "The Freebie Guy",
-   "posted": "2026-11-26T00:02Z",
-   "firstSeen": "2026-11-26T00:23Z",
-   "expires": "2026-11-27",
-   "thumb": "https://media.thefreebieguy.com/wp-content/uploads/2026/11/FREE-Feastables-Creamy-Peanut-Butter-Snowman-Cups-at-Simon-thefreebieguy-840x630.png",
-   "hot": true,
-   "stores": [],
-   "cats": [
-    "other"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-27"
-   },
-   "sum": {
-    "store": "Simon",
-    "item": "スノーマン型ピーナッツバター",
-    "when": "11/27(金)",
-    "what": "無料チョコ",
-    "where": "Simon"
-   },
-   "ja": "スノーマン型ピーナッツバター",
-   "jaVia": "gemini",
-   "date": "2026-11-27"
   },
   {
    "id": "6c91a08189a6",
@@ -16946,46 +16404,6 @@
    "date": null
   },
   {
-   "id": "081e6c29ccae",
-   "title": "Moe’s: BOGO Burrito or Entree on November 27-29th!",
-   "link": "https://moneysavingmom.com/moes-bogo-burrito-or-entree-on-november-27-29th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-24T21:02Z",
-   "firstSeen": "2026-11-24T21:15Z",
-   "expires": "2026-11-27",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.56.42-PM.png",
-   "hot": false,
-   "stores": [
-    "Moe's"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "bogo"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-27",
-    "bogo": true
-   },
-   "sum": {
-    "store": "Moe's",
-    "item": "Moe'sでブリトー・メイン1つ買うと1つ無料",
-    "when": "11/27〜11/29",
-    "what": "ブリトーBOGO",
-    "where": "Moe's",
-    "cond": "1つ購入"
-   },
-   "ja": "Moe'sでブリトー・メイン1つ買うと1つ無料",
-   "jaVia": "claude",
-   "date": "2026-11-27"
-  },
-  {
    "id": "deb82681f02b",
    "title": "PRICE DROP! TOLOCO Massage Gun w/ 10 Heads Only $37.xx on Amazon (Reg. $60)",
    "link": "https://thefreebieguy.com/toloco-deep-tissue-massage-gun/",
@@ -19127,39 +18545,6 @@
    },
    "date": null,
    "dup": "5daf59534f60"
-  },
-  {
-   "id": "c50c748b88ce",
-   "title": "Yogurtland: BOGO 50% Off Frozen Yogurt on November 27th!",
-   "link": "https://moneysavingmom.com/yogurtland-free-cup-of-frozen-yogurt-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-24T16:32Z",
-   "firstSeen": "2026-11-24T21:15Z",
-   "expires": "2026-11-27",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2025/06/Screenshot-2025-10-16-at-3.43.19 PM-630x441.jpg",
-   "hot": true,
-   "stores": [
-    "レストラン全般"
-   ],
-   "cats": [
-    "food"
-   ],
-   "types": [
-    "free",
-    "bogo"
-   ],
-   "pct": 50,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "sum": {
-    "store": "",
-    "item": "",
-    "when": "11/27(金)まで",
-    "cond": ""
-   },
-   "date": "2026-11-27"
   },
   {
    "id": "a400c7bef00a",
@@ -25843,42 +25228,6 @@
    "date": null
   },
   {
-   "id": "037700d1ed0e",
-   "title": "Heads Up! NEW NeeDoh Coal Could Drop on Walmart.com on Black Friday!",
-   "link": "https://hip2save.com/deals/needoh-coal/",
-   "source": "Hip2Save",
-   "posted": "2026-11-23T11:22Z",
-   "firstSeen": "2026-11-23T12:51Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/nee-doh.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "NeeDoh Coal発売",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Walmart",
-    "item": "NeeDoh Coal発売",
-    "when": "11/27",
-    "cond": "",
-    "what": "限定品入荷",
-    "where": "Walmart.com"
-   },
-   "date": "2026-11-27"
-  },
-  {
    "id": "7f6f8f96bd2f",
    "title": "*HOT* ULTA Sweet & Shimmer Minis only $1.80!",
    "link": "https://moneysavingmom.com/ulta-stocking-stuffers-deal/",
@@ -29177,41 +28526,6 @@
     "item": "iPhone高速充電用Lightningケーブル3本セットが、Amazonプライム会員なら送料込みでわずか3.99ドル",
     "when": "",
     "cond": "会員限定"
-   }
-  },
-  {
-   "id": "4d5f66f8fc1e",
-   "title": "You Could Win a $1,000 Target Gift Card on 11/27!",
-   "link": "https://hip2save.com/deals/target-store-event/",
-   "source": "Hip2Save",
-   "posted": "2026-11-22T10:26Z",
-   "firstSeen": "2026-11-22T15:21Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2023/12/Target-Gift-Card.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free",
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": "2026-11-27",
-   "ja": "11月27日に1,000ドルのTargetギフトカードが当たるチャンス！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "11月27日に1,000ドルのTargetギフトカードが当たるチャンス！",
-    "when": "11/27(金)まで",
-    "cond": ""
    }
   },
   {
@@ -37199,45 +36513,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "8b3a2314193b",
-   "title": "FREE Lowe’s Black Friday Buckets Return November 27th – Bigger Than Ever!",
-   "link": "https://hip2save.com/deals/lowes-freebies/",
-   "source": "Hip2Save",
-   "posted": "2026-11-19T19:55Z",
-   "firstSeen": "2026-11-19T21:39Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Lowes-Black-Friday-Bucket-1.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Lowe's"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": {
-    "kind": "coupon",
-    "when": "2026-11-27"
-   },
-   "sum": {
-    "store": "Lowe's",
-    "item": "Lowe's のブラックフライデー無料バケツ",
-    "when": "11/27(金)",
-    "what": "BFバケツ無料",
-    "where": "Lowe's",
-    "cond": "数量限定"
-   },
-   "ja": "Lowe's のブラックフライデー無料バケツ",
-   "jaVia": "claude",
-   "date": "2026-11-27"
   },
   {
    "id": "8ff0f60a5bdd",
@@ -48239,42 +47514,6 @@
    "date": null
   },
   {
-   "id": "60dbd18a6c5f",
-   "title": "Target Black Friday Deals Revealed + HUGE Gift Card Giveaway at EVERY Store on 11/27!",
-   "link": "https://hip2save.com/deals/target-black-friday/",
-   "source": "Hip2Save",
-   "posted": "2026-11-17T13:03Z",
-   "firstSeen": "2026-11-17T14:28Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2022/10/target-black-friday.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "gc"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "ギフトカード抽選配布",
-   "jaVia": "gemini",
-   "sum": {
-    "store": "Target",
-    "item": "ギフトカード抽選配布",
-    "when": "11/27",
-    "cond": "各店舗",
-    "what": "ギフトカード",
-    "where": "Target"
-   },
-   "date": "2026-11-27"
-  },
-  {
    "id": "ef05f9b483a2",
    "title": "Cozy Washable Slippers Only $9.49 on Amazon (Reg. $26)",
    "link": "https://hip2save.com/deals/athmile-slippers/",
@@ -50114,45 +49353,6 @@
     "when": "",
     "cond": ""
    }
-  },
-  {
-   "id": "59398f50a606",
-   "title": "Get a FREE Advent Calendar at Michaels on November 27th!",
-   "link": "https://moneysavingmom.com/get-a-free-advent-calendar-at-michaels-on-november-27th/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-16T19:06Z",
-   "firstSeen": "2026-11-16T22:07Z",
-   "expires": "2026-11-27",
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/11/assets_MS2030834_000001_Calendar-Imagery-1-630x752.jpg",
-   "hot": true,
-   "stores": [
-    "Michaels"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": {
-    "kind": "store",
-    "when": "2026-11-27"
-   },
-   "sum": {
-    "store": "Michaels",
-    "item": "Michaels でアドベントカレンダー無料",
-    "when": "11/27(金)",
-    "what": "無料アドベント暦",
-    "where": "Michaels",
-    "cond": "店頭"
-   },
-   "ja": "Michaels でアドベントカレンダー無料",
-   "jaVia": "claude",
-   "date": "2026-11-27"
   },
   {
    "id": "5457b3f41a3b",
@@ -59609,108 +58809,6 @@
    }
   },
   {
-   "id": "6e98c026b994",
-   "title": "Request an Invite to Buy the NeeDoh Dream Drop for Just $9.99 on Amazon!",
-   "link": "https://hip2save.com/deals/needoh-dream-drop/",
-   "source": "Hip2Save",
-   "posted": "2026-11-13T12:28Z",
-   "firstSeen": "2026-11-13T16:28Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/needoh-dream-drop-amazon.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Amazon"
-   ],
-   "cats": [
-    "online"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "Amazonでわずか9.99ドルでNeeDohドリームドロップを購入するための招待をリクエストしましょう！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Amazon",
-    "item": "Amazonでわずか9.99ドルでNeeDohドリームドロップを購入するための招待をリクエストしましょう！",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "aee7d7cb63a3",
-   "title": "The Grinch Polly Pocket Set Is Available on Target.com (But Not For Long!)",
-   "link": "https://hip2save.com/deals/grinch-polly-pocket/",
-   "source": "Hip2Save",
-   "posted": "2026-11-13T12:17Z",
-   "firstSeen": "2026-11-13T16:28Z",
-   "expires": null,
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Polly-Pocket-Grinch-Set.jpg?resize=306,182",
-   "hot": false,
-   "stores": [
-    "Target"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "『グリンチ』のポーリーポケットセットがTarget.comで販売中（ただし期間限定！）",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Target",
-    "item": "『グリンチ』のポーリーポケットセットがTarget.comで販売中（ただし期間限定！）",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
-   "id": "4cd42130a8ac",
-   "title": "*HOT* Women’s Oversized Plaid Flannel Shirt just $12.59!",
-   "link": "https://moneysavingmom.com/womens-oversized-plaid-flannel-shirt-walmart-deal/",
-   "source": "Money Saving Mom",
-   "posted": "2026-11-13T11:14Z",
-   "firstSeen": "2026-11-13T16:28Z",
-   "expires": null,
-   "thumb": "https://moneysavingmom.com/wp-content/uploads/2024/10/Screenshot-2024-10-10-at-2.09.57-PM-630x691.png",
-   "hot": false,
-   "stores": [
-    "Walmart"
-   ],
-   "cats": [
-    "grocery"
-   ],
-   "types": [
-    "sale"
-   ],
-   "pct": null,
-   "price": null,
-   "event": null,
-   "eventNews": false,
-   "freebie": null,
-   "date": null,
-   "ja": "*大人気* レディースオーバーサイズチェック柄フランネルシャツがわずか$12.59！",
-   "jaVia": "mymemory",
-   "sum": {
-    "store": "Walmart",
-    "item": "*大人気* レディースオーバーサイズチェック柄フランネルシャツがわずか$12.59！",
-    "when": "",
-    "cond": ""
-   }
-  },
-  {
    "id": "8f2a6668e750",
    "title": "Kroger / Harris Teeter: 4x Fuel Points On Third Party & Visa/MC Fixed Giftcards (11/11-12/1)",
    "link": "https://www.doctorofcredit.com/kroger-harris-teeter-stores-4x-fuel-points-on-select-gift-cards-includes-fixed-visa-mc-10-7-10-20/",
@@ -59748,42 +58846,6 @@
     "where": "Kroger"
    },
    "date": "2026-11-11"
-  },
-  {
-   "id": "9e9f2753a8d3",
-   "title": "Michaels Giving Away FREE Advent Calendars on Black Friday (+ You Could Win $10,000!)",
-   "link": "https://hip2save.com/deals/michaels-advent-calendar/",
-   "source": "Hip2Save",
-   "posted": "2026-11-10T20:40Z",
-   "firstSeen": "2026-11-10T23:25Z",
-   "expires": "2026-11-27",
-   "thumb": "https://hip2save.com/wp-content/uploads/2026/11/Michaels-Advent-Calendar-1.jpg?resize=306,182",
-   "hot": true,
-   "stores": [
-    "Michaels"
-   ],
-   "cats": [
-    "home"
-   ],
-   "types": [
-    "free"
-   ],
-   "pct": null,
-   "price": null,
-   "event": "black-friday",
-   "eventNews": false,
-   "freebie": null,
-   "ja": "Michaels がブラックフライデーにアドベントカレンダーを無料配布",
-   "jaVia": "claude",
-   "sum": {
-    "store": "Michaels",
-    "item": "Michaels がブラックフライデーにアドベントカレンダーを無料配布",
-    "when": "11/27(金)",
-    "cond": "店頭・数量限定",
-    "what": "無料アドベント暦",
-    "where": "Michaels"
-   },
-   "date": "2026-11-27"
   },
   {
    "id": "ddd9c18f57ea",
