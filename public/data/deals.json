@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-28T03:55Z",
+ "updated": "2026-11-28T04:19Z",
  "count": 1759,
  "stats": {
   "h2s": {
    "read": 100,
-   "added": 8
+   "added": 0
   },
   "h2s-free": {
    "read": 100,
@@ -20,11 +20,11 @@
   },
   "msm": {
    "read": 75,
-   "added": 6
+   "added": 0
   },
   "tfg": {
    "read": 40,
-   "added": 4
+   "added": 0
   },
   "mws": {
    "read": 20,
@@ -55,10 +55,10 @@
    "added": 0
   },
   "ja": {
-   "gemini": 24,
+   "gemini": 12,
    "geminiEvent": 0,
    "mymemory": 25,
-   "geminiToday": 5,
+   "geminiToday": 7,
    "model": "gemini-flash-latest"
   }
  },
@@ -717,8 +717,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "a62b582854b4",
-   "date": null
+   "date": null,
+   "dup": "a62b582854b4"
   },
   {
    "id": "7e2e0188b048",
@@ -786,8 +786,8 @@
     "when": "11/27(金)まで",
     "cond": ""
    },
-   "dup": "379de3bc4453",
-   "date": "2026-11-27"
+   "date": "2026-11-27",
+   "dup": "379de3bc4453"
   },
   {
    "id": "9de74d8b468a",
@@ -851,13 +851,15 @@
    "event": "black-friday",
    "eventNews": false,
    "freebie": null,
-   "ja": "話題になるだけの価値があるブラックフライデーのお買い得品30選",
-   "jaVia": "mymemory",
+   "ja": "おすすめの黒金商品",
+   "jaVia": "gemini",
    "sum": {
     "store": "Walmart・Target",
-    "item": "話題になるだけの価値があるブラックフライデーのお買い得品30選",
-    "when": "",
-    "cond": ""
+    "item": "おすすめの黒金商品",
+    "when": "2026-11-27",
+    "cond": "",
+    "what": "注目商品",
+    "where": "オンライン"
    },
    "date": null
   },
@@ -1470,13 +1472,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "CELSIUSエナジードリンク12缶パックがAmazonで送料込みでわずか$12（通常価格$25）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "CELSIUSエナジードリンク12缶パックがAmazonで送料込みでわずか$12（通常価格$25）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "bab5f8f59849",
@@ -1502,13 +1506,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "クリスマス柄のフランネルシーツセットがターゲットでたったの15ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "クリスマス柄のフランネルシーツセットがターゲットでたったの15ドル！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a231db90af0f",
@@ -1534,13 +1540,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Bose QuietComfortヘッドホンがAmazonでわずか167ドル（通常価格359ドル）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Bose QuietComfortヘッドホンがAmazonでわずか167ドル（通常価格359ドル）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d2df97a4cd6d",
@@ -1642,14 +1650,16 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "キャンベルの濃縮マッシュルームクリームスープが送料込みでわずか0.47ドル！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "キャンベルの濃縮マッシュルームクリームスープが送料込みでわずか0.47ドル！",
     "when": "",
     "cond": ""
    },
-   "dup": "a84e2dd2c8c2",
-   "date": null
+   "dup": "a84e2dd2c8c2"
   },
   {
    "id": "8e1470f308e0",
@@ -1675,13 +1685,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ウォルマートで12日間のソックスセール、たったの$10（通常価格 25ドル）– グリンチ、ピーナッツ、ハローキティなど！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ウォルマートで12日間のソックスセール、たったの$10（通常価格 25ドル）– グリンチ、ピーナッツ、ハローキティなど！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "6569ef14c52c",
@@ -1742,13 +1754,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ダヴ シュガーボディスクラブがAmazonで送料込みでわずか$5",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ダヴ シュガーボディスクラブがAmazonで送料込みでわずか$5",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "cea3ae105c4c",
@@ -1774,13 +1788,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "7-in-1ホットエアヘアスタイラー（オートラップカーラー付き）がAmazonでわずか$75.xx（通常価格$120）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "7-in-1ホットエアヘアスタイラー（オートラップカーラー付き）がAmazonでわずか$75.xx（通常価格$120）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "33fdfca58beb",
@@ -1842,13 +1858,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "スポーツリサーチのコラーゲンペプチドがわずか$15.81（通常価格$33！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "スポーツリサーチのコラーゲンペプチドがわずか$15.81（通常価格$33！）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "a65913e13c01",
@@ -1874,13 +1892,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "AmazonでShark PowerDetect DuoClean掃除機（HEPAフィルター＋クリーニングツール付き）が40%オフ",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "AmazonでShark PowerDetect DuoClean掃除機（HEPAフィルター＋クリーニングツール付き）が40%オフ",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1c570883e2d2",
@@ -1940,13 +1960,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "洗える猫柄のランナーラグがAmazonでたったの$23.79",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "洗える猫柄のランナーラグがAmazonでたったの$23.79",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "f865601cc61e",
@@ -1972,13 +1994,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "HydroJug Traveler 32ozがなんと$20.99から、その他にも！{ティーン向けギフトのアイデア}",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "HydroJug Traveler 32ozがなんと$20.99から、その他にも！{ティーン向けギフトのアイデア}",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "4ade4ccff5d2",
@@ -2004,13 +2028,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "このAmazonのスエードクロッグはRothy'sに似ていますが、価格は130ドル安くなっています",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "このAmazonのスエードクロッグはRothy'sに似ていますが、価格は130ドル安くなっています",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "0689f0386a2c",
@@ -2071,13 +2097,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "MarsBusビデオトランシーバーがAmazonでわずか11.xxドル（通常価格34ドル）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "MarsBusビデオトランシーバーがAmazonでわずか11.xxドル（通常価格34ドル）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "2b70857104f6",
@@ -2103,13 +2131,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "最安値！スタンド付きまな板セットがAmazonで送料込み39.99ドル",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "最安値！スタンド付きまな板セットがAmazonで送料込み39.99ドル",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "05b72082fbe2",
@@ -2135,13 +2165,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "モックネックボディスーツがAmazonプライム会員なら送料込みでわずか$14.99",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "モックネックボディスーツがAmazonプライム会員なら送料込みでわずか$14.99",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "4a8278e9200c",
@@ -2201,13 +2233,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ASUS Chromebook 15.6インチノートパソコンが送料込みでわずか159ドル（通常価格249ドル）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ASUS Chromebook 15.6インチノートパソコンが送料込みでわずか159ドル（通常価格249ドル）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "ac9740132f67",
@@ -2233,13 +2267,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Amazonベストセラー：20ドル未満のワッフルニットパーカー！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "Amazonベストセラー：20ドル未満のワッフルニットパーカー！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "5dea188b33dd",
@@ -2265,13 +2301,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ディズニープリンセスの人形＆ドレスアップセットがウォルマートでたったの20ドル（通常価格40ドル）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ディズニープリンセスの人形＆ドレスアップセットがウォルマートでたったの20ドル（通常価格40ドル）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d7dfda269ade",
@@ -2299,13 +2337,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Chipotleのホリデーギフトカードボーナス – 50ドル分のeギフトカードを購入すると、10ドルのボーナスがもらえます（先着15,000名様限定！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Best Buy・Chipotle",
-    "item": "",
+    "item": "Chipotleのホリデーギフトカードボーナス – 50ドル分のeギフトカードを購入すると、10ドルのボーナスがもらえます（先着15,000名様限定！）",
     "when": "",
     "cond": "先着15名"
-   },
-   "date": null
+   }
   },
   {
    "id": "3e138a984e9a",
@@ -2331,13 +2371,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ブロックス戦略ボードゲームがTarget.comでたったの$13.99（通常価格$20）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Target",
-    "item": "",
+    "item": "ブロックス戦略ボードゲームがTarget.comでたったの$13.99（通常価格$20）",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "06f77f25f98b",
@@ -2363,13 +2405,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "Cuddl DudsのシーツセットがKohl'sでなんと14.39ドル（通常45ドル以上）！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Kohl's",
-    "item": "",
+    "item": "Cuddl DudsのシーツセットがKohl'sでなんと14.39ドル（通常45ドル以上）！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "d7b89f001824",
@@ -2395,13 +2439,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ミニパーソナル冷蔵庫がたったの$29.84 {ティーン向けのギフトアイデア！】",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Walmart",
-    "item": "",
+    "item": "ミニパーソナル冷蔵庫がたったの$29.84 {ティーン向けのギフトアイデア！】",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "1797e4f06c4f",
@@ -2427,13 +2473,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "re:line ビオチンシャンプー＆コンディショナーセット（育毛用）が送料込みでわずか$23.97！",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "re:line ビオチンシャンプー＆コンディショナーセット（育毛用）が送料込みでわずか$23.97！",
     "when": "",
     "cond": ""
-   },
-   "date": null
+   }
   },
   {
    "id": "44b3e0f5a78d",
@@ -2496,13 +2544,15 @@
    "event": null,
    "eventNews": false,
    "freebie": null,
+   "date": null,
+   "ja": "ベルトハンガーがプライム会員なら送料込みでわずか$6（ベルト42本収納可能！）",
+   "jaVia": "mymemory",
    "sum": {
     "store": "Amazon",
-    "item": "",
+    "item": "ベルトハンガーがプライム会員なら送料込みでわずか$6（ベルト42本収納可能！）",
     "when": "",
     "cond": "会員限定"
-   },
-   "date": null
+   }
   },
   {
    "id": "82c174d09724",
@@ -3666,8 +3716,8 @@
     "when": "",
     "cond": ""
    },
-   "dup": "0f725d80ebe3",
-   "date": null
+   "date": null,
+   "dup": "0f725d80ebe3"
   },
   {
    "id": "a289dbedf9e1",
@@ -4082,7 +4132,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-27T16:11Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Harry-Potter-Candy-1.jpg?resize=306,182",
    "hot": false,
    "stores": [
@@ -4157,7 +4207,7 @@
    "source": "Money Saving Mom",
    "posted": "2026-11-27T16:07Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2026/10/Merrell-Black-Friday-Sale.jpg",
    "hot": false,
    "stores": [],
@@ -4223,7 +4273,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-27T16:04Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/09/Energizer-MAX-Batteries.jpg?resize=306,182",
    "hot": false,
    "stores": [
@@ -4483,7 +4533,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-27T15:26Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2024/11/Philips-OneBlade-Sets.jpg?resize=306,182",
    "hot": false,
    "stores": [
@@ -4647,7 +4697,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-27T15:16Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/02/tarte-mascara-bundle.jpg?resize=306,182",
    "hot": false,
    "stores": [],
@@ -4777,7 +4827,7 @@
    "source": "Money Saving Mom",
    "posted": "2026-11-27T14:42Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://moneysavingmom.com/wp-content/uploads/2022/05/US_Summer_B_220325_WW_Shot-2-Froyo_5609_R1-Low_Res-630x420.jpg",
    "hot": false,
    "stores": [],
@@ -4811,7 +4861,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-27T14:32Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/11/AMC-Giftory-Date-Night.jpg?resize=306,182",
    "hot": false,
    "stores": [],
@@ -4877,7 +4927,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-27T14:03Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/11/J.-Crew-Willa-Midi-Dress.jpg?resize=306,182",
    "hot": true,
    "stores": [],
@@ -4911,7 +4961,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-27T13:57Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/beauty-advent-calendars-target2.jpg?resize=306,182",
    "hot": false,
    "stores": [
@@ -5011,7 +5061,7 @@
    "source": "Hip2Save",
    "posted": "2026-11-27T13:40Z",
    "firstSeen": "2026-11-27T21:59Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": "https://hip2save.com/wp-content/uploads/2026/10/Barbie-Ultimate-Fashion-Designer-Playset.jpg?resize=306,182",
    "hot": false,
    "stores": [
@@ -5771,7 +5821,7 @@
    "source": "Doctor of Credit",
    "posted": "2026-11-27T08:43Z",
    "firstSeen": "2026-11-27T12:27Z",
-   "expires": null,
+   "expires": "2026-11-27",
    "thumb": null,
    "hot": false,
    "stores": [
